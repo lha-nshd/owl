@@ -1,0 +1,477 @@
+{
+  "varname": "op1t389",
+  "label": "First outpatient illness - What treatment did you have at the hospital? third operation/treatment - at age 60-64 years",
+  "field_id": "32701",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32701",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "ICD",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 627.5714285714286,
+  "sd": 147.67421396231558,
+  "series_size": 14.0,
+  "minimum": 419.0,
+  "maximum": 805.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "op1t189",
+    "op1t289"
+  ],
+  "linked_years": [
+    "1989"
+  ],
+  "categories": [
+    "Other health care [12]",
+    "Hospital out-patient admissions [51062]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "0 - None, or no such treatment noted"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "op1t389",
+    "label": "First outpatient illness - What treatment did you have at the hospital? third operation/treatment - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "op1t389"
+      ],
+      [
+        "Field ID",
+        "32701"
+      ],
+      [
+        "Label",
+        "First outpatient illness - What treatment did you have at the hospital? third operation/treatment - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "de89d"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "18(b)"
+      ],
+      [
+        "Year",
+        "1989"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "ICD"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains ICD codes. Possible low cell count issue."
+      ],
+      [
+        "Notes",
+        "Hospital out-patient data asked in the 1989 A main questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "op1t189",
+        "First outpatient illness - What treatment did you have at the hospital? first operation/treatment - at age 60-64 years",
+        "1989",
+        "A - Main questionnaire",
+        "18(b)",
+        "de89d"
+      ],
+      [
+        "op1t289",
+        "First outpatient illness - What treatment did you have at the hospital? second operation/treatment - at age 60-64 years",
+        "1989",
+        "A - Main questionnaire",
+        "18(b)",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health care [12]",
+        "Legacy Category"
+      ],
+      [
+        "Hospital out-patient admissions [51062]",
+        "This category contains data from the questionnaires on hospital out-patient admissions. This is for treatments and surgery at the hospital where the participant went home the same day and did not spend a night in hospital. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "0 - None, or no such treatment noted",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "419"
+      ],
+      [
+        "Maximum",
+        "805"
+      ],
+      [
+        "Range",
+        "386"
+      ],
+      [
+        "Median",
+        "639.5"
+      ],
+      [
+        "IQR",
+        "475.25 - 764.0"
+      ],
+      [
+        "Decile 1",
+        "425.4"
+      ],
+      [
+        "Decile 2",
+        "457.8"
+      ],
+      [
+        "Decile 3",
+        "486.3"
+      ],
+      [
+        "Decile 4",
+        "609.8"
+      ],
+      [
+        "Decile 5",
+        "639.5"
+      ],
+      [
+        "Decile 6",
+        "739.6"
+      ],
+      [
+        "Decile 7",
+        "764.0"
+      ],
+      [
+        "Decile 8",
+        "765.2"
+      ],
+      [
+        "Decile 9",
+        "792.9000000000001"
+      ],
+      [
+        "Mean",
+        "627.5714285714286"
+      ],
+      [
+        "Std Dev.",
+        "147.67421396231558"
+      ],
+      [
+        "Variance",
+        "21807.67346938776"
+      ],
+      [
+        "Displayed N",
+        "14"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "op1t389",
+    "label": "First outpatient illness - What treatment did you have at the hospital? third operation/treatment - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32701",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "op1t389",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "32701",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "First outpatient illness - What treatment did you have at the hospital? third operation/treatment - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "de89d",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "18(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1989",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "ICD",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains ICD codes. Possible low cell count issue.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Hospital out-patient data asked in the 1989 A main questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "op1t189",
+        "description": "First outpatient illness - What treatment did you have at the hospital? first operation/treatment - at age 60-64 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "18(b)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "op1t289",
+        "description": "First outpatient illness - What treatment did you have at the hospital? second operation/treatment - at age 60-64 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "18(b)",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health care [12]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hospital out-patient admissions [51062]",
+        "description": "This category contains data from the questionnaires on hospital out-patient admissions. This is for treatments and surgery at the hospital where the participant went home the same day and did not spend a night in hospital. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hospital_out-patient_admissions_51062.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "0 - None, or no such treatment noted",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "ICD",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          419.0,
+          496.2,
+          573.4,
+          650.6,
+          727.8,
+          805.0
+        ],
+        "counts": [
+          5,
+          0,
+          3,
+          0,
+          6
+        ]
+      },
+      "boxplot": {
+        "min": 419.0,
+        "q1": 475.25,
+        "median": 639.5,
+        "q3": 764.0,
+        "max": 805.0
+      },
+      "units": "ICD"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "419"
+      ],
+      [
+        "Maximum",
+        "805"
+      ],
+      [
+        "Range",
+        "386"
+      ],
+      [
+        "Median",
+        "639.5"
+      ],
+      [
+        "IQR",
+        "475.25 - 764.0"
+      ],
+      [
+        "Decile 1",
+        "425.4"
+      ],
+      [
+        "Decile 2",
+        "457.8"
+      ],
+      [
+        "Decile 3",
+        "486.3"
+      ],
+      [
+        "Decile 4",
+        "609.8"
+      ],
+      [
+        "Decile 5",
+        "639.5"
+      ],
+      [
+        "Decile 6",
+        "739.6"
+      ],
+      [
+        "Decile 7",
+        "764.0"
+      ],
+      [
+        "Decile 8",
+        "765.2"
+      ],
+      [
+        "Decile 9",
+        "792.9000000000001"
+      ],
+      [
+        "Mean",
+        "627.5714285714286"
+      ],
+      [
+        "Std Dev.",
+        "147.67421396231558"
+      ],
+      [
+        "Variance",
+        "21807.67346938776"
+      ],
+      [
+        "Displayed N",
+        "14"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

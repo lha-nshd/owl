@@ -1,0 +1,966 @@
+{
+  "varname": "na2l09",
+  "label": "Number of times SM did the laundry and ironing in the last 12 months - at age 60-64 years",
+  "field_id": "13170",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13170",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2214.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ha2h09",
+    "ma2d09",
+    "ma2b09",
+    "ha2s09",
+    "na2g09",
+    "na2b09",
+    "na2d09",
+    "ma2h09",
+    "ha2g09",
+    "ha2f09",
+    "ha2b09",
+    "na2f09",
+    "ha2l09",
+    "act209",
+    "ma2s09",
+    "na2s09",
+    "ma2l09",
+    "ha2d09",
+    "ma2g09",
+    "ma2f09",
+    "na2h09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - raw variables [52112]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Not done in last year"
+    },
+    {
+      "value": "1.0",
+      "label": "Less than once a month"
+    },
+    {
+      "value": "2.0",
+      "label": "Once a month"
+    },
+    {
+      "value": "3.0",
+      "label": "2 - 3 times a month"
+    },
+    {
+      "value": "4.0",
+      "label": "Once a week"
+    },
+    {
+      "value": "5.0",
+      "label": "2 - 3 times a week"
+    },
+    {
+      "value": "6.0",
+      "label": "4 - 5 times a week"
+    },
+    {
+      "value": "7.0",
+      "label": "6 times a week or every day"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Not done in last year",
+      "count": 611,
+      "pct": 27.6
+    },
+    {
+      "label": "Less than once a month",
+      "count": 92,
+      "pct": 4.2
+    },
+    {
+      "label": "Once a month",
+      "count": 58,
+      "pct": 2.6
+    },
+    {
+      "label": "2 - 3 times a month",
+      "count": 84,
+      "pct": 3.8
+    },
+    {
+      "label": "Once a week",
+      "count": 421,
+      "pct": 19.0
+    },
+    {
+      "label": "2 - 3 times a week",
+      "count": 697,
+      "pct": 31.5
+    },
+    {
+      "label": "4 - 5 times a week",
+      "count": 175,
+      "pct": 7.9
+    },
+    {
+      "label": "6 times a week or every day",
+      "count": 76,
+      "pct": 3.4
+    }
+  ],
+  "pdf": {
+    "varname": "na2l09",
+    "label": "Number of times SM did the laundry and ironing in the last 12 months - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "na2l09"
+      ],
+      [
+        "Field ID",
+        "13170"
+      ],
+      [
+        "Label",
+        "Number of times SM did the laundry and ironing in the last 12 months - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File109"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "6(f)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about activities done in the last 12 months asked in the pre-assessment booklet in 2006-10 data collection. Variables were also used to derive some of the EPAQ2 derived variables"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ha2h09",
+        "Average time per episode spent cleaning the house - hours element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ma2d09",
+        "Average time per episode spent caring for the elderly, handicapped or disabled at home - minutes element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ma2b09",
+        "Average time per episode spent caring for children or babies - minutes element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ha2s09",
+        "Average time per episode spent shopping and browsing in shops - hours element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "na2g09",
+        "Number of times SM shopped for food and groceries in the last 12 months - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "na2b09",
+        "Number of times SM cared for children or babies at home (not as paid employment) in the last 12 months - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "na2d09",
+        "Number of times SM cared for people who are elderly, handicapped or disabled at home (not as paid employment) in the last 12 months - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ma2h09",
+        "Average time per episode spent cleaning the house - minutes element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ha2g09",
+        "Average time per episode spent shopping for food and groceries - hours element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ha2f09",
+        "Average time per episode spent preparing food, cooking and washing up - hours element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ha2b09",
+        "Average time per episode spent caring for children or babies - hours element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "na2f09",
+        "Number of times SM prepared food, cooked and washed up in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ha2l09",
+        "Average time per episode spent doing the laundry and ironing - hours element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "act209",
+        "Did you do any of the activities listed in table 6f in the last 12 months? - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ma2s09",
+        "Average time per episode spent shopping and browsing in shops - minutes element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "na2s09",
+        "Number of times SM went shopping and browsing in shops for other items in the last 12 months - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ma2l09",
+        "Average time per episode spent doing the laundry and ironing - minutes element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ha2d09",
+        "Average time per episode spent caring for the elderly, handicapped or disabled at home - hours element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ma2g09",
+        "Average time per episode spent shopping for food and groceries minutes element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "ma2f09",
+        "Average time per episode spent preparing food, cooking and washing up - minutes element - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ],
+      [
+        "na2h09",
+        "Number of times SM cleaned the house in the last 12 months - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "6(f)",
+        "EPAQ2File109"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - raw variables [52112]",
+        "This category contains raw data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Not done in last year",
+        false
+      ],
+      [
+        "1.0",
+        "Less than once a month",
+        false
+      ],
+      [
+        "2.0",
+        "Once a month",
+        false
+      ],
+      [
+        "3.0",
+        "2 - 3 times a month",
+        false
+      ],
+      [
+        "4.0",
+        "Once a week",
+        false
+      ],
+      [
+        "5.0",
+        "2 - 3 times a week",
+        false
+      ],
+      [
+        "6.0",
+        "4 - 5 times a week",
+        false
+      ],
+      [
+        "7.0",
+        "6 times a week or every day",
+        false
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8.0",
+        "Unknown",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "611",
+        "28%"
+      ],
+      [
+        "1",
+        "92",
+        "4%"
+      ],
+      [
+        "2",
+        "58",
+        "3%"
+      ],
+      [
+        "3",
+        "84",
+        "4%"
+      ],
+      [
+        "4",
+        "421",
+        "19%"
+      ],
+      [
+        "5",
+        "697",
+        "31%"
+      ],
+      [
+        "6",
+        "175",
+        "8%"
+      ],
+      [
+        "7",
+        "76",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "2214",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "na2l09",
+    "label": "Number of times SM did the laundry and ironing in the last 12 months - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13170",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "na2l09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13170",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Number of times SM did the laundry and ironing in the last 12 months - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File109",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "6(f)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about activities done in the last 12 months asked in the pre-assessment booklet in 2006-10 data collection. Variables were also used to derive some of the EPAQ2 derived variables",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ha2h09",
+        "description": "Average time per episode spent cleaning the house - hours element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ma2d09",
+        "description": "Average time per episode spent caring for the elderly, handicapped or disabled at home - minutes element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ma2b09",
+        "description": "Average time per episode spent caring for children or babies - minutes element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ha2s09",
+        "description": "Average time per episode spent shopping and browsing in shops - hours element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "na2g09",
+        "description": "Number of times SM shopped for food and groceries in the last 12 months - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "na2b09",
+        "description": "Number of times SM cared for children or babies at home (not as paid employment) in the last 12 months - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "na2d09",
+        "description": "Number of times SM cared for people who are elderly, handicapped or disabled at home (not as paid employment) in the last 12 months - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ma2h09",
+        "description": "Average time per episode spent cleaning the house - minutes element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ha2g09",
+        "description": "Average time per episode spent shopping for food and groceries - hours element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ha2f09",
+        "description": "Average time per episode spent preparing food, cooking and washing up - hours element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ha2b09",
+        "description": "Average time per episode spent caring for children or babies - hours element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "na2f09",
+        "description": "Number of times SM prepared food, cooked and washed up in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ha2l09",
+        "description": "Average time per episode spent doing the laundry and ironing - hours element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "act209",
+        "description": "Did you do any of the activities listed in table 6f in the last 12 months? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ma2s09",
+        "description": "Average time per episode spent shopping and browsing in shops - minutes element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "na2s09",
+        "description": "Number of times SM went shopping and browsing in shops for other items in the last 12 months - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ma2l09",
+        "description": "Average time per episode spent doing the laundry and ironing - minutes element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ha2d09",
+        "description": "Average time per episode spent caring for the elderly, handicapped or disabled at home - hours element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ma2g09",
+        "description": "Average time per episode spent shopping for food and groceries minutes element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "ma2f09",
+        "description": "Average time per episode spent preparing food, cooking and washing up - minutes element - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      },
+      {
+        "varname": "na2h09",
+        "description": "Number of times SM cleaned the house in the last 12 months - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "6(f)",
+        "library_file": "EPAQ2File109"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - raw variables [52112]",
+        "description": "This category contains raw data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_raw_variables_52112.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Not done in last year",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Less than once a month",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Once a month",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "2 - 3 times a month",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Once a week",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "2 - 3 times a week",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "4 - 5 times a week",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "6 times a week or every day",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 21,
+      "docs": 1,
+      "cats": 2,
+      "vals": 13
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Not done in last year",
+          "count": 611,
+          "pct": 28
+        },
+        {
+          "value": "1",
+          "label": "Less than once a month",
+          "count": 92,
+          "pct": 4
+        },
+        {
+          "value": "2",
+          "label": "Once a month",
+          "count": 58,
+          "pct": 3
+        },
+        {
+          "value": "3",
+          "label": "2 - 3 times a month",
+          "count": 84,
+          "pct": 4
+        },
+        {
+          "value": "4",
+          "label": "Once a week",
+          "count": 421,
+          "pct": 19
+        },
+        {
+          "value": "5",
+          "label": "2 - 3 times a week",
+          "count": 697,
+          "pct": 31
+        },
+        {
+          "value": "6",
+          "label": "4 - 5 times a week",
+          "count": 175,
+          "pct": 8
+        },
+        {
+          "value": "7",
+          "label": "6 times a week or every day",
+          "count": 76,
+          "pct": 3
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "611",
+        "28%"
+      ],
+      [
+        "1",
+        "92",
+        "4%"
+      ],
+      [
+        "2",
+        "58",
+        "3%"
+      ],
+      [
+        "3",
+        "84",
+        "4%"
+      ],
+      [
+        "4",
+        "421",
+        "19%"
+      ],
+      [
+        "5",
+        "697",
+        "31%"
+      ],
+      [
+        "6",
+        "175",
+        "8%"
+      ],
+      [
+        "7",
+        "76",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "2214",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

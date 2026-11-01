@@ -1,0 +1,525 @@
+{
+  "varname": "ihs",
+  "label": "Number of hours paid at basic rate, if only some  - at age 26 years",
+  "field_id": "7190",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7190",
+  "year": "",
+  "form": "Section C - Main questionnaire",
+  "units": "hours",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 22.375,
+  "sd": 16.182069552439824,
+  "series_size": 16.0,
+  "minimum": 0.0,
+  "maximum": 40.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ibpp",
+    "inh",
+    "ibp",
+    "ibpa"
+  ],
+  "linked_years": [
+    "1972"
+  ],
+  "categories": [
+    "Employment history [23]",
+    "Economic circumstances [5151]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "ihs",
+    "label": "Number of hours paid at basic rate, if only some  - at age 26 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ihs"
+      ],
+      [
+        "Field ID",
+        "7190"
+      ],
+      [
+        "Label",
+        "Number of hours paid at basic rate, if only some  - at age 26 years"
+      ],
+      [
+        "Card Number",
+        "Y64"
+      ],
+      [
+        "Form",
+        "Section C - Main questionnaire"
+      ],
+      [
+        "Question",
+        "41(d)"
+      ],
+      [
+        "Year",
+        "1972"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "1972C Q37-Q53. Questions asked to all employees and those self employed."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ibpp",
+        "Period for basic pay (at age 26 years)",
+        "1972",
+        "Section C - Main questionnaire",
+        "41(b)",
+        "Y64"
+      ],
+      [
+        "inh",
+        "Number of hours paid at basic rate at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "41(c)",
+        "Y64"
+      ],
+      [
+        "ibp",
+        "Basic Pay in pounds and pence before deductions for tax. Coded in new pence (e.g. 142500 = \u00a31,425.00) at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "41(b)",
+        "Y64"
+      ],
+      [
+        "ibpa",
+        "Accuracy code for basic pay before deductions at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "41(b)",
+        "Y64"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Economic circumstances [5151]",
+        "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "40"
+      ],
+      [
+        "Range",
+        "40"
+      ],
+      [
+        "Median",
+        "25.0"
+      ],
+      [
+        "IQR",
+        "6.75 - 38.5"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "3.0"
+      ],
+      [
+        "Decile 3",
+        "9.0"
+      ],
+      [
+        "Decile 4",
+        "17.0"
+      ],
+      [
+        "Decile 5",
+        "25.0"
+      ],
+      [
+        "Decile 6",
+        "35.0"
+      ],
+      [
+        "Decile 7",
+        "37.5"
+      ],
+      [
+        "Decile 8",
+        "40.0"
+      ],
+      [
+        "Decile 9",
+        "40.0"
+      ],
+      [
+        "Mean",
+        "22.375"
+      ],
+      [
+        "Std Dev.",
+        "16.182069552439824"
+      ],
+      [
+        "Variance",
+        "261.859375"
+      ],
+      [
+        "Displayed N",
+        "16"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "ihs",
+    "label": "Number of hours paid at basic rate, if only some  - at age 26 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7190",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ihs",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7190",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Number of hours paid at basic rate, if only some  - at age 26 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Y64",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Section C - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "41(d)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1972",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "1972C Q37-Q53. Questions asked to all employees and those self employed.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ibpp",
+        "description": "Period for basic pay (at age 26 years)",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "41(b)",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "inh",
+        "description": "Number of hours paid at basic rate at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "41(c)",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "ibp",
+        "description": "Basic Pay in pounds and pence before deductions for tax. Coded in new pence (e.g. 142500 = \u00a31,425.00) at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "41(b)",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "ibpa",
+        "description": "Accuracy code for basic pay before deductions at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "41(b)",
+        "library_file": "Y64"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Economic circumstances [5151]",
+        "description": "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Economic_circumstances_5151.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "hours",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          8.0,
+          16.0,
+          24.0,
+          32.0,
+          40.0
+        ],
+        "counts": [
+          4,
+          2,
+          2,
+          1,
+          7
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 6.75,
+        "median": 25.0,
+        "q3": 38.5,
+        "max": 40.0
+      },
+      "units": "hours"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "40"
+      ],
+      [
+        "Range",
+        "40"
+      ],
+      [
+        "Median",
+        "25.0"
+      ],
+      [
+        "IQR",
+        "6.75 - 38.5"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "3.0"
+      ],
+      [
+        "Decile 3",
+        "9.0"
+      ],
+      [
+        "Decile 4",
+        "17.0"
+      ],
+      [
+        "Decile 5",
+        "25.0"
+      ],
+      [
+        "Decile 6",
+        "35.0"
+      ],
+      [
+        "Decile 7",
+        "37.5"
+      ],
+      [
+        "Decile 8",
+        "40.0"
+      ],
+      [
+        "Decile 9",
+        "40.0"
+      ],
+      [
+        "Mean",
+        "22.375"
+      ],
+      [
+        "Std Dev.",
+        "16.182069552439824"
+      ],
+      [
+        "Variance",
+        "261.859375"
+      ],
+      [
+        "Displayed N",
+        "16"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

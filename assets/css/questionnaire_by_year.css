@@ -1,0 +1,348 @@
+/* ============================================================
+   NSHD Questionnaire Sub-page — shared stylesheet
+   Scoped entirely to .page-questionnaire_by_year to avoid
+   interfering with Just the Docs header/nav/sidebar.
+   ============================================================ */
+ 
+:root {
+  --purple-dark:   #3a0066;
+  --purple:        #4b067a;
+  --purple-mid:    #6a0dad;
+  --green-light:   #E8F5E9;
+  --green-border:  #a5d6a7;
+  --gradient-bg:   linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+  --card-bg:       #faf7ff;
+  --card-border:   rgba(0, 0, 0, 0.06);
+  --text-main:     #333;
+  --max-width:     1000px;
+}
+ 
+/* ── Scoped reset — only inside the page wrapper ─────────── */
+.page-questionnaire_by_year *,
+.page-questionnaire_by_year *::before,
+.page-questionnaire_by_year *::after {
+  box-sizing: border-box;
+}
+ 
+/* ── Page wrapper — sets font/colour without touching body ── */
+.page-questionnaire_by_year {
+  font-family: 'Rubik', 'Roboto', sans-serif;
+  font-size: 15px;
+  color: var(--text-main);
+  padding-bottom: 60px;
+}
+ 
+/* ── Layout wrapper ───────────────────────────────────────── */
+.page-questionnaire_by_year .page-wrap {
+  max-width: var(--max-width);
+  margin: 0;
+  position: relative;
+}
+ 
+/* ── Hero banner ──────────────────────────────────────────── */
+.page-questionnaire_by_year .hero-banner {
+  background: var(--gradient-bg);
+  border-radius: 12px;
+  padding: 26px 30px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: var(--max-width);
+}
+ 
+.page-questionnaire_by_year .hero-banner h1 {
+  margin: 0 0 6px !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #800020 !important;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+ 
+.page-questionnaire_by_year .hero-banner p {
+  margin: 0 !important;
+  font-size: 15px !important;
+  color: #555 !important;
+}
+ 
+/* ── Sidebar ──────────────────────────────────────────────── */
+.page-questionnaire_by_year .sidebar-summary {
+  position: fixed;
+  right: 40px;
+  top: 140px;
+  width: 240px;
+  background: var(--gradient-bg);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 10px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  z-index: 100;
+}
+ 
+.page-questionnaire_by_year .sidebar-summary h3 {
+  margin: 0 0 10px !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: var(--purple-dark) !important;
+  border-bottom: 2px solid var(--purple-mid) !important;
+  padding-bottom: 4px !important;
+}
+ 
+.page-questionnaire_by_year .sidebar-summary ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+ 
+.page-questionnaire_by_year .sidebar-summary li {
+  margin-bottom: 6px !important;
+}
+ 
+.page-questionnaire_by_year .sidebar-summary a {
+  display: block;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: var(--purple) !important;
+  text-decoration: none !important;
+  font-size: 13px !important;
+  line-height: 1.4;
+}
+ 
+.page-questionnaire_by_year .sidebar-summary a:hover {
+  background: rgba(255,255,255,0.6);
+  text-decoration: underline !important;
+}
+ 
+.page-questionnaire_by_year .sidebar-summary a.active {
+  background: rgba(255,255,255,0.9);
+  border-left: 3px solid var(--purple-mid);
+  font-weight: 700;
+}
+ 
+.page-questionnaire_by_year .sidebar-summary .sidebar-back {
+  display: block;
+  margin-top: 14px;
+  padding: 6px 10px;
+  background: var(--green-light);
+  border: 1px solid var(--green-border);
+  border-radius: 6px;
+  font-size: 13px !important;
+  font-weight: 600;
+  color: var(--purple) !important;
+  text-decoration: none !important;
+  text-align: center;
+}
+ 
+.page-questionnaire_by_year .sidebar-summary .sidebar-back:hover {
+  background: #d6ebd8;
+}
+ 
+@media (max-width: 1180px) {
+  .page-questionnaire_by_year .sidebar-summary { display: none; }
+}
+ 
+/* ── Section cards ────────────────────────────────────────── */
+.page-questionnaire_by_year .home-section {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  border-left: 4px solid var(--purple-mid);
+  padding: 1px 24px 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+ 
+/* Use !important to beat Just the Docs' own h2/h4 rules */
+.page-questionnaire_by_year .home-section h2 {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: var(--purple-dark) !important;
+  margin: 20px 0 14px !important;
+  border-bottom: 2px solid var(--purple-mid) !important;
+  padding-bottom: 6px !important;
+  line-height: 1.3 !important;
+}
+ 
+.page-questionnaire_by_year .home-section h4 {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: var(--purple-dark) !important;
+  margin: 18px 0 8px !important;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  line-height: 1.4 !important;
+}
+ 
+.page-questionnaire_by_year .home-section p {
+  line-height: 1.65 !important;
+  margin-bottom: 12px !important;
+  color: var(--text-main) !important;
+}
+ 
+.page-questionnaire_by_year .home-section ul {
+  color: var(--text-main) !important;
+  line-height: 1.8 !important;
+  padding-left: 20px !important;
+  margin-bottom: 12px !important;
+}
+ 
+.page-questionnaire_by_year .home-section li {
+  margin-bottom: 2px !important;
+}
+ 
+/* ── Responding population table ──────────────────────────── */
+.page-questionnaire_by_year .pop-table {
+  border-collapse: collapse;
+  width: auto;
+  min-width: 260px;
+  max-width: 460px;
+  font-size: 14px;
+  margin: 10px 0 0;
+  border-radius: 0;
+  overflow: visible;
+  box-shadow: none;
+  /* Make any JtD-injected outer border invisible rather than fighting it */
+  border-color: transparent !important;
+  outline: none !important;
+}
+ 
+/* Also kill it on the wrapper div JtD sometimes adds */
+.page-questionnaire_by_year .table-wrapper {
+  border: none !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+ 
+.page-questionnaire_by_year .pop-table thead tr {
+  background: linear-gradient(135deg, #d8b4fe, #a5d6a7);
+}
+ 
+.page-questionnaire_by_year .pop-table thead th {
+  padding: 9px 14px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #3a0066 !important;
+  text-align: left;
+  border-bottom: 2px solid rgba(255,255,255,0.5) !important;
+  letter-spacing: 0.02em;
+}
+ 
+.page-questionnaire_by_year .pop-table td {
+  padding: 7px 14px !important;
+  border-bottom: 1px solid rgba(0,0,0,0.06) !important;
+  color: #333 !important;
+  text-align: left;
+}
+ 
+/* Option 3 — bold first column with separator */
+.page-questionnaire_by_year .pop-table td:first-child,
+.page-questionnaire_by_year .pop-table th:first-child {
+  font-weight: 600 !important;
+  color: #3a0066 !important;
+  border-right: 2px solid rgba(106,13,173,0.15) !important;
+}
+ 
+/* Every row a different pastel */
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(1)  td { background: #fde8d8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(2)  td { background: #d8f3e8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(3)  td { background: #d8eafd !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(4)  td { background: #fdf6d8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(5)  td { background: #fde0eb !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(6)  td { background: #e8d8fd !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(7)  td { background: #d8fdf4 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(8)  td { background: #fdf4d8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(9)  td { background: #fdd8d8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10) td { background: #d8f0fd !important; }
+/* repeats for >10 rows */
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+1)  td { background: #fde8d8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+2)  td { background: #d8f3e8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+3)  td { background: #d8eafd !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+4)  td { background: #fdf6d8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+5)  td { background: #fde0eb !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+6)  td { background: #e8d8fd !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+7)  td { background: #d8fdf4 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+8)  td { background: #fdf4d8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+9)  td { background: #fdd8d8 !important; }
+.page-questionnaire_by_year .pop-table tbody tr:nth-child(10n+10) td { background: #d8f0fd !important; }
+ 
+.page-questionnaire_by_year .pop-table tbody tr:hover td {
+  filter: brightness(0.94);
+  transition: filter 0.15s;
+}
+ 
+.page-questionnaire_by_year .pop-table td:not(:first-child),
+.page-questionnaire_by_year .pop-table th:not(:first-child) {
+  text-align: center !important;
+  font-variant-numeric: tabular-nums;
+}
+ 
+.page-questionnaire_by_year .pop-table tfoot th,
+.page-questionnaire_by_year .pop-table tfoot td {
+  background: linear-gradient(135deg, #e9d5ff, #bbf7d0) !important;
+  padding: 8px 14px !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  color: var(--purple-dark) !important;
+  border-top: 2px solid rgba(107,13,173,0.2) !important;
+  text-align: left !important;
+}
+ 
+.page-questionnaire_by_year .pop-table tfoot th:not(:first-child),
+.page-questionnaire_by_year .pop-table tfoot td:not(:first-child) {
+  text-align: center !important;
+}
+ 
+.page-questionnaire_by_year .pop-table tfoot td:empty {
+  border-top: 2px solid rgba(107,13,173,0.2) !important;
+}
+ 
+/* ── PDF links ────────────────────────────────────────────── */
+
+.page-questionnaire_by_year .pdf-link {
+  background: linear-gradient(135deg, #e6a83a, #d9604f);
+  color: #4a1a08;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s, color 0.2s;
+  min-width: 220px; 
+}
+
+.page-questionnaire_by_year .pdf-link:hover {
+  background: linear-gradient(135deg, #ffcc80, #ef9a9a);
+  color: #7a3a1a;
+}
+
+.page-questionnaire_by_year .pdf-link svg {
+  flex-shrink: 0;
+  color: #c0392b;
+}
+ 
+/* ── Mobile back link ─────────────────────────────────────── */
+.page-questionnaire_by_year .mobile-back {
+  display: none;
+  margin-bottom: 20px;
+}
+ 
+.page-questionnaire_by_year .mobile-back a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  background: var(--green-light);
+  border: 1px solid var(--green-border);
+  border-radius: 6px;
+  font-size: 13px !important;
+  font-weight: 600;
+  color: var(--purple) !important;
+  text-decoration: none !important;
+}
+ 
+@media (max-width: 1180px) {
+  .page-questionnaire_by_year .mobile-back { display: block; }
+}

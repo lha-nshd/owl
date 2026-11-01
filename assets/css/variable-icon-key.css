@@ -1,0 +1,32 @@
+/* OWL — Combined icon key (one slim bar replaces the three legends) */
+.var-icon-key {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+  margin: 0 0 12px;
+  padding: 6px 12px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #334155;
+}
+.var-icon-key-title {
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: .04em;
+}
+.var-icon-key-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: help;
+}
+.var-icon-key-item i { font-size: 15px; }
+.var-icon-key-doc i          { color: hsl(200 55% 40%); }
+.var-icon-key-restricted i   { color: #c0392b; }
+.var-icon-key-longitudinal i { color: #c2185b; }

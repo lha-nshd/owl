@@ -1,0 +1,159 @@
+---
+layout: default
+title: Getting Started
+nav_order: 2
+permalink: /docs/getting-started/
+has_children: true
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-compass" aria-hidden="true"></i> Getting Started with the OWL</h1>
+    <p>New to the NSHD or the OWL resource? Start here for orientation.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="{{ site.baseurl }}/docs/getting-started/where-to-start/" class="gs-toc-gs-1"><i class="ti ti-traffic-lights" aria-hidden="true"></i> Where to start</a></li>
+      <li><a href="{{ site.baseurl }}/docs/getting-started/how-the-site-is-organised/" class="gs-toc-gs-2"><i class="ti ti-map" aria-hidden="true"></i> How site is organised</a></li>
+      <li><a href="{{ site.baseurl }}/docs/getting-started/data-dictionary/" class="gs-toc-gs-4"><i class="ti ti-book-2" aria-hidden="true"></i> The Data Dictionary</a></li>
+      <li><a href="{{ site.baseurl }}/docs/getting-started/basket-management/" class="gs-toc-gs-3"><i class="ti ti-basket-cog" aria-hidden="true"></i> Basket Management</a></li>
+      <li><a href="{{ site.baseurl }}/docs/getting-started/cohort-jargon/" class="gs-toc-gs-5"><i class="ti ti-vocabulary" aria-hidden="true"></i> Cohort Study Jargon</a></li>
+    </ul>
+	  <a href="/OWL/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Home</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>The National Survey of Health and Development is Britain's longest-running birth cohort study, following over 5,000 people born in a single week of March 1946 from birth into their eighties. Researchers have returned to the same individuals repeatedly over 80 years of <strong>sweeps</strong>, collecting data on physical health, cognitive development, mental wellbeing, lifestyle, and socioeconomic circumstance.</p>
+    <p>The OWL turns that archive of thousands of <strong>variables</strong> into something navigable. The pages below will get you oriented, however you're approaching the site.</p>
+  </div>
+
+  <style>
+    .gs-cards-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .gs-link-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      border-radius: 9px;
+      padding: 14px 18px;
+      text-decoration: none;
+      border: 1.5px solid transparent;
+      transition: box-shadow 0.15s, transform 0.1s;
+    }
+    .gs-link-card:hover {
+      box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+    .gs-link-card i.ti { font-size: 24px; flex-shrink: 0; }
+    .gs-link-card-title { font-weight: 700; font-size: 14px; margin: 0 0 3px; }
+    .gs-link-card-desc  { font-size: 12px; margin: 0; opacity: 0.85; }
+
+    /* Card 1 — teal */
+    .gs-card-1 {
+      background: hsl(180 45% 94%);
+      border-color: hsl(180 45% 58%);
+      color: hsl(180 45% 16%);
+    }
+    .gs-card-1 i.ti { color: hsl(180 45% 35%); }
+    .gs-card-1 .gs-link-card-title { color: hsl(180 45% 14%); }
+
+    /* Card 2 — amber */
+    .gs-card-2 {
+      background: hsl(35 60% 93%);
+      border-color: hsl(35 60% 58%);
+      color: hsl(35 60% 16%);
+    }
+    .gs-card-2 i.ti { color: hsl(35 60% 35%); }
+    .gs-card-2 .gs-link-card-title { color: hsl(35 60% 14%); }
+
+    /* Card 3 — pink */
+    .gs-card-3 {
+      background: hsl(340 45% 94%);
+      border-color: hsl(340 45% 60%);
+      color: hsl(340 45% 18%);
+    }
+    .gs-card-3 i.ti { color: hsl(340 45% 38%); }
+    .gs-card-3 .gs-link-card-title { color: hsl(340 45% 16%); }
+
+    /* Card 4 — blue */
+    .gs-card-4 {
+      background: hsl(210 45% 94%);
+      border-color: hsl(210 45% 58%);
+      color: hsl(210 45% 16%);
+    }
+    .gs-card-4 i.ti { color: hsl(210 45% 35%); }
+    .gs-card-4 .gs-link-card-title { color: hsl(210 45% 14%); }
+
+    /* Card 5 — lavender */
+    .gs-card-5 {
+      background: hsl(270 35% 94%);
+      border-color: hsl(270 35% 58%);
+      color: hsl(270 35% 18%);
+    }
+    .gs-card-5 i.ti { color: hsl(270 35% 38%); }
+    .gs-card-5 .gs-link-card-title { color: hsl(270 35% 16%); }
+  </style>
+
+  <div class="gs-cards-grid">
+
+    <a class="gs-link-card gs-card-1" href="{{ site.baseurl }}/docs/getting-started/where-to-start/">
+      <i class="ti ti-traffic-lights" aria-hidden="true"></i>
+      <div>
+        <p class="gs-link-card-title">Where should I start?</p>
+        <p class="gs-link-card-desc">A quick guide to which tool fits your question — search, browse, or explore documentation.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="margin-left:auto; opacity:0.5; font-size:16px;"></i>
+    </a>
+
+    <a class="gs-link-card gs-card-2" href="{{ site.baseurl }}/docs/getting-started/how-the-site-is-organised/">
+      <i class="ti ti-map" aria-hidden="true"></i>
+      <div>
+        <p class="gs-link-card-title">How the site is organised</p>
+        <p class="gs-link-card-desc">Search tools, browse tools, the sidebar, and the variable basket explained.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="margin-left:auto; opacity:0.5; font-size:16px;"></i>
+    </a>
+
+    <a class="gs-link-card gs-card-4" href="{{ site.baseurl }}/docs/getting-started/data-dictionary/">
+      <i class="ti ti-book-2" aria-hidden="true"></i>
+      <div>
+        <p class="gs-link-card-title">The Data Dictionary</p>
+        <p class="gs-link-card-desc">What it contains, how OWL helps you complete it, and how to download your version.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="margin-left:auto; opacity:0.5; font-size:16px;"></i>
+    </a>
+
+    <a class="gs-link-card gs-card-3" href="{{ site.baseurl }}/docs/getting-started/basket-management/">
+      <i class="ti ti-basket-cog" aria-hidden="true"></i>
+      <div>
+        <p class="gs-link-card-title">Basket Management</p>
+        <p class="gs-link-card-desc">Adding, removing, bulk-adding via pagination, and exporting variables with the basket.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="margin-left:auto; opacity:0.5; font-size:16px;"></i>
+    </a>
+
+    <a class="gs-link-card gs-card-5" href="{{ site.baseurl }}/docs/getting-started/cohort-jargon/">
+      <i class="ti ti-vocabulary" aria-hidden="true"></i>
+      <div>
+        <p class="gs-link-card-title">Cohort Study Jargon</p>
+        <p class="gs-link-card-desc">A searchable glossary of terms like sweep, cohort, attrition, and derived variable.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="margin-left:auto; opacity:0.5; font-size:16px;"></i>
+    </a>
+
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

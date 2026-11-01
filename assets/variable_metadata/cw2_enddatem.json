@@ -1,0 +1,379 @@
+{
+  "varname": "cw2_enddatem",
+  "label": "Last date of covid-19 online survey started - Month - Covid wave 2 (age 74 years)",
+  "field_id": "12411",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12411",
+  "year": "",
+  "form": "Covid wave 2",
+  "units": "month",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1569.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "12411",
+  "truly_longitudinal_varnames": [
+    "cw3_enddatem"
+  ],
+  "truly_longitudinal_years": [
+    "2020",
+    "2021"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Coronavirus (Covid-19) [28]",
+    "Data collection information [6021]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "10.0",
+      "label": "October"
+    },
+    {
+      "value": "9.0",
+      "label": "September"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "September",
+      "count": 1414,
+      "pct": 90.1
+    },
+    {
+      "label": "October",
+      "count": 155,
+      "pct": 9.9
+    }
+  ],
+  "pdf": {
+    "varname": "cw2_enddatem",
+    "label": "Last date of covid-19 online survey started - Month - Covid wave 2 (age 74 years)",
+    "meta_rows": [
+      [
+        "Variable",
+        "cw2_enddatem"
+      ],
+      [
+        "Field ID",
+        "12411"
+      ],
+      [
+        "Label",
+        "Last date of covid-19 online survey started - Month - Covid wave 2 (age 74 years)"
+      ],
+      [
+        "Card Number",
+        "CW2_COVID"
+      ],
+      [
+        "Form",
+        "Covid wave 2"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "month"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains the month information about the date."
+      ],
+      [
+        "Notes",
+        "This question was not asked in the postal version only asked online."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cw3_enddatem",
+        "2021",
+        "Last date of covid-19 online survey started - Month - Covid wave 3 (age 75 years)"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Coronavirus (Covid-19) [28]",
+        "Legacy Category"
+      ],
+      [
+        "Data collection information [6021]",
+        "This category contains the data collection information from the 2020-2021 covid questionnaires where the participant was 74 years."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "10.0",
+        "October",
+        false
+      ],
+      [
+        "9.0",
+        "September",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "9",
+        "1414",
+        "90%"
+      ],
+      [
+        "10",
+        "155",
+        "10%"
+      ],
+      [
+        "Displayed N",
+        "1569",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "cw2_enddatem",
+    "label": "Last date of covid-19 online survey started - Month - Covid wave 2 (age 74 years)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12411",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cw2_enddatem",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "12411",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Last date of covid-19 online survey started - Month - Covid wave 2 (age 74 years)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CW2_COVID",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Covid wave 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "month",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains the month information about the date.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This question was not asked in the postal version only asked online.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "12411",
+      "members": [
+        {
+          "varname": "cw2_enddatem",
+          "year": "2020",
+          "label": "Last date of covid-19 online survey started - Month - Covid wave 2 (age 74 years)",
+          "is_current": true
+        },
+        {
+          "varname": "cw3_enddatem",
+          "year": "2021",
+          "label": "Last date of covid-19 online survey started - Month - Covid wave 3 (age 75 years)",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Coronavirus (Covid-19) [28]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Data collection information [6021]",
+        "description": "This category contains the data collection information from the 2020-2021 covid questionnaires where the participant was 74 years.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Data_collection_information_6021.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "10.0",
+        "label": "October",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "September",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "month",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "9",
+          "label": "September",
+          "count": 1414,
+          "pct": 90
+        },
+        {
+          "value": "10",
+          "label": "October",
+          "count": 155,
+          "pct": 10
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "9",
+        "1414",
+        "90%"
+      ],
+      [
+        "10",
+        "155",
+        "10%"
+      ],
+      [
+        "Displayed N",
+        "1569",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

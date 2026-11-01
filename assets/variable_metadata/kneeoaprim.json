@@ -1,0 +1,411 @@
+{
+  "varname": "kneeoaprim",
+  "label": "Primary knee osteoarthritis - at age 53 years",
+  "field_id": "31060",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31060",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2851.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "kneeoabilat",
+    "kneeoalimb",
+    "kneeoa",
+    "oastrzxc"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Musculoskeletal system conditions [51016]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "NIL (excl 2nd-ary)"
+    },
+    {
+      "value": "1.0",
+      "label": "Primary knee OA"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "NIL (excl 2nd-ary)",
+      "count": 2654,
+      "pct": 93.1
+    },
+    {
+      "label": "Primary knee OA",
+      "count": 197,
+      "pct": 6.9
+    }
+  ],
+  "pdf": {
+    "varname": "kneeoaprim",
+    "label": "Primary knee osteoarthritis - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "kneeoaprim"
+      ],
+      [
+        "Field ID",
+        "31060"
+      ],
+      [
+        "Label",
+        "Primary knee osteoarthritis - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "OsteoArthritis99"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived variables for osteoarthritis at age 53 years."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "kneeoabilat",
+        "Bilateral knee osteoarthritis - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "Various",
+        "OsteoArthritis99"
+      ],
+      [
+        "kneeoalimb",
+        "Knee and limb osteoarthritis - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "Various",
+        "OsteoArthritis99"
+      ],
+      [
+        "kneeoa",
+        "Knee osteoarthritis - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "Various",
+        "OsteoArthritis99"
+      ],
+      [
+        "oastrzxc",
+        "Hand osteoarthritis - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "Various",
+        "OsteoArthritis99"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Musculoskeletal system conditions [51016]",
+        "This category contains data from the questionnaires on rheumatoid arthiritis, osteoarthiritis,  osteoporosis and backache which includes sciatica."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "NIL (excl 2nd-ary)",
+        false
+      ],
+      [
+        "1.0",
+        "Primary knee OA",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "2654",
+        "93%"
+      ],
+      [
+        "1",
+        "197",
+        "7%"
+      ],
+      [
+        "Displayed N",
+        "2851",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "kneeoaprim",
+    "label": "Primary knee osteoarthritis - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31060",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "kneeoaprim",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31060",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Primary knee osteoarthritis - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "OsteoArthritis99",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variables for osteoarthritis at age 53 years.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "kneeoabilat",
+        "description": "Bilateral knee osteoarthritis - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "Various",
+        "library_file": "OsteoArthritis99"
+      },
+      {
+        "varname": "kneeoalimb",
+        "description": "Knee and limb osteoarthritis - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "Various",
+        "library_file": "OsteoArthritis99"
+      },
+      {
+        "varname": "kneeoa",
+        "description": "Knee osteoarthritis - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "Various",
+        "library_file": "OsteoArthritis99"
+      },
+      {
+        "varname": "oastrzxc",
+        "description": "Hand osteoarthritis - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "Various",
+        "library_file": "OsteoArthritis99"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Musculoskeletal system conditions [51016]",
+        "description": "This category contains data from the questionnaires on rheumatoid arthiritis, osteoarthiritis,  osteoporosis and backache which includes sciatica.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Musculoskeletal_system_conditions_51016.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "NIL (excl 2nd-ary)",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Primary knee OA",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "NIL (excl 2nd-ary)",
+          "count": 2654,
+          "pct": 93
+        },
+        {
+          "value": "1",
+          "label": "Primary knee OA",
+          "count": 197,
+          "pct": 7
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "2654",
+        "93%"
+      ],
+      [
+        "1",
+        "197",
+        "7%"
+      ],
+      [
+        "Displayed N",
+        "2851",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

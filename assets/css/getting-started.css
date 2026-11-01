@@ -1,0 +1,894 @@
+/* ============================================================
+   OWL — Getting Started section
+   /OWL/assets/css/getting-started.css
+   Shared styles for the Getting Started landing page and its
+   child pages: Where should I start?, How the site is
+   organised, Basket Management, Variable Metadata, and
+   Cohort Study Jargon.
+   ============================================================ */
+
+/* ============================================================
+   HERO BANNER
+   ============================================================ */
+.gs-hero {
+  background: linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+  border-radius: 12px;
+  padding: 22px 26px;
+  margin-bottom: 20px;
+  max-width: 1000px;
+}
+.gs-hero h1 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #800020;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gs-hero h1 i { font-size: 26px; color: #6a0dad; }
+.gs-hero p   { margin: 0; font-size: 15px; color: #555; line-height: 1.6; }
+
+/* ============================================================
+   WELCOME / INTRO BOX
+   ============================================================ */
+.gs-welcome-box {
+  background: #faf7ff;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 8px;
+  border-left: 4px solid #6a0dad;
+  padding: 18px 24px;
+  margin-bottom: 20px;
+  max-width: 1000px;
+}
+.gs-welcome-box h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #3a0066 !important;
+  border-bottom: 2px solid #6a0dad !important;
+  padding-bottom: 6px !important;
+  margin: 20px 0 14px !important;
+  line-height: 1.3 !important;
+}
+.gs-welcome-box h2 i { font-size: 22px; color: #6a0dad; opacity: 0.8; }
+.gs-welcome-box p   { font-size: 15px; line-height: 1.7; color: #333; margin: 0 0 10px; }
+.gs-welcome-box p:last-child { margin-bottom: 0; }
+
+/* ============================================================
+   LINK CARDS — Getting Started landing page
+   ============================================================ */
+.gs-cards-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 1000px;
+}
+.gs-link-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 1000px;
+}
+.gs-link-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-radius: 9px;
+  padding: 14px 18px;
+  text-decoration: none !important;
+  border: 1.5px solid transparent;
+  transition: box-shadow 0.15s, transform 0.1s;
+}
+.gs-link-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+  transform: translateY(-1px);
+  text-decoration: none;
+  filter: none;
+}
+.gs-link-card .ti,
+.gs-link-card i.ti { font-size: 22px; flex-shrink: 0; }
+.gs-link-card-title { font-size: 15px; font-weight: 700; margin: 0 0 3px; }
+.gs-link-card-desc  { font-size: 13px; margin: 0; }
+
+/* Five distinct landing-page card colours */
+.gs-card-1 { background: hsl(180 45% 94%); border-color: hsl(180 45% 58%); }
+.gs-card-1 i.ti                { color: hsl(180 45% 35%); }
+.gs-card-1 .gs-link-card-title { color: hsl(180 45% 14%); }
+.gs-card-1 .gs-link-card-desc  { color: hsl(180 45% 28%); }
+
+.gs-card-2 { background: hsl(35 60% 93%); border-color: hsl(35 60% 58%); }
+.gs-card-2 i.ti                { color: hsl(35 60% 35%); }
+.gs-card-2 .gs-link-card-title { color: hsl(35 60% 14%); }
+.gs-card-2 .gs-link-card-desc  { color: hsl(35 60% 28%); }
+
+.gs-card-3 { background: hsl(340 45% 94%); border-color: hsl(340 45% 60%); }
+.gs-card-3 i.ti                { color: hsl(340 45% 38%); }
+.gs-card-3 .gs-link-card-title { color: hsl(340 45% 16%); }
+.gs-card-3 .gs-link-card-desc  { color: hsl(340 45% 30%); }
+
+.gs-card-4 { background: hsl(210 45% 94%); border-color: hsl(210 45% 58%); }
+.gs-card-4 i.ti                { color: hsl(210 45% 35%); }
+.gs-card-4 .gs-link-card-title { color: hsl(210 45% 14%); }
+.gs-card-4 .gs-link-card-desc  { color: hsl(210 45% 28%); }
+
+.gs-card-5 { background: hsl(270 35% 94%); border-color: hsl(270 35% 58%); }
+.gs-card-5 i.ti                { color: hsl(270 35% 38%); }
+.gs-card-5 .gs-link-card-title { color: hsl(270 35% 16%); }
+.gs-card-5 .gs-link-card-desc  { color: hsl(270 35% 30%); }
+
+/* Legacy single-colour variants (used on child pages) */
+.gs-link-card.gs-amber { background: hsl(35 60% 92%); border: 1px solid hsl(35 60% 70%); }
+.gs-link-card.gs-amber .ti,
+.gs-link-card.gs-amber .gs-link-card-title { color: hsl(35 60% 20%); }
+.gs-link-card.gs-amber .gs-link-card-desc  { color: hsl(35 60% 32%); }
+
+.gs-link-card.gs-pink { background: hsl(340 45% 94%); border: 1px solid hsl(340 45% 75%); }
+.gs-link-card.gs-pink .ti,
+.gs-link-card.gs-pink .gs-link-card-title { color: hsl(340 45% 22%); }
+.gs-link-card.gs-pink .gs-link-card-desc  { color: hsl(340 45% 35%); }
+
+.gs-link-card.gs-teal { background: hsl(180 45% 92%); border: 1px solid hsl(180 45% 70%); }
+.gs-link-card.gs-teal .ti,
+.gs-link-card.gs-teal .gs-link-card-title { color: hsl(180 45% 18%); }
+.gs-link-card.gs-teal .gs-link-card-desc  { color: hsl(180 45% 30%); }
+
+.gs-link-card.gs-mint { background: hsl(160 40% 93%); border: 1px solid hsl(160 40% 65%); }
+.gs-link-card.gs-mint .ti,
+.gs-link-card.gs-mint .gs-link-card-title { color: hsl(160 40% 20%); }
+.gs-link-card.gs-mint .gs-link-card-desc  { color: hsl(160 40% 32%); }
+
+/* ============================================================
+   PLAIN PROSE
+   ============================================================ */
+.gs-prose p        { font-size: 15px; line-height: 1.7; color: #333; max-width: 1000px; margin: 0 0 12px 0; }
+.gs-prose strong   { color: #4b067a; }
+
+/* ============================================================
+   COHORT JARGON — search, filter badges, table rows
+   ============================================================ */
+.gs-jargon-search            { position: relative; margin-bottom: 16px; max-width: 1000px; }
+.gs-jargon-search .ti        { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 16px; color: #999; }
+.gs-jargon-search input      { width: 100%; padding: 9px 12px 9px 36px; font-size: 15px; border: 1px solid rgba(106,13,173,0.2); border-radius: 8px; box-sizing: border-box; }
+.gs-jargon-search input:focus { outline: none; border-color: #6a0dad; }
+.gs-az                       { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 18px; max-width: 1000px; }
+.gs-az button                { width: 28px; height: 28px; font-size: 13px; font-weight: 600; padding: 0; border: 1px solid rgba(106,13,173,0.2); border-radius: 5px; background: #faf7ff; color: #6a0dad; cursor: pointer; }
+.gs-az button:hover          { background: #ede5ff; }
+.gs-jargon-list              { display: flex; flex-direction: column; gap: 22px; max-width: 1000px; }
+.gs-jargon-cat-label         { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #6a3d8a; margin: 0 0 8px 0; }
+.gs-jargon-entry             { display: flex; gap: 12px; padding: 10px 4px; border-bottom: 1px solid rgba(106,13,173,0.1); }
+.gs-jargon-icon              { flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; background: #f0e8ff; display: flex; align-items: center; justify-content: center; }
+.gs-jargon-icon .ti          { font-size: 15px; color: #6a0dad; }
+.gs-jargon-term              { font-size: 16px; font-weight: 700; color: #3a0066; margin: 0 0 4px 0; }
+.gs-jargon-def               { font-size: 14px; line-height: 1.7; color: #333; margin: 0; }
+.gs-jargon-empty             { font-size: 14px; color: #666; }
+
+.jarg-search-row   { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+.jarg-search       { flex: 1; min-width: 200px; padding: 8px 14px; border: 1.5px solid hsl(125 35% 55%); border-radius: 6px; font-size: 13px; font-family: inherit; background: white; color: #333; outline: none; }
+.jarg-search:focus { border-color: #6a0dad; box-shadow: 0 0 0 2px rgba(106,13,173,0.12); }
+.jarg-search::placeholder { color: #aaa; }
+.jarg-clear        { font-size: 12px; color: #6a0dad; border: none; background: none; cursor: pointer; padding: 0 4px; font-family: inherit; text-decoration: underline; white-space: nowrap; }
+.jarg-filter-row   { display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 14px; align-items: center; }
+.jarg-filter-label { font-size: 11.5px; color: #555; margin-right: 2px; }
+.jarg-badge        { display: inline-block; font-size: 11px; padding: 4px 12px; border-radius: 20px; font-weight: 500; cursor: pointer; border: 1.5px solid transparent; transition: opacity 0.15s; user-select: none; }
+.jarg-badge:hover  { opacity: 0.8; }
+.jarg-badge.active { border-color: #3a0066; }
+.badge-study  { background: hsl(180 45% 88%); color: hsl(180 45% 18%); }
+.badge-var    { background: hsl(35 60% 88%);  color: hsl(35 60% 18%);  }
+.badge-meta   { background: hsl(340 45% 88%); color: hsl(340 45% 22%); }
+.badge-show   { background: hsl(125 35% 87%); color: hsl(125 35% 18%); }
+.badge-access { background: hsl(270 35% 88%); color: hsl(270 35% 22%); }
+.badge-all    { background: hsl(260 30% 92%); color: #3a0066; }
+.badge-nav  { background: hsl(210 45% 88%); color: hsl(210 45% 18%); }
+.badge-plat { background: hsl(25 70% 88%);  color: hsl(25 70% 18%);  }
+
+.jarg-table             { width: 100%; border-collapse: collapse; font-size: 12px; }
+.jarg-table thead tr    { background: #3a0066; }
+.jarg-table th          { padding: 9px 14px; color: white; font-weight: 500; text-align: left; font-size: 12.5px; }
+.jarg-table td          { padding: 9px 14px; vertical-align: top; line-height: 1.6; color: #333; }
+.jarg-table .term-name  { font-weight: 700; color: #3a0066; display: flex; align-items: flex-start; gap: 6px; white-space: nowrap; }
+.jarg-table .term-name i { color: #6a0dad; font-size: 14px; margin-top: 1px; flex-shrink: 0; }
+.jarg-table .cat-pill   { display: inline-block; font-size: 10px; padding: 2px 8px; border-radius: 10px; font-weight: 500; white-space: nowrap; }
+.jarg-count             { font-size: 11.5px; color: #777; margin: 8px 0 0; text-align: right; }
+.jarg-no-results        { text-align: center; padding: 28px 0; color: #777; font-size: 13px; display: none; }
+
+.jarg-row-0 td { background: hsl(180 45% 96%); border-bottom: 1px solid hsl(180 45% 87%); }
+.jarg-row-1 td { background: hsl(35 60% 96%);  border-bottom: 1px solid hsl(35 60% 87%);  }
+.jarg-row-2 td { background: hsl(340 45% 96%); border-bottom: 1px solid hsl(340 45% 87%); }
+.jarg-row-3 td { background: hsl(125 35% 95%); border-bottom: 1px solid hsl(125 35% 84%); }
+.jarg-row-4 td { background: hsl(270 35% 96%); border-bottom: 1px solid hsl(270 35% 87%); }
+.jarg-row-5 td { background: hsl(210 45% 96%); border-bottom: 1px solid hsl(210 45% 87%); }
+.jarg-row-6 td { background: hsl(25 70% 96%);  border-bottom: 1px solid hsl(25 70% 87%);  }
+
+
+/* ============================================================
+   SECTION CARD COLOUR VARIANTS
+   ============================================================ */
+.home-section.gs-card-search   { background: hsl(180 45% 96%) !important; border-left: 4px solid hsl(180 45% 55%) !important; }
+.home-section.gs-card-explore  { background: hsl(35 60% 96%)  !important; border-left: 4px solid hsl(35 60% 55%)  !important; }
+.home-section.gs-card-sidebar  { background: hsl(340 45% 96%) !important; border-left: 4px solid hsl(340 45% 60%) !important; }
+.home-section.gs-card-basket   { background: hsl(125 35% 95%) !important; border-left: 4px solid hsl(125 35% 55%) !important; }
+.home-section.gs-card-blue     { background: hsl(210 45% 96%) !important; border-left: 4px solid hsl(210 45% 55%) !important; }
+.home-section.gs-card-lavender { background: hsl(270 35% 96%) !important; border-left: 4px solid hsl(270 35% 55%) !important; }
+.home-section.gs-card-mint     { background: hsl(160 40% 96%) !important; border-left: 4px solid hsl(160 40% 42%) !important; }
+.home-section.gs-card-gold     { background: hsl(50 70% 95%)  !important; border-left: 4px solid hsl(50 70% 45%)  !important; }
+.home-section.gs-card-bm-limit { background: hsl(40 90% 97%)  !important; border-left: 4px solid #e8a200         !important; }
+.home-section.gs-card-bm-limit h2 i { color: #e8a200; }
+.home-section.gs-card-upload   { background: hsl(270 35% 96%) !important; border-left: 4px solid hsl(270 35% 55%) !important; }
+
+/* ============================================================
+   FIELD SUMMARY TABLES — NSHD Metadata Page & Showcase
+   ============================================================ */
+.field-table            { width: 100%; border-collapse: collapse; font-size: 11.5px; margin-top: 8px; }
+.field-table th         { padding: 8px 12px; color: white; font-weight: 500; text-align: left; font-size: 12px; }
+.field-table td         { padding: 8px 12px; vertical-align: top; line-height: 1.6; }
+.field-table td:first-child { font-weight: 700; white-space: nowrap; width: 18%; }
+.showcase-table            { width: 100%; border-collapse: collapse; font-size: 11.5px; margin-top: 8px; }
+.showcase-table th         { padding: 8px 12px; color: white; font-weight: 500; text-align: left; font-size: 12px; }
+.showcase-table td         { padding: 8px 12px; vertical-align: top; line-height: 1.6; }
+.showcase-table td:first-child { font-weight: 700; white-space: nowrap; width: 18%; }
+
+.ft-r1  td, .sc-r1  td { background: hsl(180 45% 95%); border-bottom: 1px solid hsl(180 45% 86%); }
+.ft-r2  td, .sc-r2  td { background: hsl(35 60% 95%);  border-bottom: 1px solid hsl(35 60% 86%);  }
+.ft-r3  td, .sc-r3  td { background: hsl(340 45% 95%); border-bottom: 1px solid hsl(340 45% 86%); }
+.ft-r4  td, .sc-r4  td { background: hsl(125 35% 94%); border-bottom: 1px solid hsl(125 35% 82%); }
+.ft-r5  td, .sc-r5  td { background: hsl(210 45% 95%); border-bottom: 1px solid hsl(210 45% 86%); }
+.ft-r6  td, .sc-r6  td { background: hsl(270 35% 95%); border-bottom: 1px solid hsl(270 35% 86%); }
+.ft-r7  td, .sc-r7  td { background: hsl(180 45% 95%); border-bottom: 1px solid hsl(180 45% 86%); }
+.ft-r8  td, .sc-r8  td { background: hsl(35 60% 95%);  border-bottom: 1px solid hsl(35 60% 86%);  }
+.ft-r9  td             { background: hsl(340 45% 95%); border-bottom: 1px solid hsl(340 45% 86%); }
+.ft-r10 td             { background: hsl(125 35% 94%); border-bottom: 1px solid hsl(125 35% 82%); }
+.ft-r11 td             { background: hsl(210 45% 95%); border-bottom: 1px solid hsl(210 45% 86%); }
+.ft-r12 td             { background: hsl(270 35% 95%); border-bottom: 1px solid hsl(270 35% 86%); }
+.ft-r13 td             { background: hsl(180 45% 95%); border-bottom: 1px solid hsl(180 45% 86%); }
+.ft-r14 td             { background: hsl(35 60% 95%); }
+
+.ft-r1  td:first-child, .sc-r1  td:first-child { color: hsl(180 45% 18%); }
+.ft-r2  td:first-child, .sc-r2  td:first-child { color: hsl(35 60% 18%);  }
+.ft-r3  td:first-child, .sc-r3  td:first-child { color: hsl(340 45% 22%); }
+.ft-r4  td:first-child, .sc-r4  td:first-child { color: hsl(125 35% 18%); }
+.ft-r5  td:first-child, .sc-r5  td:first-child { color: hsl(210 45% 18%); }
+.ft-r6  td:first-child, .sc-r6  td:first-child { color: hsl(270 35% 22%); }
+.ft-r7  td:first-child, .sc-r7  td:first-child { color: hsl(180 45% 18%); }
+.ft-r8  td:first-child, .sc-r8  td:first-child { color: hsl(35 60% 18%);  }
+.ft-r9  td:first-child  { color: hsl(340 45% 22%); }
+.ft-r10 td:first-child  { color: hsl(125 35% 18%); }
+.ft-r11 td:first-child  { color: hsl(210 45% 18%); }
+.ft-r12 td:first-child  { color: hsl(270 35% 22%); }
+.ft-r13 td:first-child  { color: hsl(180 45% 18%); }
+.ft-r14 td:first-child  { color: hsl(35 60% 18%);  }
+
+/* ============================================================
+   VARIABLE METADATA — field pills with hover tooltips
+   ============================================================ */
+.field-pill {
+  display: inline-block;
+  background: hsl(35 60% 88%);
+  border: 1px solid hsl(35 60% 60%);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-size: 11px;
+  color: hsl(35 60% 18%);
+  margin: 2px 2px;
+  cursor: help;
+  position: relative;
+}
+.field-pill.unique { font-weight: 700; }
+.field-pill[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 0;
+  background: #3a0066;
+  color: white;
+  font-size: 11px;
+  padding: 7px 11px;
+  border-radius: 6px;
+  z-index: 999;
+  pointer-events: none;
+  width: 280px;
+  white-space: normal;
+  text-align: left;
+  line-height: 1.5;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+.field-pill[title]:hover::before {
+  content: '';
+  position: absolute;
+  bottom: calc(100% + 1px);
+  left: 12px;
+  border: 5px solid transparent;
+  border-top-color: #3a0066;
+  z-index: 999;
+}
+
+/* ============================================================
+   VARIABLE METADATA — which-should-i-use grid
+   ============================================================ */
+.which-grid  { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.which-teal  { background: hsl(180 45% 90%); border: 1.5px solid hsl(180 45% 50%); border-left: 4px solid hsl(180 45% 40%); border-radius: 6px; padding: 10px 14px; }
+.which-amber { background: hsl(35 60% 90%);  border: 1.5px solid hsl(35 60% 50%);  border-left: 4px solid hsl(35 60% 40%);  border-radius: 6px; padding: 10px 14px; }
+.which-teal  .wq { font-size: 12px; font-weight: 700; color: hsl(180 45% 16%); margin: 0 0 4px; }
+.which-amber .wq { font-size: 12px; font-weight: 700; color: hsl(35 60% 16%);  margin: 0 0 4px; }
+.which-teal  .wa { font-size: 11px; color: hsl(180 45% 20%); margin: 0; }
+.which-amber .wa { font-size: 11px; color: hsl(35 60% 20%);  margin: 0; }
+
+/* ============================================================
+   WHERE SHOULD I START — search/explore grouping bands
+   ============================================================ */
+.gs-category-band      { display: flex; align-items: center; gap: 10px; border-radius: 8px; padding: 10px 16px; margin: 24px 0 12px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.gs-category-band .ti  { font-size: 18px; }
+.gs-band-search        { background: hsl(180 45% 92%); color: hsl(180 45% 22%); border-left: 4px solid hsl(180 45% 55%); }
+.gs-band-explore       { background: hsl(35 60% 92%);  color: hsl(35 60% 25%);  border-left: 4px solid hsl(35 60% 55%);  }
+.gs-accent-search      { background: hsl(180 45% 96%) !important; border-left: 4px solid hsl(180 45% 55%) !important; border-radius: 8px !important; }
+.gs-accent-explore     { background: hsl(35 60% 96%)  !important; border-left: 4px solid hsl(35 60% 55%)  !important; border-radius: 8px !important; }
+.gs-sidebar-group-label { font-size: 11px !important; font-weight: 700 !important; text-transform: uppercase !important; letter-spacing: 0.05em !important; margin: 0 0 5px 8px !important; }
+.gs-sidebar-search     { color: hsl(180 45% 32%) !important; }
+.gs-sidebar-explore    { color: hsl(35 60% 35%)  !important; }
+.gs-sidebar-group      { margin-bottom: 14px !important; }
+.page-topics .sidebar-summary ul.gs-sidebar-group:nth-of-type(1) a       { color: hsl(180 45% 28%) !important; }
+.page-topics .sidebar-summary ul.gs-sidebar-group:nth-of-type(2) a       { color: hsl(35 60% 30%)  !important; }
+.page-topics .sidebar-summary ul.gs-sidebar-group:nth-of-type(1) a.active { background: rgba(255,255,255,0.9); border-left: 3px solid hsl(180 45% 45%); color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary ul.gs-sidebar-group:nth-of-type(2) a.active { background: rgba(255,255,255,0.9); border-left: 3px solid hsl(35 60% 45%);  color: hsl(35 60% 25%)  !important; }
+
+/* ============================================================
+   SIDEBAR LINK COLOUR CLASSES
+   All rules use .page-topics .sidebar-summary li a.CLASS
+   The extra `li` gives specificity 0,3,1 which beats
+   topics.css's .page-topics .sidebar-summary a (0,2,1)
+   regardless of !important load-order ties.
+   ============================================================ */
+
+/* Getting Started landing page — 5 card colours */
+.page-topics .sidebar-summary li a.gs-toc-gs-1 { color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-gs-2 { color: hsl(35 60% 25%)  !important; }
+.page-topics .sidebar-summary li a.gs-toc-gs-3 { color: hsl(340 45% 28%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-gs-4 { color: hsl(210 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-gs-5 { color: hsl(270 35% 25%) !important; }
+
+/* How the site is organised */
+.page-topics .sidebar-summary li a.gs-toc-search  { color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-explore { color: hsl(35 60% 25%)  !important; }
+.page-topics .sidebar-summary li a.gs-toc-sidebar { color: hsl(340 45% 28%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-basket  { color: hsl(125 35% 22%) !important; }
+
+/* Basket Management */
+.page-topics .sidebar-summary li a.gs-toc-bm-single     { color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-bm-addall     { color: hsl(35 60% 25%)  !important; }
+.page-topics .sidebar-summary li a.gs-toc-bm-pagination { color: hsl(340 45% 28%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-bm-reviewing  { color: hsl(125 35% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-bm-upload     { color: hsl(270 35% 25%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-bm-limit      { color: hsl(40 90% 26%)  !important; }
+
+/* Variable Metadata landing */
+.page-topics .sidebar-summary li a.gs-toc-vm-owl      { color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-vm-showcase { color: hsl(35 60% 25%)  !important; }
+.page-topics .sidebar-summary li a.gs-toc-vm-compare  { color: hsl(340 45% 28%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-vm-which    { color: hsl(125 35% 22%) !important; }
+
+/* NSHD Metadata Page */
+.page-topics .sidebar-summary li a.gs-toc-owl-fields      { color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-owl-linked      { color: hsl(35 60% 25%)  !important; }
+.page-topics .sidebar-summary li a.gs-toc-owl-docs        { color: hsl(340 45% 28%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-owl-categories  { color: hsl(125 35% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-owl-valuelabels { color: hsl(210 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-owl-frequency   { color: hsl(270 35% 25%) !important; }
+
+/* NSHD Showcase */
+.page-topics .sidebar-summary li a.gs-toc-sc-summary   { color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-sc-data      { color: hsl(35 60% 25%)  !important; }
+.page-topics .sidebar-summary li a.gs-toc-sc-instances { color: hsl(340 45% 28%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-sc-notes     { color: hsl(125 35% 22%) !important; }
+
+/* ============================================================
+   DATA ACCESS PAGES — sidebar link colours per section
+   ============================================================ */
+.page-topics .sidebar-summary li a.gs-toc-da-owl      { color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-da-showcase { color: hsl(35  60% 25%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-da-condor   { color: hsl(340 45% 28%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-da-skylark  { color: hsl(125 35% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-da-journey  { color: hsl(210 45% 22%) !important; }
+
+/* ============================================================
+   OWL AND CONDOR PAGE — sidebar link colours
+   ============================================================ */
+.page-topics .sidebar-summary li a.gs-toc-oc-comparison { color: hsl(180 45% 22%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-oc-workflow   { color: hsl(35  60% 25%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-da-vm { color: hsl(270 35% 25%) !important; }
+.page-topics .sidebar-summary li a.gs-toc-da-ukllc { color: hsl(160 40% 22%) !important; } /* gs-card-mint */
+
+/* ============================================================
+   UK LLC PAGE — sidebar link colours per section
+   Pairs with the gs-card-* class on each section's .home-section:
+   gs-card-search=teal(180), gs-card-explore=amber(35),
+   gs-card-sidebar=pink(340), gs-card-basket=green(125),
+   gs-card-lavender=lavender(270), gs-card-blue=blue(210),
+   gs-card-gold=gold(50).
+   ============================================================ */
+.page-topics .sidebar-summary li a.ukl-toc-intro        { color: hsl(180 45% 22%) !important; } /* gs-card-search   */
+.page-topics .sidebar-summary li a.ukl-toc-catalogue    { color: hsl(35  60% 25%) !important; } /* gs-card-explore  */
+.page-topics .sidebar-summary li a.ukl-toc-linked       { color: hsl(340 45% 28%) !important; } /* gs-card-sidebar  */
+.page-topics .sidebar-summary li a.ukl-toc-access       { color: hsl(125 35% 22%) !important; } /* gs-card-basket   */
+.page-topics .sidebar-summary li a.ukl-toc-relationship { color: hsl(270 35% 25%) !important; } /* gs-card-lavender */
+.page-topics .sidebar-summary li a.ukl-toc-governance   { color: hsl(210 45% 22%) !important; } /* gs-card-blue     */
+.page-topics .sidebar-summary li a.ukl-toc-support      { color: hsl(50  70% 24%) !important; } /* gs-card-gold     */
+
+/* ============================================================
+   THE DATA DICTIONARY — sidebar link colours (base + active)
+   "two-ways" is neutral grey since it links to a section holding
+   both the teal AND amber sub-cards, not a single-coloured one.
+   ============================================================ */
+.page-topics .sidebar-summary li a.dd-toc-two-ways         { color: #444444             !important; }
+.page-topics .sidebar-summary li a.dd-toc-download         { color: hsl(125 35% 22%)    !important; }
+.page-topics .sidebar-summary li a.dd-toc-column-reference { color: hsl(340 45% 28%)    !important; }
+.page-topics .sidebar-summary li a.dd-toc-role-notes       { color: hsl(270 35% 25%)    !important; }
+ 
+.page-topics .sidebar-summary li a.dd-toc-two-ways.active         { background: #F0F0F0         !important; border-left: 3px solid #999999         !important; }
+.page-topics .sidebar-summary li a.dd-toc-download.active         { background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; }
+.page-topics .sidebar-summary li a.dd-toc-column-reference.active { background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; }
+.page-topics .sidebar-summary li a.dd-toc-role-notes.active       { background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; }
+
+/* ============================================================
+   STUDY TIMELINE — sidebar link colours (base + active)
+   Matches each chapter's title/dot colour on the page itself.
+   "Independence" reuses lavender rather than pink/blue, since
+   those are reserved for the semantically distinct Women's
+   Health and Covid chapters.
+   ============================================================ */
+.page-topics .sidebar-summary li a.st-toc-download        { color: hsl(270 35% 25%) !important; }
+.page-topics .sidebar-summary li a.st-toc-infancy          { color: hsl(180 45% 20%) !important; }
+.page-topics .sidebar-summary li a.st-toc-childhood        { color: hsl(35  60% 22%) !important; }
+.page-topics .sidebar-summary li a.st-toc-adolescence      { color: hsl(125 35% 20%) !important; }
+.page-topics .sidebar-summary li a.st-toc-independence     { color: hsl(270 35% 25%) !important; }
+.page-topics .sidebar-summary li a.st-toc-establishing     { color: hsl(180 45% 20%) !important; }
+.page-topics .sidebar-summary li a.st-toc-womens-health    { color: #7a1a3a !important; }
+.page-topics .sidebar-summary li a.st-toc-clinical         { color: hsl(35  60% 22%) !important; }
+.page-topics .sidebar-summary li a.st-toc-covid            { color: #0D47A1 !important; }
+.page-topics .sidebar-summary li a.st-toc-later-life       { color: hsl(125 35% 20%) !important; }
+
+.page-topics .sidebar-summary li a.st-toc-download.active        { background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; }
+.page-topics .sidebar-summary li a.st-toc-infancy.active          { background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; }
+.page-topics .sidebar-summary li a.st-toc-childhood.active        { background: hsl(35  60% 94%) !important; border-left: 3px solid hsl(35  60% 45%) !important; }
+.page-topics .sidebar-summary li a.st-toc-adolescence.active      { background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; }
+.page-topics .sidebar-summary li a.st-toc-independence.active     { background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; }
+.page-topics .sidebar-summary li a.st-toc-establishing.active     { background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; }
+.page-topics .sidebar-summary li a.st-toc-womens-health.active    { background: #FCE4EC !important; border-left: 3px solid #e0a0bb !important; }
+.page-topics .sidebar-summary li a.st-toc-clinical.active         { background: hsl(35  60% 94%) !important; border-left: 3px solid hsl(35  60% 45%) !important; }
+.page-topics .sidebar-summary li a.st-toc-covid.active            { background: #E3F2FD !important; border-left: 3px solid #90CAF9 !important; }
+.page-topics .sidebar-summary li a.st-toc-later-life.active       { background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; }
+
+/* ============================================================
+   SEARCH OVERVIEW — sidebar link colours + highlight
+   Uses :target + :has() (not .active) so highlighting works
+   purely in CSS, with no dependency on JS toggling a class.
+   Corrected to match each section's ACTUAL gs-card-* colour.
+   ============================================================ */
+.page-topics .sidebar-summary li a.so-toc-which    { color: hsl(125 35% 20%) !important; } /* gs-card-basket   → green   */
+.page-topics .sidebar-summary li a.so-toc-dd       { color: hsl(180 45% 20%) !important; } /* gs-card-search   → teal    */
+.page-topics .sidebar-summary li a.so-toc-browse   { color: hsl(35  60% 25%) !important; } /* gs-card-explore  → amber   */
+.page-topics .sidebar-summary li a.so-toc-pop      { color: hsl(270 35% 25%) !important; } /* gs-card-lavender → lavender*/
+.page-topics .sidebar-summary li a.so-toc-year     { color: hsl(340 45% 28%) !important; } /* gs-card-sidebar  → pink    */
+.page-topics .sidebar-summary li a.so-toc-long     { color: hsl(125 35% 20%) !important; } /* gs-card-basket   → green   */
+.page-topics .sidebar-summary li a.so-toc-ukllc    { color: hsl(160 40% 22%) !important; } /* gs-card-mint     → mint    */
+.page-topics .sidebar-summary li a.so-toc-shared   { color: hsl(180 45% 20%) !important; } /* gs-card-search   → teal    */
+
+body:has(#which-search:target) .page-topics .sidebar-summary li a.so-toc-which {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.so-toc-which.active {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+body:has(#search-data-dictionary:target) .page-topics .sidebar-summary li a.so-toc-dd {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.so-toc-dd.active {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+body:has(#browse-by-category:target) .page-topics .sidebar-summary li a.so-toc-browse {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.so-toc-browse.active {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+body:has(#popular-variables:target) .page-topics .sidebar-summary li a.so-toc-pop {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.so-toc-pop.active {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+body:has(#search-by-year:target) .page-topics .sidebar-summary li a.so-toc-year {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.so-toc-year.active {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+body:has(#longitudinal-search:target) .page-topics .sidebar-summary li a.so-toc-long {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.so-toc-long.active {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+body:has(#ukllc-catalogue:target) .page-topics .sidebar-summary li a.so-toc-ukllc {
+  background: hsl(160 40% 93%) !important; border-left: 3px solid hsl(160 40% 42%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.so-toc-ukllc.active {
+  background: hsl(160 40% 93%) !important; border-left: 3px solid hsl(160 40% 42%) !important; font-weight: 700;
+}
+body:has(#shared-features:target) .page-topics .sidebar-summary li a.so-toc-shared {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.so-toc-shared.active {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+
+/* ============================================================
+   LONGITUDINAL SEARCH GUIDE — sidebar link colours + highlight
+   Corrected to match each section's ACTUAL gs-card-* colour:
+   gs-card-search=teal(180), gs-card-explore=amber(35),
+   gs-card-sidebar=pink(340), gs-card-basket=green(125),
+   gs-card-lavender=lavender(270).
+   ============================================================ */
+
+.page-topics .sidebar-summary li a.gs-toc-ls-what   { color: hsl(180 45% 20%) !important; } /* gs-card-search   → teal   */
+.page-topics .sidebar-summary li a.gs-toc-ls-strict { color: hsl(35  60% 25%) !important; } /* gs-card-explore  → amber  */
+.page-topics .sidebar-summary li a.gs-toc-ls-search { color: hsl(340 45% 28%) !important; } /* gs-card-sidebar  → pink   */
+.page-topics .sidebar-summary li a.gs-toc-ls-cont   { color: hsl(125 35% 20%) !important; } /* gs-card-basket   → green  */
+.page-topics .sidebar-summary li a.gs-toc-ls-cat    { color: hsl(270 35% 25%) !important; } /* gs-card-lavender → lavender */
+.page-topics .sidebar-summary li a.gs-toc-ls-table  { color: hsl(180 45% 20%) !important; } /* gs-card-search   → teal   */
+.page-topics .sidebar-summary li a.gs-toc-ls-basket { color: hsl(35  60% 25%) !important; } /* gs-card-explore  → amber  */
+.page-topics .sidebar-summary li a.gs-toc-ls-when   { color: hsl(125 35% 20%) !important; } /* gs-card-basket   → green  */
+
+body:has(#what-it-is:target) .page-topics .sidebar-summary li a.gs-toc-ls-what {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.gs-toc-ls-what.active {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+body:has(#strict-linking:target) .page-topics .sidebar-summary li a.gs-toc-ls-strict {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.gs-toc-ls-strict.active {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+body:has(#searching:target) .page-topics .sidebar-summary li a.gs-toc-ls-search {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.gs-toc-ls-search.active {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+body:has(#continuous-charts:target) .page-topics .sidebar-summary li a.gs-toc-ls-cont {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.gs-toc-ls-cont.active {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+body:has(#categorical-charts:target) .page-topics .sidebar-summary li a.gs-toc-ls-cat {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.gs-toc-ls-cat.active {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+body:has(#detail-table:target) .page-topics .sidebar-summary li a.gs-toc-ls-table {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.gs-toc-ls-table.active {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+body:has(#basket:target) .page-topics .sidebar-summary li a.gs-toc-ls-basket {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.gs-toc-ls-basket.active {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+body:has(#when-to-use:target) .page-topics .sidebar-summary li a.gs-toc-ls-when {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.gs-toc-ls-when.active {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+
+
+
+/* ============================================================
+   BROWSE DOCUMENTATION — sidebar link colours + highlight
+   Base colour matches each section's own gs-card-* accent;
+   :target + :has() highlights the link when its section is
+   the current URL target (i.e. right after it's clicked) —
+   same shape as every other block in this file.
+   gs-card-search=teal(180), gs-card-explore=amber(35),
+   gs-card-sidebar=pink(340), gs-card-basket=green(125),
+   gs-card-blue=blue(210), gs-card-lavender=lavender(270),
+   gs-card-download=coral(15), gs-card-indigo=indigo(230)
+   [gs-card-indigo already defined elsewhere for
+   Writing Documentation for OWL — reused here as-is, no new
+   palette colour needed since it isn't otherwise used on this page].
+   ============================================================ */
+
+/* Base (unclicked) colours */
+.page-topics .sidebar-summary li a.doc-toc-browse     { color: hsl(180 45% 20%) !important; } /* gs-card-search   */
+.page-topics .sidebar-summary li a.doc-toc-split      { color: hsl(270 35% 25%) !important; } /* gs-card-lavender */
+.page-topics .sidebar-summary li a.doc-toc-linking    { color: hsl(35  60% 25%) !important; } /* gs-card-explore  */
+.page-topics .sidebar-summary li a.doc-toc-confidence { color: hsl(340 45% 28%) !important; } /* gs-card-sidebar  */
+.page-topics .sidebar-summary li a.doc-toc-renamed    { color: hsl(125 35% 20%) !important; } /* gs-card-basket   */
+.page-topics .sidebar-summary li a.doc-toc-basket     { color: hsl(210 45% 22%) !important; } /* gs-card-blue     */
+.page-topics .sidebar-summary li a.doc-toc-create     { color: hsl(230 40% 30%) !important; } /* gs-card-indigo   */
+.page-topics .sidebar-summary li a.doc-toc-pageproof  { color: hsl(15  65% 30%) !important; } /* gs-card-download */
+
+/* Active (clicked) highlight, one per section id */
+body:has(#browse:target) .page-topics .sidebar-summary li a.doc-toc-browse {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.doc-toc-browse.active {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+body:has(#doc-types:target) .page-topics .sidebar-summary li a.doc-toc-split {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.doc-toc-split.active {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+body:has(#how-linking-works:target) .page-topics .sidebar-summary li a.doc-toc-linking {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.doc-toc-linking.active {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+body:has(#confidence-levels:target) .page-topics .sidebar-summary li a.doc-toc-confidence {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.doc-toc-confidence.active {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+body:has(#renamed-variables:target) .page-topics .sidebar-summary li a.doc-toc-renamed {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.doc-toc-renamed.active {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+body:has(#adding-to-basket:target) .page-topics .sidebar-summary li a.doc-toc-basket {
+  background: hsl(210 45% 94%) !important; border-left: 3px solid hsl(210 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.doc-toc-basket.active {
+  background: hsl(210 45% 94%) !important; border-left: 3px solid hsl(210 45% 45%) !important; font-weight: 700;
+}
+body:has(#create-documentation:target) .page-topics .sidebar-summary li a.doc-toc-create {
+  background: hsl(230 40% 95%) !important; border-left: 3px solid hsl(230 40% 52%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.doc-toc-create.active {
+  background: hsl(230 40% 95%) !important; border-left: 3px solid hsl(230 40% 52%) !important; font-weight: 700;
+}
+body:has(#page-proof:target) .page-topics .sidebar-summary li a.doc-toc-pageproof {
+  background: hsl(15 65% 94%) !important; border-left: 3px solid hsl(15 65% 48%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.doc-toc-pageproof.active {
+  background: hsl(15 65% 94%) !important; border-left: 3px solid hsl(15 65% 48%) !important; font-weight: 700;
+}
+
+/* ============================================================
+   NEW PALETTE COLOUR — gs-card-download
+   The six existing gs-card-* colours (search/explore/sidebar/
+   basket/blue/lavender) were already all in use elsewhere on
+   this page, so Page Proof — being a downloadable tool rather
+   than an explanatory section like the rest — gets a seventh,
+   in the same construction pattern as the others (border ~45-50%,
+   background ~93-95% lightness, text ~20-30%).
+   ============================================================ */
+.home-section.gs-card-download { background: hsl(15 65% 95%) !important; border-left: 4px solid hsl(15 65% 55%) !important; }
+
+
+
+
+
+/* ============================================================
+   WRITING DOCUMENTATION FOR OWL — sidebar link colours + highlight
+   Base colour matches each section's own gs-card-* accent;
+   :target + :has() highlights the link when its section is
+   the current URL target — same shape as every other block
+   in this file.
+   gs-card-search=teal(180), gs-card-explore=amber(35),
+   gs-card-sidebar=pink(340), gs-card-basket=green(125),
+   gs-card-blue=blue(210), gs-card-lavender=lavender(270),
+   gs-card-download=coral(15), gs-card-indigo=indigo(230)
+   [see the Browse Documentation block above for where
+   gs-card-download was introduced; gs-card-indigo is new
+   here, needed because all 7 existing colours were already
+   in use elsewhere on this page].
+   ============================================================ */
+
+/* Base (unclicked) colours */
+.page-topics .sidebar-summary li a.wdo-toc-what      { color: hsl(230 40% 30%) !important; } /* gs-card-indigo   */
+.page-topics .sidebar-summary li a.wdo-toc-download  { color: hsl(15  65% 30%) !important; } /* gs-card-download */
+.page-topics .sidebar-summary li a.wdo-toc-webpage   { color: hsl(180 45% 20%) !important; } /* gs-card-search   */
+.page-topics .sidebar-summary li a.wdo-toc-variables { color: hsl(35  60% 25%) !important; } /* gs-card-explore  */
+.page-topics .sidebar-summary li a.wdo-toc-topsheet  { color: hsl(340 45% 28%) !important; } /* gs-card-sidebar  */
+.page-topics .sidebar-summary li a.wdo-toc-sections  { color: hsl(125 35% 20%) !important; } /* gs-card-basket   */
+.page-topics .sidebar-summary li a.wdo-toc-lists     { color: hsl(210 45% 22%) !important; } /* gs-card-blue     */
+.page-topics .sidebar-summary li a.wdo-toc-together  { color: hsl(270 35% 25%) !important; } /* gs-card-lavender */
+
+/* Active (clicked) highlight, one per section id */
+body:has(#what-it-is:target) .page-topics .sidebar-summary li a.wdo-toc-what {
+  background: hsl(230 40% 95%) !important; border-left: 3px solid hsl(230 40% 52%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.wdo-toc-what.active {
+  background: hsl(230 40% 95%) !important; border-left: 3px solid hsl(230 40% 52%) !important; font-weight: 700;
+}
+body:has(#download:target) .page-topics .sidebar-summary li a.wdo-toc-download {
+  background: hsl(15 65% 94%) !important; border-left: 3px solid hsl(15 65% 48%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.wdo-toc-download.active {
+  background: hsl(15 65% 94%) !important; border-left: 3px solid hsl(15 65% 48%) !important; font-weight: 700;
+}
+body:has(#word-to-webpage:target) .page-topics .sidebar-summary li a.wdo-toc-webpage {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.wdo-toc-webpage.active {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+body:has(#variables-found:target) .page-topics .sidebar-summary li a.wdo-toc-variables {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.wdo-toc-variables.active {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+body:has(#topsheet-table:target) .page-topics .sidebar-summary li a.wdo-toc-topsheet {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.wdo-toc-topsheet.active {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+body:has(#sections-headings:target) .page-topics .sidebar-summary li a.wdo-toc-sections {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.wdo-toc-sections.active {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+body:has(#lists-tables-images:target) .page-topics .sidebar-summary li a.wdo-toc-lists {
+  background: hsl(210 45% 94%) !important; border-left: 3px solid hsl(210 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.wdo-toc-lists.active {
+  background: hsl(210 45% 94%) !important; border-left: 3px solid hsl(210 45% 45%) !important; font-weight: 700;
+}
+body:has(#putting-together:target) .page-topics .sidebar-summary li a.wdo-toc-together {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.wdo-toc-together.active {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+
+/* ============================================================
+   NEW PALETTE COLOUR — gs-card-indigo
+   All 7 existing gs-card-* colours (search/explore/sidebar/
+   basket/blue/lavender/download) were already in use elsewhere
+   on this page, so "What this guide is for" gets an 8th, in the
+   same construction pattern as the others (border ~45-52%,
+   background ~93-95% lightness, text ~20-30%). Also chosen to
+   sit clearly apart from the hero banner's own gradient (which
+   includes a light lavender tone) — this is the same adjacency
+   problem fixed on Browse Documentation, avoided here by
+   picking a hue distinct from that gradient rather than reusing
+   lavender for the section right below it.
+   ============================================================ */
+.home-section.gs-card-indigo { background: hsl(230 40% 96%) !important; border-left: 4px solid hsl(230 40% 58%) !important; }
+
+
+
+/* ============================================================
+   CREATE DOCUMENTATION ONLINE — sidebar link colours + highlight
+   Base colour matches each section's own gs-card-* accent;
+   :target + :has() highlights the link when its section is
+   the current URL target — same shape as every other block
+   in this file.
+   gs-card-download=coral(15), gs-card-search=teal(180),
+   gs-card-basket=green(125), gs-card-explore=amber(35).
+   ============================================================ */
+.page-topics .sidebar-summary li a.cdo-toc-offline { color: hsl(15  65% 30%) !important; } /* gs-card-download */
+.page-topics .sidebar-summary li a.cdo-toc-builder { color: hsl(180 45% 20%) !important; } /* gs-card-search   */
+.page-topics .sidebar-summary li a.cdo-toc-save    { color: hsl(125 35% 20%) !important; } /* gs-card-basket   */
+.page-topics .sidebar-summary li a.cdo-toc-preview { color: hsl(35  60% 25%) !important; } /* gs-card-explore  */
+
+body:has(#db-offline-note:target) .page-topics .sidebar-summary li a.cdo-toc-offline {
+  background: hsl(15 65% 94%) !important; border-left: 3px solid hsl(15 65% 48%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.cdo-toc-offline.active {
+  background: hsl(15 65% 94%) !important; border-left: 3px solid hsl(15 65% 48%) !important; font-weight: 700;
+}
+body:has(#db-builder:target) .page-topics .sidebar-summary li a.cdo-toc-builder {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.cdo-toc-builder.active {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+body:has(#db-save-download:target) .page-topics .sidebar-summary li a.cdo-toc-save {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.cdo-toc-save.active {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+body:has(#db-preview-section:target) .page-topics .sidebar-summary li a.cdo-toc-preview {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.cdo-toc-preview.active {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+
+
+/* ============================================================
+   USING CREATE DOCUMENTATION ONLINE — sidebar link colours + highlight
+   gs-card-indigo=indigo(230), gs-card-search=teal(180),
+   gs-card-explore=amber(35), gs-card-sidebar=pink(340),
+   gs-card-basket=green(125), gs-card-blue=blue(210),
+   gs-card-lavender=lavender(270).
+   ============================================================ */
+.page-topics .sidebar-summary li a.ucdo-toc-what    { color: hsl(230 40% 30%) !important; } /* gs-card-indigo   */
+.page-topics .sidebar-summary li a.ucdo-toc-topsheet{ color: hsl(180 45% 20%) !important; } /* gs-card-search   */
+.page-topics .sidebar-summary li a.ucdo-toc-vars    { color: hsl(160 40% 22%) !important; } /* gs-card-mint     */
+.page-topics .sidebar-summary li a.ucdo-toc-preview { color: hsl(50  70% 26%) !important; } /* gs-card-gold     */
+.page-topics .sidebar-summary li a.ucdo-toc-blocks  { color: hsl(35  60% 25%) !important; } /* gs-card-explore  */
+.page-topics .sidebar-summary li a.ucdo-toc-reorder { color: hsl(340 45% 28%) !important; } /* gs-card-sidebar  */
+.page-topics .sidebar-summary li a.ucdo-toc-colour  { color: hsl(125 35% 20%) !important; } /* gs-card-basket   */
+.page-topics .sidebar-summary li a.ucdo-toc-checks  { color: hsl(15  65% 30%) !important; } /* gs-card-download */
+.page-topics .sidebar-summary li a.ucdo-toc-save    { color: hsl(210 45% 22%) !important; } /* gs-card-blue     */
+.page-topics .sidebar-summary li a.ucdo-toc-example { color: hsl(270 35% 25%) !important; } /* gs-card-lavender */
+
+body:has(#what-this-covers:target) .page-topics .sidebar-summary li a.ucdo-toc-what {
+  background: hsl(230 40% 95%) !important; border-left: 3px solid hsl(230 40% 52%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-what.active {
+  background: hsl(230 40% 95%) !important; border-left: 3px solid hsl(230 40% 52%) !important; font-weight: 700;
+}
+body:has(#topsheet-fields:target) .page-topics .sidebar-summary li a.ucdo-toc-topsheet {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-topsheet.active {
+  background: hsl(180 45% 94%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700;
+}
+body:has(#preview-options:target) .page-topics .sidebar-summary li a.ucdo-toc-preview {
+  background: hsl(50 70% 92%) !important; border-left: 3px solid hsl(50 70% 42%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-preview.active {
+  background: hsl(50 70% 92%) !important; border-left: 3px solid hsl(50 70% 42%) !important; font-weight: 700;
+}
+body:has(#variables-in-document:target) .page-topics .sidebar-summary li a.ucdo-toc-vars {
+  background: hsl(160 40% 94%) !important; border-left: 3px solid hsl(160 40% 42%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-vars.active {
+  background: hsl(160 40% 94%) !important; border-left: 3px solid hsl(160 40% 42%) !important; font-weight: 700;
+}
+body:has(#block-types:target) .page-topics .sidebar-summary li a.ucdo-toc-blocks {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-blocks.active {
+  background: hsl(35 60% 94%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700;
+}
+body:has(#reordering:target) .page-topics .sidebar-summary li a.ucdo-toc-reorder {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-reorder.active {
+  background: hsl(340 45% 95%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700;
+}
+body:has(#colour-coding:target) .page-topics .sidebar-summary li a.ucdo-toc-colour {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-colour.active {
+  background: hsl(125 35% 93%) !important; border-left: 3px solid hsl(125 35% 45%) !important; font-weight: 700;
+}
+body:has(#formatting-checks:target) .page-topics .sidebar-summary li a.ucdo-toc-checks {
+  background: hsl(15 65% 94%) !important; border-left: 3px solid hsl(15 65% 48%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-checks.active {
+  background: hsl(15 65% 94%) !important; border-left: 3px solid hsl(15 65% 48%) !important; font-weight: 700;
+}
+body:has(#save-download:target) .page-topics .sidebar-summary li a.ucdo-toc-save {
+  background: hsl(210 45% 94%) !important; border-left: 3px solid hsl(210 45% 45%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-save.active {
+  background: hsl(210 45% 94%) !important; border-left: 3px solid hsl(210 45% 45%) !important; font-weight: 700;
+}
+body:has(#try-example:target) .page-topics .sidebar-summary li a.ucdo-toc-example {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}
+.page-topics .sidebar-summary li a.ucdo-toc-example.active {
+  background: hsl(270 35% 95%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700;
+}

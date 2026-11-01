@@ -1,0 +1,513 @@
+{
+  "varname": "diab82",
+  "label": "Do you have diabetes all or most of the time - at age 36 years",
+  "field_id": "7650",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7650",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 3319.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "diab22x",
+    "diab09",
+    "diab25x",
+    "diab",
+    "diaby25x",
+    "diab14x",
+    "ddiab15x",
+    "diab89"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2014",
+    "2015",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "General health [3]",
+    "Endocrine and metabolic conditions [51015]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 3302,
+      "pct": 99.5
+    },
+    {
+      "label": "Yes",
+      "count": 17,
+      "pct": 0.5
+    }
+  ],
+  "pdf": {
+    "varname": "diab82",
+    "label": "Do you have diabetes all or most of the time - at age 36 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "diab82"
+      ],
+      [
+        "Field ID",
+        "7650"
+      ],
+      [
+        "Label",
+        "Do you have diabetes all or most of the time - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "B14"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "20"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "diab22x",
+        "Since your 68th birthday, have you been told by a doctor that you have diabetes - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "69",
+        "Postal22"
+      ],
+      [
+        "diab09",
+        "Since 1999 have you been told that you have diabetes (postal questionnaire) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "10(a)",
+        "DIABGP09"
+      ],
+      [
+        "diab25x",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Diabetes - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "diab",
+        "Have you had diabetes in the last 10 years - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "38",
+        "capi99a"
+      ],
+      [
+        "diaby25x",
+        "Since the age of 60 years, when were you told that you had diabetes - Year - at age 76 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "diab14x",
+        "Since 2006 have you been told by a doctor that you have diabetes - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "29(a)",
+        "CVDEvents14"
+      ],
+      [
+        "ddiab15x",
+        "Since 2006, have you been told by a doctor that you have diabetes - at age 69 years",
+        "2015",
+        "Home visit",
+        "6(a)",
+        "MedicalConditions15"
+      ],
+      [
+        "diab89",
+        "Have you ever had diabetes - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Endocrine and metabolic conditions [51015]",
+        "This category contains data from the questionnaires on whether the participant has any endocrine and metabolic conditions asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2025 (age 79 years). Data collected includes the type of diabetes, how it is being controlled and the date of diagnosis. At age 60-64 years GP validation was also carried out. The CLS harmonisation dataset which also includes the covid questionnaires 2020-2022 is also included."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "3302",
+        "99%"
+      ],
+      [
+        "1",
+        "17",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "3319",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "diab82",
+    "label": "Do you have diabetes all or most of the time - at age 36 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7650",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "diab82",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7650",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Do you have diabetes all or most of the time - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "B14",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "20",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "diab22x",
+        "description": "Since your 68th birthday, have you been told by a doctor that you have diabetes - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "69",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "diab09",
+        "description": "Since 1999 have you been told that you have diabetes (postal questionnaire) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "10(a)",
+        "library_file": "DIABGP09"
+      },
+      {
+        "varname": "diab25x",
+        "description": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Diabetes - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "diab",
+        "description": "Have you had diabetes in the last 10 years - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "38",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "diaby25x",
+        "description": "Since the age of 60 years, when were you told that you had diabetes - Year - at age 76 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "diab14x",
+        "description": "Since 2006 have you been told by a doctor that you have diabetes - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "29(a)",
+        "library_file": "CVDEvents14"
+      },
+      {
+        "varname": "ddiab15x",
+        "description": "Since 2006, have you been told by a doctor that you have diabetes - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "6(a)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "diab89",
+        "description": "Have you ever had diabetes - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Endocrine and metabolic conditions [51015]",
+        "description": "This category contains data from the questionnaires on whether the participant has any endocrine and metabolic conditions asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2025 (age 79 years). Data collected includes the type of diabetes, how it is being controlled and the date of diagnosis. At age 60-64 years GP validation was also carried out. The CLS harmonisation dataset which also includes the covid questionnaires 2020-2022 is also included.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Endocrine_and_metabolic_conditions_51015.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 3302,
+          "pct": 99
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 17,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "3302",
+        "99%"
+      ],
+      [
+        "1",
+        "17",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "3319",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

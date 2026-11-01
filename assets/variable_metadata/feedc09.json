@@ -1,0 +1,456 @@
+{
+  "varname": "feedc09",
+  "label": "If difficult feeding yourself, can you feed yourself without aids or personal help? - at age 60-64 years",
+  "field_id": "10394",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10394",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "feed15x",
+    "feed09",
+    "heat282",
+    "feed25x",
+    "feedc89",
+    "feed22x",
+    "feed89",
+    "feedc15x",
+    "heat82"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "2006-10",
+    "2015",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Physical capability [5108]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8.0",
+      "label": "N/A - no difficulty"
+    },
+    {
+      "value": "9.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "feedc09",
+    "label": "If difficult feeding yourself, can you feed yourself without aids or personal help? - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "feedc09"
+      ],
+      [
+        "Field ID",
+        "10394"
+      ],
+      [
+        "Label",
+        "If difficult feeding yourself, can you feed yourself without aids or personal help? - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "PhysCap09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "54(h)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell counts issue. Recoded version is available."
+      ],
+      [
+        "Notes",
+        "Difficulties participant may have in carrying out daily activities from the 2006-10 nurse schedule."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "feed15x",
+        "Do you have any difficulty feeding yourself, including cutting up food - at age 69 years",
+        "2015",
+        "Home visit",
+        "37",
+        "PhysCap15"
+      ],
+      [
+        "feed09",
+        "Is it difficult because of long-term health problems, feeding yourself - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "54(h)",
+        "PhysCap09"
+      ],
+      [
+        "heat282",
+        "Do you have difficulty with eating or drinking without help, that has gone on for two weeks or more? Has it lasted for the last 2 weeks? - at age 36 years ",
+        "1982",
+        "C - Self completion",
+        "14",
+        "B26"
+      ],
+      [
+        "feed25x",
+        "Are you able to do the following activities alone or is help required? - Feed myself - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "18",
+        "Postal2025"
+      ],
+      [
+        "feedc89",
+        "If difficult for you to feed yourself, including cutting up food, can you feed yourself, including cutting up food, without help? - at age 43 years",
+        "1989",
+        "C - Disability Supplementary questions",
+        "2(h)",
+        "de89c"
+      ],
+      [
+        "feed22x",
+        "Are you able to do the following activities alone or is help required? - Feed myself - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "111",
+        "Postal22"
+      ],
+      [
+        "feed89",
+        "Due to long-term health problems or physical or mental disabilities is it difficult for you to feed yourself, including cutting up food? - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Section D - 2(h)",
+        "de89d"
+      ],
+      [
+        "feedc15x",
+        "Can you feed yourself without aids or personal help - at age 69 years",
+        "2015",
+        "Home visit",
+        "38",
+        "PhysCap15"
+      ],
+      [
+        "heat82",
+        "Do you have difficulty with eating or drinking without help, that has gone on for two weeks or more? Was this caused by illness, injury or ill health?  - at age 36 years ",
+        "1982",
+        "C - Self completion",
+        "14",
+        "B26"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Physical capability [5108]",
+        "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8.0",
+        "N/A - no difficulty",
+        true
+      ],
+      [
+        "9.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "feedc09",
+    "label": "If difficult feeding yourself, can you feed yourself without aids or personal help? - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10394",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "feedc09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10394",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "If difficult feeding yourself, can you feed yourself without aids or personal help? - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysCap09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "54(h)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell counts issue. Recoded version is available.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Difficulties participant may have in carrying out daily activities from the 2006-10 nurse schedule.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "feed15x",
+        "description": "Do you have any difficulty feeding yourself, including cutting up food - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "37",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "feed09",
+        "description": "Is it difficult because of long-term health problems, feeding yourself - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "54(h)",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "heat282",
+        "description": "Do you have difficulty with eating or drinking without help, that has gone on for two weeks or more? Has it lasted for the last 2 weeks? - at age 36 years ",
+        "year": "1982",
+        "form": "C - Self completion",
+        "question": "14",
+        "library_file": "B26"
+      },
+      {
+        "varname": "feed25x",
+        "description": "Are you able to do the following activities alone or is help required? - Feed myself - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "18",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "feedc89",
+        "description": "If difficult for you to feed yourself, including cutting up food, can you feed yourself, including cutting up food, without help? - at age 43 years",
+        "year": "1989",
+        "form": "C - Disability Supplementary questions",
+        "question": "2(h)",
+        "library_file": "de89c"
+      },
+      {
+        "varname": "feed22x",
+        "description": "Are you able to do the following activities alone or is help required? - Feed myself - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "111",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "feed89",
+        "description": "Due to long-term health problems or physical or mental disabilities is it difficult for you to feed yourself, including cutting up food? - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Section D - 2(h)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "feedc15x",
+        "description": "Can you feed yourself without aids or personal help - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "38",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "heat82",
+        "description": "Do you have difficulty with eating or drinking without help, that has gone on for two weeks or more? Was this caused by illness, injury or ill health?  - at age 36 years ",
+        "year": "1982",
+        "form": "C - Self completion",
+        "question": "14",
+        "library_file": "B26"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical capability [5108]",
+        "description": "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_5108.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8.0",
+        "label": "N/A - no difficulty",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 9,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

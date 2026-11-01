@@ -1,0 +1,551 @@
+{
+  "varname": "cmageybirth_eldest_53",
+  "label": "Age in years of study member at birth of oldest child [age 53] (CLS harmonisation)",
+  "field_id": "21947",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21947",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "years",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 24.97364953886693,
+  "sd": 3.720494756763419,
+  "series_size": 2277.0,
+  "minimum": 19.0,
+  "maximum": 34.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "cmageybirth_eldest_43",
+    "cmageybirth_eldest_36",
+    "cmageybirth_eldest_31",
+    "cmageybirth_eldest_26"
+  ],
+  "linked_years": [
+    "1972",
+    "1977",
+    "1982",
+    "1989"
+  ],
+  "categories": [
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-10.0",
+      "label": "No children"
+    },
+    {
+      "value": "-100.0",
+      "label": "No participation in sweep"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Information not provided"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "cmageybirth_eldest_53",
+    "label": "Age in years of study member at birth of oldest child [age 53] (CLS harmonisation)",
+    "meta_rows": [
+      [
+        "Variable",
+        "cmageybirth_eldest_53"
+      ],
+      [
+        "Field ID",
+        "21947"
+      ],
+      [
+        "Label",
+        "Age in years of study member at birth of oldest child [age 53] (CLS harmonisation)"
+      ],
+      [
+        "Card Number",
+        "CLS_fertility"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Derived as part of the CLS fertility work"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "cmageybirth_eldest_43",
+        "Age in years of study member at birth of oldest child [age 43] (CLS harmonisation)",
+        "1989",
+        "A - Main questionnaire",
+        "9",
+        "CLS_fertility"
+      ],
+      [
+        "cmageybirth_eldest_36",
+        "Age in years of study member at birth of oldest child [age 36] (CLS harmonisation)",
+        "1982",
+        "A - Main questionnaire",
+        "10",
+        "CLS_fertility"
+      ],
+      [
+        "cmageybirth_eldest_31",
+        "Age in years of study member at birth of oldest child [age 31] (CLS harmonisation)",
+        "1977",
+        "H6 - Postal questionnaire",
+        "4",
+        "CLS_fertility"
+      ],
+      [
+        "cmageybirth_eldest_26",
+        "Age in years of study member at birth of oldest child [age 26] (CLS harmonisation)",
+        "1972",
+        "Section A - Main questionnaire",
+        "2",
+        "CLS_fertility"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-10.0",
+        "No children",
+        true
+      ],
+      [
+        "-100.0",
+        "No participation in sweep",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Information not provided",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "19"
+      ],
+      [
+        "Maximum",
+        "34"
+      ],
+      [
+        "Range",
+        "15"
+      ],
+      [
+        "Median",
+        "25.0"
+      ],
+      [
+        "IQR",
+        "22.0 - 28.0"
+      ],
+      [
+        "Decile 1",
+        "20.0"
+      ],
+      [
+        "Decile 2",
+        "21.0"
+      ],
+      [
+        "Decile 3",
+        "22.0"
+      ],
+      [
+        "Decile 4",
+        "24.0"
+      ],
+      [
+        "Decile 5",
+        "25.0"
+      ],
+      [
+        "Decile 6",
+        "26.0"
+      ],
+      [
+        "Decile 7",
+        "27.0"
+      ],
+      [
+        "Decile 8",
+        "28.0"
+      ],
+      [
+        "Decile 9",
+        "30.0"
+      ],
+      [
+        "Mean",
+        "24.97364953886693"
+      ],
+      [
+        "Std Dev.",
+        "3.720494756763419"
+      ],
+      [
+        "Variance",
+        "13.842081235104091"
+      ],
+      [
+        "Displayed N",
+        "2277"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "cmageybirth_eldest_53",
+    "label": "Age in years of study member at birth of oldest child [age 53] (CLS harmonisation)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21947",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cmageybirth_eldest_53",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "21947",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age in years of study member at birth of oldest child [age 53] (CLS harmonisation)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CLS_fertility",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived as part of the CLS fertility work",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "cmageybirth_eldest_43",
+        "description": "Age in years of study member at birth of oldest child [age 43] (CLS harmonisation)",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "9",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "cmageybirth_eldest_36",
+        "description": "Age in years of study member at birth of oldest child [age 36] (CLS harmonisation)",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "10",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "cmageybirth_eldest_31",
+        "description": "Age in years of study member at birth of oldest child [age 31] (CLS harmonisation)",
+        "year": "1977",
+        "form": "H6 - Postal questionnaire",
+        "question": "4",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "cmageybirth_eldest_26",
+        "description": "Age in years of study member at birth of oldest child [age 26] (CLS harmonisation)",
+        "year": "1972",
+        "form": "Section A - Main questionnaire",
+        "question": "2",
+        "library_file": "CLS_fertility"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-10.0",
+        "label": "No children",
+        "is_missing": true
+      },
+      {
+        "value": "-100.0",
+        "label": "No participation in sweep",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Information not provided",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          19.0,
+          20.0,
+          21.0,
+          22.0,
+          23.0,
+          24.0,
+          25.0,
+          26.0,
+          27.0,
+          28.0,
+          29.0,
+          30.0,
+          31.0,
+          32.0,
+          33.0,
+          34.0
+        ],
+        "counts": [
+          105,
+          179,
+          187,
+          230,
+          176,
+          210,
+          202,
+          224,
+          189,
+          172,
+          115,
+          91,
+          66,
+          45,
+          86
+        ]
+      },
+      "boxplot": {
+        "min": 19.0,
+        "q1": 22.0,
+        "median": 25.0,
+        "q3": 28.0,
+        "max": 34.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "19"
+      ],
+      [
+        "Maximum",
+        "34"
+      ],
+      [
+        "Range",
+        "15"
+      ],
+      [
+        "Median",
+        "25.0"
+      ],
+      [
+        "IQR",
+        "22.0 - 28.0"
+      ],
+      [
+        "Decile 1",
+        "20.0"
+      ],
+      [
+        "Decile 2",
+        "21.0"
+      ],
+      [
+        "Decile 3",
+        "22.0"
+      ],
+      [
+        "Decile 4",
+        "24.0"
+      ],
+      [
+        "Decile 5",
+        "25.0"
+      ],
+      [
+        "Decile 6",
+        "26.0"
+      ],
+      [
+        "Decile 7",
+        "27.0"
+      ],
+      [
+        "Decile 8",
+        "28.0"
+      ],
+      [
+        "Decile 9",
+        "30.0"
+      ],
+      [
+        "Mean",
+        "24.97364953886693"
+      ],
+      [
+        "Std Dev.",
+        "3.720494756763419"
+      ],
+      [
+        "Variance",
+        "13.842081235104091"
+      ],
+      [
+        "Displayed N",
+        "2277"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

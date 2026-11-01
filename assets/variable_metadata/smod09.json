@@ -1,0 +1,705 @@
+{
+  "varname": "smod09",
+  "label": "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 60-64 years",
+  "field_id": "8790",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8790",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "cigs/days",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 15.69140625,
+  "sd": 6.78596353861859,
+  "series_size": 256.0,
+  "minimum": 4.0,
+  "maximum": 30.0,
+  "truly_longitudinal_field_id": "8790",
+  "truly_longitudinal_varnames": [
+    "smod14x",
+    "smod22x"
+  ],
+  "truly_longitudinal_years": [
+    "2006-10",
+    "2014",
+    "2022"
+  ],
+  "linked_varnames": [
+    "cigno89",
+    "smods82",
+    "smods89",
+    "cigno77",
+    "cigno99",
+    "cigno71",
+    "cigno82",
+    "smods",
+    "cigno66"
+  ],
+  "linked_years": [
+    "1966",
+    "1971",
+    "1977",
+    "1982",
+    "1989",
+    "1999"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "Smoking [5251]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "666.0",
+      "label": "Less than one cigarette smoked per day"
+    },
+    {
+      "value": "667.0",
+      "label": "SM has Pre-assessment and Postal Qs but was not asked the smoking questions"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "smod09",
+    "label": "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "smod09"
+      ],
+      [
+        "Field ID",
+        "8790"
+      ],
+      [
+        "Label",
+        "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Smoking09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "54(b)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "cigs/days"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lifestyle questions - smoking habits Q54-Q67"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "smod22x",
+        "2022",
+        "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 76 years"
+      ],
+      [
+        "smod14x",
+        "2014",
+        "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 68 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "cigno89",
+        "Number of cigarettes smoked per day - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "74(c)",
+        "smoke"
+      ],
+      [
+        "smods82",
+        "About how many cigarettes do you now smoke per day? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "77(c)",
+        "B19"
+      ],
+      [
+        "smods89",
+        "How many cigarettes a day do you usually smoke? If roll-ups, please give the equivalent number of cigarettes - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "74(c)",
+        "de89d"
+      ],
+      [
+        "cigno77",
+        "Number of cigarettes smoked per day - at age 31 years",
+        "1977",
+        "H6 - Postal questionnaire",
+        "23(d)",
+        "smoke"
+      ],
+      [
+        "cigno99",
+        "Number of cigarettes smoked per day - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "58(b)",
+        "smoke"
+      ],
+      [
+        "cigno71",
+        "Number of cigarettes smoked per day - at age 25 years",
+        "1971",
+        "H5 - Postal questionnaire",
+        "18(d)",
+        "smoke"
+      ],
+      [
+        "cigno82",
+        "Number of cigarettes smoked per day - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "77(c)",
+        "smoke"
+      ],
+      [
+        "smods",
+        "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "58(b)",
+        "capi99a"
+      ],
+      [
+        "cigno66",
+        "Number of cigarettes smoked per day - at age 20 years",
+        "1966",
+        "H2 - Postal questionnaire",
+        "25(g)",
+        "smoke"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Smoking [5251]",
+        "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "666.0",
+        "Less than one cigarette smoked per day",
+        true
+      ],
+      [
+        "667.0",
+        "SM has Pre-assessment and Postal Qs but was not asked the smoking questions",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "4"
+      ],
+      [
+        "Maximum",
+        "30"
+      ],
+      [
+        "Range",
+        "26"
+      ],
+      [
+        "Median",
+        "15.0"
+      ],
+      [
+        "IQR",
+        "10.0 - 20.0"
+      ],
+      [
+        "Decile 1",
+        "7.0"
+      ],
+      [
+        "Decile 2",
+        "10.0"
+      ],
+      [
+        "Decile 3",
+        "10.0"
+      ],
+      [
+        "Decile 4",
+        "14.0"
+      ],
+      [
+        "Decile 5",
+        "15.0"
+      ],
+      [
+        "Decile 6",
+        "20.0"
+      ],
+      [
+        "Decile 7",
+        "20.0"
+      ],
+      [
+        "Decile 8",
+        "20.0"
+      ],
+      [
+        "Decile 9",
+        "25.0"
+      ],
+      [
+        "Mean",
+        "15.69140625"
+      ],
+      [
+        "Std Dev.",
+        "6.78596353861859"
+      ],
+      [
+        "Variance",
+        "46.04930114746094"
+      ],
+      [
+        "Displayed N",
+        "256"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "smod09",
+    "label": "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8790",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "smod09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8790",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Smoking09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "54(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "cigs/days",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lifestyle questions - smoking habits Q54-Q67",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "8790",
+      "members": [
+        {
+          "varname": "smod09",
+          "year": "2006-10",
+          "label": "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "smod14x",
+          "year": "2014",
+          "label": "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 68 years",
+          "is_current": false
+        },
+        {
+          "varname": "smod22x",
+          "year": "2022",
+          "label": "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes. Please do not include electronic cigarettes - at age 76 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "cigno89",
+        "description": "Number of cigarettes smoked per day - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "74(c)",
+        "library_file": "smoke"
+      },
+      {
+        "varname": "smods82",
+        "description": "About how many cigarettes do you now smoke per day? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "77(c)",
+        "library_file": "B19"
+      },
+      {
+        "varname": "smods89",
+        "description": "How many cigarettes a day do you usually smoke? If roll-ups, please give the equivalent number of cigarettes - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "74(c)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "cigno77",
+        "description": "Number of cigarettes smoked per day - at age 31 years",
+        "year": "1977",
+        "form": "H6 - Postal questionnaire",
+        "question": "23(d)",
+        "library_file": "smoke"
+      },
+      {
+        "varname": "cigno99",
+        "description": "Number of cigarettes smoked per day - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "58(b)",
+        "library_file": "smoke"
+      },
+      {
+        "varname": "cigno71",
+        "description": "Number of cigarettes smoked per day - at age 25 years",
+        "year": "1971",
+        "form": "H5 - Postal questionnaire",
+        "question": "18(d)",
+        "library_file": "smoke"
+      },
+      {
+        "varname": "cigno82",
+        "description": "Number of cigarettes smoked per day - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "77(c)",
+        "library_file": "smoke"
+      },
+      {
+        "varname": "smods",
+        "description": "How many cigarettes a day do you usually smoke? If you smoke roll-ups, please give the equivalent number of cigarettes - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "58(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "cigno66",
+        "description": "Number of cigarettes smoked per day - at age 20 years",
+        "year": "1966",
+        "form": "H2 - Postal questionnaire",
+        "question": "25(g)",
+        "library_file": "smoke"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Smoking [5251]",
+        "description": "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Smoking_5251.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "666.0",
+        "label": "Less than one cigarette smoked per day",
+        "is_missing": true
+      },
+      {
+        "value": "667.0",
+        "label": "SM has Pre-assessment and Postal Qs but was not asked the smoking questions",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 11,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "cigs/days",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          4.0,
+          6.888888888888889,
+          9.777777777777779,
+          12.666666666666666,
+          15.555555555555555,
+          18.444444444444443,
+          21.333333333333332,
+          24.22222222222222,
+          27.11111111111111,
+          30.0
+        ],
+        "counts": [
+          24,
+          13,
+          63,
+          46,
+          1,
+          73,
+          1,
+          18,
+          17
+        ]
+      },
+      "boxplot": {
+        "min": 4.0,
+        "q1": 10.0,
+        "median": 15.0,
+        "q3": 20.0,
+        "max": 30.0
+      },
+      "units": "cigs/days"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "4"
+      ],
+      [
+        "Maximum",
+        "30"
+      ],
+      [
+        "Range",
+        "26"
+      ],
+      [
+        "Median",
+        "15.0"
+      ],
+      [
+        "IQR",
+        "10.0 - 20.0"
+      ],
+      [
+        "Decile 1",
+        "7.0"
+      ],
+      [
+        "Decile 2",
+        "10.0"
+      ],
+      [
+        "Decile 3",
+        "10.0"
+      ],
+      [
+        "Decile 4",
+        "14.0"
+      ],
+      [
+        "Decile 5",
+        "15.0"
+      ],
+      [
+        "Decile 6",
+        "20.0"
+      ],
+      [
+        "Decile 7",
+        "20.0"
+      ],
+      [
+        "Decile 8",
+        "20.0"
+      ],
+      [
+        "Decile 9",
+        "25.0"
+      ],
+      [
+        "Mean",
+        "15.69140625"
+      ],
+      [
+        "Std Dev.",
+        "6.78596353861859"
+      ],
+      [
+        "Variance",
+        "46.04930114746094"
+      ],
+      [
+        "Displayed N",
+        "256"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,62 @@
+---
+layout: default
+title: Search by Year
+parent: Search Overview
+nav_order: 5
+permalink: /docs/search_methods/search_by_year/search_by_year/
+classes: page-search-by-year
+---
+<link rel="stylesheet" href="/OWL/assets/css/search_by_year.css">
+<div class="page-search-by-year">
+  <!-- LOADING SCREEN -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="spinner"></div>
+    <div>Loading data…</div>
+  </div>
+  <!-- MAIN UI -->
+  <div id="dataUI" style="display:none;">
+    <div id="search-by-year-app">
+      <!-- HERO BANNER (title + year pill bar) -->
+      <div class="hero-banner">
+        <h1><i class="ti ti-calendar-time" aria-hidden="true"></i> Search by Year NSHD Sweep</h1>
+        <p>Browse variables by the year data was collected. Some variables were collected in a single sweep, others across a rolling collection window — both are shown below, and studies such as Insight46, MyoFit, Covid and Women's Health are highlighted in colour.</p>
+        <div id="year-pill-bar" class="year-pill-bar"></div>
+        <div id="wave-legend" class="wave-legend"></div>
+        <p></p>
+		<p class="usage-note">Click one or more year pills to filter by when data was collected — click an active pill again to deselect it, or click "All" to clear your selection. Use the topic dropdowns below to narrow further by subject; pills without any matching results for your current topic or search will dim.</p>
+      </div>
+      <!-- TOPIC FILTERS (5 levels) -->
+      <div id="topic-filter-bar" class="topic-filter-bar"></div>
+      <!-- SEARCH + PAGE SIZE + RESET + PAGINATION -->
+      <div id="search-pagination-top" class="search-pagination-top">
+        <div id="resultsCount"></div>
+        <input id="globalSearch" type="text" placeholder="Search…" />
+        <select id="pageSize">
+          <option value="15">15</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+        <button id="resetFiltersBtn">Reset Filters</button>
+        <button id="addAllBtn" class="add-all-btn">Add All to Basket</button>
+        <button id="downloadCsvBtn" class="download-btn">Download Results (CSV)</button>
+        <a href="{{ site.baseurl }}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">
+          Download Blank Data Dictionary
+        </a>
+        <div id="paginationTop"></div>
+      </div>
+      <!-- TABLE WRAPPER -->
+      <div id="table-wrapper">
+        <table id="myTable">
+          <thead>
+            <tr id="table-header"></tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+      <!-- BOTTOM PAGINATION -->
+      <div id="paginationBottom"></div>
+    </div>
+  </div>
+  <script src="/OWL/assets/js/search_by_year.js"></script>
+</div>

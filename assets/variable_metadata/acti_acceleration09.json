@@ -1,0 +1,466 @@
+{
+  "varname": "acti_acceleration09",
+  "label": "Average trunk acceleration (m/s^2) - at age 60-64 years",
+  "field_id": "1001",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1001",
+  "year": "",
+  "form": "Actiheart monitor",
+  "units": "m/s2",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.08749930218889795,
+  "sd": 0.031572169295373306,
+  "series_size": 1595.0,
+  "minimum": 0.034875862300395966,
+  "maximum": 0.17257577180862427,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Other health behaviours [17]",
+    "Actiheart monitor [1101]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "No such actiheart data"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "acti_acceleration09",
+    "label": "Average trunk acceleration (m/s^2) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "acti_acceleration09"
+      ],
+      [
+        "Field ID",
+        "1001"
+      ],
+      [
+        "Label",
+        "Average trunk acceleration (m/s^2) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Actiheart09"
+      ],
+      [
+        "Form",
+        "Actiheart monitor"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "m/s2"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived actiheart variables. The raw actiheart data cannot be requested via Skylark, please talk to LHA staff"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Actiheart monitor [1101]",
+        "This category contains dervied variables from the actiheart monitor worn by the participants for 5 days including overnight."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "No such actiheart data",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.034875862300395966"
+      ],
+      [
+        "Maximum",
+        "0.17257577180862427"
+      ],
+      [
+        "Range",
+        "0.1376999095082283"
+      ],
+      [
+        "Median",
+        "0.08332037925720215"
+      ],
+      [
+        "IQR",
+        "0.06294094771146774 - 0.10729344189167023"
+      ],
+      [
+        "Decile 1",
+        "0.0490715354681015"
+      ],
+      [
+        "Decile 2",
+        "0.05828428789973259"
+      ],
+      [
+        "Decile 3",
+        "0.06684445440769196"
+      ],
+      [
+        "Decile 4",
+        "0.07530840933322906"
+      ],
+      [
+        "Decile 5",
+        "0.08332037925720215"
+      ],
+      [
+        "Decile 6",
+        "0.09165855348110198"
+      ],
+      [
+        "Decile 7",
+        "0.10162362605333328"
+      ],
+      [
+        "Decile 8",
+        "0.11439559161663056"
+      ],
+      [
+        "Decile 9",
+        "0.13306721150875092"
+      ],
+      [
+        "Mean",
+        "0.08749930218889795"
+      ],
+      [
+        "Std Dev.",
+        "0.031572169295373306"
+      ],
+      [
+        "Variance",
+        "0.000996801874015713"
+      ],
+      [
+        "Displayed N",
+        "1595"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "acti_acceleration09",
+    "label": "Average trunk acceleration (m/s^2) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1001",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "acti_acceleration09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1001",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Average trunk acceleration (m/s^2) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Actiheart09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Actiheart monitor",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "m/s2",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived actiheart variables. The raw actiheart data cannot be requested via Skylark, please talk to LHA staff",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Actiheart monitor [1101]",
+        "description": "This category contains dervied variables from the actiheart monitor worn by the participants for 5 days including overnight.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Actiheart_monitor_1101.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "No such actiheart data",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "m/s2",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.034875862300395966,
+          0.04212322595872377,
+          0.049370589617051576,
+          0.056617953275379385,
+          0.06386531693370719,
+          0.07111268059203499,
+          0.0783600442503628,
+          0.0856074079086906,
+          0.09285477156701841,
+          0.10010213522534621,
+          0.10734949888367401,
+          0.11459686254200183,
+          0.12184422620032963,
+          0.12909158985865743,
+          0.13633895351698525,
+          0.14358631717531306,
+          0.15083368083364085,
+          0.15808104449196864,
+          0.16532840815029645,
+          0.17257577180862427
+        ],
+        "counts": [
+          70,
+          96,
+          120,
+          132,
+          143,
+          139,
+          149,
+          132,
+          107,
+          109,
+          85,
+          65,
+          54,
+          52,
+          31,
+          35,
+          32,
+          32,
+          12
+        ]
+      },
+      "boxplot": {
+        "min": 0.034875862300395966,
+        "q1": 0.06294094771146774,
+        "median": 0.08332037925720215,
+        "q3": 0.10729344189167023,
+        "max": 0.17257577180862427
+      },
+      "units": "m/s2"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.034875862300395966"
+      ],
+      [
+        "Maximum",
+        "0.17257577180862427"
+      ],
+      [
+        "Range",
+        "0.1376999095082283"
+      ],
+      [
+        "Median",
+        "0.08332037925720215"
+      ],
+      [
+        "IQR",
+        "0.06294094771146774 - 0.10729344189167023"
+      ],
+      [
+        "Decile 1",
+        "0.0490715354681015"
+      ],
+      [
+        "Decile 2",
+        "0.05828428789973259"
+      ],
+      [
+        "Decile 3",
+        "0.06684445440769196"
+      ],
+      [
+        "Decile 4",
+        "0.07530840933322906"
+      ],
+      [
+        "Decile 5",
+        "0.08332037925720215"
+      ],
+      [
+        "Decile 6",
+        "0.09165855348110198"
+      ],
+      [
+        "Decile 7",
+        "0.10162362605333328"
+      ],
+      [
+        "Decile 8",
+        "0.11439559161663056"
+      ],
+      [
+        "Decile 9",
+        "0.13306721150875092"
+      ],
+      [
+        "Mean",
+        "0.08749930218889795"
+      ],
+      [
+        "Std Dev.",
+        "0.031572169295373306"
+      ],
+      [
+        "Variance",
+        "0.000996801874015713"
+      ],
+      [
+        "Displayed N",
+        "1595"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

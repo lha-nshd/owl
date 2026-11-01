@@ -1,0 +1,646 @@
+{
+  "varname": "mar1yr_09",
+  "label": "Year of first marriage (updated to 2006-10) - up to age 60-64 years",
+  "field_id": "10142",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10142",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "year",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 1968.5683955925826,
+  "sd": 2.885750855668427,
+  "series_size": 3721.0,
+  "minimum": 1964.0,
+  "maximum": 1977.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "sep2yr_09",
+    "sep4yr_09",
+    "wid2yr_09",
+    "mar5yr_09",
+    "mar2yr_09",
+    "wid3yr_09",
+    "mar4yr_09",
+    "wid1yr_09",
+    "sep1yr_09",
+    "mar3yr_09",
+    "sep3yr_09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Marital history [19]",
+    "Marital status [5153]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown / Not applicable"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "mar1yr_09",
+    "label": "Year of first marriage (updated to 2006-10) - up to age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "mar1yr_09"
+      ],
+      [
+        "Field ID",
+        "10142"
+      ],
+      [
+        "Label",
+        "Year of first marriage (updated to 2006-10) - up to age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Marriage09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "28(b)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "year"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell counts issue. Recoded version is available."
+      ],
+      [
+        "Notes",
+        "Questions about family and home. Updated the longitudinal variables on marital status."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "sep2yr_09",
+        "Year of second separation/divorce (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(c)",
+        "Marriage09"
+      ],
+      [
+        "sep4yr_09",
+        "Year of fourth separation/divorce (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(c)",
+        "Marriage09"
+      ],
+      [
+        "wid2yr_09",
+        "Year of second widowhood (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(d)",
+        "Marriage09"
+      ],
+      [
+        "mar5yr_09",
+        "Year of fifth marriage (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(b)",
+        "Marriage09"
+      ],
+      [
+        "mar2yr_09",
+        "Year of second marriage (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(b)",
+        "Marriage09"
+      ],
+      [
+        "wid3yr_09",
+        "Year of third widowhood (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(d)",
+        "Marriage09"
+      ],
+      [
+        "mar4yr_09",
+        "Year of fourth marriage (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(b)",
+        "Marriage09"
+      ],
+      [
+        "wid1yr_09",
+        "Year of first widowhood (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(d)",
+        "Marriage09"
+      ],
+      [
+        "sep1yr_09",
+        "Year of first separation/divorce (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(c)",
+        "Marriage09"
+      ],
+      [
+        "mar3yr_09",
+        "Year of third marriage (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(b)",
+        "Marriage09"
+      ],
+      [
+        "sep3yr_09",
+        "Year of third separation/divorce (updated to 2006-10) - up to age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(c)",
+        "Marriage09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Marital history [19]",
+        "Legacy Category"
+      ],
+      [
+        "Marital status [5153]",
+        "This category contains data on the marital status history of the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown / Not applicable",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1964"
+      ],
+      [
+        "Maximum",
+        "1977"
+      ],
+      [
+        "Range",
+        "13"
+      ],
+      [
+        "Median",
+        "1968.0"
+      ],
+      [
+        "IQR",
+        "1966.0 - 1970.0"
+      ],
+      [
+        "Decile 1",
+        "1965.0"
+      ],
+      [
+        "Decile 2",
+        "1966.0"
+      ],
+      [
+        "Decile 3",
+        "1967.0"
+      ],
+      [
+        "Decile 4",
+        "1968.0"
+      ],
+      [
+        "Decile 5",
+        "1968.0"
+      ],
+      [
+        "Decile 6",
+        "1969.0"
+      ],
+      [
+        "Decile 7",
+        "1970.0"
+      ],
+      [
+        "Decile 8",
+        "1971.0"
+      ],
+      [
+        "Decile 9",
+        "1973.0"
+      ],
+      [
+        "Mean",
+        "1968.5683955925826"
+      ],
+      [
+        "Std Dev.",
+        "2.885750855668427"
+      ],
+      [
+        "Variance",
+        "8.327558000991058"
+      ],
+      [
+        "Displayed N",
+        "3721"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "mar1yr_09",
+    "label": "Year of first marriage (updated to 2006-10) - up to age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10142",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "mar1yr_09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10142",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Year of first marriage (updated to 2006-10) - up to age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Marriage09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "28(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "year",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell counts issue. Recoded version is available.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about family and home. Updated the longitudinal variables on marital status.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "sep2yr_09",
+        "description": "Year of second separation/divorce (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(c)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "sep4yr_09",
+        "description": "Year of fourth separation/divorce (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(c)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "wid2yr_09",
+        "description": "Year of second widowhood (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(d)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "mar5yr_09",
+        "description": "Year of fifth marriage (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(b)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "mar2yr_09",
+        "description": "Year of second marriage (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(b)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "wid3yr_09",
+        "description": "Year of third widowhood (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(d)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "mar4yr_09",
+        "description": "Year of fourth marriage (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(b)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "wid1yr_09",
+        "description": "Year of first widowhood (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(d)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "sep1yr_09",
+        "description": "Year of first separation/divorce (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(c)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "mar3yr_09",
+        "description": "Year of third marriage (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(b)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "sep3yr_09",
+        "description": "Year of third separation/divorce (updated to 2006-10) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(c)",
+        "library_file": "Marriage09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Marital history [19]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Marital status [5153]",
+        "description": "This category contains data on the marital status history of the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Marital_status_5153.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown / Not applicable",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 11,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "year",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1964.0,
+          1965.0,
+          1966.0,
+          1967.0,
+          1968.0,
+          1969.0,
+          1970.0,
+          1971.0,
+          1972.0,
+          1973.0,
+          1974.0,
+          1975.0,
+          1976.0,
+          1977.0
+        ],
+        "counts": [
+          182,
+          321,
+          430,
+          546,
+          574,
+          474,
+          357,
+          276,
+          184,
+          122,
+          87,
+          65,
+          103
+        ]
+      },
+      "boxplot": {
+        "min": 1964.0,
+        "q1": 1966.0,
+        "median": 1968.0,
+        "q3": 1970.0,
+        "max": 1977.0
+      },
+      "units": "year"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1964"
+      ],
+      [
+        "Maximum",
+        "1977"
+      ],
+      [
+        "Range",
+        "13"
+      ],
+      [
+        "Median",
+        "1968.0"
+      ],
+      [
+        "IQR",
+        "1966.0 - 1970.0"
+      ],
+      [
+        "Decile 1",
+        "1965.0"
+      ],
+      [
+        "Decile 2",
+        "1966.0"
+      ],
+      [
+        "Decile 3",
+        "1967.0"
+      ],
+      [
+        "Decile 4",
+        "1968.0"
+      ],
+      [
+        "Decile 5",
+        "1968.0"
+      ],
+      [
+        "Decile 6",
+        "1969.0"
+      ],
+      [
+        "Decile 7",
+        "1970.0"
+      ],
+      [
+        "Decile 8",
+        "1971.0"
+      ],
+      [
+        "Decile 9",
+        "1973.0"
+      ],
+      [
+        "Mean",
+        "1968.5683955925826"
+      ],
+      [
+        "Std Dev.",
+        "2.885750855668427"
+      ],
+      [
+        "Variance",
+        "8.327558000991058"
+      ],
+      [
+        "Displayed N",
+        "3721"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

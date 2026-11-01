@@ -1,0 +1,718 @@
+{
+  "varname": "medlastday23x_10",
+  "label": "10th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+  "field_id": "10579",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10579",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 86.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "medlastday23x_5",
+    "medlastday23x_8",
+    "medlastday23x_18",
+    "medlastday23x_12",
+    "medlastday23x_3",
+    "medlastday23x_20",
+    "medlastday23x_6",
+    "medlastday23x_17",
+    "medlastday23x_1",
+    "medlastday23x_14",
+    "medlastday23x_7",
+    "medlastday23x_4",
+    "medlastday23x_11",
+    "medlastday23x_2",
+    "medlastday23x_19",
+    "medlastday23x_13",
+    "medlastday23x_15",
+    "medlastday23x_9",
+    "medlastday23x_16"
+  ],
+  "linked_years": [
+    "2023"
+  ],
+  "categories": [
+    "Regular medication including BNF codes and names of drugs [50521]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Item not applicable"
+    },
+    {
+      "value": "-2.0",
+      "label": "Schedule not applicable"
+    },
+    {
+      "value": "-6.0",
+      "label": "No more medications to report"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable - not taking any regular medication"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "8.0",
+      "label": "Refusal"
+    },
+    {
+      "value": "9.0",
+      "label": "Don't Know"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Yes",
+      "count": 86,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "medlastday23x_10",
+    "label": "10th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "medlastday23x_10"
+      ],
+      [
+        "Field ID",
+        "10579"
+      ],
+      [
+        "Label",
+        "10th medication - have you taken this medication in the last 24 hours? - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "medical_review23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "8"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "There is another category for medication taken 24hrs before nurse interview. This variable was kept in regular medication, as the question asked if medication was regular and then if it was taken in the last 24hrs."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "medlastday23x_5",
+        "5th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_8",
+        "8th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_18",
+        "18th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_12",
+        "12th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_3",
+        "3rd medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_20",
+        "20th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_6",
+        "6th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_17",
+        "17th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_1",
+        "1st medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_14",
+        "14th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_7",
+        "7th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_4",
+        "4th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_11",
+        "11th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_2",
+        "2nd medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_19",
+        "19th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_13",
+        "13th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_15",
+        "15th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_9",
+        "9th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ],
+      [
+        "medlastday23x_16",
+        "16th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "2023",
+        "Home visit",
+        "8",
+        "medical_review23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Regular medication including BNF codes and names of drugs [50521]",
+        "This category contains information about the regular medication, raw BNF codes,  taken by the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Item not applicable",
+        true
+      ],
+      [
+        "-2.0",
+        "Schedule not applicable",
+        true
+      ],
+      [
+        "-6.0",
+        "No more medications to report",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable - not taking any regular medication",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "8.0",
+        "Refusal",
+        true
+      ],
+      [
+        "9.0",
+        "Don't Know",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "86",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "86",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "medlastday23x_10",
+    "label": "10th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10579",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "medlastday23x_10",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10579",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "10th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "medical_review23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "There is another category for medication taken 24hrs before nurse interview. This variable was kept in regular medication, as the question asked if medication was regular and then if it was taken in the last 24hrs.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "medlastday23x_5",
+        "description": "5th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_8",
+        "description": "8th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_18",
+        "description": "18th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_12",
+        "description": "12th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_3",
+        "description": "3rd medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_20",
+        "description": "20th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_6",
+        "description": "6th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_17",
+        "description": "17th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_1",
+        "description": "1st medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_14",
+        "description": "14th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_7",
+        "description": "7th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_4",
+        "description": "4th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_11",
+        "description": "11th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_2",
+        "description": "2nd medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_19",
+        "description": "19th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_13",
+        "description": "13th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_15",
+        "description": "15th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_9",
+        "description": "9th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      },
+      {
+        "varname": "medlastday23x_16",
+        "description": "16th medication - have you taken this medication in the last 24 hours? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "medical_review23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Regular medication including BNF codes and names of drugs [50521]",
+        "description": "This category contains information about the regular medication, raw BNF codes,  taken by the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Regular_medication_including_BNF_codes_and_names_of_drugs_50521.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Item not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-2.0",
+        "label": "Schedule not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-6.0",
+        "label": "No more medications to report",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable - not taking any regular medication",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "Refusal",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Don't Know",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 19,
+      "docs": 1,
+      "cats": 1,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 86,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "86",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "86",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

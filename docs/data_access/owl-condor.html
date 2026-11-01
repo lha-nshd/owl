@@ -1,0 +1,266 @@
+---
+layout: default
+title: OWL and Condor
+parent: Accessing NSHD Data
+nav_order: 2
+permalink: /docs/accessing-nshd-data/owl-condor/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-circles-relation" aria-hidden="true"></i> OWL and Condor</h1>
+    <p>How the two variable platforms relate to each other and how to use them together at each stage of your research.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#comparison" class="gs-toc-da-owl"><i class="ti ti-table" aria-hidden="true"></i> Platform comparison</a></li>
+      <li><a href="#owl-condor" class="gs-toc-da-condor"><i class="ti ti-arrows-exchange" aria-hidden="true"></i> OWL &amp; Condor</a></li>
+    </ul>
+    <a href="/OWL/docs/accessing-nshd-data/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Accessing NSHD Data</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>OWL and Condor each approach NSHD variables from a different angle. OWL covers around <strong>29,000 variables</strong> that have been
+	cleaned and enhanced as part of the <a href="/OWL/docs/accessing-nshd-data/metadata-enhancement-project/" style="color:#6a0dad;">Metadata Enhancement Project</a> and is the place to discover and understand them.
+	Condor holds the <strong>full 35,000+ variable set</strong> and is where baskets are saved and shared ahead of a formal
+	data request, which is submitted via a form on <a href="https://skylark.ucl.ac.uk/NSHD/" style="color:#6a0dad;" target="_blank">Skylark</a>. OWL does not require registration.</p>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-search">
+    <h2 id="comparison"><i class="ti ti-table" aria-hidden="true"></i> Platform comparison</h2>
+    <p>The two platforms serve different purposes and offer different information about the same variables. The table below shows what each one contributes at a glance.</p>
+
+    <style>
+      .tri-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 14px 0; }
+      .tri-card { border-radius: 8px; padding: 14px 16px; border: 1.5px solid; }
+      .tri-card h3 { font-size: 13px; font-weight: 700; margin: 0 0 7px; display: flex; align-items: center; gap: 5px; }
+      .tri-card p  { font-size: 11.5px; color: #333; margin: 0 0 9px; line-height: 1.6; }
+      .tri-chips   { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 9px; }
+      .tri-chip    { font-size: 10.5px; font-weight: 700; padding: 3px 9px; border-radius: 10px; display: inline-block; }
+      .chip-yes    { background: hsl(125 35% 88%); color: hsl(125 35% 14%); }
+      .chip-no     { background: hsl(0 0% 91%);    color: #555; }
+      .chip-info   { background: hsl(210 45% 88%); color: hsl(210 45% 14%); }
+      .chip-unique { background: hsl(266 45% 90%); color: hsl(266 45% 20%); }
+      .access-tag { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 700; padding: 3px 9px; border-radius: 10px; }
+      .tag-open { background: hsl(125 35% 88%); color: hsl(125 35% 14%); }
+      .tag-reg  { background: hsl(35 60% 88%);  color: hsl(35 60% 14%); }
+
+      /* Comparison-table row colours — same set used on the Variable Metadata
+         page, so the two comparison tables look alike. */
+      .comp-row-teal  td { background: hsl(180 45% 94%); border-bottom: 1px solid hsl(180 45% 82%); }
+      .comp-row-teal  td:first-child { color: hsl(180 45% 18%); font-weight: 700; }
+      .comp-row-amber td { background: hsl(35 60% 94%); border-bottom: 1px solid hsl(35 60% 82%); }
+      .comp-row-amber td:first-child { color: hsl(35 60% 18%); font-weight: 700; }
+      .comp-row-pink  td { background: hsl(340 45% 94%); border-bottom: 1px solid hsl(340 45% 82%); }
+      .comp-row-pink  td:first-child { color: hsl(340 45% 22%); font-weight: 700; }
+      .comp-row-sage  td { background: hsl(125 35% 93%); border-bottom: 1px solid hsl(125 35% 80%); }
+      .comp-row-sage  td:first-child { color: hsl(125 35% 18%); font-weight: 700; }
+      .comp-row-blue  td { background: hsl(210 45% 94%); border-bottom: 1px solid hsl(210 45% 82%); }
+      .comp-row-blue  td:first-child { color: hsl(210 45% 18%); font-weight: 700; }
+      .comp-row-lav   td { background: hsl(270 35% 94%); border-bottom: 1px solid hsl(270 35% 82%); }
+      .comp-row-lav   td:first-child { color: hsl(270 35% 22%); font-weight: 700; }
+      .comp-row-best  td { background: hsl(125 35% 91%); }
+      .comp-row-best  td:first-child { color: hsl(125 35% 18%); font-weight: 700; }
+    </style>
+
+    <div class="tri-grid">
+
+      <div class="tri-card" style="background:hsl(180 45% 88%); border-color:hsl(180 45% 42%); box-shadow:0 2px 8px rgba(0,0,0,0.07);">
+        <h3 style="color:hsl(180 45% 14%)"><i class="ti ti-search" aria-hidden="true" style="color:#6a0dad;"></i>OWL</h3>
+        <p>Variable discovery with rich documentation context. The only platform with questionnaires, topic pages, seven different searches, documentation and project discovery. Best starting point for any research.</p>
+        <div class="tri-chips">
+          <span class="tri-chip chip-info">~29,000 cleaned variables</span>
+          <span class="tri-chip chip-yes">&#10003; Search data dictionary</span>
+          <span class="tri-chip chip-yes">&#10003; Browse by category</span>
+          <span class="tri-chip chip-unique">&#10022; Popular Variables — unique to OWL</span>
+          <span class="tri-chip chip-unique">&#10022; Search by Year and Longitudinal Search — unique to OWL</span>
+          <span class="tri-chip chip-unique">&#10022; Discover Projects: variables from approved projects — unique to OWL</span>
+          <span class="tri-chip chip-unique">&#10022; UK LLC Catalogue — unique to OWL</span>
+          <span class="tri-chip chip-unique">&#10022; Search Documentation, add variables from a documentation page, and create documentation online — unique to OWL</span>
+          <span class="tri-chip chip-unique">&#10022; Metrics and Trends on data sharing — unique to OWL</span>
+          <span class="tri-chip chip-yes">&#10003; Questionnaire access</span>
+          <span class="tri-chip chip-yes">&#10003; Topic pages</span>
+          <span class="tri-chip chip-yes">&#10003; Variable metadata page</span>
+          <span class="tri-chip chip-yes">&#10003; Multiple category memberships</span>
+          <span class="tri-chip chip-yes">&#10003; Full category hierarchy path</span>
+          <span class="tri-chip chip-yes">&#10003; Value labels</span>
+          <span class="tri-chip chip-yes">&#10003; Flexible longitudinal linking</span>
+          <span class="tri-chip chip-unique">&#10022; Truly Longitudinal vs Linked variables split — unique to OWL</span>
+          <span class="tri-chip chip-yes">&#10003; Participant &amp; item counts per sweep</span>
+          <span class="tri-chip chip-yes">&#10003; Distribution for this variable, plus longitudinal trajectory view</span>
+          <span class="tri-chip chip-unique">&#10022; Box-and-whisker, extra stats, and chart/table downloads — unique to OWL</span>
+          <span class="tri-chip chip-yes">&#10003; Download pre-filled Excel data dictionary</span>
+          <span class="tri-chip chip-yes">&#10003; Upload a basket to resume or bulk-add</span>
+          <span class="tri-chip chip-no">&#10007; Cannot submit data request</span>
+        </div>
+        <span class="access-tag tag-open"><i class="ti ti-lock-open" aria-hidden="true" style="font-size:11px;"></i>No registration</span>
+      </div>
+
+      <div class="tri-card" style="background:hsl(340 45% 95%); border-color:hsl(340 45% 60%);">
+        <h3 style="color:hsl(340 45% 14%)"><i class="ti ti-basket" aria-hidden="true" style="color:#6a0dad;"></i>Condor</h3>
+        <p>The basket management platform. Holds the full variable set. Baskets are built, saved, and shared here — but the formal data request is submitted via a form on Skylark, not from within Condor.</p>
+        <div class="tri-chips">
+          <span class="tri-chip chip-info">35,000+ full variable set</span>
+          <span class="tri-chip chip-yes">&#10003; Search variables</span>
+          <span class="tri-chip chip-yes">&#10003; Browse by category</span>
+          <span class="tri-chip chip-yes">&#10003; Search by Keyword</span>
+          <span class="tri-chip chip-yes">&#10003; Upload OWL basket</span>
+          <span class="tri-chip chip-yes">&#10003; Modify basket</span>
+          <span class="tri-chip chip-yes">&#10003; Save basket</span>
+          <span class="tri-chip chip-yes">&#10003; Share basket</span>
+          <span class="tri-chip chip-yes">&#10003; Variable metadata page</span>
+          <span class="tri-chip chip-yes">&#10003; Multiple category memberships</span>
+          <span class="tri-chip chip-yes">&#10003; Value labels</span>
+          <span class="tri-chip chip-yes">&#10003; Flexible longitudinal linking</span>
+          <span class="tri-chip chip-no">&#10007; No Truly Longitudinal / Linked variables split — shown as one list</span>
+          <span class="tri-chip chip-yes">&#10003; Participant &amp; item counts per sweep</span>
+          <span class="tri-chip chip-yes">&#10003; Distribution for this variable</span>
+          <span class="tri-chip chip-info">Condor basket submitted via Skylark</span>
+          <span class="tri-chip chip-no">&#10007; No questionnaire access</span>
+          <span class="tri-chip chip-no">&#10007; No topic pages</span>
+        </div>
+        <span class="access-tag tag-reg"><i class="ti ti-user-plus" aria-hidden="true" style="font-size:11px;"></i>Registration required</span>
+      </div>
+
+    </div>
+
+    <div class="callout-warning">
+      <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+      <span><strong>The formal data request is not submitted from within Condor.</strong> Condor is where you build and save your basket — the application is submitted via the Data Access Request Form on <a href="https://skylark.ucl.ac.uk/NSHD/forms/data-access-request-form" style="color:#6a0dad;" target="_blank">Skylark</a>.</span>
+    </div>
+
+    <table style="width:100%; border-collapse:collapse; font-size:12.5px; line-height:1.55; margin-top:18px; border: 1px solid #ccc; border-radius:6px; overflow:hidden;">
+      <thead>
+        <tr>
+          <th style="width:20%; padding:9px 12px; background:#3a0066; color:white; text-align:left; font-size:12px;"></th>
+          <th style="width:42%; padding:9px 12px; background:hsl(180 45% 28%); color:white; text-align:left; font-size:12px;"><i class="ti ti-search" aria-hidden="true" style="margin-right:4px;"></i>OWL</th>
+          <th style="width:38%; padding:9px 12px; background:hsl(340 45% 35%); color:white; text-align:left; font-size:12px;"><i class="ti ti-basket" aria-hidden="true" style="margin-right:4px;"></i>Condor</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr class="comp-row-teal">
+          <td style="padding:9px 12px;">Variable scope</td>
+          <td style="padding:9px 12px; color:#333;">~29,000 cleaned variables</td>
+          <td style="padding:9px 12px; color:#333;">35,000+ full variable set</td>
+        </tr>
+
+        <tr class="comp-row-amber">
+          <td style="padding:9px 12px;">Access</td>
+          <td style="padding:9px 12px; color:#333;">No registration required</td>
+          <td style="padding:9px 12px; color:#333;">Registration required</td>
+        </tr>
+
+        <tr class="comp-row-pink">
+          <td style="padding:9px 12px;">Questionnaires &amp; topic pages</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Full access</td>
+          <td style="padding:9px 12px; color:#333;">&#8212; Not available</td>
+        </tr>
+
+        <tr class="comp-row-lav">
+          <td style="padding:9px 12px;">Ways to search</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Seven: data dictionary, browse by category, popular variables, search by year, longitudinal search, UK LLC Catalogue and Discover Projects</td>
+          <td style="padding:9px 12px; color:#333;">Search variables, browse by category and search by keyword</td>
+        </tr>
+
+        <tr class="comp-row-lav">
+          <td style="padding:9px 12px;">Approved projects &amp; data sharing metrics</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Discover Projects, Metrics and Trends</td>
+          <td style="padding:9px 12px; color:#333;">&#8212; Not available</td>
+        </tr>
+
+        <tr class="comp-row-lav">
+          <td style="padding:9px 12px;">Documentation</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Search Documentation, add variables to your basket from a documentation page, and create documentation online</td>
+          <td style="padding:9px 12px; color:#333;">&#8212; Not available</td>
+        </tr>
+
+        <tr class="comp-row-lav">
+          <td style="padding:9px 12px;">UK LLC deposits</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; UK LLC Catalogue of deposited NSHD datasets</td>
+          <td style="padding:9px 12px; color:#333;">&#8212; Not available</td>
+        </tr>
+
+        <tr class="comp-row-lav">
+          <td style="padding:9px 12px;">Participant &amp; item counts</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Per sweep — on each linked variable's own metadata page</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Per sweep — on each linked variable's own metadata page</td>
+        </tr>
+
+        <tr class="comp-row-amber">
+          <td style="padding:9px 12px;">Basket building</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Download a pre-filled Excel data dictionary for reference or Condor upload; upload a basket file back into OWL to resume or bulk-add</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Save, share, and submit via Skylark</td>
+        </tr>
+
+        <tr class="comp-row-pink">
+          <td style="padding:9px 12px;">Submit data request</td>
+          <td style="padding:9px 12px; color:#333;">&#8212; Not possible</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Via Skylark form linked to Condor basket</td>
+        </tr>
+
+        <tr class="comp-row-best">
+          <td style="padding:9px 12px;">Best for</td>
+          <td style="padding:9px 12px; color:#333;">Discovery, documentation, and contextual understanding — questionnaires, topic pages, provenance, caveats</td>
+          <td style="padding:9px 12px; color:#333;">Finalising and saving a basket for a formal data request — especially where variables not yet on OWL are needed</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <div class="callout-note" style="margin-top:14px;">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>For how the variable metadata pages differ between OWL and Condor &#8212; longitudinal linkage, sweep presentation, distributions and statistics &#8212; see the <a href="/OWL/docs/accessing-nshd-data/variable-metadata/" style="color:#6a0dad;">Variable Metadata</a> page.</span>
+    </div>
+
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-sidebar">
+    <h2 id="owl-condor"><i class="ti ti-arrows-exchange" aria-hidden="true"></i> How OWL and Condor work together</h2>
+    <p>OWL and Condor cover different scopes and serve different purposes in the variable selection process. OWL is the richer discovery environment — it has questionnaires, topic documentation, additional searches, approved-project discovery and metadata that Condor does not. Condor holds the full variable set and is where baskets are finalised and saved ahead of a formal application.</p>
+
+    <div style="display:flex; gap:14px; margin:14px 0;">
+
+      <div style="flex:1; background:hsl(180 45% 92%); border:1.5px solid hsl(180 45% 55%); border-radius:7px; padding:13px 15px;">
+        <p style="font-weight:700; font-size:13px; color:hsl(180 45% 16%); margin:0 0 7px; border-bottom:1px solid hsl(180 45% 60%); padding-bottom:5px;"><i class="ti ti-search" aria-hidden="true" style="margin-right:4px;"></i>OWL basket</p>
+        <p style="font-size:12px; color:#333; margin:0 0 8px; line-height:1.6;">Best for <strong>discovery and exploration</strong>. Use OWL to identify and refine your variable list using questionnaires, topic pages, and metadata — resources not available in Condor. Download your basket as a pre-filled Excel data dictionary to use as a reference list or to upload directly into Condor.</p>
+        <ul style="font-size:12px; color:#333; margin:0; padding-left:16px; line-height:1.8;">
+          <li>~29,000 cleaned and enhanced variables</li>
+          <li>No registration required</li>
+          <li>Download a pre-filled Excel data dictionary for reference or Condor upload</li>
+          <li>Cannot be used directly for a data request</li>
+        </ul>
+        <p style="font-size:11px; color:#6a0dad; margin:8px 0 0;"><a href="/OWL/docs/getting-started/basket-management/" style="color:#6a0dad;"><i class="ti ti-arrow-right" aria-hidden="true" style="font-size:11px;"></i> How to add variables and manage your basket &rarr;</a></p>
+      </div>
+
+      <div style="flex:1; background:hsl(340 45% 92%); border:1.5px solid hsl(340 45% 60%); border-radius:7px; padding:13px 15px;">
+        <p style="font-weight:700; font-size:13px; color:hsl(340 45% 16%); margin:0 0 7px; border-bottom:1px solid hsl(340 45% 60%); padding-bottom:5px;"><i class="ti ti-basket" aria-hidden="true" style="margin-right:4px;"></i>Condor basket</p>
+        <p style="font-size:12px; color:#333; margin:0 0 8px; line-height:1.6;">Where baskets are <strong>finalised, saved, and shared</strong>. Upload your OWL basket or build directly from the full 35,000+ variable set. Save and share your basket with colleagues before linking it to a formal data application via Skylark.</p>
+        <ul style="font-size:12px; color:#333; margin:0; padding-left:16px; line-height:1.8;">
+          <li>Full 35,000+ variable set including uncleaned variables</li>
+          <li>Registration required</li>
+          <li>Upload OWL basket and modify within Condor</li>
+          <li>Save and share baskets with colleagues</li>
+          <li>Data request submitted via form on Skylark — not from Condor</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="callout-warning">
+      <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+      <span><strong>The formal data request is submitted via Skylark, not from within Condor.</strong> Once your Condor basket is finalised, complete the <a href="https://skylark.ucl.ac.uk/NSHD/forms/data-access-request-form" style="color:#6a0dad;" target="_blank">Data Access Request Form on Skylark</a> to make your application. A basket can contain more than 500 variables: Condor automatically splits larger baskets into baskets of 500 when you save. They are still treated as a single basket for your request, so a larger basket may take longer to turn around because of the risk assessment.</span>
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

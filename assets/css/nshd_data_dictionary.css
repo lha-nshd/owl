@@ -1,0 +1,348 @@
+
+
+/* ⭐ PAGE CONTAINER */
+.page-search-data-dictionary {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* ⭐ GLOBAL RESET (safe) */
+.page-search-data-dictionary * {
+  box-sizing: border-box;
+}
+
+/* ⭐ FIX: Prevent JTD search script from crashing */
+.page-search-data-dictionary .search-input-wrap,
+.page-search-data-dictionary .search-input-wrap input {
+  box-sizing: content-box !important;
+}
+
+/* ⭐ LOADING SCREEN */
+.page-search-data-dictionary .loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-size: 18px;
+  color: #4b067a;
+}
+
+.page-search-data-dictionary .spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ddd;
+  border-top-color: #4b067a;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ⭐ TABLE BASE */
+.page-search-data-dictionary #myTable {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .page-search-data-dictionary #myTable col {
+    width: auto !important;
+  }
+}
+
+/* HERO BANNER */
+.page-search-data-dictionary .hero-banner {
+  background: linear-gradient(135deg,
+    #E8F5E9,
+    #F3E5F5,
+    #FFF3E0,
+    #E0F7FA
+  );
+  border-radius: 12px;
+  padding: 26px 30px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: 100%;
+}
+
+.page-search-data-dictionary .hero-banner h1 {
+  margin: 0 0 8px 0 !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: #800020 !important;
+}
+
+.page-search-data-dictionary .hero-banner p {
+  margin: 0 0 16px 0 !important;
+  font-size: 15px !important;
+  color: #555 !important;
+}
+
+.page-search-data-dictionary .filter-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #4b067a;
+}
+
+.page-search-data-dictionary .hero-banner .filter-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.page-search-data-dictionary .hero-banner .filter-bar select {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 0;
+}
+
+
+/* ⭐ BUTTONS */
+.page-search-data-dictionary #resetFiltersBtn {
+  margin-left: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background: #4b067a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-search-data-dictionary #resetFiltersBtn:hover {
+  background: #36045a;
+}
+
+
+.page-search-data-dictionary .add-all-btn {
+  margin-left: 10px;
+  padding: 6px 14px;
+  background: #009688;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.page-search-data-dictionary #add-all-btn:hover {
+  background: #009688;
+}
+
+.page-search-data-dictionary .add-all-btn.remove-mode {
+  background: #D32F2F; /* red */
+}
+
+.page-search-data-dictionary .add-all-btn.remove-mode:hover {
+  background: #B71C1C; /* darker red */
+}
+
+/* No results mode (black) */
+.page-search-data-dictionary .add-all-btn:disabled {
+  background: #333 !important;
+  color: white;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.page-search-data-dictionary .add-all-btn:disabled:hover {
+  background: #333 !important;
+}
+
+
+
+.page-search-data-dictionary .download-btn {
+  margin-left: 10px;
+  padding: 6px 14px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.page-search-data-dictionary .download-btn:hover {
+  background: #45a049;
+}
+
+.page-search-data-dictionary .download-excel-btn {
+  margin-left: 10px;
+  padding: 6px 14px;
+  background: #1976D2;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.page-search-data-dictionary .download-excel-btn:hover {
+  background: #0F5BA5;
+}
+
+/* ⭐ TABLE WRAPPER */
+.page-search-data-dictionary #table-wrapper {
+  max-height: 70vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  position: relative;
+}
+
+/* ⭐ STICKY HEADER */
+.page-search-data-dictionary #myTable thead th {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  padding: 0;
+  border-bottom: 2px solid #4b067a;
+}
+
+.page-search-data-dictionary #myTable thead th .th-inner {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  background: transparent !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ⭐ SORT ICONS */
+.page-search-data-dictionary .sort-icon {
+  font-size: 12px;
+  margin-left: 6px;
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.page-search-data-dictionary .sortable-header:hover .sort-icon {
+  opacity: 0.9;
+}
+
+/* ⭐ ROW SHADING */
+.page-search-data-dictionary #myTable tbody tr:nth-child(odd) {
+  background-color: #f7f7f7 !important;
+}
+.page-search-data-dictionary #myTable tbody tr:nth-child(even) {
+  background-color: #ececec !important;
+}
+
+/* ⭐ CELL PADDING */
+.page-search-data-dictionary #myTable td {
+  padding: 6px 10px;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+
+/* ============================================================
+   TABLE BASE STYLING
+   ============================================================ */
+.page-search-data-dictionary #myTable {
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+
+/* ⭐ SHRINKING */
+.page-search-data-dictionary #myTable th,
+.page-search-data-dictionary #myTable td {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* ⭐ COLUMN WIDTHS */
+/* Data columns (after the checkbox col): 1 Variable Name, 2 UKLLC Dataset Name(s),
+   3 Variable Label, 4 Form, 5 Year of collection.
+   (Showcase Field ID removed; its 9% was added to Variable Label.) */
+.page-search-data-dictionary #myTable col.col-1 { width: 15%; }
+.page-search-data-dictionary #myTable col.col-2 { width: 11%; }
+.page-search-data-dictionary #myTable col.col-3 { width: 50%; }
+.page-search-data-dictionary #myTable col.col-4 { width: 10%; }
+.page-search-data-dictionary #myTable col.col-5 { width: 8%; }
+
+/* ⭐ CHECKBOX COLUMN */
+.page-search-data-dictionary #myTable col.col-select {
+  width: 20px;
+}
+
+.page-search-data-dictionary #myTable th.select-header,
+.page-search-data-dictionary #myTable td.select-cell {
+  background: #ffffff !important;
+  text-align: center;
+}
+
+.page-search-data-dictionary #myTable td.select-cell input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+
+/* ⭐ PASTEL COLUMN COLORS */
+.page-search-data-dictionary #myTable th:nth-child(1), .page-search-data-dictionary #myTable tbody td:nth-child(1) { background: #ffffff !important; }
+.page-search-data-dictionary #myTable th:nth-child(2), .page-search-data-dictionary #myTable tbody td:nth-child(2) { background: #F3E5F5 !important; }
+.page-search-data-dictionary #myTable th:nth-child(3), .page-search-data-dictionary #myTable tbody td:nth-child(3) { background: #E3F2FD !important; }
+.page-search-data-dictionary #myTable th:nth-child(4), .page-search-data-dictionary #myTable tbody td:nth-child(4) { background: #FFF3E0 !important; }
+.page-search-data-dictionary #myTable th:nth-child(5), .page-search-data-dictionary #myTable tbody td:nth-child(5) { background: #FCE4EC !important; }
+.page-search-data-dictionary #myTable th:nth-child(6), .page-search-data-dictionary #myTable tbody td:nth-child(6) { background: #EDE7F6 !important; }
+
+/* ⭐ HEADER TEXT */
+.page-search-data-dictionary #myTable thead th .header-label,
+.page-search-data-dictionary #myTable thead th .sort-icon {
+  color: black !important;
+}
+
+/* ⭐ ALIGNMENT */
+/* 2 Variable Name, 3 UKLLC Dataset, 4 Variable Label, 5 Form → left */
+.page-search-data-dictionary #myTable th:nth-child(2), .page-search-data-dictionary #myTable td:nth-child(2),
+.page-search-data-dictionary #myTable th:nth-child(3), .page-search-data-dictionary #myTable td:nth-child(3),
+.page-search-data-dictionary #myTable th:nth-child(4), .page-search-data-dictionary #myTable td:nth-child(4),
+.page-search-data-dictionary #myTable th:nth-child(5), .page-search-data-dictionary #myTable td:nth-child(5) {
+  text-align: left !important;
+}
+
+/* 6 Year of collection → centre */
+.page-search-data-dictionary #myTable th:nth-child(6), .page-search-data-dictionary #myTable td:nth-child(6) {
+  text-align: center !important;
+}
+
+/* ⭐ FIX: Allow glow to extend outside header */
+.page-search-data-dictionary .site-header,
+.page-search-data-dictionary #basketWrapper,
+.page-search-data-dictionary #basketTop {
+  overflow: visible !important;
+}
+
+/* Force checkbox column width via colgroup */
+.page-search-data-dictionary col.col-select {
+    width: 90px !important;
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+/* Checkbox column width — all table layers */
+.page-search-data-dictionary #myTable thead th:nth-child(1),
+.page-search-data-dictionary #myTable tbody td:nth-child(1),
+.page-search-data-dictionary .dataTables_scrollHeadInner table thead th:nth-child(1),
+.page-search-data-dictionary .dataTables_scrollBody table tbody td:nth-child(1),
+.page-search-data-dictionary .fixedHeader-floating thead th:nth-child(1) {
+    width: 90px !important;
+    min-width: 90px !important;
+    max-width: 90px !important;
+    text-align: center !important;
+	background: #f1f5f9;
+}

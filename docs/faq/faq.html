@@ -1,0 +1,175 @@
+---
+layout: default
+title: FAQs
+nav_order: 23
+permalink: /docs/faqs/
+classes: page-faqs
+---
+<link rel="stylesheet" href="/OWL/assets/css/topics.css">
+
+<style>
+  .page-faqs .page-wrap {
+    max-width: 900px;
+    margin: 0;
+  }
+
+  /* Accordion trigger — h2 so topics.js's colour-cycling picks it up
+     as a .home-section, but styled to read as a clickable question
+     rather than a normal section heading. */
+  .page-faqs .home-section.faq-item {
+    padding: 0;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease;
+  }
+  .page-faqs .home-section.faq-item.open {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+  }
+
+  .page-faqs .faq-question {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 !important;
+    padding: 16px 20px !important;
+    font-size: 15px !important;
+    border-bottom: none !important;
+  }
+  .page-faqs .faq-question:hover { background: rgba(0,0,0,0.02); }
+  .page-faqs .faq-question:focus-visible { outline: 2px solid var(--purple-mid); outline-offset: -2px; }
+
+  .page-faqs .faq-question span {
+    font-weight: 700;
+  }
+
+  .page-faqs .faq-icon {
+    flex: 0 0 auto;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(106,13,173,0.10);
+    color: var(--purple-mid);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: transform 0.25s ease;
+  }
+  .page-faqs .faq-question[aria-expanded="true"] .faq-icon { transform: rotate(45deg); }
+
+  .page-faqs .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  .page-faqs .faq-answer-inner {
+    padding: 0 20px 18px;
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--text-main);
+  }
+  .page-faqs .faq-answer-inner p { margin: 0 0 10px; }
+  .page-faqs .faq-answer-inner p:last-child { margin-bottom: 0; }
+  .page-faqs .faq-answer-inner a { color: var(--purple-mid); }
+  .page-faqs .faq-answer-inner ol,
+  .page-faqs .faq-answer-inner ul { margin: 0 0 10px; padding-left: 20px; }
+</style>
+
+<div class="page-topics page-faqs">
+  <div class="page-wrap">
+
+    <div class="hero-banner">
+      <h1><i class="ti ti-help-circle"></i> Frequently Asked Questions</h1>
+      <p>Common questions about variable labels, building a data basket, and why some variables aren't available on Condor.</p>
+    </div>
+
+    <div class="accordion">
+
+      <div class="home-section faq-item" id="faq-1">
+        <h3 class="faq-question" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleFaq(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFaq(this)}">
+          <span>There is no variable label on the annotated questionnaire. What does this mean?</span>
+          <i class="ti ti-plus faq-icon"></i>
+        </h3>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <p>Within the NSHD meta-data repository, annotated questionnaires are available. For most questions, a variable name is located next to the question, indicating that it has been coded — either directly from the questionnaire or against a coding frame for open-ended responses. Some questions don't have a variable name because the question is open-ended and hasn't been coded, or because — in early questionnaires — several questions were combined to produce a single derived variable that was never coded separately.</p>
+            <p>For example, the breastfeeding questions on the Maternity Surveys have no variable labels but were used with other questions to produce derived variables about breastfeeding <strong>[BRE]</strong> and weaning <strong>[WEA]</strong>. Reviewing the topic summaries is a good way to see what variables are available for analysis.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-section faq-item" id="faq-2">
+        <h3 class="faq-question" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleFaq(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFaq(this)}">
+          <span>I have made my final selection of variables. What do I need to consider before submitting the request?</span>
+          <i class="ti ti-plus faq-icon"></i>
+        </h3>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <p>When building a basket using the topic guides or a personalised basket from Condor, take time to ensure it contains:</p>
+            <ol>
+              <li>the most appropriate variables, and</li>
+              <li>a complete set of the variables required for the current stage of your research project.</li>
+            </ol>
+            <p>Use the questionnaires, topic guides, and variable information within Condor to finalise your basket — researchers are responsible for ensuring its completeness and suitability.</p>
+            <p>Once a basket is built and emailed to the team, it forms part of your data sharing application, and revisions can still be made at that stage. Once finalised, it is converted into a "scrambled" dataset, encrypted, password protected, and sent to you securely.</p>
+            <p>If you find you need additional variables after receiving your dataset, the process must be repeated — this is time-consuming for both you and the team and may delay your project, so plan your basket carefully up front.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-section faq-item" id="faq-3">
+        <h3 class="faq-question" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleFaq(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFaq(this)}">
+          <span>I found a variable on a questionnaire but I can't find it on Condor. Why is this?</span>
+          <i class="ti ti-plus faq-icon"></i>
+        </h3>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <p>Not every collected variable is available on Condor or the Showcase. Sensitive or potentially disclosive variables have been removed for external use. In rare cases the metadata for older variables can't be found or confirmed, so these have also been removed.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-section faq-item" id="faq-4">
+        <h3 class="faq-question" role="button" tabindex="0" aria-expanded="false"
+            onclick="toggleFaq(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFaq(this)}">
+          <span>Some of the variables in my submitted basket are missing from my dataset. Where have they gone?</span>
+          <i class="ti ti-plus faq-icon"></i>
+        </h3>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <p>Variables on Condor are constantly checked and refined for accuracy and content. Any sensitive or potentially disclosive variables mistakenly still showing on Condor are unavailable for external use, to protect the integrity of the NSHD and the privacy of its participants — such variables are removed from Condor and deleted from any baskets they were added to.</p>
+            <p>Staff also reserve the right to edit the contents of any basket prior to approval and delivery. If you're unhappy with any changes made to your basket, please get in touch in the first instance.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="/OWL/assets/js/topics.js"></script>
+<script>
+  function toggleFaq(heading) {
+    var item = heading.closest('.faq-item');
+    var answer = item.querySelector('.faq-answer');
+    var isOpen = item.classList.contains('open');
+
+    var openItems = document.querySelectorAll('.page-faqs .faq-item.open');
+    for (var i = 0; i < openItems.length; i++) {
+      var openItem = openItems[i];
+      openItem.classList.remove('open');
+      openItem.querySelector('.faq-answer').style.maxHeight = null;
+      openItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+    }
+
+    if (!isOpen) {
+      item.classList.add('open');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+      heading.setAttribute('aria-expanded', 'true');
+    }
+  }
+</script>

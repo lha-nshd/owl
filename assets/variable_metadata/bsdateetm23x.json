@@ -1,0 +1,557 @@
+{
+  "varname": "bsdateetm23x",
+  "label": "Time (minutes since midnight) when ended blood sample module - at age 77 years",
+  "field_id": "10632",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10632",
+  "year": "",
+  "form": "Home visit",
+  "units": "minutes",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 758.4807302231237,
+  "sd": 98.79479693020768,
+  "series_size": 986.0,
+  "minimum": 607.0,
+  "maximum": 951.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "bsdates23x",
+    "bsdatet23x",
+    "bsdateet23x",
+    "bsdatee23x",
+    "bsdatetm23x"
+  ],
+  "linked_years": [
+    "2023"
+  ],
+  "categories": [
+    "Blood sample [5112]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "9998.0",
+      "label": "Refusal"
+    },
+    {
+      "value": "9999.0",
+      "label": "Don't Know"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "bsdateetm23x",
+    "label": "Time (minutes since midnight) when ended blood sample module - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "bsdateetm23x"
+      ],
+      [
+        "Field ID",
+        "10632"
+      ],
+      [
+        "Label",
+        "Time (minutes since midnight) when ended blood sample module - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "blood_sample23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "minutes"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2023 Home visit. Blood sample section. Quite a few of the blood sample variables are not in the paper version of the questionnaire. They are from the CAPI."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "bsdates23x",
+        "Date when started blood sample module - at age 77 years",
+        "2023",
+        "Home visit",
+        "Not applicable",
+        "blood_sample23"
+      ],
+      [
+        "bsdatet23x",
+        "Time when started blood sample module - at age 77 years",
+        "2023",
+        "Home visit",
+        "Not applicable",
+        "blood_sample23"
+      ],
+      [
+        "bsdateet23x",
+        "Time when ended blood sample module - at age 77 years",
+        "2023",
+        "Home visit",
+        "Not applicable",
+        "blood_sample23"
+      ],
+      [
+        "bsdatee23x",
+        "Date when ended blood sample module - at age 77 years",
+        "2023",
+        "Home visit",
+        "Not applicable",
+        "blood_sample23"
+      ],
+      [
+        "bsdatetm23x",
+        "Time (minutes since midnight) when started blood sample module - at age 77 years",
+        "2023",
+        "Home visit",
+        "Not applicable",
+        "blood_sample23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood sample [5112]",
+        "This category contains data from the questionnaire on how the blood sample was collected."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "9998.0",
+        "Refusal",
+        true
+      ],
+      [
+        "9999.0",
+        "Don't Know",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "607"
+      ],
+      [
+        "Maximum",
+        "951"
+      ],
+      [
+        "Range",
+        "344"
+      ],
+      [
+        "Median",
+        "735.0"
+      ],
+      [
+        "IQR",
+        "666.0 - 851.0"
+      ],
+      [
+        "Decile 1",
+        "644.5"
+      ],
+      [
+        "Decile 2",
+        "657.0"
+      ],
+      [
+        "Decile 3",
+        "673.0"
+      ],
+      [
+        "Decile 4",
+        "697.0"
+      ],
+      [
+        "Decile 5",
+        "735.0"
+      ],
+      [
+        "Decile 6",
+        "805.0"
+      ],
+      [
+        "Decile 7",
+        "841.0"
+      ],
+      [
+        "Decile 8",
+        "860.0"
+      ],
+      [
+        "Decile 9",
+        "892.0"
+      ],
+      [
+        "Mean",
+        "758.4807302231237"
+      ],
+      [
+        "Std Dev.",
+        "98.79479693020768"
+      ],
+      [
+        "Variance",
+        "9760.411900480973"
+      ],
+      [
+        "Displayed N",
+        "986"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "bsdateetm23x",
+    "label": "Time (minutes since midnight) when ended blood sample module - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10632",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bsdateetm23x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10632",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Time (minutes since midnight) when ended blood sample module - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "blood_sample23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "minutes",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2023 Home visit. Blood sample section. Quite a few of the blood sample variables are not in the paper version of the questionnaire. They are from the CAPI.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "bsdates23x",
+        "description": "Date when started blood sample module - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "Not applicable",
+        "library_file": "blood_sample23"
+      },
+      {
+        "varname": "bsdatet23x",
+        "description": "Time when started blood sample module - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "Not applicable",
+        "library_file": "blood_sample23"
+      },
+      {
+        "varname": "bsdateet23x",
+        "description": "Time when ended blood sample module - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "Not applicable",
+        "library_file": "blood_sample23"
+      },
+      {
+        "varname": "bsdatee23x",
+        "description": "Date when ended blood sample module - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "Not applicable",
+        "library_file": "blood_sample23"
+      },
+      {
+        "varname": "bsdatetm23x",
+        "description": "Time (minutes since midnight) when started blood sample module - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "Not applicable",
+        "library_file": "blood_sample23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood sample [5112]",
+        "description": "This category contains data from the questionnaire on how the blood sample was collected.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_sample_5112.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "9998.0",
+        "label": "Refusal",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Don't Know",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "minutes",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          607.0,
+          638.2727272727273,
+          669.5454545454545,
+          700.8181818181818,
+          732.0909090909091,
+          763.3636363636364,
+          794.6363636363636,
+          825.9090909090909,
+          857.1818181818182,
+          888.4545454545455,
+          919.7272727272727,
+          951.0
+        ],
+        "counts": [
+          63,
+          210,
+          131,
+          84,
+          32,
+          57,
+          69,
+          119,
+          115,
+          67,
+          39
+        ]
+      },
+      "boxplot": {
+        "min": 607.0,
+        "q1": 666.0,
+        "median": 735.0,
+        "q3": 851.0,
+        "max": 951.0
+      },
+      "units": "minutes"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "607"
+      ],
+      [
+        "Maximum",
+        "951"
+      ],
+      [
+        "Range",
+        "344"
+      ],
+      [
+        "Median",
+        "735.0"
+      ],
+      [
+        "IQR",
+        "666.0 - 851.0"
+      ],
+      [
+        "Decile 1",
+        "644.5"
+      ],
+      [
+        "Decile 2",
+        "657.0"
+      ],
+      [
+        "Decile 3",
+        "673.0"
+      ],
+      [
+        "Decile 4",
+        "697.0"
+      ],
+      [
+        "Decile 5",
+        "735.0"
+      ],
+      [
+        "Decile 6",
+        "805.0"
+      ],
+      [
+        "Decile 7",
+        "841.0"
+      ],
+      [
+        "Decile 8",
+        "860.0"
+      ],
+      [
+        "Decile 9",
+        "892.0"
+      ],
+      [
+        "Mean",
+        "758.4807302231237"
+      ],
+      [
+        "Std Dev.",
+        "98.79479693020768"
+      ],
+      [
+        "Variance",
+        "9760.411900480973"
+      ],
+      [
+        "Displayed N",
+        "986"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

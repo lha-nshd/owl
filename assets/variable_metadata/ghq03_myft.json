@@ -1,0 +1,452 @@
+{
+  "varname": "ghq03_myft",
+  "label": "Have you been recently been feeling run down and out of sorts - Myofit sub-study.",
+  "field_id": "70042",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70042",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 60.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ghq0399",
+    "ghq0309",
+    "ghq0315x",
+    "ghq0323x"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "categories": [
+    "General health questionnaire (GHQ) - screening for psychiatric disorder [8031]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-9.0",
+      "label": "Completed MyoFit46 - Measure not conducted"
+    },
+    {
+      "value": "0.0",
+      "label": "Not at all"
+    },
+    {
+      "value": "1.0",
+      "label": "No more than usual"
+    },
+    {
+      "value": "2.0",
+      "label": "Rather more than usual"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Not at all",
+      "count": 23,
+      "pct": 38.3
+    },
+    {
+      "label": "No more than usual",
+      "count": 23,
+      "pct": 38.3
+    },
+    {
+      "label": "Rather more than usual",
+      "count": 14,
+      "pct": 23.3
+    }
+  ],
+  "pdf": {
+    "varname": "ghq03_myft",
+    "label": "Have you been recently been feeling run down and out of sorts - Myofit sub-study.",
+    "meta_rows": [
+      [
+        "Variable",
+        "ghq03_myft"
+      ],
+      [
+        "Field ID",
+        "70042"
+      ],
+      [
+        "Label",
+        "Have you been recently been feeling run down and out of sorts - Myofit sub-study."
+      ],
+      [
+        "Card Number",
+        "Myft_GHQ"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Low cell counts"
+      ],
+      [
+        "Notes",
+        "For those participants who were unable to do the GHQ test during the 2023 Home visit, they were asked to do the test during the Myofit clinic visit. These need to be merged with the 2023 HV and NOT the 2015 HV."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ghq0399",
+        "Have you been recently been feeling run down and out of sorts - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "20",
+        "des99"
+      ],
+      [
+        "ghq0309",
+        "Have you been recently been feeling run down and out of sorts - at age 60-64 years",
+        "2006-10",
+        "Self completion",
+        "5",
+        "SelfComp09"
+      ],
+      [
+        "ghq0315x",
+        "Have you been recently been feeling run down and out of sorts - at age 69 years",
+        "2015",
+        "Self completion",
+        "3",
+        "SelfComp15"
+      ],
+      [
+        "ghq0323x",
+        "Have you been recently been feeling run down and out of sorts - at age 77 years",
+        "2023",
+        "Self completion",
+        "3",
+        "self_completion23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health questionnaire (GHQ) - screening for psychiatric disorder [8031]",
+        "The GHQ is a series of questions which act as a screening device for identifying minor psychiatric disorders in the general population. The version used by the NSHD is the GHQ-28: a 28 item scaled version which assesses somatic symptoms, anxiety and insomnia, social dysfunction and severe depression. Participants who were unable to answer the questions during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-9.0",
+        "Completed MyoFit46 - Measure not conducted",
+        true
+      ],
+      [
+        "0.0",
+        "Not at all",
+        false
+      ],
+      [
+        "1.0",
+        "No more than usual",
+        false
+      ],
+      [
+        "2.0",
+        "Rather more than usual",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "23",
+        "38%"
+      ],
+      [
+        "1",
+        "23",
+        "38%"
+      ],
+      [
+        "2",
+        "14",
+        "23%"
+      ],
+      [
+        "Displayed N",
+        "60",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "ghq03_myft",
+    "label": "Have you been recently been feeling run down and out of sorts - Myofit sub-study.",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70042",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ghq03_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70042",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Have you been recently been feeling run down and out of sorts - Myofit sub-study.",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Myft_GHQ",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Low cell counts",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "For those participants who were unable to do the GHQ test during the 2023 Home visit, they were asked to do the test during the Myofit clinic visit. These need to be merged with the 2023 HV and NOT the 2015 HV.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ghq0399",
+        "description": "Have you been recently been feeling run down and out of sorts - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "20",
+        "library_file": "des99"
+      },
+      {
+        "varname": "ghq0309",
+        "description": "Have you been recently been feeling run down and out of sorts - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Self completion",
+        "question": "5",
+        "library_file": "SelfComp09"
+      },
+      {
+        "varname": "ghq0315x",
+        "description": "Have you been recently been feeling run down and out of sorts - at age 69 years",
+        "year": "2015",
+        "form": "Self completion",
+        "question": "3",
+        "library_file": "SelfComp15"
+      },
+      {
+        "varname": "ghq0323x",
+        "description": "Have you been recently been feeling run down and out of sorts - at age 77 years",
+        "year": "2023",
+        "form": "Self completion",
+        "question": "3",
+        "library_file": "self_completion23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health questionnaire (GHQ) - screening for psychiatric disorder [8031]",
+        "description": "The GHQ is a series of questions which act as a screening device for identifying minor psychiatric disorders in the general population. The version used by the NSHD is the GHQ-28: a 28 item scaled version which assesses somatic symptoms, anxiety and insomnia, social dysfunction and severe depression. Participants who were unable to answer the questions during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/General_health_questionnaire_(GHQ)_-_screening_for_psychiatric_disorder_8031.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Completed MyoFit46 - Measure not conducted",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Not at all",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "No more than usual",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Rather more than usual",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 1,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Not at all",
+          "count": 23,
+          "pct": 38
+        },
+        {
+          "value": "1",
+          "label": "No more than usual",
+          "count": 23,
+          "pct": 38
+        },
+        {
+          "value": "2",
+          "label": "Rather more than usual",
+          "count": 14,
+          "pct": 23
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "23",
+        "38%"
+      ],
+      [
+        "1",
+        "23",
+        "38%"
+      ],
+      [
+        "2",
+        "14",
+        "23%"
+      ],
+      [
+        "Displayed N",
+        "60",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

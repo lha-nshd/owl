@@ -1,0 +1,682 @@
+{
+  "varname": "eldercare09_d",
+  "label": "Average time duration [hours/day] spent caring for elderly/disabled in the last year - at age 60-64 years",
+  "field_id": "13391",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13391",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "hours/day",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.06517594916373667,
+  "sd": 0.22418289314525172,
+  "series_size": 2111.0,
+  "minimum": 0.0,
+  "maximum": 1.4285714626312256,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "oeldercare09_w",
+    "oeldercare09_d",
+    "eldercare09_w"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "eldercare09_d",
+    "label": "Average time duration [hours/day] spent caring for elderly/disabled in the last year - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "eldercare09_d"
+      ],
+      [
+        "Field ID",
+        "13391"
+      ],
+      [
+        "Label",
+        "Average time duration [hours/day] spent caring for elderly/disabled in the last year - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours/day"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Home Activities (food preparation, shopping for food, shopping for other items, cleaning, laundry, caring for babies, caring for elderly). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "oeldercare09_w",
+        "Average time duration [hours/week] spent caring for elderly/disabled in the last (EPAQ2 categories) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "oeldercare09_d",
+        "Average time duration [hours/day] spent caring for elderly/disabled in the last  (EPAQ2 categories) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "eldercare09_w",
+        "Average time duration [hours/week] spent caring for elderly/disabled in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "1.4285714626312256"
+      ],
+      [
+        "Range",
+        "1.4285714626312256"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.0"
+      ],
+      [
+        "Decile 9",
+        "0.1314285695552826"
+      ],
+      [
+        "Mean",
+        "0.06517594916373667"
+      ],
+      [
+        "Std Dev.",
+        "0.22418289314525172"
+      ],
+      [
+        "Variance",
+        "0.050257969578975346"
+      ],
+      [
+        "Displayed N",
+        "2111"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "eldercare09_d",
+    "label": "Average time duration [hours/day] spent caring for elderly/disabled in the last year - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13391",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "eldercare09_d",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13391",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Average time duration [hours/day] spent caring for elderly/disabled in the last year - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours/day",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Home Activities (food preparation, shopping for food, shopping for other items, cleaning, laundry, caring for babies, caring for elderly). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "oeldercare09_w",
+        "description": "Average time duration [hours/week] spent caring for elderly/disabled in the last (EPAQ2 categories) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "oeldercare09_d",
+        "description": "Average time duration [hours/day] spent caring for elderly/disabled in the last  (EPAQ2 categories) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "eldercare09_w",
+        "description": "Average time duration [hours/week] spent caring for elderly/disabled in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "hours/day",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          0.015527950680774191,
+          0.031055901361548382,
+          0.04658385204232257,
+          0.062111802723096764,
+          0.07763975340387096,
+          0.09316770408464514,
+          0.10869565476541934,
+          0.12422360544619353,
+          0.1397515561269677,
+          0.1552795068077419,
+          0.1708074574885161,
+          0.18633540816929028,
+          0.20186335885006448,
+          0.21739130953083868,
+          0.23291926021161286,
+          0.24844721089238705,
+          0.26397516157316125,
+          0.2795031122539354,
+          0.29503106293470965,
+          0.3105590136154838,
+          0.326086964296258,
+          0.3416149149770322,
+          0.3571428656578064,
+          0.37267081633858057,
+          0.3881987670193548,
+          0.40372671770012897,
+          0.41925466838090314,
+          0.43478261906167737,
+          0.45031056974245154,
+          0.4658385204232257,
+          0.48136647110399994,
+          0.4968944217847741,
+          0.5124223724655483,
+          0.5279503231463225,
+          0.5434782738270967,
+          0.5590062245078709,
+          0.574534175188645,
+          0.5900621258694193,
+          0.6055900765501935,
+          0.6211180272309677,
+          0.6366459779117418,
+          0.652173928592516,
+          0.6677018792732902,
+          0.6832298299540644,
+          0.6987577806348386,
+          0.7142857313156128,
+          0.729813681996387,
+          0.7453416326771611,
+          0.7608695833579353,
+          0.7763975340387096,
+          0.7919254847194838,
+          0.8074534354002579,
+          0.8229813860810321,
+          0.8385093367618063,
+          0.8540372874425805,
+          0.8695652381233547,
+          0.8850931888041289,
+          0.9006211394849031,
+          0.9161490901656772,
+          0.9316770408464514,
+          0.9472049915272256,
+          0.9627329422079999,
+          0.978260892888774,
+          0.9937888435695482,
+          1.0093167942503225,
+          1.0248447449310967,
+          1.0403726956118708,
+          1.055900646292645,
+          1.0714285969734192,
+          1.0869565476541934,
+          1.1024844983349675,
+          1.1180124490157417,
+          1.1335403996965159,
+          1.14906835037729,
+          1.1645963010580642,
+          1.1801242517388386,
+          1.1956522024196128,
+          1.211180153100387,
+          1.2267081037811611,
+          1.2422360544619353,
+          1.2577640051427095,
+          1.2732919558234836,
+          1.2888199065042578,
+          1.304347857185032,
+          1.3198758078658062,
+          1.3354037585465803,
+          1.3509317092273545,
+          1.366459659908129,
+          1.381987610588903,
+          1.3975155612696772,
+          1.4130435119504514,
+          1.4285714626312256
+        ],
+        "counts": [
+          1827,
+          6,
+          32,
+          6,
+          16,
+          5,
+          5,
+          1,
+          5,
+          7,
+          10,
+          3,
+          0,
+          6,
+          4,
+          0,
+          1,
+          2,
+          20,
+          1,
+          1,
+          4,
+          0,
+          13,
+          0,
+          0,
+          0,
+          9,
+          0,
+          9,
+          0,
+          0,
+          4,
+          0,
+          8,
+          0,
+          7,
+          0,
+          0,
+          1,
+          0,
+          5,
+          1,
+          0,
+          1,
+          0,
+          26,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          0,
+          19,
+          0,
+          0,
+          5,
+          0,
+          1,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          5
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0,
+        "max": 1.4285714626312256
+      },
+      "units": "hours/day"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "1.4285714626312256"
+      ],
+      [
+        "Range",
+        "1.4285714626312256"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.0"
+      ],
+      [
+        "Decile 9",
+        "0.1314285695552826"
+      ],
+      [
+        "Mean",
+        "0.06517594916373667"
+      ],
+      [
+        "Std Dev.",
+        "0.22418289314525172"
+      ],
+      [
+        "Variance",
+        "0.050257969578975346"
+      ],
+      [
+        "Displayed N",
+        "2111"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

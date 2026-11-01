@@ -1,0 +1,519 @@
+{
+  "varname": "biochildy_eldest_26",
+  "label": "Age in years of eldest biological child [age 26] (CLS harmonisation)",
+  "field_id": "21952",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21952",
+  "year": "",
+  "form": "Section A - Main questionnaire",
+  "units": "years",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 3.3317919075144506,
+  "sd": 2.1955750882760103,
+  "series_size": 1730.0,
+  "minimum": 0.0,
+  "maximum": 8.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "biochildy_eldest_36",
+    "biochildy_eldest_43",
+    "biochildy_eldest_31"
+  ],
+  "linked_years": [
+    "1977",
+    "1982",
+    "1989"
+  ],
+  "categories": [
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-10.0",
+      "label": "No children"
+    },
+    {
+      "value": "-100.0",
+      "label": "No participation in sweep"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Information not provided"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "biochildy_eldest_26",
+    "label": "Age in years of eldest biological child [age 26] (CLS harmonisation)",
+    "meta_rows": [
+      [
+        "Variable",
+        "biochildy_eldest_26"
+      ],
+      [
+        "Field ID",
+        "21952"
+      ],
+      [
+        "Label",
+        "Age in years of eldest biological child [age 26] (CLS harmonisation)"
+      ],
+      [
+        "Card Number",
+        "CLS_fertility"
+      ],
+      [
+        "Form",
+        "Section A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "2"
+      ],
+      [
+        "Year",
+        "1972"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Derived as part of the CLS fertility work"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "biochildy_eldest_36",
+        "Age in years of eldest biological child [age 36] (CLS harmonisation)",
+        "1982",
+        "A - Main questionnaire",
+        "10",
+        "CLS_fertility"
+      ],
+      [
+        "biochildy_eldest_43",
+        "Age in years of eldest biological child [age 43] (CLS harmonisation)",
+        "1989",
+        "A - Main questionnaire",
+        "9",
+        "CLS_fertility"
+      ],
+      [
+        "biochildy_eldest_31",
+        "Age in years of eldest biological child [age 31] (CLS harmonisation)",
+        "1977",
+        "H6 - Postal questionnaire",
+        "4",
+        "CLS_fertility"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-10.0",
+        "No children",
+        true
+      ],
+      [
+        "-100.0",
+        "No participation in sweep",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Information not provided",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "8"
+      ],
+      [
+        "Range",
+        "8"
+      ],
+      [
+        "Median",
+        "3.0"
+      ],
+      [
+        "IQR",
+        "2.0 - 5.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "1.0"
+      ],
+      [
+        "Decile 3",
+        "2.0"
+      ],
+      [
+        "Decile 4",
+        "3.0"
+      ],
+      [
+        "Decile 5",
+        "3.0"
+      ],
+      [
+        "Decile 6",
+        "4.0"
+      ],
+      [
+        "Decile 7",
+        "5.0"
+      ],
+      [
+        "Decile 8",
+        "5.0"
+      ],
+      [
+        "Decile 9",
+        "6.0"
+      ],
+      [
+        "Mean",
+        "3.3317919075144506"
+      ],
+      [
+        "Std Dev.",
+        "2.1955750882760103"
+      ],
+      [
+        "Variance",
+        "4.820549968258211"
+      ],
+      [
+        "Displayed N",
+        "1730"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "biochildy_eldest_26",
+    "label": "Age in years of eldest biological child [age 26] (CLS harmonisation)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21952",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "biochildy_eldest_26",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "21952",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age in years of eldest biological child [age 26] (CLS harmonisation)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CLS_fertility",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Section A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "2",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1972",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived as part of the CLS fertility work",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "biochildy_eldest_36",
+        "description": "Age in years of eldest biological child [age 36] (CLS harmonisation)",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "10",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "biochildy_eldest_43",
+        "description": "Age in years of eldest biological child [age 43] (CLS harmonisation)",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "9",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "biochildy_eldest_31",
+        "description": "Age in years of eldest biological child [age 31] (CLS harmonisation)",
+        "year": "1977",
+        "form": "H6 - Postal questionnaire",
+        "question": "4",
+        "library_file": "CLS_fertility"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-10.0",
+        "label": "No children",
+        "is_missing": true
+      },
+      {
+        "value": "-100.0",
+        "label": "No participation in sweep",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Information not provided",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0
+        ],
+        "counts": [
+          193,
+          238,
+          242,
+          271,
+          229,
+          232,
+          170,
+          155
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 2.0,
+        "median": 3.0,
+        "q3": 5.0,
+        "max": 8.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "8"
+      ],
+      [
+        "Range",
+        "8"
+      ],
+      [
+        "Median",
+        "3.0"
+      ],
+      [
+        "IQR",
+        "2.0 - 5.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "1.0"
+      ],
+      [
+        "Decile 3",
+        "2.0"
+      ],
+      [
+        "Decile 4",
+        "3.0"
+      ],
+      [
+        "Decile 5",
+        "3.0"
+      ],
+      [
+        "Decile 6",
+        "4.0"
+      ],
+      [
+        "Decile 7",
+        "5.0"
+      ],
+      [
+        "Decile 8",
+        "5.0"
+      ],
+      [
+        "Decile 9",
+        "6.0"
+      ],
+      [
+        "Mean",
+        "3.3317919075144506"
+      ],
+      [
+        "Std Dev.",
+        "2.1955750882760103"
+      ],
+      [
+        "Variance",
+        "4.820549968258211"
+      ],
+      [
+        "Displayed N",
+        "1730"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

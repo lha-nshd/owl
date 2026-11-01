@@ -1,0 +1,486 @@
+{
+  "varname": "pcpredictedfvc2015",
+  "label": "Calculated percent perdicted FVC (Hankinson) - at age 69 years",
+  "field_id": "6114",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6114",
+  "year": "",
+  "form": "Home visit",
+  "units": "%",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 97.51927875628779,
+  "sd": 11.995087424393098,
+  "series_size": 967.0,
+  "minimum": 71.62971209595527,
+  "maximum": 121.88993679167656,
+  "truly_longitudinal_field_id": "6114",
+  "truly_longitudinal_varnames": [
+    "pcpredictedfvc1989",
+    "pcpredictedfvc1999",
+    "pcpredictedfvc2009"
+  ],
+  "truly_longitudinal_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Spirometry [1105]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "pcpredictedfvc2015",
+    "label": "Calculated percent perdicted FVC (Hankinson) - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "pcpredictedfvc2015"
+      ],
+      [
+        "Field ID",
+        "6114"
+      ],
+      [
+        "Label",
+        "Calculated percent perdicted FVC (Hankinson) - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "predicted_lungfunction89_15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "8"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "%"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived variables for all 1989-2015."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "pcpredictedfvc1989",
+        "1989",
+        "Calculated percent perdicted FVC (Hankinson) - at age 43 years"
+      ],
+      [
+        "pcpredictedfvc1999",
+        "1999",
+        "Calculated percent perdicted FVC (Hankinson) - at age 53 years"
+      ],
+      [
+        "pcpredictedfvc2009",
+        "2006-10",
+        "Calculated percent perdicted FVC (Hankinson) - at age 60-64 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Spirometry [1105]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "71.62971209595527"
+      ],
+      [
+        "Maximum",
+        "121.88993679167656"
+      ],
+      [
+        "Range",
+        "50.26022469572129"
+      ],
+      [
+        "Median",
+        "97.61742160123275"
+      ],
+      [
+        "IQR",
+        "88.49030686852703 - 106.15795469933212"
+      ],
+      [
+        "Decile 1",
+        "81.76185596655992"
+      ],
+      [
+        "Decile 2",
+        "86.50712109645526"
+      ],
+      [
+        "Decile 3",
+        "89.81990281606726"
+      ],
+      [
+        "Decile 4",
+        "94.17957019798959"
+      ],
+      [
+        "Decile 5",
+        "97.61742160123275"
+      ],
+      [
+        "Decile 6",
+        "100.80689027034498"
+      ],
+      [
+        "Decile 7",
+        "104.5129814266211"
+      ],
+      [
+        "Decile 8",
+        "108.41201623587202"
+      ],
+      [
+        "Decile 9",
+        "114.49886589573036"
+      ],
+      [
+        "Mean",
+        "97.51927875628779"
+      ],
+      [
+        "Std Dev.",
+        "11.995087424393098"
+      ],
+      [
+        "Variance",
+        "143.88212231883347"
+      ],
+      [
+        "Displayed N",
+        "967"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "pcpredictedfvc2015",
+    "label": "Calculated percent perdicted FVC (Hankinson) - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6114",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "pcpredictedfvc2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "6114",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Calculated percent perdicted FVC (Hankinson) - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "predicted_lungfunction89_15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "%",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variables for all 1989-2015.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "6114",
+      "members": [
+        {
+          "varname": "pcpredictedfvc1989",
+          "year": "1989",
+          "label": "Calculated percent perdicted FVC (Hankinson) - at age 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "pcpredictedfvc1999",
+          "year": "1999",
+          "label": "Calculated percent perdicted FVC (Hankinson) - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "pcpredictedfvc2009",
+          "year": "2006-10",
+          "label": "Calculated percent perdicted FVC (Hankinson) - at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "pcpredictedfvc2015",
+          "year": "2015",
+          "label": "Calculated percent perdicted FVC (Hankinson) - at age 69 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Spirometry [1105]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_1105.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "%",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          71.62971209595527,
+          74.98039374233669,
+          78.3310753887181,
+          81.68175703509952,
+          85.03243868148095,
+          88.38312032786237,
+          91.73380197424379,
+          95.0844836206252,
+          98.43516526700662,
+          101.78584691338804,
+          105.13652855976946,
+          108.48721020615088,
+          111.8378918525323,
+          115.18857349891371,
+          118.53925514529514,
+          121.88993679167656
+        ],
+        "counts": [
+          23,
+          33,
+          40,
+          69,
+          72,
+          89,
+          84,
+          100,
+          93,
+          87,
+          85,
+          57,
+          53,
+          39,
+          43
+        ]
+      },
+      "boxplot": {
+        "min": 71.62971209595527,
+        "q1": 88.49030686852703,
+        "median": 97.61742160123275,
+        "q3": 106.15795469933212,
+        "max": 121.88993679167656
+      },
+      "units": "%"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "71.62971209595527"
+      ],
+      [
+        "Maximum",
+        "121.88993679167656"
+      ],
+      [
+        "Range",
+        "50.26022469572129"
+      ],
+      [
+        "Median",
+        "97.61742160123275"
+      ],
+      [
+        "IQR",
+        "88.49030686852703 - 106.15795469933212"
+      ],
+      [
+        "Decile 1",
+        "81.76185596655992"
+      ],
+      [
+        "Decile 2",
+        "86.50712109645526"
+      ],
+      [
+        "Decile 3",
+        "89.81990281606726"
+      ],
+      [
+        "Decile 4",
+        "94.17957019798959"
+      ],
+      [
+        "Decile 5",
+        "97.61742160123275"
+      ],
+      [
+        "Decile 6",
+        "100.80689027034498"
+      ],
+      [
+        "Decile 7",
+        "104.5129814266211"
+      ],
+      [
+        "Decile 8",
+        "108.41201623587202"
+      ],
+      [
+        "Decile 9",
+        "114.49886589573036"
+      ],
+      [
+        "Mean",
+        "97.51927875628779"
+      ],
+      [
+        "Std Dev.",
+        "11.995087424393098"
+      ],
+      [
+        "Variance",
+        "143.88212231883347"
+      ],
+      [
+        "Displayed N",
+        "967"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

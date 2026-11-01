@@ -1,0 +1,582 @@
+{
+  "varname": "sitc22x",
+  "label": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Reading? - at age 76 years",
+  "field_id": "8814",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8814",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1866.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "8814",
+  "truly_longitudinal_varnames": [
+    "nread15x"
+  ],
+  "truly_longitudinal_years": [
+    "2015",
+    "2022"
+  ],
+  "linked_varnames": [
+    "ncpu15x",
+    "nvid15x",
+    "sita22x",
+    "sitb22x"
+  ],
+  "linked_years": [
+    "2015",
+    "2022"
+  ],
+  "categories": [
+    "Social activities [5254]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Zero"
+    },
+    {
+      "value": "1.0",
+      "label": "Less than 1 hour a day"
+    },
+    {
+      "value": "2.0",
+      "label": "1 to 2 hours a day"
+    },
+    {
+      "value": "3.0",
+      "label": "2 to 3 hours a day"
+    },
+    {
+      "value": "4.0",
+      "label": "3 to 4 hours a day"
+    },
+    {
+      "value": "5.0",
+      "label": "More than 4 hours a day"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Zero",
+      "count": 82,
+      "pct": 4.4
+    },
+    {
+      "label": "Less than 1 hour a day",
+      "count": 537,
+      "pct": 28.8
+    },
+    {
+      "label": "1 to 2 hours a day",
+      "count": 817,
+      "pct": 43.8
+    },
+    {
+      "label": "2 to 3 hours a day",
+      "count": 284,
+      "pct": 15.2
+    },
+    {
+      "label": "3 to 4 hours a day",
+      "count": 87,
+      "pct": 4.7
+    },
+    {
+      "label": "More than 4 hours a day",
+      "count": 59,
+      "pct": 3.2
+    }
+  ],
+  "pdf": {
+    "varname": "sitc22x",
+    "label": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Reading? - at age 76 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "sitc22x"
+      ],
+      [
+        "Field ID",
+        "8814"
+      ],
+      [
+        "Label",
+        "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Reading? - at age 76 years"
+      ],
+      [
+        "Card Number",
+        "Postal22"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "151"
+      ],
+      [
+        "Year",
+        "2022"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Exercise habit questions, Q148-Q152. All variables in this question are SITA22X, SITB22X and SITC22X"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "nread15x",
+        "2015",
+        "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Reading? - at age 69 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "ncpu15x",
+        "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Using a computer? - at age 69 years",
+        "2015",
+        "Home visit",
+        "15",
+        "HealthBehaviours15"
+      ],
+      [
+        "nvid15x",
+        "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Watching TV? - at age 69 years",
+        "2015",
+        "Home visit",
+        "14",
+        "HealthBehaviours15"
+      ],
+      [
+        "sita22x",
+        "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Watching TV? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "151",
+        "Postal22"
+      ],
+      [
+        "sitb22x",
+        "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Using a computer? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "151",
+        "Postal22"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social activities [5254]",
+        "This category contains data from the questionnaires on social acitivities such as reading and using a computer. It also include spare time activities."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Zero",
+        false
+      ],
+      [
+        "1.0",
+        "Less than 1 hour a day",
+        false
+      ],
+      [
+        "2.0",
+        "1 to 2 hours a day",
+        false
+      ],
+      [
+        "3.0",
+        "2 to 3 hours a day",
+        false
+      ],
+      [
+        "4.0",
+        "3 to 4 hours a day",
+        false
+      ],
+      [
+        "5.0",
+        "More than 4 hours a day",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "82",
+        "4%"
+      ],
+      [
+        "1",
+        "537",
+        "29%"
+      ],
+      [
+        "2",
+        "817",
+        "44%"
+      ],
+      [
+        "3",
+        "284",
+        "15%"
+      ],
+      [
+        "4",
+        "87",
+        "5%"
+      ],
+      [
+        "5",
+        "59",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "1866",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "sitc22x",
+    "label": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Reading? - at age 76 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8814",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "sitc22x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8814",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Reading? - at age 76 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Postal22",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "151",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2022",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Exercise habit questions, Q148-Q152. All variables in this question are SITA22X, SITB22X and SITC22X",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "8814",
+      "members": [
+        {
+          "varname": "nread15x",
+          "year": "2015",
+          "label": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Reading? - at age 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "sitc22x",
+          "year": "2022",
+          "label": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Reading? - at age 76 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "ncpu15x",
+        "description": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Using a computer? - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "15",
+        "library_file": "HealthBehaviours15"
+      },
+      {
+        "varname": "nvid15x",
+        "description": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Watching TV? - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "14",
+        "library_file": "HealthBehaviours15"
+      },
+      {
+        "varname": "sita22x",
+        "description": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Watching TV? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "151",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "sitb22x",
+        "description": "The following questions are about the time you spend sitting down.  How much time you spent on average during the last year: - Using a computer? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "151",
+        "library_file": "Postal22"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social activities [5254]",
+        "description": "This category contains data from the questionnaires on social acitivities such as reading and using a computer. It also include spare time activities.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Social_activities_5254.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Zero",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Less than 1 hour a day",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "1 to 2 hours a day",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "2 to 3 hours a day",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "3 to 4 hours a day",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "More than 4 hours a day",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 1,
+      "vals": 8
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Zero",
+          "count": 82,
+          "pct": 4
+        },
+        {
+          "value": "1",
+          "label": "Less than 1 hour a day",
+          "count": 537,
+          "pct": 29
+        },
+        {
+          "value": "2",
+          "label": "1 to 2 hours a day",
+          "count": 817,
+          "pct": 44
+        },
+        {
+          "value": "3",
+          "label": "2 to 3 hours a day",
+          "count": 284,
+          "pct": 15
+        },
+        {
+          "value": "4",
+          "label": "3 to 4 hours a day",
+          "count": 87,
+          "pct": 5
+        },
+        {
+          "value": "5",
+          "label": "More than 4 hours a day",
+          "count": 59,
+          "pct": 3
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "82",
+        "4%"
+      ],
+      [
+        "1",
+        "537",
+        "29%"
+      ],
+      [
+        "2",
+        "817",
+        "44%"
+      ],
+      [
+        "3",
+        "284",
+        "15%"
+      ],
+      [
+        "4",
+        "87",
+        "5%"
+      ],
+      [
+        "5",
+        "59",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "1866",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

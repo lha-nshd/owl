@@ -1,0 +1,574 @@
+{
+  "varname": "dbp123x",
+  "label": "Diastolic blood pressure (mmHg) - first reading - at age 77 years",
+  "field_id": "1140",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1140",
+  "year": "",
+  "form": "Home visit",
+  "units": "mmHg",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 71.18979591836735,
+  "sd": 8.832263326495353,
+  "series_size": 980.0,
+  "minimum": 54.0,
+  "maximum": 91.0,
+  "truly_longitudinal_field_id": "1140",
+  "truly_longitudinal_varnames": [
+    "dbp109",
+    "dbp115x",
+    "dbp991",
+    "dbpf89f",
+    "dbpff"
+  ],
+  "truly_longitudinal_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [
+    "meandbp09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Blood pressure [1103]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "999.0",
+      "label": "Successful reading not obtained"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dbp123x",
+    "label": "Diastolic blood pressure (mmHg) - first reading - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dbp123x"
+      ],
+      [
+        "Field ID",
+        "1140"
+      ],
+      [
+        "Label",
+        "Diastolic blood pressure (mmHg) - first reading - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "blood_pressure23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "4(a)"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmHg"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2023 Home visit. Blood pressure section. Quite a few of the blood pressure variables are not in the paper version of the questionnaire. They are from the CAPI."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "dbpff",
+        "1982",
+        "Diastolic blood pressure (mmHg) - first reading - at age 36 years"
+      ],
+      [
+        "dbpf89f",
+        "1989",
+        "Diastolic blood pressure (mmHg) - first reading - at age 43 years"
+      ],
+      [
+        "dbp991",
+        "1999",
+        "Diastolic blood pressure (mmHg) - first reading - at age 53 years"
+      ],
+      [
+        "dbp109",
+        "2006-10",
+        "Diastolic blood pressure (mmHg) - first reading - at age 60-64 years"
+      ],
+      [
+        "dbp115x",
+        "2015",
+        "Diastolic blood pressure (mmHg) - first reading - at age 69 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "meandbp09",
+        "Mean Diastolic blood pressure (mmHg) of first and second measure",
+        "2006-10",
+        "Nurse schedule",
+        "32",
+        "BP09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood pressure [1103]",
+        "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "999.0",
+        "Successful reading not obtained",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "54.0"
+      ],
+      [
+        "Maximum",
+        "91.0"
+      ],
+      [
+        "Range",
+        "37.0"
+      ],
+      [
+        "Median",
+        "71.0"
+      ],
+      [
+        "IQR",
+        "64.0 - 78.0"
+      ],
+      [
+        "Decile 1",
+        "59.900000000000006"
+      ],
+      [
+        "Decile 2",
+        "63.0"
+      ],
+      [
+        "Decile 3",
+        "66.0"
+      ],
+      [
+        "Decile 4",
+        "68.60000000000002"
+      ],
+      [
+        "Decile 5",
+        "71.0"
+      ],
+      [
+        "Decile 6",
+        "74.0"
+      ],
+      [
+        "Decile 7",
+        "76.0"
+      ],
+      [
+        "Decile 8",
+        "79.0"
+      ],
+      [
+        "Decile 9",
+        "83.0"
+      ],
+      [
+        "Mean",
+        "71.18979591836735"
+      ],
+      [
+        "Std Dev.",
+        "8.832263326495353"
+      ],
+      [
+        "Variance",
+        "78.00887546855476"
+      ],
+      [
+        "Displayed N",
+        "980"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dbp123x",
+    "label": "Diastolic blood pressure (mmHg) - first reading - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1140",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dbp123x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1140",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Diastolic blood pressure (mmHg) - first reading - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "blood_pressure23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "4(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmHg",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2023 Home visit. Blood pressure section. Quite a few of the blood pressure variables are not in the paper version of the questionnaire. They are from the CAPI.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1140",
+      "members": [
+        {
+          "varname": "dbpff",
+          "year": "1982",
+          "label": "Diastolic blood pressure (mmHg) - first reading - at age 36 years",
+          "is_current": false
+        },
+        {
+          "varname": "dbpf89f",
+          "year": "1989",
+          "label": "Diastolic blood pressure (mmHg) - first reading - at age 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "dbp991",
+          "year": "1999",
+          "label": "Diastolic blood pressure (mmHg) - first reading - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "dbp109",
+          "year": "2006-10",
+          "label": "Diastolic blood pressure (mmHg) - first reading - at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "dbp115x",
+          "year": "2015",
+          "label": "Diastolic blood pressure (mmHg) - first reading - at age 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "dbp123x",
+          "year": "2023",
+          "label": "Diastolic blood pressure (mmHg) - first reading - at age 77 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "meandbp09",
+        "description": "Mean Diastolic blood pressure (mmHg) of first and second measure",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "32",
+        "library_file": "BP09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood pressure [1103]",
+        "description": "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pressure_1103.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Successful reading not obtained",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmHg",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          54.0,
+          56.642857142857146,
+          59.285714285714285,
+          61.92857142857143,
+          64.57142857142857,
+          67.21428571428571,
+          69.85714285714286,
+          72.5,
+          75.14285714285714,
+          77.78571428571428,
+          80.42857142857143,
+          83.07142857142857,
+          85.71428571428572,
+          88.35714285714286,
+          91.0
+        ],
+        "counts": [
+          47,
+          51,
+          47,
+          104,
+          101,
+          84,
+          116,
+          103,
+          76,
+          100,
+          59,
+          29,
+          36,
+          27
+        ]
+      },
+      "boxplot": {
+        "min": 54.0,
+        "q1": 64.0,
+        "median": 71.0,
+        "q3": 78.0,
+        "max": 91.0
+      },
+      "units": "mmHg"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "54.0"
+      ],
+      [
+        "Maximum",
+        "91.0"
+      ],
+      [
+        "Range",
+        "37.0"
+      ],
+      [
+        "Median",
+        "71.0"
+      ],
+      [
+        "IQR",
+        "64.0 - 78.0"
+      ],
+      [
+        "Decile 1",
+        "59.900000000000006"
+      ],
+      [
+        "Decile 2",
+        "63.0"
+      ],
+      [
+        "Decile 3",
+        "66.0"
+      ],
+      [
+        "Decile 4",
+        "68.60000000000002"
+      ],
+      [
+        "Decile 5",
+        "71.0"
+      ],
+      [
+        "Decile 6",
+        "74.0"
+      ],
+      [
+        "Decile 7",
+        "76.0"
+      ],
+      [
+        "Decile 8",
+        "79.0"
+      ],
+      [
+        "Decile 9",
+        "83.0"
+      ],
+      [
+        "Mean",
+        "71.18979591836735"
+      ],
+      [
+        "Std Dev.",
+        "8.832263326495353"
+      ],
+      [
+        "Variance",
+        "78.00887546855476"
+      ],
+      [
+        "Displayed N",
+        "980"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

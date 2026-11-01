@@ -1,0 +1,631 @@
+{
+  "varname": "fvc89s",
+  "label": "FVC - Maximum score where 2 have been recorded and the difference between the maximum values is 0.30 or less (Quanjer method) - at age 53 years",
+  "field_id": "31140",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31140",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "litres",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 3.5938023715415017,
+  "sd": 0.7155805904972214,
+  "series_size": 2530.0,
+  "minimum": 2.28,
+  "maximum": 5.21,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "fvc289u",
+    "fvc89u",
+    "fvc89u2",
+    "fvc389u",
+    "fvc389c",
+    "fvc189c",
+    "fvc189u",
+    "fvc289c"
+  ],
+  "linked_years": [
+    "1989"
+  ],
+  "categories": [
+    "Respiratory health [5]",
+    "Spirometry [1105]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No reading or not enough valid readings obtained"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "fvc89s",
+    "label": "FVC - Maximum score where 2 have been recorded and the difference between the maximum values is 0.30 or less (Quanjer method) - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "fvc89s"
+      ],
+      [
+        "Field ID",
+        "31140"
+      ],
+      [
+        "Label",
+        "FVC - Maximum score where 2 have been recorded and the difference between the maximum values is 0.30 or less (Quanjer method) - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "LungFunc8999"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "95"
+      ],
+      [
+        "Year",
+        "1989"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "litres"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lung function data from the 1989 data colletion."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "fvc289u",
+        "FVC - Second blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "LungFunc8999"
+      ],
+      [
+        "fvc89u",
+        "FVC - Maximum score where 2 values have been recorded and are deemed satisfactory highest of 2 is used else if only one satisfactory blow that is used - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "LungFunc8999"
+      ],
+      [
+        "fvc89u2",
+        "FVC - Maximum score where 2 values have been recorded and are deemed satisfactory - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "LungFunc8999"
+      ],
+      [
+        "fvc389u",
+        "FVC - Third blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "LungFunc8999"
+      ],
+      [
+        "fvc389c",
+        "FVC - Third blow raw counts converted into litres - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "LungFunc8999"
+      ],
+      [
+        "fvc189c",
+        "FVC - First blow raw counts converted into litres - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "LungFunc8999"
+      ],
+      [
+        "fvc189u",
+        "FVC - First blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "LungFunc8999"
+      ],
+      [
+        "fvc289c",
+        "FVC - Second blow raw counts converted into litres - at age 53 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "LungFunc8999"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/LungFunc8999/Lung_function_documentation_ref.docx",
+        "Lung_function_documentation_ref.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory health [5]",
+        "Legacy Category"
+      ],
+      [
+        "Spirometry [1105]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No reading or not enough valid readings obtained",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.28"
+      ],
+      [
+        "Maximum",
+        "5.21"
+      ],
+      [
+        "Range",
+        "2.93"
+      ],
+      [
+        "Median",
+        "3.52"
+      ],
+      [
+        "IQR",
+        "3.03 - 4.11"
+      ],
+      [
+        "Decile 1",
+        "2.67"
+      ],
+      [
+        "Decile 2",
+        "2.95"
+      ],
+      [
+        "Decile 3",
+        "3.1369999999999996"
+      ],
+      [
+        "Decile 4",
+        "3.33"
+      ],
+      [
+        "Decile 5",
+        "3.52"
+      ],
+      [
+        "Decile 6",
+        "3.75"
+      ],
+      [
+        "Decile 7",
+        "3.97"
+      ],
+      [
+        "Decile 8",
+        "4.27"
+      ],
+      [
+        "Decile 9",
+        "4.63"
+      ],
+      [
+        "Mean",
+        "3.5938023715415017"
+      ],
+      [
+        "Std Dev.",
+        "0.7155805904972214"
+      ],
+      [
+        "Variance",
+        "0.5120555814963521"
+      ],
+      [
+        "Displayed N",
+        "2530"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "fvc89s",
+    "label": "FVC - Maximum score where 2 have been recorded and the difference between the maximum values is 0.30 or less (Quanjer method) - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31140",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "fvc89s",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31140",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "FVC - Maximum score where 2 have been recorded and the difference between the maximum values is 0.30 or less (Quanjer method) - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "LungFunc8999",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "95",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1989",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "litres",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lung function data from the 1989 data colletion.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "fvc289u",
+        "description": "FVC - Second blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "LungFunc8999"
+      },
+      {
+        "varname": "fvc89u",
+        "description": "FVC - Maximum score where 2 values have been recorded and are deemed satisfactory highest of 2 is used else if only one satisfactory blow that is used - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "LungFunc8999"
+      },
+      {
+        "varname": "fvc89u2",
+        "description": "FVC - Maximum score where 2 values have been recorded and are deemed satisfactory - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "LungFunc8999"
+      },
+      {
+        "varname": "fvc389u",
+        "description": "FVC - Third blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "LungFunc8999"
+      },
+      {
+        "varname": "fvc389c",
+        "description": "FVC - Third blow raw counts converted into litres - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "LungFunc8999"
+      },
+      {
+        "varname": "fvc189c",
+        "description": "FVC - First blow raw counts converted into litres - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "LungFunc8999"
+      },
+      {
+        "varname": "fvc189u",
+        "description": "FVC - First blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "LungFunc8999"
+      },
+      {
+        "varname": "fvc289c",
+        "description": "FVC - Second blow raw counts converted into litres - at age 53 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "LungFunc8999"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/LungFunc8999/Lung_function_documentation_ref.docx",
+        "text": "Lung_function_documentation_ref.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory health [5]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Spirometry [1105]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_1105.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No reading or not enough valid readings obtained",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 2,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "litres",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          2.28,
+          2.4342105263157894,
+          2.588421052631579,
+          2.7426315789473685,
+          2.8968421052631577,
+          3.0510526315789472,
+          3.205263157894737,
+          3.359473684210526,
+          3.513684210526316,
+          3.667894736842105,
+          3.8221052631578947,
+          3.9763157894736842,
+          4.130526315789474,
+          4.284736842105263,
+          4.4389473684210525,
+          4.5931578947368426,
+          4.747368421052632,
+          4.901578947368421,
+          5.055789473684211,
+          5.21
+        ],
+        "counts": [
+          78,
+          103,
+          128,
+          158,
+          195,
+          194,
+          189,
+          213,
+          183,
+          162,
+          170,
+          144,
+          121,
+          103,
+          118,
+          81,
+          76,
+          63,
+          51
+        ]
+      },
+      "boxplot": {
+        "min": 2.28,
+        "q1": 3.03,
+        "median": 3.52,
+        "q3": 4.11,
+        "max": 5.21
+      },
+      "units": "litres"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.28"
+      ],
+      [
+        "Maximum",
+        "5.21"
+      ],
+      [
+        "Range",
+        "2.93"
+      ],
+      [
+        "Median",
+        "3.52"
+      ],
+      [
+        "IQR",
+        "3.03 - 4.11"
+      ],
+      [
+        "Decile 1",
+        "2.67"
+      ],
+      [
+        "Decile 2",
+        "2.95"
+      ],
+      [
+        "Decile 3",
+        "3.1369999999999996"
+      ],
+      [
+        "Decile 4",
+        "3.33"
+      ],
+      [
+        "Decile 5",
+        "3.52"
+      ],
+      [
+        "Decile 6",
+        "3.75"
+      ],
+      [
+        "Decile 7",
+        "3.97"
+      ],
+      [
+        "Decile 8",
+        "4.27"
+      ],
+      [
+        "Decile 9",
+        "4.63"
+      ],
+      [
+        "Mean",
+        "3.5938023715415017"
+      ],
+      [
+        "Std Dev.",
+        "0.7155805904972214"
+      ],
+      [
+        "Variance",
+        "0.5120555814963521"
+      ],
+      [
+        "Displayed N",
+        "2530"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

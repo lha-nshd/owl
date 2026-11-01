@@ -1,0 +1,536 @@
+{
+  "varname": "bt_is_lft15_i46p1",
+  "label": "Incoordination score (IS) - Variance of the interval between key taps (milliseconds) - left hand - Insight46 phase 1",
+  "field_id": "60662",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60662",
+  "year": "",
+  "form": "Insight46 - Phase 1",
+  "units": "milliseconds",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 14284.303793939416,
+  "sd": 30451.39203864962,
+  "series_size": 414.0,
+  "minimum": 601.2280883789062,
+  "maximum": 184377.59375,
+  "truly_longitudinal_field_id": "60662",
+  "truly_longitudinal_varnames": [
+    "bt_is_lft15_i46p2"
+  ],
+  "truly_longitudinal_years": [
+    "2015-2018",
+    "2018-2021"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Bradykinesia Akinesia Incoordination (BRAIN) Tap Test [60361]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "bt_is_lft15_i46p1",
+    "label": "Incoordination score (IS) - Variance of the interval between key taps (milliseconds) - left hand - Insight46 phase 1",
+    "meta_rows": [
+      [
+        "Variable",
+        "bt_is_lft15_i46p1"
+      ],
+      [
+        "Field ID",
+        "60662"
+      ],
+      [
+        "Label",
+        "Incoordination score (IS) - Variance of the interval between key taps (milliseconds) - left hand - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46_braintap"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 1"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2015-2018"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "milliseconds"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 BRAIN test: a validated test for detecting signs of Parkinson's disease and other neurological conditions. Using a Lenovo Thinkpad laptop, participants were instructed to tap as fast and accurately as possible, alternating between the s and ; keys for thirty seconds, with each hand separately. In several cases, the hand used for each test may have been recorded incorrectly (indicated by a discrepancy between the data recorded by staff and the website).  This discrepancy has been coded with the variable \u201cBT_rightleftuncertain_15\u201c,the data is useable for analyses using a the mean of both hands, or \u201cworst hand\u201d analyses, but should be excluded if relationships with dominant or non-dominant hands are investigated. Also performed at phase 2 - see library file I46P2_braintap."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "bt_is_lft15_i46p2",
+        "2018-2021",
+        "Incoordination score (IS) - Variance of the interval between key taps (milliseconds) - left hand - Insight46 phase 2"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_braintap/Docs_braintap_I46W1.docx",
+        "Docs_braintap_I46W1.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Bradykinesia Akinesia Incoordination (BRAIN) Tap Test [60361]",
+        "This category contains information on the online keyboard tapping test to assess upper limb motor function collected as part of the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "601.2280883789062"
+      ],
+      [
+        "Maximum",
+        "184377.59375"
+      ],
+      [
+        "Range",
+        "183776.3656616211"
+      ],
+      [
+        "Median",
+        "2928.9178466796875"
+      ],
+      [
+        "IQR",
+        "1506.9449462890625 - 11041.64013671875"
+      ],
+      [
+        "Decile 1",
+        "944.6535949707031"
+      ],
+      [
+        "Decile 2",
+        "1281.1962646484376"
+      ],
+      [
+        "Decile 3",
+        "1659.9329956054685"
+      ],
+      [
+        "Decile 4",
+        "2172.7632324218757"
+      ],
+      [
+        "Decile 5",
+        "2928.9178466796875"
+      ],
+      [
+        "Decile 6",
+        "4458.00517578125"
+      ],
+      [
+        "Decile 7",
+        "8310.290234375"
+      ],
+      [
+        "Decile 8",
+        "14847.376953125002"
+      ],
+      [
+        "Decile 9",
+        "39800.762890624996"
+      ],
+      [
+        "Mean",
+        "14284.303793939416"
+      ],
+      [
+        "Std Dev.",
+        "30451.39203864962"
+      ],
+      [
+        "Variance",
+        "927287277.0915335"
+      ],
+      [
+        "Displayed N",
+        "414"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "bt_is_lft15_i46p1",
+    "label": "Incoordination score (IS) - Variance of the interval between key taps (milliseconds) - left hand - Insight46 phase 1",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60662",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bt_is_lft15_i46p1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "60662",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Incoordination score (IS) - Variance of the interval between key taps (milliseconds) - left hand - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46_braintap",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015-2018",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "milliseconds",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 BRAIN test: a validated test for detecting signs of Parkinson's disease and other neurological conditions. Using a Lenovo Thinkpad laptop, participants were instructed to tap as fast and accurately as possible, alternating between the s and ; keys for thirty seconds, with each hand separately. In several cases, the hand used for each test may have been recorded incorrectly (indicated by a discrepancy between the data recorded by staff and the website).  This discrepancy has been coded with the variable \u201cBT_rightleftuncertain_15\u201c,the data is useable for analyses using a the mean of both hands, or \u201cworst hand\u201d analyses, but should be excluded if relationships with dominant or non-dominant hands are investigated. Also performed at phase 2 - see library file I46P2_braintap.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "60662",
+      "members": [
+        {
+          "varname": "bt_is_lft15_i46p1",
+          "year": "2015-2018",
+          "label": "Incoordination score (IS) - Variance of the interval between key taps (milliseconds) - left hand - Insight46 phase 1",
+          "is_current": true
+        },
+        {
+          "varname": "bt_is_lft15_i46p2",
+          "year": "2018-2021",
+          "label": "Incoordination score (IS) - Variance of the interval between key taps (milliseconds) - left hand - Insight46 phase 2",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_braintap/Docs_braintap_I46W1.docx",
+        "text": "Docs_braintap_I46W1.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Bradykinesia Akinesia Incoordination (BRAIN) Tap Test [60361]",
+        "description": "This category contains information on the online keyboard tapping test to assess upper limb motor function collected as part of the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Bradykinesia_Akinesia_Incoordination_(BRAIN)_Tap_Test_60361.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 2,
+      "cats": 1,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "milliseconds",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          601.2280883789062,
+          5083.5784703696645,
+          9565.928852360423,
+          14048.279234351181,
+          18530.62961634194,
+          23012.979998332696,
+          27495.330380323456,
+          31977.680762314216,
+          36460.03114430497,
+          40942.38152629573,
+          45424.731908286485,
+          49907.08229027725,
+          54389.432672268005,
+          58871.78305425876,
+          63354.133436249525,
+          67836.48381824027,
+          72318.83420023104,
+          76801.1845822218,
+          81283.53496421255,
+          85765.88534620331,
+          90248.23572819406,
+          94730.58611018483,
+          99212.93649217559,
+          103695.28687416634,
+          108177.6372561571,
+          112659.98763814787,
+          117142.33802013862,
+          121624.68840212938,
+          126107.03878412014,
+          130589.3891661109,
+          135071.73954810164,
+          139554.08993009242,
+          144036.44031208317,
+          148518.79069407392,
+          153001.1410760647,
+          157483.49145805545,
+          161965.8418400462,
+          166448.19222203697,
+          170930.54260402772,
+          175412.89298601847,
+          179895.24336800922,
+          184377.59375
+        ],
+        "counts": [
+          259,
+          45,
+          22,
+          17,
+          13,
+          5,
+          6,
+          3,
+          4,
+          5,
+          4,
+          5,
+          0,
+          3,
+          2,
+          0,
+          1,
+          0,
+          2,
+          1,
+          0,
+          0,
+          1,
+          2,
+          3,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          3
+        ]
+      },
+      "boxplot": {
+        "min": 601.2280883789062,
+        "q1": 1506.9449462890625,
+        "median": 2928.9178466796875,
+        "q3": 11041.64013671875,
+        "max": 184377.59375
+      },
+      "units": "milliseconds"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "601.2280883789062"
+      ],
+      [
+        "Maximum",
+        "184377.59375"
+      ],
+      [
+        "Range",
+        "183776.3656616211"
+      ],
+      [
+        "Median",
+        "2928.9178466796875"
+      ],
+      [
+        "IQR",
+        "1506.9449462890625 - 11041.64013671875"
+      ],
+      [
+        "Decile 1",
+        "944.6535949707031"
+      ],
+      [
+        "Decile 2",
+        "1281.1962646484376"
+      ],
+      [
+        "Decile 3",
+        "1659.9329956054685"
+      ],
+      [
+        "Decile 4",
+        "2172.7632324218757"
+      ],
+      [
+        "Decile 5",
+        "2928.9178466796875"
+      ],
+      [
+        "Decile 6",
+        "4458.00517578125"
+      ],
+      [
+        "Decile 7",
+        "8310.290234375"
+      ],
+      [
+        "Decile 8",
+        "14847.376953125002"
+      ],
+      [
+        "Decile 9",
+        "39800.762890624996"
+      ],
+      [
+        "Mean",
+        "14284.303793939416"
+      ],
+      [
+        "Std Dev.",
+        "30451.39203864962"
+      ],
+      [
+        "Variance",
+        "927287277.0915335"
+      ],
+      [
+        "Displayed N",
+        "414"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

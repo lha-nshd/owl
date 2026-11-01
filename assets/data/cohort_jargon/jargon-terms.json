@@ -1,0 +1,656 @@
+[
+  {
+    "term": "Approved researcher",
+    "cat": "Access & governance",
+    "icon": "ti-user-check",
+    "def": "A researcher who has successfully completed the necessary ethics, governance, and training requirements to receive NSHD data. Approval is granted on a per-project basis and is tied to a specific data access request submitted via Skylark. Data may only be used by the named approved researchers for the stated project purpose."
+  },
+  {
+    "term": "Associated documents",
+    "cat": "OWL Metadata",
+    "icon": "ti-folder",
+    "def": "Files attached to a variable on the NSHD metadata page providing supporting documentation. There are two types: Link to the the Questionnaires page on the website — giving access to the original survey instrument showing the exact question wording, response options, and respondent type; and Documents — additional technical files such as measurement guides, topic documentation, or derivation specifications available for download. Not all variables have associated documents beyond the questionnaire link."
+  },
+  {
+    "term": "Attrition",
+    "cat": "Study design",
+    "icon": "ti-trending-down",
+    "def": "The loss of study members from the cohort over time, whether through death, withdrawal, or loss of contact. Attrition is common in long-running studies and is one reason sample sizes shrink in later sweeps compared to earlier ones."
+  },
+  {
+    "term": "Basket",
+    "cat": "Access & governance",
+    "icon": "ti-shopping-cart",
+    "def": "A collection of variables selected by a researcher in preparation for a data access request. In OWL, variables can be added to the basket from any results table — Search Data Dictionary, Browse by Category, Popular Variables or Longitudinal search. The basket page summarises all selected variables before submission. In the data sharing metrics, a basket is the set of variables prepared and sent to a project after its data request is approved. A basket can be reused for another project, so it does not have to be built again; it then counts again for that project."
+  },
+  {
+    "term": "Birth cohort study",
+    "cat": "Study design",
+    "icon": "ti-baby-carriage",
+    "def": "A study design that follows the same group of people from birth onward, rather than recruiting participants at a later age or following different people at each time point."
+  },
+  {
+    "term": "Browse by Category",
+    "cat": "Navigation",
+    "icon": "ti-folder-open",
+    "def": "A section of OWL that organises variables into a hierarchical tree of categories and subcategories, allowing users to navigate by topic area rather than searching by name. Each category page lists the variables it contains with their names and labels. A variable can belong to more than one category."
+  },
+  {
+    "term": "Cardnumber",
+    "cat": "OWL Metadata",
+    "icon": "ti-clipboard",
+    "def": "An internal reference on the NSHD metadata page that links a variable to a specific dataset (library file). Useful to see which variables were also in the dataset as the variable of interest. Some datasets are grouped by type of data and some by the questionnaire instrument"
+  },
+  {
+    "term": "Categorical",
+    "cat": "Variables & data",
+    "icon": "ti-list-check",
+    "def": "A variable type where each response is one of a fixed set of coded categories, such as Yes/No or a 5-point rating scale, rather than a measured numeric value. Contrast with Continuous."
+  },
+  {
+    "term": "Category membership",
+    "cat": "OWL Metadata",
+    "icon": "ti-tags",
+    "def": "The classification and grouping of a variable by topic domain. A variable can belong to more than one category on the NSHD metadata page — for example, a body size measure may appear under both a legacy Anthropometry category and a current Body size measures subcategory."
+  },
+  {
+    "term": "Category tree",
+    "cat": "Navigation",
+    "icon": "ti-binary-tree",
+    "def": "The hierarchical tree structure of categorising variables, in which broad top-level categories (such as Clinical data) contain subcategories (such as Cognitive function), which in turn contain the individual variables. The breadcrumb path shown at the top of each category page reflects a variable's position in this tree."
+  },
+  {
+    "term": "Cohort",
+    "cat": "Study design",
+    "icon": "ti-users",
+    "def": "The group of individuals followed by the study, in this case everyone born in England, Scotland, and Wales during one week of March 1946. A birth cohort study follows the same people from birth, distinguishing it from studies that recruit at a later age."
+  },
+  {
+    "term": "Condor",
+    "cat": "Platforms",
+    "icon": "ti-server",
+    "def": "The specialised metadata and data sharing platform created by NSHD staff to request variables for a scientific proposal. Condor holds the similar variable-level metadata as OWL — questionnaire provenance, longitudinal linkage, category placement, and distribution summaries — but is accessible only to authorised staff and bonafide researchers. Access is subject to registration and internal approval."
+  },
+  {
+    "term": "Confidence tier",
+    "cat": "OWL Metadata",
+    "icon": "ti-gauge",
+    "def": "A three-way classification — High, Medium, or Low — describing how reliably a variable mentioned on a Documentation page was actually matched to that document. High confidence variables are named directly (see Topsheet field) and shown expanded with bulk add-to-basket; Medium and Low confidence matches come from a Prose scan of ordinary text and are shown collapsed for closer review, since short variable-shaped words can occasionally match by coincidence."
+  },
+  {
+    "term": "Continuous",
+    "cat": "Variables & data",
+    "icon": "ti-chart-line",
+    "def": "A variable type representing a numeric measured value, such as height, weight, or blood pressure, rather than a fixed set of coded categories. Continuous variables are summarised on the OWL variable metadata page using statistics such as the mean, standard deviation, minimum, maximum, and deciles. Contrast with Categorical."
+  },
+  {
+    "term": "Data linkage",
+    "cat": "Study design",
+    "icon": "ti-affiliate",
+    "def": "Combining NSHD data with data from other cohort studies or administrative sources (such as NHS records) at the individual participant level, as UK LLC enables. Distinct from Linked & Longitudinal (Condor) and Linked variables, which connect a variable to its own equivalents across NSHD sweeps rather than to other studies or data sources."
+  },
+  {
+    "term": "Data Safe Haven (DSH)",
+    "cat": "Access & governance",
+    "icon": "ti-building-fortress",
+    "def": "A secure, controlled and trusted research environment (TRE) in which NSHD data must be accessed and analysed. The DSH prevents data from being downloaded to personal or institutional devices and ensures that only approved researchers can view the data, only for their approved project."
+  },
+  {
+    "term": "Data sharing agreement",
+    "cat": "Access & governance",
+    "icon": "ti-file-certificate",
+    "def": "A legally binding agreement between the NSHD and a researchers institution governing the conditions under which NSHD data may be accessed, stored, used, and shared. Data sharing agreements specify permitted uses, security requirements, and obligations around publication and data destruction. A signed agreement is typically required before data is released via the UCL Data Safe Haven (DSH)."
+  },
+  {
+    "term": "Decile",
+    "cat": "Variables & data",
+    "icon": "ti-chart-histogram",
+    "def": "One of nine values that divide an ordered continuous distribution into ten equal groups. Decile 1 is the value below which 10% of observations fall; Decile 9 is the value below which 90% fall. Deciles are shown in the distribution panel of the OWL variable metadata page for continuous variables, alongside the minimum, maximum, mean, standard deviation, and series size."
+  },
+  {
+    "term": "Deposit",
+    "cat": "Platforms",
+    "icon": "ti-upload",
+    "def": "The act of NSHD submitting a dataset to an external platform such as UK LLC. Deposits happen continuously rather than as a single one-off transfer, so the set of NSHD variables available through UK LLC grows over time — see UK LLC Catalogue to check what's been deposited so far."
+  },
+  {
+    "term": "Derived status",
+    "cat": "OWL Metadata",
+    "icon": "ti-calculator",
+    "def": "A field on the NSHD metadata page indicating whether a variable was collected directly or calculated. 0 means the variable was directly measured or recorded during data collection. 1 means it is a derived variable, calculated from one or more other variables."
+  },
+  {
+    "term": "Derived variable",
+    "cat": "Variables & data",
+    "icon": "ti-calculator",
+    "def": "A variable calculated from one or more raw measurements rather than collected directly, for example Body Mass Index derived from separately measured height and weight, or a summary score combining several questionnaire items."
+  },
+  {
+    "term": "Disclosure controls",
+    "cat": "Variables & data",
+    "icon": "ti-shield-check",
+    "def": "Rules applied to publicly displayed data to protect participant confidentiality. On OWL and Condor, two controls are applied: response categories with fewer than 10 observations are suppressed from display; and for continuous variables, values below the 5th percentile and above the 95th percentile are excluded from plots and summary statistics. The series size shown in distribution panels reflects only the observations remaining after these controls are applied."
+  },
+  {
+    "term": "Document type",
+    "cat": "OWL Metadata",
+    "icon": "ti-files",
+    "def": "The category assigned to a page in Search Documentation, describing what kind of document it is rather than what it's about: Topsheet, Variable note, Templated variable note, or Narrative / data note. Filterable via a dropdown on the Search Documentation page. Not to be confused with Topsheet field, a variable-detection method that can occur in a document of any type."
+  },
+  {
+    "term": "Field ID",
+    "cat": "OWL Metadata",
+    "icon": "ti-hash",
+    "def": "A numeric identifier used to group the sweeps of a truly longitudinal variable. Variables sharing the same Field ID, with identical question text and coding, are treated as the same longitudinal variable across sweeps. It is no longer shown as a column in the data dictionary tables, but is used by the Longitudinal Variables page and the longitudinal link icon."
+  },
+  {
+    "term": "Form",
+    "cat": "OWL Metadata",
+    "icon": "ti-file-description",
+    "def": "The data collection instrument a variable was collected from, for example: postal questionnaire, nurse schedule, home visit, CAPI interview, or medical examination. Together with Question and Year, this tells you exactly where to find the original question in the source instrument."
+  },
+  {
+    "term": "Frequency distribution",
+    "cat": "Variables & data",
+    "icon": "ti-chart-bar",
+    "def": "A visual and tabular summary of how values are spread across study members for a variable. For categorical variables this takes the form of a bar chart and count table; for continuous variables a histogram and summary statistics (minimum, deciles, maximum, mean, standard deviation). Disclosure controls apply: response categories with fewer than 10 observations are suppressed, and the bottom and top 5% of continuous distributions are excluded from display."
+  },
+  {
+    "term": "Insight 46",
+    "cat": "Study design",
+    "icon": "ti-brain",
+    "def": "A neuroimaging sub-study of a subset of NSHD study members, collected in three phases (Insight46 Phase 3 is still on-going)."
+  },
+  {
+    "term": "Later version",
+    "cat": "OWL Metadata",
+    "icon": "ti-git-branch",
+    "def": "A field on the NSHD metadata page that indicates whether a more recent or corrected version of a variable exists. NA means the variable is current. Always check this field before including a variable in a data request — if a later version exists, use that instead."
+  },
+  {
+    "term": "Legacy category",
+    "cat": "Navigation",
+    "icon": "ti-archive",
+    "def": "A category from an older version of category classification system, retained for reference but superseded by current categories. Legacy categories are shown with a grey badge in the Categories tab of the OWL variable metadata page and are not linked to a live category page."
+  },
+  {
+    "term": "Life stage",
+    "cat": "Variables & data",
+    "icon": "ti-timeline",
+    "def": "An OWL-specific grouping of collection years into broad age bands (for example Age 46–55 or Age 56–65), used to summarise variable coverage across the study’s history on the Data Coverage page. Life stage bands are a presentational grouping only and are not a field present in the underlying data dictionary."
+  },
+  {
+    "term": "Linked & Longitudinal (Condor)",
+    "cat": "OWL Metadata",
+    "icon": "ti-plug-connected",
+    "def": "A section on the Condor variable metadata page listing every variable connected to the current one for longitudinal or conceptual comparison, regardless of whether question text or coding stayed identical across sweeps. Broader than Truly Longitudinal, which only includes the strict same-Field-ID subset."
+  },
+  {
+    "term": "Linked variables",
+    "cat": "OWL Metadata",
+    "icon": "ti-link",
+    "def": "On the OWL metadata page, variables that have been deliberately associated with the current variable to support longitudinal or conceptual comparison. Linkage is flexible — variables can be connected because they measure the same construct at another sweep, even if question wording or coding changed, or because they form part of the same scale or instrument. This is broader than Truly Longitudinal, which only includes variables with strictly identical question text and coding."
+  },
+  {
+    "term": "Longitudinal",
+    "cat": "Study design",
+    "icon": "ti-history",
+    "def": "Describes data collected repeatedly over time from the same individuals, allowing change to be tracked within a person rather than only compared across different people at a single point. The NSHD is a longitudinal study by design. See also: Birth cohort study, Sweep, Truly Longitudinal, Linked & Longitudinal (Condor)."
+  },
+  {
+    "term": "Longitudinal Search",
+    "cat": "Navigation",
+    "icon": "ti-timeline",
+    "def": "A dedicated OWL page listing every Field ID collected with identical question text and coding across two or more sweeps — true longitudinal measures — with a sweep-by-sweep trajectory chart and statistics table for each one. Reachable directly from any variable's own metadata page via a 'View all in Longitudinal Search' link. See also: Truly Longitudinal."
+  },
+  {
+    "term": "Mean",
+    "cat": "Variables & data",
+    "icon": "ti-math-avg",
+    "def": "The arithmetic average of a continuous variable, calculated by summing all values and dividing by the number of observations. Shown in the distribution panel of the OWL variable metadata page. The mean is calculated after disclosure controls are applied — missing values and values outside the 5th–95th percentile range are excluded — so it reflects the distribution of plotted values only."
+  },
+  {
+    "term": "Metadata Enhancement Project",
+    "cat": "Platforms",
+    "icon": "ti-sparkles",
+    "def": "The ongoing initiative to clean, document, and enhance NSHD variable metadata, making it available on OWL and Condor. Only variables processed through this project are currently visible on those two platforms — the remainder of the NSHD’s 35,000+ variables are available on Condor only, pending processing."
+  },
+  {
+    "term": "Notes (metadata page)",
+    "cat": "OWL Metadata",
+    "icon": "ti-notes",
+    "def": "Free-text contextual information attached to a variable on the NSHD metadata page. May include measurement conditions, known caveats about the data, recoding details, or quality notes specific to this variable — for example, whether a height measurement was taken with or without shoes."
+  },
+  {
+    "term": "NSHD",
+    "cat": "Study design",
+    "icon": "ti-heartbeat",
+    "def": "National Survey of Health and Development — the formal name for the 1946 birth cohort study that OWL and Condor both provide access to. Also referred to simply as ‘the 1946 cohort’ or ‘the study’ throughout OWL’s documentation."
+  },
+  {
+    "term": "OWL",
+    "cat": "Platforms",
+    "icon": "ti-globe",
+    "def": "The Online Wellbeing and Lifecourse Resource — the public-facing platform for exploring NSHD variable metadata and documentation. OWL allows users to search for variables using multiple methods whilst giving users access to the original questionnaires and documentation. Researchers can view metadata and distribution summaries, and build a basket of variables for a data access request."
+  },
+  {
+    "term": "Parent category",
+    "cat": "Navigation",
+    "icon": "ti-git-branch",
+    "def": "A category that contains subcategories. Navigating to a parent category page may show no variables — the variables sit in its child subcategories (some parent categories may have variables). The category tree breadcrumb helps identify where in the hierarchy a category sits."
+  },
+  {
+    "term": "Popular variables",
+    "cat": "Navigation",
+    "icon": "ti-star",
+    "def": "A curated list of frequently requested or commonly used NSHD variables, available as a starting point for researchers new to the dataset. Variables can be added to the basket directly from the Popular Variables page."
+  },
+  {
+    "term": "Prose scan",
+    "cat": "OWL Metadata",
+    "icon": "ti-align-left",
+    "def": "One of two ways a variable gets linked to a Documentation page: found as ordinary text within the document's body rather than a structured field. Confidence in a prose-scanned match depends on how short and common the matched word is. See also: Confidence tier. Contrast with Topsheet field."
+  },
+  {
+    "term": "Question number",
+    "cat": "OWL Metadata",
+    "icon": "ti-list-numbers",
+    "def": "The specific question number within the collection form that generated a variable, for example 96(a). Together with Form and Year on the NSHD metadata page, this allows you to locate the exact question in the original questionnaire."
+  },
+  {
+    "term": "Reason Public",
+    "cat": "OWL Metadata",
+    "icon": "ti-lock-open",
+    "def": "A field on the NSHD metadata page stating why a variable is publicly visible in the OWL. Not applicable if no specific reason is recorded. Most variables are public by default; this field is populated only where a specific justification has been noted."
+  },
+  {
+    "term": "Reason Sensitive",
+    "cat": "OWL Metadata",
+    "icon": "ti-shield-lock",
+    "def": "A field on the NSHD metadata page explaining why a variable is marked as sensitive — for example due to low cell counts or nature of the variable. Not applicable if the variable is not sensitive. See also: Sensitive."
+  },
+  {
+    "term": "Restricted variable",
+    "cat": "Access & governance",
+    "icon": "ti-lock",
+    "def": "A variable with an access restriction beyond the standard Sensitive classification — distinct from, and independent of, that flag. Restricted variables are shown normally everywhere on OWL and can be added to a basket like any other variable (see Restricted variable lock icon); the restriction only takes effect when a basket is uploaded to Condor, where restricted variables are not imported automatically and must be requested separately using the contact named in the icon's tooltip."
+  },
+  {
+    "term": "Restricted variable lock icon",
+    "cat": "Navigation",
+    "icon": "ti-lock",
+    "def": "A small lock icon shown next to a variable's name anywhere it appears across OWL — search tables, category pages, the basket, and Documentation pages alike — indicating the variable is restricted. Hovering shows a message specific to that variable, usually naming who to contact to request it. On the basket page, restricted variables are also pinned to the top of the table. See also: Restricted variable."
+  },
+  {
+    "term": "Search by Year",
+    "cat": "Navigation",
+    "icon": "ti-calendar",
+    "def": "An OWL search tool that starts from a point in time rather than a keyword or topic. A row of pills across the top represents every NSHD sweep; selecting one or more filters results down to variables collected in those years, with topic filters alongside that dim automatically for any year with no matching results."
+  },
+  {
+    "term": "Search Data Dictionary",
+    "cat": "Navigation",
+    "icon": "ti-search",
+    "def": "The main search interface in OWL, allowing users to search across all NSHD variable names and labels by keyword. Results are displayed in a table with variable name and label, and variables can be added to the basket or clicked through to their full metadata page."
+  },
+  {
+    "term": "Search Documentation",
+    "cat": "Navigation",
+    "icon": "ti-file-search",
+    "def": "The OWL section for finding write-ups, data notes, and other documentation about NSHD variables and datasets, searchable by keyword and filterable by Document type. Distinct from Search Data Dictionary, which searches variable names and labels directly rather than supporting documentation."
+  },
+  {
+    "term": "Sensitive",
+    "cat": "OWL Metadata",
+    "icon": "ti-shield-lock",
+    "def": "A field on the NSHD metadata page indicating whether a variable has additional data sensitivity considerations — for example due to low cell counts or the nature of the variable. 0 means no specific sensitivity flag. 1 means the variable may need additional governance discussion to include in a request. This is a separate, independent classification from Restricted variable — a variable can be Sensitive, Restricted, both, or neither. See also: Reason Sensitive."
+  },
+  {
+    "term": "Series size",
+    "cat": "Variables & data",
+    "icon": "ti-sum",
+    "def": "The number of observations included in a frequency distribution after disclosure controls have been applied and missing values excluded. For continuous variables, this excludes missing values and values outside the 5th–95th percentile range. For categorical variables, it excludes missing values and suppressed categories with fewer than 10 observations. Series size will therefore typically be smaller than the total number of study members with data for that variable."
+  },
+  {
+    "term": "Sibling variable",
+    "cat": "OWL Metadata",
+    "icon": "ti-git-compare",
+    "def": "One sweep of a truly longitudinal variable, considered in relation to its other sweeps under the same Field ID — for example, wt50u and wt52u are siblings of each other. See also: Field ID, Truly Longitudinal, Sync linked sweeps."
+  },
+  {
+    "term": "Skylark",
+    "cat": "Platforms",
+    "icon": "ti-cloud-upload",
+    "def": "The NSHD data access platform through which researchers submit formal requests for NSHD data. Once a basket of variables has been formally saved on Condor, a data access request is submitted via Skylark. Skylark handles the full data request workflow — from application submission through ethics and governance review to data release."
+  },
+  {
+    "term": "Standard deviation",
+    "cat": "Variables & data",
+    "icon": "ti-sigma",
+    "def": "A measure of the spread or variability of a continuous variable, expressed in the same units as the variable itself. A low standard deviation means values cluster closely around the mean; a high one means they are more spread out. Shown in the distribution panel of the OWL/Condor variable metadata page, calculated after disclosure controls are applied."
+  },
+  {
+    "term": "Study member",
+    "cat": "Study design",
+    "icon": "ti-user",
+    "def": "The everyday term for an individual participant in the NSHD cohort, used throughout OWL’s documentation and questionnaires."
+  },
+  {
+    "term": "Subcategory",
+    "cat": "Navigation",
+    "icon": "ti-folder",
+    "def": "A child category within category tree hierarchy, sitting beneath a broader parent category. For example, Body size measures is a subcategory of Clinical data. In OWL and Condor, a variable can belong to more than one subcategory as it can also belong to a legacy category."
+  },
+  {
+    "term": "Subtopic",
+    "cat": "OWL Metadata",
+    "icon": "ti-list-tree",
+    "def": "One of four increasingly specific classification fields (Subtopic 1 through Subtopic 4) attached to each variable in the data dictionary, sitting beneath Topic in the classification hierarchy. Not every variable is classified to all four levels."
+  },
+  {
+    "term": "Sweep",
+    "cat": "Study design",
+    "icon": "ti-repeat",
+    "def": "A single round of data collection from study members at a particular age or year. For example, the 1989 sweep collected data when study members were 43. The NSHD has had 36 sweeps spanning birth to age 76–77, each with its own questionnaire and set of variables."
+  },
+  {
+    "term": "Sync linked sweeps",
+    "cat": "Access & governance",
+    "icon": "ti-toggle-right",
+    "def": "A persistent, browser-stored toggle next to the basket icon controlling whether adding or removing one sweep of a truly longitudinal variable automatically does the same for its sibling sweeps. On by default; can be overridden for a single basket upload without changing the setting itself. See also: Sibling variable, Basket."
+  },
+  {
+    "term": "Topic",
+    "cat": "OWL Metadata",
+    "icon": "ti-bookmark",
+    "def": "The top-level classification field in the underlying data dictionary, shown as a column in Search Data Dictionary and Browse by Category results. Each variable’s Topic value feeds directly into Browse by Category’s top-level folders. See also: Category tree, Category membership."
+  },
+  {
+    "term": "Topsheet field",
+    "cat": "OWL Metadata",
+    "icon": "ti-table",
+    "def": "One of two ways a variable gets linked to a Documentation page: named directly in a document's structured 'Output variables' field. The most reliable detection method, always shown as a High confidence match. Contrast with Prose scan. Not to be confused with the Topsheet document type, a whole document rather than a single field within one."
+  },
+  {
+    "term": "Truly Longitudinal",
+    "cat": "OWL Metadata",
+    "icon": "ti-git-merge",
+    "def": "A tab on the OWL variable metadata page listing only those variables that share the same Field ID with strictly identical question text and coding across sweeps. Contrast with Linked & Longitudinal (Condor), which is broader and includes variables connected for any reason, even where wording or coding changed."
+  },
+  {
+    "term": "Trusted Research Environment (TRE)",
+    "cat": "Access & governance",
+    "icon": "ti-shield-lock",
+    "def": "A secure environment in which data must be accessed and analysed, with no downloading to personal devices, used to protect participant confidentiality. NSHD data can be accessed through more than one TRE — the UCL Data Safe Haven (DSH) for standard Condor/Skylark requests, and UK LLC for requests needing NSHD data linked to other cohorts or administrative records — each with its own separate application process."
+  },
+  {
+    "term": "UK LLC",
+    "cat": "Platforms",
+    "icon": "ti-link",
+    "def": "The UK Longitudinal Linkage Collaboration, a national Trusted Research Environment (TRE) that links NSHD data to over 20 other UK longitudinal studies, plus NHS and other administrative records. Accessed separately from Condor and Skylark, via its own accreditation and application process. See UK LLC Catalogue for the searchable list of NSHD datasets deposited so far."
+  },
+  {
+    "term": "UK LLC Catalogue",
+    "cat": "Platforms",
+    "icon": "ti-table",
+    "def": "The OWL search page listing every NSHD dataset deposited into UK LLC, one row per file, with a dataset filter and sortable columns. Opening a row shows the variables it contains and their labels. Variables found here can be added to the OWL basket for a standard Condor/Skylark request, or accessed through UK LLC directly for linked analysis."
+  },
+  {
+    "term": "Units",
+    "cat": "OWL Metadata",
+    "icon": "ti-ruler",
+    "def": "The unit of measurement for continuous variables on the NSHD metadata page, for example cm, kg, or mmHg. Shows Not applicable for categorical variables where responses are coded categories rather than measured quantities."
+  },
+  {
+    "term": "Value labels",
+    "cat": "OWL Metadata",
+    "icon": "ti-list-details",
+    "def": "The coded values for a categorical variable and what each code means — for example, 1 = Excellent, 2 = Very good, 3 = Good. Special system codes such as 77 (No questionnaire) or 99 (Unknown) are also listed. For continuous variables, value labels typically represent missing data codes rather than substantive responses and are excluded from plots and statistics."
+  },
+  {
+    "term": "Variable documentation badge",
+    "cat": "Navigation",
+    "icon": "ti-info-circle",
+    "def": "A small info-circle icon shown next to a variable's name anywhere it appears across OWL, indicating documentation exists for it. Hovering shows 'View documentation'; clicking goes straight to it if there's a single matching document, or opens a short dropdown listing each one by type and title if there's more than one. See also: Restricted variable lock icon."
+  },
+  {
+    "term": "Variable label",
+    "cat": "OWL Metadata",
+    "icon": "ti-tag",
+    "def": "The plain-English description of what a variable measures, paired with its coded variable name in the data dictionary."
+  },
+  {
+    "term": "Variable name",
+    "cat": "OWL Metadata",
+    "icon": "ti-code",
+    "def": "The short, coded identifier used in the dataset, e.g. WIC82, usually combining an abbreviation with the sweep year. Variable names are often reused with different suffixes across sweeps to show the same question asked repeatedly over time."
+  },
+  {
+    "term": "Variance",
+    "cat": "Variables & data",
+    "icon": "ti-math-x-divide-y",
+    "def": "The average of the squared differences from the mean, giving a measure of how spread out the values of a continuous variable are. Variance is the square of the standard deviation. Shown in the distribution panel of the OWL variable metadata page, calculated after disclosure controls are applied."
+  },
+  {
+    "term": "Wave",
+    "cat": "Study design",
+    "icon": "ti-activity",
+    "def": "The term used specifically for each round of the three Covid sub-studies (Covid wave 1, 2, and 3), as distinct from the general term Sweep used for the main NSHD data collection rounds. Note that all three Covid waves can share the same broad Year of collection label — for example 2020 — even though they were collected as separate rounds months apart."
+  },
+  {
+    "term": "Year",
+    "cat": "OWL Metadata",
+    "icon": "ti-calendar",
+    "def": "The year or year range in which a variable was collected ro collected up to, corresponding to a specific study sweep — for example 2006–10. Together with Form and Question on the NSHD metadata page, Year tells you exactly when the data was collected and allows you to find the original instrument."
+  },
+  {
+    "term": "Page Proof",
+    "cat": "Platforms",
+    "icon": "ti-file-check",
+    "def": "A downloadable, offline tool that checks a completed Word document for common formatting mistakes before it's submitted — flagging things like a missing public topsheet field, a numbered list with only one item, or content sitting before the first section heading. It also produces a styled preview showing how the document will actually look once published, alongside the check results. Available from the Browse Documentation page."
+  },
+  {
+    "term": "Create Documentation Online",
+    "cat": "Platforms",
+    "icon": "ti-forms",
+    "def": "A browser-based alternative to writing documentation directly in Word. Builds a topsheet and its content from a set of structured blocks (Section, Subheading, Paragraph, List, Table, Image), with a live preview and the same formatting checks Page Proof runs shown as you write. The finished result downloads as a real Word document; work in progress can also be saved and resumed later without needing to finish in one sitting."
+  },
+  {
+    "term": "Block",
+    "cat": "Writing documentation",
+    "icon": "ti-list-details",
+    "def": "The basic building unit in Create Documentation Online — Section, Subheading, Paragraph, Bulleted list, Numbered list, Table, or Image. Each type does only one specific thing, deliberately, so an ambiguous result (like a numbered list with a single item) is structurally impossible to create by accident."
+  },
+  {
+    "term": "Public field",
+    "cat": "Writing documentation",
+    "icon": "ti-eye",
+    "def": "One of the topsheet's eight fields shown openly on a published Documentation page — title, categories, summary, source variables, output variables, papers, name, and date. Contrast with Private field."
+  },
+  {
+    "term": "Private field",
+    "cat": "Writing documentation",
+    "icon": "ti-lock",
+    "def": "One of the topsheet's remaining fields — source file locations, syntax details, output file information — kept for NSHD's internal record-keeping and never published. Contrast with Public field."
+  },
+  {
+    "term": "Save progress",
+    "cat": "Writing documentation",
+    "icon": "ti-device-floppy",
+    "def": "A small JSON file downloaded from Create Documentation Online for resuming work later in the same tool. Distinct from downloading the finished Word document — a save file, not a document, and not meant to be opened by hand."
+  },
+  {
+    "term": "Formatting checks",
+    "cat": "Writing documentation",
+    "icon": "ti-circle-check",
+    "def": "The live, in-browser version of Page Proof's checks, shown as a document is being built in Create Documentation Online — the same checks, just surfaced before download rather than after."
+  },
+  {
+    "term": "Variable-level documentation",
+    "cat": "Writing documentation",
+    "icon": "ti-id",
+    "def": "Documentation describing an individual derived variable — its source data, derivation method, and validation. Contrast with Dataset-level documentation."
+  },
+  {
+    "term": "Dataset-level documentation",
+    "cat": "Writing documentation",
+    "icon": "ti-database",
+    "def": "Documentation describing a whole dataset or linked resource, rather than one specific variable. Contrast with Variable-level documentation."
+  },
+  {
+    "term": "Application",
+    "cat": "Access & governance",
+    "icon": "ti-file-text",
+    "def": "A request for NSHD data submitted through the data request form. Each application is logged on the Skylark request list and, once approved, becomes a project."
+  },
+  {
+    "term": "Project",
+    "cat": "Access & governance",
+    "icon": "ti-briefcase",
+    "def": "An approved application. Projects are counted by the year the application was made, and one project can ask for data more than once."
+  },
+  {
+    "term": "Approval",
+    "cat": "Access & governance",
+    "icon": "ti-circle-check",
+    "def": "A decision to grant a data request, made through the NSHD data access process. The metrics measure the days from the application being submitted to it being approved."
+  },
+  {
+    "term": "Data request form",
+    "cat": "Access & governance",
+    "icon": "ti-forms",
+    "def": "The online form researchers complete to apply for data. Its answers (institution, country, project title) are free text, so they are cleaned by hand before they are counted."
+  },
+  {
+    "term": "Planner",
+    "cat": "Platforms",
+    "icon": "ti-layout-kanban",
+    "def": "The Microsoft Planner board where the Data Management team tracks each basket request from request to completion. The basket turnaround figures come from its created and completed dates."
+  },
+  {
+    "term": "Power Automate",
+    "cat": "Platforms",
+    "icon": "ti-bolt",
+    "def": "The Microsoft tool that logs each request in SharePoint and Planner when it is submitted, so the request and decision times are recorded."
+  },
+  {
+    "term": "SharePoint request list (Skylark Baskets)",
+    "cat": "Platforms",
+    "icon": "ti-list-details",
+    "def": "The list that holds every application submitted through Skylark, with its request and decision dates. It is the source of the approval times."
+  },
+  {
+    "term": "Jay",
+    "cat": "Platforms",
+    "icon": "ti-database",
+    "def": "The internal database that holds each project's details and the data sent to it."
+  },
+  {
+    "term": "dshare",
+    "cat": "Platforms",
+    "icon": "ti-database-share",
+    "def": "The internal database of data-sharing records (applications and the datasets sent), checked against Jay for missing projects."
+  },
+  {
+    "term": "Median",
+    "cat": "Data sharing metrics",
+    "icon": "ti-arrows-sort",
+    "def": "The middle value when all values are put in order, so half are smaller and half are larger. The page uses medians for times because a few very long cases would distort an average."
+  },
+  {
+    "term": "Median time to approve",
+    "cat": "Data sharing metrics",
+    "icon": "ti-clock-check",
+    "def": "The middle number of days from an application being submitted to it being approved. Only projects with a valid approval time are included."
+  },
+  {
+    "term": "Approved within N days",
+    "cat": "Data sharing metrics",
+    "icon": "ti-hourglass",
+    "def": "The percentage of approved projects whose approval took N days or fewer."
+  },
+  {
+    "term": "Basket request",
+    "cat": "Data sharing metrics",
+    "icon": "ti-shopping-cart-plus",
+    "def": "A request for a basket of variables to be prepared and sent. One request can name several baskets, and requests can come with the application or later."
+  },
+  {
+    "term": "Basket turnaround",
+    "cat": "Data sharing metrics",
+    "icon": "ti-clock-hour-4",
+    "def": "The days from a basket request coming in to the request being completed, shown as a median and as the share completed within 7 or 30 days. It is worked out for each basket and project."
+  },
+  {
+    "term": "Baskets requested / sent",
+    "cat": "Data sharing metrics",
+    "icon": "ti-send",
+    "def": "The number of baskets prepared and sent, counted by the year the data was sent. A basket reused for another project counts again for that project, but a repeat for the same project counts once."
+  },
+  {
+    "term": "Reused basket",
+    "cat": "Data sharing metrics",
+    "icon": "ti-recycle",
+    "def": "A basket saved by a researcher and used again for another project, so it does not have to be rebuilt."
+  },
+  {
+    "term": "Data prepared",
+    "cat": "Data sharing metrics",
+    "icon": "ti-package",
+    "def": "An approved application that has had at least one basket of data sent. The page shows these as a share of all approved applications."
+  },
+  {
+    "term": "Time to first basket request",
+    "cat": "Data sharing metrics",
+    "icon": "ti-calendar-time",
+    "def": "The days from an application being submitted to its first basket request."
+  },
+  {
+    "term": "Came back for more",
+    "cat": "Data sharing metrics",
+    "icon": "ti-rotate-clockwise-2",
+    "def": "A project that requested data again after its first basket was sent. The page shows the share of projects that did, and the median time until they came back."
+  },
+  {
+    "term": "Variables requested",
+    "cat": "Data sharing metrics",
+    "icon": "ti-list-check",
+    "def": "The variables in a project's baskets. A variable counts once for each project, in the year it was first requested, so asking for it again later does not add to the count."
+  },
+  {
+    "term": "Most requested variables",
+    "cat": "Data sharing metrics",
+    "icon": "ti-trophy",
+    "def": "The variables asked for by the most projects, shown as a percentage of the projects that requested any variables."
+  },
+  {
+    "term": "Size of a request",
+    "cat": "Data sharing metrics",
+    "icon": "ti-ruler-measure",
+    "def": "The number of variables a project asks for, grouped into bands. The page also shows the median per project and the largest request."
+  },
+  {
+    "term": "Special data",
+    "cat": "Data sharing metrics",
+    "icon": "ti-dna",
+    "def": "Data types that need extra handling or sit outside the main questionnaire data, such as genotyping, DNA, RNA, samples, imaging and Insight 46."
+  },
+  {
+    "term": "Inside / outside the UK",
+    "cat": "Data sharing metrics",
+    "icon": "ti-map-pin",
+    "def": "Whether the applicant's institution is in the UK, worked out from the institution and country entered on the form."
+  },
+  {
+    "term": "Reporting window",
+    "cat": "Data sharing metrics",
+    "icon": "ti-calendar-stats",
+    "def": "The application years the page covers (2021 to 2026). Projects are included by their year of application."
+  },
+  {
+    "term": "Denominator",
+    "cat": "Data sharing metrics",
+    "icon": "ti-percentage",
+    "def": "The group a percentage is taken from, for example 'of N approved projects'. The PDF shows it under each tile because it differs from tile to tile."
+  }
+]

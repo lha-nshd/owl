@@ -1,0 +1,164 @@
+---
+layout: default
+title: Cohort Study Jargon
+parent: Getting Started
+nav_order: 5
+permalink: /docs/getting-started/cohort-jargon/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-book-2" aria-hidden="true"></i> Cohort Study Jargon</h1>
+    <p>A searchable glossary of terms used across the OWL and the wider NSHD literature.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> Categories</h3>
+    <ul>
+      <li><a href="#" class="jarg-cat-link gs-toc-owl-fields"      data-cat="Study design"        ><i class="ti ti-repeat"       aria-hidden="true"></i> Study design</a></li>
+      <li><a href="#" class="jarg-cat-link gs-toc-owl-linked"      data-cat="Variables & data"    ><i class="ti ti-tag"          aria-hidden="true"></i> Variables &amp; data</a></li>
+      <li><a href="#" class="jarg-cat-link gs-toc-owl-docs"        data-cat="OWL Metadata"        ><i class="ti ti-id"           aria-hidden="true"></i> OWL Metadata</a></li>
+      <li><a href="#" class="jarg-cat-link gs-toc-owl-valuelabels" data-cat="Access & governance" ><i class="ti ti-lock"         aria-hidden="true"></i> Access &amp; governance</a></li>
+      <li><a href="#" class="jarg-cat-link gs-toc-owl-frequency"   data-cat="Navigation"          ><i class="ti ti-folder-open"  aria-hidden="true"></i> Navigation</a></li>
+      <li><a href="#" class="jarg-cat-link gs-toc-da-owl"          data-cat="Platforms"           ><i class="ti ti-server"       aria-hidden="true"></i> Platforms</a></li>
+      <li><a href="#" class="jarg-cat-link jarg-cat-write"      data-cat="Writing documentation"><i class="ti ti-edit"      aria-hidden="true"></i> Writing documentation</a></li>
+      <li><a href="#" class="jarg-cat-link active"                 data-cat=""                    ><i class="ti ti-layout-grid"  aria-hidden="true"></i> Show all</a></li>
+    </ul>
+    <a href="/OWL/docs/getting-started/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to getting started</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>Cohort studies and data dictionaries carry their own vocabulary. This glossary covers terms used across the OWL — from study design concepts like sweep and attrition, to metadata fields on the NSHD metadata page, to navigation features like Browse by Category. Search by keyword or filter by category using the buttons below.</p>
+  </div>
+
+  <div class="home-section gs-card-basket" style="padding-bottom:8px;">
+
+    <style>
+      .jarg-search-row   { display:flex; gap:10px; align-items:center; margin-bottom:12px; flex-wrap:wrap; }
+      .jarg-search       { flex:1; min-width:200px; padding:8px 14px; border:1.5px solid hsl(125 35% 55%); border-radius:6px; font-size:13px; font-family:inherit; background:white; color:#333; outline:none; }
+      .jarg-search:focus { border-color:#6a0dad; box-shadow:0 0 0 2px rgba(106,13,173,0.12); }
+      .jarg-search::placeholder { color:#aaa; }
+      .jarg-clear        { font-size:12px; color:#6a0dad; border:none; background:none; cursor:pointer; padding:0 4px; font-family:inherit; text-decoration:underline; white-space:nowrap; }
+      .jarg-filter-row   { display:flex; gap:7px; flex-wrap:wrap; margin-bottom:14px; align-items:center; }
+      .jarg-filter-label { font-size:11.5px; color:#555; margin-right:2px; }
+      .jarg-badge        { display:inline-block; font-size:11px; padding:4px 12px; border-radius:20px; font-weight:500; cursor:pointer; border:1.5px solid transparent; transition:opacity 0.15s; user-select:none; }
+      .jarg-badge:hover  { opacity:0.8; }
+      .jarg-badge.active { border-color:#3a0066; }
+
+      /* ── Badge colours — one per category ── */
+      .badge-all    { background:hsl(260 30% 92%);  color:#3a0066; }
+      .badge-study  { background:hsl(180 45% 88%);  color:hsl(180 45% 18%); }
+      .badge-var    { background:hsl(35 60% 88%);   color:hsl(35 60% 18%);  }
+      .badge-meta   { background:hsl(340 45% 88%);  color:hsl(340 45% 22%); }
+      .badge-access { background:hsl(270 35% 88%);  color:hsl(270 35% 22%); }
+      .badge-nav    { background:hsl(210 45% 88%);  color:hsl(210 45% 18%); }
+      .badge-plat   { background:hsl(25 70% 88%);   color:hsl(25 70% 18%);  }
+      .badge-write  { background:hsl(230 40% 90%);  color:hsl(230 40% 24%); }
+      .jarg-cat-write { color: hsl(230 40% 30%) !important; }
+
+      /* Active-state highlight for the sidebar category links — this
+         never had ANY visual treatment before; clicking one correctly
+         filtered the table but gave zero feedback about which category
+         was actually selected. Matched to each category's own filter
+         badge colour, keyed on data-cat so it doesn't depend on which
+         (sometimes borrowed) text-colour class happens to be attached. */
+      .page-topics .sidebar-summary li a.jarg-cat-link.active[data-cat=""] {
+        background: hsl(260 30% 92%) !important; border-left: 3px solid #3a0066 !important; font-weight: 700 !important;
+      }
+      .page-topics .sidebar-summary li a.jarg-cat-link.active[data-cat="Study design"] {
+        background: hsl(180 45% 88%) !important; border-left: 3px solid hsl(180 45% 45%) !important; font-weight: 700 !important;
+      }
+      .page-topics .sidebar-summary li a.jarg-cat-link.active[data-cat="Variables & data"] {
+        background: hsl(35 60% 88%) !important; border-left: 3px solid hsl(35 60% 45%) !important; font-weight: 700 !important;
+      }
+      .page-topics .sidebar-summary li a.jarg-cat-link.active[data-cat="OWL Metadata"] {
+        background: hsl(340 45% 88%) !important; border-left: 3px solid hsl(340 45% 50%) !important; font-weight: 700 !important;
+      }
+      .page-topics .sidebar-summary li a.jarg-cat-link.active[data-cat="Access & governance"] {
+        background: hsl(270 35% 88%) !important; border-left: 3px solid hsl(270 35% 50%) !important; font-weight: 700 !important;
+      }
+      .page-topics .sidebar-summary li a.jarg-cat-link.active[data-cat="Navigation"] {
+        background: hsl(210 45% 88%) !important; border-left: 3px solid hsl(210 45% 45%) !important; font-weight: 700 !important;
+      }
+      .page-topics .sidebar-summary li a.jarg-cat-link.active[data-cat="Platforms"] {
+        background: hsl(25 70% 88%) !important; border-left: 3px solid hsl(25 70% 48%) !important; font-weight: 700 !important;
+      }
+      .page-topics .sidebar-summary li a.jarg-cat-link.active[data-cat="Writing documentation"] {
+        background: hsl(230 40% 90%) !important; border-left: 3px solid hsl(230 40% 52%) !important; font-weight: 700 !important;
+      }
+
+      .jarg-table          { width:100%; border-collapse:collapse; font-size:12px; }
+      .jarg-table thead tr { background:#3a0066; }
+      .jarg-table th       { padding:9px 14px; color:white; font-weight:500; text-align:left; font-size:12.5px; }
+      .jarg-table td       { padding:9px 14px; vertical-align:top; line-height:1.6; color:#333; }
+      .jarg-table tbody tr { scroll-margin-top: 110px; }
+      .jarg-table .term-name     { font-weight:700; color:#3a0066; display:flex; align-items:flex-start; gap:6px; white-space:nowrap; }
+      .jarg-table .term-name i   { color:#6a0dad; font-size:14px; margin-top:1px; flex-shrink:0; }
+      .jarg-table .cat-pill      { display:inline-block; font-size:10px; padding:2px 8px; border-radius:10px; font-weight:500; white-space:nowrap; }
+      .jarg-count     { font-size:11.5px; color:#777; margin:8px 0 0; text-align:right; }
+      .jarg-no-results { text-align:center; padding:28px 0; color:#777; font-size:13px; display:none; }
+
+      /* ── Row colours cycling through 7 ── */
+      .jarg-row-0 td { background:hsl(180 45% 96%); border-bottom:1px solid hsl(180 45% 87%); }
+      .jarg-row-1 td { background:hsl(35 60% 96%);  border-bottom:1px solid hsl(35 60% 87%);  }
+      .jarg-row-2 td { background:hsl(340 45% 96%); border-bottom:1px solid hsl(340 45% 87%); }
+      .jarg-row-3 td { background:hsl(125 35% 95%); border-bottom:1px solid hsl(125 35% 84%); }
+      .jarg-row-4 td { background:hsl(270 35% 96%); border-bottom:1px solid hsl(270 35% 87%); }
+      .jarg-row-5 td { background:hsl(210 45% 96%); border-bottom:1px solid hsl(210 45% 87%); }
+      .jarg-row-6 td { background:hsl(25 70% 96%);  border-bottom:1px solid hsl(25 70% 87%);  }
+
+      /* Brief highlight flash for a term reached via a deep link
+         (#jargon-<slug>) from another page — see scrollToHash() below. */
+      .jarg-row-flash td { animation: jargFlash 1.8s ease-out; }
+      @keyframes jargFlash {
+        0%   { background: #ede0ff !important; }
+        100% { background: transparent; }
+      }
+    </style>
+
+    <!-- Search -->
+    <div class="jarg-search-row">
+      <input class="jarg-search" id="jargSearch" placeholder="Search terms or definitions..." type="text" />
+      <button class="jarg-clear" id="jargClear" onclick="clearSearch()">Clear</button>
+    </div>
+
+    <!-- Filter badges -->
+    <div class="jarg-filter-row">
+      <span class="jarg-filter-label">Filter:</span>
+      <span class="jarg-badge badge-all    active" data-cat=""                  onclick="setFilter(this)">All terms</span>
+      <span class="jarg-badge badge-study"         data-cat="Study design"      onclick="setFilter(this)"><i class="ti ti-repeat"      aria-hidden="true" style="margin-right:3px"></i>Study design</span>
+      <span class="jarg-badge badge-var"           data-cat="Variables & data"  onclick="setFilter(this)"><i class="ti ti-tag"         aria-hidden="true" style="margin-right:3px"></i>Variables &amp; data</span>
+      <span class="jarg-badge badge-meta"          data-cat="OWL Metadata"      onclick="setFilter(this)"><i class="ti ti-id"          aria-hidden="true" style="margin-right:3px"></i>OWL Metadata</span>
+      <span class="jarg-badge badge-access"        data-cat="Access & governance" onclick="setFilter(this)"><i class="ti ti-lock"      aria-hidden="true" style="margin-right:3px"></i>Access &amp; governance</span>
+      <span class="jarg-badge badge-nav"           data-cat="Navigation"        onclick="setFilter(this)"><i class="ti ti-folder-open" aria-hidden="true" style="margin-right:3px"></i>Navigation</span>
+      <span class="jarg-badge badge-plat"          data-cat="Platforms"         onclick="setFilter(this)"><i class="ti ti-server"      aria-hidden="true" style="margin-right:3px"></i>Platforms</span>
+      <span class="jarg-badge badge-write"         data-cat="Writing documentation" onclick="setFilter(this)"><i class="ti ti-edit"     aria-hidden="true" style="margin-right:3px"></i>Writing documentation</span>
+    </div>
+
+    <!-- Table -->
+    <table class="jarg-table" id="jargTable">
+      <thead>
+        <tr>
+          <th style="width:20%">Term</th>
+          <th style="width:18%">Category</th>
+          <th>Definition</th>
+        </tr>
+      </thead>
+      <tbody id="jargBody"></tbody>
+    </table>
+    <div class="jarg-no-results" id="jargNoResults">
+      <i class="ti ti-search-off" aria-hidden="true" style="font-size:24px;display:block;margin-bottom:8px;color:#bbb"></i>
+      No terms match your search. Try a different keyword or clear the filter.
+    </div>
+    <p class="jarg-count" id="jargCount"></p>
+
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/jargon-loader.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jargon-glossary.js"></script>

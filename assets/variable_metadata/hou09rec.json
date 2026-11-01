@@ -1,0 +1,686 @@
+{
+  "varname": "hou09rec",
+  "label": "How many people in total live in your household, including yourself? - recoded - at age 60-64 years",
+  "field_id": "31158",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31158",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2435.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "hou61rec",
+    "hou52rec",
+    "hou57rec",
+    "hou89rec",
+    "hou82mrec",
+    "hourec",
+    "hou72rec",
+    "hou48rec",
+    "hou14xrec"
+  ],
+  "linked_years": [
+    "1948",
+    "1952",
+    "1957",
+    "1961",
+    "1972",
+    "1982",
+    "1989",
+    "1999",
+    "2014"
+  ],
+  "categories": [
+    "Household structure [20]",
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "Unknown/no questionnaire"
+    },
+    {
+      "value": "1.0",
+      "label": "1"
+    },
+    {
+      "value": "2.0",
+      "label": "2"
+    },
+    {
+      "value": "3.0",
+      "label": "3"
+    },
+    {
+      "value": "4.0",
+      "label": "4"
+    },
+    {
+      "value": "5.0",
+      "label": "5"
+    },
+    {
+      "value": "6.0",
+      "label": "6 or over"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "1",
+      "count": 347,
+      "pct": 14.3
+    },
+    {
+      "label": "2",
+      "count": 1674,
+      "pct": 68.7
+    },
+    {
+      "label": "3",
+      "count": 292,
+      "pct": 12.0
+    },
+    {
+      "label": "4",
+      "count": 86,
+      "pct": 3.5
+    },
+    {
+      "label": "5",
+      "count": 20,
+      "pct": 0.8
+    },
+    {
+      "label": "6 or over",
+      "count": 16,
+      "pct": 0.7
+    }
+  ],
+  "pdf": {
+    "varname": "hou09rec",
+    "label": "How many people in total live in your household, including yourself? - recoded - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "hou09rec"
+      ],
+      [
+        "Field ID",
+        "31158"
+      ],
+      [
+        "Label",
+        "How many people in total live in your household, including yourself? - recoded - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "HouseComprec"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "26"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Include those who live in the household but are away e.g. working away or a student. Recoded household variable due to low cell counts. Full version is also available."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "hou61rec",
+        "How many people in total live in your household, including yourself? - recoded - at age 15 years",
+        "1961",
+        "A7 - Interview by the nurse",
+        "33(c)",
+        "HouseComprec"
+      ],
+      [
+        "hou52rec",
+        "How many people in total live in your household, including yourself? - recoded - at age 4 years",
+        "1952",
+        "AN3 - Mother's interview by nurse",
+        "17(c)",
+        "HouseComprec"
+      ],
+      [
+        "hou57rec",
+        "How many people in total live in your household, including yourself? - recoded - at age 11 years",
+        "1957",
+        "A6 - Mother's interview by nurse",
+        "24(c)",
+        "HouseComprec"
+      ],
+      [
+        "hou89rec",
+        "How many people in total live in your household, including yourself? - recoded - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "2(a)",
+        "HouseComprec"
+      ],
+      [
+        "hou82mrec",
+        "How many people in total live in your household, including yourself? - recoded - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "1(a)",
+        "HouseComprec"
+      ],
+      [
+        "hourec",
+        "How many people in total live in your household, including yourself? - recoded - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "10",
+        "HouseComprec"
+      ],
+      [
+        "hou72rec",
+        "How many people in total live in your household, including yourself? - recoded - at age 26 years",
+        "1972",
+        "Section A - Main questionnaire",
+        "4",
+        "HouseComprec"
+      ],
+      [
+        "hou48rec",
+        "How many people in total live in your household, including yourself? - recoded - at age 2 years",
+        "1948",
+        "AN1 - Face to face interview of mother by health visitor",
+        "27(d)",
+        "HouseComprec"
+      ],
+      [
+        "hou14xrec",
+        "How many people in total live in your household, including yourself? - recoded - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "3",
+        "HouseComprec"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Household structure [20]",
+        "Legacy Category"
+      ],
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "Unknown/no questionnaire",
+        true
+      ],
+      [
+        "1.0",
+        "1",
+        false
+      ],
+      [
+        "2.0",
+        "2",
+        false
+      ],
+      [
+        "3.0",
+        "3",
+        false
+      ],
+      [
+        "4.0",
+        "4",
+        false
+      ],
+      [
+        "5.0",
+        "5",
+        false
+      ],
+      [
+        "6.0",
+        "6 or over",
+        false
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "347",
+        "14%"
+      ],
+      [
+        "2",
+        "1674",
+        "69%"
+      ],
+      [
+        "3",
+        "292",
+        "12%"
+      ],
+      [
+        "4",
+        "86",
+        "4%"
+      ],
+      [
+        "5",
+        "20",
+        "1%"
+      ],
+      [
+        "6",
+        "16",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2435",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "hou09rec",
+    "label": "How many people in total live in your household, including yourself? - recoded - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31158",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hou09rec",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31158",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How many people in total live in your household, including yourself? - recoded - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "HouseComprec",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "26",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Include those who live in the household but are away e.g. working away or a student. Recoded household variable due to low cell counts. Full version is also available.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "hou61rec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 15 years",
+        "year": "1961",
+        "form": "A7 - Interview by the nurse",
+        "question": "33(c)",
+        "library_file": "HouseComprec"
+      },
+      {
+        "varname": "hou52rec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 4 years",
+        "year": "1952",
+        "form": "AN3 - Mother's interview by nurse",
+        "question": "17(c)",
+        "library_file": "HouseComprec"
+      },
+      {
+        "varname": "hou57rec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 11 years",
+        "year": "1957",
+        "form": "A6 - Mother's interview by nurse",
+        "question": "24(c)",
+        "library_file": "HouseComprec"
+      },
+      {
+        "varname": "hou89rec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "2(a)",
+        "library_file": "HouseComprec"
+      },
+      {
+        "varname": "hou82mrec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "1(a)",
+        "library_file": "HouseComprec"
+      },
+      {
+        "varname": "hourec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "10",
+        "library_file": "HouseComprec"
+      },
+      {
+        "varname": "hou72rec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 26 years",
+        "year": "1972",
+        "form": "Section A - Main questionnaire",
+        "question": "4",
+        "library_file": "HouseComprec"
+      },
+      {
+        "varname": "hou48rec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 2 years",
+        "year": "1948",
+        "form": "AN1 - Face to face interview of mother by health visitor",
+        "question": "27(d)",
+        "library_file": "HouseComprec"
+      },
+      {
+        "varname": "hou14xrec",
+        "description": "How many people in total live in your household, including yourself? - recoded - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "3",
+        "library_file": "HouseComprec"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Household structure [20]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "Unknown/no questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "1",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "2",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "3",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "4",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "5",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "6 or over",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 9,
+      "docs": 1,
+      "cats": 2,
+      "vals": 10
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "1",
+          "count": 347,
+          "pct": 14
+        },
+        {
+          "value": "2",
+          "label": "2",
+          "count": 1674,
+          "pct": 69
+        },
+        {
+          "value": "3",
+          "label": "3",
+          "count": 292,
+          "pct": 12
+        },
+        {
+          "value": "4",
+          "label": "4",
+          "count": 86,
+          "pct": 4
+        },
+        {
+          "value": "5",
+          "label": "5",
+          "count": 20,
+          "pct": 1
+        },
+        {
+          "value": "6",
+          "label": "6 or over",
+          "count": 16,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "347",
+        "14%"
+      ],
+      [
+        "2",
+        "1674",
+        "69%"
+      ],
+      [
+        "3",
+        "292",
+        "12%"
+      ],
+      [
+        "4",
+        "86",
+        "4%"
+      ],
+      [
+        "5",
+        "20",
+        "1%"
+      ],
+      [
+        "6",
+        "16",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2435",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

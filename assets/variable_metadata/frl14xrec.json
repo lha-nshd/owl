@@ -1,0 +1,611 @@
+{
+  "varname": "frl14xrec",
+  "label": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 68 years (recoded)",
+  "field_id": "30612",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30612",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2442.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Social support or life events [25]",
+    "Social support [535]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Husband / wife / partner"
+    },
+    {
+      "value": "10.0",
+      "label": "Other (please specify)"
+    },
+    {
+      "value": "12.0",
+      "label": "Multiple people given"
+    },
+    {
+      "value": "2.0",
+      "label": "Boyfriend / girlfriend"
+    },
+    {
+      "value": "4.0",
+      "label": "Brother / sister"
+    },
+    {
+      "value": "5.0",
+      "label": "Son / daughter"
+    },
+    {
+      "value": "6.0",
+      "label": "Other relative"
+    },
+    {
+      "value": "8.0",
+      "label": "Friend"
+    },
+    {
+      "value": "9.0",
+      "label": "No-one"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Husband / wife / partner",
+      "count": 1821,
+      "pct": 74.6
+    },
+    {
+      "label": "Boyfriend / girlfriend",
+      "count": 33,
+      "pct": 1.4
+    },
+    {
+      "label": "Brother / sister",
+      "count": 55,
+      "pct": 2.3
+    },
+    {
+      "label": "Son / daughter",
+      "count": 278,
+      "pct": 11.4
+    },
+    {
+      "label": "Other relative",
+      "count": 24,
+      "pct": 1.0
+    },
+    {
+      "label": "Friend",
+      "count": 120,
+      "pct": 4.9
+    },
+    {
+      "label": "No-one",
+      "count": 20,
+      "pct": 0.8
+    },
+    {
+      "label": "Other (please specify)",
+      "count": 26,
+      "pct": 1.1
+    },
+    {
+      "label": "Multiple people given",
+      "count": 65,
+      "pct": 2.7
+    }
+  ],
+  "pdf": {
+    "varname": "frl14xrec",
+    "label": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 68 years (recoded)",
+    "meta_rows": [
+      [
+        "Variable",
+        "frl14xrec"
+      ],
+      [
+        "Field ID",
+        "30612"
+      ],
+      [
+        "Label",
+        "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 68 years (recoded)"
+      ],
+      [
+        "Card Number",
+        "SupportRec"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "67(a)"
+      ],
+      [
+        "Year",
+        "2014"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Recoded version of frl14 to supress low cell counts"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social support or life events [25]",
+        "Legacy Category"
+      ],
+      [
+        "Social support [535]",
+        "This category contains data from the questionnaires on social networks including loneliness."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Husband / wife / partner",
+        false
+      ],
+      [
+        "10.0",
+        "Other (please specify)",
+        false
+      ],
+      [
+        "12.0",
+        "Multiple people given",
+        false
+      ],
+      [
+        "2.0",
+        "Boyfriend / girlfriend",
+        false
+      ],
+      [
+        "4.0",
+        "Brother / sister",
+        false
+      ],
+      [
+        "5.0",
+        "Son / daughter",
+        false
+      ],
+      [
+        "6.0",
+        "Other relative",
+        false
+      ],
+      [
+        "8.0",
+        "Friend",
+        false
+      ],
+      [
+        "9.0",
+        "No-one",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "1821",
+        "75%"
+      ],
+      [
+        "2",
+        "33",
+        "1%"
+      ],
+      [
+        "4",
+        "55",
+        "2%"
+      ],
+      [
+        "5",
+        "278",
+        "11%"
+      ],
+      [
+        "6",
+        "24",
+        "1%"
+      ],
+      [
+        "8",
+        "120",
+        "5%"
+      ],
+      [
+        "9",
+        "20",
+        "1%"
+      ],
+      [
+        "10",
+        "26",
+        "1%"
+      ],
+      [
+        "12",
+        "65",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "2442",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "frl14xrec",
+    "label": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 68 years (recoded)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30612",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "frl14xrec",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "30612",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 68 years (recoded)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "SupportRec",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "67(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2014",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Recoded version of frl14 to supress low cell counts",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social support or life events [25]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Social support [535]",
+        "description": "This category contains data from the questionnaires on social networks including loneliness.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Social_support_535.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Husband / wife / partner",
+        "is_missing": false
+      },
+      {
+        "value": "10.0",
+        "label": "Other (please specify)",
+        "is_missing": false
+      },
+      {
+        "value": "12.0",
+        "label": "Multiple people given",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Boyfriend / girlfriend",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Brother / sister",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Son / daughter",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "Other relative",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "Friend",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "No-one",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 12
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Husband / wife / partner",
+          "count": 1821,
+          "pct": 75
+        },
+        {
+          "value": "2",
+          "label": "Boyfriend / girlfriend",
+          "count": 33,
+          "pct": 1
+        },
+        {
+          "value": "4",
+          "label": "Brother / sister",
+          "count": 55,
+          "pct": 2
+        },
+        {
+          "value": "5",
+          "label": "Son / daughter",
+          "count": 278,
+          "pct": 11
+        },
+        {
+          "value": "6",
+          "label": "Other relative",
+          "count": 24,
+          "pct": 1
+        },
+        {
+          "value": "8",
+          "label": "Friend",
+          "count": 120,
+          "pct": 5
+        },
+        {
+          "value": "9",
+          "label": "No-one",
+          "count": 20,
+          "pct": 1
+        },
+        {
+          "value": "10",
+          "label": "Other (please specify)",
+          "count": 26,
+          "pct": 1
+        },
+        {
+          "value": "12",
+          "label": "Multiple people given",
+          "count": 65,
+          "pct": 3
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "1821",
+        "75%"
+      ],
+      [
+        "2",
+        "33",
+        "1%"
+      ],
+      [
+        "4",
+        "55",
+        "2%"
+      ],
+      [
+        "5",
+        "278",
+        "11%"
+      ],
+      [
+        "6",
+        "24",
+        "1%"
+      ],
+      [
+        "8",
+        "120",
+        "5%"
+      ],
+      [
+        "9",
+        "20",
+        "1%"
+      ],
+      [
+        "10",
+        "26",
+        "1%"
+      ],
+      [
+        "12",
+        "65",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "2442",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

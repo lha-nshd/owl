@@ -1,0 +1,633 @@
+/* ============================================================
+   SORT ICONS
+   ============================================================ */
+
+.page-baskets th[data-sort]::after {
+  content: " ⇅";
+  opacity: 0.4;
+  margin-left: 4px;
+}
+
+.page-baskets th[data-sort].asc::after {
+  content: " ▲";
+  opacity: 1;
+}
+
+.page-baskets th[data-sort].desc::after {
+  content: " ▼";
+  opacity: 1;
+}
+
+
+/* ============================================================
+   WIDER LAYOUT — this page has no .sidebar-summary
+   ============================================================
+   topics.css caps .page-topics/.hero-banner at --max-width (1000px,
+   defined at :root), sized specifically to leave room for the
+   fixed-position .sidebar-summary that most other topics.css pages
+   have. basket.html never includes that sidebar, so the cap only
+   wastes space here.
+
+   Overriding --max-width here — rather than touching :root in
+   topics.css — scopes the wider layout to this page alone. Every
+   other page using topics.css keeps the original 1000px, since none
+   of them carry the .page-baskets class.
+
+   Selector uses BOTH classes (.page-topics.page-baskets) so its
+   specificity (0,2,0) beats the plain :root (0,1,0) and plain
+   .page-topics (0,1,0) rules in topics.css regardless of which
+   stylesheet happens to load first — no !important needed. */
+.page-topics.page-baskets {
+  --max-width: 1400px;
+}
+
+
+/* ============================================================
+   CONDOR LARGE-BASKET NOTICE — shown when basket exceeds 500
+   Informational (not a hard limit), so purple like .limit-warning-box
+   ============================================================ */
+
+.page-baskets .basket-limit-warning {
+  display: none;
+  background: #F3E5F5;
+  border: 1px solid #B385C4;
+  border-left: 4px solid #6a0dad;
+  border-radius: 0 6px 6px 0;
+  padding: 10px 14px;
+  margin: 10px 0 14px;
+  font-size: 14px;
+  color: #4b067a;
+  line-height: 1.5;
+}
+
+.page-baskets .basket-limit-warning.show {
+  display: block;
+}
+
+
+/* ============================================================
+   RESULTS COUNT BOX
+   ============================================================ */
+
+.page-baskets #basketResultsCount {
+  background: #f3f4f6;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  display: inline-block;
+  color: #333;
+}
+
+
+/* ============================================================
+   PAGINATION
+   ============================================================ */
+
+.page-baskets .basket-pagination {
+  margin-top: 10px 0;
+  margin-bottom: 5px;
+}
+
+.page-baskets .basket-pagination button {
+  background: #e5e7eb;
+  border: 1px solid #d1d5db;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-baskets .basket-pagination button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.page-baskets #clearBasketBtn {
+  margin-left: 14px !important;
+}
+
+.page-baskets #downloadBasketCsvBtn {
+  margin-left: 10px !important;
+}
+
+
+/* ============================================================
+   TABLE FIXES — REMOVE WHITE BORDERS + ADD PURPLE LINE
+   ============================================================ */
+
+.page-baskets #basketTable {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  width: 100% !important;
+  table-layout: fixed !important; /* REQUIRED for fixed columns */
+}
+
+.page-baskets #basketTable,
+.page-baskets #basketTable * {
+  border: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.page-baskets #basketTable thead th {
+  color: #000 !important;
+  font-weight: 600 !important;
+  border-bottom: 3px solid #6a0dad !important;
+  padding: 10px 8px !important;
+}
+
+.page-baskets #basketTable tbody tr {
+  border-bottom: 1px solid rgba(0,0,0,0.08) !important;
+}
+
+.page-baskets #basketTable tbody tr:last-child {
+  border-bottom: none !important;
+}
+
+
+/* ============================================================
+   COLUMN BACKGROUNDS (PASTEL)
+   ============================================================ */
+
+.page-baskets #basketTable th:nth-child(1),
+.page-baskets #basketTable td:nth-child(1) {
+  background: #E8F5E9 !important;
+  text-align: center !important; 
+}
+
+.page-baskets #basketTable th:nth-child(2),
+.page-baskets #basketTable td:nth-child(2) {
+  background: #F3E5F5 !important;
+}
+
+.page-baskets #basketTable th:nth-child(3),
+.page-baskets #basketTable td:nth-child(3) {
+  background: #FFF3E0 !important;
+}
+
+
+/* ============================================================
+   COLUMN WIDTHS
+   ============================================================ */
+
+.page-baskets #basketTable th:nth-child(1),
+.page-baskets #basketTable td:nth-child(1) {
+  width: 12% !important;
+}
+
+.page-baskets #basketTable th:nth-child(2),
+.page-baskets #basketTable td:nth-child(2) {
+  width: 15% !important;
+}
+
+.page-baskets #basketTable th:nth-child(3),
+.page-baskets #basketTable td:nth-child(3) {
+  width: 73% !important;
+  text-align: left !important;
+}
+
+
+/* ============================================================
+   REMOVE COLUMN — HARD‑LOCKED + CENTERED
+   ============================================================ */
+
+.page-baskets #basketTable th.remove-col {
+  width: 80px !important;
+  min-width: 80px !important;
+  max-width: 80px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  position: relative !important;
+}
+
+.page-baskets #basketTable td.remove-col {
+  text-align: center !important;
+  vertical-align: middle !important;
+  padding: 4px !important;
+  width: 80px !important;
+  min-width: 80px !important;
+  max-width: 80px !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+.page-baskets #basketTable td.remove-col button {
+  display: inline-block !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+}
+
+
+/* ============================================================
+   REMOVE BUTTON — PASTEL + CLICK FEEDBACK
+   ============================================================ */
+
+.page-baskets #basketTable button {
+  background: #ffe0f7 !important;
+  border: 1px solid #e0b3d6 !important;
+  padding: 4px 10px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-size: 13px !important;
+  color: #4b067a !important;
+  font-weight: 600 !important;
+  transition: all 0.15s ease-in-out !important;
+}
+
+.page-baskets #basketTable button:hover {
+  background: #f7c7ea !important;
+}
+
+.page-baskets #basketTable button:active {
+  background: #e8b3d6 !important;
+  transform: scale(0.96) !important;
+}
+
+
+/* ============================================================
+   BUTTONS (CLEAR + DOWNLOAD)
+   ============================================================ */
+
+.page-baskets #clearBasketBtn {
+  background: #4b067a !important;
+  color: white !important;
+  padding: 6px 12px !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+}
+
+.page-baskets #downloadBasketCsvBtn {
+  background: #4CAF50 !important;
+  color: white !important;
+  padding: 6px 12px !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+}
+
+.page-baskets #clearBasketBtn:hover {
+  background: #36045a !important;
+}
+
+.page-baskets #downloadBasketCsvBtn:hover {
+  background: #45a049 !important;
+}
+
+.page-baskets .basket-count {
+  font-weight: 700 !important;
+}
+
+.page-baskets .basket-info {
+  margin: 12px 0 !important;
+  padding: 8px 12px !important;
+  line-height: 1.5 !important;
+  font-size: 15px;
+  color: #14532d;
+  background: #ecfdf5;
+  border-left: 3px solid #10b981;
+  border-radius: 0 6px 6px 0;
+}
+
+
+/* ============================================================
+   UPLOAD BASKET BUTTON — matches Clear/Download button styling
+   ============================================================ */
+
+.page-baskets #uploadBasketBtn {
+  background: #E6A817 !important;
+  color: white !important;
+  padding: 6px 12px !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  margin-left: 10px !important;
+}
+
+.page-baskets #uploadBasketBtn:hover {
+  background: #cc9310 !important;
+}
+
+.page-baskets #uploadBasketBtn i {
+  margin-right: 4px;
+}
+
+
+/* ============================================================
+   UPLOAD BASKET PANEL
+   ============================================================ */
+
+.page-baskets .upload-basket-panel {
+  background: #FAFAFA;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin: 10px 0 18px;
+  font-size: 14px;
+}
+
+.page-baskets .upload-basket-intro {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+.page-baskets .upload-status-msg {
+  color: #A32D2D;
+  margin: 8px 0;
+}
+
+.page-baskets .upload-done-msg {
+  color: #27500A;
+  margin: 8px 0;
+}
+
+
+/* ── Load/parse progress bar ─────────────────────────────────── */
+
+.page-baskets .upload-progress-container {
+  display: none;
+  width: 100%;
+  margin: 10px 0;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+  border: 1px solid #6a0dad;
+}
+
+.page-baskets .upload-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, #4b067a, #d9b3f0);
+  border-radius: 10px;
+  transition: width 0.2s ease;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.page-baskets .upload-progress-fill.indeterminate {
+  background: repeating-linear-gradient(45deg, #4b067a, #4b067a 10px, #d9b3f0 10px, #d9b3f0 20px);
+  background-size: 200% 200%;
+  animation: uploadLoadStripes 1s linear infinite;
+}
+
+@keyframes uploadLoadStripes {
+  0% { background-position: 0 0; }
+  100% { background-position: 40px 0; }
+}
+
+.page-baskets .upload-progress-label {
+  color: #4b067a;
+  margin: 6px 0;
+  display: none;
+  font-size: 13px;
+}
+
+
+/* ── Colour-coded, collapsible notice boxes ──────────────────── */
+
+.page-baskets .upload-warn-box {
+  border-radius: 6px;
+  margin: 10px 0;
+  padding: 10px 14px;
+  display: none;
+}
+
+.page-baskets .upload-warn-box summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.page-baskets .upload-warn-box summary > span:first-child {
+  flex: 1;
+}
+
+.page-baskets .upload-warn-box .details-hint {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.page-baskets .upload-warn-box summary::-webkit-details-marker {
+  display: none;
+}
+
+.page-baskets .upload-warn-box summary::after {
+  content: "▲";
+  font-size: 11px;
+  opacity: 0.6;
+  margin-left: 4px;
+  flex-shrink: 0;
+}
+
+.page-baskets .upload-warn-box:not([open]) summary::after {
+  content: "▼";
+}
+
+.page-baskets .upload-warn-box .var-list {
+  font-style: italic;
+  max-height: 150px;
+  overflow-y: auto;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+/* Green — clearly distinct from the red now reserved for restricted
+   variables elsewhere on this page (see .var-restricted-icon), and
+   from amber/blue/purple/teal used by the other four check boxes
+   below. */
+.page-baskets .missing-name-box {
+  color: #27500A;
+  background-color: #EAF3DE;
+  border: 1px solid #639922;
+}
+
+.page-baskets .invalid-value-box {
+  color: #7a5b00;
+  background-color: #FFF6DB;
+  border: 1px solid #E6C200;
+}
+
+.page-baskets .duplicate-box {
+  color: #2c4a63;
+  background-color: #E8F1FA;
+  border: 1px solid #6C93B6;
+}
+
+/* Non-blocking heads-up that Condor splits baskets over 500 variables —
+   purple, distinct from the amber invalid-value box, ties into the
+   site's brand colour since it's a Condor-specific notice rather
+   than a data-quality error. */
+.page-baskets .limit-warning-box {
+  color: #4b067a;
+  background-color: #F3E5F5;
+  border: 1px solid #B385C4;
+}
+
+/* Extra variables added because "Sync linked sweeps" is on — teal,
+   matching the sync toast/toggle's own colour elsewhere on the site,
+   so this reads as "the sync feature" specifically, distinct from all
+   four data-quality-style boxes above (red/amber/blue/purple). */
+.page-baskets .sync-added-box {
+  color: #085041;
+  background-color: #E1F5EE;
+  border: 1px solid #9AD4BE;
+}
+
+
+/* ── Highlighted count line above the preview table ─────────── */
+
+.page-baskets .upload-preview-highlight {
+  background-color: #E8F5E9;
+  border: 1px solid #7FB77E;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  font-size: 15px;
+  color: #1b4d1f;
+}
+
+
+/* ── Preview table + confirm/cancel ──────────────────────────── */
+
+.page-baskets .upload-preview-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 13px;
+  table-layout: fixed;
+}
+
+.page-baskets .upload-preview-table th {
+  color: #000;
+  font-weight: 600;
+  border-bottom: 3px solid #6a0dad;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.page-baskets .upload-preview-table td {
+  padding: 5px 8px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Same pastel column scheme as #basketTable: green / purple / orange,
+   plus a light amber for the New / Already-in-basket status column. */
+.page-baskets .upload-preview-table th:nth-child(1),
+.page-baskets .upload-preview-table td:nth-child(1) {
+  background: #E8F5E9;
+  width: 8%;
+  text-align: center;
+}
+
+.page-baskets .upload-preview-table th:nth-child(2),
+.page-baskets .upload-preview-table td:nth-child(2) {
+  background: #F3E5F5;
+  width: 22%;
+}
+
+.page-baskets .upload-preview-table th:nth-child(3),
+.page-baskets .upload-preview-table td:nth-child(3) {
+  background: #FFF3E0;
+  width: 50%;
+}
+
+.page-baskets .upload-preview-table th:nth-child(4),
+.page-baskets .upload-preview-table td:nth-child(4) {
+  background: #FFF8E1;
+  width: 20%;
+}
+
+.page-baskets .upload-preview-table td.status-new { color: #27500A; font-weight: 600; }
+.page-baskets .upload-preview-table td.status-existing { color: #888; font-style: italic; }
+.page-baskets .upload-preview-table td.status-sync { color: #085041; font-weight: 600; }
+.page-baskets .upload-preview-table tr.sync-added-row { background: #E1F5EE; }
+.page-baskets .upload-preview-table tr.sync-added-row td { background: transparent; }
+.page-baskets .upload-preview-table tr.sync-added-row .ti-link { color: #0F6E56; }
+
+.page-baskets .upload-confirm-row {
+  margin: 10px 0 14px;
+}
+
+.page-baskets .upload-confirm-btn {
+  background: #4CAF50 !important;
+  color: white !important;
+  padding: 6px 14px !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  margin-right: 8px;
+}
+
+.page-baskets .upload-confirm-btn:hover {
+  background: #45a049 !important;
+}
+
+.page-baskets .upload-cancel-btn {
+  background: #e5e7eb !important;
+  color: #333 !important;
+  padding: 6px 14px !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+}
+
+.page-baskets .upload-cancel-btn:hover {
+  background: #d1d5db !important;
+}
+
+/*
+ * Styling for the badge variable-doc-badges.js injects next to every
+ * documented variable-name link, site-wide. Add this to whichever
+ * shared stylesheet already loads on every page (e.g. topics.css), or
+ * keep it as its own file and link it once in the shared layout.
+ */
+.var-doc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: hsl(35 60% 92%);
+  border: 1px solid hsl(35 60% 60%);
+  color: hsl(35 60% 22%);
+  border-radius: 12px;
+  padding: 2px 9px 2px 7px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-decoration: none !important;
+  margin-left: 6px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.var-doc-badge:hover {
+  background: hsl(35 60% 86%);
+}
+.var-doc-badge-count {
+  background: hsl(35 60% 55%);
+  color: #fff;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9.5px;
+  flex-shrink: 0;
+}

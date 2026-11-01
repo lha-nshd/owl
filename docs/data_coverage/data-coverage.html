@@ -1,0 +1,372 @@
+---
+layout: default
+title: Data Coverage
+nav_order: 3
+permalink: /docs/data-coverage/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<style>
+/* Matches the .doc-pdf-download button used on generated documentation
+   pages (see build_pages.py) — same icon, colour, and shape, so the PDF
+   download affordance looks identical everywhere on the site. */
+.doc-pdf-download { display:inline-flex; align-items:center; gap:6px; padding:6px 14px; background:#1a4d7a; color:#fff; border-radius:6px; text-decoration:none; font-size:13px; font-weight:600; }
+.doc-pdf-download:hover { background:#123a5c; }
+</style>
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner" style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+    <div style="flex:1;min-width:220px;">
+      <h1><i class="ti ti-chart-bar" aria-hidden="true"></i> Data Coverage</h1>
+      <p>What is currently available on OWL — and what is still to come.</p>
+    </div>
+    <a class="doc-pdf-download" href="/OWL/assets/pdfs/data-coverage/data-coverage.pdf" download
+       onclick="event.stopImmediatePropagation();" onmousedown="event.stopImmediatePropagation();"
+       style="flex-shrink:0;">
+      <i class="ti ti-download" aria-hidden="true"></i> Download PDF version
+    </a>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul style="list-style:none;margin:0;padding:0;">
+      <li><a href="#overview" class="gs-toc-da-owl" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#6a0dad;flex-shrink:0;"></span><i class="ti ti-info-circle" aria-hidden="true"></i> What's available</a></li>
+      <li><a href="#by-topic" class="gs-toc-da-showcase" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#534AB7;flex-shrink:0;"></span><i class="ti ti-tags" aria-hidden="true"></i> By topic area</a></li>
+      <li><a href="#category-depth" class="gs-toc-da-showcase" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#185FA5;flex-shrink:0;"></span><i class="ti ti-git-branch" aria-hidden="true"></i> Category depth</a></li>
+      <li><a href="#multi-sweep" class="gs-toc-da-showcase" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#639922;flex-shrink:0;"></span><i class="ti ti-repeat" aria-hidden="true"></i> Multi-sweep</a></li>
+      <li><a href="#longitudinal-depth" class="gs-toc-da-showcase" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#D4537E;flex-shrink:0;"></span><i class="ti ti-clock-hour-4" aria-hidden="true"></i> Longitudinal depth</a></li>
+      <li><a href="#by-life-stage" class="gs-toc-da-condor" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#993C1D;flex-shrink:0;"></span><i class="ti ti-timeline" aria-hidden="true"></i> By life stage</a></li>
+      <li><a href="#by-year" class="gs-toc-da-skylark" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#0F6E56;flex-shrink:0;"></span><i class="ti ti-calendar" aria-hidden="true"></i> By collection year</a></li>
+      <li><a href="#by-form" class="gs-toc-da-journey" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#5F5E5A;flex-shrink:0;"></span><i class="ti ti-clipboard-list" aria-hidden="true"></i> By data collection form</a></li>
+      <li><a href="#ukllc" class="gs-toc-da-journey" style="display:flex;align-items:center;gap:7px;"><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:#0891B2;flex-shrink:0;"></span><i class="ti ti-link" aria-hidden="true"></i> UKLLC datasets</a></li>
+    </ul>
+    <a href="/OWL/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Home</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>OWL currently provides access to around <strong>28,928 variables</strong> — those that have been cleaned and enhanced as part of the
+	<a href="/OWL/docs/accessing-nshd-data/metadata-enhancement-project/" style="color:#6a0dad;">Metadata Enhancement Project</a>. The full NSHD repository contains approximately <strong>35,000+
+	variables</strong>; the remaining ~6,072 are available on <a href="https://condor.ucl.ac.uk/Condor" style="color:#6a0dad;" target="_blank">Condor</a>.
+	New variables are added to OWL periodically as each questionnaire is processed and deposited. See below for more details for what is available on this platform.</p>
+  </div>
+
+  <div class="home-section" style="background:rgba(106,13,173,0.06);border-left:5px solid #6a0dad;border-radius:10px;">
+    <h2 id="overview"><i class="ti ti-info-circle" style="color:#6a0dad;" aria-hidden="true"></i> What is currently available</h2>
+
+    <style>
+      .cov-stat-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:14px 0; }
+      .cov-stat { background:#faf7ff; border:1px solid rgba(106,13,173,0.15); border-radius:8px; padding:14px 16px; text-align:center; }
+      .cov-stat .num { font-size:26px; font-weight:700; color:#6a0dad; margin:0 0 3px; display:block; }
+      .cov-stat .lbl { font-size:11.5px; color:#555; margin:0; line-height:1.4; }
+      .cov-progress-wrap { margin:14px 0; }
+      .cov-prog-label { display:flex; justify-content:space-between; font-size:12px; color:#333; margin-bottom:4px; }
+      .cov-prog-label span:last-child { font-weight:700; color:#6a0dad; }
+      .cov-prog-track { height:12px; background:#ede5ff; border-radius:6px; overflow:hidden; }
+      .cov-prog-fill { height:100%; background:linear-gradient(90deg, hsl(180 45% 45%), hsl(270 45% 50%)); border-radius:6px; }
+    </style>
+
+    <div class="cov-stat-grid">
+      <div class="cov-stat">
+        <span class="num">28,928</span>
+        <p class="lbl">Variables on OWL</p>
+      </div>
+      <div class="cov-stat">
+        <span class="num">~6,072</span>
+        <p class="lbl">Variables still to be cleaned — on Condor only</p>
+      </div>
+      <div class="cov-stat">
+        <span class="num">End 2027</span>
+        <p class="lbl">Target completion for the full 35,000+ variable set</p>
+      </div>
+    </div>
+
+    <div class="cov-progress-wrap">
+      <div class="cov-prog-label">
+        <span>Metadata enhancement progress</span>
+        <span>~83% complete</span>
+      </div>
+      <div class="cov-prog-track">
+        <div class="cov-prog-fill" style="width:83%"></div>
+      </div>
+    </div>
+
+    <p style="font-size:12px; color:#666; margin:6px 0 0; font-style:italic;">The 28,928 variables shown here cover 43 collection years spanning 1946 to 2025, across 9 topic areas and 50+ data collection forms.
+	The charts below break these down in detail.</p>
+  </div>
+
+  <div class="home-section" style="background:rgba(83,74,183,0.06);border-left:5px solid #534AB7;border-radius:10px;">
+    <h2 id="by-topic"><i class="ti ti-tags" style="color:#534AB7;" aria-hidden="true"></i> Variables by topic area</h2>
+    <p>Variables are organised into 9 top-level topic areas, shown largest to smallest. Questionnaire data (9,006) and Diet diaries (4,888) make up the largest share.</p>
+
+    <div id="legend-topic" style="display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px;font-size:11.5px;"></div>
+    <div style="position:relative;width:100%;height:360px;">
+      <canvas id="chartTopic" role="img" aria-label="Horizontal bar chart of variables by topic area, sorted largest to smallest.">Topic area counts listed in page text.</canvas>
+    </div>
+  </div>
+
+  <div class="home-section" style="background:rgba(24,95,165,0.06);border-left:5px solid #185FA5;border-radius:10px;">
+    <h2 id="category-depth"><i class="ti ti-git-branch" style="color:#185FA5;" aria-hidden="true"></i> Category classification depth</h2>
+    <p>All 28,928 variables have at least one subtopic level. Deeper classification indicates a more precisely placed variable in the Browse by Category hierarchy. The fourth subtopic level is the most specific classification available.</p>
+    <div style="margin-top:14px;">
+<div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;"><span style="width:190px;font-size:12px;color:#555;flex-shrink:0;">Subtopic 1 (all variables)</span><div style="flex:1;height:12px;background:#ede5ff;border-radius:6px;overflow:hidden;"><div style="width:100%;height:100%;background:#534AB7;border-radius:6px;"></div></div><span style="width:80px;font-size:11.5px;color:#777;text-align:right;">28,928 (100%)</span></div><div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;"><span style="width:190px;font-size:12px;color:#555;flex-shrink:0;">Subtopic 2</span><div style="flex:1;height:12px;background:#ede5ff;border-radius:6px;overflow:hidden;"><div style="width:77%;height:100%;background:#7F77DD;border-radius:6px;"></div></div><span style="width:80px;font-size:11.5px;color:#777;text-align:right;">22,298 (77%)</span></div><div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;"><span style="width:190px;font-size:12px;color:#555;flex-shrink:0;">Subtopic 3</span><div style="flex:1;height:12px;background:#ede5ff;border-radius:6px;overflow:hidden;"><div style="width:44%;height:100%;background:#AFA9EC;border-radius:6px;"></div></div><span style="width:80px;font-size:11.5px;color:#777;text-align:right;">12,795 (44%)</span></div><div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;"><span style="width:190px;font-size:12px;color:#555;flex-shrink:0;">Subtopic 4 (deepest)</span><div style="flex:1;height:12px;background:#ede5ff;border-radius:6px;overflow:hidden;"><div style="width:12%;height:100%;background:#CECBF6;border-radius:6px;"></div></div><span style="width:80px;font-size:11.5px;color:#777;text-align:right;">3,401 (12%)</span></div>    </div>
+    <p style="font-size:12px;color:#666;margin:8px 0 0;font-style:italic;">Percentages are of total variables on OWL (28,928).</p>
+  </div>
+
+  <div class="home-section" style="background:rgba(99,153,34,0.06);border-left:5px solid #639922;border-radius:10px;">
+    <h2 id="multi-sweep"><i class="ti ti-repeat" style="color:#639922;" aria-hidden="true"></i> Single-sweep vs multi-sweep longitudinal Field IDs</h2>
+    <p>Of the 23,065 unique longitudinal Field IDs, 10% were collected at more than one time point with identical question text and coding. These multi-sweep fields are grouped together under a single longitudinal Field ID for direct longitudinal comparison.</p>
+    <div style="display:flex;align-items:center;gap:28px;margin-top:14px;flex-wrap:wrap;">
+      <canvas id="chartMultiSweep" width="140" height="140"
+        role="img" style="flex-shrink:0;width:140px;height:140px;"
+        aria-label="Donut chart: 90% single-sweep, 10% multi-sweep.">
+        Single-sweep: 20,720 (90%). Multi-sweep: 2,345 (10%).
+      </canvas>
+      <div style="display:flex;flex-direction:column;gap:12px;">
+        <div style="display:flex;align-items:flex-start;gap:10px;">
+          <span style="width:12px;height:12px;border-radius:3px;background:#534AB7;flex-shrink:0;margin-top:3px;"></span>
+          <div>
+            <p style="font-size:14px;font-weight:700;color:#534AB7;margin:0;">              20,720              <span style="font-size:12px;font-weight:400;color:#555;">longitudinal Field IDs (90%)</span></p>
+            <p style="font-size:12px;color:#666;margin:2px 0 0;">Single-sweep &#8212; collected at one time point only</p>
+          </div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;">
+          <span style="width:12px;height:12px;border-radius:3px;background:#9FE1CB;flex-shrink:0;margin-top:3px;"></span>
+          <div>
+            <p style="font-size:14px;font-weight:700;color:#0F6E56;margin:0;">              2,345              <span style="font-size:12px;font-weight:400;color:#555;">longitudinal Field IDs (10%)</span></p>
+            <p style="font-size:12px;color:#666;margin:2px 0 0;">Multi-sweep &#8212; grouped under one longitudinal Field ID</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:11.5px;color:#666;margin:10px 0 0;font-style:italic;line-height:1.6;">Note: this chart groups sweeps by distinct collection year per longitudinal Field ID. A small number of longitudinal Field IDs were collected more than once within the same labelled year &#8212; for example, Covid wave 1 and wave 2 are both recorded under the year 2020, despite being separate questionnaires collected months apart &#8212; and are counted here as single-sweep. Because of this, the multi-sweep count above is slightly higher than the number of longitudinal fields shown on the <a href="/OWL/docs/longitudinal_variables/longitudinal-variables/" style="color:#6a0dad;">Longitudinal Variables page</a>, which counts sweeps individually rather than by distinct year.</p>
+  </div>
+
+  <div class="home-section" style="background:rgba(212,83,126,0.06);border-left:5px solid #D4537E;border-radius:10px;">
+    <h2 id="longitudinal-depth"><i class="ti ti-clock-hour-4" style="color:#D4537E;" aria-hidden="true"></i> Longitudinal tracking depth</h2>
+    <p>Of 23,065 unique longitudinal Field IDs, 2,345 (10%) have been collected at more than one sweep, some for decades. The most consistently tracked variable is <strong>Interview contact status (recoded) at age 15</strong> (longitudinal Field ID 6200), collected across 27 sweeps spanning 77 years: 1948, 1950, 1952, 1953, 1954, 1955, 1956, 1957, 1959, 1961, 1965, 1966, 1968, 1969, 1971, 1972, 1977, 1982, 1989, 1999, 2006-10, 2014, 2015, 2021, 2022, 2023, 2025.</p>
+    <div style="position:relative;width:100%;height:260px;margin-top:12px;">
+      <canvas id="chartSweeps" role="img" aria-label="Bar chart of longitudinal Field IDs by number of collection sweeps, 2 or more sweeps only.">Sweep counts listed in page text.</canvas>
+    </div>
+    <p style="font-size:11.5px;color:#666;margin:8px 0 0;font-style:italic;">Chart shows longitudinal Field IDs collected at 2 or more sweeps only — the 20,720 fields collected just once are excluded so the repeat-collection pattern is visible. "Sweeps" counts distinct collection years per longitudinal Field ID — see the note under Single-sweep vs multi-sweep above for an edge case involving same-year sweeps.</p>
+    <p style="font-size:11.5px;color:#666;margin:6px 0 0;font-style:italic;line-height:1.6;">Note: these counts only include truly longitudinal variables — those collected with identical question text and coding at every sweep they appear in, which is why they share one longitudinal Field ID across sweeps. If a question was re-asked with different wording, response options, or coding at a later sweep, it is assigned a separate longitudinal Field ID and is not counted as a repeat sweep of the original here, even though it may cover the same underlying measure.</p>
+  </div>
+
+
+  <div class="home-section" style="background:rgba(153,60,29,0.06);border-left:5px solid #993C1D;border-radius:10px;">
+    <h2 id="by-life-stage"><i class="ti ti-timeline" style="color:#993C1D;" aria-hidden="true"></i> Variables by life stage</h2>
+    <p>The volume of variables reflects the intensity of data collection at each phase of life. The richest coverage is at ages 56–65 — corresponding to the major 2006–2010 clinic visit — followed by ages 46–55 and 66–75. Early-life coverage (birth to age 25) is smaller in scale but represents foundational measures collected across the study's first two decades.</p>
+
+    <div id="legend-stage" style="display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px;font-size:11.5px;"></div>
+    <div style="position:relative;width:100%;height:300px;">
+      <canvas id="chartStage" role="img" aria-label="Bar chart of variables by life stage.">Life stage counts listed in page text.</canvas>
+    </div>
+  </div>
+
+  <div class="home-section" style="background:rgba(15,110,86,0.06);border-left:5px solid #0F6E56;border-radius:10px;">
+    <h2 id="by-year"><i class="ti ti-calendar" style="color:#0F6E56;" aria-hidden="true"></i> Variables by collection year</h2>
+    <p>The chart shows variable counts for each collection year or period. The dominant peaks reflect the major intensive data collection sweeps — 2006-10 (8,581), 1999 (4,029), 1989 (2,680), 1982 (2,334). Early sweeps in the 1940s–70s have fewer variables, reflecting the simpler instruments used in those decades.</p>
+
+    <div style="position:relative;width:100%;height:280px;">
+      <canvas id="chartYear" role="img" aria-label="Bar chart of variables by collection year.">Year counts listed in page text.</canvas>
+    </div>
+  </div>
+
+  <div class="home-section" style="background:rgba(95,94,90,0.06);border-left:5px solid #5F5E5A;border-radius:10px;">
+    <h2 id="by-form"><i class="ti ti-clipboard-list" style="color:#5F5E5A;" aria-hidden="true"></i> Variables by data collection form</h2>
+    <p>Variables come from a wide range of data collection instruments, shown largest to smallest ("Other forms" is a catch-all bucket and is always listed last).</p>
+
+    <style>
+      .form-table { width:100%; border-collapse:collapse; font-size:12px; margin-top:10px; }
+      .form-table th { padding:8px 12px; background:#3a0066; color:white; text-align:left; font-size:12px; font-weight:500; }
+      .form-table td { padding:8px 12px; vertical-align:top; line-height:1.5; border-bottom:1px solid rgba(0,0,0,0.06); }
+      .form-table tr:nth-child(odd)  td { background:hsl(180 45% 97%); }
+      .form-table tr:nth-child(even) td { background:hsl(35 60% 97%); }
+      .form-bar-wrap { width:100%; height:8px; background:#ede5ff; border-radius:4px; margin-top:4px; overflow:hidden; }
+      .form-bar { height:100%; border-radius:4px; background:hsl(270 45% 50%); }
+      .year-tag { display:inline-block; font-size:10px; padding:1px 6px; border-radius:8px; background:hsl(270 35% 90%); color:hsl(270 35% 22%); margin:1px 2px; }
+    </style>
+
+    <table class="form-table">
+      <thead><tr>
+        <th style="width:24%">Form</th>
+        <th style="width:12%">Variables</th>
+        <th style="width:64%">Collection years</th>
+      </tr></thead>
+      <tbody>
+        <tr><td><strong>Diet diaries</strong></td><td>4,901<div class="form-bar-wrap"><div class="form-bar" style="width:100%"></div></div></td><td><span class="year-tag">1950</span><span class="year-tag">1982</span><span class="year-tag">1989</span><span class="year-tag">1999</span><span class="year-tag">2006-10</span></td></tr>
+        <tr><td><strong>Postal questionnaire</strong></td><td>4,745<div class="form-bar-wrap"><div class="form-bar" style="width:97%"></div></div></td><td><span class="year-tag">1966</span><span class="year-tag">1968</span><span class="year-tag">1971</span><span class="year-tag">1972</span><span class="year-tag">1977</span><span class="year-tag">1982</span><span class="year-tag">1989</span><span class="year-tag">2006-10</span><span class="year-tag">2014</span><span class="year-tag">2022</span><span class="year-tag">2023</span><span class="year-tag">2025</span></td></tr>
+        <tr><td><strong>Nurse Clinic/Home visit</strong></td><td>3,573<div class="form-bar-wrap"><div class="form-bar" style="width:73%"></div></div></td><td><span class="year-tag">1999</span><span class="year-tag">2006-10</span><span class="year-tag">2015</span><span class="year-tag">2023</span></td></tr>
+        <tr><td><strong>Blood / Urine / Saliva assays</strong></td><td>3,565<div class="form-bar-wrap"><div class="form-bar" style="width:73%"></div></div></td><td><span class="year-tag">1999</span><span class="year-tag">2006-10</span><span class="year-tag">2015</span><span class="year-tag">2020-2024</span><span class="year-tag">2021</span><span class="year-tag">2023</span></td></tr>
+        <tr><td><strong>Women's Health Questionnaire</strong></td><td>2,800<div class="form-bar-wrap"><div class="form-bar" style="width:57%"></div></div></td><td><span class="year-tag">1993</span><span class="year-tag">1994</span><span class="year-tag">1995</span><span class="year-tag">1996</span><span class="year-tag">1997</span><span class="year-tag">1998</span><span class="year-tag">1999</span><span class="year-tag">2000</span><span class="year-tag">2003</span><span class="year-tag">2005</span><span class="year-tag">2006-10</span></td></tr>
+        <tr><td><strong>Insight 46 (phases 1 & 2)</strong></td><td>2,618<div class="form-bar-wrap"><div class="form-bar" style="width:53%"></div></div></td><td><span class="year-tag">2015-2018</span><span class="year-tag">2018-2021</span></td></tr>
+        <tr><td><strong>Imaging and devices (Ultrasound, Dicom, Actiheart moniter etc)</strong></td><td>1,456<div class="form-bar-wrap"><div class="form-bar" style="width:30%"></div></div></td><td><span class="year-tag">1999</span><span class="year-tag">2006-10</span><span class="year-tag">2018-2021</span></td></tr>
+        <tr><td><strong>DNA / Genomics</strong></td><td>1,071<div class="form-bar-wrap"><div class="form-bar" style="width:22%"></div></div></td><td><span class="year-tag">1999</span><span class="year-tag">2006-10</span><span class="year-tag">2018-2021</span></td></tr>
+        <tr><td><strong>Covid questionnaires</strong></td><td>1,064<div class="form-bar-wrap"><div class="form-bar" style="width:22%"></div></div></td><td><span class="year-tag">2020</span><span class="year-tag">2021</span><span class="year-tag">2022</span></td></tr>
+        <tr><td><strong>Self-completion booklet</strong></td><td>867<div class="form-bar-wrap"><div class="form-bar" style="width:18%"></div></div></td><td><span class="year-tag">1982</span><span class="year-tag">1989</span><span class="year-tag">1999</span><span class="year-tag">2006-10</span><span class="year-tag">2015</span><span class="year-tag">2023</span></td></tr>
+        <tr><td><strong>Myofit sub-study</strong></td><td>819<div class="form-bar-wrap"><div class="form-bar" style="width:17%"></div></div></td><td><span class="year-tag">2020-2024</span></td></tr>
+        <tr><td><strong>Cognitive tests</strong></td><td>165<div class="form-bar-wrap"><div class="form-bar" style="width:3%"></div></div></td><td><span class="year-tag">1954</span><span class="year-tag">1957</span><span class="year-tag">1961</span><span class="year-tag">1999</span><span class="year-tag">2006-10</span><span class="year-tag">2015</span><span class="year-tag">2020-2024</span><span class="year-tag">2023</span></td></tr>
+        <tr><td><strong>Doctor's examination</strong></td><td>92<div class="form-bar-wrap"><div class="form-bar" style="width:2%"></div></div></td><td><span class="year-tag">1952</span><span class="year-tag">1953</span><span class="year-tag">1957</span><span class="year-tag">1961</span></td></tr>
+        <tr><td><strong>Mother's Interview</strong></td><td>78<div class="form-bar-wrap"><div class="form-bar" style="width:2%"></div></div></td><td><span class="year-tag">1948</span><span class="year-tag">1950</span><span class="year-tag">1952</span><span class="year-tag">1955</span><span class="year-tag">1957</span><span class="year-tag">1961</span><span class="year-tag">1965</span></td></tr>
+        <tr><td><strong>Teacher's questionnaire</strong></td><td>19<div class="form-bar-wrap"><div class="form-bar" style="width:0%"></div></div></td><td><span class="year-tag">1956</span><span class="year-tag">1959</span><span class="year-tag">1961</span></td></tr>
+        <tr><td><strong>Other forms</strong></td><td>1,095<div class="form-bar-wrap"><div class="form-bar" style="width:22%"></div></div></td><td><span style="font-size:11px;color:#666;font-style:italic;">Various — spanning 1946 to present including early childhood measures and specialist instruments</span></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:11.5px;color:#666;margin:10px 0 0;font-style:italic;line-height:1.6;">Note: this table groups variables by the instrument used to collect them (Form), which can differ from their category classification (Subtopic). 40 variables categorised under the Myofit study were collected using another instrument (37 via ACEIII questionnaire; 3 via Blood assays) and are counted under that instrument's row above rather than under "Myofit sub-study". 204 variables categorised under the Insight46 study were collected using another instrument (201 via Ultrasound; 3 via Blood assays) and are counted under that instrument's row above rather than under "Insight 46 (phases 1 & 2)".</p>
+
+    <div class="callout-note" style="margin-top:12px;">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Variable counts shown here reflect the current cleaned dataset. New variables are added periodically as questionnaires are processed.</span>
+    </div>
+  </div>
+
+  <div class="home-section" style="background:rgba(8,145,178,0.06);border-left:5px solid #0891B2;border-radius:10px;">
+    <h2 id="ukllc"><i class="ti ti-link" style="color:#0891B2;" aria-hidden="true"></i> UKLLC harmonised datasets</h2>
+    <p>2,867 variables (9.9% of the 28,928 on OWL) have been standardised into a harmonised dataset for cross-cohort comparison via the UK Longitudinal Linkage Collaboration (UKLLC), across 16 distinct harmonised datasets.</p>
+    <table class="form-table">
+      <thead><tr><th style="width:40%">Harmonised dataset</th><th style="width:60%">Variables</th></tr></thead>
+      <tbody>
+        <tr><td title="NSHD46_CAT-5211_EPIC_v0001_20260907"><strong>EPIC</strong></td><td>566<div class="form-bar-wrap"><div class="form-bar" style="width:100%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-5154_Emplymnt_Hist_v0001_20260907"><strong>Emplymnt Hist</strong></td><td>483<div class="form-bar-wrap"><div class="form-bar" style="width:85%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-5152_Household_v0001_20260907"><strong>Household</strong></td><td>381<div class="form-bar-wrap"><div class="form-bar" style="width:67%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-51014_Heart_Circ_v0001_20260907"><strong>Heart Circ</strong></td><td>378<div class="form-bar-wrap"><div class="form-bar" style="width:67%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-2011_Blood_Biochemistry_v0001_20260907"><strong>Blood Biochemistry</strong></td><td>198<div class="form-bar-wrap"><div class="form-bar" style="width:35%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-51013_Respiratory_v0001_20260907"><strong>Respiratory</strong></td><td>133<div class="form-bar-wrap"><div class="form-bar" style="width:23%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-51015_Endo_Metab_v0001_20260907"><strong>Endo Metab</strong></td><td>125<div class="form-bar-wrap"><div class="form-bar" style="width:22%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-1103_BP_v0001_20260907"><strong>BP</strong></td><td>120<div class="form-bar-wrap"><div class="form-bar" style="width:21%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-5151_Econ_Circ_v0001_20260907"><strong>Econ Circ</strong></td><td>120<div class="form-bar-wrap"><div class="form-bar" style="width:21%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-5251_Smoking_v0001_20260907"><strong>Smoking</strong></td><td>120<div class="form-bar-wrap"><div class="form-bar" style="width:21%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-11021_Anthropometry_v0001_20260907"><strong>Anthropometry</strong></td><td>89<div class="form-bar-wrap"><div class="form-bar" style="width:16%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-5252_Alcohol_v0001_20260907"><strong>Alcohol</strong></td><td>73<div class="form-bar-wrap"><div class="form-bar" style="width:13%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-51021_Clin_disorder_v0001_20260907"><strong>Clin disorder</strong></td><td>52<div class="form-bar-wrap"><div class="form-bar" style="width:9%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-51012_Cancer_v0001_20260907"><strong>Cancer</strong></td><td>29<div class="form-bar-wrap"><div class="form-bar" style="width:5%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_CAT-5152_Education_v0001_20260917"><strong>Education</strong></td><td>24<div class="form-bar-wrap"><div class="form-bar" style="width:4%;background:#0891B2;"></div></div></td></tr>
+        <tr><td title="NSHD46_APOE_v0001_20260422"><strong>APOE genotype</strong></td><td>6<div class="form-bar-wrap"><div class="form-bar" style="width:1%;background:#0891B2;"></div></div></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:11.5px;color:#666;margin:8px 0 0;font-style:italic;">Hover a dataset name to see its full UKLLC identifier. Most NSHD variables are not yet part of a harmonised UKLLC dataset — this reflects how many variables have been through UKLLC's harmonisation process, not overall data availability.</p>
+  </div>
+
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+(function() {
+
+  const TOPIC_COLORS = ['#1D9E75','#0F6E56','#5DCAA5','#085041','#9FE1CB','#3C3489','#7F77DD','#B5D4F4','#D3D1C7'];
+  const STAGE_COLORS = ['#9FE1CB','#5DCAA5','#1D9E75','#0F6E56','#534AB7','#3C3489','#7F77DD','#AFA9EC','#CECBF6'];
+
+  function makeLegend(id, labels, colors) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.innerHTML = labels.map((l,i) =>
+      `<span style="display:inline-flex;align-items:center;gap:5px;">
+        <span style="width:11px;height:11px;border-radius:2px;background:${colors[i]};flex-shrink:0;"></span>
+        <span style="color:var(--color-text-secondary)">${l}</span>
+      </span>`
+    ).join('');
+  }
+
+  new Chart(document.getElementById('chartTopic'), {
+    type: 'bar',
+    data: {
+      labels: ['Questionnaire data','Diet diaries','Specialist questionnaire data','Sub-studies','Biological samples','Clinical data','Omic','Population characteristics','Raw data'],
+      datasets: [{ data: [9006,4888,4089,3681,3554,2598,1073,34,5], backgroundColor: TOPIC_COLORS, borderWidth: 0, borderRadius: 3 }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ' ' + c.raw.toLocaleString() + ' variables' } } },
+      scales: {
+        x: { ticks: { font:{size:11}, color:'#888', callback: v => v.toLocaleString() }, grid: { color:'rgba(136,135,128,0.12)' } },
+        y: { ticks: { font:{size:11}, color:'#555' }, grid: { display:false } }
+      }
+    }
+  });
+
+  makeLegend('legend-topic', ['Questionnaire data','Diet diaries','Specialist questionnaire data','Sub-studies','Biological samples','Clinical data','Omic','Population characteristics','Raw data'], TOPIC_COLORS);
+
+  new Chart(document.getElementById('chartStage'), {
+    type: 'bar',
+    data: {
+      labels: ['Birth–5','Age 6–15','Age 16–25','Age 26–35','Midlife 36–45','Age 46–55','Age 56–65','Age 66–75','Age 76+'],
+      datasets: [{ data: [212,210,69,330,5014,6294,8807,6667,1325], backgroundColor: STAGE_COLORS, borderWidth: 0, borderRadius: 3 }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ' ' + c.raw.toLocaleString() + ' variables' } } },
+      scales: {
+        x: { ticks: { font:{size:11}, color:'#555', maxRotation:35, autoSkip:false }, grid: { display:false } },
+        y: { ticks: { font:{size:11}, color:'#888', callback: v => v.toLocaleString() }, grid: { color:'rgba(136,135,128,0.12)' } }
+      }
+    }
+  });
+
+  makeLegend('legend-stage', ['Birth–5','Age 6–15','Age 16–25','Age 26–35','Midlife 36–45','Age 46–55','Age 56–65','Age 66–75','Age 76+'], STAGE_COLORS);
+
+  new Chart(document.getElementById('chartMultiSweep'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Single-sweep (90%)', 'Multi-sweep (10%)'],
+      datasets: [{
+        data: [20720, 2345],
+        backgroundColor: ['#534AB7', '#9FE1CB'],
+        borderWidth: 0,
+        hoverOffset: 6
+      }]
+    },
+    options: {
+      responsive: false,
+      maintainAspectRatio: false,
+      cutout: '68%',
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: function(c) { return ' ' + c.raw.toLocaleString() + ' longitudinal Field IDs'; } } }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('chartSweeps'), {
+    type: 'bar',
+    data: {
+      labels: ['2','3','4','5','6','7','8','9','10','13','14','15','27'],
+      datasets: [{ data: [1072,167,772,21,148,83,55,14,8,1,1,2,1], backgroundColor: '#7F77DD', borderWidth: 0, borderRadius: 3 }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ' ' + c.raw.toLocaleString() + ' longitudinal Field IDs' } } },
+      scales: {
+        x: { title: { display:true, text:'Number of sweeps', color:'#555', font:{size:11} },
+              ticks: { font:{size:11}, color:'#555' }, grid: { display:false } },
+        y: { ticks: { font:{size:11}, color:'#888', callback: v => v.toLocaleString() }, grid: { color:'rgba(136,135,128,0.12)' } }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('chartYear'), {
+    type: 'bar',
+    data: {
+      labels: ['1946','1948','1950','1952','1953','1954','1955','1956','1957','1959','1961','1962','1965','1966','1968','1969','1971','1972','1977','1982','1989','1993','1994','1995','1996','1997','1998','1999','2000','2003','2005','2006-10','2014','2015','2015-2018','2018-2021','2020','2020-2024','2021','2022','2023','2025'],
+      datasets: [{ data: [16,19,177,35,26,10,4,3,48,14,70,6,8,31,7,2,15,115,215,2334,2680,232,258,265,273,400,333,4029,504,182,44,8581,727,1189,935,1888,654,859,415,515,564,244], backgroundColor: '#534AB7', borderWidth: 0, borderRadius: 2 }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ' ' + c.raw.toLocaleString() + ' variables' } } },
+      scales: {
+        x: { ticks: { font:{size:10}, color:'#555', maxRotation:45, autoSkip:false }, grid: { display:false } },
+        y: { ticks: { font:{size:11}, color:'#888', callback: v => v.toLocaleString() }, grid: { color:'rgba(136,135,128,0.12)' } }
+      }
+    }
+  });
+
+})();
+</script>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

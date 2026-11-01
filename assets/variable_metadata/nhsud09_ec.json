@@ -1,0 +1,610 @@
+{
+  "varname": "nhsud09_ec",
+  "label": "Frequency of flights of stairs climbed at home on a weekday day - at age 60-64 years",
+  "field_id": "13395",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13395",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2163.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "hstairs09_d",
+    "nhsue09_ec",
+    "hstairshour09_w",
+    "hstairshour09_d",
+    "hstairs09_w"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "None climbed"
+    },
+    {
+      "value": "13.0",
+      "label": "11-15x/d"
+    },
+    {
+      "value": "18.0",
+      "label": "16-20x/d"
+    },
+    {
+      "value": "23.0",
+      "label": ">20x/d"
+    },
+    {
+      "value": "3.0",
+      "label": "1-5x/d"
+    },
+    {
+      "value": "777.0",
+      "label": "Non respondent"
+    },
+    {
+      "value": "8.0",
+      "label": "6-10x/d"
+    },
+    {
+      "value": "888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "None climbed",
+      "count": 335,
+      "pct": 15.5
+    },
+    {
+      "label": "1-5x/d",
+      "count": 536,
+      "pct": 24.8
+    },
+    {
+      "label": "6-10x/d",
+      "count": 908,
+      "pct": 42.0
+    },
+    {
+      "label": "11-15x/d",
+      "count": 201,
+      "pct": 9.3
+    },
+    {
+      "label": "16-20x/d",
+      "count": 128,
+      "pct": 5.9
+    },
+    {
+      "label": ">20x/d",
+      "count": 55,
+      "pct": 2.5
+    }
+  ],
+  "pdf": {
+    "varname": "nhsud09_ec",
+    "label": "Frequency of flights of stairs climbed at home on a weekday day - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "nhsud09_ec"
+      ],
+      [
+        "Field ID",
+        "13395"
+      ],
+      [
+        "Label",
+        "Frequency of flights of stairs climbed at home on a weekday day - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Home stairs. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "hstairs09_d",
+        "Average number of flights of stairs climbed at home in a day - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "nhsue09_ec",
+        "Frequency of flights of stairs climbed at home on a weekend day - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "hstairshour09_w",
+        "Average number of 'stair-hours' from flights climbed at home in a week - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "hstairshour09_d",
+        "Average number of 'stair-hours' from flights climbed at home in a day - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "hstairs09_w",
+        "Number of flights of stairs climbed at home in a week - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "None climbed",
+        false
+      ],
+      [
+        "13.0",
+        "11-15x/d",
+        false
+      ],
+      [
+        "18.0",
+        "16-20x/d",
+        false
+      ],
+      [
+        "23.0",
+        ">20x/d",
+        false
+      ],
+      [
+        "3.0",
+        "1-5x/d",
+        false
+      ],
+      [
+        "777.0",
+        "Non respondent",
+        true
+      ],
+      [
+        "8.0",
+        "6-10x/d",
+        false
+      ],
+      [
+        "888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "335",
+        "15%"
+      ],
+      [
+        "3",
+        "536",
+        "25%"
+      ],
+      [
+        "8",
+        "908",
+        "42%"
+      ],
+      [
+        "13",
+        "201",
+        "9%"
+      ],
+      [
+        "18",
+        "128",
+        "6%"
+      ],
+      [
+        "23",
+        "55",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "2163",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "nhsud09_ec",
+    "label": "Frequency of flights of stairs climbed at home on a weekday day - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13395",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "nhsud09_ec",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13395",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Frequency of flights of stairs climbed at home on a weekday day - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Home stairs. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "hstairs09_d",
+        "description": "Average number of flights of stairs climbed at home in a day - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "nhsue09_ec",
+        "description": "Frequency of flights of stairs climbed at home on a weekend day - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "hstairshour09_w",
+        "description": "Average number of 'stair-hours' from flights climbed at home in a week - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "hstairshour09_d",
+        "description": "Average number of 'stair-hours' from flights climbed at home in a day - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "hstairs09_w",
+        "description": "Number of flights of stairs climbed at home in a week - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "None climbed",
+        "is_missing": false
+      },
+      {
+        "value": "13.0",
+        "label": "11-15x/d",
+        "is_missing": false
+      },
+      {
+        "value": "18.0",
+        "label": "16-20x/d",
+        "is_missing": false
+      },
+      {
+        "value": "23.0",
+        "label": ">20x/d",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "1-5x/d",
+        "is_missing": false
+      },
+      {
+        "value": "777.0",
+        "label": "Non respondent",
+        "is_missing": true
+      },
+      {
+        "value": "8.0",
+        "label": "6-10x/d",
+        "is_missing": false
+      },
+      {
+        "value": "888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 10
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "None climbed",
+          "count": 335,
+          "pct": 15
+        },
+        {
+          "value": "3",
+          "label": "1-5x/d",
+          "count": 536,
+          "pct": 25
+        },
+        {
+          "value": "8",
+          "label": "6-10x/d",
+          "count": 908,
+          "pct": 42
+        },
+        {
+          "value": "13",
+          "label": "11-15x/d",
+          "count": 201,
+          "pct": 9
+        },
+        {
+          "value": "18",
+          "label": "16-20x/d",
+          "count": 128,
+          "pct": 6
+        },
+        {
+          "value": "23",
+          "label": ">20x/d",
+          "count": 55,
+          "pct": 3
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "335",
+        "15%"
+      ],
+      [
+        "3",
+        "536",
+        "25%"
+      ],
+      [
+        "8",
+        "908",
+        "42%"
+      ],
+      [
+        "13",
+        "201",
+        "9%"
+      ],
+      [
+        "18",
+        "128",
+        "6%"
+      ],
+      [
+        "23",
+        "55",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "2163",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

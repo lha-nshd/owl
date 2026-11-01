@@ -45,6 +45,12 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Check build output size
+        run: |
+          echo "Total _site size:"
+          du -sh ./_site
+          echo "Largest files/folders:"
+          du -ah ./_site | sort -rh | head -20
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v5

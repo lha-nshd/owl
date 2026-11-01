@@ -1,0 +1,816 @@
+{
+  "varname": "tyftbr",
+  "label": "Which bone that was first broken by the participant after 25 years of age - at age 60-64 years.",
+  "field_id": "14661",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14661",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 484.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "afstbr",
+    "midbrok",
+    "lowtra",
+    "radbrok",
+    "latlfbrok",
+    "opbrok"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Fractures [5113]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Clavicle"
+    },
+    {
+      "value": "15.0",
+      "label": "Tibia/Fibula - Proximal"
+    },
+    {
+      "value": "16.0",
+      "label": "Tibia/Fibula - Distal (Ankle)"
+    },
+    {
+      "value": "17.0",
+      "label": "Foot - Tarsal bones, metatarsals"
+    },
+    {
+      "value": "18.0",
+      "label": "Fingers/Toes"
+    },
+    {
+      "value": "19.0",
+      "label": "Unspecified"
+    },
+    {
+      "value": "2.0",
+      "label": "Rib"
+    },
+    {
+      "value": "5.0",
+      "label": "Humerus - Proximal"
+    },
+    {
+      "value": "7.0",
+      "label": "Radius/Ulna - Proximal"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8.0",
+      "label": "Radius/Ulna - Distal (Colles/Smiths)"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9.0",
+      "label": "Hand - Carpal ring, metacarpals"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown - left all the section blank"
+    },
+    {
+      "value": "998.0",
+      "label": "Bone broken before 25 years"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Clavicle",
+      "count": 20,
+      "pct": 4.1
+    },
+    {
+      "label": "Rib",
+      "count": 32,
+      "pct": 6.6
+    },
+    {
+      "label": "Humerus - Proximal",
+      "count": 13,
+      "pct": 2.7
+    },
+    {
+      "label": "Radius/Ulna - Proximal",
+      "count": 32,
+      "pct": 6.6
+    },
+    {
+      "label": "Radius/Ulna - Distal (Colles/Smiths)",
+      "count": 93,
+      "pct": 19.2
+    },
+    {
+      "label": "Hand - Carpal ring, metacarpals",
+      "count": 32,
+      "pct": 6.6
+    },
+    {
+      "label": "Tibia/Fibula - Proximal",
+      "count": 29,
+      "pct": 6.0
+    },
+    {
+      "label": "Tibia/Fibula - Distal (Ankle)",
+      "count": 70,
+      "pct": 14.5
+    },
+    {
+      "label": "Foot - Tarsal bones, metatarsals",
+      "count": 53,
+      "pct": 11.0
+    },
+    {
+      "label": "Fingers/Toes",
+      "count": 92,
+      "pct": 19.0
+    },
+    {
+      "label": "Unspecified",
+      "count": 18,
+      "pct": 3.7
+    }
+  ],
+  "pdf": {
+    "varname": "tyftbr",
+    "label": "Which bone that was first broken by the participant after 25 years of age - at age 60-64 years.",
+    "meta_rows": [
+      [
+        "Variable",
+        "tyftbr"
+      ],
+      [
+        "Field ID",
+        "14661"
+      ],
+      [
+        "Label",
+        "Which bone that was first broken by the participant after 25 years of age - at age 60-64 years."
+      ],
+      [
+        "Card Number",
+        "FRACTURET09"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "25"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "These are the cross-sectional derived variables from the 2006-10 data collection. Information on fractures was also collected in the 2014 postal questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "afstbr",
+        "Age of first fracture - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "25",
+        "FRACTURET09"
+      ],
+      [
+        "midbrok",
+        "Mid adult fracture - first fracture occuring between 40 and 54 years - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "25",
+        "FRACTURET09"
+      ],
+      [
+        "lowtra",
+        "Was fracture due to fall from a standing height (slips, trips, fracture site relative to centre of gravity), fall from below standing height, no trauma (spontaneous or incidental fracture) - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "25",
+        "FRACTURET09"
+      ],
+      [
+        "radbrok",
+        "Was the first fracture that occurred in the distal radius? - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "25",
+        "FRACTURET09"
+      ],
+      [
+        "latlfbrok",
+        "Late adult fracture  - first fracture occuring at or after 55 years of age - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "25",
+        "FRACTURET09"
+      ],
+      [
+        "opbrok",
+        "Was the first fracture that occurred in the clavicle, rib, sternum, distal radius, vertebra, pelvis (Osteoporotic)? - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "25",
+        "FRACTURET09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Fractures [5113]",
+        "This category contains data from the questionnaire on whether the participant had broken any bones."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Clavicle",
+        false
+      ],
+      [
+        "15.0",
+        "Tibia/Fibula - Proximal",
+        false
+      ],
+      [
+        "16.0",
+        "Tibia/Fibula - Distal (Ankle)",
+        false
+      ],
+      [
+        "17.0",
+        "Foot - Tarsal bones, metatarsals",
+        false
+      ],
+      [
+        "18.0",
+        "Fingers/Toes",
+        false
+      ],
+      [
+        "19.0",
+        "Unspecified",
+        false
+      ],
+      [
+        "2.0",
+        "Rib",
+        false
+      ],
+      [
+        "5.0",
+        "Humerus - Proximal",
+        false
+      ],
+      [
+        "7.0",
+        "Radius/Ulna - Proximal",
+        false
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8.0",
+        "Radius/Ulna - Distal (Colles/Smiths)",
+        false
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9.0",
+        "Hand - Carpal ring, metacarpals",
+        false
+      ],
+      [
+        "99.0",
+        "Unknown - left all the section blank",
+        true
+      ],
+      [
+        "998.0",
+        "Bone broken before 25 years",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "20",
+        "4%"
+      ],
+      [
+        "2",
+        "32",
+        "7%"
+      ],
+      [
+        "5",
+        "13",
+        "3%"
+      ],
+      [
+        "7",
+        "32",
+        "7%"
+      ],
+      [
+        "8",
+        "93",
+        "19%"
+      ],
+      [
+        "9",
+        "32",
+        "7%"
+      ],
+      [
+        "15",
+        "29",
+        "6%"
+      ],
+      [
+        "16",
+        "70",
+        "14%"
+      ],
+      [
+        "17",
+        "53",
+        "11%"
+      ],
+      [
+        "18",
+        "92",
+        "19%"
+      ],
+      [
+        "19",
+        "18",
+        "4%"
+      ],
+      [
+        "Displayed N",
+        "484",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "tyftbr",
+    "label": "Which bone that was first broken by the participant after 25 years of age - at age 60-64 years.",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14661",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "tyftbr",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "14661",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Which bone that was first broken by the participant after 25 years of age - at age 60-64 years.",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "FRACTURET09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "25",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "These are the cross-sectional derived variables from the 2006-10 data collection. Information on fractures was also collected in the 2014 postal questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "afstbr",
+        "description": "Age of first fracture - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "25",
+        "library_file": "FRACTURET09"
+      },
+      {
+        "varname": "midbrok",
+        "description": "Mid adult fracture - first fracture occuring between 40 and 54 years - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "25",
+        "library_file": "FRACTURET09"
+      },
+      {
+        "varname": "lowtra",
+        "description": "Was fracture due to fall from a standing height (slips, trips, fracture site relative to centre of gravity), fall from below standing height, no trauma (spontaneous or incidental fracture) - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "25",
+        "library_file": "FRACTURET09"
+      },
+      {
+        "varname": "radbrok",
+        "description": "Was the first fracture that occurred in the distal radius? - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "25",
+        "library_file": "FRACTURET09"
+      },
+      {
+        "varname": "latlfbrok",
+        "description": "Late adult fracture  - first fracture occuring at or after 55 years of age - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "25",
+        "library_file": "FRACTURET09"
+      },
+      {
+        "varname": "opbrok",
+        "description": "Was the first fracture that occurred in the clavicle, rib, sternum, distal radius, vertebra, pelvis (Osteoporotic)? - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "25",
+        "library_file": "FRACTURET09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Fractures [5113]",
+        "description": "This category contains data from the questionnaire on whether the participant had broken any bones.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Fractures_5113.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Clavicle",
+        "is_missing": false
+      },
+      {
+        "value": "15.0",
+        "label": "Tibia/Fibula - Proximal",
+        "is_missing": false
+      },
+      {
+        "value": "16.0",
+        "label": "Tibia/Fibula - Distal (Ankle)",
+        "is_missing": false
+      },
+      {
+        "value": "17.0",
+        "label": "Foot - Tarsal bones, metatarsals",
+        "is_missing": false
+      },
+      {
+        "value": "18.0",
+        "label": "Fingers/Toes",
+        "is_missing": false
+      },
+      {
+        "value": "19.0",
+        "label": "Unspecified",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Rib",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Humerus - Proximal",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "Radius/Ulna - Proximal",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8.0",
+        "label": "Radius/Ulna - Distal (Colles/Smiths)",
+        "is_missing": false
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Hand - Carpal ring, metacarpals",
+        "is_missing": false
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown - left all the section blank",
+        "is_missing": true
+      },
+      {
+        "value": "998.0",
+        "label": "Bone broken before 25 years",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 2,
+      "vals": 16
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Clavicle",
+          "count": 20,
+          "pct": 4
+        },
+        {
+          "value": "2",
+          "label": "Rib",
+          "count": 32,
+          "pct": 7
+        },
+        {
+          "value": "5",
+          "label": "Humerus - Proximal",
+          "count": 13,
+          "pct": 3
+        },
+        {
+          "value": "7",
+          "label": "Radius/Ulna - Proximal",
+          "count": 32,
+          "pct": 7
+        },
+        {
+          "value": "8",
+          "label": "Radius/Ulna - Distal (Colles/Smiths)",
+          "count": 93,
+          "pct": 19
+        },
+        {
+          "value": "9",
+          "label": "Hand - Carpal ring, metacarpals",
+          "count": 32,
+          "pct": 7
+        },
+        {
+          "value": "15",
+          "label": "Tibia/Fibula - Proximal",
+          "count": 29,
+          "pct": 6
+        },
+        {
+          "value": "16",
+          "label": "Tibia/Fibula - Distal (Ankle)",
+          "count": 70,
+          "pct": 14
+        },
+        {
+          "value": "17",
+          "label": "Foot - Tarsal bones, metatarsals",
+          "count": 53,
+          "pct": 11
+        },
+        {
+          "value": "18",
+          "label": "Fingers/Toes",
+          "count": 92,
+          "pct": 19
+        },
+        {
+          "value": "19",
+          "label": "Unspecified",
+          "count": 18,
+          "pct": 4
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "20",
+        "4%"
+      ],
+      [
+        "2",
+        "32",
+        "7%"
+      ],
+      [
+        "5",
+        "13",
+        "3%"
+      ],
+      [
+        "7",
+        "32",
+        "7%"
+      ],
+      [
+        "8",
+        "93",
+        "19%"
+      ],
+      [
+        "9",
+        "32",
+        "7%"
+      ],
+      [
+        "15",
+        "29",
+        "6%"
+      ],
+      [
+        "16",
+        "70",
+        "14%"
+      ],
+      [
+        "17",
+        "53",
+        "11%"
+      ],
+      [
+        "18",
+        "92",
+        "19%"
+      ],
+      [
+        "19",
+        "18",
+        "4%"
+      ],
+      [
+        "Displayed N",
+        "484",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "varname": "jobhw",
+  "label": "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 53 years",
+  "field_id": "30086",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30086",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "hours/week",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 38.485606418121755,
+  "sd": 12.062940783541007,
+  "series_size": 2119.0,
+  "minimum": 12.0,
+  "maximum": 65.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "wkhw22x",
+    "wkhw15x",
+    "wkhw14x",
+    "wkhw09",
+    "wkhw82",
+    "wkhw89"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "2006-10",
+    "2014",
+    "2015",
+    "2022"
+  ],
+  "categories": [
+    "Employment history [23]",
+    "Employment history [5154]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "jobhw",
+    "label": "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "jobhw"
+      ],
+      [
+        "Field ID",
+        "30086"
+      ],
+      [
+        "Label",
+        "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "capi99a"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "101(f)"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours/week"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about work and retirement from the 1999 Capi questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "wkhw22x",
+        "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "13",
+        "Postal22"
+      ],
+      [
+        "wkhw15x",
+        "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 69 years",
+        "2015",
+        "Home visit",
+        "8",
+        "CONSENT15"
+      ],
+      [
+        "wkhw14x",
+        "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "10(c)",
+        "PaidVoluntaryWork14"
+      ],
+      [
+        "wkhw09",
+        "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "40(a)",
+        "OccStatRetCls09"
+      ],
+      [
+        "wkhw82",
+        "Last week (or last full working week) how many hours did you actively spend working, including overtime and working at home? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "39(f)",
+        "B15"
+      ],
+      [
+        "wkhw89",
+        "Last week (or last full working week) how many hours did you actively spend working, including overtime and working at home? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "51(a)",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [5154]",
+        "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "12"
+      ],
+      [
+        "Maximum",
+        "65"
+      ],
+      [
+        "Range",
+        "53"
+      ],
+      [
+        "Median",
+        "40.0"
+      ],
+      [
+        "IQR",
+        "31.0 - 46.0"
+      ],
+      [
+        "Decile 1",
+        "20.0"
+      ],
+      [
+        "Decile 2",
+        "28.0"
+      ],
+      [
+        "Decile 3",
+        "35.0"
+      ],
+      [
+        "Decile 4",
+        "37.0"
+      ],
+      [
+        "Decile 5",
+        "40.0"
+      ],
+      [
+        "Decile 6",
+        "40.0"
+      ],
+      [
+        "Decile 7",
+        "45.0"
+      ],
+      [
+        "Decile 8",
+        "50.0"
+      ],
+      [
+        "Decile 9",
+        "54.0"
+      ],
+      [
+        "Mean",
+        "38.485606418121755"
+      ],
+      [
+        "Std Dev.",
+        "12.062940783541007"
+      ],
+      [
+        "Variance",
+        "145.51454034721695"
+      ],
+      [
+        "Displayed N",
+        "2119"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "jobhw",
+    "label": "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30086",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "jobhw",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "30086",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "capi99a",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "101(f)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours/week",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about work and retirement from the 1999 Capi questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "wkhw22x",
+        "description": "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "13",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "wkhw15x",
+        "description": "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "CONSENT15"
+      },
+      {
+        "varname": "wkhw14x",
+        "description": "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "10(c)",
+        "library_file": "PaidVoluntaryWork14"
+      },
+      {
+        "varname": "wkhw09",
+        "description": "How many hours a week (to the nearest hour) do you usually work in a paid job, including regular overtime? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "40(a)",
+        "library_file": "OccStatRetCls09"
+      },
+      {
+        "varname": "wkhw82",
+        "description": "Last week (or last full working week) how many hours did you actively spend working, including overtime and working at home? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "39(f)",
+        "library_file": "B15"
+      },
+      {
+        "varname": "wkhw89",
+        "description": "Last week (or last full working week) how many hours did you actively spend working, including overtime and working at home? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "51(a)",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [5154]",
+        "description": "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Employment_history_5154.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "hours/week",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          12.0,
+          14.304347826086957,
+          16.608695652173914,
+          18.913043478260867,
+          21.217391304347828,
+          23.52173913043478,
+          25.82608695652174,
+          28.130434782608695,
+          30.434782608695652,
+          32.73913043478261,
+          35.04347826086956,
+          37.34782608695652,
+          39.65217391304348,
+          41.95652173913044,
+          44.26086956521739,
+          46.56521739130435,
+          48.869565217391305,
+          51.17391304347826,
+          53.47826086956522,
+          55.78260869565217,
+          58.08695652173913,
+          60.391304347826086,
+          62.69565217391305,
+          65.0
+        ],
+        "counts": [
+          46,
+          85,
+          41,
+          107,
+          31,
+          72,
+          47,
+          99,
+          32,
+          117,
+          231,
+          119,
+          276,
+          123,
+          171,
+          70,
+          213,
+          19,
+          70,
+          15,
+          114,
+          2,
+          19
+        ]
+      },
+      "boxplot": {
+        "min": 12.0,
+        "q1": 31.0,
+        "median": 40.0,
+        "q3": 46.0,
+        "max": 65.0
+      },
+      "units": "hours/week"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "12"
+      ],
+      [
+        "Maximum",
+        "65"
+      ],
+      [
+        "Range",
+        "53"
+      ],
+      [
+        "Median",
+        "40.0"
+      ],
+      [
+        "IQR",
+        "31.0 - 46.0"
+      ],
+      [
+        "Decile 1",
+        "20.0"
+      ],
+      [
+        "Decile 2",
+        "28.0"
+      ],
+      [
+        "Decile 3",
+        "35.0"
+      ],
+      [
+        "Decile 4",
+        "37.0"
+      ],
+      [
+        "Decile 5",
+        "40.0"
+      ],
+      [
+        "Decile 6",
+        "40.0"
+      ],
+      [
+        "Decile 7",
+        "45.0"
+      ],
+      [
+        "Decile 8",
+        "50.0"
+      ],
+      [
+        "Decile 9",
+        "54.0"
+      ],
+      [
+        "Mean",
+        "38.485606418121755"
+      ],
+      [
+        "Std Dev.",
+        "12.062940783541007"
+      ],
+      [
+        "Variance",
+        "145.51454034721695"
+      ],
+      [
+        "Displayed N",
+        "2119"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

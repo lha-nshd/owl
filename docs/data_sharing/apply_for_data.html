@@ -1,0 +1,239 @@
+---
+layout: default
+title: "<i class='ti ti-share'></i> Apply for Data"
+nav_order: 30
+has_children: true
+permalink: /docs/data_sharing/
+---
+
+<!-- Only topics.css and topics.js are loaded (NOT getting-started.css), so topics.js gives every
+     section below its own colour and colours the matching "On this page" link to match. -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+
+<div class="page-topics page-data-sharing">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-share" aria-hidden="true"></i> Data Sharing</h1>
+    <p>How researchers use NSHD data, and how to apply to use it yourself. Find out how the process works, see the projects that have already been approved, and explore the numbers behind them.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#about"><i class="ti ti-info-circle" aria-hidden="true"></i> About data sharing</a></li>
+      <li><a href="#how-to-apply"><i class="ti ti-list-numbers" aria-hidden="true"></i> How to apply</a></li>
+      <li><a href="#after-you-apply"><i class="ti ti-route" aria-hidden="true"></i> What happens after you apply</a></li>
+      <li><a href="#find-variables"><i class="ti ti-basket" aria-hidden="true"></i> Find the variables you need</a></li>
+      <li><a href="#discover"><i class="ti ti-compass" aria-hidden="true"></i> See what others have done</a></li>
+      <li><a href="#numbers"><i class="ti ti-chart-line" aria-hidden="true"></i> Metrics and trends</a></li>
+      <li><a href="#help"><i class="ti ti-help" aria-hidden="true"></i> Getting help</a></li>
+    </ul>
+    <a href="{{ site.baseurl }}/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to home</a>
+  </div>
+
+  <style>
+    .page-topics .ds-steps { list-style: none !important; counter-reset: ds; padding: 0 !important; margin: 14px 0 !important; }
+    .page-topics ol.ds-steps > li { counter-increment: ds; display: flex !important; gap: 12px; align-items: flex-start; margin-bottom: 12px !important; padding: 0 !important; line-height: 1.6; position: relative; }
+    .page-topics ol.ds-steps > li > div { flex: 1; min-width: 0; padding-top: 3px; }
+    .page-topics ol.ds-steps > li::before { content: counter(ds) !important; position: static !important; float: none !important; transform: none !important; margin: 0 !important; flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--purple-mid); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; line-height: 1; }
+    .page-topics .ds-steps li strong { color: var(--purple-dark); }
+    .page-topics .ds-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 14px 0; }
+    .page-topics .ds-link { display: flex; align-items: flex-start; gap: 12px; padding: 12px 14px; background: #fff; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; text-decoration: none !important; color: var(--text-main) !important; }
+    .page-topics .ds-link:hover { border-color: var(--purple-mid); box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .page-topics .ds-link > i { font-size: 22px; color: var(--purple-mid); flex: none; margin-top: 1px; }
+    .page-topics .ds-link strong { display: block; color: var(--purple-dark); font-size: 14px; margin-bottom: 2px; }
+    .page-topics .ds-link span { display: block; font-size: 13px; line-height: 1.5; }
+
+    /* "What happens after you apply": a row of stages that wraps on narrow screens */
+    .page-topics .ds-flow { list-style: none !important; counter-reset: flow; padding: 0 !important; margin: 16px 0 !important; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+    .page-topics ol.ds-flow > li { counter-increment: flow; position: relative; display: block !important; background: #fff; border: 1px solid rgba(0,0,0,0.1); border-top: 4px solid var(--purple-mid); border-radius: 8px; padding: 12px 14px !important; margin: 0 !important; font-size: 13px; line-height: 1.5; }
+    .page-topics ol.ds-flow > li::before { content: "Step " counter(flow) !important; position: static !important; float: none !important; transform: none !important; width: auto; height: auto; margin: 0 0 4px !important; padding: 0; background: none; display: block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--purple-mid); }
+    .page-topics .ds-flow li strong { display: block; color: var(--purple-dark); font-size: 14px; margin-bottom: 4px; }
+    .page-topics .ds-flow li .ds-who { display: block; margin-top: 8px; font-size: 12px; color: #666; }
+    .page-topics .ds-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 16px 0 6px; }
+    .page-topics .ds-card { background: #fff; border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; padding: 12px 16px; }
+    .page-topics .ds-card h3 { margin: 0 0 6px; font-size: 15px; color: var(--purple-dark); }
+    .page-topics .ds-card p { margin: 0 0 6px; font-size: 13.5px; line-height: 1.55; }
+    .page-topics .ds-card p:last-child { margin-bottom: 0; }
+
+    /* Link cards (same look as the download links on the data dictionary page); defined here so getting-started.css is not needed */
+    .page-topics .gs-link-card { display: flex; align-items: center; gap: 14px; padding: 14px 18px; border-radius: 10px; border: 1px solid transparent; text-decoration: none !important; color: #222 !important; transition: box-shadow .15s; }
+    .page-topics .gs-link-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    .page-topics .gs-link-card > i:first-child { font-size: 22px; flex: none; }
+    .page-topics .gs-link-card .gs-link-card-title { margin: 0 0 3px; font-weight: 700; font-size: 15px; }
+    .page-topics .gs-link-card .gs-link-card-desc { margin: 0; font-size: 13px; line-height: 1.45; }
+    .page-topics .gs-link-card.gs-teal { background: #e0f4f2; border-color: #8fd3cc; }
+    .page-topics .gs-link-card.gs-teal > i:first-child { color: #0f6b63; }
+    .page-topics .gs-link-card.gs-amber { background: #f8ecdf; border-color: #e6b878; }
+    .page-topics .gs-link-card.gs-amber > i:first-child { color: #8a4b08; }
+  </style>
+
+  <!-- Intro block: no heading, so it keeps the default purple card and takes no colour from the rotation -->
+  <div class="home-section">
+    <p style="margin-top:24px;">NSHD shares its data with researchers around the world. This section explains how to apply, shows the projects that have already been approved, and reports on how the data is being used.</p>
+    <p>Not sure where to start? Work through the steps below, or go straight to <a href="{{ site.baseurl }}/docs/search_methods/discover-projects">Discover Projects</a> to see what other researchers have asked for.</p>
+  </div>
+
+  <div class="home-section">
+    <h2 id="about"><i class="ti ti-info-circle" aria-hidden="true"></i> About data sharing</h2>
+    <p>Researchers can apply to use NSHD data for their own projects. Each application is for a specific project and a specific set of variables, and every approved project is recorded so that how the data is used can be seen and reported.</p>
+    <p>In this section you can:</p>
+    <ul>
+      <li><strong>Find out how to apply</strong>, and what you will need to prepare.</li>
+      <li><strong>Discover projects</strong> that have already been approved, and the variables each one asked for.</li>
+      <li><strong>See the metrics and trends</strong> behind data sharing: how many applications are made, who makes them, and what they ask for.</li>
+    </ul>
+  </div>
+
+  <div class="home-section">
+    <h2 id="how-to-apply"><i class="ti ti-list-numbers" aria-hidden="true"></i> How to apply</h2>
+    <p>Applying takes six steps:</p>
+    <ol class="ds-steps">
+      <li><div><strong>Decide which variables you need.</strong> Search and browse OWL, Condor or the data dictionary to select the variables you are interested in.</div></li>
+      <li><div><strong>Complete the data dictionary.</strong> Download your basket as a pre-marked copy of the data dictionary, or fill it in by hand. This is the file NSHD uses to process your request. <a href="{{ site.baseurl }}/docs/getting-started/data-dictionary/">How the data dictionary works</a></div></li>
+      <li><div><strong>Finalise your basket.</strong> Upload your selection to Condor and save it. Condor generates a <strong>basket ID</strong>, which is what you add to your request.</div></li>
+      <li><div><strong>Submit your application.</strong> Complete the <a href="https://skylark.ucl.ac.uk/NSHD/forms/data-access-request-form/" target="_blank" rel="noopener">data request form</a> on Skylark and attach your completed data dictionary. Add your Condor basket ID to the form, or send it later using the <a href="https://skylark.ucl.ac.uk/NSHD/forms/additional-users-data-request/" target="_blank" rel="noopener">additional users / data request form</a>. <a href="#after-you-apply">What happens next</a></div></li>
+      <li><div><strong>NSHD reviews your application.</strong> Your project is checked before it is approved.</div></li>
+      <li><div><strong>Receive your data.</strong> Once your project is approved, the variables you asked for are prepared and made available to you through the UCL Data Safe Haven.</div></li>
+    </ol>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-top:10px;">
+      <a class="gs-link-card gs-teal" href="https://skylark.ucl.ac.uk/NSHD/forms/data-access-request-form/" target="_blank" rel="noopener">
+        <i class="ti ti-file-text" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open the data request form &rarr;</p>
+          <p class="gs-link-card-desc">Start your application on Skylark.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+      <a class="gs-link-card gs-amber" href="https://skylark.ucl.ac.uk/NSHD/forms/additional-users-data-request/" target="_blank" rel="noopener">
+        <i class="ti ti-basket" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open the additional users / data request form &rarr;</p>
+          <p class="gs-link-card-desc">Send your Condor basket ID, or add users, after you have applied.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <div>You can complete the data dictionary on OWL, by hand, or a mixture of both. Whichever you choose, only the variables marked in the "Request variable" column are included in your application.</div>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <h2 id="after-you-apply"><i class="ti ti-route" aria-hidden="true"></i> What happens after you apply</h2>
+    <p>Your application and any basket requests are made through online forms on Skylark. Each form you complete starts an automated process, so you and the data sharing team are kept up to date at every stage without anyone having to chase. A data request has to be completed and approved before any data can be released.</p>
+
+    <ol class="ds-flow">
+      <li><strong>Submit the data request form</strong>Complete the <a href="https://skylark.ucl.ac.uk/NSHD/forms/data-access-request-form/" target="_blank" rel="noopener">data request form</a> on Skylark. You can attach your Condor basket ID to it.
+        <span class="ds-who">You</span></li>
+      <li><strong>Your request is logged</strong>The data sharing team is told straight away, a task is created for them, and your request is recorded.
+        <span class="ds-who">Automatic</span></li>
+      <li><strong>The committee reviews it</strong>The data sharing committee considers your application and approves it, or comes back to you with questions.
+        <span class="ds-who">Data sharing committee</span></li>
+      <li><strong>Complete the confidentiality forms</strong>As each step is finished, you are emailed the next form you need. Submitting each form moves your request on to the next stage.
+        <span class="ds-who">You, prompted automatically</span></li>
+      <li><strong>Your data is prepared and sent</strong>Once everything is approved, your basket is built and the data is made available to you through the UCL Data Safe Haven.
+        <span class="ds-who">Data sharing team</span></li>
+    </ol>
+
+    <h3>Adding a basket</h3>
+    <p>You can attach your Condor basket ID to the data request form, or send it later using the <a href="https://skylark.ucl.ac.uk/NSHD/forms/additional-users-data-request/" target="_blank" rel="noopener">additional users / data request form</a> on Skylark. Either way, quote the <strong>application form ID</strong> you were given when you applied. It is how your basket is matched to the right project, so the right data is prepared for the right application.</p>
+
+    <h3>Behind the scenes</h3>
+    <div class="ds-two">
+      <div class="ds-card">
+        <h3><i class="ti ti-bolt" aria-hidden="true"></i> Automated requests</h3>
+        <p>Since 2022, requests have been handled by an automated workflow. When a form is submitted it sends emails, creates a task for the team and records the request, and when a task is completed it starts the next step. This is what makes handling requests quicker and keeps the record consistent.</p>
+        <p>The timings on <a href="{{ site.baseurl }}/docs/data_sharing/metrics">Metrics and Trends</a> page come from these records.</p>
+      </div>
+      <div class="ds-card">
+        <h3><i class="ti ti-database" aria-hidden="true"></i> Jay, our project records system</h3>
+        <p>Jay is an internal web application, used only by NSHD data managers and held on secure servers. It keeps a record of every approved project and links each basket to its project, using a pseudonymised project code.</p>
+        <p>Baskets are built inside Jay under the project's ID, so it is the record of what each project has been sent, and when.</p>
+      </div>
+    </div>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <div>You never need to use Jay or the workflow yourself. You complete the forms, and the team takes care of the rest.</div>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <h2 id="find-variables"><i class="ti ti-basket" aria-hidden="true"></i> Find the variables you need</h2>
+    <p>There are seven ways to find variables. Use any of them, then add what you find to your basket as you go.</p>
+    <div class="ds-links">
+      <a class="ds-link" href="{{ site.baseurl }}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary.html">
+        <i class="ti ti-book-2" aria-hidden="true"></i>
+        <div><strong>Search Data Dictionary</strong><span>Search every variable by name, label or topic.</span></div>
+      </a>
+      <a class="ds-link" href="{{ site.baseurl }}/docs/search_methods/browse_by_category/Browse_by_Category.html">
+        <i class="ti ti-category" aria-hidden="true"></i>
+        <div><strong>Browse by Category</strong><span>Work down through topics and subtopics.</span></div>
+      </a>
+      <a class="ds-link" href="{{ site.baseurl }}/docs/search_methods/popular_vars/popular-variables/">
+        <i class="ti ti-chart-bar" aria-hidden="true"></i>
+        <div><strong>View Popular Variables</strong><span>See which variables researchers ask for most.</span></div>
+      </a>
+      <a class="ds-link" href="{{ site.baseurl }}/docs/search_methods/longitudinal_variables/longitudinal_search_guide/">
+        <i class="ti ti-timeline" aria-hidden="true"></i>
+        <div><strong>Longitudinal Search</strong><span>Find measures repeated with identical wording across sweeps.</span></div>
+      </a>
+      <a class="ds-link" href="{{ site.baseurl }}/docs/search_methods/search_by_year/search_by_year/">
+        <i class="ti ti-calendar-time" aria-hidden="true"></i>
+        <div><strong>Search by Year</strong><span>Start from a point in time and see what was collected.</span></div>
+      </a>
+      <a class="ds-link" href="{{ site.baseurl }}/docs/search_methods/ukllc_catalogue">
+        <i class="ti ti-link" aria-hidden="true"></i>
+        <div><strong>UK LLC Catalogue</strong><span>Datasets NSHD has deposited into UK LLC, for linked analysis.</span></div>
+      </a>
+      <a class="ds-link" href="{{ site.baseurl }}/docs/search_methods/discover-projects">
+        <i class="ti ti-compass" aria-hidden="true"></i>
+        <div><strong>Discover Projects</strong><span>See the variables other approved projects asked for.</span></div>
+      </a>
+      <a class="ds-link" href="{{ site.baseurl }}/docs/getting-started/basket-management/">
+        <i class="ti ti-shopping-cart" aria-hidden="true"></i>
+        <div><strong>Basket management</strong><span>How your basket works, and how to download it.</span></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <h2 id="discover"><i class="ti ti-compass" aria-hidden="true"></i> See what others have done</h2>
+    <p>Every approved project is listed on <strong>Discover Projects</strong>, with its title, summary and the variables it asked for. It is a quick way to see how other researchers have used the data, and you can add variables from any project straight to your own basket.</p>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-top:10px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/discover-projects">
+        <i class="ti ti-compass" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Discover Projects &rarr;</p>
+          <p class="gs-link-card-desc">Browse approved projects and the variables each one asked for.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <h2 id="numbers"><i class="ti ti-chart-line" aria-hidden="true"></i> Metrics and trends</h2>
+    <p>See how data sharing has grown since 2021: the number of applications each year, where they come from, how quickly they are approved, how soon data is ready, and which variables and topics are requested most.</p>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-top:10px;">
+      <a class="gs-link-card gs-amber" href="{{ site.baseurl }}/docs/data_sharing/metrics">
+        <i class="ti ti-chart-line" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">See the metrics and trends &rarr;</p>
+          <p class="gs-link-card-desc">Applications, baskets and turnaround times, year by year.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <h2 id="help"><i class="ti ti-help" aria-hidden="true"></i> Getting help</h2>
+    <p>If you are not sure whether your project is a good fit, or you need help with the data dictionary or your application, get in touch with NSHD before you submit.</p>
+    <!-- TODO: add the contact email or link here -->
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

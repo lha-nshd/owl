@@ -1,0 +1,592 @@
+{
+  "varname": "parkina15x",
+  "label": "What was your age when you were diagnosed with Parkinson's Disease  - at age 69 years",
+  "field_id": "8231",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8231",
+  "year": "",
+  "form": "Home visit",
+  "units": "years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 64.81818181818181,
+  "sd": 3.4063625445809445,
+  "series_size": 11.0,
+  "minimum": 59.0,
+  "maximum": 68.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "parkinm22x",
+    "parkiny25x",
+    "parkin15x",
+    "parkina22x",
+    "parkin25x",
+    "parkin22x",
+    "parkiny22x"
+  ],
+  "linked_years": [
+    "2015",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "General health [3]",
+    "Nervous system conditions [51018]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Question not asked in postal home visit"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "parkina15x",
+    "label": "What was your age when you were diagnosed with Parkinson's Disease  - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "parkina15x"
+      ],
+      [
+        "Field ID",
+        "8231"
+      ],
+      [
+        "Label",
+        "What was your age when you were diagnosed with Parkinson's Disease  - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "MedicalConditions15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "18(b)"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "parkinm22x",
+        "When were you diagnosed with Parkinson's Diesease (month) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "89",
+        "Postal22"
+      ],
+      [
+        "parkiny25x",
+        "Since the age of 60 years, when were you told that you had parkinson\u2019s disease - Year - at age 76 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "parkin15x",
+        "Since 2006, have you had Parkinson's Disease - at age 69 years",
+        "2015",
+        "Home visit",
+        "18(a)",
+        "MedicalConditions15"
+      ],
+      [
+        "parkina22x",
+        "If you cannot remember the month and year of Parkinson's Diesease, please giver your age - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "89",
+        "Postal22"
+      ],
+      [
+        "parkin25x",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Parkinson\u2019s Disease - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "parkin22x",
+        "Since your 68th birthday has the doctor diagnosed you with Parkinson's Disease - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "88",
+        "Postal22"
+      ],
+      [
+        "parkiny22x",
+        "When were you diagnosed with Parkinson's Diesease (year) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "89",
+        "Postal22"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Nervous system conditions [51018]",
+        "This category contains data from the questionnaires on nervous system conditions, such as epilepsy, parkinsons, myalgic encephalomyelitis (ME), headache and migraines."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Question not asked in postal home visit",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "59"
+      ],
+      [
+        "Maximum",
+        "68"
+      ],
+      [
+        "Range",
+        "9"
+      ],
+      [
+        "Median",
+        "66.0"
+      ],
+      [
+        "IQR",
+        "62.0 - 68.0"
+      ],
+      [
+        "Decile 1",
+        "60.0"
+      ],
+      [
+        "Decile 2",
+        "60.0"
+      ],
+      [
+        "Decile 3",
+        "64.0"
+      ],
+      [
+        "Decile 4",
+        "65.0"
+      ],
+      [
+        "Decile 5",
+        "66.0"
+      ],
+      [
+        "Decile 6",
+        "67.0"
+      ],
+      [
+        "Decile 7",
+        "68.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "68.0"
+      ],
+      [
+        "Mean",
+        "64.81818181818181"
+      ],
+      [
+        "Std Dev.",
+        "3.4063625445809445"
+      ],
+      [
+        "Variance",
+        "11.603305785123968"
+      ],
+      [
+        "Displayed N",
+        "11"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "parkina15x",
+    "label": "What was your age when you were diagnosed with Parkinson's Disease  - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8231",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "parkina15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8231",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "What was your age when you were diagnosed with Parkinson's Disease  - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "MedicalConditions15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "18(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "parkinm22x",
+        "description": "When were you diagnosed with Parkinson's Diesease (month) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "89",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "parkiny25x",
+        "description": "Since the age of 60 years, when were you told that you had parkinson\u2019s disease - Year - at age 76 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "parkin15x",
+        "description": "Since 2006, have you had Parkinson's Disease - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "18(a)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "parkina22x",
+        "description": "If you cannot remember the month and year of Parkinson's Diesease, please giver your age - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "89",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "parkin25x",
+        "description": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Parkinson\u2019s Disease - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "parkin22x",
+        "description": "Since your 68th birthday has the doctor diagnosed you with Parkinson's Disease - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "88",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "parkiny22x",
+        "description": "When were you diagnosed with Parkinson's Diesease (year) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "89",
+        "library_file": "Postal22"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Nervous system conditions [51018]",
+        "description": "This category contains data from the questionnaires on nervous system conditions, such as epilepsy, parkinsons, myalgic encephalomyelitis (ME), headache and migraines.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Nervous_system_conditions_51018.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Question not asked in postal home visit",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          59.0,
+          60.8,
+          62.6,
+          64.4,
+          66.2,
+          68.0
+        ],
+        "counts": [
+          3,
+          0,
+          1,
+          2,
+          5
+        ]
+      },
+      "boxplot": {
+        "min": 59.0,
+        "q1": 62.0,
+        "median": 66.0,
+        "q3": 68.0,
+        "max": 68.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "59"
+      ],
+      [
+        "Maximum",
+        "68"
+      ],
+      [
+        "Range",
+        "9"
+      ],
+      [
+        "Median",
+        "66.0"
+      ],
+      [
+        "IQR",
+        "62.0 - 68.0"
+      ],
+      [
+        "Decile 1",
+        "60.0"
+      ],
+      [
+        "Decile 2",
+        "60.0"
+      ],
+      [
+        "Decile 3",
+        "64.0"
+      ],
+      [
+        "Decile 4",
+        "65.0"
+      ],
+      [
+        "Decile 5",
+        "66.0"
+      ],
+      [
+        "Decile 6",
+        "67.0"
+      ],
+      [
+        "Decile 7",
+        "68.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "68.0"
+      ],
+      [
+        "Mean",
+        "64.81818181818181"
+      ],
+      [
+        "Std Dev.",
+        "3.4063625445809445"
+      ],
+      [
+        "Variance",
+        "11.603305785123968"
+      ],
+      [
+        "Displayed N",
+        "11"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

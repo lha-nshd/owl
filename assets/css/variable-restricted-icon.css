@@ -1,0 +1,51 @@
+/* ============================================================
+   OWL — Restricted variable lock icon
+   /OWL/assets/css/variable-restricted-icon.css
+
+   Styles the small lock icon that variable-restricted-icon.js
+   adds next to every restricted variable name, site-wide.
+   Include this alongside the site's other shared stylesheets in
+   _includes/head_custom.html.
+   ============================================================ */
+
+.var-restricted-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 15px;
+  min-height: 15px;
+  margin-left: 5px;
+  color: hsl(4 70% 45%);
+  vertical-align: middle;
+  cursor: default;
+  flex-shrink: 0;
+  font-size: 15px;
+  line-height: 1;
+}
+.var-restricted-icon:hover {
+  color: hsl(4 70% 32%);
+}
+
+/* Legend explaining the icon, placed once near the top of any page with
+   a results table. Deliberately self-contained (own colours, own
+   spacing) rather than reusing topics.css classes — not every page this
+   needs to appear on also loads topics.css, but this stylesheet is
+   already loaded site-wide via head_custom.html, so relying only on it
+   keeps the legend consistent everywhere. */
+.var-restricted-legend {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12.5px;
+  color: hsl(4 60% 32%);
+  background: hsl(4 70% 96%);
+  border-left: 3px solid hsl(4 70% 50%);
+  border-radius: 0 6px 6px 0;
+  padding: 8px 12px;
+  margin: 10px 0 16px;
+}
+.var-restricted-legend i.ti-lock {
+  color: hsl(4 70% 45%);
+  font-size: 15px;
+  flex-shrink: 0;
+}

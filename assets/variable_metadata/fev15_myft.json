@@ -1,0 +1,480 @@
+{
+  "varname": "fev15_myft",
+  "label": "Fifth blow - FEV1 - Forced Expiratory Columns in 1 sec - Myofit sub-study",
+  "field_id": "70179",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70179",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "litres",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2.3128055036067963,
+  "sd": 0.2637090333449578,
+  "series_size": 8.0,
+  "minimum": 1.7510137557983398,
+  "maximum": 2.711066722869873,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "fev1_fvc5_myft",
+    "fvc5_myft"
+  ],
+  "linked_years": [
+    "2020-2024"
+  ],
+  "categories": [
+    "Spirometry [8071]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "fev15_myft",
+    "label": "Fifth blow - FEV1 - Forced Expiratory Columns in 1 sec - Myofit sub-study",
+    "meta_rows": [
+      [
+        "Variable",
+        "fev15_myft"
+      ],
+      [
+        "Field ID",
+        "70179"
+      ],
+      [
+        "Label",
+        "Fifth blow - FEV1 - Forced Expiratory Columns in 1 sec - Myofit sub-study"
+      ],
+      [
+        "Card Number",
+        "myft_Lung"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "litres"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lung function variables from the MyoFit study. For those participants who were unable to do the test during the 2023 Home visit, they were asked to do the test during the Myofit clinic visit. These need to be merged with the 2023 HV and NOT the 2015 HV."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "fev1_fvc5_myft",
+        "Fifth blow - FEV1/FVC ratio - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_Lung"
+      ],
+      [
+        "fvc5_myft",
+        "Fifth blow - FVC - Forced Vital Capacity-  Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_Lung"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Spirometry [8071]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required. Participants who were unable to do the test during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.7510137557983398"
+      ],
+      [
+        "Maximum",
+        "2.711066722869873"
+      ],
+      [
+        "Range",
+        "0.9600529670715332"
+      ],
+      [
+        "Median",
+        "2.316432476043701"
+      ],
+      [
+        "IQR",
+        "2.234762668609619 - 2.4533490538597107"
+      ],
+      [
+        "Decile 1",
+        "2.0662307500839234"
+      ],
+      [
+        "Decile 2",
+        "2.219157838821411"
+      ],
+      [
+        "Decile 3",
+        "2.2488067626953123"
+      ],
+      [
+        "Decile 4",
+        "2.269091272354126"
+      ],
+      [
+        "Decile 5",
+        "2.316432476043701"
+      ],
+      [
+        "Decile 6",
+        "2.3716955184936523"
+      ],
+      [
+        "Decile 7",
+        "2.4197064638137817"
+      ],
+      [
+        "Decile 8",
+        "2.4908464908599854"
+      ],
+      [
+        "Decile 9",
+        "2.5869105100631713"
+      ],
+      [
+        "Mean",
+        "2.3128055036067963"
+      ],
+      [
+        "Std Dev.",
+        "0.2637090333449578"
+      ],
+      [
+        "Variance",
+        "0.06954245426773209"
+      ],
+      [
+        "Displayed N",
+        "8"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "fev15_myft",
+    "label": "Fifth blow - FEV1 - Forced Expiratory Columns in 1 sec - Myofit sub-study",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70179",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "fev15_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70179",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Fifth blow - FEV1 - Forced Expiratory Columns in 1 sec - Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "myft_Lung",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "litres",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lung function variables from the MyoFit study. For those participants who were unable to do the test during the 2023 Home visit, they were asked to do the test during the Myofit clinic visit. These need to be merged with the 2023 HV and NOT the 2015 HV.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "fev1_fvc5_myft",
+        "description": "Fifth blow - FEV1/FVC ratio - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_Lung"
+      },
+      {
+        "varname": "fvc5_myft",
+        "description": "Fifth blow - FVC - Forced Vital Capacity-  Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_Lung"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Spirometry [8071]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required. Participants who were unable to do the test during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_8071.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "litres",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1.7510137557983398,
+          1.9430243492126464,
+          2.135034942626953,
+          2.32704553604126,
+          2.5190561294555662,
+          2.711066722869873
+        ],
+        "counts": [
+          1,
+          0,
+          3,
+          2,
+          2
+        ]
+      },
+      "boxplot": {
+        "min": 1.7510137557983398,
+        "q1": 2.234762668609619,
+        "median": 2.316432476043701,
+        "q3": 2.4533490538597107,
+        "max": 2.711066722869873
+      },
+      "units": "litres"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.7510137557983398"
+      ],
+      [
+        "Maximum",
+        "2.711066722869873"
+      ],
+      [
+        "Range",
+        "0.9600529670715332"
+      ],
+      [
+        "Median",
+        "2.316432476043701"
+      ],
+      [
+        "IQR",
+        "2.234762668609619 - 2.4533490538597107"
+      ],
+      [
+        "Decile 1",
+        "2.0662307500839234"
+      ],
+      [
+        "Decile 2",
+        "2.219157838821411"
+      ],
+      [
+        "Decile 3",
+        "2.2488067626953123"
+      ],
+      [
+        "Decile 4",
+        "2.269091272354126"
+      ],
+      [
+        "Decile 5",
+        "2.316432476043701"
+      ],
+      [
+        "Decile 6",
+        "2.3716955184936523"
+      ],
+      [
+        "Decile 7",
+        "2.4197064638137817"
+      ],
+      [
+        "Decile 8",
+        "2.4908464908599854"
+      ],
+      [
+        "Decile 9",
+        "2.5869105100631713"
+      ],
+      [
+        "Mean",
+        "2.3128055036067963"
+      ],
+      [
+        "Std Dev.",
+        "0.2637090333449578"
+      ],
+      [
+        "Variance",
+        "0.06954245426773209"
+      ],
+      [
+        "Displayed N",
+        "8"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

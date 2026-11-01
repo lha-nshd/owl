@@ -1,0 +1,781 @@
+{
+  "varname": "hrvtdtri09",
+  "label": "Reflects the base of a triangle formed by all nn-intervals (HRV) at 60-64 years",
+  "field_id": "2006",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=2006",
+  "year": "",
+  "form": "ECG",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 8.026168775510204,
+  "sd": 2.0629972065922173,
+  "series_size": 1274.0,
+  "minimum": 4.47727,
+  "maximum": 13.4375,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "hrvsthr09",
+    "hrvtdrms09",
+    "hrvsphfn09",
+    "hrvsplfn09",
+    "hrvsplfc09",
+    "hrvqtvv09",
+    "hrvspttp09",
+    "hrvavhr09",
+    "hrvqtvqm09",
+    "hrvqtvrm09",
+    "hrvsplhp09",
+    "hrvqtvrv09",
+    "hrvqtvqv09",
+    "hrvsphfp09",
+    "hrvtdsdn09",
+    "hrvsplfp09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Heart rate variability [11041]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77.0",
+      "label": "No Clinic/Home visit"
+    },
+    {
+      "value": "78.0",
+      "label": "Test not done - had a home visit"
+    },
+    {
+      "value": "79.0",
+      "label": "Test not done but went to clinic"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "hrvtdtri09",
+    "label": "Reflects the base of a triangle formed by all nn-intervals (HRV) at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "hrvtdtri09"
+      ],
+      [
+        "Field ID",
+        "2006"
+      ],
+      [
+        "Label",
+        "Reflects the base of a triangle formed by all nn-intervals (HRV) at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "HRV09"
+      ],
+      [
+        "Form",
+        "ECG"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "These variables from the HRV dataset from Sweden."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "hrvsthr09",
+        "Standard deviation of all HR measures (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvtdrms09",
+        "Heart rate variability, square root of mean squared differences of normal to normal intervals - ms (HRV)",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvsphfn09",
+        "High frequency power normalised to total power (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvsplfn09",
+        "Low frequency power normalised to total power (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvsplfc09",
+        "Power spectrum density squared (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvqtvv09",
+        "Q-T variability index (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvspttp09",
+        "Total power spectral density - ms2 (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvavhr09",
+        "Average HR of the 5 registration (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvqtvqm09",
+        "Mean QT interval - msec (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvqtvrm09",
+        "Mean RR interval - msec (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvsplhp09",
+        "Ratio between low and high frequency power (=LF Pow/HF Pow) - HRV at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvqtvrv09",
+        "Variance RR interval - msec2 (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvqtvqv09",
+        "Variance QT interval - msec2 (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvsphfp09",
+        "High frequency power - ms2 (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvtdsdn09",
+        "Heart rate variability, standard deviation of normal to normal intervals - ms (HRV)",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ],
+      [
+        "hrvsplfp09",
+        "Low frequency power - ms2 (HRV) at 60-64 years",
+        "2006-10",
+        "ECG",
+        "Not applicable",
+        "HRV09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Heart rate variability [11041]",
+        "This category contains information on heart rate variability."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77.0",
+        "No Clinic/Home visit",
+        true
+      ],
+      [
+        "78.0",
+        "Test not done - had a home visit",
+        true
+      ],
+      [
+        "79.0",
+        "Test not done but went to clinic",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "4.47727"
+      ],
+      [
+        "Maximum",
+        "13.4375"
+      ],
+      [
+        "Range",
+        "8.96023"
+      ],
+      [
+        "Median",
+        "7.773505"
+      ],
+      [
+        "IQR",
+        "6.4225975 - 9.4234425"
+      ],
+      [
+        "Decile 1",
+        "5.409315"
+      ],
+      [
+        "Decile 2",
+        "6.121446"
+      ],
+      [
+        "Decile 3",
+        "6.720576"
+      ],
+      [
+        "Decile 4",
+        "7.280522"
+      ],
+      [
+        "Decile 5",
+        "7.773505"
+      ],
+      [
+        "Decile 6",
+        "8.37699"
+      ],
+      [
+        "Decile 7",
+        "9.077122999999998"
+      ],
+      [
+        "Decile 8",
+        "9.829886"
+      ],
+      [
+        "Decile 9",
+        "10.95776"
+      ],
+      [
+        "Mean",
+        "8.026168775510204"
+      ],
+      [
+        "Std Dev.",
+        "2.0629972065922173"
+      ],
+      [
+        "Variance",
+        "4.255957474407292"
+      ],
+      [
+        "Displayed N",
+        "1274"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "hrvtdtri09",
+    "label": "Reflects the base of a triangle formed by all nn-intervals (HRV) at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=2006",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hrvtdtri09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "2006",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Reflects the base of a triangle formed by all nn-intervals (HRV) at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "HRV09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "ECG",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "These variables from the HRV dataset from Sweden.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "hrvsthr09",
+        "description": "Standard deviation of all HR measures (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvtdrms09",
+        "description": "Heart rate variability, square root of mean squared differences of normal to normal intervals - ms (HRV)",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvsphfn09",
+        "description": "High frequency power normalised to total power (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvsplfn09",
+        "description": "Low frequency power normalised to total power (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvsplfc09",
+        "description": "Power spectrum density squared (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvqtvv09",
+        "description": "Q-T variability index (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvspttp09",
+        "description": "Total power spectral density - ms2 (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvavhr09",
+        "description": "Average HR of the 5 registration (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvqtvqm09",
+        "description": "Mean QT interval - msec (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvqtvrm09",
+        "description": "Mean RR interval - msec (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvsplhp09",
+        "description": "Ratio between low and high frequency power (=LF Pow/HF Pow) - HRV at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvqtvrv09",
+        "description": "Variance RR interval - msec2 (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvqtvqv09",
+        "description": "Variance QT interval - msec2 (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvsphfp09",
+        "description": "High frequency power - ms2 (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvtdsdn09",
+        "description": "Heart rate variability, standard deviation of normal to normal intervals - ms (HRV)",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      },
+      {
+        "varname": "hrvsplfp09",
+        "description": "Low frequency power - ms2 (HRV) at 60-64 years",
+        "year": "2006-10",
+        "form": "ECG",
+        "question": "Not applicable",
+        "library_file": "HRV09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Heart rate variability [11041]",
+        "description": "This category contains information on heart rate variability.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_rate_variability_11041.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No Clinic/Home visit",
+        "is_missing": true
+      },
+      {
+        "value": "78.0",
+        "label": "Test not done - had a home visit",
+        "is_missing": true
+      },
+      {
+        "value": "79.0",
+        "label": "Test not done but went to clinic",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 16,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          4.47727,
+          5.004342352941176,
+          5.531414705882352,
+          6.058487058823529,
+          6.585559411764706,
+          7.112631764705881,
+          7.639704117647058,
+          8.166776470588236,
+          8.693848823529411,
+          9.220921176470586,
+          9.747993529411763,
+          10.27506588235294,
+          10.802138235294116,
+          11.329210588235293,
+          11.85628294117647,
+          12.383355294117646,
+          12.910427647058821,
+          13.4375
+        ],
+        "counts": [
+          59,
+          100,
+          85,
+          109,
+          119,
+          131,
+          121,
+          110,
+          87,
+          86,
+          79,
+          47,
+          35,
+          38,
+          30,
+          22,
+          16
+        ]
+      },
+      "boxplot": {
+        "min": 4.47727,
+        "q1": 6.4225975,
+        "median": 7.773505,
+        "q3": 9.4234425,
+        "max": 13.4375
+      },
+      "units": "Not applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "4.47727"
+      ],
+      [
+        "Maximum",
+        "13.4375"
+      ],
+      [
+        "Range",
+        "8.96023"
+      ],
+      [
+        "Median",
+        "7.773505"
+      ],
+      [
+        "IQR",
+        "6.4225975 - 9.4234425"
+      ],
+      [
+        "Decile 1",
+        "5.409315"
+      ],
+      [
+        "Decile 2",
+        "6.121446"
+      ],
+      [
+        "Decile 3",
+        "6.720576"
+      ],
+      [
+        "Decile 4",
+        "7.280522"
+      ],
+      [
+        "Decile 5",
+        "7.773505"
+      ],
+      [
+        "Decile 6",
+        "8.37699"
+      ],
+      [
+        "Decile 7",
+        "9.077122999999998"
+      ],
+      [
+        "Decile 8",
+        "9.829886"
+      ],
+      [
+        "Decile 9",
+        "10.95776"
+      ],
+      [
+        "Mean",
+        "8.026168775510204"
+      ],
+      [
+        "Std Dev.",
+        "2.0629972065922173"
+      ],
+      [
+        "Variance",
+        "4.255957474407292"
+      ],
+      [
+        "Displayed N",
+        "1274"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

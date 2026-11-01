@@ -1,0 +1,168 @@
+---
+layout: default
+title: ALZpath Simoa pTau-217 v2 assay on Insight46 phase 1 and 2
+parent: Search Documentation
+nav_exclude: true
+permalink: /docs/documentation/alzpath-simoa-ptau-217-v2-assay-on-insight46-phase-1-and-2/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-table" aria-hidden="true"></i> ALZpath Simoa pTau-217 v2 assay on Insight46 phase 1 and 2</h1>
+    <p class="doc-byline">Dylan Williams, Ashvini Keshavan . August 2024</p>
+    
+    <a class="doc-pdf-download" href="/OWL/assets/pdfs/documentation/alzpath-simoa-ptau-217-v2-assay-on-insight46-phase-1-and-2.pdf" download><i class="ti ti-download" aria-hidden="true"></i> Download PDF version</a>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#document-details"><i class="ti ti-list-details" aria-hidden="true"></i> Document details</a></li><li><a href="#overview"><i class="ti ti-file-text" aria-hidden="true"></i> Overview</a></li><li><a href="#assay-result-adjustments"><i class="ti ti-notes" aria-hidden="true"></i> Assay result adjustments</a></li><li><a href="#variables"><i class="ti ti-list-check" aria-hidden="true"></i> Variables in this document</a></li>
+    </ul>
+    <a href="/OWL/docs/documentation/documentation-search/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Documentation</a>
+  </div>
+
+  <div class="home-section gs-card-blue" id="document-details"><h2><i class="ti ti-list-details" aria-hidden="true"></i> Document details</h2><details class="doc-details-box" open><summary>Document details <span class="doc-var-hint">(click to collapse)</span></summary><table class="doc-details-table"><tbody><tr><td>Categories of variables</td><td>Blood, urine and other samples</td></tr><tr><td>Summary of work undertaken</td><td>**Category:** Derivation<br><br>**Description:**<br><br>Overview<br><br>The returned data are measures of a blood-based biomarker for Alzheimer’s disease neuropathology called p-tau 217. Plasma samples collected at 69-year home visits were assayed using the ALZpath Simoa p-tau 217 assay version 2 at the UK DRI Biomarker Factory at UCL in spring 2024. 952 samples were assayed: this subset of approximately half of  all available 69-year home visit plasma samples was selected to prioritise assaying of samples from participants who had not enrolled in Insight 46 phases 1 and 2 (in which plasma p-tau 217 had already been measured). In samples from those who had not attended Insight 46 phases 1 and 2, there was also preferential selection for individuals who had died following the 69-year home visits, in order to ascertain p-tau 217 concentrations for individuals who would have no prospect of joining Insight 46 during phase 3 (where p-tau 217 assaying is planned).</td></tr><tr><td>Names of source variables</td><td>Conc</td></tr><tr><td>Output variables</td><td>ptau217_pl_i46p1, ptau217_lloq_i46p1, ptau217_pl_i46p2, ptau217_lloq_i46p2, ptau217_csf_i46p2</td></tr><tr><td>Papers using these variables</td><td>Papers forthcoming<br><br>Technical paper on ALZpath assay v2:</td></tr></tbody></table></details></div>
+
+  <div class="home-section gs-card-search" id="overview"><h2><i class="ti ti-file-text" aria-hidden="true"></i> Overview</h2><div class="doc-content-body"><p>The returned data are measures of a blood-based biomarker for Alzheimer’s disease neuropathology called p-tau 217. Plasma samples collected at 69-year home visits were assayed using the ALZpath Simoa p-tau 217 assay version 2 at the UK DRI Biomarker Factory at UCL in spring 2024. 952 samples were assayed: this subset of approximately half of  all available 69-year home visit plasma samples was selected to prioritise assaying of samples from participants who had not enrolled in Insight 46 phases 1 and 2 (in which plasma p-tau 217 had already been measured). In samples from those who had not attended Insight 46 phases 1 and 2, there was also preferential selection for individuals who had died following the 69-year home visits, in order to ascertain p-tau 217 concentrations for individuals who would have no prospect of joining Insight 46 during phase 3 (where p-tau 217 assaying is planned).</p></div></div><div class="home-section gs-card-explore" id="assay-result-adjustments"><h2><i class="ti ti-notes" aria-hidden="true"></i> Assay result adjustments</h2><div class="doc-content-body"><p>We provide three adjustments to the raw p-tau 217 assay results: i) reassignment of values under the lower limit of quantification (0.06 pg/ml) to 0.06pg/ml; ii) adjustment of values from (i) for assay variation across plates; iii) adjustment of values from (ii) to bridge from the testing of 69-year home visit samples to the testing of plasma p-tau 217 values from Insight 46, also undertaken with the ALZpath Simoa assay (version 1 or 2?) </p>
+<p>As part of the assaying of p-tau 217 on 69-year home visit samples, 18 plasma samples from Insight 46 were also assayed to allow for bridging of these new data to former p-tau 217 values generated on Insight 46 samples. 2 pooled plasma control samples (also used in the previous Insight 46 assaying) were also included in the assaying. Together, these 20 plasma samples were used to calculate bridging of the 69-year home visit assay results to Insight 46 assay results. The values from the 18 individual bridging samples were all from singlicate analysis in Insight46 (adjusted) and were the means of duplicate analysis in NSHD (adjusted). The values from the pooled plasma controls were means calculated from across all the 5 runs in Insight46 and up to 16 plates in NSHD.</p>
+<p>2 pooled CSF controls were also plated across each of the 16 plates and were used to derive the plate-specific internal adjustment factor. They had also previously been quantified in Insight 46 but they were not used for the bridging calculation because they were manually diluted with different dilutions in Insight46 vs NSHD, and although they were very similar once adjusted for dilution, the dilution-adjusted concentrations are in a different range and would unduly influence correction based on linear regression if applied. </p>
+<p>For bridging, a univariable linear regression model was applied to derive the conversion factor as follows: y = bx where y = Insight46 value, x = NSHD value and b = bridging factor. The constant was fixed at zero in this model, as zero should hold true across both quantifications given that it is the same assay. </p>
+<p>Assay results provide absolute quantification, with units being pg/ml.</p></div></div>
+
+  <div class="home-section gs-card-basket" id="variables">
+    <h2><i class="ti ti-list-check" aria-hidden="true"></i> Variables in this document</h2>
+    <div class="doc-topic-note"><i class="ti ti-folder" aria-hidden="true"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Sub-Studies_57.html" target="_blank" rel="noopener">Sub-Studies [57]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Insight46_699.html" target="_blank" rel="noopener">Insight46 [699]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Biological_samples_6037.html" target="_blank" rel="noopener">Biological samples [6037]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biomarkers_60372.html" target="_blank" rel="noopener">Blood biomarkers [60372]</a></div><div class="doc-topic-note doc-topic-secondary"><i class="ti ti-info-circle" aria-hidden="true"></i> Also touches: <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Other_medical_conditions_51011.html" target="_blank" rel="noopener">Other medical conditions [51011]</a></div>
+    
+    <div class="doc-var-box doc-var-high"><div class="doc-var-header"><span><b>5</b> high-confidence matches</span><button class="doc-var-add-btn" data-tier="high" data-state="add">Add all to basket</button></div><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biomarkers_60372.html" target="_blank" rel="noopener" title="Sub-Studies [57] › Insight46 [699] › Biological samples [6037] › Blood biomarkers [60372]">Blood biomarkers [60372]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ptau217_csf_i46p2.html" target="_blank" rel="noopener">ptau217_csf_i46p2</a></td><td>Cerebrospinal fluid (CSF) ALZpath p-tau217 (pg/mL) - Insight Phase 2</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ptau217_csf_i46p2" data-label="Cerebrospinal fluid (CSF) ALZpath p-tau217 (pg/mL) - Insight Phase 2" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ptau217_lloq_i46p1.html" target="_blank" rel="noopener">ptau217_lloq_i46p1</a></td><td>Indicator for whether plasma ALZpath raw value was below LLOQ - Insight Phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ptau217_lloq_i46p1" data-label="Indicator for whether plasma ALZpath raw value was below LLOQ - Insight Phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ptau217_lloq_i46p2.html" target="_blank" rel="noopener">ptau217_lloq_i46p2</a></td><td>Indicator for whether plasma ALZpath raw value was below LLOQ - Insight Phase 2</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ptau217_lloq_i46p2" data-label="Indicator for whether plasma ALZpath raw value was below LLOQ - Insight Phase 2" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ptau217_pl_i46p1.html" target="_blank" rel="noopener">ptau217_pl_i46p1</a></td><td>Plasma ALZpath p-tau217 (pg/mL) - Insight Phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ptau217_pl_i46p1" data-label="Plasma ALZpath p-tau217 (pg/mL) - Insight Phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ptau217_pl_i46p2.html" target="_blank" rel="noopener">ptau217_pl_i46p2</a></td><td>Plasma ALZpath p-tau217 (pg/mL) - Insight Phase 2</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ptau217_pl_i46p2" data-label="Plasma ALZpath p-tau217 (pg/mL) - Insight Phase 2" data-tier="high"></td></tr></tbody></table></div><details class="doc-var-box doc-var-medium"><summary><b>1</b> medium-confidence match <span class="doc-var-hint">(click for details)</span></summary><p class="doc-var-note">Reasonably confident plain-text matches — worth a look, but not added in bulk.</p><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Other_medical_conditions_51011.html" target="_blank" rel="noopener" title="Questionnaire data [55] › Health and medical history [510] › Medical conditions [5101] › Other medical conditions [51011]">Other medical conditions [51011]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/blood.html" target="_blank" rel="noopener">blood</a></td><td>Have you had anaemia in the last 10 years - at age 43 years</td><td>prose scan</td><td><input type="checkbox" class="doc-var-checkbox" data-var="blood" data-label="Have you had anaemia in the last 10 years - at age 43 years" data-tier="medium"></td></tr></tbody></table></details>
+    <details class="doc-legend-box"><summary>How variables get found <span class="doc-var-hint">(click for details)</span></summary><table class="doc-legend-table"><tbody><tr><td>Topsheet field</td><td>Named directly in the topsheet’s structured &quot;Output variables&quot; row — someone deliberately typed this name to mean exactly this. The most reliable method there is.</td></tr><tr><td>Prose scan</td><td>Found as ordinary text in the body — the fallback used when a document has no structured field, bold heading, or template. Confidence depends on how short and common the word is, since short variable-shaped words occasionally match by coincidence.</td></tr></tbody></table></details>
+    <p id="basketDoneMsg" class="doc-var-done-msg"></p>
+  </div>
+
+</div>
+
+<style>
+.doc-content-body { font-size: 14px; line-height: 1.7; color: #333; }
+.doc-content-body h1, .doc-content-body h2, .doc-content-body h3 { font-size: 15px; font-weight: 700; color: #3a0066; margin: 16px 0 6px; }
+.doc-content-body p { margin: 0 0 10px; }
+.doc-content-body img { max-width: 100%; height: auto; display: block; margin: 10px 0; border-radius: 4px; border: 1px solid rgba(0,0,0,0.08); }
+.doc-content-body table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin: 10px 0; }
+.doc-content-body th, .doc-content-body td { padding: 5px 8px; border: 1px solid rgba(0,0,0,0.12); text-align: left; }
+.doc-content-body th { background: PowderBlue; }
+.doc-subheading { display: block; margin-bottom: 1em; }
+.doc-byline { font-size:13px; color:#555; margin:2px 0 6px; }
+.doc-description { font-size:14px; color:#333; margin:0; }
+.doc-pdf-download { display:inline-flex; align-items:center; gap:6px; margin-top:10px; padding:6px 14px; background:#1a4d7a; color:#fff; border-radius:6px; text-decoration:none; font-size:13px; font-weight:600; }
+.doc-pdf-download:hover { background:#123a5c; }
+.doc-details-box { margin: 8px 0; }
+.doc-details-box summary { cursor: pointer; font-size: 14px; font-weight: 600; color: #1a4d7a; list-style: none; }
+.doc-details-box summary::-webkit-details-marker { display: none; }
+.doc-details-table { width: auto; max-width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 10px; }
+.doc-details-table td { padding: 6px 12px; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
+.doc-details-table td:first-child { font-weight: 600; color: #333; white-space: nowrap; }
+.doc-details-table td:last-child { color: #444; word-break: break-word; }
+.doc-legend-box { margin: 12px 0 4px; }
+.doc-legend-box summary { cursor: pointer; font-size: 13px; font-weight: 600; color: #1a4d7a; list-style: none; }
+.doc-legend-box summary::-webkit-details-marker { display: none; }
+.doc-legend-table { width: auto; max-width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+.doc-legend-table td { padding: 5px 12px; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
+.doc-legend-table td:first-child { font-weight: 600; color: #333; white-space: nowrap; }
+.doc-legend-table td:last-child { color: #555; }
+.doc-topic-note { font-size:13px; color:#333; margin:8px 0; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.doc-topic-secondary { color:#7a5b00; font-size:12px; }
+.doc-topic-uncat { color:#7a1f1f; font-style:italic; }
+.doc-var-box { border-radius: 8px; padding: 14px 18px; margin: 14px 0; }
+.doc-var-high   { background: hsl(125 35% 95%); border: 1px solid hsl(125 35% 55%); }
+.doc-var-medium { background: hsl(210 45% 96%); border: 1px solid hsl(210 45% 55%); }
+.doc-var-low    { background: hsl(35 60% 96%);  border: 1px solid hsl(35 60% 55%); }
+.doc-var-header { display: flex; align-items: center; justify-content: space-between; font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.doc-var-box summary { cursor: pointer; font-size: 14px; font-weight: 600; list-style: none; }
+.doc-var-box summary::-webkit-details-marker { display: none; }
+.doc-var-hint { font-weight: 400; font-size: 12px; opacity: 0.7; }
+.doc-var-note { font-size: 12.5px; color: #555; margin: 8px 0; }
+.doc-var-empty { font-size: 13px; color: #666; font-style: italic; }
+.doc-var-add-btn { background: #4CAF50; color: white; border: none; border-radius: 4px; padding: 6px 14px; font-size: 13px; cursor: pointer; }
+.doc-var-add-btn:hover { background: #45a049; }
+.doc-var-table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 6px; }
+.doc-var-table th { text-align: left; padding: 6px 10px; border-bottom: 2px solid rgba(0,0,0,0.15); }
+.doc-var-table td { padding: 5px 10px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.doc-var-table td:first-child { font-family: monospace; white-space: nowrap; }
+.doc-var-table td:first-child a { color: #1a4d7a; text-decoration: none; }
+.doc-var-table td:first-child a:hover { text-decoration: underline; }
+.doc-var-table td:last-child { text-align: center; }
+.doc-var-table .doc-var-topic-row td { font-family: inherit; font-size: 12px; font-weight: 700; color: #444; background: rgba(0,0,0,0.035); padding: 5px 10px; border-bottom: 1px solid rgba(0,0,0,0.08); white-space: normal; text-align: left; }
+.doc-topic-chip { display:inline-block; background: hsl(200 55% 92%); color: hsl(200 55% 22%); padding: 2px 10px; border-radius: 10px; text-decoration: none; font-size: 11px; font-weight: 600; cursor: pointer; }
+.doc-topic-chip:hover { background: hsl(200 55% 85%); }
+.doc-topic-chip-plain { cursor: help; font-size: 11px; }
+.doc-var-checkbox { width: 16px; height: 16px; cursor: pointer; accent-color: #4CAF50; }
+.doc-var-done-msg { color: #27500A; font-weight: 600; margin: 10px 0; }
+</style>
+
+<script type="application/json" id="docVariableData">
+{"high": [{"variable": "ptau217_csf_i46p2", "label": "Cerebrospinal fluid (CSF) ALZpath p-tau217 (pg/mL) - Insight Phase 2"}, {"variable": "ptau217_lloq_i46p1", "label": "Indicator for whether plasma ALZpath raw value was below LLOQ - Insight Phase 1"}, {"variable": "ptau217_lloq_i46p2", "label": "Indicator for whether plasma ALZpath raw value was below LLOQ - Insight Phase 2"}, {"variable": "ptau217_pl_i46p1", "label": "Plasma ALZpath p-tau217 (pg/mL) - Insight Phase 1"}, {"variable": "ptau217_pl_i46p2", "label": "Plasma ALZpath p-tau217 (pg/mL) - Insight Phase 2"}], "medium": [{"variable": "blood", "label": "Have you had anaemia in the last 10 years - at age 43 years"}], "low": []}
+</script>
+
+<script>
+(function () {
+  var data = JSON.parse(document.getElementById('docVariableData').textContent);
+
+  function tierItems(tier) {
+    return (data[tier] || []).map(function (v) { return { varName: v.variable, label: v.label }; });
+  }
+
+  function updateBulkButton(tier) {
+    var btn = document.querySelector('.doc-var-add-btn[data-tier="' + tier + '"]');
+    if (!btn) return;
+    var items = tierItems(tier);
+    var allIn = items.length > 0 && items.every(function (i) {
+      return typeof isInBasket === 'function' && isInBasket(i.varName);
+    });
+    btn.setAttribute('data-state', allIn ? 'remove' : 'add');
+    btn.textContent = allIn ? 'Remove all from basket' : 'Add all to basket';
+  }
+
+  document.querySelectorAll('.doc-var-checkbox').forEach(function (box) {
+    if (typeof isInBasket === 'function' && isInBasket(box.getAttribute('data-var'))) {
+      box.checked = true;
+    }
+    box.addEventListener('change', function () {
+      var varName = box.getAttribute('data-var');
+      var label = box.getAttribute('data-label');
+      var tier = box.getAttribute('data-tier');
+      if (box.checked) { addToBasket(varName, label); }
+      else { removeFromBasket(varName); }
+      if (tier) updateBulkButton(tier);
+    });
+  });
+
+  document.querySelectorAll('.doc-var-add-btn').forEach(function (btn) {
+    var tier = btn.getAttribute('data-tier');
+    updateBulkButton(tier);
+
+    btn.addEventListener('click', function () {
+      var items = tierItems(tier);
+      if (!items.length) return;
+      var removing = btn.getAttribute('data-state') === 'remove';
+
+      if (removing) {
+        items.forEach(function (i) { removeFromBasket(i.varName); });
+      } else {
+        batchAddToBasket(items);
+      }
+
+      document.querySelectorAll('.doc-var-checkbox[data-tier="' + tier + '"]').forEach(function (box) {
+        box.checked = !removing;
+      });
+      document.getElementById('basketDoneMsg').textContent =
+        items.length + (removing ? ' variables removed from your basket.' : ' variables added to your basket.');
+      updateBulkButton(tier);
+    });
+  });
+})();
+</script>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

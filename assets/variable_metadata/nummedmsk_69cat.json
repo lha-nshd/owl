@@ -1,0 +1,383 @@
+{
+  "varname": "nummedmsk_69cat",
+  "label": "Derived: Categorical number of Musculoskeletal medications - at age 69 years",
+  "field_id": "39902",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=39902",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2122.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Medication [11]",
+    "Medication derivations done longitudinally [505222]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No MSK medications"
+    },
+    {
+      "value": "1.0",
+      "label": "Single MSK medication used"
+    },
+    {
+      "value": "2.0",
+      "label": "Multiple MSK medications used"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No MSK medications",
+      "count": 1928,
+      "pct": 90.9
+    },
+    {
+      "label": "Single MSK medication used",
+      "count": 180,
+      "pct": 8.5
+    },
+    {
+      "label": "Multiple MSK medications used",
+      "count": 14,
+      "pct": 0.7
+    }
+  ],
+  "pdf": {
+    "varname": "nummedmsk_69cat",
+    "label": "Derived: Categorical number of Musculoskeletal medications - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "nummedmsk_69cat"
+      ],
+      [
+        "Field ID",
+        "39902"
+      ],
+      [
+        "Label",
+        "Derived: Categorical number of Musculoskeletal medications - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "Medication6369"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "16"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "This variable refers to derived regular medication data. This was asked at 1977, 1982, 1989, 1999, 2006-10, 2015 and 2023 data collection waves. Medication in the last 24 hours was only asked at the 2006-10 nurse schedule."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/Medication6369/Medication_Codes_Feb2017.docx",
+        "Medication_Codes_Feb2017.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Medication [11]",
+        "Legacy Category"
+      ],
+      [
+        "Medication derivations done longitudinally [505222]",
+        "This category contains information about the regular medication taken by the participant - derived across the data collections."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No MSK medications",
+        false
+      ],
+      [
+        "1.0",
+        "Single MSK medication used",
+        false
+      ],
+      [
+        "2.0",
+        "Multiple MSK medications used",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1928",
+        "91%"
+      ],
+      [
+        "1",
+        "180",
+        "8%"
+      ],
+      [
+        "2",
+        "14",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2122",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "nummedmsk_69cat",
+    "label": "Derived: Categorical number of Musculoskeletal medications - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=39902",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "nummedmsk_69cat",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "39902",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Derived: Categorical number of Musculoskeletal medications - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Medication6369",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "16",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This variable refers to derived regular medication data. This was asked at 1977, 1982, 1989, 1999, 2006-10, 2015 and 2023 data collection waves. Medication in the last 24 hours was only asked at the 2006-10 nurse schedule.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/Medication6369/Medication_Codes_Feb2017.docx",
+        "text": "Medication_Codes_Feb2017.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Medication [11]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Medication derivations done longitudinally [505222]",
+        "description": "This category contains information about the regular medication taken by the participant - derived across the data collections.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Medication_derivations_done_longitudinally_505222.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No MSK medications",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Single MSK medication used",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Multiple MSK medications used",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 2,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No MSK medications",
+          "count": 1928,
+          "pct": 91
+        },
+        {
+          "value": "1",
+          "label": "Single MSK medication used",
+          "count": 180,
+          "pct": 8
+        },
+        {
+          "value": "2",
+          "label": "Multiple MSK medications used",
+          "count": 14,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1928",
+        "91%"
+      ],
+      [
+        "1",
+        "180",
+        "8%"
+      ],
+      [
+        "2",
+        "14",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2122",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

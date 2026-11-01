@@ -1,0 +1,29 @@
+/* ============================================================
+   OWL — Sidebar summary section-colour highlighting
+   /OWL/assets/css/doc-sidebar-highlight.css
+
+   Generic, page-agnostic styling for doc-sidebar-highlight.js —
+   every "On this page" link's colour is driven by a CSS custom
+   property the script sets per-link (matching that link's target
+   section's own gs-card-* colour), not a fixed set of classes,
+   since generated documentation pages have no fixed set of
+   section names to write colour rules against the way the
+   hand-authored hub pages do.
+   ============================================================ */
+/* The extra li (matching the same technique already used throughout
+   this site's own hub-page sidebar colours, e.g. .gs-toc-*, .so-toc-*)
+   gives this a higher specificity than topics.css's own
+   .page-topics .sidebar-summary a rule — both use !important, so
+   without it, whichever stylesheet happened to load later would win an
+   exact specificity tie. This guarantees the section colour always
+   applies regardless of load order. */
+.page-topics .sidebar-summary li a {
+  color: var(--doc-section-color, var(--purple)) !important;
+}
+
+.page-topics .sidebar-summary li a.active {
+  background: var(--doc-section-bg-active, rgba(255, 255, 255, 0.9)) !important;
+  border-left: 3px solid var(--doc-section-border-active, var(--purple-mid)) !important;
+  font-weight: 700;
+  border-radius: 0 5px 5px 0;
+}

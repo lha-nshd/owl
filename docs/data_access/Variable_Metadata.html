@@ -1,0 +1,487 @@
+---
+layout: default
+title: Variable Metadata
+parent: Accessing NSHD Data
+nav_order: 4
+has_children: true
+permalink: /docs/accessing-nshd-data/variable-metadata/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year page-variable-metadata">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-file-description" aria-hidden="true"></i> Variable Metadata</h1>
+    <p>Variable-level metadata is available on both OWL and Condor &#8212; the same underlying information, presented differently on each.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#owl-metadata" class="gs-toc-vm-owl"><i class="ti ti-search" aria-hidden="true"></i> OWL Metadata Page</a></li>
+      <li><a href="#condor-metadata" class="gs-toc-vm-condor"><i class="ti ti-table" aria-hidden="true"></i> Condor Metadata Page</a></li>
+      <li><a href="#comparison" class="gs-toc-vm-compare"><i class="ti ti-table" aria-hidden="true"></i> OWL vs Condor</a></li>
+      <li><a href="#which-to-use" class="gs-toc-vm-which"><i class="ti ti-map-2" aria-hidden="true"></i> Which should I use?</a></li>
+    </ul>
+    <a href="/OWL/docs/accessing-nshd-data/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Accessing NSHD Data</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>Every NSHD variable has a metadata page on both OWL and Condor. The <strong>OWL Variable Metadata page</strong> and the <strong>Condor Variable Metadata page</strong> present the same underlying variable-level metadata &#8212; questionnaire provenance, longitudinal linkage, category placement, and disclosure-controlled distribution summaries &#8212; but the two platforms now differ enough in presentation and capability to warrant their own sections below: OWL&#8217;s tab-based layout, split longitudinal linkage, and enhanced distribution statistics go well beyond Condor&#8217;s single flat table. Use either to build a complete picture of a variable before including it in a data access request.</p>
+  </div>
+
+  <style>
+    /* ── Page-scoped styles (.page-variable-metadata) ──────────────────
+       Everything new on this page is scoped to .page-variable-metadata so
+       nothing here can leak into other pages that share topics.css and
+       getting-started.css. .field-pill and .which-* come from
+       getting-started.css and are not redefined here. */
+
+    /* Sub-headings inside a section */
+    .page-variable-metadata .vm-sub {
+      display: flex; align-items: center; gap: 7px;
+      font-size: 14px !important; font-weight: 700 !important;
+      color: var(--vm-ink, #3a0066) !important;
+      margin: 24px 0 8px !important;
+      padding-bottom: 5px !important;
+      border-bottom: 1px solid var(--vm-line, rgba(106,13,173,0.3)) !important;
+    }
+    .page-variable-metadata .vm-sub i { font-size: 16px; color: var(--vm-icon, #6a0dad); }
+    .page-variable-metadata .vm-sec-owl    { --vm-ink: hsl(180 45% 16%); --vm-line: hsl(180 45% 65%); --vm-icon: hsl(180 45% 32%); }
+    .page-variable-metadata .vm-sec-condor { --vm-ink: hsl(270 35% 22%); --vm-line: hsl(270 35% 70%); --vm-icon: hsl(270 35% 40%); }
+
+    .page-variable-metadata .vm-note { font-size: 11.5px !important; color: #666 !important; font-style: italic; margin: 4px 0 0 !important; }
+
+    /* The six OWL tabs — each its own hue (same pastel family used across the
+       site) so they stand apart from the teal section behind them. Colours
+       come from four custom properties set per modifier class. */
+    .page-variable-metadata .vm-tab-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 10px 0 6px; }
+    .page-variable-metadata .vm-tab {
+      display: flex; gap: 11px; align-items: flex-start;
+      background: var(--c-bg); border: 1px solid var(--c-bd); border-left: 4px solid var(--c-ic);
+      border-radius: 8px; padding: 11px 13px 12px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .page-variable-metadata .vm-tab > i {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 30px; height: 30px; border-radius: 50%; flex-shrink: 0;
+      background: var(--c-ic); color: #fff; font-size: 16px;
+    }
+    .page-variable-metadata .vm-tab b { display: block; font-size: 13px; color: var(--c-ink); margin-bottom: 3px; }
+    .page-variable-metadata .vm-tab b em { font-style: normal; font-weight: 700; color: var(--c-ic); margin-left: 3px; }
+    .page-variable-metadata .vm-tab span { display: block; font-size: 11.5px; line-height: 1.5; color: var(--c-ink); opacity: 0.88; }
+    .page-variable-metadata .vm-t-meta  { --c-bg: hsl(210 60% 94%); --c-bd: hsl(210 45% 72%); --c-ink: hsl(210 60% 15%); --c-ic: hsl(210 60% 42%); }
+    .page-variable-metadata .vm-t-link  { --c-bg: hsl(270 50% 95%); --c-bd: hsl(270 38% 74%); --c-ink: hsl(270 50% 19%); --c-ic: hsl(270 45% 46%); }
+    .page-variable-metadata .vm-t-docs  { --c-bg: hsl(40 90% 92%);  --c-bd: hsl(38 65% 62%);  --c-ink: hsl(30 75% 15%);  --c-ic: hsl(32 85% 38%); }
+    .page-variable-metadata .vm-t-cat   { --c-bg: hsl(340 70% 95%); --c-bd: hsl(340 50% 74%); --c-ink: hsl(340 60% 19%); --c-ic: hsl(340 62% 45%); }
+    .page-variable-metadata .vm-t-val   { --c-bg: hsl(140 45% 92%); --c-bd: hsl(140 35% 62%); --c-ink: hsl(140 55% 13%); --c-ic: hsl(140 50% 29%); }
+    .page-variable-metadata .vm-t-dist  { --c-bg: hsl(15 90% 94%);  --c-bd: hsl(15 65% 70%);  --c-ink: hsl(15 65% 17%);  --c-ic: hsl(15 78% 46%); }
+
+    /* Distribution columns — same coral family as the Distribution tab card */
+    .page-variable-metadata .vm-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 10px 0; }
+    .page-variable-metadata .vm-col {
+      background: hsl(15 90% 94%); border: 1px solid hsl(15 65% 74%); border-left: 4px solid hsl(15 78% 50%);
+      border-radius: 8px; padding: 10px 14px 12px; box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    .page-variable-metadata .vm-col h4 { margin: 0 0 6px !important; font-size: 13px !important; font-weight: 700 !important; color: hsl(15 65% 17%) !important; display: flex; align-items: center; gap: 7px; }
+    .page-variable-metadata .vm-col h4 i { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 50%; background: hsl(15 78% 46%); color: #fff; font-size: 13px; }
+    .page-topics.page-variable-metadata .vm-col ul { margin: 0 !important; padding-left: 18px !important; font-size: 12px; line-height: 1.55 !important; color: hsl(15 40% 18%) !important; }
+    .page-topics.page-variable-metadata .vm-col li { margin-bottom: 3px !important; }
+
+    /* "View all sweeps" feature box */
+    .page-variable-metadata .vm-feature {
+      background: hsl(230 55% 95%); border: 1.5px solid hsl(230 40% 74%); border-left: 4px solid hsl(230 45% 48%);
+      border-radius: 8px; padding: 12px 16px; margin: 10px 0; font-size: 12.5px; line-height: 1.6; color: hsl(230 45% 16%);
+    }
+    .page-topics.page-variable-metadata .vm-feature p { margin: 0 0 6px !important; font-size: 12.5px; color: hsl(230 45% 16%) !important; }
+    .page-topics.page-variable-metadata .vm-feature ul { margin: 0 !important; padding-left: 18px !important; line-height: 1.6 !important; }
+
+    .owl-condor-callout {
+      background: hsl(180 45% 92%);
+      border: 1.5px solid hsl(180 45% 55%);
+      border-left: 4px solid hsl(180 45% 40%);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 12.5px;
+      color: hsl(180 45% 14%);
+      margin-top: 14px;
+      line-height: 1.6;
+    }
+    .owl-condor-callout strong { color: hsl(180 45% 12%); }
+    .condor-callout {
+      background: hsl(270 35% 93%);
+      border: 1.5px solid hsl(270 35% 60%);
+      border-left: 4px solid hsl(270 35% 45%);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 12.5px;
+      color: hsl(270 35% 18%);
+      margin-top: 12px;
+      line-height: 1.6;
+    }
+    .condor-callout strong { color: hsl(270 35% 16%); }
+
+    /* ── Truly Longitudinal vs Linked variables split ── */
+    .ll-split-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:10px 0; }
+    .ll-split-box { border-radius:8px; padding:11px 14px; border-left:4px solid; }
+    .ll-split-purple { background:#EEEDFE; border-color:#534AB7; }
+    .ll-split-green  { background:#E3F5EC; border-color:#27AE73; }
+    .ll-split-title  { font-size:12.5px; font-weight:700; margin-bottom:5px; display:flex; align-items:center; gap:6px; }
+    .ll-split-purple .ll-split-title { color:#534AB7; }
+    .ll-split-green  .ll-split-title { color:#1A6B45; }
+    .ll-split-text   { font-size:11.5px; color:#555; line-height:1.55; }
+    .ll-tag-strict   { font-size:10px; background:#EEEDFE; color:#534AB7; padding:1px 6px; border-radius:4px; font-weight:600; }
+    .ll-tag-flexible { font-size:10px; background:#D0EFE0; color:#1A6B45; padding:1px 6px; border-radius:4px; font-weight:600; }
+
+    /* ── Condor flat-table illustration ── */
+    .condor-flat-table { width:100%; border-collapse:collapse; font-size:11.5px; margin:12px 0; border:1px solid hsl(270 35% 62%); border-radius:8px; overflow:hidden; }
+    .condor-flat-table td { padding:8px 13px; border-bottom:1px solid hsl(270 35% 82%); line-height:1.5; color:hsl(270 30% 16%); }
+    .condor-flat-table tr:nth-child(odd)  td { background:hsl(270 45% 96%); }
+    .condor-flat-table tr:nth-child(even) td { background:hsl(270 45% 92%); }
+    .condor-flat-table td:first-child { width:26%; font-weight:700; color:hsl(270 45% 20%); border-right:3px solid hsl(270 40% 55%); }
+    .condor-flat-table tr:nth-child(odd)  td:first-child { background:hsl(270 45% 90%); }
+    .condor-flat-table tr:nth-child(even) td:first-child { background:hsl(270 45% 86%); }
+
+    @media (max-width: 900px) {
+      .page-variable-metadata .vm-tab-grid,
+      .page-variable-metadata .vm-cols { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .page-variable-metadata .vm-tab-grid,
+      .page-variable-metadata .vm-cols,
+      .page-variable-metadata .ll-split-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-search vm-sec-owl">
+    <h2 id="owl-metadata"><i class="ti ti-search" aria-hidden="true"></i> OWL Variable Metadata Page</h2>
+
+    <p>On OWL, the variable metadata page is opened by clicking any variable name wherever it appears &#8212; in any of the searches, or in the table at the end of this documentation.</p>
+    <p>It uses a tab-based layout that groups information into six panels, so you can go straight to the section you need without scrolling. Tabs show a count of the items they contain where relevant.</p>
+
+    <h3 class="vm-sub"><i class="ti ti-layout-list" aria-hidden="true"></i> The six tabs</h3>
+    <div class="vm-tab-grid">
+      <div class="vm-tab vm-t-meta"><i class="ti ti-info-circle" aria-hidden="true"></i><div><b>Metadata</b><span>Every core field &#8212; questionnaire provenance, units, derived status, sensitivity and notes. The full field list is in the comparison table below.</span></div></div>
+      <div class="vm-tab vm-t-link"><i class="ti ti-arrows-transfer-up" aria-hidden="true"></i><div><b>Linked &amp; Longitudinal <em>(13)</em></b><span>Other sweeps and related variables, split into two colour-coded subsections (see below).</span></div></div>
+      <div class="vm-tab vm-t-docs"><i class="ti ti-paperclip" aria-hidden="true"></i><div><b>Documents <em>(1)</em></b><span>Documentation files and direct links to questionnaires attached at the individual variable level.</span></div></div>
+      <div class="vm-tab vm-t-cat"><i class="ti ti-tags" aria-hidden="true"></i><div><b>Categories</b><span>Every category the variable belongs to, with a description. Each links to its Browse by Category page, which shows the breadcrumb path.</span></div></div>
+      <div class="vm-tab vm-t-val"><i class="ti ti-list-numbers" aria-hidden="true"></i><div><b>Value Labels</b><span>Full coded value labels, with missing-value categories visually highlighted and explained.</span></div></div>
+      <div class="vm-tab vm-t-dist"><i class="ti ti-chart-histogram" aria-hidden="true"></i><div><b>Distribution</b><span>The chart and summary statistics side by side, with downloads (see below).</span></div></div>
+    </div>
+    <p class="vm-note">The count on the Linked &amp; Longitudinal tab combines both subsections described below.</p>
+
+    <h3 class="vm-sub"><i class="ti ti-arrows-transfer-up" aria-hidden="true"></i> Linked &amp; Longitudinal tab</h3>
+    <p>This tab splits into two clearly labelled, colour-coded subsections, so you can tell at a glance how strong a connection between variables actually is:</p>
+
+    <div class="ll-split-grid">
+      <div class="ll-split-box ll-split-purple">
+        <div class="ll-split-title"><i class="ti ti-link" aria-hidden="true"></i> Truly Longitudinal <span class="ll-tag-strict">Strict</span></div>
+        <div class="ll-split-text">Variables sharing the <strong>same Field ID</strong> &#8212; identical question text and response coding across sweeps. Directly comparable measurements guaranteed.</div>
+      </div>
+      <div class="ll-split-box ll-split-green">
+        <div class="ll-split-title"><i class="ti ti-arrows-shuffle" aria-hidden="true"></i> Linked variables <span class="ll-tag-flexible">Flexible</span></div>
+        <div class="ll-split-text">Variables connected by a shared linking measure &#8212; may include the same construct with different wording or coding. Review before treating as directly comparable.</div>
+      </div>
+    </div>
+
+    <p>Any variable that shares its Field ID with another appears only in the purple <strong>Truly Longitudinal</strong> subsection, so the green <strong>Linked variables</strong> subsection shows only genuinely different-Field-ID connections &#8212; the two lists never overlap.</p>
+
+    <h3 class="vm-sub"><i class="ti ti-chart-histogram" aria-hidden="true"></i> Distribution tab</h3>
+    <p>OWL&#8217;s distribution panel goes further than a basic chart-and-count view, with extra summaries for each variable type and downloads for both the chart and the statistics:</p>
+    <div class="vm-cols">
+      <div class="vm-col">
+        <h4><i class="ti ti-chart-line" aria-hidden="true"></i> Continuous variables</h4>
+        <ul>
+          <li>Box-and-whisker summary above the histogram</li>
+          <li>Median, IQR and range added alongside the deciles, mean and standard deviation</li>
+        </ul>
+      </div>
+      <div class="vm-col">
+        <h4><i class="ti ti-list-check" aria-hidden="true"></i> Categorical variables</h4>
+        <ul>
+          <li>100% stacked summary bar</li>
+          <li>Percentage column alongside the counts</li>
+        </ul>
+      </div>
+      <div class="vm-col">
+        <h4><i class="ti ti-download" aria-hidden="true"></i> Downloads (both types)</h4>
+        <ul>
+          <li>The plot image</li>
+          <li>The full statistics table</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="vm-sub"><i class="ti ti-layout-columns" aria-hidden="true"></i> &#8220;View all sweeps&#8221;</h3>
+    <div class="vm-feature">
+      <p>For any variable that has at least one other sweep sharing its Field ID (i.e. it appears in the purple <strong>Truly Longitudinal</strong> subsection above), a <strong>&#8220;View all sweeps&#8221;</strong> button appears on both the <strong>Distribution</strong> and <strong>Linked &amp; Longitudinal</strong> tabs. Both link to the same page, which shows:</p>
+      <ul>
+        <li>Every sweep&#8217;s distribution side by side, each on its own independent axis</li>
+        <li>One merged statistics table covering the whole group</li>
+        <li>Its own CSV download (the merged table) and a single combined image of every sweep&#8217;s chart</li>
+      </ul>
+      <p style="margin-top:6px !important; opacity:0.8;">Variables with no Truly Longitudinal group show neither button.</p>
+    </div>
+
+    <div class="owl-condor-callout">
+      <strong>OWL vs Condor presentation:</strong> The same underlying links are available on both platforms, but only OWL separates them into <strong>Truly Longitudinal</strong> (Strict) and <strong>Linked variables</strong> (Flexible) subsections &#8212; see the <a href="#condor-metadata" style="color:hsl(180 45% 22%); text-decoration:underline;">Condor Metadata Page</a> section below for how Condor presents the same links. If you need to know whether a comparison is strictly valid, check this OWL page rather than Condor directly.
+    </div>
+
+    <a class="gs-link-card gs-teal" href="https://rmjdish.github.io/OWL/docs/getting_started/variable-metadata/NSHD_Metadata-page.html" style="margin-top:12px;">
+      <i class="ti ti-search" aria-hidden="true"></i>
+      <div style="flex:1;">
+        <p class="gs-link-card-title">OWL and Condor Metadata Page &rarr;</p>
+        <p class="gs-link-card-desc">Full guide to every section of the metadata page, covering both OWL and Condor.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+    </a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-lavender vm-sec-condor">
+    <h2 id="condor-metadata"><i class="ti ti-table" aria-hidden="true"></i> Condor Variable Metadata Page</h2>
+
+    <p>On Condor, the same underlying variable metadata is opened by clicking a variable name within a basket. Condor presents it as a single, flat, undifferentiated table &#8212; there is no tab-based layout and no panels to navigate between; every field, every linked variable, and the distribution chart appear one after another on one page.</p>
+
+    <table class="condor-flat-table">
+      <tr><td>Metadata</td><td>All core fields listed in one continuous table &#8212; Variable, Field ID, Label, Card Number, Form, Question, Year, Units, Derived Status, Later Version, Sensitive, Reason Public, Reason Sensitive, Notes</td></tr>
+      <tr><td>Linked &amp; Longitudinal</td><td>One combined list &#8212; Truly Longitudinal and Linked variables are not distinguished from one another</td></tr>
+      <tr><td>Documents</td><td>Questionnaire links and technical docs attached at variable level, same as OWL</td></tr>
+      <tr><td>Categories</td><td>All category memberships listed</td></tr>
+      <tr><td>Value Labels</td><td>Full coded value labels listed</td></tr>
+      <tr><td>Distribution</td><td>Basic bar chart/histogram with core stats (counts, deciles, mean, SD) &#8212; no box-and-whisker, no stacked bar, no downloads</td></tr>
+    </table>
+
+    <p>Because everything sits in one table rather than separated tabs, Condor&#8217;s page can take more scrolling to get through for a variable with a lot of linked variables or documents attached &#8212; there&#8217;s no jumping straight to the section you need.</p>
+
+    <div class="condor-callout">
+      <strong>Condor vs OWL presentation:</strong> All linked and longitudinal variables are listed together, undifferentiated &#8212; Condor does not indicate which connections share an identical Field ID and coding versus which are linked more loosely, and the Distribution section only shows the basic chart and core statistics, with no download option for either the plot or the stats table. See the <a href="#owl-metadata" style="color:hsl(270 35% 25%); text-decoration:underline;">OWL Metadata Page</a> section above for the enhanced version of this same information.
+    </div>
+
+    <a class="gs-link-card gs-pink" href="https://rmjdish.github.io/OWL/docs/getting_started/variable-metadata/NSHD_Metadata-page.html" style="margin-top:12px;">
+      <i class="ti ti-table" aria-hidden="true"></i>
+      <div style="flex:1;">
+        <p class="gs-link-card-title">OWL and Condor Metadata Page &rarr;</p>
+        <p class="gs-link-card-desc">Full guide to every section of the metadata page, covering both OWL and Condor.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+    </a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-sidebar" id="comparison" style="border: 2px solid hsl(340 45% 60%);">
+    <h2><i class="ti ti-table" aria-hidden="true"></i> OWL vs Condor</h2>
+    <p>Use the table below to see what each of OWL and Condor covers at a glance.</p>
+
+    <style>
+      .page-variable-metadata .vm-compare { width:100%; border-collapse:collapse; table-layout:fixed; font-size:12.5px; margin-top:12px; border:1px solid #ccc; border-radius:6px; overflow:hidden; }
+      .page-variable-metadata .vm-compare th { padding:10px 14px !important; color:white; text-align:left; font-size:13px; }
+      .page-variable-metadata .vm-compare td { padding:10px 14px !important; vertical-align:top; line-height:1.55; color:#333; }
+      .page-variable-metadata .vm-compare td:first-child { width:16%; }
+      .page-variable-metadata .vm-compare .vm-fieldnote { margin:8px 0 0; font-size:11px; color:#555; }
+      .page-variable-metadata .vm-compare .vm-fieldlead { margin:0 0 6px; font-size:11px; color:#555; font-style:italic; }
+      .comp-row-teal  td { background: hsl(180 45% 94%); border-bottom: 1px solid hsl(180 45% 82%); }
+      .comp-row-teal  td:first-child { color: hsl(180 45% 18%); font-weight: 700; }
+      .comp-row-amber td { background: hsl(35 60% 94%); border-bottom: 1px solid hsl(35 60% 82%); }
+      .comp-row-amber td:first-child { color: hsl(35 60% 18%); font-weight: 700; }
+      .comp-row-pink  td { background: hsl(340 45% 94%); border-bottom: 1px solid hsl(340 45% 82%); }
+      .comp-row-pink  td:first-child { color: hsl(340 45% 22%); font-weight: 700; }
+      .comp-row-sage  td { background: hsl(125 35% 93%); border-bottom: 1px solid hsl(125 35% 80%); }
+      .comp-row-sage  td:first-child { color: hsl(125 35% 18%); font-weight: 700; }
+      .comp-row-blue  td { background: hsl(210 45% 94%); border-bottom: 1px solid hsl(210 45% 82%); }
+      .comp-row-blue  td:first-child { color: hsl(210 45% 18%); font-weight: 700; }
+      .comp-row-lav   td { background: hsl(270 35% 94%); border-bottom: 1px solid hsl(270 35% 82%); }
+      .comp-row-lav   td:first-child { color: hsl(270 35% 22%); font-weight: 700; }
+      .comp-row-best  td { background: hsl(125 35% 91%); }
+      .comp-row-best  td:first-child { color: hsl(125 35% 18%); font-weight: 700; }
+    </style>
+
+    <table class="vm-compare">
+      <thead>
+        <tr>
+          <th style="width:16%; background:#3a0066;"></th>
+          <th style="width:42%; background:hsl(180 45% 28%);"><i class="ti ti-search" aria-hidden="true" style="margin-right:4px;"></i>OWL</th>
+          <th style="width:42%; background:hsl(270 35% 32%);"><i class="ti ti-table" aria-hidden="true" style="margin-right:4px;"></i>Condor</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr class="comp-row-teal">
+          <td>Access via</td>
+          <td>Variable name wherever it appears &#8212; in any of the searches, or in the table at the end of the documentation</td>
+          <td>Variable name within a Condor basket</td>
+        </tr>
+
+        <tr class="comp-row-amber">
+          <td>Metadata fields</td>
+          <td>
+            <p class="vm-fieldlead">Questionnaire and collection provenance:</p>
+            <div>
+              <span class="field-pill" title="The short coded identifier used in the dataset, e.g. ghi09 or ht89u. Variable names usually combine an abbreviation with a sweep year. The same question asked at multiple sweeps will have related names with different suffixes.">Variable name</span>
+              <span class="field-pill" title="A numeric identifier that groups the sweeps of a truly longitudinal variable. Variables sharing the same Field ID, with identical question text and coding across sweeps, are treated as the same longitudinal variable.">Field ID</span>
+              <span class="field-pill" title="The plain-English description of what a variable measures, paired with the coded variable name &#8212; e.g. 'How is your health in general? &#8212; at age 60&#8211;64 years'.">Label</span>
+              <span class="field-pill" title="An internal reference linking the variable to a specific section or card within the questionnaire library file. Used for cross-referencing against the original instrument.">Card Number</span>
+              <span class="field-pill" title="The data collection instrument the variable came from &#8212; e.g. postal questionnaire, nurse schedule, home visit, CAPI interview, or medical examination. Together with Question and Year, this tells you exactly where to find the question in the original source.">Form</span>
+              <span class="field-pill" title="The specific question number within that form &#8212; e.g. 96(a). Together with Form and Year, allows you to locate the exact question in the original questionnaire.">Question</span>
+              <span class="field-pill" title="The year or year range data was collected, corresponding to a study sweep &#8212; e.g. 2006&#8211;10. A sweep is a single round of data collection from study members at a particular age or year. The NSHD has had 36 sweeps spanning birth to age 76&#8211;77.">Year</span>
+              <span class="field-pill" title="The unit of measurement for continuous variables, e.g. cm, kg, mmHg. Shows 'Not applicable' for categorical variables where responses are coded categories rather than measured quantities.">Units</span>
+              <span class="field-pill" title="0 = the variable was directly measured or recorded during data collection. 1 = a derived variable, calculated from one or more other raw measurements &#8212; for example, BMI derived from separately measured height and weight, or a summary score combining several questionnaire items.">Derived Status</span>
+              <span class="field-pill" title="If a more recent or corrected version of this variable exists, it is listed here. NA means this is the current version. Always check this field before including a variable in a data request &#8212; if a later version exists, use that instead.">Later Version</span>
+              <span class="field-pill" title="0 = no specific sensitivity flag. 1 = the variable may need additional governance discussion to include in a request, for example due to low cell counts or the nature of the variable. This is separate from restricted variables, which are marked with a lock icon.">Sensitive</span>
+              <span class="field-pill" title="Where applicable, the stated reason this variable is publicly visible in the OWL. NA if not specified.">Reason Public</span>
+              <span class="field-pill" title="Where applicable, the reason the variable is marked as sensitive &#8212; for example due to low cell counts or the nature of the variable. NA if the variable is not sensitive.">Reason Sensitive</span>
+              <span class="field-pill" title="Free-text contextual notes specific to this variable &#8212; measurement conditions, known caveats, recoding details, or quality notes. For example, whether a height measurement was taken with or without shoes.">Notes</span>
+            </div>
+            <p class="vm-fieldnote">Hover over any field name for a description. <a href="/OWL/docs/getting-started/cohort-jargon/" style="color:#6a0dad;">Not sure about a term? See the cohort jargon glossary &rarr;</a></p>
+          </td>
+          <td>
+            <p class="vm-fieldlead">Same fields as OWL, listed one after another in a single flat table:</p>
+            <div>
+              <span class="field-pill">Variable name</span>
+              <span class="field-pill">Field ID</span>
+              <span class="field-pill">Label</span>
+              <span class="field-pill">Card Number</span>
+              <span class="field-pill">Form</span>
+              <span class="field-pill">Question</span>
+              <span class="field-pill">Year</span>
+              <span class="field-pill">Units</span>
+              <span class="field-pill">Derived Status</span>
+              <span class="field-pill">Later Version</span>
+              <span class="field-pill">Sensitive</span>
+              <span class="field-pill">Reason Public</span>
+              <span class="field-pill">Reason Sensitive</span>
+              <span class="field-pill">Notes</span>
+            </div>
+            <p class="vm-fieldnote">Identical field set to OWL &#8212; no tabs, so all fields appear in one continuous table rather than grouped panels.</p>
+          </td>
+        </tr>
+
+        <tr class="comp-row-pink">
+          <td>Longitudinal linkage</td>
+          <td><strong>Flexible, with the strict subset flagged separately</strong> &#8212; results split into <em>Truly Longitudinal</em> (same Field ID, identical coding) and <em>Linked variables</em> (any connection made; coding may differ).</td>
+          <td><strong>Flexible, undifferentiated</strong> &#8212; Truly Longitudinal and Linked variables are listed together in one table, with no indication of which connections share an identical Field ID and coding</td>
+        </tr>
+
+        <tr class="comp-row-sage">
+          <td>Sweep presentation</td>
+          <td>Each sweep on its <strong>own separate page</strong> by default &#8212; but for a Truly Longitudinal variable, a &#8220;View all sweeps&#8221; button opens every sweep together on <strong>one page</strong> too, with a merged statistics table</td>
+          <td>Each sweep on its <strong>own separate page</strong>, same as OWL &#8212; navigate to each linked variable individually</td>
+        </tr>
+
+        <tr class="comp-row-blue">
+          <td>Distribution &amp; stats</td>
+          <td>&#10003; Bar chart + counts (categorical) or histogram + deciles/mean/SD (continuous) &#8212; <strong>for this variable only</strong>. <strong>Enhanced on OWL:</strong> a 100% stacked summary bar and percentages (categorical), a box-and-whisker summary plus median/IQR/range (continuous), and direct download of the plot image and statistics table.</td>
+          <td>&#10003; Bar chart + counts (categorical) or histogram + deciles/mean/SD (continuous) &#8212; <strong>for this variable only</strong>. Basic version only &#8212; no stacked bar, no box-and-whisker summary, and no download option for the plot or stats table.</td>
+        </tr>
+
+        <tr class="comp-row-lav">
+          <td>Category placement</td>
+          <td>&#10003; Variable can belong to <strong>multiple categories</strong> &#8212; all memberships listed with description</td>
+          <td>&#10003; Variable can belong to <strong>multiple categories</strong>, same as OWL &#8212; listed in the flat table rather than a separate panel</td>
+        </tr>
+
+        <tr class="comp-row-teal">
+          <td>Documentation</td>
+          <td>&#10003; Questionnaire links and technical docs attached at variable level</td>
+          <td>&#10003; Same documents attached at variable level as OWL</td>
+        </tr>
+
+        <tr class="comp-row-amber">
+          <td>Value labels</td>
+          <td>&#10003; Full coded value labels listed, with missing-value categories visually highlighted and explained</td>
+          <td>&#10003; Full coded value labels listed</td>
+        </tr>
+
+        <tr class="comp-row-pink">
+          <td>Disclosure controls</td>
+          <td>&#10003; &lt;10 suppression / 5th&#8211;95th trimming</td>
+          <td>&#10003; Same controls applied</td>
+        </tr>
+
+        <tr class="comp-row-best">
+          <td>Best for</td>
+          <td>Understanding one variable in depth quickly &#8212; the tabbed layout and enhanced distribution stats make it faster to navigate and richer to read than Condor&#8217;s version</td>
+          <td>Understanding one variable in depth while already working in Condor &#8212; same underlying metadata as OWL, just in a single flat table</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-basket" id="which-to-use" style="border: 2px solid hsl(125 35% 55%);">
+    <h2><i class="ti ti-map-2" aria-hidden="true"></i> Which should I use?</h2>
+    <p>Most questions can be answered on either platform. A few can only be answered on OWL.</p>
+
+    <h3 class="vm-sub" style="--vm-ink:hsl(180 45% 16%); --vm-line:hsl(180 45% 65%); --vm-icon:hsl(180 45% 32%);"><i class="ti ti-arrows-exchange" aria-hidden="true"></i> Either platform works</h3>
+    <div class="which-grid">
+
+      <div class="which-teal">
+        <p class="wq">I want to know which form, question number, and year a variable was collected</p>
+        <p class="wa">&#8594; <strong>OWL or Condor Metadata Page</strong> &#8212; Form, Question, Card Number, and Year fields give full questionnaire provenance on either platform</p>
+      </div>
+
+      <div class="which-teal">
+        <p class="wq">I want to know if a variable is derived or has sensitivity restrictions</p>
+        <p class="wa">&#8594; <strong>OWL or Condor Metadata Page</strong> &#8212; Derived Status, Sensitive, Reason Public, and Reason Sensitive fields, same on both platforms</p>
+      </div>
+
+      <div class="which-teal">
+        <p class="wq">I want to check if a newer or corrected version of a variable exists</p>
+        <p class="wa">&#8594; <strong>OWL or Condor Metadata Page</strong> &#8212; Later Version field tells you if the variable has been superseded and what to use instead</p>
+      </div>
+
+      <div class="which-teal">
+        <p class="wq">I want additional context about how a variable was measured or any known caveats</p>
+        <p class="wa">&#8594; <strong>OWL or Condor Metadata Page</strong> &#8212; Notes may contain measurement conditions, recoding details, or quality caveats</p>
+      </div>
+
+      <div class="which-teal">
+        <p class="wq">I want to see all the categories a variable belongs to</p>
+        <p class="wa">&#8594; <strong>OWL or Condor Metadata Page</strong> &#8212; shows all category memberships; a variable can belong to multiple</p>
+      </div>
+
+      <div class="which-teal">
+        <p class="wq">I want to link variables across sweeps even if the coding or wording changed</p>
+        <p class="wa">&#8594; <strong>OWL or Condor Metadata Page</strong> &#8212; both link variables for any reason, regardless of coding; OWL labels this the Linked variables subsection, Condor lists it alongside Truly Longitudinal links in the same table</p>
+      </div>
+
+    </div>
+
+    <h3 class="vm-sub" style="--vm-ink:hsl(35 60% 20%); --vm-line:hsl(35 60% 60%); --vm-icon:hsl(35 60% 38%);"><i class="ti ti-search" aria-hidden="true"></i> OWL only</h3>
+    <div class="which-grid">
+
+      <div class="which-amber">
+        <p class="wq">I want to compare distributions across all sweeps on one page</p>
+        <p class="wa">&#8594; <strong>OWL Metadata Page</strong> &#8212; the &#8220;View all sweeps&#8221; button (Distribution or Linked &amp; Longitudinal tab) shows every Truly Longitudinal sweep together, with a merged statistics table and downloads</p>
+      </div>
+
+      <div class="which-amber">
+        <p class="wq">I want to download every sweep&#8217;s distribution together, not just one variable&#8217;s</p>
+        <p class="wa">&#8594; <strong>OWL Metadata Page</strong> &#8212; the &#8220;View all sweeps&#8221; page has its own CSV download (the full merged statistics table) and a single combined image covering every sweep&#8217;s chart; this isn&#8217;t available on Condor</p>
+      </div>
+
+      <div class="which-amber">
+        <p class="wq">I want to know whether a comparison across sweeps is strictly valid before I rely on it</p>
+        <p class="wa">&#8594; <strong>OWL Metadata Page</strong> &#8212; check whether the variable appears in the purple Truly Longitudinal subsection (same Field ID, guaranteed comparable) or only the green Linked variables subsection (coding may differ); Condor lists both together so this distinction isn&#8217;t visible there</p>
+      </div>
+
+      <div class="which-amber">
+        <p class="wq">I want to save the distribution chart or statistics table for a variable outside OWL</p>
+        <p class="wa">&#8594; <strong>OWL Metadata Page</strong> &#8212; the Distribution tab has separate download buttons for the plot image and the full statistics table; this isn&#8217;t available on Condor&#8217;s version of the page</p>
+      </div>
+
+      <div class="which-amber">
+        <p class="wq">I want to see where a variable sits in the category hierarchy</p>
+        <p class="wa">&#8594; <strong>OWL Metadata Page</strong> &#8212; each category in the Categories tab links to its Browse by Category page, which shows the full breadcrumb path</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

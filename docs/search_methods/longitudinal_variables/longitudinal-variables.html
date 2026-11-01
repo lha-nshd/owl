@@ -1,0 +1,132 @@
+---
+layout: default
+title: Longitudinal Variables
+parent: Longitudinal Search
+nav_order: 1
+permalink: /docs/search_methods/longitudinal_variables/longitudinal-variables/
+classes: page-longitudinal-variables
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/longitudinal_variables.css?v=21">
+
+<div class="page-topics page-longitudinal-variables">
+
+  <div id="loadingScreen" class="loading-screen">
+    <div class="spinner"></div>
+    <div>Loading longitudinal variables…</div>
+  </div>
+
+  <div id="mainUI" style="display:none;">
+
+    <div class="hero-banner">
+      <h1><i class="ti ti-repeat" aria-hidden="true"></i> Longitudinal Variables</h1>
+      <p>Variables collected with identical question text and coding across two or more sweeps — true longitudinal measures you can track across the NSHD lifespan. Click <strong>View</strong> on any row to see the sweep-by-sweep trajectory, distribution chart, and summary statistics.</p>
+      <div class="hero-stats">
+        <span class="hero-stat">
+          <i class="ti ti-hash" aria-hidden="true" style="font-size:13px;color:#6a0dad;"></i>
+          <strong id="metricCount">—</strong> longitudinal Field IDs
+        </span>
+        <span class="hero-stat">
+          <i class="ti ti-calendar-repeat" aria-hidden="true" style="font-size:13px;color:#6a0dad;"></i>
+          <strong id="metricSweeps">—</strong>
+        </span>
+        <span class="hero-stat">
+          <i class="ti ti-clock" aria-hidden="true" style="font-size:13px;color:#6a0dad;"></i>
+          <strong id="metricRange">—</strong>
+        </span>
+        <span class="hero-stat">
+          <i class="ti ti-info-circle" aria-hidden="true" style="font-size:13px;color:#6a0dad;"></i>
+          Grouped by Showcase Field ID — identical question text and coding only
+        </span>
+      </div>
+      <p style="margin:10px 0 0;font-size:12px;">
+        <a href="/OWL//docs/search_methods/longitudinal_variables/longitudinal_search_guide/" style="color:#6a0dad;">
+          <i class="ti ti-book" aria-hidden="true" style="font-size:12px;"></i>
+          Read the full guide to Longitudinal Search →
+        </a>
+      </p>
+    </div>
+
+    <div class="callout-note">
+      <i class="ti ti-alert-circle" aria-hidden="true" style="font-size:16px;flex-shrink:0;margin-top:1px;"></i>
+      <span><strong>Adding variables from this page adds all sweeps.</strong> Ticking the checkbox on a row, or clicking "Add all to basket" inside the expanded panel, adds every variable name for that Field ID to your basket — one per sweep. If you only need specific sweeps, open the panel and add from inside the detail table.</span>
+    </div>
+
+    <div class="controls-row">
+      <input id="globalSearch" type="text" style="flex:none;width:260px;"
+             placeholder="Search by label, variable name, or Field ID…" />
+      <select id="sweepFilter" style="width:140px;">
+        <option value="2">2+ sweeps</option>
+        <option value="3">3+ sweeps</option>
+        <option value="5">5+ sweeps</option>
+        <option value="7">7+ sweeps</option>
+        <option value="10">10+ sweeps</option>
+      </select>
+      <select id="topicFilter" style="width:200px;">
+        <option value="">All topics</option>
+      </select>
+      <button id="resetFiltersBtn" class="reset-filters-btn">
+        <i class="ti ti-filter-x" aria-hidden="true" style="font-size:13px;"></i> Reset filters
+      </button>
+      <button id="downloadCsvBtn" class="download-btn" style="margin-left:auto;">
+        <i class="ti ti-download" aria-hidden="true" style="font-size:13px;"></i> Download CSV
+      </button>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;
+                margin-bottom:8px;flex-wrap:wrap;gap:10px;">
+      <span id="resultsCount" style="font-size:12px;color:var(--text-muted);"></span>
+
+      <div class="check-legend">
+        <span class="check-legend-item">
+          <span class="legend-swatch empty"></span>
+          <span>Not in basket</span>
+        </span>
+        <span class="check-legend-item">
+          <span class="legend-swatch partial"></span>
+          <span>Some sweeps in basket</span>
+        </span>
+        <span class="check-legend-item">
+          <span class="legend-swatch full"></span>
+          <span>All sweeps in basket</span>
+        </span>
+      </div>
+
+      <div id="paginationTop" class="pagination-bar"></div>
+    </div>
+
+    <div class="table-wrap">
+      <table id="mainTable">
+        <thead>
+          <tr>
+            <th style="width:44px;text-align:center;">Add</th>
+            <th style="width:72px;" data-sort="fieldId">
+              Field ID<span class="sort-icon" style="opacity:0.4;"> ⇅</span>
+            </th>
+            <th data-sort="label">
+              Label<span class="sort-icon" style="opacity:0.4;"> ⇅</span>
+            </th>
+            <th style="width:160px;" data-sort="topic">
+              Topic<span class="sort-icon" style="opacity:0.4;"> ⇅</span>
+            </th>
+            <th style="width:130px;" data-sort="sweeps">
+              Sweeps<span class="sort-icon" style="opacity:0.4;"> ⇅</span>
+            </th>
+            <th style="width:72px;text-align:center;">View</th>
+          </tr>
+        </thead>
+        <tbody id="mainTbody"></tbody>
+      </table>
+    </div>
+
+    <div style="display:flex;justify-content:flex-end;align-items:center;">
+      <div id="paginationBottom" class="pagination-bar"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="{{ site.baseurl }}/assets/js/longitudinal_variables.js?v=22"></script>

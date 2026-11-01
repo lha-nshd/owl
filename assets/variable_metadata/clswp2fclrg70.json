@@ -1,0 +1,580 @@
+{
+  "varname": "clswp2fclrg70",
+  "label": "Father's social class 1957 (coded to RG Class 1970)  (CLS Harmonisation)",
+  "field_id": "40205",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=40205",
+  "year": "",
+  "form": "A6 - Mother's interview by nurse",
+  "units": "RG Class 1970",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 3.0797758532857875,
+  "sd": 0.9382914153502322,
+  "series_size": 3926.0,
+  "minimum": 1.0,
+  "maximum": 5.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "clswp2clrg90"
+  ],
+  "linked_years": [
+    "1989"
+  ],
+  "categories": [
+    "Social class [22]",
+    "Social class (1972-1999) [51542]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Father not in employment/no information"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "I Professional"
+    },
+    {
+      "value": "2.0",
+      "label": "II Intermediate"
+    },
+    {
+      "value": "3.1",
+      "label": "IIINM Skilled Non-Manual"
+    },
+    {
+      "value": "3.2",
+      "label": "IV Skilled Manual"
+    },
+    {
+      "value": "4.0",
+      "label": "IV Semi-skilled Manual"
+    },
+    {
+      "value": "5.0",
+      "label": "V Unskilled Manual"
+    },
+    {
+      "value": "6.0",
+      "label": "Occup unclassifiable/ insuffic info/ armed forces/ carer / unemployed / sick / retired"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "clswp2fclrg70",
+    "label": "Father's social class 1957 (coded to RG Class 1970)  (CLS Harmonisation)",
+    "meta_rows": [
+      [
+        "Variable",
+        "clswp2fclrg70"
+      ],
+      [
+        "Field ID",
+        "40205"
+      ],
+      [
+        "Label",
+        "Father's social class 1957 (coded to RG Class 1970)  (CLS Harmonisation)"
+      ],
+      [
+        "Card Number",
+        "CLSWP2SES"
+      ],
+      [
+        "Form",
+        "A6 - Mother's interview by nurse"
+      ],
+      [
+        "Question",
+        "20"
+      ],
+      [
+        "Year",
+        "1957"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "RG Class 1970"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "CLOSER work package 2: Harmonised socio-economic measures.  Values are based on variables FOCC57 and FSTAT57 from the 1957 data collection. These were coded to the 1970 version of the OPCS occupational coding scheme. The standard OPCS syntax was used for the derivation of 1970 RG Social class, as no look-up table was available to harmonise 1970 occupation coding's to the 1990-version RG codes"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "clswp2clrg90",
+        "Own social class 1989 (coded to RG Class 1990)  (CLS Harmonisation)",
+        "1989",
+        "Various",
+        "Various",
+        "CLSWP2SES"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social class [22]",
+        "Legacy Category"
+      ],
+      [
+        "Social class (1972-1999) [51542]",
+        "This category contains dervied social class variables using own and partner\u2019s occupation asked at 26, 36, 43 and 53 years. Childhood social class was derived from Father's occupation."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Father not in employment/no information",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "I Professional",
+        false
+      ],
+      [
+        "2.0",
+        "II Intermediate",
+        false
+      ],
+      [
+        "3.1",
+        "IIINM Skilled Non-Manual",
+        false
+      ],
+      [
+        "3.2",
+        "IV Skilled Manual",
+        false
+      ],
+      [
+        "4.0",
+        "IV Semi-skilled Manual",
+        false
+      ],
+      [
+        "5.0",
+        "V Unskilled Manual",
+        false
+      ],
+      [
+        "6.0",
+        "Occup unclassifiable/ insuffic info/ armed forces/ carer / unemployed / sick / retired",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.0"
+      ],
+      [
+        "Maximum",
+        "5.0"
+      ],
+      [
+        "Range",
+        "4.0"
+      ],
+      [
+        "Median",
+        "3.2"
+      ],
+      [
+        "IQR",
+        "2.0 - 4.0"
+      ],
+      [
+        "Decile 1",
+        "2.0"
+      ],
+      [
+        "Decile 2",
+        "2.0"
+      ],
+      [
+        "Decile 3",
+        "3.1"
+      ],
+      [
+        "Decile 4",
+        "3.1"
+      ],
+      [
+        "Decile 5",
+        "3.2"
+      ],
+      [
+        "Decile 6",
+        "3.2"
+      ],
+      [
+        "Decile 7",
+        "3.2"
+      ],
+      [
+        "Decile 8",
+        "4.0"
+      ],
+      [
+        "Decile 9",
+        "4.0"
+      ],
+      [
+        "Mean",
+        "3.0797758532857875"
+      ],
+      [
+        "Std Dev.",
+        "0.9382914153502322"
+      ],
+      [
+        "Variance",
+        "0.8803907801199419"
+      ],
+      [
+        "Displayed N",
+        "3926"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "clswp2fclrg70",
+    "label": "Father's social class 1957 (coded to RG Class 1970)  (CLS Harmonisation)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=40205",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "clswp2fclrg70",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "40205",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Father's social class 1957 (coded to RG Class 1970)  (CLS Harmonisation)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CLSWP2SES",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A6 - Mother's interview by nurse",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "20",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1957",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "RG Class 1970",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "CLOSER work package 2: Harmonised socio-economic measures.  Values are based on variables FOCC57 and FSTAT57 from the 1957 data collection. These were coded to the 1970 version of the OPCS occupational coding scheme. The standard OPCS syntax was used for the derivation of 1970 RG Social class, as no look-up table was available to harmonise 1970 occupation coding's to the 1990-version RG codes",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "clswp2clrg90",
+        "description": "Own social class 1989 (coded to RG Class 1990)  (CLS Harmonisation)",
+        "year": "1989",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLSWP2SES"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social class [22]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Social class (1972-1999) [51542]",
+        "description": "This category contains dervied social class variables using own and partner\u2019s occupation asked at 26, 36, 43 and 53 years. Childhood social class was derived from Father's occupation.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Social_class_(1972-1999)_51542.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Father not in employment/no information",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "I Professional",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "II Intermediate",
+        "is_missing": false
+      },
+      {
+        "value": "3.1",
+        "label": "IIINM Skilled Non-Manual",
+        "is_missing": false
+      },
+      {
+        "value": "3.2",
+        "label": "IV Skilled Manual",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "IV Semi-skilled Manual",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "V Unskilled Manual",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "Occup unclassifiable/ insuffic info/ armed forces/ carer / unemployed / sick / retired",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 2,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "RG Class 1970",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1.0,
+          1.25,
+          1.5,
+          1.75,
+          2.0,
+          2.25,
+          2.5,
+          2.75,
+          3.0,
+          3.25,
+          3.5,
+          3.75,
+          4.0,
+          4.25,
+          4.5,
+          4.75,
+          5.0
+        ],
+        "counts": [
+          237,
+          0,
+          0,
+          0,
+          766,
+          0,
+          0,
+          0,
+          1938,
+          0,
+          0,
+          0,
+          744,
+          0,
+          0,
+          241
+        ]
+      },
+      "boxplot": {
+        "min": 1.0,
+        "q1": 2.0,
+        "median": 3.2,
+        "q3": 4.0,
+        "max": 5.0
+      },
+      "units": "RG Class 1970"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.0"
+      ],
+      [
+        "Maximum",
+        "5.0"
+      ],
+      [
+        "Range",
+        "4.0"
+      ],
+      [
+        "Median",
+        "3.2"
+      ],
+      [
+        "IQR",
+        "2.0 - 4.0"
+      ],
+      [
+        "Decile 1",
+        "2.0"
+      ],
+      [
+        "Decile 2",
+        "2.0"
+      ],
+      [
+        "Decile 3",
+        "3.1"
+      ],
+      [
+        "Decile 4",
+        "3.1"
+      ],
+      [
+        "Decile 5",
+        "3.2"
+      ],
+      [
+        "Decile 6",
+        "3.2"
+      ],
+      [
+        "Decile 7",
+        "3.2"
+      ],
+      [
+        "Decile 8",
+        "4.0"
+      ],
+      [
+        "Decile 9",
+        "4.0"
+      ],
+      [
+        "Mean",
+        "3.0797758532857875"
+      ],
+      [
+        "Std Dev.",
+        "0.9382914153502322"
+      ],
+      [
+        "Variance",
+        "0.8803907801199419"
+      ],
+      [
+        "Displayed N",
+        "3926"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,8 +1,25 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: NSHD OWL
+description: A website home to the NSHD Metadata and documentation.
+
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://lha-nshd.github.io
+baseurl: "/owl"
+
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+sass:
+  load_paths:
+    - assets/css
+
+include:
+    - assets/css/   
+
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - .jekyll-cache/
+  - node_modules/

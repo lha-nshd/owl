@@ -1,0 +1,48 @@
+---
+layout: default
+title: Search Documentation
+parent: Documentation Hub
+nav_order: 1
+permalink: /docs/documentation/search-documentation/
+has_toc: false
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/documentation.css">
+<div class="page-topics page-questionnaire_by_year page-search-documentation">
+  <div class="hero-banner">
+    <h1><i class="ti ti-compass" aria-hidden="true"></i> Search Documentation</h1>
+    <p>Every document that's been turned into a page, in one searchable list — topsheets, variable notes, multi-sweep documentation, and narrative data notes together. Search by title, topic, category, summary, or variable name, or filter to one kind of document at a time.</p>
+  </div>
+  <div class="home-section gs-card-search" id="doc-search">
+    <div class="doc-search-controls">
+      <input type="search" id="docSearchInput" class="doc-search-input"
+             placeholder="Search by title, topic, variable name, category, summary…" autocomplete="off">
+      <select id="docTypeFilter" class="doc-search-select">
+        <option value="">All document types</option>
+      </select>
+      <select id="docPageSize" class="doc-search-select">
+        <option value="25">25 per page</option>
+        <option value="50" selected>50 per page</option>
+        <option value="100">100 per page</option>
+        <option value="all">Show all</option>
+      </select>
+    </div>
+    <p id="docSearchCount" class="doc-search-count"></p>
+    <div id="docPaginationTop" class="doc-pagination"></div>
+    <table class="doc-search-table">
+      <thead>
+        <tr>
+          <th class="doc-th-sortable" data-sort="title">Document <span class="ti ti-selector doc-sort-icon"></span></th>
+          <th class="doc-th-sortable" data-sort="confidence">Variables found <span class="ti ti-selector doc-sort-icon"></span></th>
+          <th class="doc-th-sortable" data-sort="type">Type <span class="ti ti-selector doc-sort-icon"></span></th>
+        </tr>
+      </thead>
+      <tbody id="docSearchResults"></tbody>
+    </table>
+    <div id="docPagination" class="doc-pagination"></div>
+    <p id="docSearchEmpty" class="doc-search-empty" style="display:none;">No documents match your search.</p>
+    <p id="docSearchError" class="doc-search-empty" style="display:none;">Couldn't load the document index — try refreshing the page.</p>
+  </div>
+</div>
+<script src="{{ site.baseurl }}/assets/js/search-documentation.js"></script>

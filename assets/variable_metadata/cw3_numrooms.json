@@ -1,0 +1,489 @@
+{
+  "varname": "cw3_numrooms",
+  "label": "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 3 (age 75 years)",
+  "field_id": "12220",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12220",
+  "year": "",
+  "form": "Covid wave 3",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 52.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "12220",
+  "truly_longitudinal_varnames": [
+    "cw1_numrooms",
+    "cw2_numrooms"
+  ],
+  "truly_longitudinal_years": [
+    "2020",
+    "2021"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Coronavirus (Covid-19) [28]",
+    "Family and home [6023]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "No information"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "3.0",
+      "label": "3"
+    },
+    {
+      "value": "4.0",
+      "label": "4"
+    },
+    {
+      "value": "5.0",
+      "label": "5"
+    },
+    {
+      "value": "6.0",
+      "label": "6"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "3",
+      "count": 16,
+      "pct": 30.8
+    },
+    {
+      "label": "4",
+      "count": 14,
+      "pct": 26.9
+    },
+    {
+      "label": "5",
+      "count": 11,
+      "pct": 21.2
+    },
+    {
+      "label": "6",
+      "count": 11,
+      "pct": 21.2
+    }
+  ],
+  "pdf": {
+    "varname": "cw3_numrooms",
+    "label": "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 3 (age 75 years)",
+    "meta_rows": [
+      [
+        "Variable",
+        "cw3_numrooms"
+      ],
+      [
+        "Field ID",
+        "12220"
+      ],
+      [
+        "Label",
+        "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 3 (age 75 years)"
+      ],
+      [
+        "Card Number",
+        "CW3_COVID"
+      ],
+      [
+        "Form",
+        "Covid wave 3"
+      ],
+      [
+        "Question",
+        "58"
+      ],
+      [
+        "Year",
+        "2021"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about people participant is currently living with - Covid wave 3 questionnaire."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cw1_numrooms",
+        "2020",
+        "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 1 (age 74 years)"
+      ],
+      [
+        "cw2_numrooms",
+        "2020",
+        "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 2 (age 74 years)"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Coronavirus (Covid-19) [28]",
+        "Legacy Category"
+      ],
+      [
+        "Family and home [6023]",
+        "This category contains data about the family and home where the participant is currently living. This included household grid, relationships, family and conflict change, childcare, caring and housing asked in the 2020-2021 covid questionnaires where the participant was 74 years."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "No information",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "3.0",
+        "3",
+        false
+      ],
+      [
+        "4.0",
+        "4",
+        false
+      ],
+      [
+        "5.0",
+        "5",
+        false
+      ],
+      [
+        "6.0",
+        "6",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "3",
+        "16",
+        "31%"
+      ],
+      [
+        "4",
+        "14",
+        "27%"
+      ],
+      [
+        "5",
+        "11",
+        "21%"
+      ],
+      [
+        "6",
+        "11",
+        "21%"
+      ],
+      [
+        "Displayed N",
+        "52",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "cw3_numrooms",
+    "label": "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 3 (age 75 years)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12220",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cw3_numrooms",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "12220",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 3 (age 75 years)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CW3_COVID",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Covid wave 3",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "58",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2021",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about people participant is currently living with - Covid wave 3 questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "12220",
+      "members": [
+        {
+          "varname": "cw1_numrooms",
+          "year": "2020",
+          "label": "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 1 (age 74 years)",
+          "is_current": false
+        },
+        {
+          "varname": "cw2_numrooms",
+          "year": "2020",
+          "label": "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 2 (age 74 years)",
+          "is_current": false
+        },
+        {
+          "varname": "cw3_numrooms",
+          "year": "2021",
+          "label": "Howmany rooms are there in the home where you are currently living (not incl. kitchens, bathrooms, halls, garages) - Covid wave 3 (age 75 years)",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Coronavirus (Covid-19) [28]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Family and home [6023]",
+        "description": "This category contains data about the family and home where the participant is currently living. This included household grid, relationships, family and conflict change, childcare, caring and housing asked in the 2020-2021 covid questionnaires where the participant was 74 years.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Family_and_home_6023.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "No information",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "3.0",
+        "label": "3",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "4",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "5",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "6",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 8
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "3",
+          "label": "3",
+          "count": 16,
+          "pct": 31
+        },
+        {
+          "value": "4",
+          "label": "4",
+          "count": 14,
+          "pct": 27
+        },
+        {
+          "value": "5",
+          "label": "5",
+          "count": 11,
+          "pct": 21
+        },
+        {
+          "value": "6",
+          "label": "6",
+          "count": 11,
+          "pct": 21
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "3",
+        "16",
+        "31%"
+      ],
+      [
+        "4",
+        "14",
+        "27%"
+      ],
+      [
+        "5",
+        "11",
+        "21%"
+      ],
+      [
+        "6",
+        "11",
+        "21%"
+      ],
+      [
+        "Displayed N",
+        "52",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

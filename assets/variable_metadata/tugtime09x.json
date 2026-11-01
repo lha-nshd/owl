@@ -1,0 +1,594 @@
+{
+  "varname": "tugtime09x",
+  "label": "Timed to get up and go  time (with exclusions) (s) - at 60-64 years",
+  "field_id": "5841",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=5841",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "seconds",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 8.89369922909072,
+  "sd": 1.4831924094522166,
+  "series_size": 1822.0,
+  "minimum": 6.190000057220459,
+  "maximum": 12.899999618530273,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "tugspeed09",
+    "tugspeed09x",
+    "tugtime09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Timed get up and go [1154]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "Non-participant"
+    },
+    {
+      "value": "888.0",
+      "label": "Unable/unwilling"
+    },
+    {
+      "value": "996.0",
+      "label": "Unfeasibly high value recorded"
+    },
+    {
+      "value": "997.0",
+      "label": "Outlying time >40s"
+    },
+    {
+      "value": "998.0",
+      "label": "Inappropriate aid used"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "tugtime09x",
+    "label": "Timed to get up and go  time (with exclusions) (s) - at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "tugtime09x"
+      ],
+      [
+        "Field ID",
+        "5841"
+      ],
+      [
+        "Label",
+        "Timed to get up and go  time (with exclusions) (s) - at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "PhysPerf09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "68(c)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "seconds"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2006-10 Timed get up and go test. More information available in the documentation."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "tugspeed09",
+        "Timed to get up and go speed (m/s) - at 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "PhysPerf09"
+      ],
+      [
+        "tugspeed09x",
+        "Timed to get up and go speed (with exclusions) (m/s) - at 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "PhysPerf09"
+      ],
+      [
+        "tugtime09",
+        "Timed to get up and go  time (s) - at 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "66(c)",
+        "PhysPerf09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Timed get up and go [1154]",
+        "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to be timed getting up from a chair, walking 3m, turning around, walking back 3m and sitting back in the chair at their normal pace (i.e. perform a test known as 'timed get up and go').  If willing and able (reasons for inability included health reasons and equipment or insufficient space) one test of timed get up and go was performed.  Unlike in other tests participants were able to use walking aids to complete this test."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "Non-participant",
+        true
+      ],
+      [
+        "888.0",
+        "Unable/unwilling",
+        true
+      ],
+      [
+        "996.0",
+        "Unfeasibly high value recorded",
+        true
+      ],
+      [
+        "997.0",
+        "Outlying time >40s",
+        true
+      ],
+      [
+        "998.0",
+        "Inappropriate aid used",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "6.190000057220459"
+      ],
+      [
+        "Maximum",
+        "12.899999618530273"
+      ],
+      [
+        "Range",
+        "6.7099995613098145"
+      ],
+      [
+        "Median",
+        "8.75"
+      ],
+      [
+        "IQR",
+        "7.78000020980835 - 9.880000114440918"
+      ],
+      [
+        "Decile 1",
+        "7.03000020980835"
+      ],
+      [
+        "Decile 2",
+        "7.550000190734863"
+      ],
+      [
+        "Decile 3",
+        "8.0"
+      ],
+      [
+        "Decile 4",
+        "8.380000114440918"
+      ],
+      [
+        "Decile 5",
+        "8.75"
+      ],
+      [
+        "Decile 6",
+        "9.15999984741211"
+      ],
+      [
+        "Decile 7",
+        "9.630000114440918"
+      ],
+      [
+        "Decile 8",
+        "10.180000305175781"
+      ],
+      [
+        "Decile 9",
+        "11.0"
+      ],
+      [
+        "Mean",
+        "8.89369922909072"
+      ],
+      [
+        "Std Dev.",
+        "1.4831924094522166"
+      ],
+      [
+        "Variance",
+        "2.199859723456672"
+      ],
+      [
+        "Displayed N",
+        "1822"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "tugtime09x",
+    "label": "Timed to get up and go  time (with exclusions) (s) - at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=5841",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "tugtime09x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "5841",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Timed to get up and go  time (with exclusions) (s) - at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysPerf09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "68(c)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "seconds",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 Timed get up and go test. More information available in the documentation.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "tugspeed09",
+        "description": "Timed to get up and go speed (m/s) - at 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "PhysPerf09"
+      },
+      {
+        "varname": "tugspeed09x",
+        "description": "Timed to get up and go speed (with exclusions) (m/s) - at 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "PhysPerf09"
+      },
+      {
+        "varname": "tugtime09",
+        "description": "Timed to get up and go  time (s) - at 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "66(c)",
+        "library_file": "PhysPerf09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Timed get up and go [1154]",
+        "description": "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to be timed getting up from a chair, walking 3m, turning around, walking back 3m and sitting back in the chair at their normal pace (i.e. perform a test known as 'timed get up and go').  If willing and able (reasons for inability included health reasons and equipment or insufficient space) one test of timed get up and go was performed.  Unlike in other tests participants were able to use walking aids to complete this test.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Timed_get_up_and_go_1154.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "Non-participant",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Unable/unwilling",
+        "is_missing": true
+      },
+      {
+        "value": "996.0",
+        "label": "Unfeasibly high value recorded",
+        "is_missing": true
+      },
+      {
+        "value": "997.0",
+        "label": "Outlying time >40s",
+        "is_missing": true
+      },
+      {
+        "value": "998.0",
+        "label": "Inappropriate aid used",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "seconds",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          6.190000057220459,
+          6.525500035285949,
+          6.861000013351441,
+          7.196499991416931,
+          7.531999969482422,
+          7.867499947547913,
+          8.202999925613403,
+          8.538499903678893,
+          8.873999881744385,
+          9.209499859809876,
+          9.544999837875366,
+          9.880499815940857,
+          10.215999794006347,
+          10.551499772071839,
+          10.886999750137328,
+          11.22249972820282,
+          11.55799970626831,
+          11.8934996843338,
+          12.228999662399293,
+          12.564499640464781,
+          12.899999618530273
+        ],
+        "counts": [
+          65,
+          77,
+          106,
+          116,
+          115,
+          161,
+          159,
+          166,
+          151,
+          125,
+          127,
+          103,
+          94,
+          61,
+          50,
+          52,
+          27,
+          28,
+          20,
+          19
+        ]
+      },
+      "boxplot": {
+        "min": 6.190000057220459,
+        "q1": 7.78000020980835,
+        "median": 8.75,
+        "q3": 9.880000114440918,
+        "max": 12.899999618530273
+      },
+      "units": "seconds"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "6.190000057220459"
+      ],
+      [
+        "Maximum",
+        "12.899999618530273"
+      ],
+      [
+        "Range",
+        "6.7099995613098145"
+      ],
+      [
+        "Median",
+        "8.75"
+      ],
+      [
+        "IQR",
+        "7.78000020980835 - 9.880000114440918"
+      ],
+      [
+        "Decile 1",
+        "7.03000020980835"
+      ],
+      [
+        "Decile 2",
+        "7.550000190734863"
+      ],
+      [
+        "Decile 3",
+        "8.0"
+      ],
+      [
+        "Decile 4",
+        "8.380000114440918"
+      ],
+      [
+        "Decile 5",
+        "8.75"
+      ],
+      [
+        "Decile 6",
+        "9.15999984741211"
+      ],
+      [
+        "Decile 7",
+        "9.630000114440918"
+      ],
+      [
+        "Decile 8",
+        "10.180000305175781"
+      ],
+      [
+        "Decile 9",
+        "11.0"
+      ],
+      [
+        "Mean",
+        "8.89369922909072"
+      ],
+      [
+        "Std Dev.",
+        "1.4831924094522166"
+      ],
+      [
+        "Variance",
+        "2.199859723456672"
+      ],
+      [
+        "Displayed N",
+        "1822"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

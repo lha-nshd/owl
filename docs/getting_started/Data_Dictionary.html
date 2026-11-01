@@ -1,0 +1,140 @@
+---
+layout: default
+title: The Data Dictionary
+parent: Getting Started
+nav_order: 3
+permalink: /docs/getting-started/data-dictionary/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-book-2" aria-hidden="true"></i> The Data Dictionary</h1>
+    <p>What the data dictionary contains, how OWL helps you complete it, and how to download your version.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#two-ways" class="dd-toc-two-ways"><i class="ti ti-route" aria-hidden="true"></i> Two ways to complete it</a></li>
+      <li><a href="#download" class="dd-toc-download"><i class="ti ti-download" aria-hidden="true"></i> Download the data dictionary</a></li>
+      <li><a href="#column-reference" class="dd-toc-column-reference"><i class="ti ti-columns" aria-hidden="true"></i> Column reference</a></li>
+      <li><a href="#role-notes" class="dd-toc-role-notes"><i class="ti ti-user" aria-hidden="true"></i> Role and Researcher's Notes</a></li>
+    </ul>
+    <a href="/OWL/docs/getting-started/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to getting started</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>The <strong>data dictionary</strong> is the spreadsheet listing every variable available through OWL, along with its metadata — this is the file NSHD uses to process a formal data request. Completing it, by marking which variables you want, is a required step before submitting an application.</p>
+    <p style="margin-top:8px;">One of OWL's purposes is to make that step easier. Search or browse for variables, add the ones you want to your basket, and OWL can fill in most of the dictionary for you automatically. Everything on this page also works without using OWL at all — the same spreadsheet can be completed entirely by hand, and the two approaches can be mixed freely.</p>
+  </div>
+
+  <div class="home-section" style="border:none;padding:0;background:none;box-shadow:none;">
+    <h2 id="two-ways" style="margin-bottom:12px;"><i class="ti ti-route" aria-hidden="true"></i> Two ways to complete it</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+
+      <div class="home-section gs-card-search" style="margin:0;">
+        <h3 style="margin:0 0 8px;font-size:15px;"><i class="ti ti-basket" aria-hidden="true"></i> Complete it on OWL</h3>
+        <p style="margin:0;">Search or browse for the variables you need and add them to your basket. When you download your basket, OWL builds a full copy of the data dictionary for you — every variable in your basket is automatically marked.</p>
+        <p style="margin:10px 0 0;"><a href="/OWL/docs/getting-started/basket-management/" style="color:#6a0dad;">How basket management works &rarr;</a></p>
+      </div>
+
+      <div class="home-section gs-card-explore" style="margin:0;">
+        <h3 style="margin:0 0 8px;font-size:15px;"><i class="ti ti-edit" aria-hidden="true"></i> Complete it manually</h3>
+        <p style="margin:0;">Download a blank copy of the data dictionary and work through it offline — no OWL basket required. This is also the way to finish off a partially-completed dictionary: do what you can on OWL, download it, then fill in the rest by hand in the same file.</p>
+        <p style="margin:10px 0 0;color:#8a6d1a;font-style:italic;">Useful if you already know exactly which variables you want, or are working from a list someone else prepared.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="home-section gs-card-basket">
+    <h2 id="download"><i class="ti ti-download" aria-hidden="true"></i> Download the data dictionary</h2>
+    <p>Both routes start from the same file. Choose the one that matches where you're starting from:</p>
+
+    <div style="display:flex;flex-direction:column;gap:10px;margin-top:10px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx">
+        <i class="ti ti-file-spreadsheet" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Download the blank data dictionary &rarr;</p>
+          <p class="gs-link-card-desc">Every dictionary column, nothing marked (without the two optional Role and Researcher's Notes columns) — start here to work through it manually.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+
+      <a class="gs-link-card gs-amber" href="/OWL/docs/getting-started/basket-management/">
+        <i class="ti ti-basket" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Download a version pre-marked from your basket &rarr;</p>
+          <p class="gs-link-card-desc">Build your basket first, then download from the basket page — see Basket Management for how.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-sidebar">
+    <h2 id="column-reference"><i class="ti ti-columns" aria-hidden="true"></i> Column reference</h2>
+    <p>Every column in the data dictionary your basket produces, listed in the same order and coloured to match the spreadsheet itself. The blank data dictionary has all of these except the last two (<strong>Variable Role</strong> and <strong>Researcher's Notes</strong>), which OWL adds when it builds your pre-filled copy. In the blank copy, the yellow request column is headed <em>Request Variable (Y)</em>.</p>
+
+    <style>
+      .dict-col-table { width:100%; border-collapse:collapse; font-size:12px; margin-top:12px; }
+      .dict-col-table th { padding:8px 12px; background:#3a0066; color:white; text-align:left; font-size:12px; }
+      .dict-col-table td { padding:7px 12px; vertical-align:top; line-height:1.55; color:#333; }
+      .dict-col-table td:first-child { font-weight:700; white-space:nowrap; width:24%; }
+      .dc-pink    td { background:#FBE4EA; border-bottom:1px solid #F3C7D5; } .dc-pink    td:first-child { color:#7A2E45; }
+      .dc-grey    td { background:#EDEDED; border-bottom:1px solid #D6D6D6; } .dc-grey    td:first-child { color:#4A4A4A; }
+      .dc-green   td { background:#E4F3E4; border-bottom:1px solid #C6E4C6; } .dc-green   td:first-child { color:#2C5E2C; }
+      .dc-blue    td { background:#E9F3FA; border-bottom:1px solid #C9E1F0; } .dc-blue    td:first-child { color:#2A5A78; }
+      .dc-salmon  td { background:#FDE9E6; border-bottom:1px solid #F4C9C3; } .dc-salmon  td:first-child { color:#8A3A30; }
+      .dc-yellow  td { background:#FFFBCC; border-bottom:1px solid #F2E66B; } .dc-yellow  td:first-child { color:#7A6A00; }
+      .dc-lavender td { background:#F1ECFB; border-bottom:1px solid #DBCFF3; } .dc-lavender td:first-child { color:#534AB7; }
+    </style>
+
+    <table class="dict-col-table">
+      <tr><th style="width:24%;">Column</th><th>What it means</th></tr>
+
+      <tr class="dc-pink"><td>NSHD Library File</td><td>An internal reference that links a variable to a specific dataset (library file).</td></tr>
+
+      <tr class="dc-grey"><td>Topic</td><td>The parent classification category this variable falls under in hierarchical category structure, e.g. Clinical data.</td></tr>
+      <tr class="dc-grey"><td>Subtopic 1</td><td>The first-level subcategory beneath Topic.</td></tr>
+      <tr class="dc-grey"><td>Subtopic 2</td><td>The second-level subcategory, where the hierarchy goes deeper.</td></tr>
+      <tr class="dc-grey"><td>Subtopic 3</td><td>The third-level subcategory, where used.</td></tr>
+      <tr class="dc-grey"><td>Subtopic 4</td><td>The fourth and most specific subcategory level, where used.</td></tr>
+
+      <tr class="dc-green"><td>NSHD Variable Name</td><td>The short coded identifier used in the dataset and when requesting the data, e.g. bmi15x.</td></tr>
+
+      <tr class="dc-yellow"><td>Request variable</td><td>Marked Y if you've added this variable to your basket on OWL — this is the field NSHD uses to identify which variables you're requesting. Left blank for every other row. In the blank data dictionary this column is headed <em>Request Variable (Y)</em>; mark the variables you want with a Y.</td></tr>
+
+      <tr class="dc-green"><td>UKLLC Dataset Name(s)</td><td>The dataset(s) this variable is available within the UK Longitudinal Linkage Collaboration (UKLLC) platform, where applicable.</td></tr>
+
+      <tr class="dc-blue"><td>Variable Label</td><td>Plain-English description of what the variable measures.</td></tr>
+      <tr class="dc-blue"><td>Value labels</td><td>The coded values and their meanings for categorical variables, or missing-data codes for continuous variables.</td></tr>
+      <tr class="dc-blue"><td>Units</td><td>Unit of measurement for continuous variables, e.g. cm, kg. Shows "Not applicable" for categorical variables.</td></tr>
+      <tr class="dc-blue"><td>Form</td><td>The data collection instrument the variable came from — e.g. postal questionnaire, nurse schedule, home visit.</td></tr>
+      <tr class="dc-blue"><td>Question Number</td><td>The specific question number within that form.</td></tr>
+      <tr class="dc-blue"><td>Year of collection</td><td>The year or year range data was collected, corresponding to a specific study sweep.</td></tr>
+      <tr class="dc-blue"><td>Is variable derived?</td><td>Whether the variable was directly measured or recorded (No), or calculated from one or more other variables (Yes).</td></tr>
+      <tr class="dc-blue"><td>Is variable sensitive?</td><td>Whether the variable is sensitive, so researchers must take extra care when using the variables in their project.</td></tr>
+      <tr class="dc-blue"><td>Reason variable is sensitive</td><td>Where applicable, the reason why this variable is sensitive.</td></tr>
+      <tr class="dc-salmon"><td>Is variable restricted?</td><td>Whether the variable has an additional access restriction beyond the standard sensitive classification (Yes/No). Restricted variables show a lock icon next to their name on OWL.</td></tr>
+      <tr class="dc-salmon"><td>Security message</td><td>For restricted variables, the specific explanation of why access is restricted and how to request it — the same message you see when you hover the lock icon on OWL. Blank for variables that aren't restricted.</td></tr>
+      <tr class="dc-blue"><td>Notes</td><td>Free-text contextual notes — measurement conditions, known caveats, or recoding details specific to the variable.</td></tr>
+
+      <tr class="dc-lavender"><td>Variable Role</td><td>Optional. A dropdown for your own use — tag a variable as Exposure, Outcome, Covariate, or Other, however it fits your analysis plan.</td></tr>
+      <tr class="dc-lavender"><td>Researcher's Notes</td><td>Optional. Free text for your own working notes about the variable — not read or required by NSHD.</td></tr>
+    </table>
+  </div>
+
+  <div class="home-section gs-card-lavender">
+    <h2 id="role-notes"><i class="ti ti-user" aria-hidden="true"></i> Variable Role and Researcher's Notes are optional</h2>
+    <p>These two columns exist purely to help you organise your own thinking while you work through the dictionary — for example, keeping track of which variables are your primary exposure versus a covariate, or jotting down why you picked a particular variable so you remember later.</p>
+    <p style="margin-top:8px;"><strong>Neither is required by NSHD, and neither is read as part of your data request.</strong> Leave them blank if you don't find them useful — only the <strong>Request variable</strong> column needs to be filled in (with Y) for a variable to be included in your application.</p>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

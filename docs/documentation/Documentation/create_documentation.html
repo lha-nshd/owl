@@ -1,0 +1,269 @@
+---
+layout: default
+title: Create Documentation Online (Doc Builder)
+parent: Documentation Hub
+nav_order: 3
+has_children: true
+permalink: /docs/documentation/create-documentation/
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#db-offline-note" class="cdo-toc-offline"><i class="ti ti-device-floppy" aria-hidden="true"></i> Prefer to work in Word instead?</a></li>
+      <li><a href="#db-builder" class="cdo-toc-builder"><i class="ti ti-list-details" aria-hidden="true"></i> Build your document</a></li>
+      <li><a href="#db-save-download" class="cdo-toc-save"><i class="ti ti-download" aria-hidden="true"></i> Save &amp; download</a></li>
+      <li class="db-sidebar-preview-item">
+        <a href="#db-preview-section" class="cdo-toc-preview" id="db-sidebar-preview-trigger"><i class="ti ti-eye" aria-hidden="true"></i> Live preview <i class="ti ti-chevron-down" aria-hidden="true" style="font-size:11px;margin-left:2px;"></i></a>
+        <div class="db-sidebar-preview-menu" id="db-sidebar-preview-menu">
+          <button type="button" class="db-sidebar-preview-option" data-preview-action="scroll"><i class="ti ti-chevron-down" aria-hidden="true"></i> Jump to section</button>
+          <button type="button" class="db-sidebar-preview-option" data-preview-action="popup"><i class="ti ti-external-link" aria-hidden="true"></i> Open in new window</button>
+        </div>
+      </li>
+    </ul>
+    <a href="{{ site.baseurl }}/docs/documentation/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Documentation Hub</a>
+  </div>
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-forms" aria-hidden="true"></i> Create Documentation Online (Doc Builder)</h1>
+    <p>Build your topsheet and documentation directly in the browser — add sections, subheadings, lists, tables, and images through the form below, and see exactly how it will look as you go. When you're happy with it, download it as a real Word document to send to us.</p>
+  </div>
+
+  <div class="home-section gs-card-download">
+    <h2 id="db-offline-note"><i class="ti ti-device-floppy" aria-hidden="true"></i> Prefer to work in Word instead?</h2>
+    <p>This browser remembers your work automatically as you go (see Save &amp; download below) — but nothing is ever uploaded to a server while you work, everything stays in your own browser. You're also completely free to download the Word document at any point and keep editing it directly in Word instead, the same as any other documentation you'd write from scratch. Use this page for as much or as little of the process as is useful to you.</p>
+    <p>New to writing documentation for OWL? The <a href="{{ site.baseurl }}/docs/documentation/writing-documentation-for-owl/">full guide</a> explains what each part is for and includes a real worked example.</p>
+    <p>Want more detail on how this tool itself works — what a block is, how ordering and colour coding work, exactly what Save, Download, and Resume each do? See <a href="{{ site.baseurl }}/docs/documentation/using-create-documentation-online/">Using Create Documentation Online</a>.</p>
+  </div>
+
+  <div class="home-section gs-card-search">
+    <h2 id="db-builder"><i class="ti ti-list-details" aria-hidden="true"></i> Build your document</h2>
+
+    <div id="db-autosave-notice" class="db-autosave-notice" style="display:none;">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span class="db-autosave-notice-text"></span>
+      <button type="button" id="db-autosave-notice-dismiss" aria-label="Dismiss">&times;</button>
+    </div>
+
+    <p class="db-hint" style="margin-bottom:12px;">This section can get long as you add more content — use <strong>Live preview</strong> in the sidebar to jump straight to seeing the result, rather than scrolling all the way down.</p>
+    <p class="db-hint" style="margin-bottom:12px;">Drag any block by its ⋮⋮ handle to reorder it, or use the ↑ ↓ arrows — both keep a block within its own section. Each Section also has a ⧉ to duplicate it. Full details in <a href="{{ site.baseurl }}/docs/documentation/using-create-documentation-online/">Using Create Documentation Online</a>.</p>
+
+    <div class="db-example-row">
+      <button type="button" id="db-load-example-btn" class="db-example-btn">Load the Atopy example</button>
+      <button type="button" id="db-clear-form-btn" class="db-example-btn db-example-btn-secondary">Clear form</button>
+      <span class="db-hint" style="margin:0;">See a complete worked example, or start from a blank form with placeholder text in every field.</span>
+    </div>
+
+    <h3>Topsheet</h3>
+    <p class="db-hint" style="margin-bottom:12px;">Fill in every field you can, including the internal ones below — even though only the five public fields appear on the published page and in the live preview here, NSHD still needs the rest for internal record-keeping.</p>
+    <div id="db-topsheet-form"></div>
+
+    <h3>Content</h3>
+    <div id="db-block-list"></div>
+
+    <div class="db-add-block-row">
+      <button type="button" class="db-add-block-btn" data-add-block="section">+ Section (Heading 1)</button>
+      <button type="button" class="db-add-block-btn" data-add-block="subheading">+ Subheading</button>
+      <button type="button" class="db-add-block-btn" data-add-block="paragraph">+ Paragraph</button>
+      <button type="button" class="db-add-block-btn" data-add-block="bulleted_list">+ Bulleted list</button>
+      <button type="button" class="db-add-block-btn" data-add-block="numbered_list">+ Numbered list</button>
+      <button type="button" class="db-add-block-btn" data-add-block="table">+ Table</button>
+      <button type="button" class="db-add-block-btn" data-add-block="image">+ Image</button>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-basket">
+    <h2 id="db-save-download"><i class="ti ti-download" aria-hidden="true"></i> Save &amp; download</h2>
+
+    <div class="db-download-row">
+      <button type="button" id="db-download-btn">Download as Word document</button>
+      <button type="button" id="db-save-progress-btn">Save progress</button>
+      <label class="db-resume-btn db-file-label">
+        Resume from saved progress
+        <input type="file" id="db-resume-progress-input" accept=".json" style="display:none;">
+      </label>
+    </div>
+
+    <div class="db-saveinfo-box">
+      <p><strong>This browser also remembers your work automatically</strong> as you go — so navigating away or accidentally closing the tab won't lose everything, as long as you come back in the same browser. It's not a substitute for Save progress below: the auto-saved copy only exists in this one browser, can't be moved to another computer, and is cleared once you download the finished Word document.</p>
+      <p><strong>Three different things, worth keeping straight:</strong></p>
+      <ul>
+        <li><strong>Save progress</strong> is for continuing later, in this tool. It downloads a small <strong>JSON file</strong> — not a Word document — that only this page can read back in; it's not meant to be opened or edited by hand.</li>
+        <li><strong>Download as Word document</strong> is the real, final output — open and edit it in Word exactly as you would any other documentation.</li>
+        <li>Once you've downloaded the Word document, that's a one-way trip: it can't be brought back into this online tool — <strong>there's no way to upload a Word document here</strong>. If you want to pause and resume <em>here</em>, use Save progress instead; if you'd rather finish by hand in Word, download the Word document — just know you're then finishing in Word, not switching back. Either way, once you're done, you can run the finished document through <a href="{{ site.baseurl }}/docs/documentation/#page-proof">Page Proof</a> to check it over before sending it in.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-explore">
+    <h2 id="db-preview-section"><i class="ti ti-eye" aria-hidden="true"></i> Live preview</h2>
+    <p class="db-hint" style="margin-bottom:12px;">Updates automatically as you edit the document above — including a live "Formatting checks" summary, the same checks Page Proof runs on a downloaded document.</p>
+    <div class="db-example-row">
+      <button type="button" id="db-open-preview-window-btn" class="db-example-btn">Open live preview in a new window</button>
+      <span class="db-hint" style="margin:0;">Move it wherever suits — a second monitor, or alongside this window — so the form and the preview stay visible together as you edit.</span>
+    </div>
+    <div id="db-live-preview"></div>
+  </div>
+
+</div>
+
+<style>
+/* This site's Just the Docs theme caps the content column at a fixed
+   max-width. Overriding .main-content alone had no visible effect —
+   the real constraint sits on a parent container instead (Just the
+   Docs' flex layout wraps .main-content in a .main-content-wrap, and
+   some versions also constrain .main) — overriding all three here as
+   a defensive set, same fix already established on Documentation
+   Search for the identical constraint. */
+.main-content, .main-content-wrap, .main { max-width:1500px !important; width:100% !important; }
+
+/* Page-specific editor styling — kept here rather than in
+   getting-started.css since, like Documentation Search's own table
+   and search-control styling, none of this is shared with any other
+   page on the site. */
+.db-topsheet-section { border: 1px solid #ddd; border-radius: 8px; padding: 14px; margin-bottom: 14px; }
+.db-topsheet-public { border: 1.5px solid hsl(125 40% 48%); border-radius: 8px; background: hsl(125 40% 92%); padding: 10px 14px 14px; margin-bottom: 14px; }
+.db-topsheet-public summary { cursor: pointer; font-size: 14px; font-weight: 700; color: hsl(125 40% 18%); padding: 4px 0; }
+.db-topsheet-public .db-topsheet-section { border: none; background: none; padding: 10px 0 0; margin-bottom: 0; }
+.db-topsheet-private { border: 1.5px solid hsl(270 20% 62%); border-radius: 8px; background: hsl(270 20% 95%); padding: 10px 14px 14px; margin-bottom: 14px; }
+.db-topsheet-private summary { cursor: pointer; font-size: 13px; font-weight: 700; color: hsl(270 20% 28%); padding: 4px 0; }
+.db-topsheet-private .db-topsheet-section { border: none; background: none; padding: 10px 0 0; margin-bottom: 0; }
+
+.db-field-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 10px; color: #333; }
+.db-input { display: block; width: 100%; box-sizing: border-box; margin-top: 4px; padding: 7px 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 5px; font-family: inherit; }
+
+.db-example-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; padding: 10px 14px; background: #f7f7fb; border: 1px solid #e0e0ea; border-radius: 8px; }
+.db-example-btn { background: hsl(270 35% 40%); color: white; border: none; border-radius: 6px; padding: 8px 14px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.db-example-btn:hover { background: hsl(270 35% 32%); }
+.db-example-btn-secondary { background: #fff; color: #555; border: 1px solid #ccc; }
+.db-example-btn-secondary:hover { background: #f0f0f0; }
+
+.db-sidebar-preview-item { position: relative; }
+.db-sidebar-preview-menu { display: none; position: absolute; left: 0; top: 100%; z-index: 20; background: #fff; border: 1px solid #ccc; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); min-width: 190px; padding: 4px; margin-top: 2px; }
+.db-sidebar-preview-menu.db-menu-open { display: block; }
+.db-sidebar-preview-option { display: flex; align-items: center; gap: 8px; width: 100%; text-align: left; background: none; border: none; padding: 8px 10px; font-size: 13px; color: #333; cursor: pointer; border-radius: 4px; }
+.db-sidebar-preview-option:hover { background: #f0f0f0; }
+.db-sidebar-preview-option i { font-size: 14px; color: #666; }
+
+.db-autosave-notice { display:flex; align-items:center; gap:10px; background: hsl(210 55% 95%); border: 1px solid hsl(210 55% 75%); border-radius: 8px; padding: 10px 14px; margin-bottom: 14px; font-size: 13px; color: hsl(210 55% 22%); }
+.db-autosave-notice i { font-size: 16px; flex-shrink: 0; }
+.db-autosave-notice-text { flex: 1; }
+#db-autosave-notice-dismiss { background: none; border: none; font-size: 18px; line-height: 1; color: hsl(210 55% 40%); cursor: pointer; padding: 0 2px; }
+#db-autosave-notice-dismiss:hover { color: hsl(210 55% 20%); }
+
+.db-block { border: 1px solid #ddd; border-radius: 8px; margin-bottom: 12px; overflow: hidden; background: #fff; }
+.db-block-header { display: flex; justify-content: space-between; align-items: center; background: #f5f5f5; padding: 6px 10px; border-radius: 3px 3px 0 0; }
+.db-drag-handle { cursor: grab; color: #999; font-size: 12px; margin-right: 8px; letter-spacing: -2px; user-select: none; }
+.db-drag-handle:active { cursor: grabbing; }
+.db-dragging { opacity: 0.4; }
+.db-drop-target { outline: 2px dashed hsl(210 70% 50%); outline-offset: 2px; }
+.db-drop-target.db-drop-invalid { outline-color: #b00020; cursor: not-allowed; }
+.db-block-type { font-size: 12px; font-weight: 700; text-transform: uppercase; color: #555; letter-spacing: 0.03em; }
+.db-block-controls { display: flex; gap: 4px; }
+.db-btn-icon { border: 1px solid #ccc; background: #fff; border-radius: 4px; width: 26px; height: 26px; cursor: pointer; font-size: 13px; }
+.db-btn-icon:disabled { opacity: 0.3; cursor: default; }
+.db-btn-danger { color: #b00020; }
+.db-block-body { padding: 12px; }
+.db-block-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 10px; color: #333; }
+.db-hint { font-size: 12px; color: #777; font-style: italic; margin: -4px 0 8px; }
+
+.db-list-item-row { display: flex; gap: 6px; margin-bottom: 6px; align-items: center; }
+.db-list-item-row .db-input { margin: 0; }
+.db-btn-add-item { border: 1px dashed #999; background: #fafafa; border-radius: 5px; padding: 6px 12px; font-size: 13px; cursor: pointer; margin-top: 4px; }
+
+.db-run-row { display: flex; gap: 8px; margin-bottom: 6px; align-items: flex-start; }
+.db-run-row .db-input { margin: 0; flex: 1; }
+.db-run-text { resize: vertical; min-height: 34px; max-height: 300px; font-family: inherit; line-height: 1.4; }
+.db-run-row .db-run-toggle, .db-run-row .db-btn-icon { margin-top: 3px; }
+.db-run-toggle { display: flex; align-items: center; gap: 3px; font-size: 13px; cursor: pointer; white-space: nowrap; border: 1px solid #ccc; border-radius: 4px; padding: 4px 7px; background: #fafafa; }
+.db-run-toggle input { margin: 0; }
+
+.db-table-scroll { overflow-x: auto; margin-bottom: 8px; border: 1px solid #eee; border-radius: 6px; }
+.db-table-editor { border-collapse: collapse; margin-bottom: 0; }
+.db-table-editor td { padding: 2px; }
+.db-table-editor thead .db-table-col-remove { text-align: center; padding-bottom: 4px; }
+.db-table-cell { margin: 0; min-width: 110px; width: 110px; }
+.db-table-buttons { display: flex; gap: 8px; }
+
+.db-image-preview { max-width: 200px; display: block; margin: 8px 0; border: 1px solid #ddd; border-radius: 4px; }
+
+.db-add-block-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+.db-add-block-btn { border: 1px solid hsl(210 45% 55%); background: hsl(210 45% 95%); color: hsl(210 45% 25%); border-radius: 6px; padding: 8px 14px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.db-add-block-btn:hover { background: hsl(210 45% 90%); }
+
+.db-insert-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 6px 4px; margin: 2px 0; }
+.db-insert-label { font-size: 11px; color: #999; margin-right: 2px; white-space: nowrap; }
+.db-insert-btn { border: 1px dashed #bbb; background: transparent; color: #888; border-radius: 5px; padding: 3px 9px; font-size: 11px; cursor: pointer; }
+.db-insert-btn:hover { border-style: solid; border-color: hsl(210 45% 55%); background: hsl(210 45% 96%); color: hsl(210 45% 30%); }
+.db-insert-row-section { justify-content: center; margin: 6px 0; }
+.db-insert-btn-section { border: 1px dashed hsl(270 35% 60%); color: hsl(270 35% 40%); font-weight: 600; width: 100%; padding: 5px 9px; }
+.db-insert-btn-section:hover { border-style: solid; background: hsl(270 35% 96%); color: hsl(270 35% 30%); }
+
+.db-download-row { margin: 20px 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+#db-download-btn { background: hsl(125 45% 35%); color: white; border: none; border-radius: 8px; padding: 12px 24px; font-size: 15px; font-weight: 700; cursor: pointer; }
+#db-download-btn:disabled { opacity: 0.6; cursor: default; }
+
+#db-save-progress-btn { background: hsl(210 45% 42%); color: white; border: none; border-radius: 8px; padding: 11px 18px; font-size: 14px; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; }
+#db-save-progress-btn:hover { background: hsl(210 45% 35%); }
+
+.db-resume-btn { background: hsl(270 35% 45%); color: white; border: none; border-radius: 8px; padding: 11px 18px; font-size: 14px; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; }
+.db-resume-btn:hover { background: hsl(270 35% 38%); }
+.db-file-label { margin: 0; }
+
+.db-saveinfo-box { margin-top: 14px; padding: 12px 16px; background: #f7f7fb; border: 1px solid #e0e0ea; border-radius: 8px; font-size: 13px; color: #444; }
+.db-saveinfo-box p { margin: 0 0 6px; }
+.db-saveinfo-box ul { margin: 0; padding-left: 20px; }
+.db-saveinfo-box li { margin-bottom: 4px; }
+
+.db-block-section { margin-top: 4px; }
+.db-collapsed-summary { font-size: 13px; color: #555; font-style: italic; margin: 0; }
+
+.doc-details-table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 13px; }
+.doc-details-table td { padding: 6px 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+.doc-details-table td:first-child { font-weight: 600; width: 30%; white-space: nowrap; }
+.doc-content-body h2 { color: #1a4d7a; margin-top: 20px; margin-bottom: 14px; font-size: 16px; }
+.doc-content-body h3 { color: #333; font-size: 14px; font-weight: bold; text-decoration: underline; margin-bottom: 14px; }
+.doc-subheading { margin-bottom: 14px; }
+.doc-content-body p { margin-bottom: 14px; }
+.doc-content-body p:empty { min-height: 1em; }
+.doc-content-body ul, .doc-content-body ol { margin-bottom: 14px; }
+.doc-content-body table { border-collapse: collapse; width: 100%; table-layout: fixed; margin: 10px 0 14px; font-size: 13px; }
+.doc-content-body td, .doc-content-body th { word-wrap: break-word; overflow-wrap: break-word; }
+.doc-content-body img { margin-bottom: 14px; }
+.doc-content-body td, .doc-content-body th { border: 1px solid #ccc; padding: 6px 10px; }
+.doc-details-box, .doc-content-body { font-size: 14px; }
+.doc-details-box { margin-top: 20px; margin-bottom: 20px; padding: 14px 18px; border: 1px solid #ddd; border-left: 4px solid #6a0dad; border-radius: 8px; background: #faf7ff; }
+
+.doc-variables-box { margin-bottom: 20px; padding: 14px 18px; border: 1px solid #ddd; border-left: 4px solid hsl(125 35% 45%); border-radius: 8px; background: hsl(125 35% 97%); }
+
+.db-checks-box { margin-bottom: 20px; padding: 14px 18px; border: 1px solid #ddd; border-left: 4px solid hsl(35 70% 50%); border-radius: 8px; background: #fff; }
+.db-checks-box h2 { margin-top: 0; color: #333; }
+.db-checks-intro { font-size: 12px; color: #666; margin: -4px 0 12px; }
+.db-checks-list { list-style: none; margin: 0; padding: 0; }
+.db-checks-list li { display: flex; align-items: flex-start; gap: 8px; padding: 6px 0; font-size: 13px; border-bottom: 1px solid #f0f0f0; }
+.db-checks-list li:last-child { border-bottom: none; }
+.db-checks-list i { margin-top: 2px; flex-shrink: 0; }
+.db-check-warning { color: hsl(35 80% 30%); }
+.db-check-warning i { color: hsl(35 80% 45%); }
+.db-check-good { color: hsl(125 35% 25%); }
+.db-check-good i { color: hsl(125 35% 40%); }
+.doc-variables-box h2 { margin-top: 0; color: hsl(125 35% 22%); }
+.doc-variables-count { font-weight: 700; font-size: 13px; color: #333; margin: -6px 0 10px; }
+.doc-variables-table th:nth-child(4), .doc-variables-table td:nth-child(4) { text-align: center; width: 60px; }
+.doc-var-checkbox { width: 16px; height: 16px; }
+.doc-var-label-placeholder { color: #999; }
+.doc-variables-note { font-size: 12px; color: #666; margin: 10px 0 0; line-height: 1.5; }
+.doc-details-box h2 { margin-top: 0; }
+.doc-byline { color: #666; font-size: 13px; margin: 2px 0 0; }
+</style>
+
+<script>window.SITE_BASEURL = '{{ site.baseurl }}';</script>
+<script src="{{ site.baseurl }}/assets/js/docx.iife.js"></script>
+<script src="{{ site.baseurl }}/assets/js/docx-generator.js"></script>
+<script src="{{ site.baseurl }}/assets/js/atopy-example.js"></script>
+<script src="{{ site.baseurl }}/assets/js/live-preview.js"></script>
+<script src="{{ site.baseurl }}/assets/js/editor.js"></script>

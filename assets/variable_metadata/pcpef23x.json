@@ -1,0 +1,544 @@
+{
+  "varname": "pcpef23x",
+  "label": "PEF as percentage of predicted PEF - at age 77 years",
+  "field_id": "10905",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10905",
+  "year": "",
+  "form": "Home visit",
+  "units": "%",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 93.52639087018545,
+  "sd": 29.159377136545633,
+  "series_size": 701.0,
+  "minimum": 7.0,
+  "maximum": 137.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "pcfev23x",
+    "pcfvc23x"
+  ],
+  "linked_years": [
+    "2023"
+  ],
+  "categories": [
+    "Spirometry [1105]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown/Short visit"
+    },
+    {
+      "value": "998.0",
+      "label": "Refusal"
+    },
+    {
+      "value": "999.0",
+      "label": "Don't Know"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "pcpef23x",
+    "label": "PEF as percentage of predicted PEF - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "pcpef23x"
+      ],
+      [
+        "Field ID",
+        "10905"
+      ],
+      [
+        "Label",
+        "PEF as percentage of predicted PEF - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "lung_function23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "%"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lung function module. Quite a few variables come from the CAPI and not the paper questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "pcfev23x",
+        "FEV as percentage of predicted FEV - at age 77 years",
+        "2023",
+        "Home visit",
+        "Not applicable",
+        "lung_function23"
+      ],
+      [
+        "pcfvc23x",
+        "FVC as percentage of predicted FVC - at age 77 years",
+        "2023",
+        "Home visit",
+        "Not applicable",
+        "lung_function23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/lung_function23/Lung_function_documentation_ref.docx",
+        "Lung_function_documentation_ref.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Spirometry [1105]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown/Short visit",
+        true
+      ],
+      [
+        "998.0",
+        "Refusal",
+        true
+      ],
+      [
+        "999.0",
+        "Don't Know",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "7"
+      ],
+      [
+        "Maximum",
+        "137"
+      ],
+      [
+        "Range",
+        "130"
+      ],
+      [
+        "Median",
+        "99.0"
+      ],
+      [
+        "IQR",
+        "81.0 - 114.0"
+      ],
+      [
+        "Decile 1",
+        "62.0"
+      ],
+      [
+        "Decile 2",
+        "77.0"
+      ],
+      [
+        "Decile 3",
+        "86.0"
+      ],
+      [
+        "Decile 4",
+        "93.0"
+      ],
+      [
+        "Decile 5",
+        "99.0"
+      ],
+      [
+        "Decile 6",
+        "105.0"
+      ],
+      [
+        "Decile 7",
+        "111.0"
+      ],
+      [
+        "Decile 8",
+        "116.0"
+      ],
+      [
+        "Decile 9",
+        "124.0"
+      ],
+      [
+        "Mean",
+        "93.52639087018545"
+      ],
+      [
+        "Std Dev.",
+        "29.159377136545633"
+      ],
+      [
+        "Variance",
+        "850.2692749913002"
+      ],
+      [
+        "Displayed N",
+        "701"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "pcpef23x",
+    "label": "PEF as percentage of predicted PEF - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10905",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "pcpef23x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10905",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "PEF as percentage of predicted PEF - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "lung_function23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "%",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lung function module. Quite a few variables come from the CAPI and not the paper questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "pcfev23x",
+        "description": "FEV as percentage of predicted FEV - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "Not applicable",
+        "library_file": "lung_function23"
+      },
+      {
+        "varname": "pcfvc23x",
+        "description": "FVC as percentage of predicted FVC - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "Not applicable",
+        "library_file": "lung_function23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/lung_function23/Lung_function_documentation_ref.docx",
+        "text": "Lung_function_documentation_ref.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Spirometry [1105]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_1105.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown/Short visit",
+        "is_missing": true
+      },
+      {
+        "value": "998.0",
+        "label": "Refusal",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Don't Know",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 2,
+      "cats": 1,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "%",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          7.0,
+          14.222222222222221,
+          21.444444444444443,
+          28.666666666666668,
+          35.888888888888886,
+          43.111111111111114,
+          50.333333333333336,
+          57.55555555555556,
+          64.77777777777777,
+          72.0,
+          79.22222222222223,
+          86.44444444444444,
+          93.66666666666667,
+          100.88888888888889,
+          108.11111111111111,
+          115.33333333333333,
+          122.55555555555556,
+          129.77777777777777,
+          137.0
+        ],
+        "counts": [
+          42,
+          0,
+          0,
+          2,
+          2,
+          7,
+          9,
+          16,
+          27,
+          55,
+          57,
+          72,
+          81,
+          94,
+          94,
+          63,
+          42,
+          38
+        ]
+      },
+      "boxplot": {
+        "min": 7.0,
+        "q1": 81.0,
+        "median": 99.0,
+        "q3": 114.0,
+        "max": 137.0
+      },
+      "units": "%"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "7"
+      ],
+      [
+        "Maximum",
+        "137"
+      ],
+      [
+        "Range",
+        "130"
+      ],
+      [
+        "Median",
+        "99.0"
+      ],
+      [
+        "IQR",
+        "81.0 - 114.0"
+      ],
+      [
+        "Decile 1",
+        "62.0"
+      ],
+      [
+        "Decile 2",
+        "77.0"
+      ],
+      [
+        "Decile 3",
+        "86.0"
+      ],
+      [
+        "Decile 4",
+        "93.0"
+      ],
+      [
+        "Decile 5",
+        "99.0"
+      ],
+      [
+        "Decile 6",
+        "105.0"
+      ],
+      [
+        "Decile 7",
+        "111.0"
+      ],
+      [
+        "Decile 8",
+        "116.0"
+      ],
+      [
+        "Decile 9",
+        "124.0"
+      ],
+      [
+        "Mean",
+        "93.52639087018545"
+      ],
+      [
+        "Std Dev.",
+        "29.159377136545633"
+      ],
+      [
+        "Variance",
+        "850.2692749913002"
+      ],
+      [
+        "Displayed N",
+        "701"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "varname": "dxagynpt09",
+  "label": "Gynoid : Fat as percentage of Mass (%)  - DXA at 60-64 years",
+  "field_id": "1331",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1331",
+  "year": "",
+  "form": "DICOM",
+  "units": "%",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 36.94558250192804,
+  "sd": 7.208323113727201,
+  "series_size": 1473.0,
+  "minimum": 24.29215846,
+  "maximum": 49.67233014,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Anthropometry [2]",
+    "Musculoskeletal health and physical capability [7]",
+    "Body composition by DXA [10512]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77.0",
+      "label": "Not attended clinic or test not done"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown "
+    },
+    {
+      "value": "99999.0",
+      "label": "Unknown "
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dxagynpt09",
+    "label": "Gynoid : Fat as percentage of Mass (%)  - DXA at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dxagynpt09"
+      ],
+      [
+        "Field ID",
+        "1331"
+      ],
+      [
+        "Label",
+        "Gynoid : Fat as percentage of Mass (%)  - DXA at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "DXA09"
+      ],
+      [
+        "Form",
+        "DICOM"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "%"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived from dicom images from Manchester."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Anthropometry [2]",
+        "Legacy Category"
+      ],
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Body composition by DXA [10512]",
+        "Body composition results derived from DXA measurements."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77.0",
+        "Not attended clinic or test not done",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown ",
+        true
+      ],
+      [
+        "99999.0",
+        "Unknown ",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "24.29215846"
+      ],
+      [
+        "Maximum",
+        "49.67233014"
+      ],
+      [
+        "Range",
+        "25.38017168"
+      ],
+      [
+        "Median",
+        "36.8863681"
+      ],
+      [
+        "IQR",
+        "30.32870649 - 43.26453677"
+      ],
+      [
+        "Decile 1",
+        "27.509716332"
+      ],
+      [
+        "Decile 2",
+        "29.460991668"
+      ],
+      [
+        "Decile 3",
+        "31.308561204"
+      ],
+      [
+        "Decile 4",
+        "33.697818578"
+      ],
+      [
+        "Decile 5",
+        "36.8863681"
+      ],
+      [
+        "Decile 6",
+        "39.935690326"
+      ],
+      [
+        "Decile 7",
+        "42.332990527999996"
+      ],
+      [
+        "Decile 8",
+        "44.481887102"
+      ],
+      [
+        "Decile 9",
+        "46.74820569"
+      ],
+      [
+        "Mean",
+        "36.94558250192804"
+      ],
+      [
+        "Std Dev.",
+        "7.208323113727201"
+      ],
+      [
+        "Variance",
+        "51.95992211189381"
+      ],
+      [
+        "Displayed N",
+        "1473"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dxagynpt09",
+    "label": "Gynoid : Fat as percentage of Mass (%)  - DXA at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1331",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dxagynpt09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1331",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Gynoid : Fat as percentage of Mass (%)  - DXA at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "DXA09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "DICOM",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "%",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived from dicom images from Manchester.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Anthropometry [2]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Body composition by DXA [10512]",
+        "description": "Body composition results derived from DXA measurements.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Body_composition_by_DXA_10512.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "Not attended clinic or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown ",
+        "is_missing": true
+      },
+      {
+        "value": "99999.0",
+        "label": "Unknown ",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 3,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "%",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          24.29215846,
+          26.407172766666665,
+          28.522187073333335,
+          30.63720138,
+          32.752215686666666,
+          34.86722999333333,
+          36.9822443,
+          39.09725860666667,
+          41.21227291333334,
+          43.32728722,
+          45.44230152666667,
+          47.557315833333334,
+          49.67233014
+        ],
+        "counts": [
+          85,
+          134,
+          169,
+          146,
+          107,
+          97,
+          93,
+          130,
+          146,
+          136,
+          132,
+          98
+        ]
+      },
+      "boxplot": {
+        "min": 24.29215846,
+        "q1": 30.32870649,
+        "median": 36.8863681,
+        "q3": 43.26453677,
+        "max": 49.67233014
+      },
+      "units": "%"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "24.29215846"
+      ],
+      [
+        "Maximum",
+        "49.67233014"
+      ],
+      [
+        "Range",
+        "25.38017168"
+      ],
+      [
+        "Median",
+        "36.8863681"
+      ],
+      [
+        "IQR",
+        "30.32870649 - 43.26453677"
+      ],
+      [
+        "Decile 1",
+        "27.509716332"
+      ],
+      [
+        "Decile 2",
+        "29.460991668"
+      ],
+      [
+        "Decile 3",
+        "31.308561204"
+      ],
+      [
+        "Decile 4",
+        "33.697818578"
+      ],
+      [
+        "Decile 5",
+        "36.8863681"
+      ],
+      [
+        "Decile 6",
+        "39.935690326"
+      ],
+      [
+        "Decile 7",
+        "42.332990527999996"
+      ],
+      [
+        "Decile 8",
+        "44.481887102"
+      ],
+      [
+        "Decile 9",
+        "46.74820569"
+      ],
+      [
+        "Mean",
+        "36.94558250192804"
+      ],
+      [
+        "Std Dev.",
+        "7.208323113727201"
+      ],
+      [
+        "Variance",
+        "51.95992211189381"
+      ],
+      [
+        "Displayed N",
+        "1473"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

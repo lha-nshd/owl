@@ -1,0 +1,325 @@
+---
+layout: default
+title: Basket Management
+parent: Getting Started
+nav_order: 4
+permalink: /docs/getting-started/basket-management/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<style>
+  .page-topics .home-section.gs-card-sidebar:has(#pagination) {
+    background: hsl(150 45% 96%) !important;
+    border-left: 4px solid hsl(150 45% 30%) !important;
+  }
+
+  .page-topics .sidebar-summary li a.gs-toc-bm-sync[href="#sync-linked-sweeps"] { color: #6a0dad !important; }
+  .page-topics .sidebar-summary li a.gs-toc-bm-sync[href="#sync-linked-sweeps"].active { background: #E8EAF6 !important; border-left: 3px solid #6a0dad !important; }
+
+  .page-topics .sidebar-summary li a.gs-toc-bm-pagination[href="#pagination"] { color: hsl(150 45% 26%) !important; }
+  .page-topics .sidebar-summary li a.gs-toc-bm-pagination[href="#pagination"].active { background: hsl(150 45% 96%) !important; border-left: 3px solid hsl(150 45% 30%) !important; }
+
+  .page-topics .sidebar-summary li a.gs-toc-bm-restricted[href="#restricted-variables"] { color: hsl(4 70% 40%) !important; }
+  .page-topics .sidebar-summary li a.gs-toc-bm-restricted[href="#restricted-variables"].active { background: hsl(4 70% 97%) !important; border-left: 3px solid hsl(4 70% 50%) !important; }
+</style>
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-basket-cog" aria-hidden="true"></i> Basket Management</h1>
+    <p>How to add, remove, upload, and export variables using the basket across the OWL.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#single-variable" class="gs-toc-bm-single"><i class="ti ti-square-plus" aria-hidden="true"></i> Adding a single variable</a></li>
+      <li><a href="#add-all-button" class="gs-toc-bm-addall"><i class="ti ti-checkbox" aria-hidden="true"></i> Add All to Basket button</a></li>
+      <li><a href="#sync-linked-sweeps" class="gs-toc-bm-sync"><i class="ti ti-toggle-right" aria-hidden="true" style="color:#6a0dad;"></i> Syncing linked sweeps</a></li>
+      <li><a href="#pagination" class="gs-toc-bm-pagination"><i class="ti ti-layout-grid" aria-hidden="true"></i> Pagination for bulk adding</a></li>
+      <li><a href="#restricted-variables" class="gs-toc-bm-restricted"><i class="ti ti-lock" aria-hidden="true" style="color:hsl(4 70% 45%);"></i> Restricted variables</a></li>
+      <li><a href="#reviewing-exporting" class="gs-toc-bm-reviewing"><i class="ti ti-list-check" aria-hidden="true"></i> Reviewing &amp; exporting</a></li>
+      <li><a href="#uploading-basket" class="gs-toc-bm-upload"><i class="ti ti-upload" aria-hidden="true"></i> Uploading a basket</a></li>
+      <li><a href="#basket-limit" class="gs-toc-bm-limit"><i class="ti ti-alert-triangle" aria-hidden="true"></i> Large baskets</a></li>
+    </ul>
+    <a href="/OWL/docs/getting-started/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to getting started</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>Every results table across the OWL — <strong>Search Data Dictionary</strong>, <strong>Browse by Category</strong>, and <strong>Popular Variables</strong> — uses the same basket controls, so once you've learned them on one page, they work identically everywhere else. This page walks through each control in detail: adding variables one at a time, the Add All button and its different states, syncing linked sweeps automatically, using pagination to add larger numbers of variables in fewer clicks, reviewing or exporting what you've collected, restoring or bulk-adding to a basket by uploading a file, and what happens when a basket goes over 500 variables.</p>
+  </div>
+
+  <div class="home-section gs-card-search">
+    <h2 id="single-variable"><i class="ti ti-square-plus" aria-hidden="true"></i> Adding a single variable</h2>
+    <p>Every row in a results table has a checkbox in the leftmost <strong>Add variable</strong> column. Ticking it adds that variable to your basket immediately — there's no separate confirmation step or save button to click afterward.</p>
+    <ul>
+      <li><strong>Instant feedback</strong> — the checkbox stays ticked once a variable is added, so you can see at a glance which rows on the current page are already in your basket.</li>
+      <li><strong>Untick to remove</strong> — clicking a ticked checkbox removes that variable from the basket again, the same way it was added.</li>
+      <li><strong>Header counter</strong> — the basket icon in the site header updates its running total the moment you tick or untick a row, so you don't need to open the basket page to confirm something was added.</li>
+    </ul>
+    <p>This is the right approach when you're working through a short, specific list of variables you already know you want, rather than adding everything a search or category returns.</p>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span><strong>Longitudinal Search</strong> adds variables a little differently, since each row there represents a whole Field ID rather than a single variable. Clicking <strong>View</strong> on a row expands a detail panel where you can add every sweep to your basket in one click, or tick individual sweeps within that panel — there's no plain row checkbox to use directly, because the choice of which sweep(s) to add happens inside the expanded view instead.</span>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-explore">
+    <h2 id="add-all-button"><i class="ti ti-checkbox" aria-hidden="true"></i> The "Add All to Basket" button</h2>
+    <p>Above every results table sits an <strong>Add All to Basket</strong> button, which adds every variable currently visible on the page in a single click rather than ticking each row individually. The button changes appearance and label depending on the state of the table:</p>
+
+    <div style="display:flex; flex-direction:column; gap:10px; margin: 14px 0;">
+
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span style="background:#009688; color:#fff; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-square-rounded-plus" aria-hidden="true"></i> Add all visible variables
+        </span>
+        <span style="font-size:14px; color:#333;">— teal, the default state. None, or only some, of the variables currently visible are in your basket yet.</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span style="background:#D32F2F; color:#fff; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-square-rounded-minus" aria-hidden="true"></i> Remove all visible variables
+        </span>
+        <span style="font-size:14px; color:#333;">— red, once every variable currently visible has already been added to your basket.</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span style="background:#333; color:#fff; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; opacity:0.75; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-ban" aria-hidden="true"></i> No visible variables to add
+        </span>
+        <span style="font-size:14px; color:#333;">— black, disabled. Your search or filters have returned zero matching rows, so there's nothing to add.</span>
+      </div>
+
+    </div>
+
+    <p>This toggle behaviour means the same button always reflects the current state of the table — you never need to check the basket separately to know whether the button will add or remove variables.</p>
+  </div>
+
+  <div class="home-section gs-card-sync" style="background:#E8EAF6; border-left:4px solid #6a0dad; border-radius:12px; padding:20px 24px;">
+    <h2 id="sync-linked-sweeps"><i class="ti ti-toggle-right" aria-hidden="true"></i> Syncing linked sweeps</h2>
+    <p>Some variables are collected identically — the same question text and coding — across two or more sweeps. These are the variables Longitudinal Search groups by Field ID rather than listing one row per sweep, and their individual sweeps (<code>wt50u</code>, <code>wt52u</code>, <code>wt53u</code>, and so on for a single measure like weight) are what this section calls <strong>sibling variables</strong>. A toggle next to the basket icon in the site header, visible on every page, controls whether adding or removing one sibling automatically does the same for the rest.</p>
+
+    <div style="display:flex; flex-direction:column; gap:10px; margin: 14px 0;">
+
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span style="display:inline-flex; align-items:center; gap:8px; background:#fff; border:1px solid #9AD4BE; border-radius:20px; padding:6px 14px; font-size:13px; color:#555; white-space:nowrap; flex-shrink:0;">
+          <span style="width:30px;height:17px;border-radius:10px;background:#6a0dad;position:relative;display:inline-block;flex-shrink:0;">
+            <span style="width:13px;height:13px;border-radius:50%;background:#fff;position:absolute;top:2px;right:2px;"></span>
+          </span>
+          Sync linked sweeps
+        </span>
+        <span style="font-size:14px; color:#333;">— on, the default. Ticking one sibling adds every other sibling of that variable to your basket too; unticking one removes every other sibling as well.</span>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span style="display:inline-flex; align-items:center; gap:8px; background:#fff; border:1px solid #9AD4BE; border-radius:20px; padding:6px 14px; font-size:13px; color:#555; white-space:nowrap; flex-shrink:0;">
+          <span style="width:30px;height:17px;border-radius:10px;background:#ccc;position:relative;display:inline-block;flex-shrink:0;">
+            <span style="width:13px;height:13px;border-radius:50%;background:#fff;position:absolute;top:2px;left:2px;"></span>
+          </span>
+          Sync linked sweeps
+        </span>
+        <span style="font-size:14px; color:#333;">— off. Each sibling is added or removed strictly on its own, with no effect on the rest.</span>
+      </div>
+
+    </div>
+
+    <p>Every time siblings are added or removed this way, a brief confirmation appears near the basket icon naming which variables changed, with an <strong>Undo</strong> link that reverses just that action — it doesn't touch anything you added or removed separately. The toggle itself is a persistent setting stored in your browser, the same way your basket is, so it keeps whichever state you last left it in as you move between pages.</p>
+
+    <p>This applies wherever a single variable is added or removed — checkboxes on <strong>Search Data Dictionary</strong>, <strong>Browse by Category</strong>, <strong>Popular Variables</strong>, <strong>Search by Year</strong>, and <strong>Documentation</strong> pages, the <strong>Add All to Basket</strong> button above, a document's own "Add all to basket" button, and the <strong>Remove</strong> button on the basket page itself (see <a href="#reviewing-exporting" style="color:#6a0dad;">Reviewing and exporting</a> below).</p>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span><strong>Longitudinal Search doesn't use this toggle.</strong> Its own detail panel already lets you add every sweep of a Field ID at once, or tick sweeps individually — since the whole group is already right there to choose from directly, the sync toggle is switched off for actions taken on that page specifically, whatever it's currently set to elsewhere. Ticking a single sweep there adds only that sweep.</span>
+    </div>
+
+    <p>Uploading a basket file respects this setting too — see <a href="#uploading-basket" style="color:#6a0dad;">Uploading a basket</a> below for how it works there.</p>
+  </div>
+
+  <div class="home-section gs-card-sidebar">
+    <h2 id="pagination"><i class="ti ti-layout-grid" aria-hidden="true"></i> Using pagination to add more at once</h2>
+    <p>The <strong>Add All to Basket</strong> button only acts on the variables <strong>currently visible on the page</strong> — not your entire result set. If a search returns 200 variables but your page size is set to 15, clicking Add All adds only those 15.</p>
+    <p>To add a larger number of variables in fewer clicks, increase the page size before clicking Add All. The page size control sits above the results table and offers options of 15, 30, 50, and 100 rows per page. Setting it to 100 and clicking Add All adds up to 100 variables in a single click.</p>
+    <p>For result sets larger than 100, you can repeat the process page by page — advance to the next page and click Add All again — until you've worked through the full set. The basket accumulates everything you add across pages, so there's no risk of losing earlier additions when you move to the next page.</p>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Building a basket over 500 variables with Add All is fine — Condor will automatically split it into several baskets when you upload it there. See the <a href="#basket-limit" style="color:#6a0dad;">Large baskets</a> section below for what this means for how your request is reviewed.</span>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-restricted" style="background:hsl(4 70% 97%); border-left:4px solid hsl(4 70% 50%); border-radius:12px; padding:20px 24px;">
+    <h2 id="restricted-variables"><i class="ti ti-lock" aria-hidden="true" style="color:hsl(4 70% 45%);"></i> Restricted variables</h2>
+    <p>Some variables carry an access restriction beyond the standard public/sensitive classification — you'll recognise them by the small <i class="ti ti-lock" aria-hidden="true" style="color:hsl(4 70% 45%);"></i> lock icon next to their name wherever they appear on the site (see <a href="/OWL/docs/getting-started/how-the-site-is-organised/#variable-icons" style="color:hsl(4 70% 40%);">Variable status icons</a>). Hovering the lock shows a message specific to that variable, usually naming who to contact to request it.</p>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span><strong>Restricted variables can be added to your basket exactly like any other variable.</strong> The checkbox, the Add All to Basket button, and pagination-based bulk adding (see <a href="#pagination" style="color:hsl(4 70% 40%);">Using pagination to add more at once</a> above) all work identically whether a variable is restricted or not — nothing on the site stops you from selecting one.</span>
+    </div>
+
+    <p>This is a deliberate choice, not an oversight. Blocking restricted variables from the basket wouldn't actually prevent anyone from requesting one — the same result is available by marking <strong>Y</strong> against that variable directly in an offline copy of the Data Dictionary and uploading it (see <a href="#uploading-basket" style="color:hsl(4 70% 40%);">Uploading a basket</a> above), which OWL also accepts without checking restriction status. Blocking it in one place while leaving it open in another wouldn't add any real protection — it would just make the two routes behave inconsistently. So OWL treats every variable the same way while you're building a basket, restricted or not, and handles the actual access control at the point where it matters: the formal data request.</p>
+
+    <h3 style="font-size:16px; margin-top:20px;">What happens at each stage</h3>
+    <p>Restriction status doesn't change anything about how a variable behaves in your basket on OWL itself — only what happens once it leaves OWL and reaches Condor:</p>
+
+    <div style="display:flex; flex-direction:column; gap:10px; margin: 14px 0;">
+
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:#009688; color:#fff; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-square-rounded-plus" aria-hidden="true"></i> Adding to your basket
+        </span>
+        <span style="font-size:14px; color:#333;">— works exactly as normal. Tick the row, or use Add All to Basket, or upload a marked-up file; a restricted variable is added to your basket the same way any other one is, and shows the same way in your basket page.</span>
+      </div>
+
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:#4CAF50; color:#fff; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-download" aria-hidden="true"></i> Downloading your basket
+        </span>
+        <span style="font-size:14px; color:#333;">— also works exactly as normal. The exported Data Dictionary marks a restricted variable <strong>Y</strong> in the Request variable column the same as everything else in your basket — the file itself doesn't distinguish restricted variables from any other kind.</span>
+      </div>
+
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:#D32F2F; color:#fff; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-alert-circle" aria-hidden="true"></i> Uploading to Condor
+        </span>
+        <span style="font-size:14px; color:#333;">— this is the one step where restriction status matters. When your downloaded basket file is submitted as a formal data request through Condor, <strong>restricted variables will not be imported automatically</strong> along with the rest of your request.</span>
+      </div>
+
+    </div>
+
+    <div class="callout-warning">
+      <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+      <span><strong>Restricted variables must be requested separately from the rest of your basket.</strong> Because Condor won't import them as part of a normal basket upload, you'll need to request each one directly, outside of that upload — who to contact depends on the specific variable, and that contact detail is exactly what's shown when you hover the lock icon next to it. Check every restricted variable in your basket before submitting to Condor, and follow up on each one using the message shown for that variable, rather than assuming the bulk upload has taken care of it.</span>
+    </div>
+
+    <p>A practical habit: before uploading to Condor, scan through your basket for any lock icons, note the contact given for each, and send those requests alongside your main submission rather than after — that way you're not waiting on a second round trip once you discover a variable didn't come through.</p>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span><strong>Restricted variables are pinned to the top of the basket page</strong>, ahead of everything else in your list, rather than sitting wherever they happen to fall alphabetically or by the order you added them. This is exactly to make the habit above easier — you don't need to scan the whole basket looking for lock icons; anything restricted is already grouped together at the top, ready to check off before you submit to Condor. A labeled row marks where the group starts (<em>"Restricted variables (N)"</em>) and, further down, a quieter divider marks where it ends and the rest of your basket resumes — so if every row on a page happens to be restricted, it's clearly explained rather than just an unbroken block of colour.</span>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-basket">
+    <h2 id="reviewing-exporting"><i class="ti ti-list-check" aria-hidden="true"></i> Reviewing and exporting your basket</h2>
+    <p>Once you've added variables — individually, in bulk, or a mix of both — the basket page is where you manage the full list. From there you can review every variable you've collected, remove anything you no longer need, and double-check labels and sweep coverage at a glance.</p>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Clicking <strong>Remove</strong> on a row here uses the same <a href="#sync-linked-sweeps" style="color:#6a0dad;">Sync linked sweeps</a> setting as everywhere else. If it's on, removing one sibling from the basket page also removes its other sweeps — not just this one row — with the usual confirmation and Undo.</span>
+    </div>
+
+    <p>Downloading your basket doesn't just export your selection — it builds you a fully completed copy of the <strong>data dictionary</strong> as an <strong>Excel (.xlsx) file</strong>. Every variable in your basket is marked <strong>Y</strong> in the Request variable column, ready to use directly in a data access request. You'll be prompted to choose where to save the file, with a sensible filename already filled in. See <a href="/OWL/docs/getting-started/data-dictionary/" style="color:#6a0dad;">The Data Dictionary</a> for what every column in the file means.</p>
+    <p>The basket persists as you move between pages and tools, so a variable added from a category browse will sit alongside one added from a keyword search — there's no need to finish in one tool before switching to another.</p>
+  </div>
+
+  <div class="home-section gs-card-upload">
+    <h2 id="uploading-basket"><i class="ti ti-upload" aria-hidden="true"></i> Uploading a basket</h2>
+    <p>Your basket is stored locally in your browser — nothing is saved to a server, and no account or login is required to use OWL. That's convenient, but it also means your basket only exists on the device and browser you built it in.</p>
+
+    <div class="callout-warning">
+      <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+      <span>Because the basket lives in your browser's local storage, it can be lost if you clear your browsing data or cookies, switch to a different browser or computer, or use a private/incognito window. If it isn't downloaded, that work is gone for good — there's no way to recover it afterward.</span>
+    </div>
+
+    <p>The safest habit is to <strong>download your basket regularly as you build it</strong>, rather than only at the very end. If something happens to your browser's storage, you can simply upload that same file back in and carry on exactly where you left off — nothing needs to be re-searched or re-added by hand.</p>
+
+    <div style="background:rgba(255,255,255,0.65); border:1px solid hsl(270 35% 82%); border-radius:10px; padding:16px 20px; margin:18px 0;">
+      <h3 style="font-size:15px; margin:0 0 8px; display:flex; align-items:center; gap:8px; color:hsl(270 35% 22%);">
+        <i class="ti ti-file-upload" aria-hidden="true" style="font-size:18px;"></i> What you can upload
+      </h3>
+		<p style="margin:0 0 8px;">The <span style="background:#E6A817; color:#fff; font-size:12px; font-weight:600; padding:3px 10px 4px; border-radius:4px; display:inline-flex; align-items:center; gap:4px; white-space:nowrap;"><i class="ti ti-upload" aria-hidden="true" style="font-size:12px;"></i> Upload saved dictionary</span> button sits on the basket page, next to <span style="background:#4b067a; color:#fff; font-size:12px; font-weight:600; padding:3px 10px 4px; border-radius:4px; display:inline-flex; align-items:center; gap:4px; white-space:nowrap;"><i class="ti ti-trash" aria-hidden="true" style="font-size:12px;"></i> Clear Basket</span> and <span style="background:#4CAF50; color:#fff; font-size:12px; font-weight:600; padding:3px 10px 4px; border-radius:4px; display:inline-flex; align-items:center; gap:4px; white-space:nowrap;"><i class="ti ti-download" aria-hidden="true" style="font-size:12px;"></i> Download pre-filled dictionary</span>. Clicking it opens a panel and prompts you for a file.</p>      <p style="margin:0;">What you upload is always the same thing — a copy of the <strong>Data Dictionary</strong>, with variables marked <strong>Y</strong> in the Request variable column — it just doesn't matter how that <strong>Y</strong> got there:</p>
+      <ul style="margin:8px 0 0;">
+        <li><strong>Completed on OWL</strong> — build a basket on the site as normal, then click Download Basket. The Y marks are filled in for you automatically.</li>
+        <li><strong>Completed manually</strong> — if you or a colleague already has a copy of the Data Dictionary and marks Y directly against variables of interest offline, that same file uploads just as easily, without needing to search for or add each variable individually on the site first.</li>
+      </ul>
+    </div>
+
+    <div style="background:rgba(255,255,255,0.65); border:1px solid hsl(270 35% 82%); border-radius:10px; padding:16px 20px; margin:18px 0;">
+      <h3 style="font-size:15px; margin:0 0 8px; display:flex; align-items:center; gap:8px; color:hsl(270 35% 22%);">
+        <i class="ti ti-checklist" aria-hidden="true" style="font-size:18px;"></i> Checks made on the file
+      </h3>
+      <p style="margin:0 0 4px;">Before anything is added, the file is checked over and any issues are reported clearly rather than added or dropped silently:</p>
+
+    <div style="display:flex; flex-direction:column; gap:10px; margin: 14px 0;">
+
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:#EAF3DE; color:#27500A; border:1px solid #639922; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-alert-circle" aria-hidden="true"></i> Missing variable name
+        </span>
+        <span style="font-size:14px; color:#333;">— rows marked Y with no NSHD Variable Name are skipped and listed by row number, since there's nothing to add without a name.</span>
+      </div>
+
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:#FFF6DB; color:#7a5b00; border:1px solid #E6C200; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-alert-triangle" aria-hidden="true"></i> Invalid Request variable value
+        </span>
+        <span style="font-size:14px; color:#333;">— anything other than blank or exactly Y in that column (a lowercase y, N, or a stray note, for example) is skipped, and listed together with the variable name and the value that was found, so you can go back and fix the source file.</span>
+      </div>
+
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:#E8F1FA; color:#2c4a63; border:1px solid #6C93B6; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-copy" aria-hidden="true"></i> Duplicate variable names
+        </span>
+        <span style="font-size:14px; color:#333;">— if the same variable name appears more than once marked Y, only the first occurrence is kept and the rest are listed.</span>
+      </div>
+
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:#F3E5F5; color:#4b067a; border:1px solid #B385C4; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-info-circle" aria-hidden="true"></i> Over 500 variables
+        </span>
+        <span style="font-size:14px; color:#333;">— a heads-up if adding the file would take your basket over 500 variables. This doesn't block the upload, and you don't need to split anything yourself — Condor automatically divides it into several baskets once you upload it there. See <a href="#basket-limit" style="color:#6a0dad;">Large baskets</a> below for what this means for how your request is reviewed.</span>
+      </div>
+
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:#FCEBEB; color:#791F1F; border:1px solid #E24B4A; font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-lock" aria-hidden="true"></i> Restricted variable(s) found
+        </span>
+        <span style="font-size:14px; color:#333;">— a heads-up if any row marked Y in the file is a <a href="#restricted-variables" style="color:#791F1F;">restricted variable</a>. This doesn't block the upload either; it names each one found, so you know upfront which of your selections will need a separate Condor request before you even click Confirm &amp; Add to Basket.</span>
+      </div>
+
+    </div>
+
+    <p style="margin:10px 0 0;">Each of these appears only when relevant, and starts collapsed with a small "click for details" note next to it — click to expand and see the full list of affected rows or variable names, or leave it collapsed if you just want the headline count.</p>
+
+    <div class="callout-note" style="background:#FCEBEB; border-left-color:#E24B4A; margin-top:14px;">
+      <i class="ti ti-lock" aria-hidden="true" style="color:#791F1F;"></i>
+      <span><strong>If restricted variables are found, a separate highlighted banner appears above the results table</strong> — distinct from the collapsible checks above — naming each restricted variable in the file. It stays visible for the whole review step, not just as a one-line count, since this is the one check worth seeing at a glance rather than expanding to check.</span>
+    </div>
+    </div>
+
+    <h3 style="font-size:16px; margin-top:20px;">Reviewing before anything is added</h3>
+    <p>Once the file has been checked, you'll see a summary line — highlighted so it stands out — showing how many variables were found, how many are new, and how many are already in your basket. Below that is a full table listing every variable that will be added, with each row marked either <strong>New</strong> or <strong>Already in basket</strong>, styled the same way as the main basket table so it's easy to read.</p>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>If your file contains longitudinal variables with sibling sweeps, the preview shows a checkbox — <em>"Also include N linked sweeps of longitudinal variables in this file"</em>. It starts <strong>matching whatever <a href="#sync-linked-sweeps" style="color:#6a0dad;">Sync linked sweeps</a> is currently set to</strong> — ticked if the toggle is on, unticked if it's off — and stays in sync live if you flip the toggle while the panel's still open. You can still tick or untick it yourself regardless of the toggle: that's a one-time choice for this upload only, and never changes the toggle itself.</span>
+    </div>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Whenever siblings are found, a box below the checkbox lists them either way. If the checkbox is ticked, it says how many will be added and shows them at the top of the table below. If it's unticked, it instead says they <strong>won't</strong> be added this time and names the same variables, so you still see what you're leaving out — not just a number, but exactly which ones.</span>
+    </div>
+
+    <p>Nothing is added to your basket at this point. You need to click <strong>Confirm &amp; Add to Basket</strong> to go ahead, or <strong>Cancel</strong> to close the panel without changing anything. This means you can safely upload a file just to check what's in it, and back out if it isn't the one you meant to use.</p>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Uploading never overwrites your existing basket. Variables already present are left as they are and simply marked <strong>Already in basket</strong> in the preview — only genuinely new variables from the file are added once you confirm.</span>
+    </div>
+  </div>
+
+	<div class="home-section gs-card-bm-limit">
+		<h2 id="basket-limit"><i class="ti ti-alert-triangle" aria-hidden="true"></i> Large baskets: automatic splitting on Condor</h2>
+    <p>You no longer need to split a large basket yourself before uploading. If your basket has more than 500 variables, Condor automatically divides it into several baskets when you save — each with no more than 500 — so uploading works the same way regardless of size. This is a convenience for splitting, not a reason to add more than your project actually needs — see below.</p>
+    <div class="callout-warning">
+      <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+      <span><strong>How split baskets are reviewed.</strong> If your request has been split into multiple baskets, they are reviewed <strong>collectively</strong>, as one overall request — not as separate, independent submissions. Requests for a large number of variables may take longer to process, since they go through a more thorough risk assessment, which can delay your dataset being created. You may be asked to justify your request if your total comes to more than 500 variables across a single submission, even though it's been split into several baskets.</span>
+    </div>
+    <p>The 500-variable figure describes the scale a single request is assessed at, not a fixed cap on your project overall — splitting large requests across baskets is fine. But every variable you add still adds to the review, so it's worth keeping each basket to what your project genuinely needs rather than adding variables speculatively.</p>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

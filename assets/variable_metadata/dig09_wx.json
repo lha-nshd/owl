@@ -1,0 +1,655 @@
+{
+  "varname": "dig09_wx",
+  "label": "Average time duration [hours/week] spent digging/shoveling in the last year (recoding extreme values) - at age 60-64 years",
+  "field_id": "13347",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13347",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "hours/week",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.2548755423492106,
+  "sd": 0.5075623230540808,
+  "series_size": 2121.0,
+  "minimum": 0.0,
+  "maximum": 2.5,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dig09_d",
+    "dig09_w",
+    "digmet09x",
+    "dig09_dx"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dig09_wx",
+    "label": "Average time duration [hours/week] spent digging/shoveling in the last year (recoding extreme values) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dig09_wx"
+      ],
+      [
+        "Field ID",
+        "13347"
+      ],
+      [
+        "Label",
+        "Average time duration [hours/week] spent digging/shoveling in the last year (recoding extreme values) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours/week"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Recreational Home Activities (mowing, watering, digging, weeding, DIY and playing musical instruments). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dig09_d",
+        "Average time duration [hours/day] spent digging/shoveling in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dig09_w",
+        "Average time duration [hours/week] spent digging/shoveling in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "digmet09x",
+        "Average digging MET hour/day (recoding extreme values) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dig09_dx",
+        "Average time duration [hours/day] spent digging/shoveling in the last year (recoding extreme values) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "2.5"
+      ],
+      [
+        "Range",
+        "2.5"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.23076923191547394"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.11538461595773697"
+      ],
+      [
+        "Decile 7",
+        "0.17307692766189575"
+      ],
+      [
+        "Decile 8",
+        "0.3461538553237915"
+      ],
+      [
+        "Decile 9",
+        "0.9230769276618958"
+      ],
+      [
+        "Mean",
+        "0.2548755423492106"
+      ],
+      [
+        "Std Dev.",
+        "0.5075623230540808"
+      ],
+      [
+        "Variance",
+        "0.257619511784055"
+      ],
+      [
+        "Displayed N",
+        "2121"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dig09_wx",
+    "label": "Average time duration [hours/week] spent digging/shoveling in the last year (recoding extreme values) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13347",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dig09_wx",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13347",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Average time duration [hours/week] spent digging/shoveling in the last year (recoding extreme values) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours/week",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Recreational Home Activities (mowing, watering, digging, weeding, DIY and playing musical instruments). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dig09_d",
+        "description": "Average time duration [hours/day] spent digging/shoveling in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dig09_w",
+        "description": "Average time duration [hours/week] spent digging/shoveling in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "digmet09x",
+        "description": "Average digging MET hour/day (recoding extreme values) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dig09_dx",
+        "description": "Average time duration [hours/day] spent digging/shoveling in the last year (recoding extreme values) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "hours/week",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          0.03571428571428571,
+          0.07142857142857142,
+          0.10714285714285714,
+          0.14285714285714285,
+          0.17857142857142855,
+          0.21428571428571427,
+          0.25,
+          0.2857142857142857,
+          0.3214285714285714,
+          0.3571428571428571,
+          0.39285714285714285,
+          0.42857142857142855,
+          0.46428571428571425,
+          0.5,
+          0.5357142857142857,
+          0.5714285714285714,
+          0.6071428571428571,
+          0.6428571428571428,
+          0.6785714285714285,
+          0.7142857142857142,
+          0.75,
+          0.7857142857142857,
+          0.8214285714285714,
+          0.8571428571428571,
+          0.8928571428571428,
+          0.9285714285714285,
+          0.9642857142857142,
+          1.0,
+          1.0357142857142856,
+          1.0714285714285714,
+          1.107142857142857,
+          1.1428571428571428,
+          1.1785714285714286,
+          1.2142857142857142,
+          1.25,
+          1.2857142857142856,
+          1.3214285714285714,
+          1.357142857142857,
+          1.3928571428571428,
+          1.4285714285714284,
+          1.4642857142857142,
+          1.5,
+          1.5357142857142856,
+          1.5714285714285714,
+          1.607142857142857,
+          1.6428571428571428,
+          1.6785714285714284,
+          1.7142857142857142,
+          1.75,
+          1.7857142857142856,
+          1.8214285714285714,
+          1.857142857142857,
+          1.8928571428571428,
+          1.9285714285714284,
+          1.9642857142857142,
+          2.0,
+          2.0357142857142856,
+          2.071428571428571,
+          2.107142857142857,
+          2.142857142857143,
+          2.1785714285714284,
+          2.214285714285714,
+          2.25,
+          2.2857142857142856,
+          2.321428571428571,
+          2.357142857142857,
+          2.392857142857143,
+          2.4285714285714284,
+          2.464285714285714,
+          2.5
+        ],
+        "counts": [
+          1123,
+          110,
+          21,
+          208,
+          27,
+          6,
+          158,
+          3,
+          22,
+          24,
+          2,
+          4,
+          57,
+          0,
+          26,
+          0,
+          83,
+          4,
+          1,
+          9,
+          0,
+          3,
+          0,
+          3,
+          10,
+          8,
+          0,
+          0,
+          65,
+          0,
+          0,
+          1,
+          28,
+          0,
+          0,
+          17,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          4,
+          1,
+          0,
+          0,
+          0,
+          38
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.23076923191547394,
+        "max": 2.5
+      },
+      "units": "hours/week"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "2.5"
+      ],
+      [
+        "Range",
+        "2.5"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.23076923191547394"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.11538461595773697"
+      ],
+      [
+        "Decile 7",
+        "0.17307692766189575"
+      ],
+      [
+        "Decile 8",
+        "0.3461538553237915"
+      ],
+      [
+        "Decile 9",
+        "0.9230769276618958"
+      ],
+      [
+        "Mean",
+        "0.2548755423492106"
+      ],
+      [
+        "Std Dev.",
+        "0.5075623230540808"
+      ],
+      [
+        "Variance",
+        "0.257619511784055"
+      ],
+      [
+        "Displayed N",
+        "2121"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

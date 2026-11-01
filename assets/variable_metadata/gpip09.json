@@ -1,0 +1,451 @@
+{
+  "varname": "gpip09",
+  "label": "Is that grams or ounces [of pipe tobacco smoked per week]? - at age 60-64 years",
+  "field_id": "10243",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10243",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 14.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "poz",
+    "pipeg",
+    "pamnt",
+    "poz89",
+    "poz82"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "Smoking [5251]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Grams used as measure for amount pipe tobacco smoked"
+    },
+    {
+      "value": "6.0",
+      "label": "SM has Pre-assessment and Postal Qs but was not asked the smoking questions"
+    },
+    {
+      "value": "7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Grams used as measure for amount pipe tobacco smoked",
+      "count": 14,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "gpip09",
+    "label": "Is that grams or ounces [of pipe tobacco smoked per week]? - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "gpip09"
+      ],
+      [
+        "Field ID",
+        "10243"
+      ],
+      [
+        "Label",
+        "Is that grams or ounces [of pipe tobacco smoked per week]? - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Smoking09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "56(b)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lifestyle questions - smoking habits Q54-Q57. This question was not asked in 2014 or 2022 postals."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "poz",
+        "How much pipe tobacco do you usually smoke per week? Enter amount in ounces. If less than one ounce, enter 0. - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "61(d)",
+        "capi99a"
+      ],
+      [
+        "pipeg",
+        "How much pipe tobacco do you usually smoke per week? Enter amount in grams. If less than one gram, enter 0. - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "61(c)",
+        "capi99a"
+      ],
+      [
+        "pamnt",
+        "How much pipe tobacco do you usually smoke per week?- at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "61(b)",
+        "capi99a"
+      ],
+      [
+        "poz89",
+        "How much pipe tobacco do you smoke per week in ounces? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "76(b)",
+        "de89d"
+      ],
+      [
+        "poz82",
+        "How much pipe tabacco do you usually smoke per week in ounces? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "79(b)",
+        "B19"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Smoking [5251]",
+        "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Grams used as measure for amount pipe tobacco smoked",
+        false
+      ],
+      [
+        "6.0",
+        "SM has Pre-assessment and Postal Qs but was not asked the smoking questions",
+        true
+      ],
+      [
+        "7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "14",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "14",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "gpip09",
+    "label": "Is that grams or ounces [of pipe tobacco smoked per week]? - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10243",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "gpip09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10243",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Is that grams or ounces [of pipe tobacco smoked per week]? - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Smoking09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "56(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lifestyle questions - smoking habits Q54-Q57. This question was not asked in 2014 or 2022 postals.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "poz",
+        "description": "How much pipe tobacco do you usually smoke per week? Enter amount in ounces. If less than one ounce, enter 0. - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "61(d)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "pipeg",
+        "description": "How much pipe tobacco do you usually smoke per week? Enter amount in grams. If less than one gram, enter 0. - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "61(c)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "pamnt",
+        "description": "How much pipe tobacco do you usually smoke per week?- at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "61(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "poz89",
+        "description": "How much pipe tobacco do you smoke per week in ounces? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "76(b)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "poz82",
+        "description": "How much pipe tabacco do you usually smoke per week in ounces? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "79(b)",
+        "library_file": "B19"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Smoking [5251]",
+        "description": "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Smoking_5251.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Grams used as measure for amount pipe tobacco smoked",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "SM has Pre-assessment and Postal Qs but was not asked the smoking questions",
+        "is_missing": true
+      },
+      {
+        "value": "7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Grams used as measure for amount pipe tobacco smoked",
+          "count": 14,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "14",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "14",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

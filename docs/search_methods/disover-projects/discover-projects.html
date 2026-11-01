@@ -1,0 +1,68 @@
+---
+layout: default
+title: Discover Projects
+parent: Search Overview
+nav_order: 7
+classes: page-data-sharing-projects
+permalink: /docs/search_methods/discover-projects
+---
+
+<div class="page-data-sharing-projects"
+     data-projects-url="{{ site.baseurl }}/assets/data/data_sharing/projects_variables.json"
+     data-dictionary-url="{{ site.baseurl }}/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json">
+
+  <!-- LOADING SCREEN (shown before data loads) -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="spinner"></div>
+    <div>Loading projects...</div>
+  </div>
+
+  <!-- MAIN UI (hidden until data loads) -->
+  <div id="dataUI" style="display:none;">
+
+    <div id="data-sharing-projects-app">
+
+      <!-- HERO BANNER -->
+      <div class="hero-banner">
+        <h1><i class="ti ti-compass" aria-hidden="true"></i> Discover Projects</h1>
+        <p>Browse the projects that have been approved to use our data. Each row is a single project; open a row to see the variables it requested and add them to your basket. Use the search box, or click a column heading to sort.</p>
+        <p id="projectsFrom" style="font-weight:600;"></p>
+      </div>
+
+      <!-- SEARCH + PAGE SIZE + RESET + DOWNLOAD + PAGINATION -->
+      <div id="search-pagination-top" class="search-pagination-top">
+        <div id="resultsCount"></div>
+        <input id="globalSearch" type="text" placeholder="Search title, summary, applicant, institution or variable..." />
+        <select id="pageSize">
+          <option value="15">15</option>
+          <option value="30" selected>30</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+        <button id="resetFiltersBtn">Reset Filters</button>
+        <button id="downloadExcelBtn" class="download-btn download-excel-btn">Download Project List</button>
+        <div id="paginationTop"></div>
+      </div>
+
+      <!-- TABLE WRAPPER -->
+      <div id="table-wrapper">
+        <table id="projectsTable">
+          <thead id="projectsThead"><!-- header row (with sorting) built by data_sharing_projects.js --></thead>
+          <tbody id="projects-body"><!-- rows injected by data_sharing_projects.js --></tbody>
+        </table>
+      </div>
+
+      <!-- BOTTOM PAGINATION -->
+      <div id="paginationBottom"></div>
+
+    </div>
+  </div> <!-- end dataUI -->
+
+  <!-- Cache-busting: ?v=<build timestamp> forces browsers to fetch a fresh copy
+       of these two files on every site rebuild. ExcelJS (pinned version) is only
+       needed for the two download buttons. basket_header.js is already loaded
+       site-wide by the layout and provides the basket functions. -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/data_sharing_projects.css?v={{ site.time | date: '%s' }}">
+  <script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/data_sharing_projects.js?v={{ site.time | date: '%s' }}"></script>
+</div>

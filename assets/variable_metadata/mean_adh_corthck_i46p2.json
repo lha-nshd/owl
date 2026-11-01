@@ -1,0 +1,470 @@
+{
+  "varname": "mean_adh_corthck_i46p2",
+  "label": "Surface area weighted average of left and right hemisphere ADsig Harvard cortical thickness (mm) - Longitudinal - Insight46 phase 2",
+  "field_id": "60234",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60234",
+  "year": "",
+  "form": "Insight46 - Phase 2",
+  "units": "mm",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2.448335325,
+  "sd": 0.06205998141868982,
+  "series_size": 320.0,
+  "minimum": 2.31054,
+  "maximum": 2.576006,
+  "truly_longitudinal_field_id": "60234",
+  "truly_longitudinal_varnames": [
+    "mean_adh_corthck_i46p1"
+  ],
+  "truly_longitudinal_years": [
+    "2015-2018",
+    "2018-2021"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Cortical thickness [60334]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "mean_adh_corthck_i46p2",
+    "label": "Surface area weighted average of left and right hemisphere ADsig Harvard cortical thickness (mm) - Longitudinal - Insight46 phase 2",
+    "meta_rows": [
+      [
+        "Variable",
+        "mean_adh_corthck_i46p2"
+      ],
+      [
+        "Field ID",
+        "60234"
+      ],
+      [
+        "Label",
+        "Surface area weighted average of left and right hemisphere ADsig Harvard cortical thickness (mm) - Longitudinal - Insight46 phase 2"
+      ],
+      [
+        "Card Number",
+        "I46P2_Cortical_thickness"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 2"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2018-2021"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mm"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 2 cortical thickness assessed using Freesurfer's longitudinal stream in two composite regions of interest: one comprised of middle temporal, inferior temporal, entorhinal and fusiform areas (ADsig Mayo); and one consisting of parahippocampal, inferior temporal, entorhinal, temporal pole, precuneus, supramarginal, superior and inferior parietal, superior frontal, parsopercularis, parstriangularis and parsorbitalis areas (ADsig Harvard). Also measured in phase 1 - see library file I46_Cortical_thickness."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "mean_adh_corthck_i46p1",
+        "2015-2018",
+        "Surface area weighted average of left and right hemisphere ADsig Harvard cortical thickness (mm) - Longitudinal - Insight46 phase 1"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46P2_Cortical_thickness/Docs_Cortical_thickness_I46W2.docx",
+        "Docs_Cortical_thickness_I46W2.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_Cortical_thickness/Insight 46 phase one and two Freesurfer data.docx",
+        "Insight 46 phase one and two Freesurfer data.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cortical thickness [60334]",
+        "This category contains variables related to the cortical thickness assessed using Freesurfer from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.31054"
+      ],
+      [
+        "Maximum",
+        "2.576006"
+      ],
+      [
+        "Range",
+        "0.265466"
+      ],
+      [
+        "Median",
+        "2.445702"
+      ],
+      [
+        "IQR",
+        "2.4029825 - 2.4950065"
+      ],
+      [
+        "Decile 1",
+        "2.3658394"
+      ],
+      [
+        "Decile 2",
+        "2.3959158"
+      ],
+      [
+        "Decile 3",
+        "2.4122013"
+      ],
+      [
+        "Decile 4",
+        "2.4298727999999996"
+      ],
+      [
+        "Decile 5",
+        "2.445702"
+      ],
+      [
+        "Decile 6",
+        "2.465627"
+      ],
+      [
+        "Decile 7",
+        "2.4859535999999998"
+      ],
+      [
+        "Decile 8",
+        "2.505134"
+      ],
+      [
+        "Decile 9",
+        "2.5334672"
+      ],
+      [
+        "Mean",
+        "2.448335325"
+      ],
+      [
+        "Std Dev.",
+        "0.06205998141868982"
+      ],
+      [
+        "Variance",
+        "0.003851441293688125"
+      ],
+      [
+        "Displayed N",
+        "320"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "mean_adh_corthck_i46p2",
+    "label": "Surface area weighted average of left and right hemisphere ADsig Harvard cortical thickness (mm) - Longitudinal - Insight46 phase 2",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60234",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "mean_adh_corthck_i46p2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "60234",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Surface area weighted average of left and right hemisphere ADsig Harvard cortical thickness (mm) - Longitudinal - Insight46 phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46P2_Cortical_thickness",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2018-2021",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mm",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 2 cortical thickness assessed using Freesurfer's longitudinal stream in two composite regions of interest: one comprised of middle temporal, inferior temporal, entorhinal and fusiform areas (ADsig Mayo); and one consisting of parahippocampal, inferior temporal, entorhinal, temporal pole, precuneus, supramarginal, superior and inferior parietal, superior frontal, parsopercularis, parstriangularis and parsorbitalis areas (ADsig Harvard). Also measured in phase 1 - see library file I46_Cortical_thickness.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "60234",
+      "members": [
+        {
+          "varname": "mean_adh_corthck_i46p1",
+          "year": "2015-2018",
+          "label": "Surface area weighted average of left and right hemisphere ADsig Harvard cortical thickness (mm) - Longitudinal - Insight46 phase 1",
+          "is_current": false
+        },
+        {
+          "varname": "mean_adh_corthck_i46p2",
+          "year": "2018-2021",
+          "label": "Surface area weighted average of left and right hemisphere ADsig Harvard cortical thickness (mm) - Longitudinal - Insight46 phase 2",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46P2_Cortical_thickness/Docs_Cortical_thickness_I46W2.docx",
+        "text": "Docs_Cortical_thickness_I46W2.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_Cortical_thickness/Insight 46 phase one and two Freesurfer data.docx",
+        "text": "Insight 46 phase one and two Freesurfer data.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cortical thickness [60334]",
+        "description": "This category contains variables related to the cortical thickness assessed using Freesurfer from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Cortical_thickness_60334.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 3,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mm",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          2.31054,
+          2.3370866,
+          2.3636332,
+          2.3901798,
+          2.4167264,
+          2.443273,
+          2.4698196,
+          2.4963662,
+          2.5229128,
+          2.5494594,
+          2.576006
+        ],
+        "counts": [
+          12,
+          18,
+          27,
+          41,
+          58,
+          48,
+          36,
+          31,
+          36,
+          13
+        ]
+      },
+      "boxplot": {
+        "min": 2.31054,
+        "q1": 2.4029825,
+        "median": 2.445702,
+        "q3": 2.4950065,
+        "max": 2.576006
+      },
+      "units": "mm"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.31054"
+      ],
+      [
+        "Maximum",
+        "2.576006"
+      ],
+      [
+        "Range",
+        "0.265466"
+      ],
+      [
+        "Median",
+        "2.445702"
+      ],
+      [
+        "IQR",
+        "2.4029825 - 2.4950065"
+      ],
+      [
+        "Decile 1",
+        "2.3658394"
+      ],
+      [
+        "Decile 2",
+        "2.3959158"
+      ],
+      [
+        "Decile 3",
+        "2.4122013"
+      ],
+      [
+        "Decile 4",
+        "2.4298727999999996"
+      ],
+      [
+        "Decile 5",
+        "2.445702"
+      ],
+      [
+        "Decile 6",
+        "2.465627"
+      ],
+      [
+        "Decile 7",
+        "2.4859535999999998"
+      ],
+      [
+        "Decile 8",
+        "2.505134"
+      ],
+      [
+        "Decile 9",
+        "2.5334672"
+      ],
+      [
+        "Mean",
+        "2.448335325"
+      ],
+      [
+        "Std Dev.",
+        "0.06205998141868982"
+      ],
+      [
+        "Variance",
+        "0.003851441293688125"
+      ],
+      [
+        "Displayed N",
+        "320"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

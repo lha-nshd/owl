@@ -1,0 +1,626 @@
+{
+  "varname": "sprta14x",
+  "label": "How old was your husband/wife or partner when they retired from their main occupation? - at age 68 years",
+  "field_id": "9432",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9432",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 59.8517745302714,
+  "sd": 4.54815936792138,
+  "series_size": 1437.0,
+  "minimum": 48.0,
+  "maximum": 67.0,
+  "truly_longitudinal_field_id": "9432",
+  "truly_longitudinal_varnames": [
+    "sprta09"
+  ],
+  "truly_longitudinal_years": [
+    "2006-10",
+    "2014"
+  ],
+  "linked_varnames": [
+    "spreta22x",
+    "spret22x",
+    "spret14x",
+    "spret09"
+  ],
+  "linked_years": [
+    "2006-10",
+    "2014",
+    "2022"
+  ],
+  "categories": [
+    "Social class [22]",
+    "Employment history [23]",
+    "Other socioeconomic circumstances [24]",
+    "Employment history [5154]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "97.0",
+      "label": "50+"
+    },
+    {
+      "value": "98.0",
+      "label": "60+"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "sprta14x",
+    "label": "How old was your husband/wife or partner when they retired from their main occupation? - at age 68 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "sprta14x"
+      ],
+      [
+        "Field ID",
+        "9432"
+      ],
+      [
+        "Label",
+        "How old was your husband/wife or partner when they retired from their main occupation? - at age 68 years"
+      ],
+      [
+        "Card Number",
+        "PartnersRetirement14"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "13"
+      ],
+      [
+        "Year",
+        "2014"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell count issue. Contains age information."
+      ],
+      [
+        "Notes",
+        "Family, home and retirement questions, Q1-Q15. This variable cannot be compared with the 2022 variable spreta22x as that was asked since 68th birthday."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "sprta09",
+        "2006-10",
+        "How old was your husband/wife or partner when they retired from their main occupation? - at age 60-64 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "spreta22x",
+        "Since your 68th birthday, how old was your husband/wife or partner when they retired from their main occupation? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "18",
+        "Postal22"
+      ],
+      [
+        "spret22x",
+        "Since your 68th birthday, has your husband/wife or partner retired from their main occupation, even if they are now doing other paid work? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "17",
+        "Postal22"
+      ],
+      [
+        "spret14x",
+        "Has your husband/wife or partner retired from their main occupation, even if they are now doing other paid work? - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "12",
+        "PartnersRetirement14"
+      ],
+      [
+        "spret09",
+        "Has your husband/wife or partner retired from their main occupation, even if they are now doing other paid work? - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "46",
+        "OccStatRetCls09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social class [22]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [5154]",
+        "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "97.0",
+        "50+",
+        true
+      ],
+      [
+        "98.0",
+        "60+",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "48"
+      ],
+      [
+        "Maximum",
+        "67"
+      ],
+      [
+        "Range",
+        "19"
+      ],
+      [
+        "Median",
+        "60.0"
+      ],
+      [
+        "IQR",
+        "57.0 - 64.0"
+      ],
+      [
+        "Decile 1",
+        "53.0"
+      ],
+      [
+        "Decile 2",
+        "56.0"
+      ],
+      [
+        "Decile 3",
+        "58.0"
+      ],
+      [
+        "Decile 4",
+        "60.0"
+      ],
+      [
+        "Decile 5",
+        "60.0"
+      ],
+      [
+        "Decile 6",
+        "61.0"
+      ],
+      [
+        "Decile 7",
+        "63.0"
+      ],
+      [
+        "Decile 8",
+        "65.0"
+      ],
+      [
+        "Decile 9",
+        "65.0"
+      ],
+      [
+        "Mean",
+        "59.8517745302714"
+      ],
+      [
+        "Std Dev.",
+        "4.54815936792138"
+      ],
+      [
+        "Variance",
+        "20.685753636011"
+      ],
+      [
+        "Displayed N",
+        "1437"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "sprta14x",
+    "label": "How old was your husband/wife or partner when they retired from their main occupation? - at age 68 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9432",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "sprta14x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9432",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How old was your husband/wife or partner when they retired from their main occupation? - at age 68 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PartnersRetirement14",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "13",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2014",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell count issue. Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Family, home and retirement questions, Q1-Q15. This variable cannot be compared with the 2022 variable spreta22x as that was asked since 68th birthday.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "9432",
+      "members": [
+        {
+          "varname": "sprta09",
+          "year": "2006-10",
+          "label": "How old was your husband/wife or partner when they retired from their main occupation? - at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "sprta14x",
+          "year": "2014",
+          "label": "How old was your husband/wife or partner when they retired from their main occupation? - at age 68 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "spreta22x",
+        "description": "Since your 68th birthday, how old was your husband/wife or partner when they retired from their main occupation? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "18",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "spret22x",
+        "description": "Since your 68th birthday, has your husband/wife or partner retired from their main occupation, even if they are now doing other paid work? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "17",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "spret14x",
+        "description": "Has your husband/wife or partner retired from their main occupation, even if they are now doing other paid work? - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "12",
+        "library_file": "PartnersRetirement14"
+      },
+      {
+        "varname": "spret09",
+        "description": "Has your husband/wife or partner retired from their main occupation, even if they are now doing other paid work? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "46",
+        "library_file": "OccStatRetCls09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social class [22]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [5154]",
+        "description": "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Employment_history_5154.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "97.0",
+        "label": "50+",
+        "is_missing": true
+      },
+      {
+        "value": "98.0",
+        "label": "60+",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 4,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          48.0,
+          49.1875,
+          50.375,
+          51.5625,
+          52.75,
+          53.9375,
+          55.125,
+          56.3125,
+          57.5,
+          58.6875,
+          59.875,
+          61.0625,
+          62.25,
+          63.4375,
+          64.625,
+          65.8125,
+          67.0
+        ],
+        "counts": [
+          16,
+          60,
+          24,
+          29,
+          28,
+          124,
+          43,
+          57,
+          87,
+          55,
+          361,
+          90,
+          85,
+          53,
+          255,
+          70
+        ]
+      },
+      "boxplot": {
+        "min": 48.0,
+        "q1": 57.0,
+        "median": 60.0,
+        "q3": 64.0,
+        "max": 67.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "48"
+      ],
+      [
+        "Maximum",
+        "67"
+      ],
+      [
+        "Range",
+        "19"
+      ],
+      [
+        "Median",
+        "60.0"
+      ],
+      [
+        "IQR",
+        "57.0 - 64.0"
+      ],
+      [
+        "Decile 1",
+        "53.0"
+      ],
+      [
+        "Decile 2",
+        "56.0"
+      ],
+      [
+        "Decile 3",
+        "58.0"
+      ],
+      [
+        "Decile 4",
+        "60.0"
+      ],
+      [
+        "Decile 5",
+        "60.0"
+      ],
+      [
+        "Decile 6",
+        "61.0"
+      ],
+      [
+        "Decile 7",
+        "63.0"
+      ],
+      [
+        "Decile 8",
+        "65.0"
+      ],
+      [
+        "Decile 9",
+        "65.0"
+      ],
+      [
+        "Mean",
+        "59.8517745302714"
+      ],
+      [
+        "Std Dev.",
+        "4.54815936792138"
+      ],
+      [
+        "Variance",
+        "20.685753636011"
+      ],
+      [
+        "Displayed N",
+        "1437"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,153 @@
+/* documentation.css
+   Shared styles for the documentation search/browse tables on this site.
+   Colours by COLUMN (not row) to match the site's existing browse-by-field
+   style tables — a purple header bar, and each data column tinted its own
+   pastel shade all the way down, rather than alternating row stripes.
+
+   Everything here is scoped under .page-search-documentation, which Just
+   the Docs applies to the page content wrapper via the "classes:" front
+   matter option. That means these rules only ever apply on pages that
+   opt in with that class — they can't leak onto, or be overridden by,
+   any other page on the site, even if another page happens to reuse a
+   class name like .doc-search-table for something unrelated. To use
+   this stylesheet on another table/page, give that page its own
+   distinct class (e.g. classes: page-popular-variables) and either
+   scope a second copy of these rules under that class, or add both
+   classes to the same selector list if the two pages should share
+   identical styling.
+
+   Adjust the variables below to retint everything in one place. */
+
+.page-search-documentation {
+  --doc-header-bg: #3c1361;      /* deep purple header bar */
+  --doc-header-color: #ffffff;
+
+  --doc-col-title-bg: #fdf1e0;   /* pastel peach — Document/title column */
+  --doc-col-confidence-bg: #e3f3e8; /* pastel mint — Variables found column */
+  --doc-col-type-bg: #eae6f7;    /* pastel lavender — Type column */
+
+  --doc-chip-bg: rgba(0, 0, 0, 0.06);
+  --doc-chip-hover-bg: hsl(180 45% 90%);
+  --doc-chip-hover-color: hsl(180 45% 20%);
+
+  --doc-link-color: #1656c4;      /* distinct link blue, used for chips + row title */
+  --doc-link-hover-color: #0d3d8f;
+}
+
+/* ---------- Controls row (search box, filters) ---------- */
+.page-search-documentation .doc-search-controls { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:10px; }
+.page-search-documentation .doc-search-input { flex:1; min-width:220px; padding:9px 12px; font-size:14px; border:1px solid rgba(0,0,0,0.2); border-radius:6px; }
+.page-search-documentation .doc-search-select { padding:9px 12px; font-size:14px; border:1px solid rgba(0,0,0,0.2); border-radius:6px; background:#fff; }
+.page-search-documentation .doc-search-count { font-size:12.5px; color:#666; margin:6px 0 14px; }
+.page-search-documentation .doc-search-empty { font-size:14px; color:#666; font-style:italic; padding:20px 0; }
+
+/* ---------- Table shell ---------- */
+.page-search-documentation .doc-search-table { width:100%; border-collapse:collapse; table-layout:fixed; }
+
+.page-search-documentation .doc-search-table thead th {
+  text-align:left;
+  font-size:12.5px;
+  text-transform:uppercase;
+  letter-spacing:.02em;
+  padding:10px;
+  cursor:pointer;
+  user-select:none;
+  background:var(--doc-header-bg) !important;
+  color:var(--doc-header-color) !important;
+}
+.page-search-documentation .doc-search-table thead th:first-child { border-top-left-radius:6px; }
+.page-search-documentation .doc-search-table thead th:last-child { border-top-right-radius:6px; }
+
+.page-search-documentation .doc-search-table thead th:nth-child(1) { width:52%; }
+.page-search-documentation .doc-search-table thead th:nth-child(2) { width:26%; }
+.page-search-documentation .doc-search-table thead th:nth-child(3) { width:22%; }
+
+.page-search-documentation .doc-sort-icon { font-size:12px; opacity:.7; }
+.page-search-documentation .doc-th-sortable.doc-sort-active .doc-sort-icon { opacity:1; }
+
+/* ---------- Column-based pastel colouring ---------- */
+/* Applied per-cell (not per-row) so each column keeps its own tint all
+   the way down the table, regardless of row index. !important is
+   required here because the site theme's own table CSS sets a
+   background directly on <td> elements, which otherwise paints over
+   anything set only at the <tr> level. */
+.page-search-documentation .doc-search-table tbody td:nth-child(1) { background:var(--doc-col-title-bg) !important; }
+.page-search-documentation .doc-search-table tbody td:nth-child(2) { background:var(--doc-col-confidence-bg) !important; }
+.page-search-documentation .doc-search-table tbody td:nth-child(3) { background:var(--doc-col-type-bg) !important; }
+
+.page-search-documentation .doc-result-row td { padding:10px; vertical-align:top; border-bottom:2px solid #fff; }
+
+/* Row hover: a translucent overlay via inset box-shadow rather than a
+   background change, so it layers on top of the column colour instead
+   of fighting the !important rules above. */
+.page-search-documentation .doc-result-row:hover td { box-shadow: inset 0 0 0 9999px rgba(0,0,0,0.045); cursor:pointer; }
+
+.page-search-documentation .doc-result-icon { margin-right:6px; color:var(--doc-header-bg); }
+.page-search-documentation .doc-result-title {
+  font-size:14px; font-weight:600; color:var(--doc-link-color);
+  text-decoration:underline; text-decoration-color:rgba(22,86,196,0.3); text-underline-offset:2px;
+}
+.page-search-documentation .doc-result-row:hover .doc-result-title {
+  color:var(--doc-link-hover-color);
+  text-decoration-color:currentColor;
+}
+
+/* "View" affordance in the Type column — always visible (not just on
+   hover) so touch-device users get the same cue that the row leads
+   somewhere, not only mouse users. Brightens and nudges right on
+   hover as a secondary reinforcement for pointer devices. */
+.page-search-documentation .doc-type-cell { display:flex; align-items:center; justify-content:space-between; gap:6px; }
+.page-search-documentation .doc-row-view-cue {
+  display:inline-flex; align-items:center; gap:2px;
+  font-size:12px; color:#9a93ab; flex-shrink:0;
+  transition: color .15s, transform .15s;
+}
+.page-search-documentation .doc-result-row:hover .doc-row-view-cue {
+  color:var(--doc-header-bg);
+  transform:translateX(3px);
+}
+
+/* ---------- Confidence badges ---------- */
+.page-search-documentation .doc-conf-cell { display:flex; flex-wrap:wrap; gap:5px; }
+.page-search-documentation .doc-count-badge { font-size:10.5px; font-weight:600; padding:1px 6px; border-radius:8px; }
+.page-search-documentation .doc-count-high { background:hsl(125 35% 85%); color:hsl(125 35% 16%); }
+.page-search-documentation .doc-count-medium { background:hsl(210 45% 87%); color:hsl(210 45% 20%); }
+.page-search-documentation .doc-count-low { background:hsl(35 60% 85%); color:hsl(35 60% 18%); }
+.page-search-documentation .doc-count-empty { font-size:12px; color:#888; font-style:italic; }
+
+/* ---------- Type badge ---------- */
+/* A neutral default first, so any doc_type without an explicit rule
+   below (a future custom value straight from the spreadsheet) still
+   gets a visible pastel badge instead of no colour at all. The
+   type-specific rules that follow override this for known types —
+   same selector specificity, so source order decides, which is why
+   this block must come first. */
+.page-search-documentation .doc-result-type { display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600; background:hsl(210 12% 88%); color:hsl(210 12% 30%); }
+
+.page-search-documentation .doc-type-topsheet { background:hsl(125 40% 82%); color:hsl(125 45% 14%); }
+.page-search-documentation .doc-type-variable_note { background:hsl(205 55% 84%); color:hsl(205 55% 18%); }
+.page-search-documentation .doc-type-templated_variable_note { background:hsl(270 45% 87%); color:hsl(270 45% 22%); }
+.page-search-documentation .doc-type-narrative { background:hsl(35 65% 83%); color:hsl(35 65% 16%); }
+.page-search-documentation .doc-type-documentation { background:hsl(185 50% 82%); color:hsl(185 55% 14%); }
+.page-search-documentation .doc-type-full_documentation { background:hsl(330 50% 87%); color:hsl(330 50% 22%); }
+
+/* ---------- Category disclosure + chips ---------- */
+.page-search-documentation .doc-category-details { margin-top:4px; }
+.page-search-documentation .doc-category-details summary { cursor:pointer; font-size:12px; color:#666; list-style:none; }
+.page-search-documentation .doc-result-categories { display:flex; flex-wrap:wrap; gap:5px; margin-top:6px; }
+.page-search-documentation .doc-category-chip {
+  font-size:11px; padding:2px 7px; border-radius:8px;
+  background:var(--doc-chip-bg); color:var(--doc-link-color);
+  text-decoration:underline; text-decoration-color:rgba(22,86,196,0.35); text-underline-offset:2px;
+  display:inline-block;
+}
+.page-search-documentation .doc-category-chip:hover {
+  background:var(--doc-chip-hover-bg);
+  color:var(--doc-link-hover-color);
+  text-decoration-color:currentColor;
+}
+
+/* ---------- Pagination ---------- */
+.page-search-documentation .doc-pagination { display:flex; align-items:center; gap:10px; justify-content:center; padding:8px 0; font-size:12.5px; }
+.page-search-documentation .doc-page-btn { padding:4px 10px; border:1px solid rgba(0,0,0,0.15); border-radius:5px; background:#fff; cursor:pointer; font-size:12.5px; }
+.page-search-documentation .doc-page-btn:disabled { opacity:.4; cursor:default; }

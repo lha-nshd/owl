@@ -1,0 +1,516 @@
+{
+  "varname": "chc09_v2",
+  "label": "Chest circumference (mm) - at age 60-64 years - first measure",
+  "field_id": "1022",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1022",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "mm",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 962.8913913913914,
+  "sd": 100.67672282352287,
+  "series_size": 1998.0,
+  "minimum": 765.0,
+  "maximum": 1160.0,
+  "truly_longitudinal_field_id": "1022",
+  "truly_longitudinal_varnames": [
+    "chc182",
+    "chc189",
+    "chc_v2"
+  ],
+  "truly_longitudinal_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Body size measures [11021]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "chc09_v2",
+    "label": "Chest circumference (mm) - at age 60-64 years - first measure",
+    "meta_rows": [
+      [
+        "Variable",
+        "chc09_v2"
+      ],
+      [
+        "Field ID",
+        "1022"
+      ],
+      [
+        "Label",
+        "Chest circumference (mm) - at age 60-64 years - first measure"
+      ],
+      [
+        "Card Number",
+        "Bodysize_recodes"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "29(a)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mm"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2006-10 nurse schedule. Anthropometry section. Rounded to nearest mm."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "chc182",
+        "1982",
+        "Chest circumference (mm) - at age 36 years - first measure"
+      ],
+      [
+        "chc189",
+        "1989",
+        "Chest circumference (mm) - at age 43 years - first measure"
+      ],
+      [
+        "chc_v2",
+        "1999",
+        "Chest circumference (mm) - at age 53 years - first measure"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Body size measures [11021]",
+        "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "765"
+      ],
+      [
+        "Maximum",
+        "1160"
+      ],
+      [
+        "Range",
+        "395"
+      ],
+      [
+        "Median",
+        "970.0"
+      ],
+      [
+        "IQR",
+        "883.25 - 1042.0"
+      ],
+      [
+        "Decile 1",
+        "817.7"
+      ],
+      [
+        "Decile 2",
+        "862.0"
+      ],
+      [
+        "Decile 3",
+        "902.0"
+      ],
+      [
+        "Decile 4",
+        "940.0"
+      ],
+      [
+        "Decile 5",
+        "970.0"
+      ],
+      [
+        "Decile 6",
+        "998.2"
+      ],
+      [
+        "Decile 7",
+        "1028.0"
+      ],
+      [
+        "Decile 8",
+        "1060.0"
+      ],
+      [
+        "Decile 9",
+        "1095.0"
+      ],
+      [
+        "Mean",
+        "962.8913913913914"
+      ],
+      [
+        "Std Dev.",
+        "100.67672282352287"
+      ],
+      [
+        "Variance",
+        "10135.80251848445"
+      ],
+      [
+        "Displayed N",
+        "1998"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "chc09_v2",
+    "label": "Chest circumference (mm) - at age 60-64 years - first measure",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1022",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "chc09_v2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1022",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Chest circumference (mm) - at age 60-64 years - first measure",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Bodysize_recodes",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "29(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mm",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 nurse schedule. Anthropometry section. Rounded to nearest mm.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1022",
+      "members": [
+        {
+          "varname": "chc182",
+          "year": "1982",
+          "label": "Chest circumference (mm) - at age 36 years - first measure",
+          "is_current": false
+        },
+        {
+          "varname": "chc189",
+          "year": "1989",
+          "label": "Chest circumference (mm) - at age 43 years - first measure",
+          "is_current": false
+        },
+        {
+          "varname": "chc_v2",
+          "year": "1999",
+          "label": "Chest circumference (mm) - at age 53 years - first measure",
+          "is_current": false
+        },
+        {
+          "varname": "chc09_v2",
+          "year": "2006-10",
+          "label": "Chest circumference (mm) - at age 60-64 years - first measure",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Body size measures [11021]",
+        "description": "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Body_size_measures_11021.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mm",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          765.0,
+          789.6875,
+          814.375,
+          839.0625,
+          863.75,
+          888.4375,
+          913.125,
+          937.8125,
+          962.5,
+          987.1875,
+          1011.875,
+          1036.5625,
+          1061.25,
+          1085.9375,
+          1110.625,
+          1135.3125,
+          1160.0
+        ],
+        "counts": [
+          79,
+          108,
+          108,
+          112,
+          122,
+          126,
+          134,
+          158,
+          190,
+          164,
+          163,
+          154,
+          128,
+          126,
+          74,
+          52
+        ]
+      },
+      "boxplot": {
+        "min": 765.0,
+        "q1": 883.25,
+        "median": 970.0,
+        "q3": 1042.0,
+        "max": 1160.0
+      },
+      "units": "mm"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "765"
+      ],
+      [
+        "Maximum",
+        "1160"
+      ],
+      [
+        "Range",
+        "395"
+      ],
+      [
+        "Median",
+        "970.0"
+      ],
+      [
+        "IQR",
+        "883.25 - 1042.0"
+      ],
+      [
+        "Decile 1",
+        "817.7"
+      ],
+      [
+        "Decile 2",
+        "862.0"
+      ],
+      [
+        "Decile 3",
+        "902.0"
+      ],
+      [
+        "Decile 4",
+        "940.0"
+      ],
+      [
+        "Decile 5",
+        "970.0"
+      ],
+      [
+        "Decile 6",
+        "998.2"
+      ],
+      [
+        "Decile 7",
+        "1028.0"
+      ],
+      [
+        "Decile 8",
+        "1060.0"
+      ],
+      [
+        "Decile 9",
+        "1095.0"
+      ],
+      [
+        "Mean",
+        "962.8913913913914"
+      ],
+      [
+        "Std Dev.",
+        "100.67672282352287"
+      ],
+      [
+        "Variance",
+        "10135.80251848445"
+      ],
+      [
+        "Displayed N",
+        "1998"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

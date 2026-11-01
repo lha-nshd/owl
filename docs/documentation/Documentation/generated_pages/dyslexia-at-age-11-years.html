@@ -1,0 +1,188 @@
+---
+layout: default
+title: Dyslexia at age 11 years.
+parent: Search Documentation
+nav_exclude: true
+permalink: /docs/documentation/dyslexia-at-age-11-years/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-file-description" aria-hidden="true"></i> Dyslexia at age 11 years.</h1>
+    <p class="doc-byline">Darya Gaysina . April 2014</p>
+    <p class="doc-description">In 1957, when cohort members were aged 11 years, 4281 cohort members were administered tests of general cognitive ability, arithmetic, reading and vocabulary. These tests were developed by National Foundation for Educational Research in England and Wales (Pigeon, 1964).  Dyslexia status in was based on the results of the general ability and reading ability tests. All tests were administered by teachers in a school setting.</p>
+    <a class="doc-pdf-download" href="/OWL/assets/pdfs/documentation/dyslexia-at-age-11-years.pdf" download><i class="ti ti-download" aria-hidden="true"></i> Download PDF version</a>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#document-details"><i class="ti ti-list-details" aria-hidden="true"></i> Document details</a></li><li><a href="#summary"><i class="ti ti-file-text" aria-hidden="true"></i> Summary</a></li><li><a href="#variable-info"><i class="ti ti-notes" aria-hidden="true"></i> Variable info</a></li><li><a href="#history-of-cleaning-derivation-documentation"><i class="ti ti-bookmark" aria-hidden="true"></i> History of cleaning/derivation/documentation</a></li><li><a href="#variables"><i class="ti ti-list-check" aria-hidden="true"></i> Variables in this document</a></li>
+    </ul>
+    <a href="/OWL/docs/documentation/documentation-search/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Documentation</a>
+  </div>
+
+  <div class="home-section gs-card-blue" id="document-details"><h2><i class="ti ti-list-details" aria-hidden="true"></i> Document details</h2><details class="doc-details-box" open><summary>Document details <span class="doc-var-hint">(click to collapse)</span></summary><table class="doc-details-table"><tbody><tr><td>Categories of variables</td><td>Cognitive Function</td></tr><tr><td>Summary of work undertaken</td><td>Derivation of a variable measuring dyslexia status at age 11. Calculated using GA11N [Normalised score of 80-item verbal/non-verbal ability test at 11yrs] and R11r [Reading ability at 11 yrs].</td></tr><tr><td>Output variables</td><td>dyslex11</td></tr></tbody></table></details></div>
+
+  <div class="home-section gs-card-search" id="summary"><h2><i class="ti ti-file-text" aria-hidden="true"></i> Summary</h2><div class="doc-content-body"><p>In 1957, when cohort members were aged 11 years, 4281 cohort members were administered tests of general cognitive ability, arithmetic, reading and vocabulary. These tests were developed by National Foundation for Educational Research in England and Wales (Pigeon, 1964).  Dyslexia status in was based on the results of the general ability and reading ability tests. All tests were administered by teachers in a school setting.</p>
+<p>In 1957, when cohort members were aged 11 years, 4281 cohort members were administered tests of general cognitive ability, arithmetic, reading, and vocabulary, developed by National Foundation for Educational Research in  and  (Pigeon, 1964). Dyslexia status was based on the results of the general ability and reading ability tests. All tests were administered by teachers in a school setting. </p>
+<p><strong class="doc-subheading"><u>Raw variables</u></strong></p>
+<p>GA11N – Normalized score of the general ability test. The general ability test consists of 56 exercises (half verbal and half non-verbal), each representing a logical order of words or figures; in each case the task is to select one of five items to complete the sequence. The total score was normalized to 100 and an SD of 15 to give a score comparable to IQ. 
+R11R – Raw score of the reading ability test. Test consists of 50 different words to read and pronounce, ranging from low difficulty (e.g., egg, book, apple) to high difficulty (e.g., extraneous, ophthalmic). 
+These variables can be picked up directly from $lb/d03/c.dat</p>
+<p><strong class="doc-subheading"><u>Derived variables</u></strong></p>
+<p>DYSLEX11 – Dyslexia status at age 11 years. Categorical variable. Children were classified as dyslexic if they achieved a GA11N score of 70 or higher, and a R11R score lower than 20.66, which is 1.5 SD below the mean (see the NB in the syntax file). Children who scored lower than these thresholds on both tests were classified as having low ability. The group scoring at or above threshold on both tests provided a normal comparison (reference) group. 999 coded as missing.</p></div></div><div class="home-section gs-card-explore" id="variable-info"><h2><i class="ti ti-notes" aria-hidden="true"></i> Variable info</h2><div class="doc-content-body"><p><strong>DYSLEX11</strong></p>
+<p>Purpose     : Dyslexia status <strong>at 11 years</strong>
+Year        :  1957</p>
+<p><strong>1. Definition</strong></p>
+<table><tr><td><strong>Value</strong></td><td><strong>Label</strong></td></tr><tr><td>1</td><td>Normal ability</td></tr><tr><td>2</td><td>Dyslexia</td></tr><tr><td>3</td><td>Low ability</td></tr><tr><td>999</td><td>Missing data</td></tr></table>
+
+<p><strong>2. Specification</strong></p>
+<p>Dyslexia status at age 11 has been derived using scores from reading and verbal/non-verbal ability tests undertaken in 1957 (at 11 years)</p>
+<p>The threshold for R11R was defined as 1.5 SD below mean.
+SD of R11R =10.51 and Mean=36.43.
+So threshold=36.43-(10.51*1.5) =20.66</p>
+<p>Children were classified as dyslexic if they achieved a GAIIN score of 70 or higher and a R11R score lower than 20.66. The threshold of 70 for GA11N represents the cut-off for mild learning disability. Anything above this is considered within the normal range for general cognitive ability/IQ.</p>
+<p><strong>3. Derivation</strong></p>
+<p>COMPUTE DYSLEX11 = 999.
+IF (GA11N GE 70 AND R11R GE 20.66) DYSLEX11=1.
+IF (GA11N GE 70 AND R11R LT 20.66) DYSLEX11=2.
+IF (GA11N LT 70 AND R11R LT 20.66) DYSLEX11=3.
+IF (GA11N E SYSMIS or R11R E SYSMIS) DYSLEX11=999.</p></div></div><div class="home-section gs-card-sidebar" id="history-of-cleaning-derivation-documentation"><h2><i class="ti ti-bookmark" aria-hidden="true"></i> History of cleaning/derivation/documentation</h2><div class="doc-content-body"><p>27/03/2009 - Derivation of Dyslexia status at age 11 (1957)</p></div></div>
+
+  <div class="home-section gs-card-basket" id="variables">
+    <h2><i class="ti ti-list-check" aria-hidden="true"></i> Variables in this document</h2>
+    <div class="doc-topic-note"><i class="ti ti-folder" aria-hidden="true"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Clinical_data_51.html" target="_blank" rel="noopener">Clinical data [51]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Cognitive_function_101.html" target="_blank" rel="noopener">Cognitive function [101]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Childhood_cognition_1011.html" target="_blank" rel="noopener">Childhood cognition [1011]</a></div>
+    
+    <div class="doc-var-box doc-var-high"><div class="doc-var-header"><span><b>1</b> high-confidence match</span><button class="doc-var-add-btn" data-tier="high" data-state="add">Add all to basket</button></div><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Childhood_cognition_1011.html" target="_blank" rel="noopener" title="Clinical data [51] › Cognitive function [101] › Childhood cognition [1011]">Childhood cognition [1011]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/dyslex11.html" target="_blank" rel="noopener">dyslex11</a></td><td>Dyslexia status - at age 11 years</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="dyslex11" data-label="Dyslexia status - at age 11 years" data-tier="high"></td></tr></tbody></table></div><details class="doc-var-box doc-var-medium"><summary><b>1</b> medium-confidence match <span class="doc-var-hint">(click for details)</span></summary><p class="doc-var-note">Reasonably confident plain-text matches — worth a look, but not added in bulk.</p><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Childhood_cognition_1011.html" target="_blank" rel="noopener" title="Clinical data [51] › Cognitive function [101] › Childhood cognition [1011]">Childhood cognition [1011]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ga11n.html" target="_blank" rel="noopener">ga11n</a></td><td>Verbal and non-verbal ability - General Ability (80-items - normalised score) - at age 11 years</td><td>prose scan</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ga11n" data-label="Verbal and non-verbal ability - General Ability (80-items - normalised score) - at age 11 years" data-tier="medium"></td></tr></tbody></table></details><details class="doc-var-box doc-var-low"><summary><b>1</b> low-confidence match <span class="doc-var-hint">(click for details)</span></summary><p class="doc-var-note">These matched a dictionary variable name in plain text, but common short words sometimes coincide with real variable codes (for example &quot;sex&quot; or &quot;inch&quot;). Check each before adding.</p><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Childhood_cognition_1011.html" target="_blank" rel="noopener" title="Clinical data [51] › Cognitive function [101] › Childhood cognition [1011]">Childhood cognition [1011]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/r11r.html" target="_blank" rel="noopener">r11r</a></td><td>Mechanical reading - pronunciation - (edited raw score) - at age 11 years</td><td>prose scan</td><td><input type="checkbox" class="doc-var-checkbox" data-var="r11r" data-label="Mechanical reading - pronunciation - (edited raw score) - at age 11 years" data-tier="low"></td></tr></tbody></table></details>
+    <details class="doc-legend-box"><summary>How variables get found <span class="doc-var-hint">(click for details)</span></summary><table class="doc-legend-table"><tbody><tr><td>Topsheet field</td><td>Named directly in the topsheet’s structured &quot;Output variables&quot; row — someone deliberately typed this name to mean exactly this. The most reliable method there is.</td></tr><tr><td>Prose scan</td><td>Found as ordinary text in the body — the fallback used when a document has no structured field, bold heading, or template. Confidence depends on how short and common the word is, since short variable-shaped words occasionally match by coincidence.</td></tr></tbody></table></details>
+    <p id="basketDoneMsg" class="doc-var-done-msg"></p>
+  </div>
+
+</div>
+
+<style>
+.doc-content-body { font-size: 14px; line-height: 1.7; color: #333; }
+.doc-content-body h1, .doc-content-body h2, .doc-content-body h3 { font-size: 15px; font-weight: 700; color: #3a0066; margin: 16px 0 6px; }
+.doc-content-body p { margin: 0 0 10px; }
+.doc-content-body img { max-width: 100%; height: auto; display: block; margin: 10px 0; border-radius: 4px; border: 1px solid rgba(0,0,0,0.08); }
+.doc-content-body table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin: 10px 0; }
+.doc-content-body th, .doc-content-body td { padding: 5px 8px; border: 1px solid rgba(0,0,0,0.12); text-align: left; }
+.doc-content-body th { background: PowderBlue; }
+.doc-subheading { display: block; margin-bottom: 1em; }
+.doc-byline { font-size:13px; color:#555; margin:2px 0 6px; }
+.doc-description { font-size:14px; color:#333; margin:0; }
+.doc-pdf-download { display:inline-flex; align-items:center; gap:6px; margin-top:10px; padding:6px 14px; background:#1a4d7a; color:#fff; border-radius:6px; text-decoration:none; font-size:13px; font-weight:600; }
+.doc-pdf-download:hover { background:#123a5c; }
+.doc-details-box { margin: 8px 0; }
+.doc-details-box summary { cursor: pointer; font-size: 14px; font-weight: 600; color: #1a4d7a; list-style: none; }
+.doc-details-box summary::-webkit-details-marker { display: none; }
+.doc-details-table { width: auto; max-width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 10px; }
+.doc-details-table td { padding: 6px 12px; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
+.doc-details-table td:first-child { font-weight: 600; color: #333; white-space: nowrap; }
+.doc-details-table td:last-child { color: #444; word-break: break-word; }
+.doc-legend-box { margin: 12px 0 4px; }
+.doc-legend-box summary { cursor: pointer; font-size: 13px; font-weight: 600; color: #1a4d7a; list-style: none; }
+.doc-legend-box summary::-webkit-details-marker { display: none; }
+.doc-legend-table { width: auto; max-width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+.doc-legend-table td { padding: 5px 12px; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
+.doc-legend-table td:first-child { font-weight: 600; color: #333; white-space: nowrap; }
+.doc-legend-table td:last-child { color: #555; }
+.doc-topic-note { font-size:13px; color:#333; margin:8px 0; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.doc-topic-secondary { color:#7a5b00; font-size:12px; }
+.doc-topic-uncat { color:#7a1f1f; font-style:italic; }
+.doc-var-box { border-radius: 8px; padding: 14px 18px; margin: 14px 0; }
+.doc-var-high   { background: hsl(125 35% 95%); border: 1px solid hsl(125 35% 55%); }
+.doc-var-medium { background: hsl(210 45% 96%); border: 1px solid hsl(210 45% 55%); }
+.doc-var-low    { background: hsl(35 60% 96%);  border: 1px solid hsl(35 60% 55%); }
+.doc-var-header { display: flex; align-items: center; justify-content: space-between; font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.doc-var-box summary { cursor: pointer; font-size: 14px; font-weight: 600; list-style: none; }
+.doc-var-box summary::-webkit-details-marker { display: none; }
+.doc-var-hint { font-weight: 400; font-size: 12px; opacity: 0.7; }
+.doc-var-note { font-size: 12.5px; color: #555; margin: 8px 0; }
+.doc-var-empty { font-size: 13px; color: #666; font-style: italic; }
+.doc-var-add-btn { background: #4CAF50; color: white; border: none; border-radius: 4px; padding: 6px 14px; font-size: 13px; cursor: pointer; }
+.doc-var-add-btn:hover { background: #45a049; }
+.doc-var-table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 6px; }
+.doc-var-table th { text-align: left; padding: 6px 10px; border-bottom: 2px solid rgba(0,0,0,0.15); }
+.doc-var-table td { padding: 5px 10px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.doc-var-table td:first-child { font-family: monospace; white-space: nowrap; }
+.doc-var-table td:first-child a { color: #1a4d7a; text-decoration: none; }
+.doc-var-table td:first-child a:hover { text-decoration: underline; }
+.doc-var-table td:last-child { text-align: center; }
+.doc-var-table .doc-var-topic-row td { font-family: inherit; font-size: 12px; font-weight: 700; color: #444; background: rgba(0,0,0,0.035); padding: 5px 10px; border-bottom: 1px solid rgba(0,0,0,0.08); white-space: normal; text-align: left; }
+.doc-topic-chip { display:inline-block; background: hsl(200 55% 92%); color: hsl(200 55% 22%); padding: 2px 10px; border-radius: 10px; text-decoration: none; font-size: 11px; font-weight: 600; cursor: pointer; }
+.doc-topic-chip:hover { background: hsl(200 55% 85%); }
+.doc-topic-chip-plain { cursor: help; font-size: 11px; }
+.doc-var-checkbox { width: 16px; height: 16px; cursor: pointer; accent-color: #4CAF50; }
+.doc-var-done-msg { color: #27500A; font-weight: 600; margin: 10px 0; }
+</style>
+
+<script type="application/json" id="docVariableData">
+{"high": [{"variable": "dyslex11", "label": "Dyslexia status - at age 11 years"}], "medium": [{"variable": "ga11n", "label": "Verbal and non-verbal ability - General Ability (80-items - normalised score) - at age 11 years"}], "low": [{"variable": "r11r", "label": "Mechanical reading - pronunciation - (edited raw score) - at age 11 years"}]}
+</script>
+
+<script>
+(function () {
+  var data = JSON.parse(document.getElementById('docVariableData').textContent);
+
+  function tierItems(tier) {
+    return (data[tier] || []).map(function (v) { return { varName: v.variable, label: v.label }; });
+  }
+
+  function updateBulkButton(tier) {
+    var btn = document.querySelector('.doc-var-add-btn[data-tier="' + tier + '"]');
+    if (!btn) return;
+    var items = tierItems(tier);
+    var allIn = items.length > 0 && items.every(function (i) {
+      return typeof isInBasket === 'function' && isInBasket(i.varName);
+    });
+    btn.setAttribute('data-state', allIn ? 'remove' : 'add');
+    btn.textContent = allIn ? 'Remove all from basket' : 'Add all to basket';
+  }
+
+  document.querySelectorAll('.doc-var-checkbox').forEach(function (box) {
+    if (typeof isInBasket === 'function' && isInBasket(box.getAttribute('data-var'))) {
+      box.checked = true;
+    }
+    box.addEventListener('change', function () {
+      var varName = box.getAttribute('data-var');
+      var label = box.getAttribute('data-label');
+      var tier = box.getAttribute('data-tier');
+      if (box.checked) { addToBasket(varName, label); }
+      else { removeFromBasket(varName); }
+      if (tier) updateBulkButton(tier);
+    });
+  });
+
+  document.querySelectorAll('.doc-var-add-btn').forEach(function (btn) {
+    var tier = btn.getAttribute('data-tier');
+    updateBulkButton(tier);
+
+    btn.addEventListener('click', function () {
+      var items = tierItems(tier);
+      if (!items.length) return;
+      var removing = btn.getAttribute('data-state') === 'remove';
+
+      if (removing) {
+        items.forEach(function (i) { removeFromBasket(i.varName); });
+      } else {
+        batchAddToBasket(items);
+      }
+
+      document.querySelectorAll('.doc-var-checkbox[data-tier="' + tier + '"]').forEach(function (box) {
+        box.checked = !removing;
+      });
+      document.getElementById('basketDoneMsg').textContent =
+        items.length + (removing ? ' variables removed from your basket.' : ' variables added to your basket.');
+      updateBulkButton(tier);
+    });
+  });
+})();
+</script>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

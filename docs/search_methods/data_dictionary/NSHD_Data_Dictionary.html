@@ -1,0 +1,65 @@
+---
+layout: default
+title: Search Data Dictionary
+parent: Search Overview
+nav_order: 1
+classes: page-search-data-dictionary
+---
+
+<div class="page-search-data-dictionary">
+
+  <!-- ⭐ LOADING SCREEN (shown before data loads) -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="spinner"></div>
+    <div>Loading data…</div>
+  </div>
+
+  <!-- ⭐ MAIN UI (hidden until data loads) -->
+  <div id="dataUI" style="display:none;">
+
+    <div id="data-dictionary-app">
+
+      <!-- HERO BANNER (title + filters combined) -->
+      <div class="hero-banner">
+        <h1>Search NSHD Data Dictionary</h1>
+        <p>Variables are organised into a hierarchical category structure. Use the filters to drill down through topics and subtopics, or type a keyword to search across variable metadata.</p>
+        <div id="filter-bar" class="filter-bar"></div>
+      </div>
+
+      <!-- SEARCH + PAGE SIZE + RESET + PAGINATION -->
+      <div id="search-pagination-top" class="search-pagination-top">
+        <div id="resultsCount"></div>
+        <input id="globalSearch" type="text" placeholder="Search…" />
+        <select id="pageSize">
+          <option value="15">15</option>
+          <option value="30">30</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+        <button id="resetFiltersBtn">Reset Filters</button>
+		<button id="addAllBtn" class="add-all-btn">Add All to Basket</button>
+        <button id="downloadCsvBtn" class="download-btn">Download Results (CSV)</button>
+        <a href="{{ site.baseurl }}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">
+          Download Blank Data Dictionary
+        </a>
+        <div id="paginationTop"></div>
+      </div>
+
+      <!-- TABLE WRAPPER -->
+      <div id="table-wrapper">
+        <table id="myTable">
+          <thead>
+            <tr id="table-header"></tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+
+      <!-- BOTTOM PAGINATION -->
+      <div id="paginationBottom"></div>
+
+    </div>
+  </div> <!-- end dataUI -->
+
+  <script src="{{ site.baseurl }}/assets/js/data_dictionary.js"></script>
+</div>

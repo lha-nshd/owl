@@ -1,0 +1,74 @@
+---
+layout: default
+title: Browse by Category
+parent: Search Overview
+nav_order: 2
+classes: page-browse_by_category2
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/browse_by_category.css">
+
+<div class="page-browse_by_category2">
+
+  <div class="hero-banner">
+    <h1>Browse by Category</h1>
+    <p>Tick one or more categories to see every variable inside them. Each category also has its own page, reachable from the sidebar.</p>
+  </div>
+
+  <div id="catBrowser"
+       data-index="/OWL/assets/data/search_methods/browse_by_category/categories_index.json"
+       data-vars="/OWL/assets/data/search_methods/browse_by_category/category_variables.json"
+       data-var-link="https://rmjdish.github.io/OWL/assets/variable_metadata/{name}.html"
+       data-cat-base="/OWL/docs/search_methods/browse_by_category/cat_pages/">
+
+    <div id="catLoading" class="loading-screen"><div class="spinner"></div><div>Loading categories…</div></div>
+
+    <div id="catUI" style="display:none;">
+      <div class="cat-toolbar">
+        <label for="catFind">Find a category</label>
+        <input id="catFind" type="text" placeholder="Type to filter, e.g. blood pressure">
+        <button id="catExpandAll" type="button" class="cat-btn-outline">Expand all</button>
+        <button id="catCollapseAll" type="button" class="cat-btn-outline">Collapse all</button>
+      </div>
+
+      <div class="cat-layout">
+        <div class="cat-tree-card">
+          <div class="cat-tree-head"><span>Category</span><span>Variables</span></div>
+          <div id="catTree" class="cat-tree"></div>
+        </div>
+
+        <div class="cat-selected-card">
+          <div class="cat-selected-head"><span id="catSelTitle">Selected (0)</span><a href="#" id="catClear">Clear all</a></div>
+          <div id="catSelList" class="cat-selected-list"></div>
+          <div class="cat-selected-foot"><button id="catSearchBtn" type="button" disabled>Select a category to search</button></div>
+        </div>
+      </div>
+
+      <div id="catResults" class="cat-results" style="display:none;">
+        <div class="cat-results-bar">
+          <div id="catResultsCount"></div>
+          <input id="catResSearch" type="text" placeholder="Search these variables…">
+          <select id="catPageSize"><option>15</option><option>30</option><option>50</option><option>100</option></select>
+          <button id="catAddAll" type="button" class="add-all-btn">Add All to Basket</button>
+          <button id="catCsv" type="button" class="download-btn">Download Results (CSV)</button>
+          <a href="/OWL/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">Download Blank Data Dictionary</a>
+          <div id="catPagerTop" class="cat-pager"></div>
+        </div>
+        <div class="table-wrapper">
+          <table class="my-table cat-results-table">
+            <thead><tr>
+              <th class="check-col">Add</th>
+              <th data-sort="name">NSHD Variable Name <span class="sort-icon">⇅</span></th>
+              <th data-sort="label">Variable Label <span class="sort-icon">⇅</span></th>
+              <th data-sort="cat"><span class="header-label">Category</span> <span class="sort-icon">⇅</span>
+                <select id="catFilter" class="header-filter" aria-label="Filter by category"><option value="">All categories</option></select></th>
+            </tr></thead>
+            <tbody id="catTbody"></tbody>
+          </table>
+        </div>
+        <div id="catPagerBottom" class="cat-pager"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/OWL/assets/js/browse_by_category.js"></script>

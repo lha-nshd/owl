@@ -1,0 +1,363 @@
+{
+  "varname": "bnf_code23x_12",
+  "label": "12th medication taken (BNF code) at age 77 years",
+  "field_id": "6738",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6738",
+  "year": "",
+  "form": "Home visit",
+  "units": "BNF code",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "unavailable",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "6738",
+  "truly_longitudinal_varnames": [
+    "med1299",
+    "med12n09",
+    "med12n15x"
+  ],
+  "truly_longitudinal_years": [
+    "1999",
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Regular medication including BNF codes and names of drugs [50521]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "No more medications to report"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable - not taking any regular medication"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "9999998.0",
+      "label": "Refusal"
+    },
+    {
+      "value": "9999999.0",
+      "label": "Don't Know"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "bnf_code23x_12",
+    "label": "12th medication taken (BNF code) at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "bnf_code23x_12"
+      ],
+      [
+        "Field ID",
+        "6738"
+      ],
+      [
+        "Label",
+        "12th medication taken (BNF code) at age 77 years"
+      ],
+      [
+        "Card Number",
+        "medical_review23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "8"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "BNF code"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains raw BNF values"
+      ],
+      [
+        "Notes",
+        "This variable refers to raw regular medication data. This was asked at 1977, 1982, 1989, 1999, 2006-10, 2015 and 2023 data collection waves. 2025 data is still in text format and needs to be coded in BNF codes. These need to be added to your basket separately. Medication in the last 24 hours was asked at the 2006-10 and 2023 nurse visits."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "med1299",
+        "1999",
+        "12th medication taken (BNF code) at age 53 years"
+      ],
+      [
+        "med12n09",
+        "2006-10",
+        "12th medication taken (BNF code) at age 60-64 years"
+      ],
+      [
+        "med12n15x",
+        "2015",
+        "12th medication taken (BNF code) at age 69 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Regular medication including BNF codes and names of drugs [50521]",
+        "This category contains information about the regular medication, raw BNF codes,  taken by the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "No more medications to report",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable - not taking any regular medication",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "9999998.0",
+        "Refusal",
+        true
+      ],
+      [
+        "9999999.0",
+        "Don't Know",
+        true
+      ]
+    ],
+    "dist_type": "unavailable",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "bnf_code23x_12",
+    "label": "12th medication taken (BNF code) at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6738",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bnf_code23x_12",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "6738",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "12th medication taken (BNF code) at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "medical_review23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "BNF code",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains raw BNF values",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This variable refers to raw regular medication data. This was asked at 1977, 1982, 1989, 1999, 2006-10, 2015 and 2023 data collection waves. 2025 data is still in text format and needs to be coded in BNF codes. These need to be added to your basket separately. Medication in the last 24 hours was asked at the 2006-10 and 2023 nurse visits.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "6738",
+      "members": [
+        {
+          "varname": "med1299",
+          "year": "1999",
+          "label": "12th medication taken (BNF code) at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "med12n09",
+          "year": "2006-10",
+          "label": "12th medication taken (BNF code) at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "med12n15x",
+          "year": "2015",
+          "label": "12th medication taken (BNF code) at age 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "bnf_code23x_12",
+          "year": "2023",
+          "label": "12th medication taken (BNF code) at age 77 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Regular medication including BNF codes and names of drugs [50521]",
+        "description": "This category contains information about the regular medication, raw BNF codes,  taken by the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Regular_medication_including_BNF_codes_and_names_of_drugs_50521.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "No more medications to report",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable - not taking any regular medication",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "9999998.0",
+        "label": "Refusal",
+        "is_missing": true
+      },
+      {
+        "value": "9999999.0",
+        "label": "Don't Know",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 1,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": true,
+    "dist_type": "unavailable",
+    "dist_units": "BNF code",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

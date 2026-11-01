@@ -1,0 +1,438 @@
+{
+  "varname": "dcane209",
+  "label": "Please specify site of cancer (site 2) told by doctor since 1999 - at age 60-64 years",
+  "field_id": "8027",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8027",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "ICD-10",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "unavailable",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dcane109",
+    "cans82",
+    "dcane315x",
+    "icane89",
+    "dcane215x",
+    "cwhere01",
+    "cwhere02",
+    "dcane115x"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "categories": [
+    "General health [3]",
+    "Cancer [51012]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "7777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dcane209",
+    "label": "Please specify site of cancer (site 2) told by doctor since 1999 - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dcane209"
+      ],
+      [
+        "Field ID",
+        "8027"
+      ],
+      [
+        "Label",
+        "Please specify site of cancer (site 2) told by doctor since 1999 - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Cancer09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "13"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "ICD-10"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains ICD codes"
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dcane109",
+        "Please specify site of cancer (site 1) told by doctor since 1999 - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "13",
+        "Cancer09"
+      ],
+      [
+        "cans82",
+        "Details of cancer ICD codes from 1975 ICD book - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "21(c)",
+        "B15"
+      ],
+      [
+        "dcane315x",
+        "Since 2006, third mentioned cancer site - at age 69 years",
+        "2015",
+        "Home visit",
+        "9b3",
+        "MedicalConditions15"
+      ],
+      [
+        "icane89",
+        "Specify site of cancer that you have suffered from - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "dcane215x",
+        "Since 2006, second mentioned cancer site - at age 69 years",
+        "2015",
+        "Home visit",
+        "9b2",
+        "MedicalConditions15"
+      ],
+      [
+        "cwhere01",
+        "What type of cancer have you had in the last 10 years (first response) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "36(b)",
+        "capi99a"
+      ],
+      [
+        "cwhere02",
+        "What type of cancer have you had in the last 10 years (second response) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "36(b)",
+        "capi99a"
+      ],
+      [
+        "dcane115x",
+        "Since 2006, first mentioned cancer site - at age 69 years",
+        "2015",
+        "Home visit",
+        "9(b)",
+        "MedicalConditions15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Cancer [51012]",
+        "This category contains data from the questionnaires on cancer (self reported). Data was collected in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years) and 2015 (age 69 years). Information includes ICD codes and age of cancer, whether medicine was prescribed."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "7777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "unavailable",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "dcane209",
+    "label": "Please specify site of cancer (site 2) told by doctor since 1999 - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8027",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dcane209",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8027",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Please specify site of cancer (site 2) told by doctor since 1999 - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Cancer09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "13",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "ICD-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains ICD codes",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dcane109",
+        "description": "Please specify site of cancer (site 1) told by doctor since 1999 - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "13",
+        "library_file": "Cancer09"
+      },
+      {
+        "varname": "cans82",
+        "description": "Details of cancer ICD codes from 1975 ICD book - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "21(c)",
+        "library_file": "B15"
+      },
+      {
+        "varname": "dcane315x",
+        "description": "Since 2006, third mentioned cancer site - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "9b3",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "icane89",
+        "description": "Specify site of cancer that you have suffered from - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "dcane215x",
+        "description": "Since 2006, second mentioned cancer site - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "9b2",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "cwhere01",
+        "description": "What type of cancer have you had in the last 10 years (first response) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "36(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "cwhere02",
+        "description": "What type of cancer have you had in the last 10 years (second response) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "36(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "dcane115x",
+        "description": "Since 2006, first mentioned cancer site - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "9(b)",
+        "library_file": "MedicalConditions15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Cancer [51012]",
+        "description": "This category contains data from the questionnaires on cancer (self reported). Data was collected in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years) and 2015 (age 69 years). Information includes ICD codes and age of cancer, whether medicine was prescribed.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Cancer_51012.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "unavailable",
+    "dist_units": "ICD-10",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,186 @@
+---
+layout: default
+title: Simoa blood biomarkers tested the Quanterix Neurology 4-Plex E and ptau181V2 assays on Insight46 phase 1 and 2
+parent: Search Documentation
+nav_exclude: true
+permalink: /docs/documentation/simoa-blood-biomarkers-tested-the-quanterix-neurology-4-plex-e-and-ptau181v2-assays-on-insight46-phase-1-and-2/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-table" aria-hidden="true"></i> Simoa blood biomarkers tested the Quanterix Neurology 4-Plex E and ptau181V2 assays on Insight46 phase 1 and 2</h1>
+    <p class="doc-byline">Ashvini Keshavan . 12/02/2025</p>
+    
+    <a class="doc-pdf-download" href="/OWL/assets/pdfs/documentation/simoa-blood-biomarkers-tested-the-quanterix-neurology-4-plex-e-and-ptau181v2-assays-on-insight46-phase-1-and-2.pdf" download><i class="ti ti-download" aria-hidden="true"></i> Download PDF version</a>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#document-details"><i class="ti ti-list-details" aria-hidden="true"></i> Document details</a></li><li><a href="#methods"><i class="ti ti-file-text" aria-hidden="true"></i> Methods</a></li><li><a href="#variables"><i class="ti ti-list-check" aria-hidden="true"></i> Variables in this document</a></li>
+    </ul>
+    <a href="/OWL/docs/documentation/documentation-search/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Documentation</a>
+  </div>
+
+  <div class="home-section gs-card-blue" id="document-details"><h2><i class="ti ti-list-details" aria-hidden="true"></i> Document details</h2><details class="doc-details-box" open><summary>Document details <span class="doc-var-hint">(click to collapse)</span></summary><table class="doc-details-table"><tbody><tr><td>Categories of variables</td><td>Simoa blood biomarkers tested the Quanterix Neurology 4-Plex E and ptau181V2 assays on phase 1 and 2 plasma samples, and phase 2 CSF samples from the Insight 46 study</td></tr><tr><td>Summary of work undertaken</td><td>Source data transferred to Stata file<br><br>Age variables derived<br><br>Missing data – labelled as -99.<br><br>Methods section below</td></tr><tr><td>Names of source variables</td><td>NFL_N4PE_plasma_p1, GFAP_N4PE_plasma_p1, Ab40_N4PE_plasma_p1, Ab42_N4PE_plasma_p1, Ptau181v2_plasma_p1, NFL_N4PE_plasma_p2, GFAP_N4PE_plasma_p2, Ab40_N4PE_plasma_p2, Ab42_N4PE_plasma_p2, Ptau181v2_plasma_p2, NFL_N4PE_CSF_p2, GFAP_N4PE_CSF_p2, Ab40_N4PE_CSF_p2, Ab42_N4PE_CSF_p2, Ptau181v2_plasma_p2, visit_date_p1, Date_blood_p2, Date_CSF_p2</td></tr><tr><td>Output variables</td><td>age_blood_i46p1, n4pe_plsmft_i46p1, ptau181v2_plsmft_p1, ab42_n4pe_plsm_i46p1, ab40_n4pe_plsm_i46p1, nfl_n4pe_plsm_i46p1, gfap_n4pe_plsm_i46p1, ptau181v2_plsm_i46p1</td></tr></tbody></table></details></div>
+
+  <div class="home-section gs-card-search" id="methods"><h2><i class="ti ti-file-text" aria-hidden="true"></i> Methods</h2><div class="doc-content-body"><p><strong class="doc-subheading"><u>General note</u></strong></p>
+<p>All measurements were conducted by the same researcher (Dr Ashvini Keshavan) on the same two automated HD-X analysers (Quanterix) at the UK DRI laboratory at UCL.</p>
+<p>For these blood biomarker variables, the code -99 indicates that no aliquot was available for testing so no quantification was performed.</p>
+<p>It is recommended that prior to making a request for any of these variables, researchers discuss the plan with Dr Ashvini Keshavan.</p>
+<p><strong class="doc-subheading"><u>Age variable derivation</u></strong></p>
+<p>Each of the three age variables (Age_at_blood_p1, Age_at_blood_p2 and Age_at_CSF_p2) was derived by subtracting the participant date of birth from the date of sampling and then dividing the resulting value in days by 365.25 to obtain the age at sampling in years:</p>
+<p>Age_at_blood_p1 = (visit_date_p1 – dob)/365.25
+Age_at_blood_p2 = (Date_blood_p2 – dob)/365.25
+Age_at_CSF_p2 = (Date_CSF_p2 – dob)/365.25</p>
+<p><strong class="doc-subheading"><u>EDTA plasma – samples from phases 1 and 2</u></strong></p>
+<p>EDTA plasma was obtained from non-fasted participants at Insight 46 Phase 1 and phase 2 as previously described (Keshavan et al. Brain 2021; 144: 434-449).</p>
+<p>Prior to analysis, a single 500 μL aliquot of plasma for each individual was thawed directly to room temperature over 1 hour and vortexed for 2 seconds to ensure thorough mixing. 300 μL was pipetted into a 1.5 ml low-bind polypropylene centrifuge tube and centrifuged at 10 000 g for 10 minutes, as per the kit manufacturer’s recommendation; the remaining 200 μL in the original cryovial was replaced into -80 ºC. After the 300 μL was centrifuged, 130 μL of the supernatant was pipetted onto a plate for analysis using the Neuro 4-Plex E assay (Quanterix) on a Simoa HD-X platform. Another 130 μL of the supernatant was pipetted onto a separate plate for analysis using the ptau181V2 assay (Quanterix) on a different Simoa HD-X platform. </p>
+<p>Concentrations of neurofilament light-chain (NfL), glial fibrillary acidic protein (GFAP), amyloid beta 40 (Aβ40) and amyloid beta 42 (Aβ42), were quantified by the Neuro 4-Plex E multiplex assay, and concentration of tau phosphorylated at serine 181 (p-tau181) were quantified by the ptau181V2 assay, from Phase 1 and 2 plasma samples in singlicate, according to the manufacturer’s instructions, with 4x in-line dilution. </p>
+<p><strong class="doc-subheading"><u>CSF – samples from phase 2</u></strong></p>
+<p>CSF was obtained from non-fasted participants as previously described (Keshavan et al. Alz Dem (Amst.) 2021; 13: e12131) and stored at –80 C within 60 min of sampling. </p>
+<p>Prior to analysis, a single 500 μL aliquot of CSF for each individual was thawed directly to room temperature over 1 hour and vortexed for 2 seconds to ensure thorough mixing. For N4PE with 400x at bench dilution, 40 μL of CSF was pipetted into a 1.5 ml low-bind polypropylene centrifuge tube containing 360 μL of N4PE sample diluent and vortexed. 250 μL of the diluted sample was pipetted onto a plate for analysis using the Neuro 4-Plex E assay (Quanterix) on a Simoa HD-X platform. For ptau181V2 with 10x at bench dilution, 30 μL of CSF was pipetted into a 1.5 ml low-bind polypropylene centrifuge tube containing 270 μL of ptau181V2 sample diluent and vortexed. 200 μL of the diluted sample was pipetted onto a plate for analysis using the ptau181V2 assay (Quanterix) on a different Simoa HD-X platform. Where possible, paired plasma and CSF from the same individuals were analysed on the same plates.</p>
+<p><strong class="doc-subheading"><u>Repeat measurements and freeze-thaw cycles</u></strong></p>
+<p>If the initial quantification failed for a plasma sample, the same aliquot (with remaining approximately 200 μL having undergone one prior freeze-thaw cycle) was thawed again over 1 hour to room temperature and centrifuged in the original cryovial at 10 000 g for 10 minutes, then 130 μL of the supernatant was pipetted onto a plate for analysis using the N4PE or ptau181v2 as above. </p>
+<p>If the initial quantification of a CSF sample failed, the same original CSF aliquot (with remaining approximately 430 μL of CSF having undergone one previous freeze-thaw cycle) was thawed again over 1 hour to room temperature, vortexed for 2 seconds and the required volume for the N4PE or ptau181V2 assay pipetted out for on-bench dilution as per the procedure described above.</p>
+<p>By this method, 12 plasma samples from phase 1, 12 plasma samples from phase 2 and 2 CSF samples from phase 2 analysed using the N4PE assay underwent two freeze-thaw cycles. 18 plasma samples from phase 1, 3 plasma samples from phase 2 and 1 CSF sample from phase 2 analysed using the ptau181V2 assay underwent two freeze-thaw cycles. This procedure was deemed to be acceptable based on the evidence that up to four freeze-thaw cycles do not affect either the N4PE-measured biomarker concentrations or plasma p-tau181 concentrations on a different plasma p-tau181 assay on the MSD platform (Verberk et al. Alz Dem 2021;18(8):1484–1497) and up to three freeze-thaw cycles do not affect measured CSF p-tau181 or Aβ42 concentrations on a different assay platform (Innotest ELISA; Zimmermann et al. JAD 2011; 25: 739-745).</p>
+<p><strong class="doc-subheading"><u>Control variation</u></strong></p>
+<p>For each assay, all samples were tested using the same batch of reagents. Every plate was analysed according to its own calibrators (provided with the kits). Five pooled plasma controls (made from remnants of samples provided kindly by Prof Henrik Zetterberg at the University of Gothenburg and pooled according to their plasma NfL ranges) and two run validation controls provided with the kits were also assayed with every run. Plate acceptance criteria were set as at least 4 of 7 controls being within 1 standard deviation of the mean value, and all 14 plates (across 9 runs) met these criteria. Control mean values and coefficients of variation (CV) were as follows: </p>
+<table><tr><td>Control</td><td>Mean NfL (pg/ml)</td><td>CV (%)</td><td>Mean GFAP (pg/ml)</td><td>CV (%)</td><td>Mean Ab40 (pg/ml)</td><td>CV (%)</td><td>Mean Ab42 (pg/ml)</td><td>CV (%)</td><td>Mean ptau181v2 (pg/ml)</td><td>CV (%)</td></tr><tr><td>Pooled plasma 1</td><td>14.6</td><td>21.9</td><td>107</td><td>32.0</td><td>4.8</td><td>23.4</td><td>67.6</td><td>37.4</td><td>2.1</td><td>10.9</td></tr><tr><td>Pooled plasma 2</td><td>29.0</td><td>6.5</td><td>102</td><td>10.9</td><td>3.8</td><td>9.4</td><td>51.7</td><td>8.5</td><td>2.7</td><td>10.1</td></tr><tr><td>Pooled plasma 3</td><td>49.1</td><td>9.3</td><td>190</td><td>15.3</td><td>3.7</td><td>16.8</td><td>60.8</td><td>10.6</td><td>2.6</td><td>7.0</td></tr><tr><td>Pooled plasma 4</td><td>69.1</td><td>7.5</td><td>157</td><td>12.1</td><td>3.8</td><td>10.2</td><td>48.4</td><td>10.4</td><td>2.5</td><td>13.8</td></tr><tr><td>Pooled plasma 5</td><td>1054</td><td>27.6</td><td>229</td><td>12.3</td><td>4.8</td><td>8.5</td><td>71.4</td><td>12.4</td><td>11.3</td><td>7.0</td></tr><tr><td>Run validation control 1</td><td>23.3</td><td>11.8</td><td>175</td><td>16.6</td><td>5.4</td><td>23.4</td><td>14.6</td><td>20.2</td><td>3.6</td><td>38.2</td></tr><tr><td>Run validation control 2</td><td>519.4</td><td>10.9</td><td>3768</td><td>16.4</td><td>28.2</td><td>7.9</td><td>99.2</td><td>20.1</td><td>99.7</td><td>77.7</td></tr></table></div></div>
+
+  <div class="home-section gs-card-basket" id="variables">
+    <h2><i class="ti ti-list-check" aria-hidden="true"></i> Variables in this document</h2>
+    <div class="doc-topic-note"><i class="ti ti-folder" aria-hidden="true"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Sub-Studies_57.html" target="_blank" rel="noopener">Sub-Studies [57]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Insight46_699.html" target="_blank" rel="noopener">Insight46 [699]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Biological_samples_6037.html" target="_blank" rel="noopener">Biological samples [6037]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biomarkers_60372.html" target="_blank" rel="noopener">Blood biomarkers [60372]</a></div><div class="doc-topic-note doc-topic-secondary"><i class="ti ti-info-circle" aria-hidden="true"></i> Also touches: <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Other_medical_conditions_51011.html" target="_blank" rel="noopener">Other medical conditions [51011]</a>, <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html" target="_blank" rel="noopener">Household [5152]</a></div>
+    
+    <div class="doc-var-box doc-var-high"><div class="doc-var-header"><span><b>7</b> high-confidence matches</span><button class="doc-var-add-btn" data-tier="high" data-state="add">Add all to basket</button></div><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biomarkers_60372.html" target="_blank" rel="noopener" title="Sub-Studies [57] › Insight46 [699] › Biological samples [6037] › Blood biomarkers [60372]">Blood biomarkers [60372]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ab40_n4pe_plsm_i46p1.html" target="_blank" rel="noopener">ab40_n4pe_plsm_i46p1</a></td><td>Plasma Ab40 from Neuro 4-Plex E assay (N4PE), pg/ml - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ab40_n4pe_plsm_i46p1" data-label="Plasma Ab40 from Neuro 4-Plex E assay (N4PE), pg/ml - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ab42_n4pe_plsm_i46p1.html" target="_blank" rel="noopener">ab42_n4pe_plsm_i46p1</a></td><td>Plasma Ab42 from Neuro 4-Plex E assay (N4PE), pg/ml - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ab42_n4pe_plsm_i46p1" data-label="Plasma Ab42 from Neuro 4-Plex E assay (N4PE), pg/ml - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/gfap_n4pe_plsm_i46p1.html" target="_blank" rel="noopener">gfap_n4pe_plsm_i46p1</a></td><td>Plasma glial fibrillary acidic protein (GFAP) concentration from Neuro 4-Plex E assay (N4PE) 2021, pg/ml - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="gfap_n4pe_plsm_i46p1" data-label="Plasma glial fibrillary acidic protein (GFAP) concentration from Neuro 4-Plex E assay (N4PE) 2021, pg/ml - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/n4pe_plsmft_i46p1.html" target="_blank" rel="noopener">n4pe_plsmft_i46p1</a></td><td>Plasma Neuro 4-Plex E assay (N4PE) freeze-thaw cycles - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="n4pe_plsmft_i46p1" data-label="Plasma Neuro 4-Plex E assay (N4PE) freeze-thaw cycles - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nfl_n4pe_plsm_i46p1.html" target="_blank" rel="noopener">nfl_n4pe_plsm_i46p1</a></td><td>Plasma neurofilament light-chain (NFL) concentration from Neuro 4-Plex E assay (N4PE) 2021, pg/ml - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nfl_n4pe_plsm_i46p1" data-label="Plasma neurofilament light-chain (NFL) concentration from Neuro 4-Plex E assay (N4PE) 2021, pg/ml - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ptau181v2_plsm_i46p1.html" target="_blank" rel="noopener">ptau181v2_plsm_i46p1</a></td><td>Plasma ptau181 concentration from ptau181V2 2021 (pg/ml) - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ptau181v2_plsm_i46p1" data-label="Plasma ptau181 concentration from ptau181V2 2021 (pg/ml) - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/ptau181v2_plsmft_p1.html" target="_blank" rel="noopener">ptau181v2_plsmft_p1</a></td><td>Plasma ptau181V2 freeze-thaw cycles - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="ptau181v2_plsmft_p1" data-label="Plasma ptau181V2 freeze-thaw cycles - Insight46 phase 1" data-tier="high"></td></tr></tbody></table></div><details class="doc-var-box doc-var-medium"><summary><b>1</b> medium-confidence match <span class="doc-var-hint">(click for details)</span></summary><p class="doc-var-note">Reasonably confident plain-text matches — worth a look, but not added in bulk.</p><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Other_medical_conditions_51011.html" target="_blank" rel="noopener" title="Questionnaire data [55] › Health and medical history [510] › Medical conditions [5101] › Other medical conditions [51011]">Other medical conditions [51011]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/blood.html" target="_blank" rel="noopener">blood</a></td><td>Have you had anaemia in the last 10 years - at age 43 years</td><td>prose scan</td><td><input type="checkbox" class="doc-var-checkbox" data-var="blood" data-label="Have you had anaemia in the last 10 years - at age 43 years" data-tier="medium"></td></tr></tbody></table></details><details class="doc-var-box doc-var-low"><summary><b>1</b> low-confidence match <span class="doc-var-hint">(click for details)</span></summary><p class="doc-var-note">These matched a dictionary variable name in plain text, but common short words sometimes coincide with real variable codes (for example &quot;sex&quot; or &quot;inch&quot;). Check each before adding.</p><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html" target="_blank" rel="noopener" title="Questionnaire data [55] › Sociodemographics [515] › Household [5152]">Household [5152]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/own.html" target="_blank" rel="noopener">own</a></td><td>Now I would like to get some general information about your household. Does your household own or rent this accommodation? - at age 53 years</td><td>prose scan</td><td><input type="checkbox" class="doc-var-checkbox" data-var="own" data-label="Now I would like to get some general information about your household. Does your household own or rent this accommodation? - at age 53 years" data-tier="low"></td></tr></tbody></table></details>
+    <details class="doc-legend-box"><summary>How variables get found <span class="doc-var-hint">(click for details)</span></summary><table class="doc-legend-table"><tbody><tr><td>Topsheet field</td><td>Named directly in the topsheet’s structured &quot;Output variables&quot; row — someone deliberately typed this name to mean exactly this. The most reliable method there is.</td></tr><tr><td>Prose scan</td><td>Found as ordinary text in the body — the fallback used when a document has no structured field, bold heading, or template. Confidence depends on how short and common the word is, since short variable-shaped words occasionally match by coincidence.</td></tr></tbody></table></details>
+    <p id="basketDoneMsg" class="doc-var-done-msg"></p>
+  </div>
+
+</div>
+
+<style>
+.doc-content-body { font-size: 14px; line-height: 1.7; color: #333; }
+.doc-content-body h1, .doc-content-body h2, .doc-content-body h3 { font-size: 15px; font-weight: 700; color: #3a0066; margin: 16px 0 6px; }
+.doc-content-body p { margin: 0 0 10px; }
+.doc-content-body img { max-width: 100%; height: auto; display: block; margin: 10px 0; border-radius: 4px; border: 1px solid rgba(0,0,0,0.08); }
+.doc-content-body table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin: 10px 0; }
+.doc-content-body th, .doc-content-body td { padding: 5px 8px; border: 1px solid rgba(0,0,0,0.12); text-align: left; }
+.doc-content-body th { background: PowderBlue; }
+.doc-subheading { display: block; margin-bottom: 1em; }
+.doc-byline { font-size:13px; color:#555; margin:2px 0 6px; }
+.doc-description { font-size:14px; color:#333; margin:0; }
+.doc-pdf-download { display:inline-flex; align-items:center; gap:6px; margin-top:10px; padding:6px 14px; background:#1a4d7a; color:#fff; border-radius:6px; text-decoration:none; font-size:13px; font-weight:600; }
+.doc-pdf-download:hover { background:#123a5c; }
+.doc-details-box { margin: 8px 0; }
+.doc-details-box summary { cursor: pointer; font-size: 14px; font-weight: 600; color: #1a4d7a; list-style: none; }
+.doc-details-box summary::-webkit-details-marker { display: none; }
+.doc-details-table { width: auto; max-width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 10px; }
+.doc-details-table td { padding: 6px 12px; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
+.doc-details-table td:first-child { font-weight: 600; color: #333; white-space: nowrap; }
+.doc-details-table td:last-child { color: #444; word-break: break-word; }
+.doc-legend-box { margin: 12px 0 4px; }
+.doc-legend-box summary { cursor: pointer; font-size: 13px; font-weight: 600; color: #1a4d7a; list-style: none; }
+.doc-legend-box summary::-webkit-details-marker { display: none; }
+.doc-legend-table { width: auto; max-width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+.doc-legend-table td { padding: 5px 12px; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
+.doc-legend-table td:first-child { font-weight: 600; color: #333; white-space: nowrap; }
+.doc-legend-table td:last-child { color: #555; }
+.doc-topic-note { font-size:13px; color:#333; margin:8px 0; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.doc-topic-secondary { color:#7a5b00; font-size:12px; }
+.doc-topic-uncat { color:#7a1f1f; font-style:italic; }
+.doc-var-box { border-radius: 8px; padding: 14px 18px; margin: 14px 0; }
+.doc-var-high   { background: hsl(125 35% 95%); border: 1px solid hsl(125 35% 55%); }
+.doc-var-medium { background: hsl(210 45% 96%); border: 1px solid hsl(210 45% 55%); }
+.doc-var-low    { background: hsl(35 60% 96%);  border: 1px solid hsl(35 60% 55%); }
+.doc-var-header { display: flex; align-items: center; justify-content: space-between; font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.doc-var-box summary { cursor: pointer; font-size: 14px; font-weight: 600; list-style: none; }
+.doc-var-box summary::-webkit-details-marker { display: none; }
+.doc-var-hint { font-weight: 400; font-size: 12px; opacity: 0.7; }
+.doc-var-note { font-size: 12.5px; color: #555; margin: 8px 0; }
+.doc-var-empty { font-size: 13px; color: #666; font-style: italic; }
+.doc-var-add-btn { background: #4CAF50; color: white; border: none; border-radius: 4px; padding: 6px 14px; font-size: 13px; cursor: pointer; }
+.doc-var-add-btn:hover { background: #45a049; }
+.doc-var-table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 6px; }
+.doc-var-table th { text-align: left; padding: 6px 10px; border-bottom: 2px solid rgba(0,0,0,0.15); }
+.doc-var-table td { padding: 5px 10px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.doc-var-table td:first-child { font-family: monospace; white-space: nowrap; }
+.doc-var-table td:first-child a { color: #1a4d7a; text-decoration: none; }
+.doc-var-table td:first-child a:hover { text-decoration: underline; }
+.doc-var-table td:last-child { text-align: center; }
+.doc-var-table .doc-var-topic-row td { font-family: inherit; font-size: 12px; font-weight: 700; color: #444; background: rgba(0,0,0,0.035); padding: 5px 10px; border-bottom: 1px solid rgba(0,0,0,0.08); white-space: normal; text-align: left; }
+.doc-topic-chip { display:inline-block; background: hsl(200 55% 92%); color: hsl(200 55% 22%); padding: 2px 10px; border-radius: 10px; text-decoration: none; font-size: 11px; font-weight: 600; cursor: pointer; }
+.doc-topic-chip:hover { background: hsl(200 55% 85%); }
+.doc-topic-chip-plain { cursor: help; font-size: 11px; }
+.doc-var-checkbox { width: 16px; height: 16px; cursor: pointer; accent-color: #4CAF50; }
+.doc-var-done-msg { color: #27500A; font-weight: 600; margin: 10px 0; }
+</style>
+
+<script type="application/json" id="docVariableData">
+{"high": [{"variable": "ab40_n4pe_plsm_i46p1", "label": "Plasma Ab40 from Neuro 4-Plex E assay (N4PE), pg/ml - Insight46 phase 1"}, {"variable": "ab42_n4pe_plsm_i46p1", "label": "Plasma Ab42 from Neuro 4-Plex E assay (N4PE), pg/ml - Insight46 phase 1"}, {"variable": "gfap_n4pe_plsm_i46p1", "label": "Plasma glial fibrillary acidic protein (GFAP) concentration from Neuro 4-Plex E assay (N4PE) 2021, pg/ml - Insight46 phase 1"}, {"variable": "n4pe_plsmft_i46p1", "label": "Plasma Neuro 4-Plex E assay (N4PE) freeze-thaw cycles - Insight46 phase 1"}, {"variable": "nfl_n4pe_plsm_i46p1", "label": "Plasma neurofilament light-chain (NFL) concentration from Neuro 4-Plex E assay (N4PE) 2021, pg/ml - Insight46 phase 1"}, {"variable": "ptau181v2_plsm_i46p1", "label": "Plasma ptau181 concentration from ptau181V2 2021 (pg/ml) - Insight46 phase 1"}, {"variable": "ptau181v2_plsmft_p1", "label": "Plasma ptau181V2 freeze-thaw cycles - Insight46 phase 1"}], "medium": [{"variable": "blood", "label": "Have you had anaemia in the last 10 years - at age 43 years"}], "low": [{"variable": "own", "label": "Now I would like to get some general information about your household. Does your household own or rent this accommodation? - at age 53 years"}]}
+</script>
+
+<script>
+(function () {
+  var data = JSON.parse(document.getElementById('docVariableData').textContent);
+
+  function tierItems(tier) {
+    return (data[tier] || []).map(function (v) { return { varName: v.variable, label: v.label }; });
+  }
+
+  function updateBulkButton(tier) {
+    var btn = document.querySelector('.doc-var-add-btn[data-tier="' + tier + '"]');
+    if (!btn) return;
+    var items = tierItems(tier);
+    var allIn = items.length > 0 && items.every(function (i) {
+      return typeof isInBasket === 'function' && isInBasket(i.varName);
+    });
+    btn.setAttribute('data-state', allIn ? 'remove' : 'add');
+    btn.textContent = allIn ? 'Remove all from basket' : 'Add all to basket';
+  }
+
+  document.querySelectorAll('.doc-var-checkbox').forEach(function (box) {
+    if (typeof isInBasket === 'function' && isInBasket(box.getAttribute('data-var'))) {
+      box.checked = true;
+    }
+    box.addEventListener('change', function () {
+      var varName = box.getAttribute('data-var');
+      var label = box.getAttribute('data-label');
+      var tier = box.getAttribute('data-tier');
+      if (box.checked) { addToBasket(varName, label); }
+      else { removeFromBasket(varName); }
+      if (tier) updateBulkButton(tier);
+    });
+  });
+
+  document.querySelectorAll('.doc-var-add-btn').forEach(function (btn) {
+    var tier = btn.getAttribute('data-tier');
+    updateBulkButton(tier);
+
+    btn.addEventListener('click', function () {
+      var items = tierItems(tier);
+      if (!items.length) return;
+      var removing = btn.getAttribute('data-state') === 'remove';
+
+      if (removing) {
+        items.forEach(function (i) { removeFromBasket(i.varName); });
+      } else {
+        batchAddToBasket(items);
+      }
+
+      document.querySelectorAll('.doc-var-checkbox[data-tier="' + tier + '"]').forEach(function (box) {
+        box.checked = !removing;
+      });
+      document.getElementById('basketDoneMsg').textContent =
+        items.length + (removing ? ' variables removed from your basket.' : ' variables added to your basket.');
+      updateBulkButton(tier);
+    });
+  });
+})();
+</script>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

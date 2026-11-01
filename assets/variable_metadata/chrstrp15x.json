@@ -1,0 +1,1027 @@
+{
+  "varname": "chrstrp15x",
+  "label": "Reciprocal chair rise time (higher score = better performance)(1/CHRST15x*10000) - at age 69 years",
+  "field_id": "9175",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9175",
+  "year": "",
+  "form": "Home visit",
+  "units": "1/(100th sec*10000)",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "chrst15x",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 4.4142621697771975,
+  "sd": 0.9994409569222044,
+  "series_size": 1711.0,
+  "minimum": 2.5094101428985596,
+  "maximum": 7.06214714050293,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "chrst5s23x",
+    "chrstspds15x",
+    "chrst5m23x",
+    "chrstrp09",
+    "chrst15x",
+    "chrstms23x",
+    "chrstrpc",
+    "chrstfc",
+    "chrst09",
+    "chrstmsec_myft",
+    "charstnd15x",
+    "chrstspdm15x",
+    "chrsts23x",
+    "chrstsec_myft",
+    "chrst5ms23x",
+    "chrsttotal_myft",
+    "chrstm23x",
+    "chrst515x",
+    "chrstmin_myft"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10",
+    "2015",
+    "2020-2024",
+    "2023"
+  ],
+  "categories": [
+    "Chair rises [1152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-55.0",
+      "label": "Timed by the outlier nurse"
+    },
+    {
+      "value": "-66.0",
+      "label": "Question not asked in paper HV"
+    },
+    {
+      "value": "-77.0",
+      "label": "No home visit"
+    },
+    {
+      "value": "-88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Fell over straight away"
+    },
+    {
+      "value": "555.0",
+      "label": "Timed by the outlier nurse"
+    },
+    {
+      "value": "5555.0",
+      "label": "Timed by the outlier nurse"
+    },
+    {
+      "value": "666.0",
+      "label": "Question not asked in postal home visit"
+    },
+    {
+      "value": "6666.0",
+      "label": "Question not asked in postal home visit"
+    },
+    {
+      "value": "777.0",
+      "label": "No home visit"
+    },
+    {
+      "value": "7777.0",
+      "label": "No home visit"
+    },
+    {
+      "value": "888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "8888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "998.0",
+      "label": "Eyes open completed, missing eyes closed time"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing (no section of test completed and reason for this unknown)"
+    },
+    {
+      "value": "9998.0",
+      "label": "Eyes open completed, missing eyes closed time"
+    },
+    {
+      "value": "9999.0",
+      "label": "Missing (no section of test completed and reason for this unknown)"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "chrstrp15x",
+    "label": "Reciprocal chair rise time (higher score = better performance)(1/CHRST15x*10000) - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "chrstrp15x"
+      ],
+      [
+        "Field ID",
+        "9175"
+      ],
+      [
+        "Label",
+        "Reciprocal chair rise time (higher score = better performance)(1/CHRST15x*10000) - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "PhysPerf15_2"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "3"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "chrst15x"
+      ],
+      [
+        "Units",
+        "1/(100th sec*10000)"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Use chrst15x as the derived variable to use."
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2015 Home visit chair rise questions."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "chrst5s23x",
+        "5-Chair rise time (seconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "chair_rise23"
+      ],
+      [
+        "chrstspds15x",
+        "Chair rise speed (stands/sec) - at age 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "PhysPerf15"
+      ],
+      [
+        "chrst5m23x",
+        "5-Chair rise time (minutes) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "chair_rise23"
+      ],
+      [
+        "chrstrp09",
+        "Reciprocal of chair rise time (1/s*100) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "PhysPerf09"
+      ],
+      [
+        "chrst15x",
+        "Chair rise time (hundredth s) [#rises varies] - at age 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "PhysPerf15"
+      ],
+      [
+        "chrstms23x",
+        "Chair rise time (milliseconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "chair_rise23"
+      ],
+      [
+        "chrstrpc",
+        "Reciprocal of chair rise time multiplied by 100 - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "88(b)",
+        "physfunc_perform"
+      ],
+      [
+        "chrstfc",
+        "Chair rise time (seconds) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "88(b)",
+        "physfunc_perform"
+      ],
+      [
+        "chrst09",
+        "Chair rise time (s) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "66(a)",
+        "PhysPerf09"
+      ],
+      [
+        "chrstmsec_myft",
+        "Chair rise time (milliseconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "charstnd15x",
+        "Number of chair rises completed - at age 69 years",
+        "2015",
+        "Home visit",
+        "4",
+        "PhysPerf15"
+      ],
+      [
+        "chrstspdm15x",
+        "Chair rise speed (stands/min) - at age 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "PhysPerf15"
+      ],
+      [
+        "chrsts23x",
+        "Chair rise time (seconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "chair_rise23"
+      ],
+      [
+        "chrstsec_myft",
+        "Chair rise time (seconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "chrst5ms23x",
+        "5-Chair rise time (milliseconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "chair_rise23"
+      ],
+      [
+        "chrsttotal_myft",
+        "Overall chair rise time (in 100ths of a second) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "chrstm23x",
+        "Chair rise time (minutes) - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "chair_rise23"
+      ],
+      [
+        "chrst515x",
+        "5-rise chair rise time, converted to 100ths of a second - at age 69 years",
+        "2015",
+        "Home visit",
+        "7",
+        "PhysPerf15_2"
+      ],
+      [
+        "chrstmin_myft",
+        "Chair rise time (minutes) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Chair rises [1152]",
+        "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to be timed performing 10 chair rises.  If willing and able (reasons for inability included health reasons and equipment not available) one test of 10 chair rises was performed. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-55.0",
+        "Timed by the outlier nurse",
+        true
+      ],
+      [
+        "-66.0",
+        "Question not asked in paper HV",
+        true
+      ],
+      [
+        "-77.0",
+        "No home visit",
+        true
+      ],
+      [
+        "-88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Fell over straight away",
+        true
+      ],
+      [
+        "555.0",
+        "Timed by the outlier nurse",
+        true
+      ],
+      [
+        "5555.0",
+        "Timed by the outlier nurse",
+        true
+      ],
+      [
+        "666.0",
+        "Question not asked in postal home visit",
+        true
+      ],
+      [
+        "6666.0",
+        "Question not asked in postal home visit",
+        true
+      ],
+      [
+        "777.0",
+        "No home visit",
+        true
+      ],
+      [
+        "7777.0",
+        "No home visit",
+        true
+      ],
+      [
+        "888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "8888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "998.0",
+        "Eyes open completed, missing eyes closed time",
+        true
+      ],
+      [
+        "999.0",
+        "Missing (no section of test completed and reason for this unknown)",
+        true
+      ],
+      [
+        "9998.0",
+        "Eyes open completed, missing eyes closed time",
+        true
+      ],
+      [
+        "9999.0",
+        "Missing (no section of test completed and reason for this unknown)",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.5094101428985596"
+      ],
+      [
+        "Maximum",
+        "7.06214714050293"
+      ],
+      [
+        "Range",
+        "4.55273699760437"
+      ],
+      [
+        "Median",
+        "4.301075458526611"
+      ],
+      [
+        "IQR",
+        "3.6907178163528442 - 5.070993900299072"
+      ],
+      [
+        "Decile 1",
+        "3.1308705806732178"
+      ],
+      [
+        "Decile 2",
+        "3.5198872089385986"
+      ],
+      [
+        "Decile 3",
+        "3.818251371383667"
+      ],
+      [
+        "Decile 4",
+        "4.050222873687744"
+      ],
+      [
+        "Decile 5",
+        "4.301075458526611"
+      ],
+      [
+        "Decile 6",
+        "4.572474002838135"
+      ],
+      [
+        "Decile 7",
+        "4.901960849761963"
+      ],
+      [
+        "Decile 8",
+        "5.282619953155518"
+      ],
+      [
+        "Decile 9",
+        "5.861664295196533"
+      ],
+      [
+        "Mean",
+        "4.4142621697771975"
+      ],
+      [
+        "Std Dev.",
+        "0.9994409569222044"
+      ],
+      [
+        "Variance",
+        "0.9988822263735715"
+      ],
+      [
+        "Displayed N",
+        "1711"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "chrstrp15x",
+    "label": "Reciprocal chair rise time (higher score = better performance)(1/CHRST15x*10000) - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9175",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "chrstrp15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9175",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Reciprocal chair rise time (higher score = better performance)(1/CHRST15x*10000) - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysPerf15_2",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "3",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "chrst15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "1/(100th sec*10000)",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Use chrst15x as the derived variable to use.",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2015 Home visit chair rise questions.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "chrst5s23x",
+        "description": "5-Chair rise time (seconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrstspds15x",
+        "description": "Chair rise speed (stands/sec) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "chrst5m23x",
+        "description": "5-Chair rise time (minutes) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrstrp09",
+        "description": "Reciprocal of chair rise time (1/s*100) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "PhysPerf09"
+      },
+      {
+        "varname": "chrst15x",
+        "description": "Chair rise time (hundredth s) [#rises varies] - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "chrstms23x",
+        "description": "Chair rise time (milliseconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrstrpc",
+        "description": "Reciprocal of chair rise time multiplied by 100 - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "88(b)",
+        "library_file": "physfunc_perform"
+      },
+      {
+        "varname": "chrstfc",
+        "description": "Chair rise time (seconds) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "88(b)",
+        "library_file": "physfunc_perform"
+      },
+      {
+        "varname": "chrst09",
+        "description": "Chair rise time (s) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "66(a)",
+        "library_file": "PhysPerf09"
+      },
+      {
+        "varname": "chrstmsec_myft",
+        "description": "Chair rise time (milliseconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "charstnd15x",
+        "description": "Number of chair rises completed - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "4",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "chrstspdm15x",
+        "description": "Chair rise speed (stands/min) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "chrsts23x",
+        "description": "Chair rise time (seconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrstsec_myft",
+        "description": "Chair rise time (seconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "chrst5ms23x",
+        "description": "5-Chair rise time (milliseconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrsttotal_myft",
+        "description": "Overall chair rise time (in 100ths of a second) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "chrstm23x",
+        "description": "Chair rise time (minutes) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrst515x",
+        "description": "5-rise chair rise time, converted to 100ths of a second - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "PhysPerf15_2"
+      },
+      {
+        "varname": "chrstmin_myft",
+        "description": "Chair rise time (minutes) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Chair rises [1152]",
+        "description": "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to be timed performing 10 chair rises.  If willing and able (reasons for inability included health reasons and equipment not available) one test of 10 chair rises was performed. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Chair_rises_1152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-55.0",
+        "label": "Timed by the outlier nurse",
+        "is_missing": true
+      },
+      {
+        "value": "-66.0",
+        "label": "Question not asked in paper HV",
+        "is_missing": true
+      },
+      {
+        "value": "-77.0",
+        "label": "No home visit",
+        "is_missing": true
+      },
+      {
+        "value": "-88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Fell over straight away",
+        "is_missing": true
+      },
+      {
+        "value": "555.0",
+        "label": "Timed by the outlier nurse",
+        "is_missing": true
+      },
+      {
+        "value": "5555.0",
+        "label": "Timed by the outlier nurse",
+        "is_missing": true
+      },
+      {
+        "value": "666.0",
+        "label": "Question not asked in postal home visit",
+        "is_missing": true
+      },
+      {
+        "value": "6666.0",
+        "label": "Question not asked in postal home visit",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No home visit",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No home visit",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "998.0",
+        "label": "Eyes open completed, missing eyes closed time",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing (no section of test completed and reason for this unknown)",
+        "is_missing": true
+      },
+      {
+        "value": "9998.0",
+        "label": "Eyes open completed, missing eyes closed time",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Missing (no section of test completed and reason for this unknown)",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 19,
+      "docs": 1,
+      "cats": 1,
+      "vals": 19
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "1/(100th sec*10000)",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          2.5094101428985596,
+          2.737046992778778,
+          2.9646838426589968,
+          3.192320692539215,
+          3.4199575424194335,
+          3.647594392299652,
+          3.8752312421798707,
+          4.102868092060089,
+          4.330504941940307,
+          4.5581417918205265,
+          4.785778641700745,
+          5.013415491580963,
+          5.241052341461182,
+          5.468689191341401,
+          5.696326041221619,
+          5.923962891101837,
+          6.151599740982055,
+          6.379236590862274,
+          6.6068734407424925,
+          6.8345102906227115,
+          7.06214714050293
+        ],
+        "counts": [
+          36,
+          59,
+          92,
+          109,
+          110,
+          137,
+          180,
+          149,
+          145,
+          132,
+          105,
+          97,
+          78,
+          71,
+          60,
+          41,
+          42,
+          31,
+          19,
+          18
+        ]
+      },
+      "boxplot": {
+        "min": 2.5094101428985596,
+        "q1": 3.6907178163528442,
+        "median": 4.301075458526611,
+        "q3": 5.070993900299072,
+        "max": 7.06214714050293
+      },
+      "units": "1/(100th sec*10000)"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.5094101428985596"
+      ],
+      [
+        "Maximum",
+        "7.06214714050293"
+      ],
+      [
+        "Range",
+        "4.55273699760437"
+      ],
+      [
+        "Median",
+        "4.301075458526611"
+      ],
+      [
+        "IQR",
+        "3.6907178163528442 - 5.070993900299072"
+      ],
+      [
+        "Decile 1",
+        "3.1308705806732178"
+      ],
+      [
+        "Decile 2",
+        "3.5198872089385986"
+      ],
+      [
+        "Decile 3",
+        "3.818251371383667"
+      ],
+      [
+        "Decile 4",
+        "4.050222873687744"
+      ],
+      [
+        "Decile 5",
+        "4.301075458526611"
+      ],
+      [
+        "Decile 6",
+        "4.572474002838135"
+      ],
+      [
+        "Decile 7",
+        "4.901960849761963"
+      ],
+      [
+        "Decile 8",
+        "5.282619953155518"
+      ],
+      [
+        "Decile 9",
+        "5.861664295196533"
+      ],
+      [
+        "Mean",
+        "4.4142621697771975"
+      ],
+      [
+        "Std Dev.",
+        "0.9994409569222044"
+      ],
+      [
+        "Variance",
+        "0.9988822263735715"
+      ],
+      [
+        "Displayed N",
+        "1711"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

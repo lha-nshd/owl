@@ -1,0 +1,632 @@
+{
+  "varname": "akid996",
+  "label": "Age at which survey member had their sixth child - up to age 53 years",
+  "field_id": "31067",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31067",
+  "year": "",
+  "form": "Various",
+  "units": "years",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 39.0,
+  "sd": 3.40587727318528,
+  "series_size": 10.0,
+  "minimum": 36.0,
+  "maximum": 48.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "akid995",
+    "akid992",
+    "akid994",
+    "akid998",
+    "kid99c",
+    "newkid99",
+    "akid997",
+    "akid991",
+    "akid993",
+    "child99",
+    "akid999",
+    "lastage"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "akid996",
+    "label": "Age at which survey member had their sixth child - up to age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "akid996"
+      ],
+      [
+        "Field ID",
+        "31067"
+      ],
+      [
+        "Label",
+        "Age at which survey member had their sixth child - up to age 53 years"
+      ],
+      [
+        "Card Number",
+        "parity"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell count issue. Contains age information."
+      ],
+      [
+        "Notes",
+        "Derived variables for number of children. These set of variables were updated to age 53 years."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "akid995",
+        "Age at which survey member had their fifth child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "akid992",
+        "Age at which survey member had their second child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "akid994",
+        "Age at which survey member had their fourth child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "akid998",
+        "Age at which survey member had their eight child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "kid99c",
+        "Number of children survey member has - up to age 53 years (corrected)",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "newkid99",
+        "Number of new reported children - at age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "akid997",
+        "Age at which survey member had their seventh child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "akid991",
+        "Age at which survey member had their first child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "akid993",
+        "Age at which survey member had their third child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "child99",
+        "Number of children at age 53 years; derived just from reported number of children at age 53 years (CHILN)",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "akid999",
+        "Age at which survey member had their ninth child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ],
+      [
+        "lastage",
+        "Age at birth of last child - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "parity"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/parity/parity_doc.docx",
+        "parity_doc.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "36"
+      ],
+      [
+        "Maximum",
+        "48"
+      ],
+      [
+        "Range",
+        "12"
+      ],
+      [
+        "Median",
+        "38.0"
+      ],
+      [
+        "IQR",
+        "37.0 - 39.75"
+      ],
+      [
+        "Decile 1",
+        "36.0"
+      ],
+      [
+        "Decile 2",
+        "36.8"
+      ],
+      [
+        "Decile 3",
+        "37.0"
+      ],
+      [
+        "Decile 4",
+        "37.0"
+      ],
+      [
+        "Decile 5",
+        "38.0"
+      ],
+      [
+        "Decile 6",
+        "39.0"
+      ],
+      [
+        "Decile 7",
+        "39.3"
+      ],
+      [
+        "Decile 8",
+        "40.2"
+      ],
+      [
+        "Decile 9",
+        "41.699999999999996"
+      ],
+      [
+        "Mean",
+        "39.0"
+      ],
+      [
+        "Std Dev.",
+        "3.40587727318528"
+      ],
+      [
+        "Variance",
+        "11.6"
+      ],
+      [
+        "Displayed N",
+        "10"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "akid996",
+    "label": "Age at which survey member had their sixth child - up to age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31067",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "akid996",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31067",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age at which survey member had their sixth child - up to age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "parity",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell count issue. Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variables for number of children. These set of variables were updated to age 53 years.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "akid995",
+        "description": "Age at which survey member had their fifth child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "akid992",
+        "description": "Age at which survey member had their second child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "akid994",
+        "description": "Age at which survey member had their fourth child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "akid998",
+        "description": "Age at which survey member had their eight child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "kid99c",
+        "description": "Number of children survey member has - up to age 53 years (corrected)",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "newkid99",
+        "description": "Number of new reported children - at age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "akid997",
+        "description": "Age at which survey member had their seventh child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "akid991",
+        "description": "Age at which survey member had their first child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "akid993",
+        "description": "Age at which survey member had their third child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "child99",
+        "description": "Number of children at age 53 years; derived just from reported number of children at age 53 years (CHILN)",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "akid999",
+        "description": "Age at which survey member had their ninth child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      },
+      {
+        "varname": "lastage",
+        "description": "Age at birth of last child - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "parity"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/parity/parity_doc.docx",
+        "text": "parity_doc.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 12,
+      "docs": 2,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          36.0,
+          38.4,
+          40.8,
+          43.2,
+          45.6,
+          48.0
+        ],
+        "counts": [
+          5,
+          3,
+          1,
+          0,
+          1
+        ]
+      },
+      "boxplot": {
+        "min": 36.0,
+        "q1": 37.0,
+        "median": 38.0,
+        "q3": 39.75,
+        "max": 48.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "36"
+      ],
+      [
+        "Maximum",
+        "48"
+      ],
+      [
+        "Range",
+        "12"
+      ],
+      [
+        "Median",
+        "38.0"
+      ],
+      [
+        "IQR",
+        "37.0 - 39.75"
+      ],
+      [
+        "Decile 1",
+        "36.0"
+      ],
+      [
+        "Decile 2",
+        "36.8"
+      ],
+      [
+        "Decile 3",
+        "37.0"
+      ],
+      [
+        "Decile 4",
+        "37.0"
+      ],
+      [
+        "Decile 5",
+        "38.0"
+      ],
+      [
+        "Decile 6",
+        "39.0"
+      ],
+      [
+        "Decile 7",
+        "39.3"
+      ],
+      [
+        "Decile 8",
+        "40.2"
+      ],
+      [
+        "Decile 9",
+        "41.699999999999996"
+      ],
+      [
+        "Mean",
+        "39.0"
+      ],
+      [
+        "Std Dev.",
+        "3.40587727318528"
+      ],
+      [
+        "Variance",
+        "11.6"
+      ],
+      [
+        "Displayed N",
+        "10"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

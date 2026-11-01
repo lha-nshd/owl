@@ -1,0 +1,63 @@
+---
+layout: default
+title: View Popular Variables
+parent: Search Overview
+nav_order: 3
+classes: page-popular-variables
+permalink: /docs/search_methods/popular_vars/popular-variables/
+---
+<link rel="stylesheet" href="/OWL/assets/css/popular_variables.css">
+<div class="page-popular-variables">
+  <!-- LOADING SCREEN -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="spinner"></div> 
+    <div>Loading data…</div>
+  </div>
+  <!-- MAIN UI -->
+  <div id="popularUI" style="display:none;">
+    <!-- HERO BANNER -->
+    <div class="hero-banner">
+      <h1>Popular Variables</h1>
+      <p>The most popular variables added to baskets<span id="heroYearRange"></span>. Only variables added more than <strong><span id="heroThreshold">3</span></strong> times in at least one of the selected years are shown.</p>
+      <div id="year-pill-bar" class="year-pill-bar"></div>
+      <p class="usage-note">Click one or more year pills to filter by when a variable was added — click an active pill again to deselect it, or click "All" to select every year. Pills with no matching results for your current search will dim.</p>
+    </div>
+    <!-- SEARCH + PAGE SIZE + BUTTONS + PAGINATION -->
+    <div id="search-pagination-top" class="search-pagination-top">
+      <div id="resultsCount"></div>
+      <input id="globalSearch" type="text" placeholder="Search…" />
+      <select id="pageSize">
+        <option value="15">15</option>
+        <option value="30">30</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+      <button id="addAllBtn" class="add-all-btn">Add All to Basket</button>
+      <button id="downloadCsvBtn" class="download-btn">Download Results (CSV)</button>
+      <a href="/OWL/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">
+        Download Data Dictionary
+      </a>
+      <div id="paginationTop" class="pagination-bar"></div>
+    </div>
+    <!-- TABLE -->
+    <div id="table-container">
+      <table id="vars-table">
+        <thead>
+          <tr>
+            <th class="check-col select-header">
+              <span class="header-label">Add variable</span>
+            </th>
+            <th class="name-col" data-sort="name">NSHD Variable Name</th>
+            <th class="label-col" data-sort="label">Variable Label</th>
+            <th class="year-col" data-sort="collectionYear">Year of collection</th>
+            <th class="count-col" data-sort="count">Count</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <!-- BOTTOM PAGINATION -->
+    <div id="paginationBottom" class="pagination-bar"></div>
+  </div>
+  <script src="/OWL/assets/js/popular_variables.js"></script>
+</div>

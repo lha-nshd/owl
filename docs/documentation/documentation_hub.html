@@ -1,0 +1,194 @@
+---
+layout: default
+title: Documentation Hub
+nav_order: 22
+has_children: true
+permalink: /docs/documentation/
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+ 
+<div class="page-topics page-questionnaire_by_year">
+ 
+  <div class="hero-banner">
+    <h1><i class="ti ti-versions" aria-hidden="true"></i> Documentation Hub</h1>
+    <p>Everything to do with documentation on OWL — whether you're here to find it or to write it. Search and read existing Word and PDF documentation, linked directly to the variables it describes; or use the guides and tools below to write and submit documentation of your own, from a blank page through to a finished entry on OWL.</p>
+  </div>
+ 
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#what-it-is" class="doc-toc-what"><i class="ti ti-help-circle" aria-hidden="true"></i> What this section is</a></li>
+      <li><a href="#browse" class="doc-toc-browse"><i class="ti ti-compass" aria-hidden="true"></i> Search the documentation</a></li>
+      <li><a href="#doc-types" class="doc-toc-split"><i class="ti ti-versions" aria-hidden="true"></i> Kinds of documentation</a></li>
+      <li><a href="#how-linking-works" class="doc-toc-linking"><i class="ti ti-link" aria-hidden="true"></i> How documents get linked to variables</a></li>
+      <li><a href="#confidence-levels" class="doc-toc-confidence"><i class="ti ti-shield-check" aria-hidden="true"></i> Confidence levels, and why nothing is automatic</a></li>
+      <li><a href="#renamed-variables" class="doc-toc-renamed"><i class="ti ti-replace" aria-hidden="true"></i> When a variable has been renamed</a></li>
+      <li><a href="#adding-to-basket" class="doc-toc-basket"><i class="ti ti-basket" aria-hidden="true"></i> Adding variables from a document</a></li>
+      <li><a href="#create-documentation" class="doc-toc-create"><i class="ti ti-forms" aria-hidden="true"></i> Create documentation online (Doc Builder)</a></li>
+      <li><a href="#page-proof" class="doc-toc-pageproof"><i class="ti ti-file-check" aria-hidden="true"></i> Check your formatting before you submit</a></li>
+    </ul>
+    <a href="/OWL/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Home</a>
+  </div>
+ 
+  <div class="gs-welcome-box" id="what-it-is">
+    <p>Alongside the data dictionary, questionnaires, and topic pages, NSHD holds a large amount of documentation about how specific variables and datasets were built — data notes explaining a derivation, "topsheets" recording what a piece of cleaning work produced, corrections to a variable that turned out to be wrong, notes describing an entire derived dataset. Historically these have existed as standalone Word and PDF files, unconnected to OWL and to each other. If you didn't already know a document existed, you had no way to find it from a variable you were looking at, and no way to find the variables from the document.</p>
+    <p>This section closes that gap. Every document is turned into a page, cross-checked against the data dictionary to work out which variables it actually covers, and linked in both directions — from the document to its variables, and from each variable's own metadata page back to any document that mentions it. Where a document names variables clearly, you can add them straight to your basket without leaving the page.</p>
+    <p>The rest of this page explains how that works and why it's built the way it is — the different kinds of documentation you'll come across, how automatic linking works and where it can't be trusted, and how variables get added to your basket from here.</p>
+  </div>
+ 
+  <div class="home-section gs-card-search">
+    <h2 id="browse"><i class="ti ti-compass" aria-hidden="true"></i> Search the documentation</h2>
+    <p>All generated documents live on one searchable page, whatever kind they are. Search by title, topic, or category, or filter down to just topsheets, variable notes, templated variable notes, or narrative data notes — each result shows its kind, its topic, and how many variables it links at each confidence level, so you can judge how much to trust it before you even open it.</p>
+ 
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <a class="gs-link-card gs-teal" href="/OWL/docs/documentation/search-documentation/">
+        <i class="ti ti-compass" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Search Documentation →</p>
+          <p class="gs-link-card-desc">Search and filter every topsheet, variable note, templated variable note, and data note in one place.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+ 
+  <div class="home-section gs-card-lavender">
+    <h2 id="doc-types"><i class="ti ti-versions" aria-hidden="true"></i> Kinds of documentation</h2>
+    <p>Every document gets sorted into one of four kinds automatically, based on which of the structural patterns below it actually matches — the same detection used to find variable names in the first place (see the next section). Nothing here is tagged by hand: a document is a topsheet because it has a topsheet's structured "Output variables" field, not because someone filed it as one.</p>
+
+    <div style="display:flex; flex-direction:column; gap:10px; margin: 14px 0;">
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:hsl(125 35% 88%); color:hsl(125 35% 14%); font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-table" aria-hidden="true"></i> Topsheet
+        </span>
+        <span style="font-size:14px; color:#333;">— has the structured metadata table used to record a cleaning or derivation task, with an explicit "Output variables" field. This is the most common and most reliable kind, since the variable names it links to were deliberately typed by the person who did the work.</span>
+      </div>
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:hsl(210 45% 90%); color:hsl(210 45% 20%); font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-file-text" aria-hidden="true"></i> Variable note
+        </span>
+        <span style="font-size:14px; color:#333;">— no topsheet table, but uses a variable name as a bolded heading or caption somewhere in the text, whether or not that exact name still exists in today's dictionary (see "When a variable has been renamed" below). Typically a short note about one specific variable — a bug, a fix, a clarification.</span>
+      </div>
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:hsl(270 40% 90%); color:hsl(270 40% 22%); font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-repeat" aria-hidden="true"></i> Templated variable note
+        </span>
+        <span style="font-size:14px; color:#333;">— documents a variable written as a sweep template, like <code>HTyyU</code>, alongside a list of the years <code>yy</code> stands for. Common for a measure repeated at every sweep (height, weight, BMI), where one note describes the whole family of variables at once instead of eleven or more separate ones.</span>
+      </div>
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:hsl(35 60% 90%); color:hsl(35 60% 20%); font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-align-left" aria-hidden="true"></i> Narrative
+        </span>
+        <span style="font-size:14px; color:#333;">— none of the above: no topsheet table, no bold variable-shaped heading, no sweep template. The fallback for long-form, continuous-prose documents — typically a detailed data note covering a whole dataset or topic, referencing many variables in running text rather than a structured field.</span>
+      </div>
+    </div>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Because this is structural, not topical, two documents that are both "about a whole dataset" in spirit can still land in different kinds if one happens to use a bolded variable-name caption and the other doesn't. The kind badge on each result in <a href="#browse">Browse the documentation</a> tells you which pattern it matched — it's a hint about a document's shape, not a judgement of how important or how broad its subject is.</span>
+    </div>
+  </div>
+ 
+  <div class="home-section gs-card-explore">
+    <h2 id="how-linking-works"><i class="ti ti-link" aria-hidden="true"></i> How documents get linked to variables</h2>
+    <p>Every document is scanned for variable names using several methods, tried in order from most to least reliable. A document only needs to match one method to be linked — most match more than one.</p>
+ 
+    <div style="display:flex; flex-direction:column; gap:10px; margin: 14px 0;">
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:hsl(125 35% 88%); color:hsl(125 35% 14%); font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-table" aria-hidden="true"></i> Topsheet field
+        </span>
+        <span style="font-size:14px; color:#333;">— topsheets have an explicit "Output variables" field where the author lists exactly which variables the work produced. This is the most reliable source there is: someone deliberately typed these names to mean exactly this.</span>
+      </div>
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:hsl(125 35% 88%); color:hsl(125 35% 14%); font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-bold" aria-hidden="true"></i> Bold heading
+        </span>
+        <span style="font-size:14px; color:#333;">— many notes use a variable name as a bolded heading or caption directly above a table or a definition. If that bolded text exactly matches a real variable name, it's treated as a confident match.</span>
+      </div>
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:hsl(125 35% 88%); color:hsl(125 35% 14%); font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-repeat" aria-hidden="true"></i> Sweep-pattern
+        </span>
+        <span style="font-size:14px; color:#333;">— some documents write a variable as a template, like <code>HTyyU</code>, alongside a list of the sweep years <code>yy</code> stands for. Recognising this pattern and substituting each year in turn is how a single mention like this can correctly resolve to eleven or more real variables, instead of only the one example the author happened to spell out in full.</span>
+      </div>
+      <div style="display:flex; align-items:flex-start; gap:12px;">
+        <span style="background:hsl(35 60% 90%); color:hsl(35 60% 20%); font-size:13px; font-weight:600; padding:6px 14px; border-radius:5px; display:inline-flex; align-items:center; gap:6px; white-space:nowrap; flex-shrink:0;">
+          <i class="ti ti-align-left" aria-hidden="true"></i> Plain-text scan
+        </span>
+        <span style="font-size:14px; color:#333;">— the fallback for long narrative documents with no structured field, no bold headings, and no repeated pattern: any word in the body text that happens to exactly match a real variable name. This is the only method used on most narrative data notes, since they're written as continuous prose.</span>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="home-section gs-card-sidebar">
+    <h2 id="confidence-levels"><i class="ti ti-shield-check" aria-hidden="true"></i> Confidence levels, and why nothing is automatic</h2>
+    <p>The four methods above don't carry equal trust, and the difference matters more than it might sound. The dictionary holds over 28,000 variable names — with that many, a good number of them are short, ordinary-looking words. <code>sex</code>, <code>own</code>, <code>hand</code>, and <code>inch</code> are all genuine variable names. A plain-text scan of any document, on any topic, will turn some of these up purely by coincidence, with nothing to do with what the document is actually about.</p>
+    <p>So every match carries a confidence level based on which method found it, and each level is treated differently on a document page:</p>
+    <ul style="font-size:14px; color:#333; line-height:1.8;">
+      <li><strong>High confidence</strong> — topsheet field, bold heading, or sweep-pattern matches. Shown up front, with a checkbox on every row — ticked if it's already in your basket — plus an <strong>Add all to basket</strong> button that ticks and adds every one in a single click.</li>
+      <li><strong>Medium confidence</strong> — plain-text scan matches on longer words (five characters or more), where a coincidental match is less likely. Shown collapsed, with a per-row checkbox but no bulk action — worth a look, but not added all at once.</li>
+      <li><strong>Low confidence</strong> — plain-text scan matches on short words (four characters or fewer), exactly the length where a real variable name is most likely to collide with an ordinary word. Shown collapsed, separately, with a short explanation of why they need a second look. There's no bulk action here either — only the per-row checkbox, so nothing is added without someone specifically ticking that one variable.</li>
+    </ul>
+    <div class="callout-warning">
+      <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+      <span>Medium- and low-confidence matches are never added to a basket automatically, and never appear in an "Add all" action, however tempting it might be to widen that button to save clicks. A plain-text match being wrong isn't rare enough to risk — it's the expected outcome on any sufficiently long document.</span>
+    </div>
+  </div>
+ 
+  <div class="home-section gs-card-basket">
+    <h2 id="renamed-variables"><i class="ti ti-replace" aria-hidden="true"></i> When a variable has been renamed</h2>
+    <p>Some documents describe a variable that no longer exists under the name written in the document. A note investigating a bug in a variable called <code>SC53</code> might conclude with a fix that gets published under a different name entirely — <code>sc53u</code>, say — once the correction goes live. The note is still the correct, useful explanation of how <code>sc53u</code> came to be, but no amount of scanning its text against today's dictionary will ever find that connection, because <code>SC53</code> simply isn't in the dictionary anymore.</p>
+    <p>Two things happen for a case like this:</p>
+    <ul style="font-size:14px; color:#333; line-height:1.8;">
+      <li><strong>A suggestion, automatically.</strong> Any bold text shaped like a variable name but missing from the dictionary is compared against every real variable name for a close spelling match. For <code>SC53</code>, this correctly proposes <code>sc53u</code> as the closest match, together with its label, so a reviewer can confirm it at a glance rather than searching by hand.</li>
+      <li><strong>A confirmation, by a person.</strong> Once someone's checked a suggestion and agrees it's right, that gets recorded explicitly against the document — not inferred again every time the page rebuilds. From then on, the link between the old name in the note and the real current variable is as solid as any other match on the page.</li>
+    </ul>
+    <p>The suggestion step exists to make the confirmation step fast, not to replace it. A spelling-similarity match is still a guess, and guesses about which variable a historical bug-fix note refers to are exactly the kind of thing that should have a person's name behind them before it's presented as fact.</p>
+  </div>
+ 
+  <div class="home-section gs-card-blue">
+    <h2 id="adding-to-basket"><i class="ti ti-basket" aria-hidden="true"></i> Adding variables from a document</h2>
+    <p>Every document page has a variables panel reflecting everything described above, split into up to three boxes by confidence. High-confidence variables are listed with their labels in a green box, open by default, each with a checkbox that's already ticked if the variable is in your basket, plus a single <strong>Add all to basket</strong> button for taking the whole set in one click — this writes straight to your basket the same way every other "Add to basket" checkbox on OWL does, so it shows up immediately wherever else you're working. Medium-confidence matches sit in a collapsed blue box, and low-confidence matches in a collapsed amber box beneath that — each with its own per-row checkbox but no bulk option, so picking up a genuinely relevant plain-text match is still one click away; it's only the all-at-once action that's withheld there.</p>
+    <p>Where a document has a confirmed relationship to a variable under a different name — the renamed-variable case above — that variable is shown alongside the document's other high-confidence matches once confirmed, with a note explaining that it's linked via a historical name rather than a direct mention in the text.</p>
+  </div>
+ 
+  <div class="home-section gs-card-indigo">
+    <h2 id="create-documentation"><i class="ti ti-forms" aria-hidden="true"></i> Create documentation online (Doc Builder)</h2>
+    <p>If you'd rather not start from a blank Word document, <strong>Create Documentation Online (Doc Builder)</strong> lets you build your topsheet and documentation directly in the browser instead — add sections, subheadings, lists, tables, and images through a simple form, with a live preview showing how it'll actually look as you go. Every field a real topsheet has is collected, not just the five that end up public, since the rest is still needed for internal record-keeping.</p>
+    <p>When you're happy with it, download it as a real Word document to send to us — and if you'd rather finish it offline instead, you're completely free to keep editing that downloaded file directly in Word, the same as any other documentation.</p>
+
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/documentation/create-documentation/">
+        <i class="ti ti-forms" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Create Documentation Online →</p>
+          <p class="gs-link-card-desc">Build your documentation with a form and live preview, then download it as a Word document.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+ 
+  <div class="home-section gs-card-download">
+    <h2 id="page-proof"><i class="ti ti-file-check" aria-hidden="true"></i> Check your formatting before you submit</h2>
+    <p>Everything above describes how a document gets read once it reaches this section — how it's classified, how variables get linked, what earns high confidence versus a second look. <strong>Page Proof</strong> is a small offline tool that lets you check your own documentation against those same rules before you send it, rather than finding out afterwards.</p>
+    <p>Double-click the program to open it, then follow the instructions included with it to check your document. It produces two things: a short report flagging anything worth double-checking — an accidental numbered heading, a blank field in the topsheet table, a stray character in a variable name — and a preview showing roughly how the document will look once it's live, styled to match this site. Nothing is uploaded anywhere and no internet connection is needed; everything happens on your own machine, and the two files it creates are only for your own review before you send the real document on as normal.</p>
+    <p>Page Proof checks formatting — it doesn't tell you what to write or validate variable names against the dictionary, since a topsheet very often documents variables that don't exist anywhere yet. For guidance on how to structure and write documentation itself, see the rest of this page.</p>
+ 
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/assets/data/PageProof.zip">
+        <i class="ti ti-download" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Download Page Proof →</p>
+          <p class="gs-link-card-desc">A zip file containing PageProof.exe and a short instructions PDF. Unzip, then open the program to check your first document.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+ 
+</div>
+ 
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

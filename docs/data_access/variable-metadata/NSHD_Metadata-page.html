@@ -1,0 +1,246 @@
+---
+layout: default
+title: OWL and Condor Metadata Page
+parent: Variable Metadata
+nav_order: 1
+permalink: /docs/getting_started/variable-metadata/NSHD_Metadata-page.html
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-search" aria-hidden="true"></i> OWL and Condor Metadata Page</h1>
+    <p>What each section of the OWL and Condor Metadata page contains and how to interpret it — a lot is common between the two platforms, with differences noted where they occur.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#variable-metadata-fields" class="gs-toc-owl-fields"><i class="ti ti-id" aria-hidden="true"></i> Variable Metadata</a></li>
+      <li><a href="#linked-longitudinal" class="gs-toc-owl-linked"><i class="ti ti-link" aria-hidden="true"></i> Linked &amp; Longitudinal</a></li>
+      <li><a href="#associated-documents" class="gs-toc-owl-docs"><i class="ti ti-folder" aria-hidden="true"></i> Associated Documents</a></li>
+      <li><a href="#category-memberships" class="gs-toc-owl-categories"><i class="ti ti-tags" aria-hidden="true"></i> Category Memberships</a></li>
+      <li><a href="#value-labels" class="gs-toc-owl-valuelabels"><i class="ti ti-list-details" aria-hidden="true"></i> Value Labels</a></li>
+      <li><a href="#frequency-distribution" class="gs-toc-owl-frequency"><i class="ti ti-chart-bar" aria-hidden="true"></i> Frequency Distribution</a></li>
+    </ul>
+    <a href="/OWL/docs/accessing-nshd-data/variable-metadata/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Variable Metadata</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>Clicking any variable name wherever it appears in OWL — in any of the searches, or in the table at the end of this documentation — opens its metadata page. On Condor, clicking a variable name within a basket opens the equivalent view. The page is divided into six sections covering provenance, longitudinal linkage, documentation, category placement, value coding, and distribution summaries. Each section is explained in detail below, noting where Condor's presentation differs from OWL's.</p>
+  </div>
+
+  <div class="home-section gs-card-search">
+    <h2 id="variable-metadata-fields"><i class="ti ti-id" aria-hidden="true"></i> Variable Metadata</h2>
+    <p>The core record for a variable, presented as a table of fields. Each field is described below.</p>
+
+    <style>
+      .field-table { width: 100%; border-collapse: collapse; font-size: 11.5px; margin-top: 8px; }
+      .field-table thead tr th { padding: 8px 12px; color: white; font-weight: 500; text-align: left; font-size: 12px; }
+      .field-table td { padding: 8px 12px; vertical-align: top; line-height: 1.6; }
+      .field-table td:first-child { font-weight: 700; white-space: nowrap; width: 18%; }
+      .ft-r1  td { background: hsl(180 45% 95%); border-bottom: 1px solid hsl(180 45% 86%); }
+      .ft-r1  td:first-child { color: hsl(180 45% 18%); }
+      .ft-r2  td { background: hsl(35 60% 95%);  border-bottom: 1px solid hsl(35 60% 86%);  }
+      .ft-r2  td:first-child { color: hsl(35 60% 18%); }
+      .ft-r3  td { background: hsl(340 45% 95%); border-bottom: 1px solid hsl(340 45% 86%); }
+      .ft-r3  td:first-child { color: hsl(340 45% 22%); }
+      .ft-r4  td { background: hsl(125 35% 94%); border-bottom: 1px solid hsl(125 35% 82%); }
+      .ft-r4  td:first-child { color: hsl(125 35% 18%); }
+      .ft-r5  td { background: hsl(210 45% 95%); border-bottom: 1px solid hsl(210 45% 86%); }
+      .ft-r5  td:first-child { color: hsl(210 45% 18%); }
+      .ft-r6  td { background: hsl(270 35% 95%); border-bottom: 1px solid hsl(270 35% 86%); }
+      .ft-r6  td:first-child { color: hsl(270 35% 22%); }
+      .ft-r7  td { background: hsl(180 45% 95%); border-bottom: 1px solid hsl(180 45% 86%); }
+      .ft-r7  td:first-child { color: hsl(180 45% 18%); }
+      .ft-r8  td { background: hsl(35 60% 95%);  border-bottom: 1px solid hsl(35 60% 86%);  }
+      .ft-r8  td:first-child { color: hsl(35 60% 18%); }
+      .ft-r9  td { background: hsl(340 45% 95%); border-bottom: 1px solid hsl(340 45% 86%); }
+      .ft-r9  td:first-child { color: hsl(340 45% 22%); }
+      .ft-r10 td { background: hsl(125 35% 94%); border-bottom: 1px solid hsl(125 35% 82%); }
+      .ft-r10 td:first-child { color: hsl(125 35% 18%); }
+      .ft-r11 td { background: hsl(210 45% 95%); border-bottom: 1px solid hsl(210 45% 86%); }
+      .ft-r11 td:first-child { color: hsl(210 45% 18%); }
+      .ft-r12 td { background: hsl(270 35% 95%); border-bottom: 1px solid hsl(270 35% 86%); }
+      .ft-r12 td:first-child { color: hsl(270 35% 22%); }
+      .ft-r13 td { background: hsl(180 45% 95%); border-bottom: 1px solid hsl(180 45% 86%); }
+      .ft-r13 td:first-child { color: hsl(180 45% 18%); }
+      .ft-r14 td { background: hsl(35 60% 95%); }
+      .ft-r14 td:first-child { color: hsl(35 60% 18%); }
+    </style>
+
+    <table class="field-table">
+      <thead>
+        <tr>
+          <th style="background:#3a0066; width:18%;">Field</th>
+          <th style="background:hsl(180 45% 28%);">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="ft-r1">
+          <td><strong>Variable</strong></td>
+          <td>The short coded identifier used in the dataset, for example <em>ghi09</em> or <em>ht89u</em>. This is the name used when requesting data or referencing the variable in analysis.</td>
+        </tr>
+        <tr class="ft-r2">
+          <td><strong>Field ID</strong></td>
+          <td>A numeric identifier that groups the sweeps of a truly longitudinal variable. Variables sharing the same Field ID, with identical question text and coding across sweeps, are treated as the same longitudinal variable and are listed together under Truly Longitudinal.</td>
+        </tr>
+        <tr class="ft-r3">
+          <td><strong>Label</strong></td>
+          <td>Plain-English description of what the variable measures, including the age or year it was collected at — for example <em>How is your health in general? — at age 60–64 years</em>.</td>
+        </tr>
+        <tr class="ft-r4">
+          <td><strong>Card Number</strong></td>
+          <td>An internal reference linking the variable to a specific section or card within the questionnaire library file. Used for cross-referencing against the original survey instrument.</td>
+        </tr>
+        <tr class="ft-r5">
+          <td><strong>Form</strong></td>
+          <td>The data collection instrument the variable came from — for example: postal questionnaire, nurse schedule, home visit, CAPI interview, or medical examination. Together with Question and Year, this tells you exactly which instrument the variable was collected from and in what context.</td>
+        </tr>
+        <tr class="ft-r6">
+          <td><strong>Question</strong></td>
+          <td>The specific question number within that form, for example <em>96(a)</em>. Together with Form and Year, this allows you to locate the exact question in the original questionnaire.</td>
+        </tr>
+        <tr class="ft-r7">
+          <td><strong>Year</strong></td>
+          <td>The year or year range data was collected, corresponding to a specific study sweep — for example <em>2006–10</em>.</td>
+        </tr>
+        <tr class="ft-r8">
+          <td><strong>Units</strong></td>
+          <td>The unit of measurement for continuous variables, for example cm, kg, or mmHg. Shows <em>Not applicable</em> for categorical variables where responses are coded categories rather than measured quantities.</td>
+        </tr>
+        <tr class="ft-r9">
+          <td><strong>Derived Status</strong></td>
+          <td>0 means the variable was directly measured or recorded during data collection. 1 means it was derived or calculated from one or more other variables rather than collected directly — for example, BMI derived from separately measured height and weight.</td>
+        </tr>
+        <tr class="ft-r10">
+          <td><strong>Later Version</strong></td>
+          <td>If a more recent or corrected version of this variable exists in the dataset, it is listed here. NA means this is the current version. Always check this field before including a variable in a data request — if a later version exists, use that instead.</td>
+        </tr>
+        <tr class="ft-r11">
+          <td><strong>Sensitive</strong></td>
+          <td>0 means the variable is publicly visible in the OWL. 1 means it is restricted and may require additional data access permissions to include in a data request.</td>
+        </tr>
+        <tr class="ft-r12">
+          <td><strong>Reason Public</strong></td>
+          <td>Where applicable, the stated reason this variable is publicly available. NA if not specified.</td>
+        </tr>
+        <tr class="ft-r13">
+          <td><strong>Reason Sensitive</strong></td>
+          <td>Where applicable, the reason access to this variable is restricted — for example due to participant confidentiality. NA if the variable is not restricted.</td>
+        </tr>
+        <tr class="ft-r14">
+          <td><strong>Notes</strong></td>
+          <td>Free-text contextual notes about the variable — measurement conditions, known caveats, recoding details, or quality notes specific to this variable, for example whether a height measurement was taken with or without shoes.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="home-section gs-card-explore">
+    <h2 id="linked-longitudinal"><i class="ti ti-link" aria-hidden="true"></i> Linked &amp; Longitudinal Variables</h2>
+
+    <style>
+      .ll-detail-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:12px 0 16px; }
+      .ll-detail-box { border-radius:8px; padding:12px 14px; border-left:4px solid; }
+      .ll-detail-purple { background:#EEEDFE; border-color:#534AB7; }
+      .ll-detail-green  { background:#E3F5EC; border-color:#27AE73; }
+      .ll-detail-title  { font-size:13px; font-weight:700; margin-bottom:6px; display:flex; align-items:center; gap:6px; }
+      .ll-detail-purple .ll-detail-title { color:#534AB7; }
+      .ll-detail-green  .ll-detail-title { color:#1A6B45; }
+      .ll-detail-text   { font-size:11.5px; color:#444; line-height:1.6; margin:0 0 6px; }
+      .ll-detail-text:last-child { margin-bottom:0; }
+      .ll-detail-tag-strict   { font-size:10px; background:#EEEDFE; color:#534AB7; padding:1px 6px; border-radius:4px; font-weight:600; }
+      .ll-detail-tag-flexible { font-size:10px; background:#D0EFE0; color:#1A6B45; padding:1px 6px; border-radius:4px; font-weight:600; }
+    </style>
+
+    <p>This section surfaces related variables that connect to the current one, and OWL splits them into two clearly labelled, colour-coded subsections depending on how strong that connection is:</p>
+
+    <div class="ll-detail-grid">
+      <div class="ll-detail-box ll-detail-purple">
+        <div class="ll-detail-title"><i class="ti ti-link" aria-hidden="true"></i> Truly Longitudinal <span class="ll-detail-tag-strict">Strict</span></div>
+        <p class="ll-detail-text">Variables that share the <strong>same Field ID</strong> as the current variable — meaning identical question text and identical response coding at a different sweep. Because the coding is guaranteed identical, these measurements are directly comparable across time without any further checking.</p>
+        <p class="ll-detail-text">Each row links straight to that sweep's own OWL and Condor Metadata page, and also shows the Field ID they share, so you can see at a glance that they belong to the same longitudinal variable.</p>
+      </div>
+      <div class="ll-detail-box ll-detail-green">
+        <div class="ll-detail-title"><i class="ti ti-arrows-shuffle" aria-hidden="true"></i> Linked variables <span class="ll-detail-tag-flexible">Flexible</span></div>
+        <p class="ll-detail-text">Variables connected via a shared linking measure, which is deliberately looser than a Field ID match. A variable can appear here for several reasons:</p>
+        <ul style="font-size:11.5px; color:#444; line-height:1.6; margin:0 0 6px 18px; padding:0;">
+          <li>The same or a very similar question was asked at another sweep, but the wording, response options, or coding changed between collections.</li>
+          <li>The variables belong to the same instrument, scale, or composite measure — for example, items from one questionnaire module administered at different ages.</li>
+          <li>A variable has a predecessor or successor that used a different coding scheme, and the link preserves the conceptual connection across that change.</li>
+        </ul>
+        <p class="ll-detail-text">Because coding is not guaranteed to match, always check the Value Labels and Units of each linked variable before treating them as directly comparable.</p>
+      </div>
+    </div>
+
+    <p>A variable that shares a Field ID with another appears only in the purple <strong>Truly Longitudinal</strong> subsection — it is never duplicated into the green subsection below it, so the two lists are complementary rather than overlapping. This split is specific to the OWL presentation; on Condor itself, all linked and longitudinal variables — regardless of whether they share a Field ID — are listed together in a single, undifferentiated table, so the strict/flexible distinction is not visible there.</p>
+
+    <p>For each linked variable, the table shows the variable name (which links through to its own OWL and Condor Metadata page), a description of what was measured, the year of collection, the form it was collected on, the question number, and the library file. Note that some linked variables may have slightly different labels, forms, or question numbers across sweeps where the collection method changed over time.</p>
+  </div>
+
+  <div class="home-section gs-card-sidebar">
+    <h2 id="associated-documents"><i class="ti ti-folder" aria-hidden="true"></i> Associated Documents</h2>
+    <p>Links to supporting documentation attached directly to this variable. The OWL and Condor Metadata page allows documents to be associated at the individual variable level, giving quick access to the source material behind a specific measure. There are two types of document that may appear here:</p>
+    <ul>
+      <li><strong>Questionnaires</strong> — a direct link to the questionnaire in the NSHD Questionnaires archive that contains this variable. The questionnaire will show the exact wording of the question as it was asked, the response options offered, and the respondent type (study member, parent, school doctor, etc.).</li>
+      <li><strong>Documents</strong> — where available, links to additional technical documentation attached to the variable, such as a body size measurement guide, a topic documentation file, or a derivation specification explaining how a derived variable was calculated. Not all variables will have accompanying documents beyond the questionnaire link.</li>
+    </ul>
+  </div>
+
+  <div class="home-section gs-card-basket">
+    <h2 id="category-memberships"><i class="ti ti-tags" aria-hidden="true"></i> Category Memberships</h2>
+    <p>The category or categories this variable belongs to within the Browse by Category hierarchy. Each entry shows the category name and its numeric code, along with a short description of what that category contains.</p>
+    <p>A variable can belong to more than one category — for example, a body size measure may sit under both an Anthropometry legacy category and a current Body size measures subcategory within the Clinical data branch. Legacy categories reflect an older classification system and are retained for reference alongside the current Browse by Category tree structure. If a variable appears in a legacy category only, it may not be directly navigable from the Browse by Category sidebar but can still be found via search.</p>
+  </div>
+
+  <div class="home-section gs-card-blue">
+    <h2 id="value-labels"><i class="ti ti-list-details" aria-hidden="true"></i> Value Labels</h2>
+    <p>For <strong>categorical variables</strong>, this section lists every coded value and its meaning — for example, 1 = Excellent, 2 = Very good, 3 = Good, 4 = Fair, 5 = Poor. Special system codes such as 7777 (No questionnaire) or 9999 (Unknown) are also listed here. These labels are essential for correctly interpreting the data, since the dataset itself only holds the numeric codes.</p>
+    <p>For <strong>continuous variables</strong>, value labels may still appear in this section, but they represent <strong>missing data categories</strong> rather than substantive response options — for example, 9999 = No examination done, 7777 = No questionnaire, or &minus;9 = Unknown. These rows are shown in a distinct colour so they stand out from substantive response categories at a glance. These special codes are listed for reference and transparency, but are <strong>excluded from all plots and summary statistics</strong> in the Frequency Distribution section below. When you request the data, these coded missing values will be present in the dataset and should be accounted for in your analysis, typically by recoding them as missing before any statistical procedures.</p>
+  </div>
+
+  <div class="home-section gs-card-lavender">
+    <h2 id="frequency-distribution"><i class="ti ti-chart-bar" aria-hidden="true"></i> Frequency Distribution</h2>
+    <p>A visual and tabular summary of how values are distributed across study members for this variable. For a sweep-by-sweep comparison of the same measure across multiple time points, use the <strong>View all sweeps</strong> button where it appears, or <a href="/OWL/docs/search_methods/longitudinal_variables/longitudinal_search_guide/" style="color:#6a0dad;">Longitudinal Search</a>, which shows every sweep of a variable together with trajectory charts.</p>
+
+    <div class="callout-note" style="margin-bottom:14px;">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>The enhancements described below — the box-and-whisker summary, the 100% stacked bar, the percentage column, and the download buttons — are specific to <strong>OWL</strong>. Condor's own version of this page shows a simpler bar chart or histogram with the core statistics only, and does not have these additions.</span>
+    </div>
+
+    <div style="display:flex; gap:14px; margin:14px 0;">
+
+      <div style="flex:1; background:hsl(200 45% 94%); border:1px solid hsl(200 45% 68%); border-radius:6px; padding:12px 14px;">
+        <p style="font-weight:700; font-size:13px; color:hsl(200 45% 22%); margin:0 0 6px; border-bottom:1px solid hsl(200 45% 68%); padding-bottom:4px;"><i class="ti ti-chart-bar" aria-hidden="true" style="margin-right:4px;"></i> Categorical variables</p>
+        <p style="font-size:12px; color:#333; margin:0 0 8px; line-height:1.55;">A bar chart shows the relative frequency of each coded response category, with each value shown alongside its label (e.g. <em>1 &mdash; Excellent</em>) rather than the code alone. A 100% stacked bar below it shows the same categories as proportions of the total. The accompanying table lists each value, its count, and its percentage of the total. Missing value codes (e.g. 9999, 7777, &minus;9) are excluded from both the chart and the table.</p>
+        <div style="background:rgba(255,255,255,0.75); border:1px solid hsl(200 45% 60%); border-radius:4px; padding:8px 10px;">
+          <p style="font-size:11.5px; font-weight:700; color:hsl(200 45% 22%); margin:0 0 3px;">&#9888; Low cell count suppression</p>
+          <p style="font-size:11px; color:#333; margin:0; line-height:1.5;">Any response category with <strong>fewer than 10 observations</strong> is suppressed and will not appear in the chart or count table. This is a disclosure control measure to protect participant confidentiality. The actual data you receive may therefore include valid response categories not shown here.</p>
+        </div>
+      </div>
+
+      <div style="flex:1; background:hsl(30 55% 94%); border:1px solid hsl(30 55% 68%); border-radius:6px; padding:12px 14px;">
+        <p style="font-weight:700; font-size:13px; color:hsl(30 55% 22%); margin:0 0 6px; border-bottom:1px solid hsl(30 55% 68%); padding-bottom:4px;"><i class="ti ti-chart-histogram" aria-hidden="true" style="margin-right:4px;"></i> Continuous variables</p>
+        <p style="font-size:12px; color:#333; margin:0 0 8px; line-height:1.55;">A compact box-and-whisker summary sits above a histogram of the valid values, showing the median, interquartile range, and overall range at a glance before you look at the fuller shape below. The accompanying statistics table lists minimum, maximum, range, median, interquartile range (IQR), deciles 1 through 9, mean, standard deviation, variance, and Displayed N (the count of values shown). Missing value codes are excluded from both the plots and all statistics.</p>
+        <div style="background:rgba(255,255,255,0.75); border:1px solid hsl(30 55% 60%); border-radius:4px; padding:8px 10px;">
+          <p style="font-size:11.5px; font-weight:700; color:hsl(30 55% 22%); margin:0 0 3px;">&#9888; Percentile trimming</p>
+          <p style="font-size:11px; color:#333; margin:0; line-height:1.5;">Values in the <strong>bottom 5% and top 5%</strong> of the distribution are excluded from the histogram and all summary statistics. This reduces the influence of extreme outliers on the display. The actual data you receive will contain the full range of valid values.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>The distributions shown here are summaries for orientation only. Due to low cell count suppression (categorical) and percentile trimming (continuous), the display may not represent the complete picture. The full dataset available through a data access application will contain all valid observations.</span>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

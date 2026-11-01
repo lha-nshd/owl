@@ -1,0 +1,481 @@
+{
+  "varname": "su_pos_wm_bl_i46p2",
+  "label": "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+  "field_id": "60519",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60519",
+  "year": "",
+  "form": "Insight46 - Phase 2",
+  "units": "SUVR",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.6076893980887871,
+  "sd": 0.056354531141481125,
+  "series_size": 413.0,
+  "minimum": 0.528978064516129,
+  "maximum": 0.778071573299106,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "su_pos_wm_fu_i46p2"
+  ],
+  "linked_years": [
+    "2018-2021"
+  ],
+  "categories": [
+    "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+  ],
+  "value_labels": [
+    {
+      "value": "-888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "su_pos_wm_bl_i46p2",
+    "label": "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+    "meta_rows": [
+      [
+        "Variable",
+        "su_pos_wm_bl_i46p2"
+      ],
+      [
+        "Field ID",
+        "60519"
+      ],
+      [
+        "Label",
+        "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46P2_AmyloidPET"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 2"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2018-2021"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "SUVR"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 & 2 amyloid-beta PET [18F]florbetapir data quantified using longitudinal pipeline. Global and regional SUVRs were calculated normalised to a whole cerebellum, pons or eroded subcortical white matter reference region as indicated and with or without partial volume correction (PVC) using the Discrete Iterative Yang technique. Positive or negative amyloid status was determined using a Gaussian mixture model applied to SUVRs, with the 99th percentile of the lower Gaussian as the cutoff. Note that there is also a cross-sectional phase 1 amyloid dataset  - see library file I46_AMYLOIDSTATUS_ErodedWM and I46_AMYLOIDSTATUS_Cerebellum."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "su_pos_wm_fu_i46p2",
+        "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_AmyloidPET"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46P2_AmyloidPET/Docs_AmyloidPET_I46W2.docx",
+        "Docs_AmyloidPET_I46W2.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Longitudinal beta-amyloid status (phase 1 and 2) [603412]",
+        "This category contains variables related to the longitudinal beta-amyloid status, standard uptake value ratios (SUVRs), and centiloid values (phases 1 and 2) from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.528978064516129"
+      ],
+      [
+        "Maximum",
+        "0.778071573299106"
+      ],
+      [
+        "Range",
+        "0.24909350878297698"
+      ],
+      [
+        "Median",
+        "0.595484720758693"
+      ],
+      [
+        "IQR",
+        "0.568353526970954 - 0.630031512605042"
+      ],
+      [
+        "Decile 1",
+        "0.5467035964035967"
+      ],
+      [
+        "Decile 2",
+        "0.5601743750515632"
+      ],
+      [
+        "Decile 3",
+        "0.5750271738797175"
+      ],
+      [
+        "Decile 4",
+        "0.5848205940898176"
+      ],
+      [
+        "Decile 5",
+        "0.595484720758693"
+      ],
+      [
+        "Decile 6",
+        "0.6058558851417706"
+      ],
+      [
+        "Decile 7",
+        "0.6204429729378684"
+      ],
+      [
+        "Decile 8",
+        "0.6461303933984228"
+      ],
+      [
+        "Decile 9",
+        "0.700656750673081"
+      ],
+      [
+        "Mean",
+        "0.6076893980887871"
+      ],
+      [
+        "Std Dev.",
+        "0.056354531141481125"
+      ],
+      [
+        "Variance",
+        "0.0031758331801761655"
+      ],
+      [
+        "Displayed N",
+        "413"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "su_pos_wm_bl_i46p2",
+    "label": "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60519",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "su_pos_wm_bl_i46p2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "60519",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46P2_AmyloidPET",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2018-2021",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "SUVR",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 & 2 amyloid-beta PET [18F]florbetapir data quantified using longitudinal pipeline. Global and regional SUVRs were calculated normalised to a whole cerebellum, pons or eroded subcortical white matter reference region as indicated and with or without partial volume correction (PVC) using the Discrete Iterative Yang technique. Positive or negative amyloid status was determined using a Gaussian mixture model applied to SUVRs, with the 99th percentile of the lower Gaussian as the cutoff. Note that there is also a cross-sectional phase 1 amyloid dataset  - see library file I46_AMYLOIDSTATUS_ErodedWM and I46_AMYLOIDSTATUS_Cerebellum.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "su_pos_wm_fu_i46p2",
+        "description": "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_AmyloidPET"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46P2_AmyloidPET/Docs_AmyloidPET_I46W2.docx",
+        "text": "Docs_AmyloidPET_I46W2.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Longitudinal beta-amyloid status (phase 1 and 2) [603412]",
+        "description": "This category contains variables related to the longitudinal beta-amyloid status, standard uptake value ratios (SUVRs), and centiloid values (phases 1 and 2) from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Longitudinal_beta-amyloid_status_(phase_1_and_2)_603412.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 2,
+      "cats": 1,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "SUVR",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.528978064516129,
+          0.5445464088150651,
+          0.5601147531140012,
+          0.5756830974129372,
+          0.5912514417118733,
+          0.6068197860108093,
+          0.6223881303097454,
+          0.6379564746086814,
+          0.6535248189076175,
+          0.6690931632065535,
+          0.6846615075054896,
+          0.7002298518044258,
+          0.7157981961033618,
+          0.7313665404022979,
+          0.7469348847012339,
+          0.76250322900017,
+          0.778071573299106
+        ],
+        "counts": [
+          38,
+          45,
+          45,
+          64,
+          62,
+          38,
+          28,
+          17,
+          20,
+          7,
+          7,
+          8,
+          15,
+          9,
+          5,
+          5
+        ]
+      },
+      "boxplot": {
+        "min": 0.528978064516129,
+        "q1": 0.568353526970954,
+        "median": 0.595484720758693,
+        "q3": 0.630031512605042,
+        "max": 0.778071573299106
+      },
+      "units": "SUVR"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.528978064516129"
+      ],
+      [
+        "Maximum",
+        "0.778071573299106"
+      ],
+      [
+        "Range",
+        "0.24909350878297698"
+      ],
+      [
+        "Median",
+        "0.595484720758693"
+      ],
+      [
+        "IQR",
+        "0.568353526970954 - 0.630031512605042"
+      ],
+      [
+        "Decile 1",
+        "0.5467035964035967"
+      ],
+      [
+        "Decile 2",
+        "0.5601743750515632"
+      ],
+      [
+        "Decile 3",
+        "0.5750271738797175"
+      ],
+      [
+        "Decile 4",
+        "0.5848205940898176"
+      ],
+      [
+        "Decile 5",
+        "0.595484720758693"
+      ],
+      [
+        "Decile 6",
+        "0.6058558851417706"
+      ],
+      [
+        "Decile 7",
+        "0.6204429729378684"
+      ],
+      [
+        "Decile 8",
+        "0.6461303933984228"
+      ],
+      [
+        "Decile 9",
+        "0.700656750673081"
+      ],
+      [
+        "Mean",
+        "0.6076893980887871"
+      ],
+      [
+        "Std Dev.",
+        "0.056354531141481125"
+      ],
+      [
+        "Variance",
+        "0.0031758331801761655"
+      ],
+      [
+        "Displayed N",
+        "413"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

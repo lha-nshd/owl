@@ -1,0 +1,611 @@
+{
+  "varname": "wcuse15x",
+  "label": "Do you have any difficulty using the toilet - at age 69 years",
+  "field_id": "9060",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9060",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2191.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "wcinc89",
+    "wcusec22x",
+    "wcusec09",
+    "wc09",
+    "wcusec15x",
+    "wcuse09",
+    "wcuse89",
+    "wcgoc89",
+    "hloo82",
+    "wcusec25x",
+    "wcc09",
+    "hloo282",
+    "wc89"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "2006-10",
+    "2015",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Physical capability [5108]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Level of difficulty unknown (paper HV only completed)"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 2155,
+      "pct": 98.4
+    },
+    {
+      "label": "Yes",
+      "count": 36,
+      "pct": 1.6
+    }
+  ],
+  "pdf": {
+    "varname": "wcuse15x",
+    "label": "Do you have any difficulty using the toilet - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "wcuse15x"
+      ],
+      [
+        "Field ID",
+        "9060"
+      ],
+      [
+        "Label",
+        "Do you have any difficulty using the toilet - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "PhysCap15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "35"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell counts issue"
+      ],
+      [
+        "Notes",
+        "2015 Home visit. Activity questions."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "wcinc89",
+        "If difficult for you to use the toilet, can you use the toilet without help? - at age 43 years",
+        "1989",
+        "C - Disability Supplementary questions",
+        "2(g)",
+        "de89c"
+      ],
+      [
+        "wcusec22x",
+        "Are you able to do the following activities alone or is help required? - Toilet use (including managing personal hygiene) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "111",
+        "Postal22"
+      ],
+      [
+        "wcusec09",
+        "If difficult using the toilet, can you use the toilet without aids or personal help? - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "54(g)",
+        "PhysCap09"
+      ],
+      [
+        "wc09",
+        "Is it difficult because of long-term health problems, getting to the toilet - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "54(f)",
+        "PhysCap09"
+      ],
+      [
+        "wcusec15x",
+        "Can you use the toilet without aids or personal help - at age 69 years",
+        "2015",
+        "Home visit",
+        "36",
+        "PhysCap15"
+      ],
+      [
+        "wcuse09",
+        "Is it difficult because of long-term health problems, using the toilet - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "54(g)",
+        "PhysCap09"
+      ],
+      [
+        "wcuse89",
+        "Due to long-term health problems or physical or mental disabilities is it difficult for you to use the toilet? - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Section D - 2(g)",
+        "de89d"
+      ],
+      [
+        "wcgoc89",
+        "If difficult for you to get to the toilet, can you get to the toilet without help? - at age 43 years",
+        "1989",
+        "C - Disability Supplementary questions",
+        "2(f)",
+        "de89c"
+      ],
+      [
+        "hloo82",
+        "Do you have difficulty with getting to and using the toilet without help, that has gone on for two weeks or more? Was this caused by illness, injury or ill health?  - at age 36 years ",
+        "1982",
+        "C - Self completion",
+        "14",
+        "B26"
+      ],
+      [
+        "wcusec25x",
+        "Are you able to do the following activities alone or is help required? - Toilet use (including managing personal hygiene) - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "18",
+        "Postal2025"
+      ],
+      [
+        "wcc09",
+        "If difficult getting to the toilet, can you get to the toilet without aids or personal help? - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "54(f)",
+        "PhysCap09"
+      ],
+      [
+        "hloo282",
+        "Do you have difficulty with getting to and using the toilet without help, that has gone on for two weeks or more? Has it lasted for the last 2 weeks?  - at age 36 years ",
+        "1982",
+        "C - Self completion",
+        "14",
+        "B26"
+      ],
+      [
+        "wc89",
+        "Due to long-term health problems or physical or mental disabilities is it difficult for you to get to the toilet? - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Section D - 2(f)",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Physical capability [5108]",
+        "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Level of difficulty unknown (paper HV only completed)",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "2155",
+        "98%"
+      ],
+      [
+        "1",
+        "36",
+        "2%"
+      ],
+      [
+        "Displayed N",
+        "2191",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "wcuse15x",
+    "label": "Do you have any difficulty using the toilet - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9060",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "wcuse15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9060",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Do you have any difficulty using the toilet - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysCap15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "35",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell counts issue",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2015 Home visit. Activity questions.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "wcinc89",
+        "description": "If difficult for you to use the toilet, can you use the toilet without help? - at age 43 years",
+        "year": "1989",
+        "form": "C - Disability Supplementary questions",
+        "question": "2(g)",
+        "library_file": "de89c"
+      },
+      {
+        "varname": "wcusec22x",
+        "description": "Are you able to do the following activities alone or is help required? - Toilet use (including managing personal hygiene) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "111",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "wcusec09",
+        "description": "If difficult using the toilet, can you use the toilet without aids or personal help? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "54(g)",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "wc09",
+        "description": "Is it difficult because of long-term health problems, getting to the toilet - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "54(f)",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "wcusec15x",
+        "description": "Can you use the toilet without aids or personal help - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "36",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "wcuse09",
+        "description": "Is it difficult because of long-term health problems, using the toilet - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "54(g)",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "wcuse89",
+        "description": "Due to long-term health problems or physical or mental disabilities is it difficult for you to use the toilet? - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Section D - 2(g)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "wcgoc89",
+        "description": "If difficult for you to get to the toilet, can you get to the toilet without help? - at age 43 years",
+        "year": "1989",
+        "form": "C - Disability Supplementary questions",
+        "question": "2(f)",
+        "library_file": "de89c"
+      },
+      {
+        "varname": "hloo82",
+        "description": "Do you have difficulty with getting to and using the toilet without help, that has gone on for two weeks or more? Was this caused by illness, injury or ill health?  - at age 36 years ",
+        "year": "1982",
+        "form": "C - Self completion",
+        "question": "14",
+        "library_file": "B26"
+      },
+      {
+        "varname": "wcusec25x",
+        "description": "Are you able to do the following activities alone or is help required? - Toilet use (including managing personal hygiene) - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "18",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "wcc09",
+        "description": "If difficult getting to the toilet, can you get to the toilet without aids or personal help? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "54(f)",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "hloo282",
+        "description": "Do you have difficulty with getting to and using the toilet without help, that has gone on for two weeks or more? Has it lasted for the last 2 weeks?  - at age 36 years ",
+        "year": "1982",
+        "form": "C - Self completion",
+        "question": "14",
+        "library_file": "B26"
+      },
+      {
+        "varname": "wc89",
+        "description": "Due to long-term health problems or physical or mental disabilities is it difficult for you to get to the toilet? - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Section D - 2(f)",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical capability [5108]",
+        "description": "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_5108.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Level of difficulty unknown (paper HV only completed)",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 13,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 2155,
+          "pct": 98
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 36,
+          "pct": 2
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "2155",
+        "98%"
+      ],
+      [
+        "1",
+        "36",
+        "2%"
+      ],
+      [
+        "Displayed N",
+        "2191",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

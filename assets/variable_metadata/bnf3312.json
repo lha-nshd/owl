@@ -1,0 +1,303 @@
+{
+  "varname": "bnf3312",
+  "label": "Derived: Medication (taken in last 24 hours) - Anti-fungal preparations (nurse schedule) at age 60-64 years ",
+  "field_id": "6928",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6928",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1506.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Medication [11]",
+    "Derived medication taken in the last 24 hours [50512]"
+  ],
+  "value_labels": [
+    {
+      "value": "0.0",
+      "label": "Does not take this type of drug"
+    },
+    {
+      "value": "7.0",
+      "label": "No questionnaire"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Does not take this type of drug",
+      "count": 1506,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "bnf3312",
+    "label": "Derived: Medication (taken in last 24 hours) - Anti-fungal preparations (nurse schedule) at age 60-64 years ",
+    "meta_rows": [
+      [
+        "Variable",
+        "bnf3312"
+      ],
+      [
+        "Field ID",
+        "6928"
+      ],
+      [
+        "Label",
+        "Derived: Medication (taken in last 24 hours) - Anti-fungal preparations (nurse schedule) at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "NurseBNF09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "10"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "These variables are derived from the 2006-10 nurse schedule. The original question asks if medication was taken in the last 24 hours. Regular medication are also available."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Medication [11]",
+        "Legacy Category"
+      ],
+      [
+        "Derived medication taken in the last 24 hours [50512]",
+        "This category contains information about derived medication variables taken 24 hours before the nurse visit at 2006-10 (age 60-64 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "0.0",
+        "Does not take this type of drug",
+        false
+      ],
+      [
+        "7.0",
+        "No questionnaire",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1506",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "1506",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "bnf3312",
+    "label": "Derived: Medication (taken in last 24 hours) - Anti-fungal preparations (nurse schedule) at age 60-64 years ",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6928",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bnf3312",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "6928",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Derived: Medication (taken in last 24 hours) - Anti-fungal preparations (nurse schedule) at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "NurseBNF09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "10",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "These variables are derived from the 2006-10 nurse schedule. The original question asks if medication was taken in the last 24 hours. Regular medication are also available.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Medication [11]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Derived medication taken in the last 24 hours [50512]",
+        "description": "This category contains information about derived medication variables taken 24 hours before the nurse visit at 2006-10 (age 60-64 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Derived_medication_taken_in_the_last_24_hours_50512.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "0.0",
+        "label": "Does not take this type of drug",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Does not take this type of drug",
+          "count": 1506,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1506",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "1506",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

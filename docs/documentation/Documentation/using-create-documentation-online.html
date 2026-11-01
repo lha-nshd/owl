@@ -1,0 +1,126 @@
+---
+layout: default
+title: Using Doc Builder
+parent: Create Documentation Online (Doc Builder)
+nav_order: 1
+permalink: /docs/documentation/using-create-documentation-online/
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+ 
+<div class="page-topics page-questionnaire_by_year">
+ 
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#what-this-covers" class="ucdo-toc-what"><i class="ti ti-help-circle" aria-hidden="true"></i> What this guide covers</a></li>
+      <li><a href="#topsheet-fields" class="ucdo-toc-topsheet"><i class="ti ti-forms" aria-hidden="true"></i> The topsheet fields</a></li>
+      <li><a href="#preview-options" class="ucdo-toc-preview"><i class="ti ti-eye" aria-hidden="true"></i> Viewing the live preview</a></li>
+      <li><a href="#variables-in-document" class="ucdo-toc-vars"><i class="ti ti-list-search" aria-hidden="true"></i> Variables in this document</a></li>
+      <li><a href="#block-types" class="ucdo-toc-blocks"><i class="ti ti-list-details" aria-hidden="true"></i> Building content: the block types</a></li>
+      <li><a href="#reordering" class="ucdo-toc-reorder"><i class="ti ti-arrows-sort" aria-hidden="true"></i> Adding, reordering, duplicating, and collapsing</a></li>
+      <li><a href="#colour-coding" class="ucdo-toc-colour"><i class="ti ti-palette" aria-hidden="true"></i> Colour coding</a></li>
+      <li><a href="#formatting-checks" class="ucdo-toc-checks"><i class="ti ti-circle-check" aria-hidden="true"></i> Formatting checks</a></li>
+      <li><a href="#save-download" class="ucdo-toc-save"><i class="ti ti-download" aria-hidden="true"></i> Save, download, and resume</a></li>
+      <li><a href="#try-example" class="ucdo-toc-example"><i class="ti ti-flask" aria-hidden="true"></i> Try it: the Atopy example</a></li>
+    </ul>
+    <a href="{{ site.baseurl }}/docs/documentation/create-documentation/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Create Documentation Online</a>
+  </div>
+ 
+  <div class="hero-banner">
+    <h1><i class="ti ti-book-2" aria-hidden="true"></i> Using Doc Builder</h1>
+    <p>A detailed walkthrough of every option in the online document builder — what each block type does, how ordering and colour coding work, and exactly what Save, Download, and Resume each mean.</p>
+  </div>
+ 
+  <div class="home-section gs-card-indigo">
+    <h2 id="what-this-covers"><i class="ti ti-help-circle" aria-hidden="true"></i> What this guide covers</h2>
+    <p>This page is about <em>using the tool itself</em> — what a block is, what each button does, how the pieces fit together. If you want to understand the underlying formatting rules the tool is built around — why a section needs Heading 1, why a single-item numbered list is treated as a heading, what actually counts as a public field — that's covered in <a href="{{ site.baseurl }}/docs/documentation/writing-documentation-for-owl/">Writing Documentation for OWL</a> instead. The two are meant to complement each other: that page explains <em>why</em> the rules exist, this one explains <em>how</em> to work within them using the online builder specifically.</p>
+    <p>Everything below matches <a href="{{ site.baseurl }}/docs/documentation/create-documentation/">Create Documentation Online</a> exactly as it exists today — worth having that page open in another tab alongside this one.</p>
+  </div>
+ 
+  <div class="home-section gs-card-search">
+    <h2 id="topsheet-fields"><i class="ti ti-forms" aria-hidden="true"></i> The topsheet fields</h2>
+    <p>At the top of the builder is the topsheet form — the same fields a real topsheet has, split into two collapsible sections, <strong>both open by default</strong>. <strong>Public fields</strong> are shown on the published page: Document title, Categories of variables, Summary of work undertaken, Names of source variables, Output variables, Papers using these variables, plus the person's name and the submission date (both of which appear in the page's byline, underneath the title). <strong>Private fields</strong> — source file locations, syntax details, output file information — are never published, but NSHD still needs them internally, so they get their own section rather than being left out. Each section's heading shows a live count — "6 complete, 2 incomplete", for instance — updating as you fill things in, so you always know how much is left without needing to open it.</p>
+    <p>A few fields use something other than plain text. <strong>Syntax provided</strong>, <strong>Output data file provided</strong>, and <strong>Documentation provided</strong> are dropdowns (Yes / No), not free text. <strong>Date source file(s) created</strong>, <strong>Date syntax file created</strong>, and <strong>Date output file created</strong> use a real calendar picker — click anywhere in the field, not just the small calendar icon, to open it.</p>
+    <p>Every other field shows grey placeholder text — <code>e.g. Dr J. Fielding</code>, and so on — to show the expected format. That text disappears the moment you start typing and was never a real value to begin with, so there's nothing to accidentally leave behind.</p>
+    <p>Names of source variables and Output variables both expect one variable per line, matching how the real topsheet table records them.</p>
+  </div>
+ 
+  <div class="home-section gs-card-gold">
+    <h2 id="preview-options"><i class="ti ti-eye" aria-hidden="true"></i> Viewing the live preview: embedded or in its own window</h2>
+    <p>By default, the live preview sits at the <strong>bottom of the page</strong>, below the block editor — always there, updating automatically as you edit, with nothing to set up or allow. This is the reliable option: it works the same in every browser, with no permissions involved.</p>
+    <p>If a side-by-side layout suits better — a second monitor, or the form and the preview visible together without scrolling between them — the same preview can also open in its own separate, movable window. Use <strong>Open live preview in a new window</strong> at the top of the preview section, or click "Live preview" in the sidebar for a small menu offering the same option alongside "Jump to section" (the plain scroll-to-it behaviour). Both show exactly the same content — Document details, Variables in this document, Formatting checks — and both update together as you edit.</p>
+    <p>Worth knowing if it doesn't open: some browsers block a new window unless the request comes directly from a click, and a few locked-down work browsers block pop-ups outright regardless. If that happens, the embedded preview at the bottom of the page still has everything the popup would have shown — nothing is lost, it's a convenience option on top of what's already there, not a replacement for it.</p>
+  </div>
+
+  <div class="home-section gs-card-mint">
+    <h2 id="variables-in-document"><i class="ti ti-list-search" aria-hidden="true"></i> Variables in this document</h2>
+    <p>At the bottom of the live preview, a table lists every variable named in the Output variables field, matching the same "Variables in this document" section a real published page shows — same columns (Variable, Label, How it was found, Add), same "N high-confidence matches" heading.</p>
+    <p>What it can't do is fill in the <strong>Label</strong> column for real — that comes from the live NSHD data dictionary, which this offline preview has no access to, so it shows a placeholder there instead. It also only ever shows variables from the Output variables field itself — the real page additionally checks bold headings, sweep-year patterns, and plain-text mentions to find further variables at medium and low confidence, none of which this preview can replicate without that same dictionary access. The checkbox in the Add column is illustrative only; there's no real basket in this preview to add anything to.</p>
+  </div>
+ 
+  <div class="home-section gs-card-explore">
+    <h2 id="block-types"><i class="ti ti-list-details" aria-hidden="true"></i> Building content: the block types</h2>
+    <p>Everything after the topsheet is built from blocks — small, purpose-built pieces you add one at a time. Each block type only lets you do one specific thing, which is deliberate: it's what makes an ambiguous result like a numbered list with one item structurally impossible to create by accident, rather than just unlikely.</p>
+ 
+    <h3>Section (Heading 1)</h3>
+    <p>Starts a new section — the equivalent of applying the Heading 1 style in Word. Every other block belongs to whichever Section came before it. A document needs at least one Section for its content to actually appear under a heading once published; anything added before the first Section is treated as content with no section of its own, the same as it would be in Word.</p>
+ 
+    <h3>Subheading</h3>
+    <p>All four subheading options from the guide are available from one dropdown: <strong>Heading 2</strong>, <strong>Bold + Underline</strong>, <strong>Underline only</strong>, and <strong>Bold only</strong>. All four display consistently once published — pick whichever fits how you're already thinking about the structure.</p>
+ 
+    <h3>Paragraph</h3>
+    <p>Built from one or more <strong>segments</strong>, shown as separate boxes, each with its own <strong>B</strong> / <strong>I</strong> / <strong>U</strong> tick-boxes. A segment is just a piece of the paragraph's text — most paragraphs only need one. Where part of a sentence needs different formatting from the rest (a bold word in the middle of an otherwise plain sentence, say), click <strong>+ Add segment</strong> to split off a new piece, type the next part of the text into it, and tick whichever formatting applies to just that piece. The segments join together in order to form the finished paragraph — nothing marks where one segment ends and the next begins in the published result. Each box can be dragged taller from its bottom-right corner if the text gets long enough to want more room. A segment left completely empty becomes a genuine blank line once published — a quick way to add extra spacing wherever it's needed, without it collapsing away.</p>
+ 
+    <h3>Bulleted list &amp; Numbered list</h3>
+    <p>Add, remove, and reorder items freely. Pasting several lines at once into an item automatically splits them into that many separate items, rather than running them together on one line — handy for bringing in a list copied from elsewhere. Numbered lists specifically enforce a minimum of two items — the remove button on the second-to-last item disables itself rather than let the list drop to one, since a genuine numbered list essentially never has just one entry, and a single numbered item reads as a heading once published, not a list.</p>
+ 
+    <h3>Table</h3>
+    <p>Add or remove rows and columns freely — a ✕ above each column removes it, matching the ✕ already on each row. The table scrolls horizontally if it grows wider than the panel, so a wide table is never hidden or cut off while editing. The first row is always treated as the header row once published.</p>
+ 
+    <h3>Image</h3>
+    <p>Choose a PNG or JPEG file, add an optional caption. The image is automatically scaled down if it's wider than a sensible maximum, keeping its original proportions.</p>
+  </div>
+ 
+  <div class="home-section gs-card-sidebar">
+    <h2 id="reordering"><i class="ti ti-arrows-sort" aria-hidden="true"></i> Adding, reordering, duplicating, and collapsing sections</h2>
+    <p>New content doesn't only get added at the very bottom of the document. Every section has its own <strong>"Add to this section"</strong> row right after its last block, for adding directly into that section rather than adding at the end and dragging it all the way back. A <strong>"+ New section here"</strong> control also sits between every pair of sections — and before the first one — for starting a brand new section at exactly the point it's needed, not just appending one after everything else. The original toolbar at the very bottom of the document is still there too, for adding to the end.</p>
+    <p>Every block can be reordered two ways: the <strong>↑ ↓ arrows</strong>, or dragging it by the <strong>⋮⋮ handle</strong> on the left of its header. Both behave identically, and both respect the same boundary, on purpose. On a <strong>Section</strong> block, either one moves the <em>whole section</em> — its heading and every block that belongs to it — relative to the other sections in the document; the section's own content always travels with it. On any other block, both only reorder it among its own section's other blocks — a paragraph can move within "Background and Rationale", for instance, but it can never drift into "Derivation Method" by accident. An arrow simply disables itself at that boundary; a drag simply won't drop there — the drop outline turns red rather than blue if you try.</p>
+    <p>Every Section block also has a <strong>⧉ duplicate</strong> button next to its arrows — a fast way to copy a whole section, heading and every block inside it, when a document has several sections that share a similar shape. The copy is completely independent from the moment it's created; editing one never affects the other.</p>
+    <p>Removing a block always asks for confirmation first, since there's no undo. Removing a Section specifically warns you how many items are inside it and removes all of them together — nothing is ever left behind as orphaned content outside any section.</p>
+    <p>The <strong>▼ / ▶</strong> toggle next to a Section's arrows collapses it — hides everything that belongs to it, useful once a document has several sections each with several parts. A collapsed section shows a short summary ("12 items hidden") in its place; nothing is deleted, it's purely a way to temporarily tidy up the view.</p>
+  </div>
+ 
+  <div class="home-section gs-card-basket">
+    <h2 id="colour-coding"><i class="ti ti-palette" aria-hidden="true"></i> Colour coding</h2>
+    <p>Each Section block is assigned a colour, and every block that belongs to it picks up a lighter version of that same colour — so a whole section reads as one connected group in the editor, at a glance, without needing to read every label. The colours rotate through the same sequence the live preview itself uses, so a section's colour in the editor and its colour in the preview underneath always match.</p>
+    <p>Worth being precise about what this colour <em>doesn't</em> promise: it's here to make the editor and the live preview easier to follow while you're working, not a prediction of what colour that section will actually get once published for real. The live page assigns colours based on the full document as the real pipeline builds it, which can differ from this preview.</p>
+  </div>
+ 
+  <div class="home-section gs-card-download">
+    <h2 id="formatting-checks"><i class="ti ti-circle-check" aria-hidden="true"></i> Formatting checks</h2>
+    <p>The live preview also runs the same checks Page Proof runs on a downloaded document — shown right in the preview, as you write, so you can catch and fix something before you get as far as downloading anything. It covers the same ground as the Word-based tool: whether each of the five public fields is actually filled in, and whether the document has at least one real Section — including a specific warning if any content ends up sitting before your first Section block and won't be grouped under any heading once published. It also reports how many of the eleven private fields are filled in, as a single summary line, since those aren't checked one-by-one the way the public fields are.</p>
+    <p>It isn't a full replacement for Page Proof, worth being clear about: this preview can only check what's structurally true about the document as built here — it has no way to catch things Page Proof's own tool checks by actually reading a finished Word file. Think of it as an early warning while you work, with Page Proof still worth running on the finished document either way.</p>
+  </div>
+ 
+  <div class="home-section gs-card-blue">
+    <h2 id="save-download"><i class="ti ti-download" aria-hidden="true"></i> Save, download, and resume</h2>
+    <p>This browser also remembers your work automatically as you go, separately from all of this — so navigating away or accidentally closing the tab won't lose everything, as long as you come back in the same browser. It's not a substitute for Save progress: the auto-saved copy only exists in that one browser, can't be moved to another computer, and is cleared once you download the finished Word document.</p>
+    <p>Three buttons sit together under "Save &amp; download", and they do three genuinely different things:</p>
+    <ul>
+      <li><strong>Save progress</strong> downloads a small <strong>JSON file</strong> — not a Word document — containing everything currently in the form: the topsheet fields and every block. It's meant purely for continuing later, in this same tool, and isn't meant to be opened or edited by hand; think of it as a save file, not a document.</li>
+      <li><strong>Resume from saved progress</strong> reads that JSON file back in, restoring the form exactly as it was when saved — including any images. If the form already has content in it when you do this, you'll be asked to confirm before it's replaced.</li>
+      <li><strong>Download as Word document</strong> produces the real, final <code>.docx</code> — open and edit it in Word exactly as you would any other documentation.</li>
+    </ul>
+    <p>The important asymmetry to remember: <strong>the Word document is a one-way trip.</strong> Once you've downloaded it, it can't be brought back into this online tool — <strong>there's no way to upload a Word document here</strong>, on purpose, since a document that's since been edited by hand in Word can't be reliably turned back into the tool's own block structure. If you think you might want to keep working in the online tool later, use Save progress before you finish for the day; only download the Word document once you're genuinely ready to either send it as-is, or finish the rest by hand in Word instead. Either way, once the document is finished, run it through <a href="{{ site.baseurl }}/docs/documentation/#page-proof">Page Proof</a> to check it over before sending it in.</p>
+  </div>
+ 
+  <div class="home-section gs-card-lavender">
+    <h2 id="try-example"><i class="ti ti-flask" aria-hidden="true"></i> Try it: the Atopy example</h2>
+    <p><strong>Load the Atopy example</strong>, at the top of the builder, fills in the entire form with the same worked example used throughout the guide — every topsheet field, three full sections, all four subheading styles, both list types, a table, and an embedded image. It's a fast way to see a complete, correctly-structured document without writing anything yourself first, or to use as a template to work from directly. If the form already has content, you'll be asked to confirm before it's replaced.</p>
+    <p><strong>Clear form</strong> resets everything back to blank — every field empty, placeholder text showing again, no blocks — also with a confirmation first, since it can't be undone afterwards.</p>
+  </div>
+ 
+</div>
+ 
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

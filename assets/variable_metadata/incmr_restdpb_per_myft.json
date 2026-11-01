@@ -1,0 +1,507 @@
+{
+  "varname": "incmr_restdpb_per_myft",
+  "label": "Rest peripheral diastolic blood pressure reading (inside CMR bore)- Myofit sub-study",
+  "field_id": "70269",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70269",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "mmHg",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": true,
+  "security_message": "Only available via special request. Contact Dr. Gaby Captur, gabriella.captur@ucl.ac.uk, for access to these data. ",
+  "mean": 90.42042755344418,
+  "sd": 13.391473190485703,
+  "series_size": 421.0,
+  "minimum": 66.0,
+  "maximum": 119.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "incmr_restmap_per_myft",
+    "incmr_restsbp_per_myft",
+    "incmr_resthr_per_myft"
+  ],
+  "linked_years": [
+    "2020-2024"
+  ],
+  "categories": [
+    "Blood pool [8043]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "incmr_restdpb_per_myft",
+    "label": "Rest peripheral diastolic blood pressure reading (inside CMR bore)- Myofit sub-study",
+    "meta_rows": [
+      [
+        "Variable",
+        "incmr_restdpb_per_myft"
+      ],
+      [
+        "Field ID",
+        "70269"
+      ],
+      [
+        "Label",
+        "Rest peripheral diastolic blood pressure reading (inside CMR bore)- Myofit sub-study"
+      ],
+      [
+        "Card Number",
+        "myft_bp"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmHg"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Blood pressure variables from the MyoFit study."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "incmr_restmap_per_myft",
+        "Rest peripheral mean arterial blood pressure reading (inside CMR bore)- Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_bp"
+      ],
+      [
+        "incmr_restsbp_per_myft",
+        "Rest peripheral systolic blood pressure reading (inside CMR bore)- Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_bp"
+      ],
+      [
+        "incmr_resthr_per_myft",
+        "Rest heart rate reading (inside CMR bore)- Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_bp"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood pool [8043]",
+        "This category contains information about the blood pool. This usually refers to blood within the left ventricular cavity. This can be identified automatically by CVI, or by the user who draws a region of interest around it. Measuring signal intensity of this is needed for quantitative perfusion. This test was done on the 1946 birth cohort participants who took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "66"
+      ],
+      [
+        "Maximum",
+        "119"
+      ],
+      [
+        "Range",
+        "53"
+      ],
+      [
+        "Median",
+        "90.0"
+      ],
+      [
+        "IQR",
+        "80.0 - 101.0"
+      ],
+      [
+        "Decile 1",
+        "72.0"
+      ],
+      [
+        "Decile 2",
+        "78.0"
+      ],
+      [
+        "Decile 3",
+        "81.0"
+      ],
+      [
+        "Decile 4",
+        "86.0"
+      ],
+      [
+        "Decile 5",
+        "90.0"
+      ],
+      [
+        "Decile 6",
+        "95.0"
+      ],
+      [
+        "Decile 7",
+        "98.0"
+      ],
+      [
+        "Decile 8",
+        "102.0"
+      ],
+      [
+        "Decile 9",
+        "109.0"
+      ],
+      [
+        "Mean",
+        "90.42042755344418"
+      ],
+      [
+        "Std Dev.",
+        "13.391473190485703"
+      ],
+      [
+        "Variance",
+        "179.33155421149732"
+      ],
+      [
+        "Displayed N",
+        "421"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "incmr_restdpb_per_myft",
+    "label": "Rest peripheral diastolic blood pressure reading (inside CMR bore)- Myofit sub-study",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70269",
+    "is_restricted": true,
+    "security_message": "Only available via special request. Contact Dr. Gaby Captur, gabriella.captur@ucl.ac.uk, for access to these data. ",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "incmr_restdpb_per_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70269",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Rest peripheral diastolic blood pressure reading (inside CMR bore)- Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "myft_bp",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmHg",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Blood pressure variables from the MyoFit study.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "incmr_restmap_per_myft",
+        "description": "Rest peripheral mean arterial blood pressure reading (inside CMR bore)- Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_bp"
+      },
+      {
+        "varname": "incmr_restsbp_per_myft",
+        "description": "Rest peripheral systolic blood pressure reading (inside CMR bore)- Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_bp"
+      },
+      {
+        "varname": "incmr_resthr_per_myft",
+        "description": "Rest heart rate reading (inside CMR bore)- Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_bp"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood pool [8043]",
+        "description": "This category contains information about the blood pool. This usually refers to blood within the left ventricular cavity. This can be identified automatically by CVI, or by the user who draws a region of interest around it. Measuring signal intensity of this is needed for quantitative perfusion. This test was done on the 1946 birth cohort participants who took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pool_8043.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmHg",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          66.0,
+          71.3,
+          76.6,
+          81.9,
+          87.2,
+          92.5,
+          97.8,
+          103.1,
+          108.4,
+          113.69999999999999,
+          119.0
+        ],
+        "counts": [
+          39,
+          32,
+          56,
+          52,
+          50,
+          55,
+          62,
+          32,
+          24,
+          19
+        ]
+      },
+      "boxplot": {
+        "min": 66.0,
+        "q1": 80.0,
+        "median": 90.0,
+        "q3": 101.0,
+        "max": 119.0
+      },
+      "units": "mmHg"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "66"
+      ],
+      [
+        "Maximum",
+        "119"
+      ],
+      [
+        "Range",
+        "53"
+      ],
+      [
+        "Median",
+        "90.0"
+      ],
+      [
+        "IQR",
+        "80.0 - 101.0"
+      ],
+      [
+        "Decile 1",
+        "72.0"
+      ],
+      [
+        "Decile 2",
+        "78.0"
+      ],
+      [
+        "Decile 3",
+        "81.0"
+      ],
+      [
+        "Decile 4",
+        "86.0"
+      ],
+      [
+        "Decile 5",
+        "90.0"
+      ],
+      [
+        "Decile 6",
+        "95.0"
+      ],
+      [
+        "Decile 7",
+        "98.0"
+      ],
+      [
+        "Decile 8",
+        "102.0"
+      ],
+      [
+        "Decile 9",
+        "109.0"
+      ],
+      [
+        "Mean",
+        "90.42042755344418"
+      ],
+      [
+        "Std Dev.",
+        "13.391473190485703"
+      ],
+      [
+        "Variance",
+        "179.33155421149732"
+      ],
+      [
+        "Displayed N",
+        "421"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

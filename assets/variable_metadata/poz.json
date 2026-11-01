@@ -1,0 +1,525 @@
+{
+  "varname": "poz",
+  "label": "How much pipe tobacco do you usually smoke per week? Enter amount in ounces. If less than one ounce, enter 0. - at age 53 years",
+  "field_id": "29964",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=29964",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "ounces",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2.1,
+  "sd": 0.7,
+  "series_size": 10.0,
+  "minimum": 1.0,
+  "maximum": 3.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "pipeg",
+    "pamnt",
+    "poz89",
+    "poz82",
+    "gpip09"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10"
+  ],
+  "categories": [
+    "Respiratory health [5]",
+    "Smoking [5251]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "less than 1 ounce"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "poz",
+    "label": "How much pipe tobacco do you usually smoke per week? Enter amount in ounces. If less than one ounce, enter 0. - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "poz"
+      ],
+      [
+        "Field ID",
+        "29964"
+      ],
+      [
+        "Label",
+        "How much pipe tobacco do you usually smoke per week? Enter amount in ounces. If less than one ounce, enter 0. - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "capi99a"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "61(d)"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "ounces"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lifestyle questions - smoking habits Q58-Q63. Slightly different coding to 60-64 years. This question was not asked in 2014 or 2022 postals."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "pipeg",
+        "How much pipe tobacco do you usually smoke per week? Enter amount in grams. If less than one gram, enter 0. - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "61(c)",
+        "capi99a"
+      ],
+      [
+        "pamnt",
+        "How much pipe tobacco do you usually smoke per week?- at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "61(b)",
+        "capi99a"
+      ],
+      [
+        "poz89",
+        "How much pipe tobacco do you smoke per week in ounces? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "76(b)",
+        "de89d"
+      ],
+      [
+        "poz82",
+        "How much pipe tabacco do you usually smoke per week in ounces? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "79(b)",
+        "B19"
+      ],
+      [
+        "gpip09",
+        "Is that grams or ounces [of pipe tobacco smoked per week]? - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "56(b)",
+        "Smoking09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory health [5]",
+        "Legacy Category"
+      ],
+      [
+        "Smoking [5251]",
+        "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "less than 1 ounce",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1"
+      ],
+      [
+        "Maximum",
+        "3"
+      ],
+      [
+        "Range",
+        "2"
+      ],
+      [
+        "Median",
+        "2.0"
+      ],
+      [
+        "IQR",
+        "2.0 - 2.75"
+      ],
+      [
+        "Decile 1",
+        "1.0"
+      ],
+      [
+        "Decile 2",
+        "1.8"
+      ],
+      [
+        "Decile 3",
+        "2.0"
+      ],
+      [
+        "Decile 4",
+        "2.0"
+      ],
+      [
+        "Decile 5",
+        "2.0"
+      ],
+      [
+        "Decile 6",
+        "2.0"
+      ],
+      [
+        "Decile 7",
+        "2.3"
+      ],
+      [
+        "Decile 8",
+        "3.0"
+      ],
+      [
+        "Decile 9",
+        "3.0"
+      ],
+      [
+        "Mean",
+        "2.1"
+      ],
+      [
+        "Std Dev.",
+        "0.7"
+      ],
+      [
+        "Variance",
+        "0.48999999999999994"
+      ],
+      [
+        "Displayed N",
+        "10"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "poz",
+    "label": "How much pipe tobacco do you usually smoke per week? Enter amount in ounces. If less than one ounce, enter 0. - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=29964",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "poz",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "29964",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How much pipe tobacco do you usually smoke per week? Enter amount in ounces. If less than one ounce, enter 0. - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "capi99a",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "61(d)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "ounces",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lifestyle questions - smoking habits Q58-Q63. Slightly different coding to 60-64 years. This question was not asked in 2014 or 2022 postals.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "pipeg",
+        "description": "How much pipe tobacco do you usually smoke per week? Enter amount in grams. If less than one gram, enter 0. - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "61(c)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "pamnt",
+        "description": "How much pipe tobacco do you usually smoke per week?- at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "61(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "poz89",
+        "description": "How much pipe tobacco do you smoke per week in ounces? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "76(b)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "poz82",
+        "description": "How much pipe tabacco do you usually smoke per week in ounces? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "79(b)",
+        "library_file": "B19"
+      },
+      {
+        "varname": "gpip09",
+        "description": "Is that grams or ounces [of pipe tobacco smoked per week]? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "56(b)",
+        "library_file": "Smoking09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory health [5]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Smoking [5251]",
+        "description": "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Smoking_5251.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "less than 1 ounce",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "ounces",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1.0,
+          2.0,
+          3.0
+        ],
+        "counts": [
+          2,
+          8
+        ]
+      },
+      "boxplot": {
+        "min": 1.0,
+        "q1": 2.0,
+        "median": 2.0,
+        "q3": 2.75,
+        "max": 3.0
+      },
+      "units": "ounces"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1"
+      ],
+      [
+        "Maximum",
+        "3"
+      ],
+      [
+        "Range",
+        "2"
+      ],
+      [
+        "Median",
+        "2.0"
+      ],
+      [
+        "IQR",
+        "2.0 - 2.75"
+      ],
+      [
+        "Decile 1",
+        "1.0"
+      ],
+      [
+        "Decile 2",
+        "1.8"
+      ],
+      [
+        "Decile 3",
+        "2.0"
+      ],
+      [
+        "Decile 4",
+        "2.0"
+      ],
+      [
+        "Decile 5",
+        "2.0"
+      ],
+      [
+        "Decile 6",
+        "2.0"
+      ],
+      [
+        "Decile 7",
+        "2.3"
+      ],
+      [
+        "Decile 8",
+        "3.0"
+      ],
+      [
+        "Decile 9",
+        "3.0"
+      ],
+      [
+        "Mean",
+        "2.1"
+      ],
+      [
+        "Std Dev.",
+        "0.7"
+      ],
+      [
+        "Variance",
+        "0.48999999999999994"
+      ],
+      [
+        "Displayed N",
+        "10"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

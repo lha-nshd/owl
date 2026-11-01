@@ -1,0 +1,167 @@
+---
+layout: default
+title: Longitudinal Search
+parent: Search Overview
+nav_order: 4
+permalink: /docs/search_methods/longitudinal_variables/longitudinal_search_guide/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-repeat" aria-hidden="true"></i> About Longitudinal Search</h1>
+    <p>A guide to the strict linkage standard behind Longitudinal Search, how the trajectory charts work for both continuous and categorical variables, and how to use the detail table and basket controls.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#what-it-is" class="gs-toc-ls-what"><i class="ti ti-help-circle" aria-hidden="true"></i> What Longitudinal Search is</a></li>
+      <li><a href="#strict-linking" class="gs-toc-ls-strict"><i class="ti ti-link" aria-hidden="true"></i> Strict linking explained</a></li>
+      <li><a href="#searching" class="gs-toc-ls-search"><i class="ti ti-search" aria-hidden="true"></i> Searching and filtering</a></li>
+      <li><a href="#continuous-charts" class="gs-toc-ls-cont"><i class="ti ti-chart-line" aria-hidden="true"></i> Continuous variable charts</a></li>
+      <li><a href="#categorical-charts" class="gs-toc-ls-cat"><i class="ti ti-chart-bar" aria-hidden="true"></i> Categorical variable charts</a></li>
+      <li><a href="#detail-table" class="gs-toc-ls-table"><i class="ti ti-table" aria-hidden="true"></i> The detail table</a></li>
+      <li><a href="#basket" class="gs-toc-ls-basket"><i class="ti ti-basket" aria-hidden="true"></i> Adding to your basket</a></li>
+      <li><a href="#when-to-use" class="gs-toc-ls-when"><i class="ti ti-map-2" aria-hidden="true"></i> When to use this vs Linked &amp; Longitudinal</a></li>
+    </ul>
+    <a href="/OWL/docs/search_methods/longitudinal_variables/longitudinal-variables/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Go to Longitudinal Search</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>Longitudinal Search is a dedicated tool for finding NSHD variables that were collected with <strong>identical question text and coding</strong> across two or more sweeps. Rather than searching the full data dictionary and manually checking whether a measure was repeated, this page surfaces only the subset of Field IDs that genuinely qualify — and for each one, shows exactly how the measure changed across the lifespan, visually and numerically.</p>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-search">
+    <h2 id="what-it-is"><i class="ti ti-help-circle" aria-hidden="true"></i> What Longitudinal Search is</h2>
+    <p>Longitudinal Search groups every NSHD variable by its <strong>Showcase Field ID</strong> — the same identifier used by the NSHD Showcase to link variables sharing identical question text and response coding across sweeps. Only Field IDs that appear in <strong>two or more sweeps</strong> are included; single-sweep variables don't appear here at all, since there is nothing to trace longitudinally.</p>
+    <p>For each qualifying Field ID, the page shows:</p>
+    <ul>
+      <li>The shared variable label, with sweep-specific suffixes like "at age 36 years" removed so it reads as a general measure</li>
+      <li>How many sweeps it was collected at, and the first and last collection years</li>
+      <li>The full list of individual NSHD variable names that make up that Field ID, each linked to its own metadata page</li>
+      <li>A trajectory chart and detail table, revealed by clicking <strong>View</strong> on any row</li>
+    </ul>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>As of the most recent data dictionary update, there are over 2,300 longitudinal Field IDs available, with some measures spanning as many as 28 sweeps from 1946 to 2025.</span>
+    </div>
+    <a class="gs-link-card gs-teal" href="/OWL/docs/search_methods/longitudinal_variables/longitudinal-variables/" style="margin-top:12px;">
+      <i class="ti ti-repeat" aria-hidden="true"></i>
+      <div style="flex:1;">
+        <p class="gs-link-card-title">Go to Longitudinal Search →</p>
+        <p class="gs-link-card-desc">Search, filter, and explore all longitudinal Field IDs directly.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+    </a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-explore">
+    <h2 id="strict-linking"><i class="ti ti-link" aria-hidden="true"></i> Strict linking explained</h2>
+    <p>The grouping logic behind Longitudinal Search is deliberately <strong>strict</strong>. Two variables are only grouped together if they share the same Showcase Field ID — which in turn requires that the underlying question text and response coding are identical across the sweeps in question. If a question was reworded, if response categories changed, or if the unit of measurement shifted between sweeps, the NSHD Showcase treats those as separate fields, and so does Longitudinal Search.</p>
+    <p>This matters because it guarantees that everything shown in a trajectory chart or detail table on this page is a genuine like-for-like comparison. A mean of 168cm in 1982 and a mean of 167cm in 2015 for the same Field ID can be compared directly, because the question that produced each value was asked in exactly the same way.</p>
+    <div class="callout-warning">
+      <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+      <span><strong>What this excludes:</strong> Variables that measure broadly the same construct but with different wording or coding across sweeps will not appear linked here, even if they would reasonably be considered "the same measure" by a researcher. For that more flexible kind of linkage, see <a href="#when-to-use" style="color:#6a0dad;">Linked &amp; Longitudinal</a> below.</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-sidebar">
+    <h2 id="searching"><i class="ti ti-search" aria-hidden="true"></i> Searching and filtering</h2>
+    <p>The search box matches against the variable label, the Field ID number, and any individual NSHD variable name within a group — so you can search by a familiar variable name (e.g. <code>ht82</code>) and still find the full longitudinal group it belongs to.</p>
+    <p>Three filters narrow the result list further:</p>
+    <ul>
+      <li><strong>Minimum sweep count</strong> — show only Field IDs collected at 2+, 3+, 5+, 7+, or 10+ sweeps, useful when you need a measure with substantial longitudinal depth</li>
+      <li><strong>Topic</strong> — restrict results to a single top-level topic area from the data dictionary</li>
+      <li><strong>Column sorting</strong> — click any column header (Field ID, Label, Topic, or Sweeps) to sort the result table</li>
+    </ul>
+    <p>A <strong>Reset filters</strong> button clears the search box, filters, and sort order back to their defaults in one click. Results can be exported as a CSV listing every Field ID, its label, topic, sweep count, year range, and the full list of variable names it contains.</p>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-basket">
+    <h2 id="continuous-charts"><i class="ti ti-chart-line" aria-hidden="true"></i> Continuous variable charts</h2>
+    <p>For continuous measures — height, weight, blood pressure, and similar — clicking <strong>View</strong> renders a line chart showing the <strong>mean</strong> at each sweep, with a shaded band above and below the line representing the <strong>minimum and maximum</strong> values observed (after the standard 5th–95th percentile trimming applied throughout OWL). This lets you read both the central trend and how the spread of values changed across sweeps in a single chart.</p>
+    <p>Hovering over any point on the line shows the exact mean for that sweep. The x-axis is labelled by collection year, and the detail table beneath the chart provides the same information in numeric form — variable name, year, age, mean, standard deviation, minimum, maximum, and series size — for every sweep, to two decimal places.</p>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-lavender">
+    <h2 id="categorical-charts"><i class="ti ti-chart-bar" aria-hidden="true"></i> Categorical variable charts</h2>
+    <p>For categorical measures — self-rated health, yes/no questions, multiple-choice items — a mean has no meaning, so the chart instead shows a <strong>stacked bar</strong> for each sweep. Each bar is divided into coloured segments, one per response category, sized according to that category's share of respondents at that sweep. A colour-coded legend above the chart identifies each category, and the same colours are reused consistently in the detail table below.</p>
+    <p>This format makes it straightforward to see how a response distribution shifts with age — for example, watching the proportion reporting "Excellent" health shrink while "Fair" or "Poor" grow across later sweeps. Hovering over any segment shows the exact percentage for that category and sweep.</p>
+    <p>The detail table for categorical variables replaces the mean/SD/min/max columns with a single <strong>Distribution</strong> column, showing a compact horizontal version of the same stacked bar plus the percentage breakdown in text, alongside the series size for that sweep.</p>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-search">
+    <h2 id="detail-table"><i class="ti ti-table" aria-hidden="true"></i> The detail table</h2>
+    <p>Below every chart, the detail table lists one row per sweep, always including the individual NSHD variable name (linked to its own metadata page), the collection year, and the study member's age at that sweep. Fields shared identically across all sweeps in the group — units, derived status, and variable type — are summarised once above the table rather than repeated on every row, since by definition of the strict linkage they don't vary between sweeps.</p>
+    <p>Where a sidecar metadata file is unavailable for a particular variable, the corresponding row shows a clear "no data available" state rather than blank or broken cells.</p>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-explore">
+    <h2 id="basket"><i class="ti ti-basket" aria-hidden="true"></i> Adding to your basket</h2>
+    <p>Variables can be added to the basket in three ways from this page:</p>
+    <ul>
+      <li><strong>Per sweep</strong> — tick the checkbox in the Add column of any row inside the expanded detail table to add just that one sweep's variable</li>
+      <li><strong>Whole group at once</strong> — tick the checkbox on the main row (before expanding) to add every sweep for that Field ID in one action; or use the "Add all sweeps to basket" button inside the expanded panel</li>
+      <li><strong>Remove in bulk</strong> — once every sweep for a group is in the basket, the same button turns into "Remove all sweeps from basket"</li>
+    </ul>
+    <p>The checkbox on each main row also acts as a status indicator even before you interact with it: a filled checkbox means every sweep is already in your basket, a half-filled checkbox means some sweeps are in the basket (perhaps added earlier via Search Data Dictionary or Browse by Category) and some are not, and an empty checkbox means none are yet added.</p>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-basket" id="when-to-use" style="border: 2px solid hsl(125 35% 55%);">
+    <h2><i class="ti ti-map-2" aria-hidden="true"></i> When to use this vs Linked &amp; Longitudinal</h2>
+    <p>OWL has two different ways to find variables tracked across sweeps, and they answer different questions:</p>
+
+    <style>
+      .ls-which-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+      .ls-which-teal {
+        background: hsl(180 45% 90%);
+        border: 1.5px solid hsl(180 45% 50%);
+        border-left: 4px solid hsl(180 45% 40%);
+        border-radius: 6px;
+        padding: 12px 16px;
+      }
+      .ls-which-amber {
+        background: hsl(35 60% 90%);
+        border: 1.5px solid hsl(35 60% 50%);
+        border-left: 4px solid hsl(35 60% 40%);
+        border-radius: 6px;
+        padding: 12px 16px;
+      }
+      .ls-which-teal h3 { font-size: 13px; font-weight: 700; color: hsl(180 45% 16%); margin: 0 0 6px; }
+      .ls-which-amber h3 { font-size: 13px; font-weight: 700; color: hsl(35 60% 16%); margin: 0 0 6px; }
+      .ls-which-teal p, .ls-which-amber p { font-size: 12px; color: #333; margin: 0; line-height: 1.6; }
+    </style>
+
+    <div class="ls-which-grid">
+      <div class="ls-which-teal">
+        <h3><i class="ti ti-repeat" aria-hidden="true"></i> Use Longitudinal Search when</h3>
+        <p>You need a strict, like-for-like comparison across sweeps — identical question and coding guaranteed. Best for building trajectory charts, computing change over time, or confirming a measure is genuinely directly comparable before using it in a longitudinal analysis.</p>
+      </div>
+      <div class="ls-which-amber">
+        <h3><i class="ti ti-arrows-transfer-up" aria-hidden="true"></i> Use Linked &amp; Longitudinal when</h3>
+        <p>You want to trace a broader construct across sweeps even where wording or coding changed — for example connecting different versions of a cognition test, or a scale that was revised partway through the study. Found in the Linked &amp; Longitudinal tab on each variable's own metadata page.</p>
+      </div>
+    </div>
+
+    <div class="callout-note" style="margin-top:12px;">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>If a variable doesn't appear in Longitudinal Search but you believe it should be comparable across sweeps, check its individual metadata page — it may be connected to related variables via the more flexible Linked &amp; Longitudinal section instead.</span>
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

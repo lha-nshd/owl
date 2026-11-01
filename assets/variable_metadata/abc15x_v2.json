@@ -1,0 +1,560 @@
+{
+  "varname": "abc15x_v2",
+  "label": "Abdominal circumference (mm) - at age 69 years - first measure ",
+  "field_id": "1018",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1018",
+  "year": "",
+  "form": "Home visit",
+  "units": "mm",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 962.2324607329842,
+  "sd": 106.62189589629659,
+  "series_size": 1910.0,
+  "minimum": 745.0,
+  "maximum": 1208.0,
+  "truly_longitudinal_field_id": "1018",
+  "truly_longitudinal_varnames": [
+    "abc09_v2",
+    "abc182",
+    "abc189",
+    "abc23x",
+    "abc99c_v2"
+  ],
+  "truly_longitudinal_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Body size measures [11021]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Question was not asked"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "abc15x_v2",
+    "label": "Abdominal circumference (mm) - at age 69 years - first measure ",
+    "meta_rows": [
+      [
+        "Variable",
+        "abc15x_v2"
+      ],
+      [
+        "Field ID",
+        "1018"
+      ],
+      [
+        "Label",
+        "Abdominal circumference (mm) - at age 69 years - first measure"
+      ],
+      [
+        "Card Number",
+        "Bodysize_recodes"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "12"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mm"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2015 Home visit. Anthropometry section. Rounded to the nearest 1 mm below."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "abc182",
+        "1982",
+        "Abdominal circumference (mm) - at age 36 years - first measure "
+      ],
+      [
+        "abc189",
+        "1989",
+        "Abdominal circumference (mm) - at age 43 years - first measure "
+      ],
+      [
+        "abc99c_v2",
+        "1999",
+        "Abdominal circumference (mm) - at age 53 years - first measure "
+      ],
+      [
+        "abc09_v2",
+        "2006-10",
+        "Abdominal circumference (mm) - at age 60-64 years - first measure "
+      ],
+      [
+        "abc23x",
+        "2023",
+        "Abdominal circumference (mm) - at age 77 years - first measure "
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Body size measures [11021]",
+        "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Question was not asked",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "745"
+      ],
+      [
+        "Maximum",
+        "1208"
+      ],
+      [
+        "Range",
+        "463"
+      ],
+      [
+        "Median",
+        "959.0"
+      ],
+      [
+        "IQR",
+        "880.0 - 1042.0"
+      ],
+      [
+        "Decile 1",
+        "822.9"
+      ],
+      [
+        "Decile 2",
+        "863.0"
+      ],
+      [
+        "Decile 3",
+        "897.0"
+      ],
+      [
+        "Decile 4",
+        "929.0"
+      ],
+      [
+        "Decile 5",
+        "959.0"
+      ],
+      [
+        "Decile 6",
+        "992.0"
+      ],
+      [
+        "Decile 7",
+        "1026.0"
+      ],
+      [
+        "Decile 8",
+        "1060.0"
+      ],
+      [
+        "Decile 9",
+        "1110.0"
+      ],
+      [
+        "Mean",
+        "962.2324607329842"
+      ],
+      [
+        "Std Dev.",
+        "106.62189589629659"
+      ],
+      [
+        "Variance",
+        "11368.228684520709"
+      ],
+      [
+        "Displayed N",
+        "1910"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "abc15x_v2",
+    "label": "Abdominal circumference (mm) - at age 69 years - first measure ",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1018",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "abc15x_v2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1018",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Abdominal circumference (mm) - at age 69 years - first measure",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Bodysize_recodes",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "12",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mm",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2015 Home visit. Anthropometry section. Rounded to the nearest 1 mm below.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1018",
+      "members": [
+        {
+          "varname": "abc182",
+          "year": "1982",
+          "label": "Abdominal circumference (mm) - at age 36 years - first measure ",
+          "is_current": false
+        },
+        {
+          "varname": "abc189",
+          "year": "1989",
+          "label": "Abdominal circumference (mm) - at age 43 years - first measure ",
+          "is_current": false
+        },
+        {
+          "varname": "abc99c_v2",
+          "year": "1999",
+          "label": "Abdominal circumference (mm) - at age 53 years - first measure ",
+          "is_current": false
+        },
+        {
+          "varname": "abc09_v2",
+          "year": "2006-10",
+          "label": "Abdominal circumference (mm) - at age 60-64 years - first measure ",
+          "is_current": false
+        },
+        {
+          "varname": "abc15x_v2",
+          "year": "2015",
+          "label": "Abdominal circumference (mm) - at age 69 years - first measure ",
+          "is_current": true
+        },
+        {
+          "varname": "abc23x",
+          "year": "2023",
+          "label": "Abdominal circumference (mm) - at age 77 years - first measure ",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Body size measures [11021]",
+        "description": "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Body_size_measures_11021.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Question was not asked",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mm",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          745.0,
+          770.7222222222222,
+          796.4444444444445,
+          822.1666666666666,
+          847.8888888888889,
+          873.6111111111111,
+          899.3333333333333,
+          925.0555555555555,
+          950.7777777777778,
+          976.5,
+          1002.2222222222222,
+          1027.9444444444443,
+          1053.6666666666665,
+          1079.388888888889,
+          1105.111111111111,
+          1130.8333333333333,
+          1156.5555555555557,
+          1182.2777777777778,
+          1208.0
+        ],
+        "counts": [
+          60,
+          52,
+          79,
+          107,
+          141,
+          140,
+          171,
+          161,
+          150,
+          145,
+          133,
+          164,
+          112,
+          90,
+          89,
+          51,
+          40,
+          25
+        ]
+      },
+      "boxplot": {
+        "min": 745.0,
+        "q1": 880.0,
+        "median": 959.0,
+        "q3": 1042.0,
+        "max": 1208.0
+      },
+      "units": "mm"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "745"
+      ],
+      [
+        "Maximum",
+        "1208"
+      ],
+      [
+        "Range",
+        "463"
+      ],
+      [
+        "Median",
+        "959.0"
+      ],
+      [
+        "IQR",
+        "880.0 - 1042.0"
+      ],
+      [
+        "Decile 1",
+        "822.9"
+      ],
+      [
+        "Decile 2",
+        "863.0"
+      ],
+      [
+        "Decile 3",
+        "897.0"
+      ],
+      [
+        "Decile 4",
+        "929.0"
+      ],
+      [
+        "Decile 5",
+        "959.0"
+      ],
+      [
+        "Decile 6",
+        "992.0"
+      ],
+      [
+        "Decile 7",
+        "1026.0"
+      ],
+      [
+        "Decile 8",
+        "1060.0"
+      ],
+      [
+        "Decile 9",
+        "1110.0"
+      ],
+      [
+        "Mean",
+        "962.2324607329842"
+      ],
+      [
+        "Std Dev.",
+        "106.62189589629659"
+      ],
+      [
+        "Variance",
+        "11368.228684520709"
+      ],
+      [
+        "Displayed N",
+        "1910"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

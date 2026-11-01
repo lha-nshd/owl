@@ -1,0 +1,408 @@
+{
+  "varname": "hmc16",
+  "label": "How many children under 16 live in your household all of the time? Include any step, adopted or foster children you are responsible for.  - at age 53 years",
+  "field_id": "29835",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=29835",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2634.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Household structure [20]",
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Zero"
+    },
+    {
+      "value": "1.0",
+      "label": "One"
+    },
+    {
+      "value": "2.0",
+      "label": "Two"
+    },
+    {
+      "value": "3.0",
+      "label": "Three"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Zero",
+      "count": 2329,
+      "pct": 88.4
+    },
+    {
+      "label": "One",
+      "count": 222,
+      "pct": 8.4
+    },
+    {
+      "label": "Two",
+      "count": 64,
+      "pct": 2.4
+    },
+    {
+      "label": "Three",
+      "count": 19,
+      "pct": 0.7
+    }
+  ],
+  "pdf": {
+    "varname": "hmc16",
+    "label": "How many children under 16 live in your household all of the time? Include any step, adopted or foster children you are responsible for.  - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "hmc16"
+      ],
+      [
+        "Field ID",
+        "29835"
+      ],
+      [
+        "Label",
+        "How many children under 16 live in your household all of the time? Include any step, adopted or foster children you are responsible for.  - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "capi99a"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "12"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Possible low cell count issue"
+      ],
+      [
+        "Notes",
+        "Questions about household from the 1999 Capi questionnaire. Reoced version of this variable is also available."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Household structure [20]",
+        "Legacy Category"
+      ],
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Zero",
+        false
+      ],
+      [
+        "1.0",
+        "One",
+        false
+      ],
+      [
+        "2.0",
+        "Two",
+        false
+      ],
+      [
+        "3.0",
+        "Three",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "2329",
+        "88%"
+      ],
+      [
+        "1",
+        "222",
+        "8%"
+      ],
+      [
+        "2",
+        "64",
+        "2%"
+      ],
+      [
+        "3",
+        "19",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2634",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "hmc16",
+    "label": "How many children under 16 live in your household all of the time? Include any step, adopted or foster children you are responsible for.  - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=29835",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hmc16",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "29835",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How many children under 16 live in your household all of the time? Include any step, adopted or foster children you are responsible for.  - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "capi99a",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "12",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Possible low cell count issue",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about household from the 1999 Capi questionnaire. Reoced version of this variable is also available.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Household structure [20]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Zero",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "One",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Two",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Three",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Zero",
+          "count": 2329,
+          "pct": 88
+        },
+        {
+          "value": "1",
+          "label": "One",
+          "count": 222,
+          "pct": 8
+        },
+        {
+          "value": "2",
+          "label": "Two",
+          "count": 64,
+          "pct": 2
+        },
+        {
+          "value": "3",
+          "label": "Three",
+          "count": 19,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "2329",
+        "88%"
+      ],
+      [
+        "1",
+        "222",
+        "8%"
+      ],
+      [
+        "2",
+        "64",
+        "2%"
+      ],
+      [
+        "3",
+        "19",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2634",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

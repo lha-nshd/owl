@@ -1,0 +1,492 @@
+{
+  "varname": "dbp3_myft",
+  "label": "Diastolic blood pressure (seated) - third reading - Myofit sub-study",
+  "field_id": "70454",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70454",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "mmHg",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": true,
+  "security_message": "Only available via special request. Contact Dr. Gaby Captur, gabriella.captur@ucl.ac.uk, for access to these data. ",
+  "mean": 77.89647577092511,
+  "sd": 9.837236454410641,
+  "series_size": 454.0,
+  "minimum": 60.0,
+  "maximum": 100.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dbp2_myft",
+    "dbp1_myft"
+  ],
+  "linked_years": [
+    "2020-2024"
+  ],
+  "categories": [
+    "Blood pressure [8072]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not recruited to MyoFit46"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable (Unwilling / Unable)"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dbp3_myft",
+    "label": "Diastolic blood pressure (seated) - third reading - Myofit sub-study",
+    "meta_rows": [
+      [
+        "Variable",
+        "dbp3_myft"
+      ],
+      [
+        "Field ID",
+        "70454"
+      ],
+      [
+        "Label",
+        "Diastolic blood pressure (seated) - third reading - Myofit sub-study"
+      ],
+      [
+        "Card Number",
+        "myft_BloodPressure"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmHg"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Seated and standing blood pressure done in the Myofit sub-study."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dbp2_myft",
+        "Diastolic blood pressure (seated) - second reading - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_BloodPressure"
+      ],
+      [
+        "dbp1_myft",
+        "Diastolic blood pressure (seated) - first reading - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_BloodPressure"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood pressure [8072]",
+        "This category contains data on seated blood pressure of the study members who took part in the MyoFit 46 study. Some participants also provided standing blood pressure."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not recruited to MyoFit46",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable (Unwilling / Unable)",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "60"
+      ],
+      [
+        "Maximum",
+        "100"
+      ],
+      [
+        "Range",
+        "40"
+      ],
+      [
+        "Median",
+        "77.0"
+      ],
+      [
+        "IQR",
+        "71.0 - 85.0"
+      ],
+      [
+        "Decile 1",
+        "64.30000000000001"
+      ],
+      [
+        "Decile 2",
+        "69.0"
+      ],
+      [
+        "Decile 3",
+        "72.0"
+      ],
+      [
+        "Decile 4",
+        "74.0"
+      ],
+      [
+        "Decile 5",
+        "77.0"
+      ],
+      [
+        "Decile 6",
+        "80.0"
+      ],
+      [
+        "Decile 7",
+        "83.0"
+      ],
+      [
+        "Decile 8",
+        "87.0"
+      ],
+      [
+        "Decile 9",
+        "92.0"
+      ],
+      [
+        "Mean",
+        "77.89647577092511"
+      ],
+      [
+        "Std Dev.",
+        "9.837236454410641"
+      ],
+      [
+        "Variance",
+        "96.77122105998566"
+      ],
+      [
+        "Displayed N",
+        "454"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dbp3_myft",
+    "label": "Diastolic blood pressure (seated) - third reading - Myofit sub-study",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70454",
+    "is_restricted": true,
+    "security_message": "Only available via special request. Contact Dr. Gaby Captur, gabriella.captur@ucl.ac.uk, for access to these data. ",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dbp3_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70454",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Diastolic blood pressure (seated) - third reading - Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "myft_BloodPressure",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmHg",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Seated and standing blood pressure done in the Myofit sub-study.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dbp2_myft",
+        "description": "Diastolic blood pressure (seated) - second reading - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_BloodPressure"
+      },
+      {
+        "varname": "dbp1_myft",
+        "description": "Diastolic blood pressure (seated) - first reading - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_BloodPressure"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood pressure [8072]",
+        "description": "This category contains data on seated blood pressure of the study members who took part in the MyoFit 46 study. Some participants also provided standing blood pressure.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pressure_8072.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not recruited to MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable (Unwilling / Unable)",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmHg",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          60.0,
+          63.63636363636363,
+          67.27272727272727,
+          70.9090909090909,
+          74.54545454545455,
+          78.18181818181819,
+          81.81818181818181,
+          85.45454545454545,
+          89.0909090909091,
+          92.72727272727272,
+          96.36363636363636,
+          100.0
+        ],
+        "counts": [
+          32,
+          45,
+          34,
+          72,
+          72,
+          48,
+          42,
+          43,
+          23,
+          23,
+          20
+        ]
+      },
+      "boxplot": {
+        "min": 60.0,
+        "q1": 71.0,
+        "median": 77.0,
+        "q3": 85.0,
+        "max": 100.0
+      },
+      "units": "mmHg"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "60"
+      ],
+      [
+        "Maximum",
+        "100"
+      ],
+      [
+        "Range",
+        "40"
+      ],
+      [
+        "Median",
+        "77.0"
+      ],
+      [
+        "IQR",
+        "71.0 - 85.0"
+      ],
+      [
+        "Decile 1",
+        "64.30000000000001"
+      ],
+      [
+        "Decile 2",
+        "69.0"
+      ],
+      [
+        "Decile 3",
+        "72.0"
+      ],
+      [
+        "Decile 4",
+        "74.0"
+      ],
+      [
+        "Decile 5",
+        "77.0"
+      ],
+      [
+        "Decile 6",
+        "80.0"
+      ],
+      [
+        "Decile 7",
+        "83.0"
+      ],
+      [
+        "Decile 8",
+        "87.0"
+      ],
+      [
+        "Decile 9",
+        "92.0"
+      ],
+      [
+        "Mean",
+        "77.89647577092511"
+      ],
+      [
+        "Std Dev.",
+        "9.837236454410641"
+      ],
+      [
+        "Variance",
+        "96.77122105998566"
+      ],
+      [
+        "Displayed N",
+        "454"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

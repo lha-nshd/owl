@@ -1,0 +1,531 @@
+{
+  "varname": "copdy25x",
+  "label": "Since the age of 60 years, when were you told that you had COPD (Chronic obstructive pulmonary disease) - Year - at age 76 years",
+  "field_id": "15091",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=15091",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "year",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2015.8484848484848,
+  "sd": 6.264963721490223,
+  "series_size": 66.0,
+  "minimum": 2001.0,
+  "maximum": 2024.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "copdm22x",
+    "copd25x",
+    "copdy22x",
+    "copda22x"
+  ],
+  "linked_years": [
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "Respiratory conditions [51013]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "copdy25x",
+    "label": "Since the age of 60 years, when were you told that you had COPD (Chronic obstructive pulmonary disease) - Year - at age 76 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "copdy25x"
+      ],
+      [
+        "Field ID",
+        "15091"
+      ],
+      [
+        "Label",
+        "Since the age of 60 years, when were you told that you had COPD (Chronic obstructive pulmonary disease) - Year - at age 76 years"
+      ],
+      [
+        "Card Number",
+        "Postal2025"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "9"
+      ],
+      [
+        "Year",
+        "2025"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "year"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains the year information about the date"
+      ],
+      [
+        "Notes",
+        "Questions about health from the 2025 Postal questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "copdm22x",
+        "When were you told that you had COPD (Chronic obstructive pulmonary disease) - Month - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "48",
+        "Postal22"
+      ],
+      [
+        "copd25x",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: COPD (chronic obstructive pulmonary disease) - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "copdy22x",
+        "When were you told that you had COPD (Chronic obstructive pulmonary disease) - Year - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "48",
+        "Postal22"
+      ],
+      [
+        "copda22x",
+        "If you cannot remember the month and year you had COPD (Chronic obstructive pulmonary disease), please give your age - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "48",
+        "Postal22"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/Postal2025/Postal_questionnaire_2025_top sheet_27Aug2025.docx",
+        "Postal_questionnaire_2025_top sheet_27Aug2025.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory conditions [51013]",
+        "This category contains data from the questionnaires on whether the participant has and respiratory conditions i.e chronic lung disease, COPD, emphysema, asthma, bronchitis and hayfever. They were also asked if they were prescribed medication. CLS asthma harmonisation dataset is also included). Questions were asked in 1948 (age 2 years), 1952 (age 6 years), 1953 (age 7 years), 1957 (age 11 years), 1961 (age 15 years), 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2020-21 (covid), 2022 (age 76 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "2001"
+      ],
+      [
+        "Maximum",
+        "2024"
+      ],
+      [
+        "Range",
+        "23"
+      ],
+      [
+        "Median",
+        "2017.0"
+      ],
+      [
+        "IQR",
+        "2011.0 - 2020.75"
+      ],
+      [
+        "Decile 1",
+        "2006.5"
+      ],
+      [
+        "Decile 2",
+        "2010.0"
+      ],
+      [
+        "Decile 3",
+        "2013.0"
+      ],
+      [
+        "Decile 4",
+        "2016.0"
+      ],
+      [
+        "Decile 5",
+        "2017.0"
+      ],
+      [
+        "Decile 6",
+        "2019.0"
+      ],
+      [
+        "Decile 7",
+        "2020.0"
+      ],
+      [
+        "Decile 8",
+        "2022.0"
+      ],
+      [
+        "Decile 9",
+        "2023.5"
+      ],
+      [
+        "Mean",
+        "2015.8484848484848"
+      ],
+      [
+        "Std Dev.",
+        "6.264963721490223"
+      ],
+      [
+        "Variance",
+        "39.24977043158862"
+      ],
+      [
+        "Displayed N",
+        "66"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "copdy25x",
+    "label": "Since the age of 60 years, when were you told that you had COPD (Chronic obstructive pulmonary disease) - Year - at age 76 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=15091",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "copdy25x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "15091",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Since the age of 60 years, when were you told that you had COPD (Chronic obstructive pulmonary disease) - Year - at age 76 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Postal2025",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "9",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2025",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "year",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains the year information about the date",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about health from the 2025 Postal questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "copdm22x",
+        "description": "When were you told that you had COPD (Chronic obstructive pulmonary disease) - Month - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "48",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "copd25x",
+        "description": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: COPD (chronic obstructive pulmonary disease) - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "copdy22x",
+        "description": "When were you told that you had COPD (Chronic obstructive pulmonary disease) - Year - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "48",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "copda22x",
+        "description": "If you cannot remember the month and year you had COPD (Chronic obstructive pulmonary disease), please give your age - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "48",
+        "library_file": "Postal22"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/Postal2025/Postal_questionnaire_2025_top sheet_27Aug2025.docx",
+        "text": "Postal_questionnaire_2025_top sheet_27Aug2025.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory conditions [51013]",
+        "description": "This category contains data from the questionnaires on whether the participant has and respiratory conditions i.e chronic lung disease, COPD, emphysema, asthma, bronchitis and hayfever. They were also asked if they were prescribed medication. CLS asthma harmonisation dataset is also included). Questions were asked in 1948 (age 2 years), 1952 (age 6 years), 1953 (age 7 years), 1957 (age 11 years), 1961 (age 15 years), 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2020-21 (covid), 2022 (age 76 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Respiratory_conditions_51013.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 2,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "year",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          2001.0,
+          2003.875,
+          2006.75,
+          2009.625,
+          2012.5,
+          2015.375,
+          2018.25,
+          2021.125,
+          2024.0
+        ],
+        "counts": [
+          3,
+          4,
+          3,
+          9,
+          7,
+          13,
+          12,
+          15
+        ]
+      },
+      "boxplot": {
+        "min": 2001.0,
+        "q1": 2011.0,
+        "median": 2017.0,
+        "q3": 2020.75,
+        "max": 2024.0
+      },
+      "units": "year"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "2001"
+      ],
+      [
+        "Maximum",
+        "2024"
+      ],
+      [
+        "Range",
+        "23"
+      ],
+      [
+        "Median",
+        "2017.0"
+      ],
+      [
+        "IQR",
+        "2011.0 - 2020.75"
+      ],
+      [
+        "Decile 1",
+        "2006.5"
+      ],
+      [
+        "Decile 2",
+        "2010.0"
+      ],
+      [
+        "Decile 3",
+        "2013.0"
+      ],
+      [
+        "Decile 4",
+        "2016.0"
+      ],
+      [
+        "Decile 5",
+        "2017.0"
+      ],
+      [
+        "Decile 6",
+        "2019.0"
+      ],
+      [
+        "Decile 7",
+        "2020.0"
+      ],
+      [
+        "Decile 8",
+        "2022.0"
+      ],
+      [
+        "Decile 9",
+        "2023.5"
+      ],
+      [
+        "Mean",
+        "2015.8484848484848"
+      ],
+      [
+        "Std Dev.",
+        "6.264963721490223"
+      ],
+      [
+        "Variance",
+        "39.24977043158862"
+      ],
+      [
+        "Displayed N",
+        "66"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

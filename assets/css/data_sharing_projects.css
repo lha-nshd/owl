@@ -1,0 +1,699 @@
+/* data_sharing_projects.css
+ * Styles for the Data Sharing Projects page. Colour scheme and component styling
+ * are taken from ukllc_catalogue.css (itself matched to nshd_data_dictionary.css),
+ * re-scoped under .page-data-sharing-projects, with the column rules rewritten for
+ * this page's seven columns:
+ *   expand | PID | Date submitted | Principal applicant | Title | Summary | Variables
+ *
+ * Tokens:
+ *   Accent purple #4b067a (headers, sticky border, reset button)   hover #36045a
+ *   Heading maroon #800020 (hero h1)        Body grey #555
+ *   Add/teal #009688 (add all)              Remove/red #D32F2F (remove all)
+ *   Download green #4CAF50                  Excel blue #1976D2
+ *   Pastel columns #F3E5F5 purple, #E8F5E9 green, #E3F2FD blue,
+ *                  #FFF3E0 orange, #FCE4EC pink, #E0F7FA cyan
+ *   Open row #EDE7F6 lavender
+ */
+
+.page-data-sharing-projects {
+ position: relative;
+ width: 100%;
+ max-width: 100%;
+ overflow-x: hidden;
+ font-family: Arial, sans-serif;
+}
+
+.page-data-sharing-projects * {
+ box-sizing: border-box;
+}
+
+/* -- Loading screen -------------------------------------------------- */
+
+.page-data-sharing-projects .loading-screen {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 200px;
+ font-size: 18px;
+ color: #4b067a;
+}
+
+.page-data-sharing-projects .spinner {
+ width: 40px;
+ height: 40px;
+ border: 4px solid #ddd;
+ border-top-color: #4b067a;
+ border-radius: 50%;
+ animation: dsp-spin 0.8s linear infinite;
+ margin-bottom: 10px;
+}
+
+@keyframes dsp-spin {
+ to { transform: rotate(360deg); }
+}
+
+/* -- Hero banner (identical gradient/copy treatment to the Dictionary page) */
+
+.page-data-sharing-projects .hero-banner {
+ background: linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+ border-radius: 12px;
+ padding: 26px 30px;
+ margin-bottom: 28px;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+ max-width: 100%;
+}
+
+.page-data-sharing-projects .hero-banner h1 {
+ margin: 0 0 8px 0;
+ font-size: 20px;
+ font-weight: bold;
+ color: #800020;
+}
+
+.page-data-sharing-projects .hero-banner p {
+ margin: 0 0 16px 0;
+ font-size: 15px;
+ color: #555;
+}
+
+/* -- Search / pagination / buttons row ------------------------------ */
+
+.page-data-sharing-projects .search-pagination-top {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ margin: 14px 0;
+ flex-wrap: wrap;
+}
+
+.page-data-sharing-projects #globalSearch {
+ flex: 1;
+ min-width: 220px;
+ padding: 6px 10px;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ font-size: 14px;
+}
+
+.page-data-sharing-projects #pageSize {
+ padding: 6px 10px;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ background: #fff;
+ font-size: 14px;
+}
+
+.page-data-sharing-projects #resultsCount {
+ font-size: 13px;
+ color: #555;
+}
+
+.page-data-sharing-projects #resetFiltersBtn {
+ padding: 6px 12px;
+ font-size: 14px;
+ background: #4b067a;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.page-data-sharing-projects #resetFiltersBtn:hover {
+ background: #36045a;
+}
+
+.page-data-sharing-projects .download-btn {
+ padding: 6px 14px;
+ background: #4CAF50;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 14px;
+ text-decoration: none;
+}
+
+.page-data-sharing-projects .download-btn:hover {
+ background: #45a049;
+}
+
+/* Excel variant - same blue as the site's other Excel-branded buttons
+ (.download-excel-btn on the Dictionary page), re-declared here since
+ that rule is scoped to .page-search-data-dictionary and won't reach us. */
+.page-data-sharing-projects .download-btn.download-excel-btn {
+ background: #1976D2;
+}
+
+.page-data-sharing-projects .download-btn.download-excel-btn:hover {
+ background: #0F5BA5;
+}
+
+.page-data-sharing-projects #paginationTop,
+.page-data-sharing-projects #paginationBottom {
+ font-size: 13px;
+ margin: 8px 0;
+}
+
+.page-data-sharing-projects #paginationTop button,
+.page-data-sharing-projects #paginationBottom button {
+ padding: 4px 10px;
+ margin: 0 4px;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ background: #fff;
+ cursor: pointer;
+}
+
+.page-data-sharing-projects #paginationTop button:disabled,
+.page-data-sharing-projects #paginationBottom button:disabled {
+ opacity: 0.5;
+ cursor: not-allowed;
+}
+
+/* -- Table wrapper + sticky header ----------------------------------- */
+
+.page-data-sharing-projects #table-wrapper {
+ max-height: 70vh;
+ overflow-y: auto;
+ overflow-x: auto;
+ position: relative;
+}
+
+.page-data-sharing-projects table#projectsTable {
+ width: 100%;
+ border: 1px solid #d0d0d0;
+ border-collapse: collapse;
+ table-layout: fixed;
+ font-size: 14px;
+}
+
+.page-data-sharing-projects #projectsTable thead th {
+ position: sticky;
+ top: 0;
+ z-index: 50;
+ padding: 8px 10px;
+ border-bottom: 2px solid #4b067a;
+ text-align: left;
+ color: black;
+}
+
+.page-data-sharing-projects #projectsTable td {
+ padding: 6px 10px;
+ vertical-align: top;
+ overflow-wrap: break-word;
+ word-break: break-word;
+}
+
+.page-data-sharing-projects .col-expand,
+.page-data-sharing-projects #projectsTable th.col-expand,
+.page-data-sharing-projects #projectsTable td.col-expand {
+ width: 32px !important;
+ min-width: 32px !important;
+ max-width: 32px !important;
+ padding: 4px 2px !important;
+ text-align: center;
+}
+
+.page-data-sharing-projects #projectsTable th.col-expand {
+ font-size: 8px;
+ line-height: 1.1;
+ white-space: normal;
+}
+.page-data-sharing-projects .col-pid { width: 82px !important; }
+.page-data-sharing-projects .col-date { width: 108px !important; }
+.page-data-sharing-projects .col-applicant { width: 17% !important; }
+.page-data-sharing-projects .col-title { width: 22% !important; }
+.page-data-sharing-projects .col-summary { width: auto !important; }
+.page-data-sharing-projects .col-vars { width: 88px !important; min-width: 88px !important; max-width: 88px !important; }
+
+/* Pastel column tints - same motif as the Dictionary page's column colours.
+   7 columns: expand, PID, date, applicant, title, summary, variables. */
+.page-data-sharing-projects #projectsTable th:nth-child(1),
+.page-data-sharing-projects #projectsTable tbody tr.project-row td:nth-child(1) { background: #ffffff; }
+.page-data-sharing-projects #projectsTable th:nth-child(2),
+.page-data-sharing-projects #projectsTable tbody tr.project-row td:nth-child(2) { background: #F3E5F5; }
+.page-data-sharing-projects #projectsTable th:nth-child(3),
+.page-data-sharing-projects #projectsTable tbody tr.project-row td:nth-child(3) { background: #E8F5E9; }
+.page-data-sharing-projects #projectsTable th:nth-child(4),
+.page-data-sharing-projects #projectsTable tbody tr.project-row td:nth-child(4) { background: #E3F2FD; }
+.page-data-sharing-projects #projectsTable th:nth-child(5),
+.page-data-sharing-projects #projectsTable tbody tr.project-row td:nth-child(5) { background: #FFF3E0; }
+.page-data-sharing-projects #projectsTable th:nth-child(6),
+.page-data-sharing-projects #projectsTable tbody tr.project-row td:nth-child(6) { background: #FCE4EC; }
+.page-data-sharing-projects #projectsTable th:nth-child(7),
+.page-data-sharing-projects #projectsTable tbody tr.project-row td:nth-child(7) { background: #E0F7FA; }
+
+/* Row shading (only the plain, unexpanded rows - an open row gets its own
+ lavender highlight below instead, so the two states stay distinguishable) */
+.page-data-sharing-projects tr.project-row:not(.is-open):nth-of-type(odd) td { background-color: #f7f7f7; }
+.page-data-sharing-projects tr.project-row:not(.is-open):nth-of-type(even) td { background-color: #ececec; }
+
+/* Faint separator between each dataset row */
+.page-data-sharing-projects tr.project-row td {
+ border-bottom: 1px solid #e5e5e5;
+}
+
+/* -- Expandable dataset rows ----------------------------------------- */
+
+.page-data-sharing-projects tr.project-row {
+ cursor: pointer;
+}
+
+/* Hover darkens each column's OWN tint by one shade, rather than flattening
+ every column to the same purple - keeps the colour-coding legible while
+ still signalling "this row is interactive". */
+.page-data-sharing-projects tr.project-row:hover td:nth-child(1) { background-color: #f0f0f0 !important; }
+.page-data-sharing-projects tr.project-row:hover td:nth-child(2) { background-color: #E1BEE7 !important; }
+.page-data-sharing-projects tr.project-row:hover td:nth-child(3) { background-color: #C8E6C9 !important; }
+.page-data-sharing-projects tr.project-row:hover td:nth-child(4) { background-color: #BBDEFB !important; }
+.page-data-sharing-projects tr.project-row:hover td:nth-child(5) { background-color: #FFE0B2 !important; }
+.page-data-sharing-projects tr.project-row:hover td:nth-child(6) { background-color: #F8BBD0 !important; }
+.page-data-sharing-projects tr.project-row:hover td:nth-child(7) { background-color: #B2EBF2 !important; }
+
+.page-data-sharing-projects tr.project-row.is-open td {
+ background-color: #EDE7F6 !important; /* lavender, same family as the Dictionary page's col-7 tint */
+}
+
+.page-data-sharing-projects .expand-btn {
+ background: none;
+ border: none;
+ cursor: pointer;
+ font-size: 22px;
+ line-height: 1;
+ color: #4b067a;
+}
+
+.page-data-sharing-projects .var-count-badge {
+ border: 1px solid #009688;
+ background: #fff;
+ border-radius: 12px;
+ padding: 3px 6px;
+ font-size: 11px;
+ cursor: pointer;
+ color: #00695C;
+ white-space: normal; /* allow "N variables" to wrap to two lines rather than overflow the narrow column */
+ line-height: 1.3;
+ display: inline-block;
+ max-width: 100%;
+}
+
+.page-data-sharing-projects .var-count-badge:hover {
+ background: #009688;
+ color: #fff;
+}
+
+.page-data-sharing-projects .var-count-badge.is-empty {
+ border: 0;
+ background: transparent;
+ padding: 0;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.page-data-sharing-projects .var-count-badge.is-empty:hover {
+ background: transparent;
+}
+
+.page-data-sharing-projects .var-count-badge .no-vars-icon {
+ display: block;
+}
+
+/* Projects with no variables: the no-entry sign is centred in its cell */
+.page-data-sharing-projects td.col-vars-empty {
+ text-align: center;
+ vertical-align: middle;
+}
+
+/* -- Variable panel (accordion detail) ------------------------------- */
+
+.page-data-sharing-projects tr.variable-panel-row > td {
+ background: #fafafa;
+ padding: 0;
+}
+
+.page-data-sharing-projects .variable-panel {
+ padding: 14px 18px 18px 46px;
+ border-left: 3px solid #4b067a;
+}
+
+.page-data-sharing-projects .variable-panel.empty-state {
+ color: #555;
+ font-style: italic;
+ border-left-color: #d0d0d0;
+}
+
+.page-data-sharing-projects .variable-panel-toolbar {
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ margin-bottom: 10px;
+ flex-wrap: wrap;
+}
+
+.page-data-sharing-projects .variable-search {
+ padding: 4px 8px;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ min-width: 220px;
+ font-size: 14px;
+}
+
+/* "Add all / remove all" toggle - same colour convention as .add-all-btn
+ on the Dictionary page: teal to add, red once everything's already in. */
+.page-data-sharing-projects .add-all-variables-btn {
+ padding: 6px 14px;
+ background: #009688;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 13px;
+}
+
+.page-data-sharing-projects .add-all-variables-btn:hover {
+ background: #00796B;
+}
+
+.page-data-sharing-projects .add-all-variables-btn.remove-mode {
+ background: #D32F2F;
+}
+
+.page-data-sharing-projects .add-all-variables-btn.remove-mode:hover {
+ background: #B71C1C;
+}
+
+/* "No results" state - same black-disabled convention as .add-all-btn:disabled
+ on the Dictionary page, for when the filter box matches zero variables. */
+.page-data-sharing-projects .add-all-variables-btn.is-empty,
+.page-data-sharing-projects .add-all-variables-btn:disabled {
+ background: #333 !important;
+ color: white;
+ cursor: not-allowed;
+ opacity: 1;
+}
+
+.page-data-sharing-projects .add-all-variables-btn.is-empty:hover,
+.page-data-sharing-projects .add-all-variables-btn:disabled:hover {
+ background: #333 !important;
+}
+
+.page-data-sharing-projects .var-download-link {
+ font-size: 13px;
+ color: #1976D2;
+ text-decoration: none;
+}
+
+.page-data-sharing-projects .var-download-link:hover {
+ color: #0F5BA5;
+ text-decoration: underline;
+}
+
+/* -- Variable table inside the panel --------------------------------- */
+
+.page-data-sharing-projects table.variable-table {
+ width: 100%;
+ border-collapse: collapse;
+ background: #fff;
+ border: 1px solid #d0d0d0;
+ font-size: 14px;
+}
+
+.page-data-sharing-projects table.variable-table thead th {
+ text-align: left;
+ border-bottom: 2px solid #4b067a;
+ padding: 6px 8px;
+ color: black;
+}
+
+.page-data-sharing-projects thead th.sortable-header {
+ cursor: pointer;
+ user-select: none;
+}
+
+/* The flex layout lives on this inner wrapper, NOT the <th> itself - a <th>
+ with display:flex stops behaving as a table-cell and breaks out of the
+ row entirely (headers stack vertically instead of sitting side by side).
+ Same fix pattern as nshd_data_dictionary.css's own .th-inner. */
+.page-data-sharing-projects .th-inner {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 6px;
+}
+
+.page-data-sharing-projects thead th.sortable-header:hover {
+ background-color: rgba(75, 6, 122, 0.08);
+}
+
+.page-data-sharing-projects .sort-icon {
+ font-size: 11px;
+ opacity: 0.4;
+ transition: opacity 0.2s ease;
+}
+
+.page-data-sharing-projects .sortable-header:hover .sort-icon {
+ opacity: 0.9;
+}
+
+.page-data-sharing-projects .sort-icon.is-active {
+ opacity: 1;
+ color: #4b067a;
+}
+
+.page-data-sharing-projects table.variable-table td {
+ border-bottom: 1px solid #eaeaea;
+ padding: 6px 8px;
+ font-size: 13px;
+}
+
+.page-data-sharing-projects table.variable-table tbody tr:nth-child(odd) td { background-color: #f7f7f7; }
+.page-data-sharing-projects table.variable-table tbody tr:nth-child(even) td { background-color: #ececec; }
+
+/* Pastel tint per column - deliberately a DIFFERENT palette from the main
+ catalogue table (which uses purple/green/blue) so the two tables read as
+ visually distinct when both are on screen at once, rather than looking
+ like a continuation of the same columns. */
+.page-data-sharing-projects table.variable-table th:nth-child(2), .page-data-sharing-projects table.variable-table td:nth-child(2) { background: #FCE4EC !important; } /* pink */
+.page-data-sharing-projects table.variable-table th:nth-child(3), .page-data-sharing-projects table.variable-table td:nth-child(3) { background: #FFE0B2 !important; } /* peach */
+.page-data-sharing-projects table.variable-table th:nth-child(4), .page-data-sharing-projects table.variable-table td:nth-child(4) { background: #E0F7FA !important; } /* cyan */
+.page-data-sharing-projects table.variable-table th:nth-child(5), .page-data-sharing-projects table.variable-table td:nth-child(5) { background: #FFF9C4 !important; } /* pale yellow */
+
+/* Widen Variable Name so its header ("Variable Name" + sort icon) fits on
+ one line rather than wrapping. */
+.page-data-sharing-projects table.variable-table th:nth-child(2),
+.page-data-sharing-projects table.variable-table td:nth-child(2) {
+ min-width: 170px;
+}
+.page-data-sharing-projects .th-inner .header-label {
+ white-space: nowrap;
+}
+
+/* Dataset dropdown filter embedded in the Dataset Name header cell */
+.page-data-sharing-projects .col-header-filter-select {
+ display: block;
+ width: 100%;
+ margin-top: 6px;
+ padding: 3px 6px;
+ font-size: 12px;
+ font-weight: normal;
+ text-transform: none;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ background: #fff;
+ color: #333;
+ cursor: pointer;
+}
+
+.page-data-sharing-projects #projectsTable thead th.sortable-header {
+ vertical-align: top;
+}
+
+/* Row hover darkens each column's own tint by one shade, matching the new
+ pink/peach/cyan/yellow palette above. */
+.page-data-sharing-projects table.variable-table tbody tr:hover td:nth-child(1) { background-color: #f0f0f0 !important; }
+.page-data-sharing-projects table.variable-table tbody tr:hover td:nth-child(2) { background-color: #F8BBD0 !important; }
+.page-data-sharing-projects table.variable-table tbody tr:hover td:nth-child(3) { background-color: #FFCC80 !important; }
+.page-data-sharing-projects table.variable-table tbody tr:hover td:nth-child(4) { background-color: #B2EBF2 !important; }
+.page-data-sharing-projects table.variable-table tbody tr:hover td:nth-child(5) { background-color: #FFF59D !important; }
+
+.page-data-sharing-projects table.variable-table .col-check {
+ width: 90px;
+ min-width: 90px;
+ max-width: 90px;
+ text-align: center;
+ background: #ffffff !important;
+}
+
+.page-data-sharing-projects table.variable-table thead th.col-check,
+.page-data-sharing-projects table.variable-table th:first-child {
+ background: #ffffff !important;
+ font-size: 11px;
+ text-transform: none;
+}
+
+.page-data-sharing-projects table.variable-table .col-check input[type="checkbox"] {
+ width: 14px;
+ height: 14px;
+}
+
+.page-data-sharing-projects .var-link {
+ color: #1976D2;
+ text-decoration: none;
+ /* No <code>/monospace styling here - the reference Data Dictionary page
+    renders variable names as plain text, and this was the actual cause of
+    the "font looks different/smaller" mismatch (monospace fonts render
+    visually smaller at the same declared size, plus Just the Docs styled
+    <code> with its own font-size and background box on top of that). This
+    now just inherits the table's normal font like every other column. */
+}
+
+.page-data-sharing-projects .var-link:hover {
+ text-decoration: underline;
+}
+
+
+.page-data-sharing-projects .topic-link {
+ color: #4b067a;
+ text-decoration: none;
+ cursor: help; /* signals the hover tooltip as well as the click-through */
+}
+
+.page-data-sharing-projects .topic-link:hover {
+ text-decoration: underline;
+}
+
+.page-data-sharing-projects .var-download-btn {
+ padding: 6px 14px;
+ background: #1976D2;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 13px;
+}
+
+.page-data-sharing-projects .var-download-btn:hover {
+ background: #0F5BA5;
+}
+
+.page-data-sharing-projects .var-topic {
+ color: #555;
+ font-size: 12px;
+}
+
+.page-data-sharing-projects table.variable-table .empty-state {
+ text-align: center;
+ color: #8c959f;
+ padding: 14px;
+ background: #fff !important;
+}
+
+/* -- Data Sharing Projects additions ---------------------------------- */
+
+/* Summary cell: first three lines only; the full text is in the open panel */
+.page-data-sharing-projects .summary-clamp {
+ display: -webkit-box;
+ -webkit-line-clamp: 3;
+ -webkit-box-orient: vertical;
+ overflow: hidden;
+}
+
+/* Institution under the principal applicant's name */
+.page-data-sharing-projects .applicant-inst {
+ margin-top: 2px;
+ font-size: 12px;
+ color: #555;
+}
+
+.page-data-sharing-projects td.no-projects {
+ text-align: center;
+ color: #8c959f;
+ padding: 18px;
+ background: #fff !important;
+}
+
+/* Project details at the top of the open panel */
+.page-data-sharing-projects .project-detail {
+ margin-bottom: 12px;
+}
+
+.page-data-sharing-projects .project-detail-meta {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 4px 18px;
+ font-size: 13px;
+ color: #555;
+}
+
+.page-data-sharing-projects .project-detail-summary {
+ margin: 6px 0 0 0;
+ font-size: 14px;
+ color: #333;
+ line-height: 1.5;
+ max-width: 900px;
+}
+
+.page-data-sharing-projects .empty-note {
+ color: #555;
+ font-style: italic;
+ font-size: 14px;
+}
+
+.page-data-sharing-projects .dictionary-note {
+ margin: 0 0 8px 0;
+ font-size: 12px;
+ color: #8c959f;
+ font-style: italic;
+}
+
+/* Requested variables that are not in OWL yet: no tick box, grey message instead of a label */
+.page-data-sharing-projects .var-unavailable {
+ color: #8c959f;
+ font-style: italic;
+}
+
+.page-data-sharing-projects table.variable-table tr.is-unavailable td {
+ color: #8c959f;
+}
+
+.page-data-sharing-projects table.variable-table tr.is-unavailable input[type="checkbox"] {
+ cursor: not-allowed;
+ opacity: 0.4;
+}
+
+/* -- Headings that stand out from the text beneath them ---------------- */
+
+/* Column headings (both tables): bold, dark purple */
+.page-data-sharing-projects #projectsTable thead th,
+.page-data-sharing-projects table.variable-table thead th {
+ font-weight: bold;
+ color: #36045a;
+}
+
+/* Let main-table headings wrap onto two lines ("Date" / "submitted") instead
+   of forcing one long line; the catalogue's nowrap rule is overridden here. */
+.page-data-sharing-projects #projectsTable .th-inner .header-label {
+ white-space: normal;
+ line-height: 1.25;
+}
+
+/* Labels in the open row: "Institution", "Country", "Approved", "Project summary" */
+.page-data-sharing-projects .project-detail-meta strong {
+ color: #36045a;
+}
+
+.page-data-sharing-projects .project-detail-heading {
+ margin: 12px 0 2px 0;
+ font-size: 13px;
+ font-weight: bold;
+ color: #36045a;
+}
+
+/* Message for a project with no recorded variables: red so it is noticed */
+.page-data-sharing-projects .empty-note {
+ color: #D32F2F;
+ font-style: normal;
+ font-weight: bold;
+}

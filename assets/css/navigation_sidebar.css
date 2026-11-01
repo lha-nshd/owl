@@ -1,0 +1,349 @@
+.page-search-data-dictionary .side-bar {
+  position: static !important;
+}
+
+	/* -----------------------------------------------------------
+	   SIDEBAR LAYOUT
+	----------------------------------------------------------- */
+
+	.side-bar {
+	  width: 25rem !important;
+	  min-width: 25rem !important;
+	  position: fixed !important;
+	  top: 0 !important;
+	  left: 0 !important;
+	  height: 100vh !important;
+	  overflow-y: auto !important;
+	}
+
+	.main {
+	  margin-left: 25rem !important;
+	  max-width: none !important;
+	  width: calc(100vw - 25rem) !important;
+	}
+
+	.main-content {
+	  max-width: none !important;
+	  width: 100% !important;
+	  font-family: Arial, sans-serif !important;
+	  font-size: 14px !important;
+	  line-height: 1.3 !important;
+	}
+
+	.page-content {
+	  max-width: none !important;
+	  width: 100% !important;
+	}
+
+
+	.site-header {
+		width: var(--sidebar-width) !important;
+		min-width: 0 !important;
+		left: 0 !important;
+		right: auto !important;
+		padding-left: 1rem !important;
+		transform: translateX(-0) !important;
+	}
+
+	.site-header .site-title {
+		float: none !important;
+		margin: 0 !important;
+	}
+
+	div.site-header > a.site-title {
+		font-family: Arial, sans-serif !important;
+		font-weight: 700 !important;
+		color: #ffffff !important;
+		font-size: 18px !important;
+		background-color: #6a0dad;
+	}
+
+
+	/* -----------------------------------------------------------
+	   NAVIGATION COLORS + INDENTATION
+	----------------------------------------------------------- */
+
+	.site-nav,
+	.nav-list {
+	  padding-left: 0 !important;
+	  margin-left: 0 !important;
+	  width: 100% !important;
+	}
+
+	.site-header {
+	  padding-left: 1rem !important;
+	}
+
+	.nav-list .nav-list-item > .nav-list-link {
+	  color: #2e7d5b !important; /* level 1 — green */
+	}
+	.nav-list .nav-list .nav-list-item {
+	  padding-left: 1rem !important;
+	}
+	.nav-list .nav-list .nav-list-item > .nav-list-link {
+	  color: #2e7d99 !important; /* level 2 — teal-blue */
+	}
+	.nav-list .nav-list .nav-list .nav-list-item {
+	  padding-left: 1rem !important;
+	}
+	.nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+	  color: #3d6bb3 !important; /* level 3 — blue */
+	}
+	.nav-list .nav-list .nav-list .nav-list .nav-list-item {
+	  padding-left: 1rem !important;
+	}
+	.nav-list .nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+	  color: #6b5b9e !important; /* level 4 — indigo */
+	}
+	.nav-list .nav-list .nav-list .nav-list .nav-list .nav-list-item {
+	  padding-left: 1rem !important;
+	}
+	.nav-list .nav-list .nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+	  color: #9a4f8f !important; /* level 5 — magenta */
+	}
+	.nav-list .nav-list .nav-list .nav-list .nav-list .nav-list .nav-list-item {
+	  padding-left: 1rem !important;
+	}
+	.nav-list .nav-list .nav-list .nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+	  color: #b3506b !important; /* level 6 — rose */
+	}
+	.nav-list .nav-list .nav-list .nav-list .nav-list .nav-list .nav-list .nav-list-item {
+	  padding-left: 1rem !important;
+	}
+	.nav-list .nav-list .nav-list .nav-list .nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+	  color: #b3703f !important; /* level 7 — amber */
+	}
+
+
+/* -----------------------------------------------------------
+   SECTION LABELS ABOVE NAV GROUPS
+   All rules use :has() matched by href — never by position —
+   so adding/removing nav items never breaks a label.
+----------------------------------------------------------- */
+
+/* Introduction — above Getting Started */
+.nav-list > .nav-list-item:has(> .nav-list-expander[aria-label="Getting Started submenu"]) {
+  &::before {
+    content: "Introduction";
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9b9b9b;
+    padding: 1.25rem 1rem 0.25rem 1rem;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+/* Data Access — sits above Accessing NSHD Data */
+.nav-list > .nav-list-item:has(> .nav-list-expander[aria-label="Accessing NSHD Data submenu"]) {
+  &::before {
+    content: "Data Access";
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9b9b9b;
+    padding: 1.25rem 1rem 0.25rem 1rem;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+/* Search Methods — above Search Overview (parent nav item), which stays
+   highlighted for all its child pages including Search Data Dictionary. */
+.nav-list > .nav-list-item:has(> .nav-list-expander[aria-label="Search Overview submenu"]) {
+  &::before {
+    content: "Search Methods";
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9b9b9b;
+    padding: 1.25rem 1rem 0.25rem 1rem;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+/* Explore documentation - uses the clipboard icon. Do not use this icon for any other page on that level*/
+.nav-list > .nav-list-item:has(> a.nav-list-link > i.ti-clipboard-list) {
+  &::before {
+    content: "Explore documentation";
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9b9b9b;
+    padding: 1.25rem 1rem 0.25rem 1rem;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+/* Data sharing - a section of its own, below Explore documentation (nav_order 30; Explore documentation uses the 20s).
+   Same method as Explore documentation: matched by the share icon in the page title, which works when the page is open
+   and when it is not, and cannot match anything else. Do not use the share icon (ti-share) for any other top-level page.
+   If the icon is ever changed, change it here, in data_sharing.html's title, and in the parent: line of its child pages. */
+.nav-list > .nav-list-item:has(> a.nav-list-link > i.ti-share) {
+  &::before {
+    content: "Data sharing";
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #9b9b9b;
+    padding: 1.25rem 1rem 0.25rem 1rem;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+
+
+	/* -----------------------------------------------------------
+	   CATEGORY TREE — MATCH ORIGINAL HTML
+	----------------------------------------------------------- */
+
+	.main-content h1:first-of-type,
+	.page-content h1:first-of-type,
+	.main-content > h1:first-of-type,
+	.page-content > h1:first-of-type {
+		font-size: 20px !important;
+		font-weight: bold !important;
+		color: #800020 !important;
+		text-decoration: none !important;
+		margin-top: 10px !important;
+	}
+
+	.main-content h1:nth-of-type(2),
+	.page-content h1:nth-of-type(2),
+	.main-content > h1:nth-of-type(2),
+	.page-content > h1:nth-of-type(2) {
+		font-size: 14px !important;
+		font-weight: normal !important;
+		color: #444 !important;
+		text-decoration: underline !important;
+		margin-top: 8px !important;
+	}
+
+	.main-content h2,
+	.page-content h2,
+	.main-content > h2,
+	.page-content > h2 {
+		font-size: 14px !important;
+		font-weight: normal !important;
+		color: #333 !important;
+		margin-top: 15px !important;
+		margin-bottom: 6px !important;
+	}
+
+	.main-content p > a[href*="data_dict"],
+	.page-content p > a[href*="data_dict"] {
+		display: inline-block !important;
+		padding: 6px 12px !important;
+		background: #0078d4 !important;
+		color: white !important;
+		border-radius: 4px !important;
+		text-decoration: none !important;
+		font-weight: 300 !important;
+		font-size: 14px !important;
+	}
+
+
+/* GLOBAL basket icon styling */
+.navbar #basketTop,
+#basketTop {
+  display: flex !important;
+  align-items: center !important;
+  background: #f3e5f5 !important;
+  padding: 18px 12px !important;
+  border-radius: 6px !important;
+  font-weight: bold !important;
+  color: #4b067a !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+#basketWrapper {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+#basketDropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  border-radius: 8px;
+  display: none;
+  width: 220px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  z-index: 999;
+  font-size: 14px;
+}
+
+#basketDropdown .preview-header {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.basket-preview-item {
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+}
+
+#basketDropdown .view-full {
+  margin-top: 8px;
+  text-align: right;
+  font-weight: bold;
+  color: #6b4ce6;
+  cursor: pointer;
+}
+
+.basket-preview-item:last-child {
+  border-bottom: none;
+}
+
+#basketTop.basket-glow {
+  box-shadow: 0 0 10px 4px rgba(128, 0, 255, 0.6);
+  border-radius: 6px;
+  transition: box-shadow 0.3s ease;
+}
+
+#basketTop.basket-glow-pulse {
+  box-shadow: 0 0 14px 6px rgba(128, 0, 255, 0.8);
+}
+
+#basketTop.shake {
+  animation: shakeAnim 0.3s;
+}
+
+@keyframes shakeAnim {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+
+#basketCount.added {
+  animation: pulseCount 0.4s ease;
+}
+
+@keyframes pulseCount {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}

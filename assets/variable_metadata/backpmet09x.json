@@ -1,0 +1,718 @@
+{
+  "varname": "backpmet09x",
+  "label": "Average backpacking MET hour/week - recoded to cap outlier values - at age 60-64 years",
+  "field_id": "13421",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13421",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "MET hour/week",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.3056891087934656,
+  "sd": 0.9968052865822169,
+  "series_size": 2120.0,
+  "minimum": 0.0,
+  "maximum": 4.84615421295166,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "backpmet09",
+    "backpack09_dx",
+    "backpack09_wx",
+    "backpack09_w",
+    "backpack09_d"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "backpmet09x",
+    "label": "Average backpacking MET hour/week - recoded to cap outlier values - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "backpmet09x"
+      ],
+      [
+        "Field ID",
+        "13421"
+      ],
+      [
+        "Label",
+        "Average backpacking MET hour/week - recoded to cap outlier values - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "MET hour/week"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Recreational Sport Activities (swimming-leisure; swimming-competitive; walking; backpacking; competitive running; jogging; cycling-pleasure; cycling-racing; high impact aerobics; other aerobics; exercises with weights; conditioning exercises; floor exercises; snooker; bowling; tennis; squash; table tennis; golf; netball; football; cricket; dancing; horse-riding; fishing; rowing; sailing; ice-skating; skiing; martial arts). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "backpmet09",
+        "Average backpacking MET hour/week - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "backpack09_dx",
+        "Activity Duration 'backpacking' [hours/day] - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "backpack09_wx",
+        "Activity Duration 'backpacking' [hours/week] - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "backpack09_w",
+        "Activity Duration 'backpacking' [hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "backpack09_d",
+        "Activity Duration 'backpacking' [hours/day] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "4.84615421295166"
+      ],
+      [
+        "Range",
+        "4.84615421295166"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.0"
+      ],
+      [
+        "Decile 9",
+        "0.0"
+      ],
+      [
+        "Mean",
+        "0.3056891087934656"
+      ],
+      [
+        "Std Dev.",
+        "0.9968052865822169"
+      ],
+      [
+        "Variance",
+        "0.9936207793582555"
+      ],
+      [
+        "Displayed N",
+        "2120"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "backpmet09x",
+    "label": "Average backpacking MET hour/week - recoded to cap outlier values - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13421",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "backpmet09x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13421",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Average backpacking MET hour/week - recoded to cap outlier values - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "MET hour/week",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Recreational Sport Activities (swimming-leisure; swimming-competitive; walking; backpacking; competitive running; jogging; cycling-pleasure; cycling-racing; high impact aerobics; other aerobics; exercises with weights; conditioning exercises; floor exercises; snooker; bowling; tennis; squash; table tennis; golf; netball; football; cricket; dancing; horse-riding; fishing; rowing; sailing; ice-skating; skiing; martial arts). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "backpmet09",
+        "description": "Average backpacking MET hour/week - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "backpack09_dx",
+        "description": "Activity Duration 'backpacking' [hours/day] - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "backpack09_wx",
+        "description": "Activity Duration 'backpacking' [hours/week] - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "backpack09_w",
+        "description": "Activity Duration 'backpacking' [hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "backpack09_d",
+        "description": "Activity Duration 'backpacking' [hours/day] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "MET hour/week",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          0.05210918508550172,
+          0.10421837017100344,
+          0.15632755525650516,
+          0.20843674034200688,
+          0.2605459254275086,
+          0.3126551105130103,
+          0.36476429559851203,
+          0.41687348068401375,
+          0.46898266576951547,
+          0.5210918508550172,
+          0.5732010359405189,
+          0.6253102210260206,
+          0.6774194061115224,
+          0.7295285911970241,
+          0.7816377762825257,
+          0.8337469613680275,
+          0.8858561464535293,
+          0.9379653315390309,
+          0.9900745166245326,
+          1.0421837017100344,
+          1.0942928867955362,
+          1.1464020718810377,
+          1.1985112569665395,
+          1.2506204420520413,
+          1.302729627137543,
+          1.3548388122230448,
+          1.4069479973085464,
+          1.4590571823940481,
+          1.51116636747955,
+          1.5632755525650515,
+          1.6153847376505532,
+          1.667493922736055,
+          1.7196031078215568,
+          1.7717122929070586,
+          1.8238214779925601,
+          1.8759306630780619,
+          1.9280398481635637,
+          1.9801490332490652,
+          2.032258218334567,
+          2.0843674034200688,
+          2.1364765885055705,
+          2.1885857735910723,
+          2.240694958676574,
+          2.2928041437620754,
+          2.344913328847577,
+          2.397022513933079,
+          2.4491316990185807,
+          2.5012408841040825,
+          2.5533500691895843,
+          2.605459254275086,
+          2.657568439360588,
+          2.7096776244460896,
+          2.761786809531591,
+          2.8138959946170927,
+          2.8660051797025945,
+          2.9181143647880963,
+          2.970223549873598,
+          3.0223327349591,
+          3.0744419200446016,
+          3.126551105130103,
+          3.1786602902156047,
+          3.2307694753011065,
+          3.2828786603866082,
+          3.33498784547211,
+          3.387097030557612,
+          3.4392062156431136,
+          3.4913154007286153,
+          3.543424585814117,
+          3.5955337708996185,
+          3.6476429559851202,
+          3.699752141070622,
+          3.7518613261561238,
+          3.8039705112416256,
+          3.8560796963271273,
+          3.908188881412629,
+          3.9602980664981304,
+          4.012407251583633,
+          4.064516436669134,
+          4.116625621754636,
+          4.1687348068401375,
+          4.220843991925639,
+          4.272953177011141,
+          4.325062362096642,
+          4.377171547182145,
+          4.429280732267646,
+          4.481389917353148,
+          4.5334991024386495,
+          4.585608287524151,
+          4.637717472609653,
+          4.689826657695154,
+          4.741935842780657,
+          4.794045027866158,
+          4.84615421295166
+        ],
+        "counts": [
+          1911,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          26,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          77,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          37
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0,
+        "max": 4.84615421295166
+      },
+      "units": "MET hour/week"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "4.84615421295166"
+      ],
+      [
+        "Range",
+        "4.84615421295166"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.0"
+      ],
+      [
+        "Decile 9",
+        "0.0"
+      ],
+      [
+        "Mean",
+        "0.3056891087934656"
+      ],
+      [
+        "Std Dev.",
+        "0.9968052865822169"
+      ],
+      [
+        "Variance",
+        "0.9936207793582555"
+      ],
+      [
+        "Displayed N",
+        "2120"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

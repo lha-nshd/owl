@@ -1,0 +1,169 @@
+---
+layout: default
+title: Word in noise - Insight46 phase 1
+parent: Search Documentation
+nav_exclude: true
+permalink: /docs/documentation/word-in-noise-insight46-phase-1/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-table" aria-hidden="true"></i> Word in noise - Insight46 phase 1</h1>
+    <p class="doc-byline">Sarah James, Carole Sudre . March 2021</p>
+    
+    <a class="doc-pdf-download" href="/OWL/assets/pdfs/documentation/word-in-noise-insight46-phase-1.pdf" download><i class="ti ti-download" aria-hidden="true"></i> Download PDF version</a>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#document-details"><i class="ti ti-list-details" aria-hidden="true"></i> Document details</a></li><li><a href="#background"><i class="ti ti-file-text" aria-hidden="true"></i> Background</a></li><li><a href="#variables"><i class="ti ti-list-check" aria-hidden="true"></i> Variables in this document</a></li>
+    </ul>
+    <a href="/OWL/docs/documentation/documentation-search/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Documentation</a>
+  </div>
+
+  <div class="home-section gs-card-blue" id="document-details"><h2><i class="ti ti-list-details" aria-hidden="true"></i> Document details</h2><details class="doc-details-box" open><summary>Document details <span class="doc-var-hint">(click to collapse)</span></summary><table class="doc-details-table"><tbody><tr><td>Categories of variables</td><td>Imaging outcome measure – normal appering white mtter (NAWM)  diffusion tensor imaging (DTI) parameters indexing microstructural integrity including:<br><br>1. fractional anisotropy (FA)<br><br>2.  mean diffusivity (MD)<br><br>3. neurite orientation dispersion and density imaging (NODDI) derived parameters of neurite density index (NDI)<br><br>4. neurite orientation dispersion and density imaging (NODDI) derived parameters of orientation dispersion index (ODI)<br><br>Alterations of NAWM integrity can be assessed by diffusion tensor imaging (DTI) which enables sensitive estimation of white matter tissue microstructure environments using water diffusion properties. Parameters typically include fractional anisotropy (FA), a measure of directionality, and mean diffusivity (MD), a measure of magnitude of diffusion. Additional multicompartmental modelling techniques have been developed to address limitations in these conventional measures. For example, neurite orientation dispersion and density imaging (NODDI) estimates microstructural complexity parameters of neurite density index (NDI), a measure of fraction of axons and dendrites; and orientation dispersion index (ODI), a measure of variability of neurite orientation (5). Lower values for FA and NDI and higher values for MD and ODI are thought to represent worse microstructural integrity.</td></tr><tr><td>Summary of work undertaken</td><td>Cleaning±<br><br>**Description/Rationale:**<br><br>DTI cleaning pipeline requires:<br><br>QC’d DTI scans: shell b700 (for FA, MD) and shell b2000 (for NODDI ODI FICVF)<br><br>To generate NAWM metrics requires:<br><br>QC’d DTI scans<br><br>QC’d T1, T2 and FLAIR<br><br>BaMoS final WMH masks<br><br>FA, MD and NODDI masks<br><br>**Values:**<br><br>Mean NAWM values for FA, MD, ODI and FICVF were generated.</td></tr><tr><td>Names of source variables</td><td>is, the, only, variable, of, interest, that, is, extracted, from, these, source, files, for, the, final, datafile</td></tr><tr><td>Output variables</td><td>qc_nawm_all_i46p1, qc_nawm_all_noddi_i46p1, qc_nawmreason_i46p1, nawmz_fa_f_i46p1, nawmz_md_f_i46p1, nawmz_ficvf_f_i46p1, nawmroa_fa_f_i46p1, nawmroa_md_f_i46p1, nawmz_odi_f_i46p1, nawmroa_ficvf_f_i46p1, nawmroa_odi_f_i46p1</td></tr><tr><td>Papers using these variables</td><td>In progress</td></tr></tbody></table></details></div>
+
+  <div class="home-section gs-card-search" id="background"><h2><i class="ti ti-file-text" aria-hidden="true"></i> Background</h2><div class="doc-content-body"><p>Alterations of NAWM integrity can be assessed by diffusion tensor imaging (DTI) which enables sensitive estimation of white matter tissue microstructure environments using water diffusion properties. Parameters typically include fractional anisotropy (FA), a measure of directionality, and mean diffusivity (MD), a measure of magnitude of diffusion. Additional multicompartmental modelling techniques have been developed to address limitations in these conventional measures. For example, neurite orientation dispersion and density imaging (NODDI) estimates microstructural complexity parameters of neurite density index (NDI), a measure of fraction of axons and dendrites; and orientation dispersion index (ODI), a measure of variability of neurite orientation (5). Lower values for FA and NDI and higher values for MD and ODI are thought to represent worse microstructural integrity.</p>
+<table><tr><td><strong>DTI NAWM: reason failed</strong></td><td>Freq.</td><td>Percent</td><td>Cum.</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>pass</td><td>411</td><td>81.87</td><td>81.87</td></tr><tr><td>T1 fail</td><td>3</td><td>0.6</td><td>82.47</td></tr><tr><td>FLAIR fail</td><td>3</td><td>0.6</td><td>83.07</td></tr><tr><td>BAMOS segmentation fail</td><td>1</td><td>0.2</td><td>83.27</td></tr><tr><td>cortical stroke mis-segmented</td><td>5</td><td>1</td><td>84.26</td></tr><tr><td>demyelination mis-segmentated</td><td>3</td><td>0.6</td><td>84.86</td></tr><tr><td>vascular anommaly mis-segmented</td><td>1</td><td>0.2</td><td>85.06</td></tr><tr><td>no scan</td><td>31</td><td>6.18</td><td>91.24</td></tr><tr><td>short scan protocol (no dti)</td><td>17</td><td>3.39</td><td>94.62</td></tr><tr><td>QC DTI B700 fail</td><td>14</td><td>2.79</td><td>97.41</td></tr><tr><td>QC DTI B2000/noddi fail</td><td>13</td><td>2.59</td><td>100</td></tr></table>
+
+<table><tr><td></td><td>Freq.</td><td>Percent</td><td>Cum.</td></tr><tr><td><strong>in46_w1_qc_nawm_all</strong></td><td></td><td></td><td></td></tr><tr><td>0 = didn't pass</td><td>78</td><td>15.54</td><td>15.54</td></tr><tr><td>1 = pass</td><td>424</td><td>84.46</td><td>100</td></tr></table>
+
+<table><tr><td></td><td>Freq.</td><td>Percent</td><td>Cum.</td></tr><tr><td><strong>in46_w1_qc_nawm_all_noddi</strong></td><td></td><td></td><td></td></tr><tr><td>0 = didn't pass</td><td>91</td><td>18.13</td><td>18.13</td></tr><tr><td>1 = pass</td><td>411</td><td>81.87</td><td>100</td></tr></table></div></div>
+
+  <div class="home-section gs-card-basket" id="variables">
+    <h2><i class="ti ti-list-check" aria-hidden="true"></i> Variables in this document</h2>
+    <div class="doc-topic-note"><i class="ti ti-folder" aria-hidden="true"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Sub-Studies_57.html" target="_blank" rel="noopener">Sub-Studies [57]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Insight46_699.html" target="_blank" rel="noopener">Insight46 [699]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Brain_MRI_6033.html" target="_blank" rel="noopener">Brain MRI [6033]</a> <i class="ti ti-chevron-right" aria-hidden="true" style="font-size:11px;"></i> <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Normal_appearing_white_matter_(NAWM)_60333.html" target="_blank" rel="noopener">Normal appearing white matter (NAWM) [60333]</a></div><div class="doc-topic-note doc-topic-secondary"><i class="ti ti-info-circle" aria-hidden="true"></i> Also touches: <a href="/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_and_circulatory_conditions_51014.html" target="_blank" rel="noopener">Heart and circulatory conditions [51014]</a></div>
+    
+    <div class="doc-var-box doc-var-high"><div class="doc-var-header"><span><b>11</b> high-confidence matches</span><button class="doc-var-add-btn" data-tier="high" data-state="add">Add all to basket</button></div><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Normal_appearing_white_matter_(NAWM)_60333.html" target="_blank" rel="noopener" title="Sub-Studies [57] › Insight46 [699] › Brain MRI [6033] › Normal appearing white matter (NAWM) [60333]">Normal appearing white matter (NAWM) [60333]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nawmroa_fa_f_i46p1.html" target="_blank" rel="noopener">nawmroa_fa_f_i46p1</a></td><td>QC'd normal appearing white matter (nawm) mean fractional anisotropy (fa) - raw value - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nawmroa_fa_f_i46p1" data-label="QC'd normal appearing white matter (nawm) mean fractional anisotropy (fa) - raw value - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nawmroa_ficvf_f_i46p1.html" target="_blank" rel="noopener">nawmroa_ficvf_f_i46p1</a></td><td>QC'd normal appearing white matter (nawm) mean intracellular volume fraction (ficvf) raw value - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nawmroa_ficvf_f_i46p1" data-label="QC'd normal appearing white matter (nawm) mean intracellular volume fraction (ficvf) raw value - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nawmroa_md_f_i46p1.html" target="_blank" rel="noopener">nawmroa_md_f_i46p1</a></td><td>QC'd normal appearing white matter (nawm) mean diffusivity (md) - raw value - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nawmroa_md_f_i46p1" data-label="QC'd normal appearing white matter (nawm) mean diffusivity (md) - raw value - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nawmroa_odi_f_i46p1.html" target="_blank" rel="noopener">nawmroa_odi_f_i46p1</a></td><td>QC'd normal appearing white matter (nawm) mean orientation dispersion index (odi) - raw value - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nawmroa_odi_f_i46p1" data-label="QC'd normal appearing white matter (nawm) mean orientation dispersion index (odi) - raw value - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nawmz_fa_f_i46p1.html" target="_blank" rel="noopener">nawmz_fa_f_i46p1</a></td><td>QC'd normal appearing white matter (nawm) mean fractional anisotropy (fa) - standardised to control sample - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nawmz_fa_f_i46p1" data-label="QC'd normal appearing white matter (nawm) mean fractional anisotropy (fa) - standardised to control sample - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nawmz_ficvf_f_i46p1.html" target="_blank" rel="noopener">nawmz_ficvf_f_i46p1</a></td><td>QC'd normal appearing white matter (nawm) mean intracellular volume fraction (ficvf) - standardised to control sample - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nawmz_ficvf_f_i46p1" data-label="QC'd normal appearing white matter (nawm) mean intracellular volume fraction (ficvf) - standardised to control sample - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nawmz_md_f_i46p1.html" target="_blank" rel="noopener">nawmz_md_f_i46p1</a></td><td>QC'd normal appearing white matter (nawm) mean diffusivity (md) - standardised to control sample - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nawmz_md_f_i46p1" data-label="QC'd normal appearing white matter (nawm) mean diffusivity (md) - standardised to control sample - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/nawmz_odi_f_i46p1.html" target="_blank" rel="noopener">nawmz_odi_f_i46p1</a></td><td>QC'd normal appearing white matter (nawm) mean orientation dispersion index (ODI) - standardised to control sample - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="nawmz_odi_f_i46p1" data-label="QC'd normal appearing white matter (nawm) mean orientation dispersion index (ODI) - standardised to control sample - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/qc_nawm_all_i46p1.html" target="_blank" rel="noopener">qc_nawm_all_i46p1</a></td><td>Diffusion tensor imaging (DTI) all reasons: 0 (don't use) 1 (use) - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="qc_nawm_all_i46p1" data-label="Diffusion tensor imaging (DTI) all reasons: 0 (don't use) 1 (use) - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/qc_nawm_all_noddi_i46p1.html" target="_blank" rel="noopener">qc_nawm_all_noddi_i46p1</a></td><td>Diffusion tensor imaging (DTI) neurite orientation dispersion and density imaging (NODDI) all reasons: 0 (don't use) 1 (use) - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="qc_nawm_all_noddi_i46p1" data-label="Diffusion tensor imaging (DTI) neurite orientation dispersion and density imaging (NODDI) all reasons: 0 (don't use) 1 (use) - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr><tr><td><a href="/OWL/assets/variable_metadata/qc_nawmreason_i46p1.html" target="_blank" rel="noopener">qc_nawmreason_i46p1</a></td><td>Diffusion tensor imaging (DTI) normal appearing white matter (NAWM): reason failed - Cross-sectional - Insight46 phase 1</td><td>topsheet field</td><td><input type="checkbox" class="doc-var-checkbox" data-var="qc_nawmreason_i46p1" data-label="Diffusion tensor imaging (DTI) normal appearing white matter (NAWM): reason failed - Cross-sectional - Insight46 phase 1" data-tier="high"></td></tr></tbody></table></div><details class="doc-var-box doc-var-medium"><summary><b>1</b> medium-confidence match <span class="doc-var-hint">(click for details)</span></summary><p class="doc-var-note">Reasonably confident plain-text matches — worth a look, but not added in bulk.</p><table class="doc-var-table"><thead><tr><th>Variable</th><th>Label</th><th>How it was found</th><th>Add</th></tr></thead><tbody><tr class="doc-var-topic-row"><td colspan="4"><i class="ti ti-folder" aria-hidden="true"></i> <a class="doc-topic-chip" href="/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_and_circulatory_conditions_51014.html" target="_blank" rel="noopener" title="Questionnaire data [55] › Health and medical history [510] › Medical conditions [5101] › Heart and circulatory conditions [51014]">Heart and circulatory conditions [51014]</a></td></tr><tr><td><a href="/OWL/assets/variable_metadata/stroke.html" target="_blank" rel="noopener">stroke</a></td><td>Have you had a stroke in the last 10 years - at age 53 years</td><td>prose scan</td><td><input type="checkbox" class="doc-var-checkbox" data-var="stroke" data-label="Have you had a stroke in the last 10 years - at age 53 years" data-tier="medium"></td></tr></tbody></table></details>
+    <details class="doc-legend-box"><summary>How variables get found <span class="doc-var-hint">(click for details)</span></summary><table class="doc-legend-table"><tbody><tr><td>Topsheet field</td><td>Named directly in the topsheet’s structured &quot;Output variables&quot; row — someone deliberately typed this name to mean exactly this. The most reliable method there is.</td></tr><tr><td>Prose scan</td><td>Found as ordinary text in the body — the fallback used when a document has no structured field, bold heading, or template. Confidence depends on how short and common the word is, since short variable-shaped words occasionally match by coincidence.</td></tr></tbody></table></details>
+    <p id="basketDoneMsg" class="doc-var-done-msg"></p>
+  </div>
+
+</div>
+
+<style>
+.doc-content-body { font-size: 14px; line-height: 1.7; color: #333; }
+.doc-content-body h1, .doc-content-body h2, .doc-content-body h3 { font-size: 15px; font-weight: 700; color: #3a0066; margin: 16px 0 6px; }
+.doc-content-body p { margin: 0 0 10px; }
+.doc-content-body img { max-width: 100%; height: auto; display: block; margin: 10px 0; border-radius: 4px; border: 1px solid rgba(0,0,0,0.08); }
+.doc-content-body table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin: 10px 0; }
+.doc-content-body th, .doc-content-body td { padding: 5px 8px; border: 1px solid rgba(0,0,0,0.12); text-align: left; }
+.doc-content-body th { background: PowderBlue; }
+.doc-subheading { display: block; margin-bottom: 1em; }
+.doc-byline { font-size:13px; color:#555; margin:2px 0 6px; }
+.doc-description { font-size:14px; color:#333; margin:0; }
+.doc-pdf-download { display:inline-flex; align-items:center; gap:6px; margin-top:10px; padding:6px 14px; background:#1a4d7a; color:#fff; border-radius:6px; text-decoration:none; font-size:13px; font-weight:600; }
+.doc-pdf-download:hover { background:#123a5c; }
+.doc-details-box { margin: 8px 0; }
+.doc-details-box summary { cursor: pointer; font-size: 14px; font-weight: 600; color: #1a4d7a; list-style: none; }
+.doc-details-box summary::-webkit-details-marker { display: none; }
+.doc-details-table { width: auto; max-width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 10px; }
+.doc-details-table td { padding: 6px 12px; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
+.doc-details-table td:first-child { font-weight: 600; color: #333; white-space: nowrap; }
+.doc-details-table td:last-child { color: #444; word-break: break-word; }
+.doc-legend-box { margin: 12px 0 4px; }
+.doc-legend-box summary { cursor: pointer; font-size: 13px; font-weight: 600; color: #1a4d7a; list-style: none; }
+.doc-legend-box summary::-webkit-details-marker { display: none; }
+.doc-legend-table { width: auto; max-width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+.doc-legend-table td { padding: 5px 12px; border-bottom: 1px solid rgba(0,0,0,0.08); vertical-align: top; }
+.doc-legend-table td:first-child { font-weight: 600; color: #333; white-space: nowrap; }
+.doc-legend-table td:last-child { color: #555; }
+.doc-topic-note { font-size:13px; color:#333; margin:8px 0; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.doc-topic-secondary { color:#7a5b00; font-size:12px; }
+.doc-topic-uncat { color:#7a1f1f; font-style:italic; }
+.doc-var-box { border-radius: 8px; padding: 14px 18px; margin: 14px 0; }
+.doc-var-high   { background: hsl(125 35% 95%); border: 1px solid hsl(125 35% 55%); }
+.doc-var-medium { background: hsl(210 45% 96%); border: 1px solid hsl(210 45% 55%); }
+.doc-var-low    { background: hsl(35 60% 96%);  border: 1px solid hsl(35 60% 55%); }
+.doc-var-header { display: flex; align-items: center; justify-content: space-between; font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+.doc-var-box summary { cursor: pointer; font-size: 14px; font-weight: 600; list-style: none; }
+.doc-var-box summary::-webkit-details-marker { display: none; }
+.doc-var-hint { font-weight: 400; font-size: 12px; opacity: 0.7; }
+.doc-var-note { font-size: 12.5px; color: #555; margin: 8px 0; }
+.doc-var-empty { font-size: 13px; color: #666; font-style: italic; }
+.doc-var-add-btn { background: #4CAF50; color: white; border: none; border-radius: 4px; padding: 6px 14px; font-size: 13px; cursor: pointer; }
+.doc-var-add-btn:hover { background: #45a049; }
+.doc-var-table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 6px; }
+.doc-var-table th { text-align: left; padding: 6px 10px; border-bottom: 2px solid rgba(0,0,0,0.15); }
+.doc-var-table td { padding: 5px 10px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.doc-var-table td:first-child { font-family: monospace; white-space: nowrap; }
+.doc-var-table td:first-child a { color: #1a4d7a; text-decoration: none; }
+.doc-var-table td:first-child a:hover { text-decoration: underline; }
+.doc-var-table td:last-child { text-align: center; }
+.doc-var-table .doc-var-topic-row td { font-family: inherit; font-size: 12px; font-weight: 700; color: #444; background: rgba(0,0,0,0.035); padding: 5px 10px; border-bottom: 1px solid rgba(0,0,0,0.08); white-space: normal; text-align: left; }
+.doc-topic-chip { display:inline-block; background: hsl(200 55% 92%); color: hsl(200 55% 22%); padding: 2px 10px; border-radius: 10px; text-decoration: none; font-size: 11px; font-weight: 600; cursor: pointer; }
+.doc-topic-chip:hover { background: hsl(200 55% 85%); }
+.doc-topic-chip-plain { cursor: help; font-size: 11px; }
+.doc-var-checkbox { width: 16px; height: 16px; cursor: pointer; accent-color: #4CAF50; }
+.doc-var-done-msg { color: #27500A; font-weight: 600; margin: 10px 0; }
+</style>
+
+<script type="application/json" id="docVariableData">
+{"high": [{"variable": "nawmroa_fa_f_i46p1", "label": "QC'd normal appearing white matter (nawm) mean fractional anisotropy (fa) - raw value - Cross-sectional - Insight46 phase 1"}, {"variable": "nawmroa_ficvf_f_i46p1", "label": "QC'd normal appearing white matter (nawm) mean intracellular volume fraction (ficvf) raw value - Cross-sectional - Insight46 phase 1"}, {"variable": "nawmroa_md_f_i46p1", "label": "QC'd normal appearing white matter (nawm) mean diffusivity (md) - raw value - Cross-sectional - Insight46 phase 1"}, {"variable": "nawmroa_odi_f_i46p1", "label": "QC'd normal appearing white matter (nawm) mean orientation dispersion index (odi) - raw value - Cross-sectional - Insight46 phase 1"}, {"variable": "nawmz_fa_f_i46p1", "label": "QC'd normal appearing white matter (nawm) mean fractional anisotropy (fa) - standardised to control sample - Cross-sectional - Insight46 phase 1"}, {"variable": "nawmz_ficvf_f_i46p1", "label": "QC'd normal appearing white matter (nawm) mean intracellular volume fraction (ficvf) - standardised to control sample - Cross-sectional - Insight46 phase 1"}, {"variable": "nawmz_md_f_i46p1", "label": "QC'd normal appearing white matter (nawm) mean diffusivity (md) - standardised to control sample - Cross-sectional - Insight46 phase 1"}, {"variable": "nawmz_odi_f_i46p1", "label": "QC'd normal appearing white matter (nawm) mean orientation dispersion index (ODI) - standardised to control sample - Cross-sectional - Insight46 phase 1"}, {"variable": "qc_nawm_all_i46p1", "label": "Diffusion tensor imaging (DTI) all reasons: 0 (don't use) 1 (use) - Cross-sectional - Insight46 phase 1"}, {"variable": "qc_nawm_all_noddi_i46p1", "label": "Diffusion tensor imaging (DTI) neurite orientation dispersion and density imaging (NODDI) all reasons: 0 (don't use) 1 (use) - Cross-sectional - Insight46 phase 1"}, {"variable": "qc_nawmreason_i46p1", "label": "Diffusion tensor imaging (DTI) normal appearing white matter (NAWM): reason failed - Cross-sectional - Insight46 phase 1"}], "medium": [{"variable": "stroke", "label": "Have you had a stroke in the last 10 years - at age 53 years"}], "low": []}
+</script>
+
+<script>
+(function () {
+  var data = JSON.parse(document.getElementById('docVariableData').textContent);
+
+  function tierItems(tier) {
+    return (data[tier] || []).map(function (v) { return { varName: v.variable, label: v.label }; });
+  }
+
+  function updateBulkButton(tier) {
+    var btn = document.querySelector('.doc-var-add-btn[data-tier="' + tier + '"]');
+    if (!btn) return;
+    var items = tierItems(tier);
+    var allIn = items.length > 0 && items.every(function (i) {
+      return typeof isInBasket === 'function' && isInBasket(i.varName);
+    });
+    btn.setAttribute('data-state', allIn ? 'remove' : 'add');
+    btn.textContent = allIn ? 'Remove all from basket' : 'Add all to basket';
+  }
+
+  document.querySelectorAll('.doc-var-checkbox').forEach(function (box) {
+    if (typeof isInBasket === 'function' && isInBasket(box.getAttribute('data-var'))) {
+      box.checked = true;
+    }
+    box.addEventListener('change', function () {
+      var varName = box.getAttribute('data-var');
+      var label = box.getAttribute('data-label');
+      var tier = box.getAttribute('data-tier');
+      if (box.checked) { addToBasket(varName, label); }
+      else { removeFromBasket(varName); }
+      if (tier) updateBulkButton(tier);
+    });
+  });
+
+  document.querySelectorAll('.doc-var-add-btn').forEach(function (btn) {
+    var tier = btn.getAttribute('data-tier');
+    updateBulkButton(tier);
+
+    btn.addEventListener('click', function () {
+      var items = tierItems(tier);
+      if (!items.length) return;
+      var removing = btn.getAttribute('data-state') === 'remove';
+
+      if (removing) {
+        items.forEach(function (i) { removeFromBasket(i.varName); });
+      } else {
+        batchAddToBasket(items);
+      }
+
+      document.querySelectorAll('.doc-var-checkbox[data-tier="' + tier + '"]').forEach(function (box) {
+        box.checked = !removing;
+      });
+      document.getElementById('basketDoneMsg').textContent =
+        items.length + (removing ? ' variables removed from your basket.' : ' variables added to your basket.');
+      updateBulkButton(tier);
+    });
+  });
+})();
+</script>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

@@ -1,0 +1,71 @@
+---
+layout: default
+title: UK LLC Catalogue
+parent: Search Overview
+nav_order: 6
+nav_exclude: false
+classes: page-ukllc-catalogue
+permalink: /docs/search_methods/ukllc_catalogue
+---
+
+<div class="page-ukllc-catalogue"
+     data-xlsx-url="{{ site.baseurl }}/assets/data/search_methods/ukllc_catalogue/File_2_Documentation_Master.xlsx"
+     data-dictionary-url="{{ site.baseurl }}/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json">
+
+  <!-- LOADING SCREEN (shown before data loads) -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="spinner"></div>
+    <div>Loading datasets...</div>
+  </div>
+
+  <!-- MAIN UI (hidden until data loads) -->
+  <div id="dataUI" style="display:none;">
+
+    <div id="ukllc-catalogue-app">
+
+      <!-- HERO BANNER -->
+      <div class="hero-banner">
+        <h1><i class="ti ti-link" aria-hidden="true"></i>UK LLC Catalogue</h1>
+        <p>Browse the datasets deposited into UK LLC. Each row is a single file submitted for a study; open a row to see the variables it contains and their labels. Use the search box below, or the dataset filter and column sorting in the table header, to narrow the list.</p>
+      </div>
+
+      <!-- SEARCH + PAGE SIZE + RESET + PAGINATION -->
+      <div id="search-pagination-top" class="search-pagination-top">
+        <div id="resultsCount"></div>
+        <input id="globalSearch" type="text" placeholder="Search dataset name, description or keyword..." />
+        <select id="pageSize">
+          <option value="15">15</option>
+          <option value="30" selected>30</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+        <button id="resetFiltersBtn">Reset Filters</button>
+        <button id="downloadExcelBtn" class="download-btn download-excel-btn">Download Catalogue</button>
+        <div id="paginationTop"></div>
+      </div>
+
+      <!-- TABLE WRAPPER -->
+      <div id="table-wrapper">
+        <table id="catalogueTable">
+          <thead id="catalogueThead"><!-- header row (with sort + dataset filter) built by ukllc_catalogue.js --></thead>
+          <tbody id="catalogue-body"><!-- rows injected by ukllc_catalogue.js --></tbody>
+        </table>
+      </div>
+
+      <!-- BOTTOM PAGINATION -->
+      <div id="paginationBottom"></div>
+
+    </div>
+  </div> <!-- end dataUI -->
+
+  <!-- Cache-busting: ?v=<build timestamp> forces browsers to fetch a fresh
+       copy of these two files on every site rebuild, instead of serving a
+       stale cached version until someone manually hard-refreshes (this has
+       been the cause of several "why doesn't it show my latest change"
+       reports so far). Doesn't apply to the CDN libraries below, since
+       those are pinned to a fixed version already. -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ukllc_catalogue.css?v={{ site.time | date: '%s' }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/exceljs@4.4.0/dist/exceljs.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/ukllc_catalogue.js?v={{ site.time | date: '%s' }}"></script>
+</div>

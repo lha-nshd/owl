@@ -1,0 +1,324 @@
+/* ------------------------------
+   GLOBAL PAGE STYLES
+--------------------------------*/
+.page-variable-metadata body {
+  background: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.9vw;
+  margin: 0;
+  padding: 0 360px 0px 40px; /* space for wider sidebar */
+  color: black;
+  position: relative;
+}
+
+/* Smooth scrolling */
+.page-variable-metadata html {
+  scroll-behavior: smooth;
+}
+
+/* Vertical divider OUTSIDE sidebar */
+.page-variable-metadata body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 360px; /* sidebar (300px) + padding */
+  width: 1px;
+  height: 100vh;
+  background: rgba(0,0,0,0.08);
+}
+
+/* Back to top button */
+.page-variable-metadata #back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  background: #F3E5F5;
+  color: #2e2d62;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 1.4vw;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  display: none;
+  transition: all 0.2s ease;
+}
+.page-variable-metadata #back-to-top:hover {
+  background: #E8F5E9;
+}
+
+/* ------------------------------
+   GRADIENT HEADER BANNER
+--------------------------------*/
+.page-variable-metadata .nshd-banner {
+  background: linear-gradient(90deg, #F3E5F5 0%, #FDE2F3 40%, #FFF3E0 100%);
+  padding: 14px 22px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin: 60px 370px 0px 0px; /* FIX: stop before sidebar */
+}
+
+.page-variable-metadata .nshd-banner img {
+  max-height: 65px;
+  width: auto;
+}
+
+.page-variable-metadata .nshd-banner h1 {
+  font-size: 1.9vw;
+  margin: 0;
+  color: #2e2d62;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+/* ------------------------------
+   SIDEBAR SUMMARY (RIGHT SIDE)
+--------------------------------*/
+.page-variable-metadata .sidebar-summary {
+  position: fixed;
+  top: 260px;
+  right: 20px;
+  width: 300px;
+  padding: 15px 20px;
+  background: linear-gradient(180deg, #F3E5F5, #FFF3E0);
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  font-size: 0.9vw;
+}
+
+.page-variable-metadata .sidebar-summary h3 {
+  margin-top: 0;
+  color: #2e2d62;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.page-variable-metadata .sidebar-summary ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.page-variable-metadata .sidebar-summary li {
+  margin-bottom: 6px;
+}
+
+.page-variable-metadata .sidebar-summary li a {
+  display: inline-block;
+  padding: 4px 2px;
+  color: #2e2d62;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.page-variable-metadata .sidebar-summary li a:hover {
+  background: rgba(255,255,255,0.6);
+  border-left: 3px solid #9c27b0;
+}
+
+.page-variable-metadata .sidebar-summary li a.active {
+  background: rgba(255,255,255,0.9);
+  border-left: 3px solid #9c27b0;
+  font-weight: 600;
+}
+
+/* ------------------------------
+   TABLE STYLING (PASTEL THEME)
+--------------------------------*/
+.page-variable-metadata .results table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  margin-top: 10px !important;
+  table-layout: fixed;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e0d4eb;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+/* Column colours */
+.page-variable-metadata .results table td:first-child,
+.page-variable-metadata .results table th:first-child {
+  background: #F3E5F5;
+}
+
+.page-variable-metadata .results table td:nth-child(2),
+.page-variable-metadata .results table th:nth-child(2) {
+  background: #E8F5E9;
+  max-width: 70%;
+  width: auto;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+/* Hover effect */
+.page-variable-metadata .results table tr:hover td {
+  background: rgba(0,0,0,0.04);
+  transition: background 0.15s ease;
+}
+
+.page-variable-metadata .results table th {
+  color: #2e2d62;
+  padding: 8px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.page-variable-metadata .results table td {
+  padding: 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* ------------------------------
+   NESTED FREQUENCY TABLE
+--------------------------------*/
+.page-variable-metadata .results table table td:first-child {
+  background: #FADADD !important; /* pastel rose — Value column */
+}
+
+.page-variable-metadata .results table table td:nth-child(2) {
+  background: #FFF9C4 !important; /* pastel lemon — Count column */
+  max-width: none;
+  width: auto;
+}
+
+.page-variable-metadata .results table table th {
+  color: #2e2d62;
+  border-bottom: 2px solid #B0D4E8;
+}
+
+.page-variable-metadata .results table table td {
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+/* ------------------------------
+   PER-TABLE WIDTH CLASSES
+--------------------------------*/
+.page-variable-metadata .w-12-70 td:first-child { width: 12% !important; }
+.page-variable-metadata .w-12-70 td:nth-child(2) { width: 70% !important; }
+
+.page-variable-metadata .w-18-60 td:first-child { width: 18% !important; }
+.page-variable-metadata .w-18-60 td:nth-child(2) { width: 60% !important; }
+
+.page-variable-metadata .w-22-70 td:first-child { width: 22% !important; }
+.page-variable-metadata .w-22-70 td:nth-child(2) { width: 70% !important; }
+
+/* ------------------------------
+   SECTION TITLES
+--------------------------------*/
+.page-variable-metadata h2 {
+  margin-top: 40px;
+  margin-right: 340px; /* FIX: stop before sidebar */
+  color: #2e2d62;
+  padding-bottom: 4px;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(90deg, #F3E5F5, #FDE2F3, #FFF3E0) 1;
+  position: relative;
+}
+
+
+
+.page-variable-metadata #variable-metadata-table { width: 70% !important; }
+.page-variable-metadata #linked-variables-table { width: 80% !important; }
+.page-variable-metadata #associated-documents-table { width: 60% !important; }
+.page-variable-metadata #category-memberships-table { width: 70% !important; }
+.page-variable-metadata #value-labels-table { width: 35% !important; }
+
+/* ------------------------------
+   Variable metdata COLUMN COLOURS
+--------------------------------*/
+
+/* Header row for variable-metadata-table */
+.page-variable-metadata #variable-metadata-table .vm-header th {
+    background-color: PowderBlue;
+    color: black;
+    padding: 7px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Rounded corners */
+.page-variable-metadata #variable-metadata-table .vm-header th:first-child {
+    border-top-left-radius: 10px;
+}
+.page-variable-metadata #variable-metadata-table .vm-header th:last-child {
+    border-top-right-radius: 10px;
+}
+
+
+
+/* ------------------------------
+   LINKED TABLE COLUMN COLOURS
+--------------------------------*/
+
+/* HEADER ROW (keep PowderBlue) */
+.page-variable-metadata #linked-variables-table th {
+    background-color: PowderBlue !important;
+    color: black;
+}
+
+/* HEADER ROW (keep PowderBlue) */
+.page-variable-metadata #linked-variables-table th {
+    background-color: PowderBlue !important;
+    color: black;
+    text-align: center;   /* ⭐ centre header text */
+}
+
+/* BODY COLUMNS (pastel colours) */
+.page-variable-metadata #linked-variables-table td:nth-child(1) { background-color: #F3E8FF !important; }
+.page-variable-metadata #linked-variables-table td:nth-child(2) { background-color: #E8FFF3 !important; }
+.page-variable-metadata #linked-variables-table td:nth-child(3) { background-color: #E8F4FF !important; }
+.page-variable-metadata #linked-variables-table td:nth-child(4) { background-color: #F3E8FF !important; }
+.page-variable-metadata #linked-variables-table td:nth-child(5) { background-color: #E8FFF3 !important; }
+.page-variable-metadata #linked-variables-table td:nth-child(6) { background-color: #FFF7E8 !important; }
+
+/*CENTRE ALIGNMENT FOR COLUMNS 3 & 5*/
+.page-variable-metadata #linked-variables-table th:nth-child(3),
+.page-variable-metadata #linked-variables-table td:nth-child(3),
+.page-variable-metadata #linked-variables-table th:nth-child(5),
+.page-variable-metadata #linked-variables-table td:nth-child(5) {
+    text-align: center !important;
+}
+
+/* ------------------------------
+   ASSOCIATED DOCUMENTS TABLE COLUMN COLOURS
+--------------------------------*/
+
+/* HEADER ROW (keep PowderBlue) */
+.page-variable-metadata #associated-documents-table th {
+    background-color: PowderBlue !important;
+    color: black;
+}
+
+
+/* ------------------------------
+   CATEGORY MEMBERSHIP TABLE COLUMN COLOURS
+--------------------------------*/
+
+/* HEADER ROW (keep PowderBlue) */
+.page-variable-metadata #category-memberships-table th {
+    background-color: PowderBlue !important;
+    color: black;
+}
+
+/* ------------------------------
+   FREQUENCY DISTRIBUTION NESTED TABLE WIDTH
+--------------------------------*/
+
+/* Make the nested frequency table smaller */
+.page-variable-metadata #frequency-distribution-table {
+    width: 70% !important;     /* or 50%, 60% — whatever you want */
+    margin: 0 auto;            /* centre it */
+    display: table;            /* ensures proper shrink behaviour */
+}
+
+.page-variable-metadata table tr {
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}

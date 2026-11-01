@@ -1,0 +1,443 @@
+{
+  "varname": "pwvbt1_myft",
+  "label": "Number of beats 1 (PWV) - Myofit sub-study.",
+  "field_id": "70070",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70070",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "beats",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 10.0,
+  "sd": 3.7416573867739413,
+  "series_size": 19.0,
+  "minimum": 3.0,
+  "maximum": 16.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Pulse wave velocity (PWV) [8041]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "pwvbt1_myft",
+    "label": "Number of beats 1 (PWV) - Myofit sub-study.",
+    "meta_rows": [
+      [
+        "Variable",
+        "pwvbt1_myft"
+      ],
+      [
+        "Field ID",
+        "70070"
+      ],
+      [
+        "Label",
+        "Number of beats 1 (PWV) - Myofit sub-study."
+      ],
+      [
+        "Card Number",
+        "myft_PWV"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "beats"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived variables from the pulse wave velocity carried out in MyoFit 46 data collection. These variables need to be merged with those who have pulse wave velocity measured during the Insight46 Phase 3 sub-study."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Pulse wave velocity (PWV) [8041]",
+        "Pulse wave velocity was carried out using a vicorder instrument. Participants who were unable to do the test during the Insight 46 Phase 3 sub-study were asked to do the test when they took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "3"
+      ],
+      [
+        "Maximum",
+        "16"
+      ],
+      [
+        "Range",
+        "13"
+      ],
+      [
+        "Median",
+        "10.0"
+      ],
+      [
+        "IQR",
+        "7.5 - 13.0"
+      ],
+      [
+        "Decile 1",
+        "5.6"
+      ],
+      [
+        "Decile 2",
+        "7.0"
+      ],
+      [
+        "Decile 3",
+        "8.0"
+      ],
+      [
+        "Decile 4",
+        "8.2"
+      ],
+      [
+        "Decile 5",
+        "10.0"
+      ],
+      [
+        "Decile 6",
+        "10.799999999999999"
+      ],
+      [
+        "Decile 7",
+        "12.6"
+      ],
+      [
+        "Decile 8",
+        "13.8"
+      ],
+      [
+        "Decile 9",
+        "15.0"
+      ],
+      [
+        "Mean",
+        "10.0"
+      ],
+      [
+        "Std Dev.",
+        "3.7416573867739413"
+      ],
+      [
+        "Variance",
+        "14.0"
+      ],
+      [
+        "Displayed N",
+        "19"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "pwvbt1_myft",
+    "label": "Number of beats 1 (PWV) - Myofit sub-study.",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70070",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "pwvbt1_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70070",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Number of beats 1 (PWV) - Myofit sub-study.",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "myft_PWV",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "beats",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variables from the pulse wave velocity carried out in MyoFit 46 data collection. These variables need to be merged with those who have pulse wave velocity measured during the Insight46 Phase 3 sub-study.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Pulse wave velocity (PWV) [8041]",
+        "description": "Pulse wave velocity was carried out using a vicorder instrument. Participants who were unable to do the test during the Insight 46 Phase 3 sub-study were asked to do the test when they took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Pulse_wave_velocity_(PWV)_8041.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "beats",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          3.0,
+          5.166666666666666,
+          7.333333333333333,
+          9.5,
+          11.666666666666666,
+          13.833333333333332,
+          16.0
+        ],
+        "counts": [
+          2,
+          3,
+          4,
+          3,
+          3,
+          4
+        ]
+      },
+      "boxplot": {
+        "min": 3.0,
+        "q1": 7.5,
+        "median": 10.0,
+        "q3": 13.0,
+        "max": 16.0
+      },
+      "units": "beats"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "3"
+      ],
+      [
+        "Maximum",
+        "16"
+      ],
+      [
+        "Range",
+        "13"
+      ],
+      [
+        "Median",
+        "10.0"
+      ],
+      [
+        "IQR",
+        "7.5 - 13.0"
+      ],
+      [
+        "Decile 1",
+        "5.6"
+      ],
+      [
+        "Decile 2",
+        "7.0"
+      ],
+      [
+        "Decile 3",
+        "8.0"
+      ],
+      [
+        "Decile 4",
+        "8.2"
+      ],
+      [
+        "Decile 5",
+        "10.0"
+      ],
+      [
+        "Decile 6",
+        "10.799999999999999"
+      ],
+      [
+        "Decile 7",
+        "12.6"
+      ],
+      [
+        "Decile 8",
+        "13.8"
+      ],
+      [
+        "Decile 9",
+        "15.0"
+      ],
+      [
+        "Mean",
+        "10.0"
+      ],
+      [
+        "Std Dev.",
+        "3.7416573867739413"
+      ],
+      [
+        "Variance",
+        "14.0"
+      ],
+      [
+        "Displayed N",
+        "19"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

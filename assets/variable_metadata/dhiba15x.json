@@ -1,0 +1,652 @@
+{
+  "varname": "dhiba15x",
+  "label": "If you cannot remember the month and year please give your age - at age 69 years",
+  "field_id": "7630",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7630",
+  "year": "",
+  "form": "Home visit",
+  "units": "years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 57.68181818181818,
+  "sd": 8.024883820378866,
+  "series_size": 44.0,
+  "minimum": 40.0,
+  "maximum": 68.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "lhib89",
+    "dbpp125x",
+    "dbppa22x",
+    "bage",
+    "dhiby15x",
+    "dbpp1y25x",
+    "dbppy22x",
+    "dhibm15x",
+    "bhib89",
+    "dhiba215x",
+    "dbppm22x"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2015",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Heart and circulatory conditions [51014]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Question not answered (excluded by the capi or left blank)"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dhiba15x",
+    "label": "If you cannot remember the month and year please give your age - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dhiba15x"
+      ],
+      [
+        "Field ID",
+        "7630"
+      ],
+      [
+        "Label",
+        "If you cannot remember the month and year please give your age - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "MedicalConditions15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "4(d)"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "lhib89",
+        "How old were you when you last had high blood pressure - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "dbpp125x",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: High blood pressure (hypertension) - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "dbppa22x",
+        "If you cannot remember the month and year of blood pressure problem, please give your age - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "65",
+        "Postal22"
+      ],
+      [
+        "bage",
+        "How old were you then (blood pressure problem) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "30(d)",
+        "capi99a"
+      ],
+      [
+        "dhiby15x",
+        "Year when diagnosed with blood pressure problems - at age 69 years",
+        "2015",
+        "Home visit",
+        "4(d)",
+        "MedicalConditions15"
+      ],
+      [
+        "dbpp1y25x",
+        "Since the age of 60 years, when were you told that you had high blood pressure (hypertension) - Year - at age 76 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "dbppy22x",
+        "When were you first told that you had blood pressure problems (year) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "65",
+        "Postal22"
+      ],
+      [
+        "dhibm15x",
+        "Month when diagnosed with blood pressure problems - at age 69 years",
+        "2015",
+        "Home visit",
+        "4(d)",
+        "MedicalConditions15"
+      ],
+      [
+        "bhib89",
+        "How old were you when you first had high blood pressure - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "dhiba215x",
+        "What was your age when you were diagnosed with blood pressure problems - at age 69 years",
+        "2015",
+        "Home visit",
+        "4(d)",
+        "MedicalConditions15"
+      ],
+      [
+        "dbppm22x",
+        "When were you first told that you had blood pressure problems (month) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "65",
+        "Postal22"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Heart and circulatory conditions [51014]",
+        "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Question not answered (excluded by the capi or left blank)",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "40"
+      ],
+      [
+        "Maximum",
+        "68"
+      ],
+      [
+        "Range",
+        "28"
+      ],
+      [
+        "Median",
+        "59.5"
+      ],
+      [
+        "IQR",
+        "54.75 - 64.0"
+      ],
+      [
+        "Decile 1",
+        "43.6"
+      ],
+      [
+        "Decile 2",
+        "53.6"
+      ],
+      [
+        "Decile 3",
+        "55.0"
+      ],
+      [
+        "Decile 4",
+        "57.2"
+      ],
+      [
+        "Decile 5",
+        "59.5"
+      ],
+      [
+        "Decile 6",
+        "60.8"
+      ],
+      [
+        "Decile 7",
+        "62.199999999999996"
+      ],
+      [
+        "Decile 8",
+        "65.0"
+      ],
+      [
+        "Decile 9",
+        "66.7"
+      ],
+      [
+        "Mean",
+        "57.68181818181818"
+      ],
+      [
+        "Std Dev.",
+        "8.024883820378866"
+      ],
+      [
+        "Variance",
+        "64.39876033057851"
+      ],
+      [
+        "Displayed N",
+        "44"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dhiba15x",
+    "label": "If you cannot remember the month and year please give your age - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7630",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dhiba15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7630",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "If you cannot remember the month and year please give your age - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "MedicalConditions15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "4(d)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "lhib89",
+        "description": "How old were you when you last had high blood pressure - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "dbpp125x",
+        "description": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: High blood pressure (hypertension) - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "dbppa22x",
+        "description": "If you cannot remember the month and year of blood pressure problem, please give your age - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "65",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "bage",
+        "description": "How old were you then (blood pressure problem) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "30(d)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "dhiby15x",
+        "description": "Year when diagnosed with blood pressure problems - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "4(d)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dbpp1y25x",
+        "description": "Since the age of 60 years, when were you told that you had high blood pressure (hypertension) - Year - at age 76 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "dbppy22x",
+        "description": "When were you first told that you had blood pressure problems (year) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "65",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "dhibm15x",
+        "description": "Month when diagnosed with blood pressure problems - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "4(d)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "bhib89",
+        "description": "How old were you when you first had high blood pressure - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "dhiba215x",
+        "description": "What was your age when you were diagnosed with blood pressure problems - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "4(d)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dbppm22x",
+        "description": "When were you first told that you had blood pressure problems (month) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "65",
+        "library_file": "Postal22"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Heart and circulatory conditions [51014]",
+        "description": "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_and_circulatory_conditions_51014.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Question not answered (excluded by the capi or left blank)",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 11,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          40.0,
+          44.0,
+          48.0,
+          52.0,
+          56.0,
+          60.0,
+          64.0,
+          68.0
+        ],
+        "counts": [
+          5,
+          1,
+          1,
+          9,
+          6,
+          9,
+          13
+        ]
+      },
+      "boxplot": {
+        "min": 40.0,
+        "q1": 54.75,
+        "median": 59.5,
+        "q3": 64.0,
+        "max": 68.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "40"
+      ],
+      [
+        "Maximum",
+        "68"
+      ],
+      [
+        "Range",
+        "28"
+      ],
+      [
+        "Median",
+        "59.5"
+      ],
+      [
+        "IQR",
+        "54.75 - 64.0"
+      ],
+      [
+        "Decile 1",
+        "43.6"
+      ],
+      [
+        "Decile 2",
+        "53.6"
+      ],
+      [
+        "Decile 3",
+        "55.0"
+      ],
+      [
+        "Decile 4",
+        "57.2"
+      ],
+      [
+        "Decile 5",
+        "59.5"
+      ],
+      [
+        "Decile 6",
+        "60.8"
+      ],
+      [
+        "Decile 7",
+        "62.199999999999996"
+      ],
+      [
+        "Decile 8",
+        "65.0"
+      ],
+      [
+        "Decile 9",
+        "66.7"
+      ],
+      [
+        "Mean",
+        "57.68181818181818"
+      ],
+      [
+        "Std Dev.",
+        "8.024883820378866"
+      ],
+      [
+        "Variance",
+        "64.39876033057851"
+      ],
+      [
+        "Displayed N",
+        "44"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

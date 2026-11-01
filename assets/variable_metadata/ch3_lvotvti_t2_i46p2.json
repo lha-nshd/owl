@@ -1,0 +1,481 @@
+{
+  "varname": "ch3_lvotvti_t2_i46p2",
+  "label": "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 2 - Insight Phase 2",
+  "field_id": "62171",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=62171",
+  "year": "",
+  "form": "Ultrasound",
+  "units": "mm/s",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 608.6168831168832,
+  "sd": 89.14199223651796,
+  "series_size": 308.0,
+  "minimum": 454.0,
+  "maximum": 832.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ch3_lvotvti_t3_i46p2",
+    "ch3_lvotvti_t1_i46p2",
+    "ch3_lvotvti_tm_i46p2"
+  ],
+  "linked_years": [
+    "2018-2021"
+  ],
+  "categories": [
+    "Echocardiogram - 2D reports [61132]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "ch3_lvotvti_t2_i46p2",
+    "label": "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 2 - Insight Phase 2",
+    "meta_rows": [
+      [
+        "Variable",
+        "ch3_lvotvti_t2_i46p2"
+      ],
+      [
+        "Field ID",
+        "62171"
+      ],
+      [
+        "Label",
+        "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 2 - Insight Phase 2"
+      ],
+      [
+        "Card Number",
+        "I46P2_echo2d"
+      ],
+      [
+        "Form",
+        "Ultrasound"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2018-2021"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mm/s"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Echo 2D reports from the Insight46 sub-study."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ch3_lvotvti_t3_i46p2",
+        "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 3 - Insight Phase 2",
+        "2018-2021",
+        "Ultrasound",
+        "Not applicable",
+        "I46P2_echo2d"
+      ],
+      [
+        "ch3_lvotvti_t1_i46p2",
+        "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 1 - Insight Phase 2",
+        "2018-2021",
+        "Ultrasound",
+        "Not applicable",
+        "I46P2_echo2d"
+      ],
+      [
+        "ch3_lvotvti_tm_i46p2",
+        "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity Mean - Insight Phase 2",
+        "2018-2021",
+        "Ultrasound",
+        "Not applicable",
+        "I46P2_echo2d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Echocardiogram - 2D reports [61132]",
+        "This category contains information from the echocardiogram 2D reports done by the 1946 participants as part of the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "454"
+      ],
+      [
+        "Maximum",
+        "832"
+      ],
+      [
+        "Range",
+        "378"
+      ],
+      [
+        "Median",
+        "601.0"
+      ],
+      [
+        "IQR",
+        "542.75 - 669.75"
+      ],
+      [
+        "Decile 1",
+        "494.0"
+      ],
+      [
+        "Decile 2",
+        "527.0"
+      ],
+      [
+        "Decile 3",
+        "553.0"
+      ],
+      [
+        "Decile 4",
+        "572.0"
+      ],
+      [
+        "Decile 5",
+        "601.0"
+      ],
+      [
+        "Decile 6",
+        "626.0"
+      ],
+      [
+        "Decile 7",
+        "651.0"
+      ],
+      [
+        "Decile 8",
+        "689.0"
+      ],
+      [
+        "Decile 9",
+        "732.0"
+      ],
+      [
+        "Mean",
+        "608.6168831168832"
+      ],
+      [
+        "Std Dev.",
+        "89.14199223651796"
+      ],
+      [
+        "Variance",
+        "7946.29477989543"
+      ],
+      [
+        "Displayed N",
+        "308"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "ch3_lvotvti_t2_i46p2",
+    "label": "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 2 - Insight Phase 2",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=62171",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ch3_lvotvti_t2_i46p2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "62171",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 2 - Insight Phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46P2_echo2d",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Ultrasound",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2018-2021",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mm/s",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Echo 2D reports from the Insight46 sub-study.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ch3_lvotvti_t3_i46p2",
+        "description": "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 3 - Insight Phase 2",
+        "year": "2018-2021",
+        "form": "Ultrasound",
+        "question": "Not applicable",
+        "library_file": "I46P2_echo2d"
+      },
+      {
+        "varname": "ch3_lvotvti_t1_i46p2",
+        "description": "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity 1 - Insight Phase 2",
+        "year": "2018-2021",
+        "form": "Ultrasound",
+        "question": "Not applicable",
+        "library_file": "I46P2_echo2d"
+      },
+      {
+        "varname": "ch3_lvotvti_tm_i46p2",
+        "description": "3ch Left Ventricular Outflow Tract (LVOT) Velocity-Time Integral (VTI) Time averaged peak velocity Mean - Insight Phase 2",
+        "year": "2018-2021",
+        "form": "Ultrasound",
+        "question": "Not applicable",
+        "library_file": "I46P2_echo2d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Echocardiogram - 2D reports [61132]",
+        "description": "This category contains information from the echocardiogram 2D reports done by the 1946 participants as part of the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Echocardiogram_-_2D_reports_61132.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mm/s",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          454.0,
+          488.3636363636364,
+          522.7272727272727,
+          557.0909090909091,
+          591.4545454545455,
+          625.8181818181819,
+          660.1818181818182,
+          694.5454545454545,
+          728.909090909091,
+          763.2727272727273,
+          797.6363636363637,
+          832.0
+        ],
+        "counts": [
+          26,
+          30,
+          44,
+          46,
+          36,
+          39,
+          28,
+          26,
+          13,
+          11,
+          9
+        ]
+      },
+      "boxplot": {
+        "min": 454.0,
+        "q1": 542.75,
+        "median": 601.0,
+        "q3": 669.75,
+        "max": 832.0
+      },
+      "units": "mm/s"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "454"
+      ],
+      [
+        "Maximum",
+        "832"
+      ],
+      [
+        "Range",
+        "378"
+      ],
+      [
+        "Median",
+        "601.0"
+      ],
+      [
+        "IQR",
+        "542.75 - 669.75"
+      ],
+      [
+        "Decile 1",
+        "494.0"
+      ],
+      [
+        "Decile 2",
+        "527.0"
+      ],
+      [
+        "Decile 3",
+        "553.0"
+      ],
+      [
+        "Decile 4",
+        "572.0"
+      ],
+      [
+        "Decile 5",
+        "601.0"
+      ],
+      [
+        "Decile 6",
+        "626.0"
+      ],
+      [
+        "Decile 7",
+        "651.0"
+      ],
+      [
+        "Decile 8",
+        "689.0"
+      ],
+      [
+        "Decile 9",
+        "732.0"
+      ],
+      [
+        "Mean",
+        "608.6168831168832"
+      ],
+      [
+        "Std Dev.",
+        "89.14199223651796"
+      ],
+      [
+        "Variance",
+        "7946.29477989543"
+      ],
+      [
+        "Displayed N",
+        "308"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

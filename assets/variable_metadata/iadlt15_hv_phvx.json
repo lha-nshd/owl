@@ -1,0 +1,562 @@
+{
+  "varname": "iadlt15_hv_phvx",
+  "label": "Grouped  IADLs [Instrumental Activities of Daily Living] Hours - HV and pHV responses combined - at age 69 years",
+  "field_id": "9115",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9115",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 199.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "iadlt15x",
+    "adlht115_hv_phvx",
+    "adlht115x"
+  ],
+  "linked_years": [
+    "2015"
+  ],
+  "categories": [
+    "Social support or life events [25]",
+    "Physical capability [5108]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No help in past week"
+    },
+    {
+      "value": "1.0",
+      "label": "Less than 1 hour"
+    },
+    {
+      "value": "2.0",
+      "label": "1-4 hours"
+    },
+    {
+      "value": "3.0",
+      "label": "5-9 hours"
+    },
+    {
+      "value": "4.0",
+      "label": "10-19 hours"
+    },
+    {
+      "value": "5.0",
+      "label": "20 hours or more"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No help in past week",
+      "count": 20,
+      "pct": 10.1
+    },
+    {
+      "label": "Less than 1 hour",
+      "count": 38,
+      "pct": 19.1
+    },
+    {
+      "label": "1-4 hours",
+      "count": 64,
+      "pct": 32.2
+    },
+    {
+      "label": "5-9 hours",
+      "count": 29,
+      "pct": 14.6
+    },
+    {
+      "label": "10-19 hours",
+      "count": 21,
+      "pct": 10.6
+    },
+    {
+      "label": "20 hours or more",
+      "count": 27,
+      "pct": 13.6
+    }
+  ],
+  "pdf": {
+    "varname": "iadlt15_hv_phvx",
+    "label": "Grouped  IADLs [Instrumental Activities of Daily Living] Hours - HV and pHV responses combined - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "iadlt15_hv_phvx"
+      ],
+      [
+        "Field ID",
+        "9115"
+      ],
+      [
+        "Label",
+        "Grouped  IADLs [Instrumental Activities of Daily Living] Hours - HV and pHV responses combined - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "PhysCap15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "47+48"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2015 Home visit. Activity questions. Derived variable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "iadlt15x",
+        "Altogether, how many hours of help have you received with these tasks in the last week - at age 69 years",
+        "2015",
+        "Home visit",
+        "48",
+        "PhysCap15"
+      ],
+      [
+        "adlht115_hv_phvx",
+        "Grouped activities for daily living (ADL) Hours - Home visit or postal home visit responses combined - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ],
+      [
+        "adlht115x",
+        "Altogether, how many hours of help have you received with these activities for daily living (ADL) tasks in the last week - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social support or life events [25]",
+        "Legacy Category"
+      ],
+      [
+        "Physical capability [5108]",
+        "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No help in past week",
+        false
+      ],
+      [
+        "1.0",
+        "Less than 1 hour",
+        false
+      ],
+      [
+        "2.0",
+        "1-4 hours",
+        false
+      ],
+      [
+        "3.0",
+        "5-9 hours",
+        false
+      ],
+      [
+        "4.0",
+        "10-19 hours",
+        false
+      ],
+      [
+        "5.0",
+        "20 hours or more",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "20",
+        "10%"
+      ],
+      [
+        "1",
+        "38",
+        "19%"
+      ],
+      [
+        "2",
+        "64",
+        "32%"
+      ],
+      [
+        "3",
+        "29",
+        "15%"
+      ],
+      [
+        "4",
+        "21",
+        "11%"
+      ],
+      [
+        "5",
+        "27",
+        "14%"
+      ],
+      [
+        "Displayed N",
+        "199",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "iadlt15_hv_phvx",
+    "label": "Grouped  IADLs [Instrumental Activities of Daily Living] Hours - HV and pHV responses combined - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9115",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "iadlt15_hv_phvx",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9115",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Grouped  IADLs [Instrumental Activities of Daily Living] Hours - HV and pHV responses combined - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysCap15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "47+48",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2015 Home visit. Activity questions. Derived variable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "iadlt15x",
+        "description": "Altogether, how many hours of help have you received with these tasks in the last week - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "48",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlht115_hv_phvx",
+        "description": "Grouped activities for daily living (ADL) Hours - Home visit or postal home visit responses combined - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlht115x",
+        "description": "Altogether, how many hours of help have you received with these activities for daily living (ADL) tasks in the last week - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social support or life events [25]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical capability [5108]",
+        "description": "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_5108.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No help in past week",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Less than 1 hour",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "1-4 hours",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "5-9 hours",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "10-19 hours",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "20 hours or more",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 2,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No help in past week",
+          "count": 20,
+          "pct": 10
+        },
+        {
+          "value": "1",
+          "label": "Less than 1 hour",
+          "count": 38,
+          "pct": 19
+        },
+        {
+          "value": "2",
+          "label": "1-4 hours",
+          "count": 64,
+          "pct": 32
+        },
+        {
+          "value": "3",
+          "label": "5-9 hours",
+          "count": 29,
+          "pct": 15
+        },
+        {
+          "value": "4",
+          "label": "10-19 hours",
+          "count": 21,
+          "pct": 11
+        },
+        {
+          "value": "5",
+          "label": "20 hours or more",
+          "count": 27,
+          "pct": 14
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "20",
+        "10%"
+      ],
+      [
+        "1",
+        "38",
+        "19%"
+      ],
+      [
+        "2",
+        "64",
+        "32%"
+      ],
+      [
+        "3",
+        "29",
+        "15%"
+      ],
+      [
+        "4",
+        "21",
+        "11%"
+      ],
+      [
+        "5",
+        "27",
+        "14%"
+      ],
+      [
+        "Displayed N",
+        "199",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

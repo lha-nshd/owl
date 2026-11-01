@@ -1,0 +1,779 @@
+{
+  "varname": "chrstm23x",
+  "label": "Chair rise time (minutes) - at age 77 years",
+  "field_id": "10820",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10820",
+  "year": "",
+  "form": "Home visit",
+  "units": "minutes",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.0,
+  "sd": 0.0,
+  "series_size": 956.0,
+  "minimum": 0.0,
+  "maximum": 0.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "chrst5s23x",
+    "chrstspds15x",
+    "chrst5m23x",
+    "chrstrp09",
+    "chrst15x",
+    "chrstms23x",
+    "chrstrpc",
+    "chrstfc",
+    "chrst09",
+    "chrstmsec_myft",
+    "chrstrp15x",
+    "charstnd15x",
+    "chrstspdm15x",
+    "chrsts23x",
+    "chrstsec_myft",
+    "chrst5ms23x",
+    "chrsttotal_myft",
+    "chrst515x",
+    "chrstmin_myft"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10",
+    "2015",
+    "2020-2024",
+    "2023"
+  ],
+  "categories": [
+    "Chair rises [1152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable (Unwilling or Unable)"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown/Short visit/skipped module due to incorrect high BP filter"
+    },
+    {
+      "value": "0.0",
+      "label": "Zero"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "chrstm23x",
+    "label": "Chair rise time (minutes) - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "chrstm23x"
+      ],
+      [
+        "Field ID",
+        "10820"
+      ],
+      [
+        "Label",
+        "Chair rise time (minutes) - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "chair_rise23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "3"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "minutes"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Physical perfomance chair rise module. The chair rise time, minutes, seconds and milliseconds are all separate variables."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "chrst5s23x",
+        "5-Chair rise time (seconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "chair_rise23"
+      ],
+      [
+        "chrstspds15x",
+        "Chair rise speed (stands/sec) - at age 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "PhysPerf15"
+      ],
+      [
+        "chrst5m23x",
+        "5-Chair rise time (minutes) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "chair_rise23"
+      ],
+      [
+        "chrstrp09",
+        "Reciprocal of chair rise time (1/s*100) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "PhysPerf09"
+      ],
+      [
+        "chrst15x",
+        "Chair rise time (hundredth s) [#rises varies] - at age 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "PhysPerf15"
+      ],
+      [
+        "chrstms23x",
+        "Chair rise time (milliseconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "chair_rise23"
+      ],
+      [
+        "chrstrpc",
+        "Reciprocal of chair rise time multiplied by 100 - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "88(b)",
+        "physfunc_perform"
+      ],
+      [
+        "chrstfc",
+        "Chair rise time (seconds) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "88(b)",
+        "physfunc_perform"
+      ],
+      [
+        "chrst09",
+        "Chair rise time (s) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "66(a)",
+        "PhysPerf09"
+      ],
+      [
+        "chrstmsec_myft",
+        "Chair rise time (milliseconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "chrstrp15x",
+        "Reciprocal chair rise time (higher score = better performance)(1/CHRST15x*10000) - at age 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "PhysPerf15_2"
+      ],
+      [
+        "charstnd15x",
+        "Number of chair rises completed - at age 69 years",
+        "2015",
+        "Home visit",
+        "4",
+        "PhysPerf15"
+      ],
+      [
+        "chrstspdm15x",
+        "Chair rise speed (stands/min) - at age 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "PhysPerf15"
+      ],
+      [
+        "chrsts23x",
+        "Chair rise time (seconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "chair_rise23"
+      ],
+      [
+        "chrstsec_myft",
+        "Chair rise time (seconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "chrst5ms23x",
+        "5-Chair rise time (milliseconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "chair_rise23"
+      ],
+      [
+        "chrsttotal_myft",
+        "Overall chair rise time (in 100ths of a second) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "chrst515x",
+        "5-rise chair rise time, converted to 100ths of a second - at age 69 years",
+        "2015",
+        "Home visit",
+        "7",
+        "PhysPerf15_2"
+      ],
+      [
+        "chrstmin_myft",
+        "Chair rise time (minutes) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Chair rises [1152]",
+        "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to be timed performing 10 chair rises.  If willing and able (reasons for inability included health reasons and equipment not available) one test of 10 chair rises was performed. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable (Unwilling or Unable)",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown/Short visit/skipped module due to incorrect high BP filter",
+        true
+      ],
+      [
+        "0.0",
+        "Zero",
+        false
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "0"
+      ],
+      [
+        "Range",
+        "0"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.0"
+      ],
+      [
+        "Decile 9",
+        "0.0"
+      ],
+      [
+        "Mean",
+        "0.0"
+      ],
+      [
+        "Std Dev.",
+        "0.0"
+      ],
+      [
+        "Variance",
+        "0.0"
+      ],
+      [
+        "Displayed N",
+        "956"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "chrstm23x",
+    "label": "Chair rise time (minutes) - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10820",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "chrstm23x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10820",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Chair rise time (minutes) - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "chair_rise23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "3",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "minutes",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Physical perfomance chair rise module. The chair rise time, minutes, seconds and milliseconds are all separate variables.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "chrst5s23x",
+        "description": "5-Chair rise time (seconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrstspds15x",
+        "description": "Chair rise speed (stands/sec) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "chrst5m23x",
+        "description": "5-Chair rise time (minutes) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrstrp09",
+        "description": "Reciprocal of chair rise time (1/s*100) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "PhysPerf09"
+      },
+      {
+        "varname": "chrst15x",
+        "description": "Chair rise time (hundredth s) [#rises varies] - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "chrstms23x",
+        "description": "Chair rise time (milliseconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrstrpc",
+        "description": "Reciprocal of chair rise time multiplied by 100 - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "88(b)",
+        "library_file": "physfunc_perform"
+      },
+      {
+        "varname": "chrstfc",
+        "description": "Chair rise time (seconds) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "88(b)",
+        "library_file": "physfunc_perform"
+      },
+      {
+        "varname": "chrst09",
+        "description": "Chair rise time (s) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "66(a)",
+        "library_file": "PhysPerf09"
+      },
+      {
+        "varname": "chrstmsec_myft",
+        "description": "Chair rise time (milliseconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "chrstrp15x",
+        "description": "Reciprocal chair rise time (higher score = better performance)(1/CHRST15x*10000) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "PhysPerf15_2"
+      },
+      {
+        "varname": "charstnd15x",
+        "description": "Number of chair rises completed - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "4",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "chrstspdm15x",
+        "description": "Chair rise speed (stands/min) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "chrsts23x",
+        "description": "Chair rise time (seconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrstsec_myft",
+        "description": "Chair rise time (seconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "chrst5ms23x",
+        "description": "5-Chair rise time (milliseconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "chair_rise23"
+      },
+      {
+        "varname": "chrsttotal_myft",
+        "description": "Overall chair rise time (in 100ths of a second) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "chrst515x",
+        "description": "5-rise chair rise time, converted to 100ths of a second - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "PhysPerf15_2"
+      },
+      {
+        "varname": "chrstmin_myft",
+        "description": "Chair rise time (minutes) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Chair rises [1152]",
+        "description": "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to be timed performing 10 chair rises.  If willing and able (reasons for inability included health reasons and equipment not available) one test of 10 chair rises was performed. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Chair_rises_1152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable (Unwilling or Unable)",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown/Short visit/skipped module due to incorrect high BP filter",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Zero",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 19,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "minutes",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          -0.5,
+          0.5
+        ],
+        "counts": [
+          956
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0,
+        "max": 0.0
+      },
+      "units": "minutes"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "0"
+      ],
+      [
+        "Range",
+        "0"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.0"
+      ],
+      [
+        "Decile 9",
+        "0.0"
+      ],
+      [
+        "Mean",
+        "0.0"
+      ],
+      [
+        "Std Dev.",
+        "0.0"
+      ],
+      [
+        "Variance",
+        "0.0"
+      ],
+      [
+        "Displayed N",
+        "956"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,93 @@
+/* trajectory_page.css
+   Styles for trajectory.html's own page, showing every Truly Longitudinal
+   sweep's distribution side by side. Colours match the rest of the OWL
+   variable page exactly. The "View all sweeps" trigger button itself
+   lives in variable_page.css, since that's what's loaded on the variable
+   pages the button actually appears on - not here. */
+
+body.owl-traj-body { margin: 0; padding: 0; font-family: system-ui, sans-serif; background: #F3F0FA; }
+
+.traj-wrapper { max-width: 1200px; margin: 0 auto; padding: 22px 26px 48px; }
+.traj-nav { background: #3a0066; padding: 10px 24px; display: flex; align-items: center; gap: 16px; }
+.traj-nav a { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+.traj-nav a:hover { color: white; }
+.traj-nav .sep { color: rgba(255,255,255,0.3); }
+.traj-nav .current { color: rgba(255,255,255,0.7); font-size: 12px; }
+
+.traj-layout { display: flex; align-items: flex-start; gap: 22px; }
+.traj-main { flex: 1; min-width: 0; }
+
+/* Sidebar - a distinct solid colour (not lavender, not white) so it
+   reads as persistent navigation rather than page content, sticky so
+   Plots/Statistics/Top stay reachable while scrolling a long group. */
+.traj-sidebar { width: 168px; flex-shrink: 0; position: sticky; top: 20px;
+  background: #534AB7; border-radius: 10px; padding: 16px 14px; display: flex; flex-direction: column; gap: 4px; }
+.traj-sidebar a { color: #EEEDFE; text-decoration: none; font-size: 12.5px; font-weight: 600;
+  padding: 7px 8px; border-radius: 6px; }
+.traj-sidebar a:hover { background: rgba(255,255,255,0.12); color: #FFFFFF; }
+
+.traj-section-heading { font-size: 14px; font-weight: 700; color: #4A3F7A; margin: 8px 0 10px; }
+
+.traj-title { font-size: 17px; font-weight: 700; color: #4A3F7A; margin: 0 0 3px; }
+.traj-sub { font-size: 12px; color: #6B5F9E; margin: 0 0 16px; }
+
+/* Cards themselves are transparent - the white CANVAS inside each one is
+   what's meant to stand out against the lavender page. A white card
+   behind a white canvas, with only a small gap between neighbours, read
+   as one continuous white surface "connecting" every plot rather than
+   distinct charts - removing it restores visible lavender between them. */
+.traj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 18px; margin-bottom: 18px; }
+.traj-card { background: transparent; border-radius: 10px; padding: 4px 4px 2px; }
+.traj-card-head { display: flex; justify-content: space-between; align-items: baseline; font-size: 12.5px; font-weight: 700; color: #4A3F7A; margin-bottom: 2px; }
+.traj-card-head .n { font-weight: 400; color: #8A7FB0; font-size: 11px; }
+.traj-card-desc { font-size: 11px; color: #6B5F9E; margin: 0 0 8px; }
+.traj-card canvas { width: 100%; display: block; border-radius: 8px; }
+.traj-card-placeholder { display: flex; align-items: center; justify-content: center; color: #8A7FB0; font-size: 12px; font-style: italic; height: 140px; background: #FFFFFF; border-radius: 8px; }
+.traj-card-loading { height: 140px; border-radius: 6px;
+  background: repeating-linear-gradient(90deg, #EEEDFE, #EEEDFE 10px, #F5F3FC 10px, #F5F3FC 20px); }
+
+.traj-disclosure-note { font-size: 11px; color: #6B5F9E; font-style: italic; margin: 0 0 18px; }
+
+.traj-stats-title { font-size: 12px; font-weight: 700; color: #4A3F7A; margin: 4px 0 8px; }
+.traj-stats-wrap { background: #FFFFFF; border-radius: 10px; padding: 4px 14px; overflow-x: auto; margin-bottom: 16px; }
+.traj-stats { border-collapse: collapse; width: 100%; font-size: 11.5px; white-space: nowrap; }
+.traj-stats th { padding: 7px 10px; text-align: right; color: #4A3F7A; font-weight: 700; }
+.traj-stats th:first-child { text-align: left; }
+.traj-stats td { padding: 6px 10px; text-align: right; color: #333; }
+.traj-stats td:first-child { text-align: left; font-weight: 600; }
+.traj-stats td.traj-missing { color: #B0A8D0; }
+
+/* Same colour coding as the main Distribution tab's Summary/Spread/
+   Deciles stat boxes - blue/red/green, exact same hex values. */
+.traj-stats tr.traj-row-summary td { background: #E6F1FB; color: #0C447C; }
+.traj-stats tr.traj-row-summary td:first-child { color: #0C447C; }
+.traj-stats tr.traj-row-spread td { background: #FBEAF0; color: #72243E; }
+.traj-stats tr.traj-row-spread td:first-child { color: #72243E; }
+.traj-stats tr.traj-row-deciles td { background: #EAF3DE; color: #27500A; }
+.traj-stats tr.traj-row-deciles td:first-child { color: #27500A; }
+.traj-stats tr:not([class]) td, .traj-stats tr[class=""] td { background: #F6F3FB; }
+
+/* Categorical table: same amber scheme the main site's own categorical
+   frequency table (.fq-table) and "Displayed N" banner already use -
+   exact same hex values, not just the same hue. */
+.traj-stats-categorical th { background: #F0C382; color: #5C3D14; }
+.traj-stats-categorical tr.traj-row-cat-a td { background: #FDF3E7; color: #8A5A00; }
+.traj-stats-categorical tr.traj-row-cat-a td:first-child { color: #8A5A00; }
+.traj-stats-categorical tr.traj-row-cat-b td { background: #FBEBD6; color: #8A5A00; }
+.traj-stats-categorical tr.traj-row-cat-b td:first-child { color: #8A5A00; }
+.traj-stats-categorical tr.traj-row-cat-n td { background: #F0C382; color: #5C3D14; font-weight: 700; }
+.traj-stats-categorical tr.traj-row-cat-n td:first-child { color: #5C3D14; }
+
+.traj-download-row { display: flex; justify-content: center; gap: 10px; margin-top: 4px; }
+.traj-dl-btn { display: inline-flex; align-items: center; gap: 6px; border: none; border-radius: 8px;
+  padding: 8px 14px; font-size: 11.5px; font-weight: 700; font-family: inherit; cursor: pointer; text-decoration: none; }
+.traj-dl-btn.primary { background: #534AB7; color: #FFFFFF; }
+.traj-dl-btn.secondary { background: #FFFFFF; color: #4A3F7A; }
+
+.traj-loading-page, .traj-error-page { padding: 60px 24px; text-align: center; color: #6B5F9E; font-size: 14px; }
+.traj-error-page { color: #791F1F; }
+
+@media (max-width: 640px) {
+  .traj-layout { flex-direction: column; }
+  .traj-sidebar { width: 100%; position: static; flex-direction: row; overflow-x: auto; }
+}

@@ -1,0 +1,512 @@
+{
+  "varname": "pulsest223x",
+  "label": "Pulse rate (beats/min) - second Standing reading - at age 77 years",
+  "field_id": "10612",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10612",
+  "year": "",
+  "form": "Home visit",
+  "units": "beats/min",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 75.46984126984127,
+  "sd": 10.415667404829719,
+  "series_size": 945.0,
+  "minimum": 56.0,
+  "maximum": 99.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "pulsest123x",
+    "pulsest323x"
+  ],
+  "linked_years": [
+    "2023"
+  ],
+  "categories": [
+    "Blood pressure [1103]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "999.0",
+      "label": "Successful reading not obtained"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "pulsest223x",
+    "label": "Pulse rate (beats/min) - second Standing reading - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "pulsest223x"
+      ],
+      [
+        "Field ID",
+        "10612"
+      ],
+      [
+        "Label",
+        "Pulse rate (beats/min) - second Standing reading - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "blood_pressure23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "4(c)"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "beats/min"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2023 Home visit. Blood pressure section. Quite a few of the blood pressure variables are not in the paper version of the questionnaire. They are from the CAPI."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "pulsest123x",
+        "Pulse rate (beats/min) - first Standing reading - at age 77 years",
+        "2023",
+        "Home visit",
+        "4(c)",
+        "blood_pressure23"
+      ],
+      [
+        "pulsest323x",
+        "Pulse rate (beats/min) - third Standing reading - at age 77 years",
+        "2023",
+        "Home visit",
+        "4(c)",
+        "blood_pressure23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood pressure [1103]",
+        "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "999.0",
+        "Successful reading not obtained",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "56"
+      ],
+      [
+        "Maximum",
+        "99"
+      ],
+      [
+        "Range",
+        "43"
+      ],
+      [
+        "Median",
+        "75.0"
+      ],
+      [
+        "IQR",
+        "67.0 - 83.0"
+      ],
+      [
+        "Decile 1",
+        "62.0"
+      ],
+      [
+        "Decile 2",
+        "66.0"
+      ],
+      [
+        "Decile 3",
+        "69.0"
+      ],
+      [
+        "Decile 4",
+        "72.0"
+      ],
+      [
+        "Decile 5",
+        "75.0"
+      ],
+      [
+        "Decile 6",
+        "78.0"
+      ],
+      [
+        "Decile 7",
+        "82.0"
+      ],
+      [
+        "Decile 8",
+        "85.0"
+      ],
+      [
+        "Decile 9",
+        "90.0"
+      ],
+      [
+        "Mean",
+        "75.46984126984127"
+      ],
+      [
+        "Std Dev.",
+        "10.415667404829719"
+      ],
+      [
+        "Variance",
+        "108.48612748803224"
+      ],
+      [
+        "Displayed N",
+        "945"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "pulsest223x",
+    "label": "Pulse rate (beats/min) - second Standing reading - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10612",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "pulsest223x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10612",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Pulse rate (beats/min) - second Standing reading - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "blood_pressure23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "4(c)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "beats/min",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2023 Home visit. Blood pressure section. Quite a few of the blood pressure variables are not in the paper version of the questionnaire. They are from the CAPI.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "pulsest123x",
+        "description": "Pulse rate (beats/min) - first Standing reading - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "4(c)",
+        "library_file": "blood_pressure23"
+      },
+      {
+        "varname": "pulsest323x",
+        "description": "Pulse rate (beats/min) - third Standing reading - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "4(c)",
+        "library_file": "blood_pressure23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood pressure [1103]",
+        "description": "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pressure_1103.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Successful reading not obtained",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "beats/min",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          56.0,
+          59.07142857142857,
+          62.142857142857146,
+          65.21428571428572,
+          68.28571428571429,
+          71.35714285714286,
+          74.42857142857143,
+          77.5,
+          80.57142857142857,
+          83.64285714285714,
+          86.71428571428572,
+          89.78571428571428,
+          92.85714285714286,
+          95.92857142857143,
+          99.0
+        ],
+        "counts": [
+          51,
+          68,
+          66,
+          85,
+          99,
+          90,
+          99,
+          72,
+          85,
+          72,
+          53,
+          49,
+          29,
+          27
+        ]
+      },
+      "boxplot": {
+        "min": 56.0,
+        "q1": 67.0,
+        "median": 75.0,
+        "q3": 83.0,
+        "max": 99.0
+      },
+      "units": "beats/min"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "56"
+      ],
+      [
+        "Maximum",
+        "99"
+      ],
+      [
+        "Range",
+        "43"
+      ],
+      [
+        "Median",
+        "75.0"
+      ],
+      [
+        "IQR",
+        "67.0 - 83.0"
+      ],
+      [
+        "Decile 1",
+        "62.0"
+      ],
+      [
+        "Decile 2",
+        "66.0"
+      ],
+      [
+        "Decile 3",
+        "69.0"
+      ],
+      [
+        "Decile 4",
+        "72.0"
+      ],
+      [
+        "Decile 5",
+        "75.0"
+      ],
+      [
+        "Decile 6",
+        "78.0"
+      ],
+      [
+        "Decile 7",
+        "82.0"
+      ],
+      [
+        "Decile 8",
+        "85.0"
+      ],
+      [
+        "Decile 9",
+        "90.0"
+      ],
+      [
+        "Mean",
+        "75.46984126984127"
+      ],
+      [
+        "Std Dev.",
+        "10.415667404829719"
+      ],
+      [
+        "Variance",
+        "108.48612748803224"
+      ],
+      [
+        "Displayed N",
+        "945"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

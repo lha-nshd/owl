@@ -1,0 +1,806 @@
+{
+  "varname": "fdm82",
+  "label": "Date of father's death - month - at age 36 years",
+  "field_id": "28176",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=28176",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "month",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1081.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "fdm",
+    "fdm89",
+    "fdm09",
+    "fdm15x"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "categories": [
+    "Mortality [13]",
+    "Parental death [5012]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "1.0",
+      "label": "January"
+    },
+    {
+      "value": "10.0",
+      "label": "October"
+    },
+    {
+      "value": "11.0",
+      "label": "November"
+    },
+    {
+      "value": "12.0",
+      "label": "December"
+    },
+    {
+      "value": "2.0",
+      "label": "February"
+    },
+    {
+      "value": "3.0",
+      "label": "March"
+    },
+    {
+      "value": "4.0",
+      "label": "April"
+    },
+    {
+      "value": "5.0",
+      "label": "May"
+    },
+    {
+      "value": "6.0",
+      "label": "June"
+    },
+    {
+      "value": "7.0",
+      "label": "July"
+    },
+    {
+      "value": "8.0",
+      "label": "August"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9.0",
+      "label": "September"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "January",
+      "count": 104,
+      "pct": 9.6
+    },
+    {
+      "label": "February",
+      "count": 100,
+      "pct": 9.3
+    },
+    {
+      "label": "March",
+      "count": 95,
+      "pct": 8.8
+    },
+    {
+      "label": "April",
+      "count": 79,
+      "pct": 7.3
+    },
+    {
+      "label": "May",
+      "count": 86,
+      "pct": 8.0
+    },
+    {
+      "label": "June",
+      "count": 103,
+      "pct": 9.5
+    },
+    {
+      "label": "July",
+      "count": 80,
+      "pct": 7.4
+    },
+    {
+      "label": "August",
+      "count": 70,
+      "pct": 6.5
+    },
+    {
+      "label": "September",
+      "count": 83,
+      "pct": 7.7
+    },
+    {
+      "label": "October",
+      "count": 72,
+      "pct": 6.7
+    },
+    {
+      "label": "November",
+      "count": 91,
+      "pct": 8.4
+    },
+    {
+      "label": "December",
+      "count": 118,
+      "pct": 10.9
+    }
+  ],
+  "pdf": {
+    "varname": "fdm82",
+    "label": "Date of father's death - month - at age 36 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "fdm82"
+      ],
+      [
+        "Field ID",
+        "28176"
+      ],
+      [
+        "Label",
+        "Date of father's death - month - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "B13"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "19(b)"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "month"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Parental Death asked in the 1982 A questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "fdm",
+        "Date of father's death - month - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "65(d)",
+        "capi99a"
+      ],
+      [
+        "fdm89",
+        "Date of father's death - month - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "20(b)",
+        "de89d"
+      ],
+      [
+        "fdm09",
+        "Date of father's death - month - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "27(c)",
+        "PRNTLDTH09"
+      ],
+      [
+        "fdm15x",
+        "Date of father's death - month - at age 69 years.",
+        "2015",
+        "Home visit",
+        "13",
+        "LifeEvents15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Mortality [13]",
+        "Legacy Category"
+      ],
+      [
+        "Parental death [5012]",
+        "This category contains information on parental death of the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "1.0",
+        "January",
+        false
+      ],
+      [
+        "10.0",
+        "October",
+        false
+      ],
+      [
+        "11.0",
+        "November",
+        false
+      ],
+      [
+        "12.0",
+        "December",
+        false
+      ],
+      [
+        "2.0",
+        "February",
+        false
+      ],
+      [
+        "3.0",
+        "March",
+        false
+      ],
+      [
+        "4.0",
+        "April",
+        false
+      ],
+      [
+        "5.0",
+        "May",
+        false
+      ],
+      [
+        "6.0",
+        "June",
+        false
+      ],
+      [
+        "7.0",
+        "July",
+        false
+      ],
+      [
+        "8.0",
+        "August",
+        false
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9.0",
+        "September",
+        false
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "104",
+        "10%"
+      ],
+      [
+        "2",
+        "100",
+        "9%"
+      ],
+      [
+        "3",
+        "95",
+        "9%"
+      ],
+      [
+        "4",
+        "79",
+        "7%"
+      ],
+      [
+        "5",
+        "86",
+        "8%"
+      ],
+      [
+        "6",
+        "103",
+        "10%"
+      ],
+      [
+        "7",
+        "80",
+        "7%"
+      ],
+      [
+        "8",
+        "70",
+        "6%"
+      ],
+      [
+        "9",
+        "83",
+        "8%"
+      ],
+      [
+        "10",
+        "72",
+        "7%"
+      ],
+      [
+        "11",
+        "91",
+        "8%"
+      ],
+      [
+        "12",
+        "118",
+        "11%"
+      ],
+      [
+        "Displayed N",
+        "1081",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "fdm82",
+    "label": "Date of father's death - month - at age 36 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=28176",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "fdm82",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "28176",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Date of father's death - month - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "B13",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "19(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "month",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Parental Death asked in the 1982 A questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "fdm",
+        "description": "Date of father's death - month - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "65(d)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "fdm89",
+        "description": "Date of father's death - month - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "20(b)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "fdm09",
+        "description": "Date of father's death - month - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "27(c)",
+        "library_file": "PRNTLDTH09"
+      },
+      {
+        "varname": "fdm15x",
+        "description": "Date of father's death - month - at age 69 years.",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "13",
+        "library_file": "LifeEvents15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Mortality [13]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Parental death [5012]",
+        "description": "This category contains information on parental death of the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Parental_death_5012.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "January",
+        "is_missing": false
+      },
+      {
+        "value": "10.0",
+        "label": "October",
+        "is_missing": false
+      },
+      {
+        "value": "11.0",
+        "label": "November",
+        "is_missing": false
+      },
+      {
+        "value": "12.0",
+        "label": "December",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "February",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "March",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "April",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "May",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "June",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "July",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "August",
+        "is_missing": false
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "September",
+        "is_missing": false
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 16
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "month",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "January",
+          "count": 104,
+          "pct": 10
+        },
+        {
+          "value": "2",
+          "label": "February",
+          "count": 100,
+          "pct": 9
+        },
+        {
+          "value": "3",
+          "label": "March",
+          "count": 95,
+          "pct": 9
+        },
+        {
+          "value": "4",
+          "label": "April",
+          "count": 79,
+          "pct": 7
+        },
+        {
+          "value": "5",
+          "label": "May",
+          "count": 86,
+          "pct": 8
+        },
+        {
+          "value": "6",
+          "label": "June",
+          "count": 103,
+          "pct": 10
+        },
+        {
+          "value": "7",
+          "label": "July",
+          "count": 80,
+          "pct": 7
+        },
+        {
+          "value": "8",
+          "label": "August",
+          "count": 70,
+          "pct": 6
+        },
+        {
+          "value": "9",
+          "label": "September",
+          "count": 83,
+          "pct": 8
+        },
+        {
+          "value": "10",
+          "label": "October",
+          "count": 72,
+          "pct": 7
+        },
+        {
+          "value": "11",
+          "label": "November",
+          "count": 91,
+          "pct": 8
+        },
+        {
+          "value": "12",
+          "label": "December",
+          "count": 118,
+          "pct": 11
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "104",
+        "10%"
+      ],
+      [
+        "2",
+        "100",
+        "9%"
+      ],
+      [
+        "3",
+        "95",
+        "9%"
+      ],
+      [
+        "4",
+        "79",
+        "7%"
+      ],
+      [
+        "5",
+        "86",
+        "8%"
+      ],
+      [
+        "6",
+        "103",
+        "10%"
+      ],
+      [
+        "7",
+        "80",
+        "7%"
+      ],
+      [
+        "8",
+        "70",
+        "6%"
+      ],
+      [
+        "9",
+        "83",
+        "8%"
+      ],
+      [
+        "10",
+        "72",
+        "7%"
+      ],
+      [
+        "11",
+        "91",
+        "8%"
+      ],
+      [
+        "12",
+        "118",
+        "11%"
+      ],
+      [
+        "Displayed N",
+        "1081",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,873 @@
+{
+  "varname": "bep89",
+  "label": "How old were you when you first had epilepsy - at age 43 years",
+  "field_id": "8197",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8197",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 17.89189189189189,
+  "sd": 10.202765347937264,
+  "series_size": 37.0,
+  "minimum": 4.0,
+  "maximum": 36.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "oep89",
+    "epirc99",
+    "epicod99",
+    "epirp99",
+    "dep09",
+    "fdoctold",
+    "epcontrol82",
+    "deply15x",
+    "epilv99",
+    "depa15x",
+    "epmed82",
+    "ep89",
+    "epeons82",
+    "epiaf99",
+    "epdonset82",
+    "pep09",
+    "ep82",
+    "lep89",
+    "dep89",
+    "dep15x",
+    "pep89",
+    "epim99",
+    "fit",
+    "epgrp82"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "categories": [
+    "General health [3]",
+    "Nervous system conditions [51018]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "bep89",
+    "label": "How old were you when you first had epilepsy - at age 43 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "bep89"
+      ],
+      [
+        "Field ID",
+        "8197"
+      ],
+      [
+        "Label",
+        "How old were you when you first had epilepsy - at age 43 years"
+      ],
+      [
+        "Card Number",
+        "de89d"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "21"
+      ],
+      [
+        "Year",
+        "1989"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell counts issue. Recoded version is available."
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "oep89",
+        "How many times have you consulted another health professional about epilepsy - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "epirc99",
+        "Is cause of seizures/fits recorded up to 1999 interview (epilepsy) - till age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "Epilepsy99"
+      ],
+      [
+        "epicod99",
+        "Epilepsy up to 1999 coded record - till age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "Epilepsy99"
+      ],
+      [
+        "epirp99",
+        "Seizures/fits ever reported up to 1999 interview (epilepsy) - till age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "Epilepsy99"
+      ],
+      [
+        "dep09",
+        "Since 1999 have you been told by a doctor that you have fits or epilepsy - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "12(a)",
+        "FitsAndEpilepsy09"
+      ],
+      [
+        "fdoctold",
+        "Has doctor said you had this problem (fits or epilepsy) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "35(b)",
+        "capi99a"
+      ],
+      [
+        "epcontrol82",
+        "First and second Controls for each epilepsy case from 1972 to 1982",
+        "1982",
+        "A - Main questionnaire",
+        "Various",
+        "Epilepsy82"
+      ],
+      [
+        "deply15x",
+        "Have you had any seizures in the last twelve months - at age 69 years",
+        "2015",
+        "Home visit",
+        "17(c)",
+        "MedicalConditions15"
+      ],
+      [
+        "epilv99",
+        "Liverpool lifetime epilepsy score up to 1999 interview (epilepsy) - till age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "Epilepsy99"
+      ],
+      [
+        "depa15x",
+        "What was your age when you were diagnosed with epilepsy - at age 69 years",
+        "2015",
+        "Home visit",
+        "17(b)",
+        "MedicalConditions15"
+      ],
+      [
+        "epmed82",
+        "Taking medication for epilepsy from 1972 to 1982?",
+        "1982",
+        "A - Main questionnaire",
+        "Various",
+        "Epilepsy82"
+      ],
+      [
+        "ep89",
+        "Have you ever had epilepsy - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "epeons82",
+        "Early or late onset of epilepsy from 1972 to 1982?",
+        "1982",
+        "A - Main questionnaire",
+        "Various",
+        "Epilepsy82"
+      ],
+      [
+        "epiaf99",
+        "Age at first seizure/fit up to 1999 interview - till age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "Epilepsy99"
+      ],
+      [
+        "epdonset82",
+        "Year on onset of epilepsy? (from 1972 to 1982)",
+        "1982",
+        "A - Main questionnaire",
+        "Various",
+        "Epilepsy82"
+      ],
+      [
+        "pep09",
+        "Have you been prescribed medication or other treatment (for fits or epilepsy) - at age 60-64 years ",
+        "2006-10",
+        "Postal questionnaire",
+        "12(b)",
+        "FitsAndEpilepsy09"
+      ],
+      [
+        "ep82",
+        "Do you have epilepsy all or most of the time - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "20",
+        "Epilepsy82"
+      ],
+      [
+        "lep89",
+        "How old were you when you last had epilepsy - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "dep89",
+        "How many times have you consulted a doctor about epilepsy in the last year - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "dep15x",
+        "Since 2006, have you had epilepsy - at age 69 years",
+        "2015",
+        "Home visit",
+        "17(a)",
+        "MedicalConditions15"
+      ],
+      [
+        "pep89",
+        "Have you taken any prescribed medicine for epilepsy - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "epim99",
+        "Currently on anti-epileptic medication at 1999 interview (epilepsy) - till age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "Epilepsy99"
+      ],
+      [
+        "fit",
+        "Have you ever had any fits or epilepsy in the last ten years - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "35",
+        "capi99a"
+      ],
+      [
+        "epgrp82",
+        "Complicated epilepsy i.e. with predisposing illness or concomitant neurological condition from 1972 to 1982?",
+        "1982",
+        "A - Main questionnaire",
+        "Various",
+        "Epilepsy82"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Nervous system conditions [51018]",
+        "This category contains data from the questionnaires on nervous system conditions, such as epilepsy, parkinsons, myalgic encephalomyelitis (ME), headache and migraines."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "4"
+      ],
+      [
+        "Maximum",
+        "36"
+      ],
+      [
+        "Range",
+        "32"
+      ],
+      [
+        "Median",
+        "16.0"
+      ],
+      [
+        "IQR",
+        "8.0 - 26.0"
+      ],
+      [
+        "Decile 1",
+        "6.6"
+      ],
+      [
+        "Decile 2",
+        "8.0"
+      ],
+      [
+        "Decile 3",
+        "12.0"
+      ],
+      [
+        "Decile 4",
+        "14.0"
+      ],
+      [
+        "Decile 5",
+        "16.0"
+      ],
+      [
+        "Decile 6",
+        "17.599999999999998"
+      ],
+      [
+        "Decile 7",
+        "22.2"
+      ],
+      [
+        "Decile 8",
+        "29.6"
+      ],
+      [
+        "Decile 9",
+        "34.4"
+      ],
+      [
+        "Mean",
+        "17.89189189189189"
+      ],
+      [
+        "Std Dev.",
+        "10.202765347937264"
+      ],
+      [
+        "Variance",
+        "104.0964207450694"
+      ],
+      [
+        "Displayed N",
+        "37"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "bep89",
+    "label": "How old were you when you first had epilepsy - at age 43 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8197",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bep89",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8197",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How old were you when you first had epilepsy - at age 43 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "de89d",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "21",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1989",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell counts issue. Recoded version is available.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "oep89",
+        "description": "How many times have you consulted another health professional about epilepsy - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "epirc99",
+        "description": "Is cause of seizures/fits recorded up to 1999 interview (epilepsy) - till age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "Epilepsy99"
+      },
+      {
+        "varname": "epicod99",
+        "description": "Epilepsy up to 1999 coded record - till age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "Epilepsy99"
+      },
+      {
+        "varname": "epirp99",
+        "description": "Seizures/fits ever reported up to 1999 interview (epilepsy) - till age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "Epilepsy99"
+      },
+      {
+        "varname": "dep09",
+        "description": "Since 1999 have you been told by a doctor that you have fits or epilepsy - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "12(a)",
+        "library_file": "FitsAndEpilepsy09"
+      },
+      {
+        "varname": "fdoctold",
+        "description": "Has doctor said you had this problem (fits or epilepsy) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "35(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "epcontrol82",
+        "description": "First and second Controls for each epilepsy case from 1972 to 1982",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "Epilepsy82"
+      },
+      {
+        "varname": "deply15x",
+        "description": "Have you had any seizures in the last twelve months - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "17(c)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "epilv99",
+        "description": "Liverpool lifetime epilepsy score up to 1999 interview (epilepsy) - till age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "Epilepsy99"
+      },
+      {
+        "varname": "depa15x",
+        "description": "What was your age when you were diagnosed with epilepsy - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "17(b)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "epmed82",
+        "description": "Taking medication for epilepsy from 1972 to 1982?",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "Epilepsy82"
+      },
+      {
+        "varname": "ep89",
+        "description": "Have you ever had epilepsy - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "epeons82",
+        "description": "Early or late onset of epilepsy from 1972 to 1982?",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "Epilepsy82"
+      },
+      {
+        "varname": "epiaf99",
+        "description": "Age at first seizure/fit up to 1999 interview - till age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "Epilepsy99"
+      },
+      {
+        "varname": "epdonset82",
+        "description": "Year on onset of epilepsy? (from 1972 to 1982)",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "Epilepsy82"
+      },
+      {
+        "varname": "pep09",
+        "description": "Have you been prescribed medication or other treatment (for fits or epilepsy) - at age 60-64 years ",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "12(b)",
+        "library_file": "FitsAndEpilepsy09"
+      },
+      {
+        "varname": "ep82",
+        "description": "Do you have epilepsy all or most of the time - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "20",
+        "library_file": "Epilepsy82"
+      },
+      {
+        "varname": "lep89",
+        "description": "How old were you when you last had epilepsy - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "dep89",
+        "description": "How many times have you consulted a doctor about epilepsy in the last year - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "dep15x",
+        "description": "Since 2006, have you had epilepsy - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "17(a)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "pep89",
+        "description": "Have you taken any prescribed medicine for epilepsy - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "epim99",
+        "description": "Currently on anti-epileptic medication at 1999 interview (epilepsy) - till age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "Epilepsy99"
+      },
+      {
+        "varname": "fit",
+        "description": "Have you ever had any fits or epilepsy in the last ten years - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "35",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "epgrp82",
+        "description": "Complicated epilepsy i.e. with predisposing illness or concomitant neurological condition from 1972 to 1982?",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "Epilepsy82"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Nervous system conditions [51018]",
+        "description": "This category contains data from the questionnaires on nervous system conditions, such as epilepsy, parkinsons, myalgic encephalomyelitis (ME), headache and migraines.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Nervous_system_conditions_51018.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 24,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          4.0,
+          8.571428571428571,
+          13.142857142857142,
+          17.714285714285715,
+          22.285714285714285,
+          26.857142857142854,
+          31.428571428571427,
+          36.0
+        ],
+        "counts": [
+          10,
+          4,
+          8,
+          4,
+          2,
+          3,
+          6
+        ]
+      },
+      "boxplot": {
+        "min": 4.0,
+        "q1": 8.0,
+        "median": 16.0,
+        "q3": 26.0,
+        "max": 36.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "4"
+      ],
+      [
+        "Maximum",
+        "36"
+      ],
+      [
+        "Range",
+        "32"
+      ],
+      [
+        "Median",
+        "16.0"
+      ],
+      [
+        "IQR",
+        "8.0 - 26.0"
+      ],
+      [
+        "Decile 1",
+        "6.6"
+      ],
+      [
+        "Decile 2",
+        "8.0"
+      ],
+      [
+        "Decile 3",
+        "12.0"
+      ],
+      [
+        "Decile 4",
+        "14.0"
+      ],
+      [
+        "Decile 5",
+        "16.0"
+      ],
+      [
+        "Decile 6",
+        "17.599999999999998"
+      ],
+      [
+        "Decile 7",
+        "22.2"
+      ],
+      [
+        "Decile 8",
+        "29.6"
+      ],
+      [
+        "Decile 9",
+        "34.4"
+      ],
+      [
+        "Mean",
+        "17.89189189189189"
+      ],
+      [
+        "Std Dev.",
+        "10.202765347937264"
+      ],
+      [
+        "Variance",
+        "104.0964207450694"
+      ],
+      [
+        "Displayed N",
+        "37"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

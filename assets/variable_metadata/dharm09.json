@@ -1,0 +1,471 @@
+{
+  "varname": "dharm09",
+  "label": "Date when this (heart attack) last occurred - month (nurse schedule) - at age 60-64 years",
+  "field_id": "7514",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7514",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "month",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dharam14x",
+    "dharay15x",
+    "dharaa15x",
+    "haral",
+    "dharaa215x",
+    "dharaa14x",
+    "harab",
+    "dharay14x",
+    "dhary09",
+    "dharam15x"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10",
+    "2014",
+    "2015"
+  ],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Heart and circulatory conditions [51014]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dharm09",
+    "label": "Date when this (heart attack) last occurred - month (nurse schedule) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dharm09"
+      ],
+      [
+        "Field ID",
+        "7514"
+      ],
+      [
+        "Label",
+        "Date when this (heart attack) last occurred - month (nurse schedule) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "CVDProbs09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "11(e)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "month"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains the month information about the date"
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dharam14x",
+        "What was the date of the first of these heart attacks (month) - at age 68 years ",
+        "2014",
+        "Postal questionnaire",
+        "25(c)",
+        "CVDEvents14"
+      ],
+      [
+        "dharay15x",
+        "Year when had first of these heart attacks - at age 69 years",
+        "2015",
+        "Home visit",
+        "3(c)",
+        "MedicalConditions15"
+      ],
+      [
+        "dharaa15x",
+        "If you cannot remember the month and year of the heart attack, please give your age  - at age 69 years",
+        "2015",
+        "Home visit",
+        "3(c)",
+        "MedicalConditions15"
+      ],
+      [
+        "haral",
+        "How old were you when you had your most recent heart attack - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "28(e)",
+        "capi99a"
+      ],
+      [
+        "dharaa215x",
+        "What was your age when you had your first heart attack - at age 69 years",
+        "2015",
+        "Home visit",
+        "3(c)",
+        "MedicalConditions15"
+      ],
+      [
+        "dharaa14x",
+        "Age of SM at first heart attack (if cannot remember date) - at age 68 years ",
+        "2014",
+        "Postal questionnaire",
+        "25(c)",
+        "CVDEvents14"
+      ],
+      [
+        "harab",
+        "How old were you when you had your first heart attack - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "28(d)",
+        "capi99a"
+      ],
+      [
+        "dharay14x",
+        "What was the date of the first of these heart attacks (year) - at age 68 years ",
+        "2014",
+        "Postal questionnaire",
+        "25(c)",
+        "CVDEvents14"
+      ],
+      [
+        "dhary09",
+        "Date when this (heart attack) last occurred - year (nurse schedule) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "11(e)",
+        "CVDProbs09"
+      ],
+      [
+        "dharam15x",
+        "Month when had first of these heart attacks - at age 69 years",
+        "2015",
+        "Home visit",
+        "3(c)",
+        "MedicalConditions15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Heart and circulatory conditions [51014]",
+        "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "dharm09",
+    "label": "Date when this (heart attack) last occurred - month (nurse schedule) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7514",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dharm09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7514",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Date when this (heart attack) last occurred - month (nurse schedule) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CVDProbs09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "11(e)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "month",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains the month information about the date",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dharam14x",
+        "description": "What was the date of the first of these heart attacks (month) - at age 68 years ",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "25(c)",
+        "library_file": "CVDEvents14"
+      },
+      {
+        "varname": "dharay15x",
+        "description": "Year when had first of these heart attacks - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(c)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dharaa15x",
+        "description": "If you cannot remember the month and year of the heart attack, please give your age  - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(c)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "haral",
+        "description": "How old were you when you had your most recent heart attack - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "28(e)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "dharaa215x",
+        "description": "What was your age when you had your first heart attack - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(c)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dharaa14x",
+        "description": "Age of SM at first heart attack (if cannot remember date) - at age 68 years ",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "25(c)",
+        "library_file": "CVDEvents14"
+      },
+      {
+        "varname": "harab",
+        "description": "How old were you when you had your first heart attack - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "28(d)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "dharay14x",
+        "description": "What was the date of the first of these heart attacks (year) - at age 68 years ",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "25(c)",
+        "library_file": "CVDEvents14"
+      },
+      {
+        "varname": "dhary09",
+        "description": "Date when this (heart attack) last occurred - year (nurse schedule) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "11(e)",
+        "library_file": "CVDProbs09"
+      },
+      {
+        "varname": "dharam15x",
+        "description": "Month when had first of these heart attacks - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(c)",
+        "library_file": "MedicalConditions15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Heart and circulatory conditions [51014]",
+        "description": "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_and_circulatory_conditions_51014.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 10,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "month",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

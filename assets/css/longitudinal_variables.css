@@ -1,0 +1,366 @@
+/* ── Spin animation ──────────────────────────────────────────────────────── */
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Loading screen ──────────────────────────────────────────────────────── */
+.page-longitudinal-variables .loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-size: 15px;
+  color: #4b067a;
+}
+
+.page-longitudinal-variables .spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ddd;
+  border-top-color: #4b067a;
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+  margin-bottom: 10px;
+}
+
+
+/* ── Hero banner — same font/style as other OWL pages ───────────────────── */
+.page-longitudinal-variables .hero-banner {
+  background: linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+  border-radius: 12px;
+  padding: 22px 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.page-longitudinal-variables .hero-banner p {
+  margin: 0 0 10px !important;
+  font-size: 14px !important;
+  color: #555 !important;
+  line-height: 1.6 !important;
+}
+
+.page-longitudinal-variables .hero-stats {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 0.5px solid rgba(106,13,173,0.15);
+}
+
+.page-longitudinal-variables .hero-stat {
+  font-size: 12px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.page-longitudinal-variables .hero-stat strong {
+  color: #6a0dad;
+}
+
+/* ── Callout note ────────────────────────────────────────────────────────── */
+.page-longitudinal-variables .callout-note {
+  background: hsl(210 45% 94%);
+  border: 0.5px solid hsl(210 45% 70%);
+  border-left: 3px solid hsl(210 45% 50%);
+  border-radius: 0 6px 6px 0;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: hsl(210 45% 18%);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* ── Controls row ────────────────────────────────────────────────────────── */
+.page-longitudinal-variables .controls-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.page-longitudinal-variables .controls-row input[type="text"] {
+  font-size: 13px;
+  height: 36px;
+}
+
+.page-longitudinal-variables .controls-row select {
+  font-size: 12px;
+  height: 36px;
+}
+
+.page-longitudinal-variables .reset-filters-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 12px;
+  height: 36px;
+  background: var(--surface-1);
+  border: 0.5px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.page-longitudinal-variables .reset-filters-btn:hover {
+  background: var(--surface-2);
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+}
+
+/* ── Table container ─────────────────────────────────────────────────────── */
+.page-longitudinal-variables .table-wrap {
+  border: 1px solid #C9C0EC;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.page-longitudinal-variables #mainTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  table-layout: fixed;
+}
+
+/* ── Column headers ──────────────────────────────────────────────────────── */
+.page-longitudinal-variables #mainTable thead th {
+  padding: 9px 10px;
+  background: #3a0066;
+  color: white;
+  border-right: 0.5px solid rgba(255,255,255,0.15);
+  font-size: 11.5px;
+  font-weight: 500;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.page-longitudinal-variables #mainTable thead th:last-child {
+  border-right: none;
+}
+
+.page-longitudinal-variables #mainTable thead th[data-sort]:hover {
+  background: #2b004d;
+}
+
+/* ── Pastel column colours (matching other OWL tables) ───────────────────── */
+.page-longitudinal-variables #mainTable tbody .col-check  { background: #ffffff; text-align:center; vertical-align:middle; }
+.page-longitudinal-variables #mainTable tbody .col-fid    { background: #F3E5F5; color: #534AB7; font-weight: 500; font-size: 12px; font-family: inherit; vertical-align:middle; }
+
+.page-longitudinal-variables #mainTable tbody .col-label .label-text {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--text-primary);
+}
+.page-longitudinal-variables #mainTable tbody .col-label  { background: #FFF3E0; vertical-align:top; }
+.page-longitudinal-variables #mainTable tbody .col-topic  { background: #E1F5EE; color: #085041; font-size: 11px; vertical-align:middle; }
+.page-longitudinal-variables #mainTable tbody .col-sweeps { background: #E8F5E9; vertical-align:middle; }
+.page-longitudinal-variables #mainTable tbody .col-view   { background: #ffffff; text-align:center !important; vertical-align:middle !important; }
+
+/* ── Row borders ─────────────────────────────────────────────────────────── */
+.page-longitudinal-variables #mainTable tbody td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #E0D8F5;
+  border-right: 1px solid #E0D8F5;
+  vertical-align: top;
+}
+
+.page-longitudinal-variables #mainTable tbody td:last-child {
+  border-right: none;
+}
+
+.page-longitudinal-variables #mainTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ── Detail table inside panel ───────────────────────────────────────────── */
+.page-longitudinal-variables .dtable-wrap {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.page-longitudinal-variables .dtable {
+  width: auto !important;
+  max-width: 100% !important; /* sized by JS DTABLE_COLUMNS, not here */
+  border-collapse: collapse;
+  font-size: 11.5px;
+  table-layout: fixed !important;
+  margin: 0 auto !important;
+  background: #D7F0E8 !important;
+}
+
+.page-longitudinal-variables .dtable th {
+  padding: 5px 6px;
+  background: #3a0066;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.25;
+  border-right: 0.5px solid rgba(255,255,255,0.15);
+}
+
+.page-longitudinal-variables .dtable th:last-child { border-right: none; }
+
+.page-longitudinal-variables .dtable {
+  border: 1px solid #9AD4BE;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.page-longitudinal-variables .dtable td {
+  padding: 5px 6px;
+  border-bottom: 1px solid #9AD4BE;
+  border-right: 1px solid #9AD4BE;
+  color: var(--text-secondary);
+  text-align: center;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  font-size: 11px;
+}
+
+.page-longitudinal-variables .dtable td:last-child  { border-right: none; }
+.page-longitudinal-variables .dtable tbody tr:last-child td { border-bottom: none; }
+
+/* Variable column (2nd column in both continuous & categorical dtables) stays
+   left-aligned — it holds a link, not a numeric/short value. */
+.page-longitudinal-variables .dtable th:nth-child(2),
+.page-longitudinal-variables .dtable td:nth-child(2) {
+  text-align: left;
+}
+
+/* Add column (1st column, checkbox) — left-aligned per request.
+   Overrides the padding from .sweep-add-col which centers it; comment out
+   this block if you'd rather keep the checkbox centered. */
+.page-longitudinal-variables .dtable th:nth-child(1),
+.page-longitudinal-variables .dtable td:nth-child(1) {
+  text-align: left;
+}
+
+
+/* ── Shared metadata labels inside panel ─────────────────────────────────── */
+.page-longitudinal-variables .sh-lbl {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.page-longitudinal-variables .sh-val {
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+/* ── Bottom action buttons ───────────────────────────────────────────────── */
+.page-longitudinal-variables .download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 14px;
+  height: 36px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.page-longitudinal-variables .download-btn:hover { background: #45a049; }
+
+/* ── Pagination ──────────────────────────────────────────────────────────── */
+.page-longitudinal-variables .pagination-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── Checkbox states — full / partial / none in basket ───────────────────── */
+.page-longitudinal-variables .row-check {
+  accent-color: #534AB7;   /* default purple when manually ticked */
+}
+
+.page-longitudinal-variables .row-check.check-full {
+  accent-color: #534AB7;   /* full purple fill — all sweeps in basket */
+}
+
+.page-longitudinal-variables .row-check.check-partial {
+  position: relative;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #534AB7;
+  border-radius: 2px;
+  background: linear-gradient(135deg, #534AB7 50%, #ffffff 50%);
+  cursor: pointer;
+}
+
+/* ── Legend bar above table, same row as pagination ──────────────────────── */
+.page-longitudinal-variables .check-legend {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.page-longitudinal-variables .check-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.page-longitudinal-variables .check-legend-item input[disabled] {
+  cursor: default;
+  opacity: 1;
+}
+
+.page-longitudinal-variables .legend-swatch {
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  border: 1.5px solid #534AB7;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.page-longitudinal-variables .legend-swatch.empty   { background: #ffffff; }
+.page-longitudinal-variables .legend-swatch.partial { background: linear-gradient(135deg, #534AB7 50%, #ffffff 50%); }
+.page-longitudinal-variables .legend-swatch.full     { background: #534AB7; }
+
+/* ── Sweep detail table — basket status column ───────────────────────────── */
+.page-longitudinal-variables .dtable td.sweep-add-col {
+  text-align: center;
+  padding: 5px 3px !important;
+}
+
+.page-longitudinal-variables .dtable input.sweep-check {
+  width: 12px;
+  height: 12px;
+  accent-color: #534AB7;
+  cursor: pointer;
+}
+
+
+/* ── Custom width for this page only ─────────────────────────────────────── */
+.page-longitudinal-variables.page-topics {
+  max-width: 1200px !important;
+}
+
+.page-longitudinal-variables .hero-banner {
+  max-width: 1200px !important;
+}

@@ -1,0 +1,703 @@
+{
+  "varname": "int10rec",
+  "label": "Interview contact status (recoded) at age 10",
+  "field_id": "6200",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6200",
+  "year": "",
+  "form": "Various",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 5360.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "6200",
+  "truly_longitudinal_varnames": [
+    "int11rec",
+    "int13rec",
+    "int15rec",
+    "int19rec",
+    "int20rec",
+    "int22rec",
+    "int23rec",
+    "int25rec",
+    "int26rec",
+    "int2rec",
+    "int31rec",
+    "int36rec",
+    "int43rec",
+    "int4rec",
+    "int53rec",
+    "int63rec",
+    "int68rec",
+    "int69rec",
+    "int6rec",
+    "int76rec",
+    "int77rec",
+    "int79rec",
+    "int7rec",
+    "int8rec",
+    "int9rec",
+    "int_cw1rec",
+    "int_cw2rec",
+    "int_cw3rec"
+  ],
+  "truly_longitudinal_years": [
+    "1948",
+    "1950",
+    "1952",
+    "1953",
+    "1954",
+    "1955",
+    "1956",
+    "1957",
+    "1959",
+    "1961",
+    "1965",
+    "1966",
+    "1968",
+    "1969",
+    "1971",
+    "1972",
+    "1977",
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2014",
+    "2015",
+    "2021",
+    "2022",
+    "2023",
+    "2025"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Response status [4051]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Not interviewed"
+    },
+    {
+      "value": "1.0",
+      "label": "Interviewed"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Not interviewed",
+      "count": 1285,
+      "pct": 24.0
+    },
+    {
+      "label": "Interviewed",
+      "count": 4075,
+      "pct": 76.0
+    }
+  ],
+  "pdf": {
+    "varname": "int10rec",
+    "label": "Interview contact status (recoded) at age 10",
+    "meta_rows": [
+      [
+        "Variable",
+        "int10rec"
+      ],
+      [
+        "Field ID",
+        "6200"
+      ],
+      [
+        "Label",
+        "Interview contact status (recoded) at age 10"
+      ],
+      [
+        "Card Number",
+        "INTrec"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "1956"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "This is a collapsed version of the response variable. Full breakdown is restricted."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "int2rec",
+        "1948",
+        "Interview contact status (recoded) at age 2"
+      ],
+      [
+        "int4rec",
+        "1950",
+        "Interview contact status (recoded) at age 4"
+      ],
+      [
+        "int6rec",
+        "1952",
+        "Interview contact status (recoded) at age 6"
+      ],
+      [
+        "int7rec",
+        "1953",
+        "Interview contact status (recoded) at age 7"
+      ],
+      [
+        "int8rec",
+        "1954",
+        "Interview contact status (recoded) at age 8"
+      ],
+      [
+        "int9rec",
+        "1955",
+        "Interview contact status (recoded) at age 9"
+      ],
+      [
+        "int11rec",
+        "1957",
+        "Interview contact status (recoded) at age 11"
+      ],
+      [
+        "int13rec",
+        "1959",
+        "Interview contact status (recoded) at age 13"
+      ],
+      [
+        "int15rec",
+        "1961",
+        "Interview contact status (recoded) at age 15"
+      ],
+      [
+        "int19rec",
+        "1965",
+        "Interview contact status (recoded) at age 19"
+      ],
+      [
+        "int20rec",
+        "1966",
+        "Interview contact status (recoded) at age 20"
+      ],
+      [
+        "int22rec",
+        "1968",
+        "Interview contact status (recoded) at age 22"
+      ],
+      [
+        "int23rec",
+        "1969",
+        "Interview contact status (recoded) at age 23"
+      ],
+      [
+        "int25rec",
+        "1971",
+        "Interview contact status (recoded) at age 25"
+      ],
+      [
+        "int26rec",
+        "1972",
+        "Interview contact status (recoded) at age 26"
+      ],
+      [
+        "int31rec",
+        "1977",
+        "Interview contact status (recoded) at age 31"
+      ],
+      [
+        "int36rec",
+        "1982",
+        "Interview contact status (recoded) at age 36"
+      ],
+      [
+        "int43rec",
+        "1989",
+        "Interview contact status (recoded) at age 43"
+      ],
+      [
+        "int53rec",
+        "1999",
+        "Interview contact status (recoded) at age 53 (1999)"
+      ],
+      [
+        "int63rec",
+        "2006-10",
+        "Interview contact status (recoded) at age 60 to 64 (2006-11)"
+      ],
+      [
+        "int68rec",
+        "2014",
+        "Interview contact status (recoded) at 68 years"
+      ],
+      [
+        "int69rec",
+        "2015",
+        "Interview contact status (recoded) at 69 years"
+      ],
+      [
+        "int_cw1rec",
+        "2021",
+        "Interview contact status (recoded) at first covid wave - age 74 years"
+      ],
+      [
+        "int_cw2rec",
+        "2021",
+        "Interview contact status (recoded) at second covid wave - age 74 years"
+      ],
+      [
+        "int_cw3rec",
+        "2022",
+        "Interview contact status (recoded) at third covid wave - age 75 years"
+      ],
+      [
+        "int76rec",
+        "2022",
+        "Interview contact status (recoded) at age 76 years"
+      ],
+      [
+        "int77rec",
+        "2023",
+        "Interview contact status (recoded) at age 77 years"
+      ],
+      [
+        "int79rec",
+        "2025",
+        "Interview contact status (recoded) at age 79 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Response status [4051]",
+        "This category contains data on the participation of the survey members during the different waves of data collections."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Not interviewed",
+        false
+      ],
+      [
+        "1.0",
+        "Interviewed",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1285",
+        "24%"
+      ],
+      [
+        "1",
+        "4075",
+        "76%"
+      ],
+      [
+        "Displayed N",
+        "5360",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "int10rec",
+    "label": "Interview contact status (recoded) at age 10",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6200",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "int10rec",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "6200",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Interview contact status (recoded) at age 10",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "INTrec",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1956",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This is a collapsed version of the response variable. Full breakdown is restricted.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "6200",
+      "members": [
+        {
+          "varname": "int2rec",
+          "year": "1948",
+          "label": "Interview contact status (recoded) at age 2",
+          "is_current": false
+        },
+        {
+          "varname": "int4rec",
+          "year": "1950",
+          "label": "Interview contact status (recoded) at age 4",
+          "is_current": false
+        },
+        {
+          "varname": "int6rec",
+          "year": "1952",
+          "label": "Interview contact status (recoded) at age 6",
+          "is_current": false
+        },
+        {
+          "varname": "int7rec",
+          "year": "1953",
+          "label": "Interview contact status (recoded) at age 7",
+          "is_current": false
+        },
+        {
+          "varname": "int8rec",
+          "year": "1954",
+          "label": "Interview contact status (recoded) at age 8",
+          "is_current": false
+        },
+        {
+          "varname": "int9rec",
+          "year": "1955",
+          "label": "Interview contact status (recoded) at age 9",
+          "is_current": false
+        },
+        {
+          "varname": "int10rec",
+          "year": "1956",
+          "label": "Interview contact status (recoded) at age 10",
+          "is_current": true
+        },
+        {
+          "varname": "int11rec",
+          "year": "1957",
+          "label": "Interview contact status (recoded) at age 11",
+          "is_current": false
+        },
+        {
+          "varname": "int13rec",
+          "year": "1959",
+          "label": "Interview contact status (recoded) at age 13",
+          "is_current": false
+        },
+        {
+          "varname": "int15rec",
+          "year": "1961",
+          "label": "Interview contact status (recoded) at age 15",
+          "is_current": false
+        },
+        {
+          "varname": "int19rec",
+          "year": "1965",
+          "label": "Interview contact status (recoded) at age 19",
+          "is_current": false
+        },
+        {
+          "varname": "int20rec",
+          "year": "1966",
+          "label": "Interview contact status (recoded) at age 20",
+          "is_current": false
+        },
+        {
+          "varname": "int22rec",
+          "year": "1968",
+          "label": "Interview contact status (recoded) at age 22",
+          "is_current": false
+        },
+        {
+          "varname": "int23rec",
+          "year": "1969",
+          "label": "Interview contact status (recoded) at age 23",
+          "is_current": false
+        },
+        {
+          "varname": "int25rec",
+          "year": "1971",
+          "label": "Interview contact status (recoded) at age 25",
+          "is_current": false
+        },
+        {
+          "varname": "int26rec",
+          "year": "1972",
+          "label": "Interview contact status (recoded) at age 26",
+          "is_current": false
+        },
+        {
+          "varname": "int31rec",
+          "year": "1977",
+          "label": "Interview contact status (recoded) at age 31",
+          "is_current": false
+        },
+        {
+          "varname": "int36rec",
+          "year": "1982",
+          "label": "Interview contact status (recoded) at age 36",
+          "is_current": false
+        },
+        {
+          "varname": "int43rec",
+          "year": "1989",
+          "label": "Interview contact status (recoded) at age 43",
+          "is_current": false
+        },
+        {
+          "varname": "int53rec",
+          "year": "1999",
+          "label": "Interview contact status (recoded) at age 53 (1999)",
+          "is_current": false
+        },
+        {
+          "varname": "int63rec",
+          "year": "2006-10",
+          "label": "Interview contact status (recoded) at age 60 to 64 (2006-11)",
+          "is_current": false
+        },
+        {
+          "varname": "int68rec",
+          "year": "2014",
+          "label": "Interview contact status (recoded) at 68 years",
+          "is_current": false
+        },
+        {
+          "varname": "int69rec",
+          "year": "2015",
+          "label": "Interview contact status (recoded) at 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "int_cw1rec",
+          "year": "2021",
+          "label": "Interview contact status (recoded) at first covid wave - age 74 years",
+          "is_current": false
+        },
+        {
+          "varname": "int_cw2rec",
+          "year": "2021",
+          "label": "Interview contact status (recoded) at second covid wave - age 74 years",
+          "is_current": false
+        },
+        {
+          "varname": "int_cw3rec",
+          "year": "2022",
+          "label": "Interview contact status (recoded) at third covid wave - age 75 years",
+          "is_current": false
+        },
+        {
+          "varname": "int76rec",
+          "year": "2022",
+          "label": "Interview contact status (recoded) at age 76 years",
+          "is_current": false
+        },
+        {
+          "varname": "int77rec",
+          "year": "2023",
+          "label": "Interview contact status (recoded) at age 77 years",
+          "is_current": false
+        },
+        {
+          "varname": "int79rec",
+          "year": "2025",
+          "label": "Interview contact status (recoded) at age 79 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Response status [4051]",
+        "description": "This category contains data on the participation of the survey members during the different waves of data collections.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Response_status_4051.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Not interviewed",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Interviewed",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 28,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Not interviewed",
+          "count": 1285,
+          "pct": 24
+        },
+        {
+          "value": "1",
+          "label": "Interviewed",
+          "count": 4075,
+          "pct": 76
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1285",
+        "24%"
+      ],
+      [
+        "1",
+        "4075",
+        "76%"
+      ],
+      [
+        "Displayed N",
+        "5360",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

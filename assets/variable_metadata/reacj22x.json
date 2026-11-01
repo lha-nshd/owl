@@ -1,0 +1,569 @@
+{
+  "varname": "reacj22x",
+  "label": "In the last year have you had a major bereavement: When this happened or when you found out about it, were you? - at age 76 years",
+  "field_id": "8895",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8895",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 378.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "reld",
+    "reld22x",
+    "reldch82",
+    "reldch22x",
+    "reld89",
+    "reld09",
+    "reldc89",
+    "reldr89",
+    "reacd82",
+    "reldi82"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2022"
+  ],
+  "categories": [
+    "Life events [540]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Fairly calm about it"
+    },
+    {
+      "value": "1.0",
+      "label": "Shocked but able to cope"
+    },
+    {
+      "value": "2.0",
+      "label": "Rather overwhelmed"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Fairly calm about it",
+      "count": 85,
+      "pct": 22.5
+    },
+    {
+      "label": "Shocked but able to cope",
+      "count": 212,
+      "pct": 56.1
+    },
+    {
+      "label": "Rather overwhelmed",
+      "count": 81,
+      "pct": 21.4
+    }
+  ],
+  "pdf": {
+    "varname": "reacj22x",
+    "label": "In the last year have you had a major bereavement: When this happened or when you found out about it, were you? - at age 76 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "reacj22x"
+      ],
+      [
+        "Field ID",
+        "8895"
+      ],
+      [
+        "Label",
+        "In the last year have you had a major bereavement: When this happened or when you found out about it, were you? - at age 76 years"
+      ],
+      [
+        "Card Number",
+        "Postal22"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "173(j)"
+      ],
+      [
+        "Year",
+        "2022"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Life event questions, Q173-Q174. The gating question is RELD22X"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "reld",
+        "Life events you may have had in the last year: Has a friend or relative or someone you know well died in the last 12 months? - at age 53 years.",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "96(n)",
+        "capi99a"
+      ],
+      [
+        "reld22x",
+        "Life events you may have had in the last year. - Have you had a major bereavement? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "173(j)",
+        "Postal22"
+      ],
+      [
+        "reldch82",
+        "In the last year has a relation or friend or someone you know well died? Since this happened has it changed your life in any way? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "67",
+        "B18"
+      ],
+      [
+        "reldch22x",
+        "In the last year have you had a major bereavement: As a result of this has your way of life changed at all? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "173(j)",
+        "Postal22"
+      ],
+      [
+        "reld89",
+        "Life events you may have had in the last year: Has a friend or relative or someone you know well died in the last 12 months? - at age 43 years.",
+        "1989",
+        "A - Main questionnaire",
+        "68(m)",
+        "de89d"
+      ],
+      [
+        "reld09",
+        "Life events you may have had in the last year: Has a friend or relative (other than your spouse/partner or children) or someone you know well died in the last 12 months? - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "31(n)",
+        "LIFEEV09"
+      ],
+      [
+        "reldc89",
+        "In the last year has a friend, relative or someone you know well died? As a result of this have you had to change your way of life? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "68(m)",
+        "de89d"
+      ],
+      [
+        "reldr89",
+        "In the last year has a friend, relative or someone you know well died? When this happened or when you found out about it, were you? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "68(m)",
+        "de89d"
+      ],
+      [
+        "reacd82",
+        "In the last year has a relation or friend or someone you know well died? At the time when it first happened how did you feel? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "67",
+        "B18"
+      ],
+      [
+        "reldi82",
+        "Life events you may have had in the last year: Has a relation or friend or someone you know well died during the last year? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "67",
+        "B18"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Life events [540]",
+        "This category contains data from the questionnaires on life events such as serious illness and disability, accidents, robbery, disagreements with spouse and relatives, difficulties with children and grandchildren, major breavement or disappointments."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Fairly calm about it",
+        false
+      ],
+      [
+        "1.0",
+        "Shocked but able to cope",
+        false
+      ],
+      [
+        "2.0",
+        "Rather overwhelmed",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "85",
+        "22%"
+      ],
+      [
+        "1",
+        "212",
+        "56%"
+      ],
+      [
+        "2",
+        "81",
+        "21%"
+      ],
+      [
+        "Displayed N",
+        "378",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "reacj22x",
+    "label": "In the last year have you had a major bereavement: When this happened or when you found out about it, were you? - at age 76 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8895",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "reacj22x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8895",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "In the last year have you had a major bereavement: When this happened or when you found out about it, were you? - at age 76 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Postal22",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "173(j)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2022",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Life event questions, Q173-Q174. The gating question is RELD22X",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "reld",
+        "description": "Life events you may have had in the last year: Has a friend or relative or someone you know well died in the last 12 months? - at age 53 years.",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "96(n)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "reld22x",
+        "description": "Life events you may have had in the last year. - Have you had a major bereavement? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "173(j)",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "reldch82",
+        "description": "In the last year has a relation or friend or someone you know well died? Since this happened has it changed your life in any way? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "67",
+        "library_file": "B18"
+      },
+      {
+        "varname": "reldch22x",
+        "description": "In the last year have you had a major bereavement: As a result of this has your way of life changed at all? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "173(j)",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "reld89",
+        "description": "Life events you may have had in the last year: Has a friend or relative or someone you know well died in the last 12 months? - at age 43 years.",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "68(m)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "reld09",
+        "description": "Life events you may have had in the last year: Has a friend or relative (other than your spouse/partner or children) or someone you know well died in the last 12 months? - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "31(n)",
+        "library_file": "LIFEEV09"
+      },
+      {
+        "varname": "reldc89",
+        "description": "In the last year has a friend, relative or someone you know well died? As a result of this have you had to change your way of life? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "68(m)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "reldr89",
+        "description": "In the last year has a friend, relative or someone you know well died? When this happened or when you found out about it, were you? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "68(m)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "reacd82",
+        "description": "In the last year has a relation or friend or someone you know well died? At the time when it first happened how did you feel? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "67",
+        "library_file": "B18"
+      },
+      {
+        "varname": "reldi82",
+        "description": "Life events you may have had in the last year: Has a relation or friend or someone you know well died during the last year? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "67",
+        "library_file": "B18"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Life events [540]",
+        "description": "This category contains data from the questionnaires on life events such as serious illness and disability, accidents, robbery, disagreements with spouse and relatives, difficulties with children and grandchildren, major breavement or disappointments.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Life_events_540.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Fairly calm about it",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Shocked but able to cope",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Rather overwhelmed",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 10,
+      "docs": 1,
+      "cats": 1,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Fairly calm about it",
+          "count": 85,
+          "pct": 22
+        },
+        {
+          "value": "1",
+          "label": "Shocked but able to cope",
+          "count": 212,
+          "pct": 56
+        },
+        {
+          "value": "2",
+          "label": "Rather overwhelmed",
+          "count": 81,
+          "pct": 21
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "85",
+        "22%"
+      ],
+      [
+        "1",
+        "212",
+        "56%"
+      ],
+      [
+        "2",
+        "81",
+        "21%"
+      ],
+      [
+        "Displayed N",
+        "378",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

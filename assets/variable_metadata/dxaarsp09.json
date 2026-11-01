@@ -1,0 +1,470 @@
+{
+  "varname": "dxaarsp09",
+  "label": "Area for Spine (cm2)  - DXA at 60-64 years",
+  "field_id": "1307",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1307",
+  "year": "",
+  "form": "DICOM",
+  "units": "cm2",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 63.879782559629625,
+  "sd": 6.952243453997568,
+  "series_size": 1485.0,
+  "minimum": 51.48386629,
+  "maximum": 78.26412044,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Anthropometry [2]",
+    "Body composition by DXA [10512]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "Not attended clinic or test not done"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dxaarsp09",
+    "label": "Area for Spine (cm2)  - DXA at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dxaarsp09"
+      ],
+      [
+        "Field ID",
+        "1307"
+      ],
+      [
+        "Label",
+        "Area for Spine (cm2)  - DXA at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "DXA09"
+      ],
+      [
+        "Form",
+        "DICOM"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "cm2"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived from dicom images from Manchester."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Anthropometry [2]",
+        "Legacy Category"
+      ],
+      [
+        "Body composition by DXA [10512]",
+        "Body composition results derived from DXA measurements."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "Not attended clinic or test not done",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "51.48386629"
+      ],
+      [
+        "Maximum",
+        "78.26412044"
+      ],
+      [
+        "Range",
+        "26.780254149999998"
+      ],
+      [
+        "Median",
+        "63.47395933"
+      ],
+      [
+        "IQR",
+        "58.162 - 69.23"
+      ],
+      [
+        "Decile 1",
+        "54.880045596"
+      ],
+      [
+        "Decile 2",
+        "57.072109292"
+      ],
+      [
+        "Decile 3",
+        "59.226300758"
+      ],
+      [
+        "Decile 4",
+        "61.263014328"
+      ],
+      [
+        "Decile 5",
+        "63.47395933"
+      ],
+      [
+        "Decile 6",
+        "65.64231996000001"
+      ],
+      [
+        "Decile 7",
+        "67.939563674"
+      ],
+      [
+        "Decile 8",
+        "70.481592862"
+      ],
+      [
+        "Decile 9",
+        "74.12392304"
+      ],
+      [
+        "Mean",
+        "63.879782559629625"
+      ],
+      [
+        "Std Dev.",
+        "6.952243453997568"
+      ],
+      [
+        "Variance",
+        "48.33368904365203"
+      ],
+      [
+        "Displayed N",
+        "1485"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dxaarsp09",
+    "label": "Area for Spine (cm2)  - DXA at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1307",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dxaarsp09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1307",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Area for Spine (cm2)  - DXA at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "DXA09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "DICOM",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "cm2",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived from dicom images from Manchester.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Anthropometry [2]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Body composition by DXA [10512]",
+        "description": "Body composition results derived from DXA measurements.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Body_composition_by_DXA_10512.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "Not attended clinic or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "cm2",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          51.48386629,
+          53.396741586428575,
+          55.30961688285714,
+          57.222492179285716,
+          59.13536747571429,
+          61.048242772142856,
+          62.96111806857143,
+          64.873993365,
+          66.78686866142857,
+          68.69974395785715,
+          70.61261925428572,
+          72.52549455071428,
+          74.43836984714287,
+          76.35124514357143,
+          78.26412044
+        ],
+        "counts": [
+          76,
+          104,
+          126,
+          135,
+          141,
+          123,
+          129,
+          135,
+          113,
+          112,
+          82,
+          81,
+          69,
+          59
+        ]
+      },
+      "boxplot": {
+        "min": 51.48386629,
+        "q1": 58.162,
+        "median": 63.47395933,
+        "q3": 69.23,
+        "max": 78.26412044
+      },
+      "units": "cm2"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "51.48386629"
+      ],
+      [
+        "Maximum",
+        "78.26412044"
+      ],
+      [
+        "Range",
+        "26.780254149999998"
+      ],
+      [
+        "Median",
+        "63.47395933"
+      ],
+      [
+        "IQR",
+        "58.162 - 69.23"
+      ],
+      [
+        "Decile 1",
+        "54.880045596"
+      ],
+      [
+        "Decile 2",
+        "57.072109292"
+      ],
+      [
+        "Decile 3",
+        "59.226300758"
+      ],
+      [
+        "Decile 4",
+        "61.263014328"
+      ],
+      [
+        "Decile 5",
+        "63.47395933"
+      ],
+      [
+        "Decile 6",
+        "65.64231996000001"
+      ],
+      [
+        "Decile 7",
+        "67.939563674"
+      ],
+      [
+        "Decile 8",
+        "70.481592862"
+      ],
+      [
+        "Decile 9",
+        "74.12392304"
+      ],
+      [
+        "Mean",
+        "63.879782559629625"
+      ],
+      [
+        "Std Dev.",
+        "6.952243453997568"
+      ],
+      [
+        "Variance",
+        "48.33368904365203"
+      ],
+      [
+        "Displayed N",
+        "1485"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

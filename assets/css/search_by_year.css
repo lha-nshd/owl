@@ -1,0 +1,366 @@
+/* ⭐ PAGE CONTAINER — same base rules as page-search-data-dictionary */
+.page-search-by-year {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.page-search-by-year * {
+  box-sizing: border-box;
+}
+
+.page-search-by-year .search-input-wrap,
+.page-search-by-year .search-input-wrap input {
+  box-sizing: content-box !important;
+}
+
+/* ⭐ LOADING SCREEN */
+.page-search-by-year .loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-size: 18px;
+  color: #4b067a;
+}
+
+.page-search-by-year .spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ddd;
+  border-top-color: #4b067a;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* HERO BANNER — identical sizing to Search Data Dictionary */
+.page-search-by-year .hero-banner {
+  background: linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+  border-radius: 12px;
+  padding: 20px 30px 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: 100%;
+}
+
+.page-search-by-year .hero-banner p:last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.page-search-by-year .hero-banner h1 {
+  margin: 0 0 8px 0 !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: #800020 !important;
+}
+
+.page-search-by-year .hero-banner p {
+  margin: 0 0 16px 0 !important;
+  font-size: 15px !important;
+  color: #555 !important;
+}
+
+.page-search-by-year .usage-note {
+  margin: 10px 0 0 0 !important;
+  font-size: 12.5px !important;
+  color: #666 !important;
+  font-style: italic;
+  padding-bottom: 0;
+}
+
+/* ⭐ YEAR PILL BAR — wraps within the page width, no horizontal scroll */
+.page-search-by-year .year-pill-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.page-search-by-year .year-pill {
+  flex-shrink: 0;
+  min-width: 38px;
+  max-width: 56px;
+  text-align: center;
+  background: #f1f5f9;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  padding: 3px 5px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.page-search-by-year .year-pill .pill-line1 {
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  color: #333;
+}
+
+.page-search-by-year .year-pill .pill-line2 {
+  display: block;
+  font-size: 9px;
+  color: #666;
+}
+
+.page-search-by-year .year-pill.active {
+  border: 2px solid #4b067a;
+  box-shadow: 0 0 0 1px #4b067a inset;
+}
+
+.page-search-by-year .year-pill-all {
+  min-width: 32px;
+}
+
+/* Pills with zero matches in the current topic/search subset are
+   dimmed, so pills that DO match visually stand out by contrast. */
+.page-search-by-year .year-pill.pill-no-match {
+  opacity: 0.3;
+}
+
+/* ⭐ LEGEND — identifies sub-study pill colours */
+.page-search-by-year .wave-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 0.5px solid #ddd;
+}
+
+.page-search-by-year .wave-legend .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #555;
+}
+
+.page-search-by-year .wave-legend .legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.page-search-by-year .wave-legend .legend-dot-general {
+  background: #f1f5f9;
+  border: 1px solid #999;
+}
+
+/* Sub-study pill colours — unselected state */
+.page-search-by-year .year-pill.wave-womens   { background: #FBEAF0; }
+.page-search-by-year .year-pill.wave-womens   .pill-line1 { color: #4B1528; }
+.page-search-by-year .year-pill.wave-womens   .pill-line2 { color: #72243E; }
+
+.page-search-by-year .year-pill.wave-insight  { background: #EEEDFE; }
+.page-search-by-year .year-pill.wave-insight  .pill-line1 { color: #26215C; }
+.page-search-by-year .year-pill.wave-insight  .pill-line2 { color: #3C3489; }
+
+.page-search-by-year .year-pill.wave-myofit   { background: #E1F5EE; }
+.page-search-by-year .year-pill.wave-myofit   .pill-line1 { color: #04342C; }
+.page-search-by-year .year-pill.wave-myofit   .pill-line2 { color: #085041; }
+
+.page-search-by-year .year-pill.wave-covid    { background: #FAEEDA; }
+.page-search-by-year .year-pill.wave-covid    .pill-line1 { color: #412402; }
+.page-search-by-year .year-pill.wave-covid    .pill-line2 { color: #633806; }
+
+/* Sub-study pill stays its own colour even when active — the active
+   state (border) comes from the unified .year-pill.active rule above. */
+
+/* ⭐ TOPIC FILTER BAR (5 levels) */
+.page-search-by-year .topic-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
+.page-search-by-year .topic-filter-bar select {
+  flex: 1 1 0;
+  min-width: 120px;
+}
+
+/* ⭐ YEAR BADGE IN TABLE */
+.page-search-by-year .year-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+  background: #f1f5f9;
+  border: 1px solid #d0d0d0;
+  color: #333;
+}
+
+.page-search-by-year .year-badge.wave-womens  { background: #FBEAF0; color: #4B1528; border: none; }
+.page-search-by-year .year-badge.wave-insight { background: #EEEDFE; color: #26215C; border: none; }
+.page-search-by-year .year-badge.wave-myofit  { background: #E1F5EE; color: #04342C; border: none; }
+.page-search-by-year .year-badge.wave-covid   { background: #FAEEDA; color: #412402; border: none; }
+
+/* ⭐ BUTTONS — identical to Search Data Dictionary */
+.page-search-by-year #resetFiltersBtn {
+  margin-left: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  background: #4b067a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.page-search-by-year #resetFiltersBtn:hover { background: #36045a; }
+
+.page-search-by-year .add-all-btn {
+  margin-left: 10px;
+  padding: 6px 14px;
+  background: #009688;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.page-search-by-year .add-all-btn.remove-mode { background: #D32F2F; }
+.page-search-by-year .add-all-btn.remove-mode:hover { background: #B71C1C; }
+.page-search-by-year .add-all-btn:disabled {
+  background: #333 !important;
+  color: white;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.page-search-by-year .download-btn {
+  margin-left: 10px;
+  padding: 6px 14px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.page-search-by-year .download-btn:hover { background: #45a049; }
+
+.page-search-by-year .download-excel-btn {
+  margin-left: 10px;
+  padding: 6px 14px;
+  background: #1976D2;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.page-search-by-year .download-excel-btn:hover { background: #0F5BA5; }
+
+/* ⭐ TABLE WRAPPER + BASE — identical sizing to Search Data Dictionary */
+.page-search-by-year #table-wrapper {
+  max-height: 70vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  position: relative;
+}
+
+.page-search-by-year #myTable {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.page-search-by-year #myTable thead th {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  padding: 0;
+  border-bottom: 2px solid #4b067a;
+}
+
+.page-search-by-year #myTable thead th .th-inner {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  background: transparent !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-search-by-year .sort-icon {
+  font-size: 12px;
+  margin-left: 6px;
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+.page-search-by-year .sortable-header:hover .sort-icon { opacity: 0.9; }
+
+.page-search-by-year #myTable tbody tr:nth-child(odd)  { background-color: #f7f7f7 !important; }
+.page-search-by-year #myTable tbody tr:nth-child(even) { background-color: #ececec !important; }
+
+.page-search-by-year #myTable td {
+  padding: 6px 10px;
+  vertical-align: top;
+  word-wrap: break-word;
+  border-bottom: 1px solid #ddd;
+}
+
+.page-search-by-year #myTable th,
+.page-search-by-year #myTable td {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
+
+/* Column widths — 6 data columns: varname, label, units, form, question number, year */
+.page-search-by-year #myTable col.col-1 { width: 13%; }
+.page-search-by-year #myTable col.col-2 { width: 38%; }
+.page-search-by-year #myTable col.col-3 { width: 8%; }
+.page-search-by-year #myTable col.col-4 { width: 14%; }
+.page-search-by-year #myTable col.col-5 { width: 13%; }
+.page-search-by-year #myTable col.col-6 { width: 14%; }
+
+.page-search-by-year #myTable col.col-select {
+  width: 90px !important;
+  min-width: 90px !important;
+  max-width: 90px !important;
+}
+
+.page-search-by-year #myTable th.select-header,
+.page-search-by-year #myTable td.select-cell {
+  background: #ffffff !important;
+  text-align: center;
+}
+
+.page-search-by-year #myTable td.select-cell input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+
+/* Pastel column colours, matching the Search Data Dictionary palette */
+.page-search-by-year #myTable th:nth-child(2), .page-search-by-year #myTable tbody td:nth-child(2) { background: #F3E5F5 !important; }
+.page-search-by-year #myTable th:nth-child(3), .page-search-by-year #myTable tbody td:nth-child(3) { background: #E3F2FD !important; }
+.page-search-by-year #myTable th:nth-child(4), .page-search-by-year #myTable tbody td:nth-child(4) { background: #FFF3E0 !important; }
+.page-search-by-year #myTable th:nth-child(5), .page-search-by-year #myTable tbody td:nth-child(5) { background: #FCE4EC !important; }
+.page-search-by-year #myTable th:nth-child(6), .page-search-by-year #myTable tbody td:nth-child(6) { background: #EDE7F6 !important; }
+.page-search-by-year #myTable th:nth-child(7), .page-search-by-year #myTable tbody td:nth-child(7) { background: #FFFDE7 !important; }
+
+.page-search-by-year #myTable thead th .header-label,
+.page-search-by-year #myTable thead th .sort-icon {
+  color: black !important;
+}
+
+.page-search-by-year #myTable th:nth-child(n+2), .page-search-by-year #myTable td:nth-child(n+2) {
+  text-align: left !important;
+}

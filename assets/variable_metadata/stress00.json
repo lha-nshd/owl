@@ -1,0 +1,468 @@
+{
+  "varname": "stress00",
+  "label": "Stress incontinence (derived) 2000 - at age 54 years",
+  "field_id": "22029",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=22029",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1270.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "22029",
+  "truly_longitudinal_varnames": [
+    "stress94",
+    "stress95",
+    "stress96",
+    "stress97",
+    "stress98",
+    "stress99"
+  ],
+  "truly_longitudinal_years": [
+    "1994",
+    "1995",
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Women's health [9]",
+    "Incontinence [7010]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "9.0",
+      "label": "Missing"
+    },
+    {
+      "value": "99.0",
+      "label": "Non-respondent/ Not appropriate(including men)"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 633,
+      "pct": 49.8
+    },
+    {
+      "label": "Yes",
+      "count": 637,
+      "pct": 50.2
+    }
+  ],
+  "pdf": {
+    "varname": "stress00",
+    "label": "Stress incontinence (derived) 2000 - at age 54 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "stress00"
+      ],
+      [
+        "Field ID",
+        "22029"
+      ],
+      [
+        "Label",
+        "Stress incontinence (derived) 2000 - at age 54 years"
+      ],
+      [
+        "Card Number",
+        "womenhlth_uincont"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "18(a), 19"
+      ],
+      [
+        "Year",
+        "2000"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "This variable is derived from 2 items: Women who replied positively to the question \u201cDo you ever lose any urine when you cough, sneeze, laugh, run or exercise\u201d and those who provided response of \u201cless than once a month\u201d to \u201cdaily\u201d  to the question \u201c..during the last 12 months how often have you lost any urine when you did not mean to ..\u2019\u2019 were considered as showing symptoms of stress incontinence"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "stress94",
+        "1994",
+        "Stress incontinence (derived) 1994 - at age 48 years"
+      ],
+      [
+        "stress95",
+        "1995",
+        "Stress incontinence (derived) 1995 - at age 49 years"
+      ],
+      [
+        "stress96",
+        "1996",
+        "Stress incontinence (derived) 1996 - at age 50 years"
+      ],
+      [
+        "stress97",
+        "1997",
+        "Stress incontinence (derived) 1997 - at age 51 years"
+      ],
+      [
+        "stress98",
+        "1998",
+        "Stress incontinence (derived) 1998 - at age 52 years"
+      ],
+      [
+        "stress99",
+        "1999",
+        "Stress incontinence (derived) 1999 - at age 53 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_uincont/UI_midlife.docx",
+        "UI_midlife.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Incontinence [7010]",
+        "This cateogry contains data from the woman's health questionnaires on bladder issues"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "9.0",
+        "Missing",
+        true
+      ],
+      [
+        "99.0",
+        "Non-respondent/ Not appropriate(including men)",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "633",
+        "50%"
+      ],
+      [
+        "1",
+        "637",
+        "50%"
+      ],
+      [
+        "Displayed N",
+        "1270",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "stress00",
+    "label": "Stress incontinence (derived) 2000 - at age 54 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=22029",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "stress00",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "22029",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Stress incontinence (derived) 2000 - at age 54 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "womenhlth_uincont",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "18(a), 19",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2000",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This variable is derived from 2 items: Women who replied positively to the question \u201cDo you ever lose any urine when you cough, sneeze, laugh, run or exercise\u201d and those who provided response of \u201cless than once a month\u201d to \u201cdaily\u201d  to the question \u201c..during the last 12 months how often have you lost any urine when you did not mean to ..\u2019\u2019 were considered as showing symptoms of stress incontinence",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "22029",
+      "members": [
+        {
+          "varname": "stress94",
+          "year": "1994",
+          "label": "Stress incontinence (derived) 1994 - at age 48 years",
+          "is_current": false
+        },
+        {
+          "varname": "stress95",
+          "year": "1995",
+          "label": "Stress incontinence (derived) 1995 - at age 49 years",
+          "is_current": false
+        },
+        {
+          "varname": "stress96",
+          "year": "1996",
+          "label": "Stress incontinence (derived) 1996 - at age 50 years",
+          "is_current": false
+        },
+        {
+          "varname": "stress97",
+          "year": "1997",
+          "label": "Stress incontinence (derived) 1997 - at age 51 years",
+          "is_current": false
+        },
+        {
+          "varname": "stress98",
+          "year": "1998",
+          "label": "Stress incontinence (derived) 1998 - at age 52 years",
+          "is_current": false
+        },
+        {
+          "varname": "stress99",
+          "year": "1999",
+          "label": "Stress incontinence (derived) 1999 - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "stress00",
+          "year": "2000",
+          "label": "Stress incontinence (derived) 2000 - at age 54 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_uincont/UI_midlife.docx",
+        "text": "UI_midlife.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Incontinence [7010]",
+        "description": "This cateogry contains data from the woman's health questionnaires on bladder issues",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Incontinence_7010.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "Missing",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Non-respondent/ Not appropriate(including men)",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 2,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 633,
+          "pct": 50
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 637,
+          "pct": 50
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "633",
+        "50%"
+      ],
+      [
+        "1",
+        "637",
+        "50%"
+      ],
+      [
+        "Displayed N",
+        "1270",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

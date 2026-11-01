@@ -1,0 +1,53 @@
+/*
+ * OWL — Longitudinal variable link icon + legend
+ * /OWL/assets/css/variable-longitudinal-icon.css
+ *
+ * Pink/magenta (#c2185b) so it reads as distinct from the red restricted lock
+ * and the blue/green doc icon. Sizing/spacing is a best guess — if the lock
+ * in variable-restricted-icon.css uses different values, copy them here so
+ * the two icons line up.
+ */
+
+.var-longitudinal-icon {
+  display: inline-block;
+  margin-left: 5px;
+  color: #c2185b;
+  font-size: 14px;
+  line-height: 1;
+  vertical-align: middle;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  cursor: pointer;
+}
+
+.var-longitudinal-icon:hover,
+.var-longitudinal-icon:focus {
+  color: #880e4f;
+  text-decoration: none !important;
+}
+
+.var-longitudinal-icon i {
+  font-size: inherit;
+  vertical-align: middle;
+}
+
+/* Legend line above the table */
+.var-longitudinal-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  background: #fce4ec;
+  border-left: 3px solid #c2185b;
+  border-radius: 0 6px 6px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #5a0a2b;
+}
+
+.var-longitudinal-legend i {
+  flex-shrink: 0;
+  font-size: 16px;
+  color: #c2185b;
+}

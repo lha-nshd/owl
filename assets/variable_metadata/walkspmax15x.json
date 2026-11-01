@@ -1,0 +1,832 @@
+{
+  "varname": "walkspmax15x",
+  "label": "Walking speed - fastest of two (m/s) - at age 69 years",
+  "field_id": "5847",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=5847",
+  "year": "",
+  "form": "Home visit",
+  "units": "m/s",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 1.070199711072518,
+  "sd": 0.21204321011751695,
+  "series_size": 1791.0,
+  "minimum": 0.6272493600845337,
+  "maximum": 1.5641026496887207,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "walksec2_myft",
+    "walkmsec1_myft",
+    "walkt215x",
+    "walksp115x",
+    "wnats223x",
+    "walkfast_myft",
+    "wnat1s123x",
+    "walksp215x",
+    "walkspeed_myft",
+    "walksec1_myft",
+    "walkt115x",
+    "wnatm123x",
+    "wnatms123x",
+    "walkmsec2_myft",
+    "wnatm223x",
+    "walkspav15x",
+    "wnatms223x"
+  ],
+  "linked_years": [
+    "2015",
+    "2020-2024",
+    "2023"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Walk test [1155]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "6666.0",
+      "label": "Questions not asked in paper home visit"
+    },
+    {
+      "value": "7777.0",
+      "label": "No home visit"
+    },
+    {
+      "value": "9996.0",
+      "label": "Fell over during walk 1"
+    },
+    {
+      "value": "9997.0",
+      "label": "Outlier nurse"
+    },
+    {
+      "value": "9998.0",
+      "label": "Unable/unwilling"
+    },
+    {
+      "value": "9999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "walkspmax15x",
+    "label": "Walking speed - fastest of two (m/s) - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "walkspmax15x"
+      ],
+      [
+        "Field ID",
+        "5847"
+      ],
+      [
+        "Label",
+        "Walking speed - fastest of two (m/s) - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "PhysPerf15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "6-7"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "m/s"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "More information available in the documentation."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "walksec2_myft",
+        "Walking time - trial 2 (seconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "walkmsec1_myft",
+        "Walking time - trial 1 (milliseconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "walkt215x",
+        "Walking time - trial 2 (hundredth s) - at age 69 years",
+        "2015",
+        "Home visit",
+        "7",
+        "PhysPerf15"
+      ],
+      [
+        "walksp115x",
+        "Walking speed - trial 1 (m/s) - at age 69 years",
+        "2015",
+        "Home visit",
+        "6",
+        "PhysPerf15"
+      ],
+      [
+        "wnats223x",
+        "Walking time - trial 2 (seconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "walking23"
+      ],
+      [
+        "walkfast_myft",
+        "The fastest time taken to complete the course (in 100ths of a second)- Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "wnat1s123x",
+        "Walking time - trial 1 (seconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "6",
+        "walking23"
+      ],
+      [
+        "walksp215x",
+        "Walking speed - trial 2 (m/s) - at age 69 years",
+        "2015",
+        "Home visit",
+        "7",
+        "PhysPerf15"
+      ],
+      [
+        "walkspeed_myft",
+        "Walking speed - fastest of two (m/s) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "walksec1_myft",
+        "Walking time - trial 1 (seconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "walkt115x",
+        "Walking time - trial 1 (hundredth s) - at age 69 years",
+        "2015",
+        "Home visit",
+        "6",
+        "PhysPerf15"
+      ],
+      [
+        "wnatm123x",
+        "Walking time - trial 1 (minutes) - at age 77 years",
+        "2023",
+        "Home visit",
+        "6",
+        "walking23"
+      ],
+      [
+        "wnatms123x",
+        "Walking time - trial 1 (milliseconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "6",
+        "walking23"
+      ],
+      [
+        "walkmsec2_myft",
+        "Walking time - trial 2 (milliseconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "wnatm223x",
+        "Walking time - trial 2 (minutes) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "walking23"
+      ],
+      [
+        "walkspav15x",
+        "Walking speed - average of two (m/s) - at age 69 years",
+        "2015",
+        "Home visit",
+        "6-7",
+        "PhysPerf15"
+      ],
+      [
+        "wnatms223x",
+        "Walking time - trial 2 (milliseconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "7",
+        "walking23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Walk test [1155]",
+        "During the clinic visit at age 69 years, study participants were asked by the attending nurse whether they would be willing to take part in the walk test."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "6666.0",
+        "Questions not asked in paper home visit",
+        true
+      ],
+      [
+        "7777.0",
+        "No home visit",
+        true
+      ],
+      [
+        "9996.0",
+        "Fell over during walk 1",
+        true
+      ],
+      [
+        "9997.0",
+        "Outlier nurse",
+        true
+      ],
+      [
+        "9998.0",
+        "Unable/unwilling",
+        true
+      ],
+      [
+        "9999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.6272493600845337"
+      ],
+      [
+        "Maximum",
+        "1.5641026496887207"
+      ],
+      [
+        "Range",
+        "0.936853289604187"
+      ],
+      [
+        "Median",
+        "1.0701754093170166"
+      ],
+      [
+        "IQR",
+        "0.9070631861686707 - 1.2200000286102295"
+      ],
+      [
+        "Decile 1",
+        "0.7870967984199524"
+      ],
+      [
+        "Decile 2",
+        "0.8683274388313293"
+      ],
+      [
+        "Decile 3",
+        "0.9457364678382874"
+      ],
+      [
+        "Decile 4",
+        "1.0124480724334717"
+      ],
+      [
+        "Decile 5",
+        "1.0701754093170166"
+      ],
+      [
+        "Decile 6",
+        "1.1296296119689941"
+      ],
+      [
+        "Decile 7",
+        "1.184466004371643"
+      ],
+      [
+        "Decile 8",
+        "1.2577319145202637"
+      ],
+      [
+        "Decile 9",
+        "1.355555534362793"
+      ],
+      [
+        "Mean",
+        "1.070199711072518"
+      ],
+      [
+        "Std Dev.",
+        "0.21204321011751695"
+      ],
+      [
+        "Variance",
+        "0.04496232295694144"
+      ],
+      [
+        "Displayed N",
+        "1791"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "walkspmax15x",
+    "label": "Walking speed - fastest of two (m/s) - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=5847",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "walkspmax15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "5847",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Walking speed - fastest of two (m/s) - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysPerf15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "6-7",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "m/s",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "More information available in the documentation.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "walksec2_myft",
+        "description": "Walking time - trial 2 (seconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "walkmsec1_myft",
+        "description": "Walking time - trial 1 (milliseconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "walkt215x",
+        "description": "Walking time - trial 2 (hundredth s) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "walksp115x",
+        "description": "Walking speed - trial 1 (m/s) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "wnats223x",
+        "description": "Walking time - trial 2 (seconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "walking23"
+      },
+      {
+        "varname": "walkfast_myft",
+        "description": "The fastest time taken to complete the course (in 100ths of a second)- Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "wnat1s123x",
+        "description": "Walking time - trial 1 (seconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "walking23"
+      },
+      {
+        "varname": "walksp215x",
+        "description": "Walking speed - trial 2 (m/s) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "walkspeed_myft",
+        "description": "Walking speed - fastest of two (m/s) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "walksec1_myft",
+        "description": "Walking time - trial 1 (seconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "walkt115x",
+        "description": "Walking time - trial 1 (hundredth s) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "wnatm123x",
+        "description": "Walking time - trial 1 (minutes) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "walking23"
+      },
+      {
+        "varname": "wnatms123x",
+        "description": "Walking time - trial 1 (milliseconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "walking23"
+      },
+      {
+        "varname": "walkmsec2_myft",
+        "description": "Walking time - trial 2 (milliseconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "wnatm223x",
+        "description": "Walking time - trial 2 (minutes) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "walking23"
+      },
+      {
+        "varname": "walkspav15x",
+        "description": "Walking speed - average of two (m/s) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "6-7",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "wnatms223x",
+        "description": "Walking time - trial 2 (milliseconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "walking23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Walk test [1155]",
+        "description": "During the clinic visit at age 69 years, study participants were asked by the attending nurse whether they would be willing to take part in the walk test.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Walk_test_1155.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "6666.0",
+        "label": "Questions not asked in paper home visit",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No home visit",
+        "is_missing": true
+      },
+      {
+        "value": "9996.0",
+        "label": "Fell over during walk 1",
+        "is_missing": true
+      },
+      {
+        "value": "9997.0",
+        "label": "Outlier nurse",
+        "is_missing": true
+      },
+      {
+        "value": "9998.0",
+        "label": "Unable/unwilling",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 17,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "m/s",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.6272493600845337,
+          0.6765574279584383,
+          0.7258654958323428,
+          0.7751735637062475,
+          0.824481631580152,
+          0.8737896994540566,
+          0.9230977673279612,
+          0.9724058352018657,
+          1.0217139030757703,
+          1.0710219709496749,
+          1.1203300388235795,
+          1.1696381066974841,
+          1.2189461745713888,
+          1.2682542424452932,
+          1.3175623103191978,
+          1.3668703781931022,
+          1.4161784460670068,
+          1.4654865139409115,
+          1.514794581814816,
+          1.5641026496887207
+        ],
+        "counts": [
+          29,
+          51,
+          81,
+          100,
+          107,
+          112,
+          122,
+          142,
+          179,
+          137,
+          159,
+          106,
+          149,
+          78,
+          65,
+          55,
+          51,
+          30,
+          38
+        ]
+      },
+      "boxplot": {
+        "min": 0.6272493600845337,
+        "q1": 0.9070631861686707,
+        "median": 1.0701754093170166,
+        "q3": 1.2200000286102295,
+        "max": 1.5641026496887207
+      },
+      "units": "m/s"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.6272493600845337"
+      ],
+      [
+        "Maximum",
+        "1.5641026496887207"
+      ],
+      [
+        "Range",
+        "0.936853289604187"
+      ],
+      [
+        "Median",
+        "1.0701754093170166"
+      ],
+      [
+        "IQR",
+        "0.9070631861686707 - 1.2200000286102295"
+      ],
+      [
+        "Decile 1",
+        "0.7870967984199524"
+      ],
+      [
+        "Decile 2",
+        "0.8683274388313293"
+      ],
+      [
+        "Decile 3",
+        "0.9457364678382874"
+      ],
+      [
+        "Decile 4",
+        "1.0124480724334717"
+      ],
+      [
+        "Decile 5",
+        "1.0701754093170166"
+      ],
+      [
+        "Decile 6",
+        "1.1296296119689941"
+      ],
+      [
+        "Decile 7",
+        "1.184466004371643"
+      ],
+      [
+        "Decile 8",
+        "1.2577319145202637"
+      ],
+      [
+        "Decile 9",
+        "1.355555534362793"
+      ],
+      [
+        "Mean",
+        "1.070199711072518"
+      ],
+      [
+        "Std Dev.",
+        "0.21204321011751695"
+      ],
+      [
+        "Variance",
+        "0.04496232295694144"
+      ],
+      [
+        "Displayed N",
+        "1791"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

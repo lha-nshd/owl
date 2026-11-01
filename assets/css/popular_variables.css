@@ -1,0 +1,288 @@
+/* ⭐ Loading overlay that covers ONLY the content area (not the sidebar) */
+.page-popular-variables {
+  position: relative;
+}
+
+.page-popular-variables .loading-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: white;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-popular-variables .spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ddd;
+  border-top-color: #4b067a;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.page-popular-variables .hero-banner {
+  background: linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+  border-radius: 12px;
+  padding: 26px 30px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  width: 100%;
+}
+
+.page-popular-variables .hero-banner h1 {
+  margin: 0 0 8px 0 !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: #800020 !important;
+  text-decoration: none !important;
+}
+
+.page-popular-variables .hero-banner p {
+  margin: 0 !important;
+  font-size: 15px !important;
+  color: #555 !important;
+}
+
+.page-popular-variables .usage-note {
+  margin: 14px 0 0 0 !important;
+  font-size: 12.5px !important;
+  color: #666 !important;
+  font-style: italic;
+}
+
+/* ── Year pill bar — same look/behaviour as the Search by Year page ─
+   !important is used here because plain <button> elements are picking
+   up a site-wide button reset (no border, flat background) that has
+   higher effective priority than an un-flagged class rule. Forcing
+   these properties guarantees the pill box/border/active-highlight
+   always renders regardless of what the global button styles do. ── */
+
+.page-popular-variables .year-pill-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+
+.page-popular-variables .year-pill {
+  box-sizing: border-box !important;
+  flex-shrink: 0;
+  min-width: 52px;
+  min-height: 34px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+  background: #f1f5f9 !important;
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 6px !important;
+  padding: 6px 12px !important;
+  margin: 0 !important;
+  cursor: pointer;
+  line-height: 1.2;
+  box-shadow: none;
+  outline: none;
+}
+
+.page-popular-variables .year-pill .pill-line1 {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  color: #333 !important;
+}
+
+.page-popular-variables .year-pill.active {
+  background: #EEEAF5 !important;
+  border: 2px solid #4b067a !important;
+  box-shadow: 0 0 0 1px #4b067a inset !important;
+}
+
+.page-popular-variables .year-pill.active .pill-line1 {
+  color: #4b067a !important;
+}
+
+.page-popular-variables .year-pill-all {
+  min-width: 46px;
+}
+
+/* Pills with no matching results for the current search are dimmed, so
+   pills that DO match visually stand out by contrast. */
+.page-popular-variables .year-pill.pill-no-match {
+  opacity: 0.3;
+}
+
+/* ── Search + page size + buttons + pagination row ──────────────── */
+
+.page-popular-variables .search-pagination-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  margin: 16px 0;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────── */
+/* margin-left removed in favour of the flex `gap` above, so spacing
+   stays consistent instead of stacking margin + gap unevenly. */
+
+.page-popular-variables .add-all-btn {
+  margin: 0;
+  padding: 6px 14px;
+  background: #009688;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.page-popular-variables .add-all-btn.remove-mode {
+  background: #D32F2F;
+}
+.page-popular-variables .add-all-btn.remove-mode:hover {
+  background: #B71C1C;
+}
+.page-popular-variables .add-all-btn:disabled {
+  background: #333 !important;
+  color: white;
+  cursor: not-allowed;
+  opacity: 1;
+}
+.page-popular-variables .add-all-btn:disabled:hover {
+  background: #333 !important;
+}
+
+.page-popular-variables .download-btn {
+  margin: 0;
+  padding: 6px 14px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.page-popular-variables .download-btn:hover {
+  background: #45a049;
+}
+
+.page-popular-variables .download-excel-btn {
+  margin: 0;
+  padding: 6px 14px;
+  background: #1976D2;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.page-popular-variables .download-excel-btn:hover {
+  background: #0F5BA5;
+}
+
+/* ── Table layout ────────────────────────────────────────────── */
+
+.page-popular-variables #vars-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  border: 1px solid #ddd !important;
+  margin: 0;
+}
+
+.page-popular-variables #vars-table th,
+.page-popular-variables #vars-table td {
+  border: none !important;
+}
+
+/* ── Column widths ───────────────────────────────────────────── */
+
+.page-popular-variables #vars-table th.check-col,
+.page-popular-variables #vars-table td.check-col   { width: 8%; }
+
+.page-popular-variables #vars-table th.name-col,
+.page-popular-variables #vars-table td.name-col    { width: 14%; }
+
+.page-popular-variables #vars-table th.label-col,
+.page-popular-variables #vars-table td.label-col   { width: 62%; }
+
+.page-popular-variables #vars-table th.year-col,
+.page-popular-variables #vars-table td.year-col    { width: 10%; }
+
+.page-popular-variables #vars-table th.count-col,
+.page-popular-variables #vars-table td.count-col   { width: 6%; }
+
+/* ── Pastel column colours ───────────────────────────────────── */
+
+.page-popular-variables td.check-col   { background: #ffffff; }
+.page-popular-variables td.name-col    { background: #F3E5F5; }   /* purple  */
+.page-popular-variables td.label-col   { background: #FFF3E0; }   /* amber   */
+.page-popular-variables td.year-col    { background: #E3F2FD; }   /* blue    */
+.page-popular-variables td.count-col   { background: #E8F5E9; }   /* green   */
+
+.page-popular-variables th.check-col   { background: #ffffff; }
+.page-popular-variables th.name-col    { background: #F3E5F5; }
+.page-popular-variables th.label-col   { background: #FFF3E0; }
+.page-popular-variables th.year-col    { background: #E3F2FD; }
+.page-popular-variables th.count-col   { background: #E8F5E9; }
+
+/* ── Alignment ───────────────────────────────────────────────── */
+
+.page-popular-variables th.check-col,
+.page-popular-variables td.check-col,
+.page-popular-variables th.count-col,
+.page-popular-variables td.count-col,
+.page-popular-variables th.year-col,
+.page-popular-variables td.year-col {
+  text-align: center !important;
+  vertical-align: middle;
+}
+
+.page-popular-variables th.name-col,
+.page-popular-variables th.label-col,
+.page-popular-variables td.name-col,
+.page-popular-variables td.label-col {
+  text-align: left !important;
+}
+
+/* ── Checkbox ────────────────────────────────────────────────── */
+
+.page-popular-variables td.check-col input[type="checkbox"] {
+  display: inline-block;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+}
+
+/* ── Row divider ─────────────────────────────────────────────── */
+
+.page-popular-variables #vars-table tbody tr {
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* ── Header ──────────────────────────────────────────────────── */
+
+.page-popular-variables #vars-table thead th {
+  color: black !important;
+  border-bottom: 2px solid #4b067a !important;
+}
+
+/* ── "Not available" text ────────────────────────────────────── */
+
+.page-popular-variables .not-available {
+  color: #aaa;
+  font-style: italic;
+  font-size: 12px;
+}

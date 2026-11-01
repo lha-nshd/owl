@@ -1,0 +1,570 @@
+/* ukllc_catalogue.css
+ * Colour scheme matched to nshd_data_dictionary.css so the UKLLC Catalogue
+ * reads as the same product as the Search Data Dictionary page, not a
+ * bolt-on. Same tokens, just re-scoped under .page-ukllc-catalogue since
+ * that page's rules are scoped under .page-search-data-dictionary.
+ *
+ * Tokens taken from nshd_data_dictionary.css:
+ * Accent purple #4b067a (headers, sticky border, reset button)
+ * Accent purple-d #36045a (hover)
+ * Heading maroon #800020 (hero h1)
+ * Body grey #555
+ * Add/teal #009688 (add-all, "add" state)
+ * Remove/red #D32F2F (add-all, "remove" state) / hover #B71C1C
+ * Download green #4CAF50 (hover #45a049)
+ * Excel blue #1976D2 (hover #0F5BA5)
+ * Row shading odd #f7f7f7 / even #ececec
+ * Pastel columns #F3E5F5 (purple) #E8F5E9 (green) #E3F2FD (blue)
+ * #FFF3E0 (orange) #FCE4EC (pink) #EDE7F6 (lavender)
+ */
+
+.page-ukllc-catalogue {
+ position: relative;
+ width: 100%;
+ max-width: 100%;
+ overflow-x: hidden;
+ font-family: Arial, sans-serif;
+}
+
+.page-ukllc-catalogue * {
+ box-sizing: border-box;
+}
+
+/* -- Loading screen -------------------------------------------------- */
+
+.page-ukllc-catalogue .loading-screen {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 200px;
+ font-size: 18px;
+ color: #4b067a;
+}
+
+.page-ukllc-catalogue .spinner {
+ width: 40px;
+ height: 40px;
+ border: 4px solid #ddd;
+ border-top-color: #4b067a;
+ border-radius: 50%;
+ animation: ukllc-spin 0.8s linear infinite;
+ margin-bottom: 10px;
+}
+
+@keyframes ukllc-spin {
+ to { transform: rotate(360deg); }
+}
+
+/* -- Hero banner (identical gradient/copy treatment to the Dictionary page) */
+
+.page-ukllc-catalogue .hero-banner {
+ background: linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+ border-radius: 12px;
+ padding: 26px 30px;
+ margin-bottom: 28px;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+ max-width: 100%;
+}
+
+.page-ukllc-catalogue .hero-banner h1 {
+ margin: 0 0 8px 0;
+ font-size: 20px;
+ font-weight: bold;
+ color: #800020;
+}
+
+.page-ukllc-catalogue .hero-banner p {
+ margin: 0 0 16px 0;
+ font-size: 15px;
+ color: #555;
+}
+
+/* -- Search / pagination / buttons row ------------------------------ */
+
+.page-ukllc-catalogue .search-pagination-top {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ margin: 14px 0;
+ flex-wrap: wrap;
+}
+
+.page-ukllc-catalogue #globalSearch {
+ flex: 1;
+ min-width: 220px;
+ padding: 6px 10px;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ font-size: 14px;
+}
+
+.page-ukllc-catalogue #pageSize {
+ padding: 6px 10px;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ background: #fff;
+ font-size: 14px;
+}
+
+.page-ukllc-catalogue #resultsCount {
+ font-size: 13px;
+ color: #555;
+}
+
+.page-ukllc-catalogue #resetFiltersBtn {
+ padding: 6px 12px;
+ font-size: 14px;
+ background: #4b067a;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.page-ukllc-catalogue #resetFiltersBtn:hover {
+ background: #36045a;
+}
+
+.page-ukllc-catalogue .download-btn {
+ padding: 6px 14px;
+ background: #4CAF50;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 14px;
+ text-decoration: none;
+}
+
+.page-ukllc-catalogue .download-btn:hover {
+ background: #45a049;
+}
+
+/* Excel variant - same blue as the site's other Excel-branded buttons
+ (.download-excel-btn on the Dictionary page), re-declared here since
+ that rule is scoped to .page-search-data-dictionary and won't reach us. */
+.page-ukllc-catalogue .download-btn.download-excel-btn {
+ background: #1976D2;
+}
+
+.page-ukllc-catalogue .download-btn.download-excel-btn:hover {
+ background: #0F5BA5;
+}
+
+.page-ukllc-catalogue #paginationTop,
+.page-ukllc-catalogue #paginationBottom {
+ font-size: 13px;
+ margin: 8px 0;
+}
+
+.page-ukllc-catalogue #paginationTop button,
+.page-ukllc-catalogue #paginationBottom button {
+ padding: 4px 10px;
+ margin: 0 4px;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ background: #fff;
+ cursor: pointer;
+}
+
+.page-ukllc-catalogue #paginationTop button:disabled,
+.page-ukllc-catalogue #paginationBottom button:disabled {
+ opacity: 0.5;
+ cursor: not-allowed;
+}
+
+/* -- Table wrapper + sticky header ----------------------------------- */
+
+.page-ukllc-catalogue #table-wrapper {
+ max-height: 70vh;
+ overflow-y: auto;
+ overflow-x: auto;
+ position: relative;
+}
+
+.page-ukllc-catalogue table#catalogueTable {
+ width: 100%;
+ border: 1px solid #d0d0d0;
+ border-collapse: collapse;
+ table-layout: fixed;
+ font-size: 14px;
+}
+
+.page-ukllc-catalogue #catalogueTable thead th {
+ position: sticky;
+ top: 0;
+ z-index: 50;
+ padding: 8px 10px;
+ border-bottom: 2px solid #4b067a;
+ text-align: left;
+ color: black;
+}
+
+.page-ukllc-catalogue #catalogueTable td {
+ padding: 6px 10px;
+ vertical-align: top;
+ overflow-wrap: break-word;
+ word-break: break-word;
+}
+
+.page-ukllc-catalogue .col-expand,
+.page-ukllc-catalogue #catalogueTable th.col-expand,
+.page-ukllc-catalogue #catalogueTable td.col-expand {
+ width: 32px !important;
+ min-width: 32px !important;
+ max-width: 32px !important;
+ padding: 4px 2px !important;
+ text-align: center;
+}
+
+.page-ukllc-catalogue #catalogueTable th.col-expand {
+ font-size: 8px;
+ line-height: 1.1;
+ white-space: normal;
+}
+.page-ukllc-catalogue .col-docname { width: 18% !important; }
+.page-ukllc-catalogue .col-desc { width: 62% !important; }
+.page-ukllc-catalogue .col-vars { width: 70px !important; min-width: 70px !important; max-width: 70px !important; }
+
+/* Pastel column tints - same motif as the Dictionary page's column colours.
+ 4 columns now (expand, name, description, variables), one fewer than
+ before since Dataset File Name moved into a hover tooltip. */
+.page-ukllc-catalogue #catalogueTable th:nth-child(1),
+.page-ukllc-catalogue #catalogueTable tbody tr.dataset-row td:nth-child(1) { background: #ffffff; }
+.page-ukllc-catalogue #catalogueTable th:nth-child(2),
+.page-ukllc-catalogue #catalogueTable tbody tr.dataset-row td:nth-child(2) { background: #F3E5F5; }
+.page-ukllc-catalogue #catalogueTable th:nth-child(3),
+.page-ukllc-catalogue #catalogueTable tbody tr.dataset-row td:nth-child(3) { background: #E8F5E9; }
+.page-ukllc-catalogue #catalogueTable th:nth-child(4),
+.page-ukllc-catalogue #catalogueTable tbody tr.dataset-row td:nth-child(4) { background: #E3F2FD; }
+
+/* Row shading (only the plain, unexpanded rows - an open row gets its own
+ lavender highlight below instead, so the two states stay distinguishable) */
+.page-ukllc-catalogue tr.dataset-row:not(.is-open):nth-of-type(odd) td { background-color: #f7f7f7; }
+.page-ukllc-catalogue tr.dataset-row:not(.is-open):nth-of-type(even) td { background-color: #ececec; }
+
+/* Faint separator between each dataset row */
+.page-ukllc-catalogue tr.dataset-row td {
+ border-bottom: 1px solid #e5e5e5;
+}
+
+/* -- Expandable dataset rows ----------------------------------------- */
+
+.page-ukllc-catalogue tr.dataset-row {
+ cursor: pointer;
+}
+
+.page-ukllc-catalogue #catalogueTable td.col-docname {
+ cursor: help; /* signals the dataset file name is available on hover */
+}
+
+/* Hover darkens each column's OWN tint by one shade, rather than flattening
+ every column to the same purple - keeps the colour-coding legible while
+ still signalling "this row is interactive". */
+.page-ukllc-catalogue tr.dataset-row:hover td:nth-child(1) { background-color: #f0f0f0 !important; }
+.page-ukllc-catalogue tr.dataset-row:hover td:nth-child(2) { background-color: #E1BEE7 !important; }
+.page-ukllc-catalogue tr.dataset-row:hover td:nth-child(3) { background-color: #C8E6C9 !important; }
+.page-ukllc-catalogue tr.dataset-row:hover td:nth-child(4) { background-color: #BBDEFB !important; }
+
+.page-ukllc-catalogue tr.dataset-row.is-open td {
+ background-color: #EDE7F6 !important; /* lavender, same family as the Dictionary page's col-7 tint */
+}
+
+.page-ukllc-catalogue .expand-btn {
+ background: none;
+ border: none;
+ cursor: pointer;
+ font-size: 22px;
+ line-height: 1;
+ color: #4b067a;
+}
+
+.page-ukllc-catalogue .var-count-badge {
+ border: 1px solid #009688;
+ background: #fff;
+ border-radius: 12px;
+ padding: 3px 6px;
+ font-size: 11px;
+ cursor: pointer;
+ color: #00695C;
+ white-space: normal; /* allow "N variables" to wrap to two lines rather than overflow the narrow column */
+ line-height: 1.3;
+ display: inline-block;
+ max-width: 100%;
+}
+
+.page-ukllc-catalogue .var-count-badge:hover {
+ background: #009688;
+ color: #fff;
+}
+
+.page-ukllc-catalogue .var-count-badge.is-empty {
+ color: #8c959f;
+ border-color: #d0d0d0;
+ border-style: dashed;
+}
+
+/* -- Variable panel (accordion detail) ------------------------------- */
+
+.page-ukllc-catalogue tr.variable-panel-row > td {
+ background: #fafafa;
+ padding: 0;
+}
+
+.page-ukllc-catalogue .variable-panel {
+ padding: 14px 18px 18px 46px;
+ border-left: 3px solid #4b067a;
+}
+
+.page-ukllc-catalogue .variable-panel.empty-state {
+ color: #555;
+ font-style: italic;
+ border-left-color: #d0d0d0;
+}
+
+.page-ukllc-catalogue .variable-panel-toolbar {
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ margin-bottom: 10px;
+ flex-wrap: wrap;
+}
+
+.page-ukllc-catalogue .variable-search {
+ padding: 4px 8px;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ min-width: 220px;
+ font-size: 14px;
+}
+
+/* "Add all / remove all" toggle - same colour convention as .add-all-btn
+ on the Dictionary page: teal to add, red once everything's already in. */
+.page-ukllc-catalogue .add-all-variables-btn {
+ padding: 6px 14px;
+ background: #009688;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 13px;
+}
+
+.page-ukllc-catalogue .add-all-variables-btn:hover {
+ background: #00796B;
+}
+
+.page-ukllc-catalogue .add-all-variables-btn.remove-mode {
+ background: #D32F2F;
+}
+
+.page-ukllc-catalogue .add-all-variables-btn.remove-mode:hover {
+ background: #B71C1C;
+}
+
+/* "No results" state - same black-disabled convention as .add-all-btn:disabled
+ on the Dictionary page, for when the filter box matches zero variables. */
+.page-ukllc-catalogue .add-all-variables-btn.is-empty,
+.page-ukllc-catalogue .add-all-variables-btn:disabled {
+ background: #333 !important;
+ color: white;
+ cursor: not-allowed;
+ opacity: 1;
+}
+
+.page-ukllc-catalogue .add-all-variables-btn.is-empty:hover,
+.page-ukllc-catalogue .add-all-variables-btn:disabled:hover {
+ background: #333 !important;
+}
+
+.page-ukllc-catalogue .var-download-link {
+ font-size: 13px;
+ color: #1976D2;
+ text-decoration: none;
+}
+
+.page-ukllc-catalogue .var-download-link:hover {
+ color: #0F5BA5;
+ text-decoration: underline;
+}
+
+/* -- Variable table inside the panel --------------------------------- */
+
+.page-ukllc-catalogue table.variable-table {
+ width: 100%;
+ border-collapse: collapse;
+ background: #fff;
+ border: 1px solid #d0d0d0;
+ font-size: 14px;
+}
+
+.page-ukllc-catalogue table.variable-table thead th {
+ text-align: left;
+ border-bottom: 2px solid #4b067a;
+ padding: 6px 8px;
+ color: black;
+}
+
+.page-ukllc-catalogue thead th.sortable-header {
+ cursor: pointer;
+ user-select: none;
+}
+
+/* The flex layout lives on this inner wrapper, NOT the <th> itself - a <th>
+ with display:flex stops behaving as a table-cell and breaks out of the
+ row entirely (headers stack vertically instead of sitting side by side).
+ Same fix pattern as nshd_data_dictionary.css's own .th-inner. */
+.page-ukllc-catalogue .th-inner {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 6px;
+}
+
+.page-ukllc-catalogue thead th.sortable-header:hover {
+ background-color: rgba(75, 6, 122, 0.08);
+}
+
+.page-ukllc-catalogue .sort-icon {
+ font-size: 11px;
+ opacity: 0.4;
+ transition: opacity 0.2s ease;
+}
+
+.page-ukllc-catalogue .sortable-header:hover .sort-icon {
+ opacity: 0.9;
+}
+
+.page-ukllc-catalogue .sort-icon.is-active {
+ opacity: 1;
+ color: #4b067a;
+}
+
+.page-ukllc-catalogue table.variable-table td {
+ border-bottom: 1px solid #eaeaea;
+ padding: 6px 8px;
+ font-size: 13px;
+}
+
+.page-ukllc-catalogue table.variable-table tbody tr:nth-child(odd) td { background-color: #f7f7f7; }
+.page-ukllc-catalogue table.variable-table tbody tr:nth-child(even) td { background-color: #ececec; }
+
+/* Pastel tint per column - deliberately a DIFFERENT palette from the main
+ catalogue table (which uses purple/green/blue) so the two tables read as
+ visually distinct when both are on screen at once, rather than looking
+ like a continuation of the same columns. */
+.page-ukllc-catalogue table.variable-table th:nth-child(2), .page-ukllc-catalogue table.variable-table td:nth-child(2) { background: #FCE4EC !important; } /* pink */
+.page-ukllc-catalogue table.variable-table th:nth-child(3), .page-ukllc-catalogue table.variable-table td:nth-child(3) { background: #FFE0B2 !important; } /* peach */
+.page-ukllc-catalogue table.variable-table th:nth-child(4), .page-ukllc-catalogue table.variable-table td:nth-child(4) { background: #E0F7FA !important; } /* cyan */
+.page-ukllc-catalogue table.variable-table th:nth-child(5), .page-ukllc-catalogue table.variable-table td:nth-child(5) { background: #FFF9C4 !important; } /* pale yellow */
+
+/* Widen Variable Name so its header ("Variable Name" + sort icon) fits on
+ one line rather than wrapping. */
+.page-ukllc-catalogue table.variable-table th:nth-child(2),
+.page-ukllc-catalogue table.variable-table td:nth-child(2) {
+ min-width: 170px;
+}
+.page-ukllc-catalogue .th-inner .header-label {
+ white-space: nowrap;
+}
+
+/* Dataset dropdown filter embedded in the Dataset Name header cell */
+.page-ukllc-catalogue .col-header-filter-select {
+ display: block;
+ width: 100%;
+ margin-top: 6px;
+ padding: 3px 6px;
+ font-size: 12px;
+ font-weight: normal;
+ text-transform: none;
+ border: 1px solid #d0d0d0;
+ border-radius: 4px;
+ background: #fff;
+ color: #333;
+ cursor: pointer;
+}
+
+.page-ukllc-catalogue #catalogueTable thead th.sortable-header {
+ vertical-align: top;
+}
+
+/* Row hover darkens each column's own tint by one shade, matching the new
+ pink/peach/cyan/yellow palette above. */
+.page-ukllc-catalogue table.variable-table tbody tr:hover td:nth-child(1) { background-color: #f0f0f0 !important; }
+.page-ukllc-catalogue table.variable-table tbody tr:hover td:nth-child(2) { background-color: #F8BBD0 !important; }
+.page-ukllc-catalogue table.variable-table tbody tr:hover td:nth-child(3) { background-color: #FFCC80 !important; }
+.page-ukllc-catalogue table.variable-table tbody tr:hover td:nth-child(4) { background-color: #B2EBF2 !important; }
+.page-ukllc-catalogue table.variable-table tbody tr:hover td:nth-child(5) { background-color: #FFF59D !important; }
+
+.page-ukllc-catalogue table.variable-table .col-check {
+ width: 90px;
+ min-width: 90px;
+ max-width: 90px;
+ text-align: center;
+ background: #ffffff !important;
+}
+
+.page-ukllc-catalogue table.variable-table thead th.col-check,
+.page-ukllc-catalogue table.variable-table th:first-child {
+ background: #ffffff !important;
+ font-size: 11px;
+ text-transform: none;
+}
+
+.page-ukllc-catalogue table.variable-table .col-check input[type="checkbox"] {
+ width: 14px;
+ height: 14px;
+}
+
+.page-ukllc-catalogue .var-link {
+ color: #1976D2;
+ text-decoration: none;
+ /* No <code>/monospace styling here - the reference Data Dictionary page
+    renders variable names as plain text, and this was the actual cause of
+    the "font looks different/smaller" mismatch (monospace fonts render
+    visually smaller at the same declared size, plus Just the Docs styled
+    <code> with its own font-size and background box on top of that). This
+    now just inherits the table's normal font like every other column. */
+}
+
+.page-ukllc-catalogue .var-link:hover {
+ text-decoration: underline;
+}
+
+
+.page-ukllc-catalogue .topic-link {
+ color: #4b067a;
+ text-decoration: none;
+ cursor: help; /* signals the hover tooltip as well as the click-through */
+}
+
+.page-ukllc-catalogue .topic-link:hover {
+ text-decoration: underline;
+}
+
+.page-ukllc-catalogue .var-download-btn {
+ padding: 6px 14px;
+ background: #1976D2;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+ font-size: 13px;
+}
+
+.page-ukllc-catalogue .var-download-btn:hover {
+ background: #0F5BA5;
+}
+
+.page-ukllc-catalogue .var-topic {
+ color: #555;
+ font-size: 12px;
+}
+
+.page-ukllc-catalogue table.variable-table .empty-state {
+ text-align: center;
+ color: #8c959f;
+ padding: 14px;
+ background: #fff !important;
+}

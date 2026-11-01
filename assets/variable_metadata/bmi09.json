@@ -1,0 +1,662 @@
+{
+  "varname": "bmi09",
+  "label": "Body mass index (BMI) in kg/(m2) at 60-64 years",
+  "field_id": "1017",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1017",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "kg/m2",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 27.681513755274942,
+  "sd": 3.576983891606293,
+  "series_size": 1997.0,
+  "minimum": 21.266828536987305,
+  "maximum": 36.432830810546875,
+  "truly_longitudinal_field_id": "1017",
+  "truly_longitudinal_varnames": [
+    "bmi15x",
+    "bmi48u",
+    "bmi50u",
+    "bmi52u",
+    "bmi53u",
+    "bmi57u",
+    "bmi61u",
+    "bmi66u",
+    "bmi72u",
+    "bmi82u",
+    "bmi89u",
+    "bmi99u"
+  ],
+  "truly_longitudinal_years": [
+    "1948",
+    "1950",
+    "1952",
+    "1953",
+    "1957",
+    "1961",
+    "1966",
+    "1972",
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Anthropometry [2]",
+    "Body size measures [11021]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "7777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "bmi09",
+    "label": "Body mass index (BMI) in kg/(m2) at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "bmi09"
+      ],
+      [
+        "Field ID",
+        "1017"
+      ],
+      [
+        "Label",
+        "Body mass index (BMI) in kg/(m2) at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "BodySize09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "kg/m2"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2006-10 nurse schedule. Questionnaire does not mention without shoes."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "bmi48u",
+        "1948",
+        "Body mass index (BMI) in kg/(m2) at 2 years"
+      ],
+      [
+        "bmi50u",
+        "1950",
+        "Body mass index (BMI) in kg/(m2) at 4 years"
+      ],
+      [
+        "bmi52u",
+        "1952",
+        "Body mass index (BMI) in kg/(m2) at 6 years"
+      ],
+      [
+        "bmi53u",
+        "1953",
+        "Body mass index (BMI) in kg/(m2) at 7 years"
+      ],
+      [
+        "bmi57u",
+        "1957",
+        "Body mass index (BMI) in kg/(m2) at 11 years"
+      ],
+      [
+        "bmi61u",
+        "1961",
+        "Body mass index (BMI) in kg/(m2) at 15 years"
+      ],
+      [
+        "bmi66u",
+        "1966",
+        "Body mass index (BMI) in kg/(m2) at 20 years"
+      ],
+      [
+        "bmi72u",
+        "1972",
+        "Body mass index (BMI) in kg/(m2) at 26 years"
+      ],
+      [
+        "bmi82u",
+        "1982",
+        "Body mass index (BMI) in kg/(m2) at 36 years"
+      ],
+      [
+        "bmi89u",
+        "1989",
+        "Body mass index (BMI) in kg/(m2) at 43 years"
+      ],
+      [
+        "bmi99u",
+        "1999",
+        "Body mass index (BMI) in kg/(m2) at 53 years"
+      ],
+      [
+        "bmi15x",
+        "2015",
+        "Body mass index (BMI) in kg/(m2) at 69 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Anthropometry [2]",
+        "Legacy Category"
+      ],
+      [
+        "Body size measures [11021]",
+        "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "7777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "21.266828536987305"
+      ],
+      [
+        "Maximum",
+        "36.432830810546875"
+      ],
+      [
+        "Range",
+        "15.16600227355957"
+      ],
+      [
+        "Median",
+        "27.253660202026367"
+      ],
+      [
+        "IQR",
+        "24.80769157409668 - 30.21782684326172"
+      ],
+      [
+        "Decile 1",
+        "23.274202728271487"
+      ],
+      [
+        "Decile 2",
+        "24.352466964721682"
+      ],
+      [
+        "Decile 3",
+        "25.322022247314454"
+      ],
+      [
+        "Decile 4",
+        "26.32300262451172"
+      ],
+      [
+        "Decile 5",
+        "27.253660202026367"
+      ],
+      [
+        "Decile 6",
+        "28.289264678955078"
+      ],
+      [
+        "Decile 7",
+        "29.588941955566405"
+      ],
+      [
+        "Decile 8",
+        "30.94817276000977"
+      ],
+      [
+        "Decile 9",
+        "32.763649749755864"
+      ],
+      [
+        "Mean",
+        "27.681513755274942"
+      ],
+      [
+        "Std Dev.",
+        "3.576983891606293"
+      ],
+      [
+        "Variance",
+        "12.7948137608109"
+      ],
+      [
+        "Displayed N",
+        "1997"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "bmi09",
+    "label": "Body mass index (BMI) in kg/(m2) at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1017",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bmi09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1017",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Body mass index (BMI) in kg/(m2) at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "BodySize09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "kg/m2",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 nurse schedule. Questionnaire does not mention without shoes.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1017",
+      "members": [
+        {
+          "varname": "bmi48u",
+          "year": "1948",
+          "label": "Body mass index (BMI) in kg/(m2) at 2 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi50u",
+          "year": "1950",
+          "label": "Body mass index (BMI) in kg/(m2) at 4 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi52u",
+          "year": "1952",
+          "label": "Body mass index (BMI) in kg/(m2) at 6 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi53u",
+          "year": "1953",
+          "label": "Body mass index (BMI) in kg/(m2) at 7 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi57u",
+          "year": "1957",
+          "label": "Body mass index (BMI) in kg/(m2) at 11 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi61u",
+          "year": "1961",
+          "label": "Body mass index (BMI) in kg/(m2) at 15 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi66u",
+          "year": "1966",
+          "label": "Body mass index (BMI) in kg/(m2) at 20 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi72u",
+          "year": "1972",
+          "label": "Body mass index (BMI) in kg/(m2) at 26 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi82u",
+          "year": "1982",
+          "label": "Body mass index (BMI) in kg/(m2) at 36 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi89u",
+          "year": "1989",
+          "label": "Body mass index (BMI) in kg/(m2) at 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi99u",
+          "year": "1999",
+          "label": "Body mass index (BMI) in kg/(m2) at 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "bmi09",
+          "year": "2006-10",
+          "label": "Body mass index (BMI) in kg/(m2) at 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "bmi15x",
+          "year": "2015",
+          "label": "Body mass index (BMI) in kg/(m2) at 69 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Anthropometry [2]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Body size measures [11021]",
+        "description": "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Body_size_measures_11021.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 12,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "kg/m2",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          21.266828536987305,
+          22.109384218851726,
+          22.951939900716145,
+          23.794495582580566,
+          24.637051264444988,
+          25.479606946309406,
+          26.322162628173828,
+          27.164718310038246,
+          28.007273991902668,
+          28.84982967376709,
+          29.692385355631508,
+          30.53494103749593,
+          31.37749671936035,
+          32.22005240122477,
+          33.06260808308919,
+          33.90516376495361,
+          34.74771944681803,
+          35.59027512868245,
+          36.432830810546875
+        ],
+        "counts": [
+          66,
+          91,
+          145,
+          162,
+          169,
+          163,
+          186,
+          152,
+          160,
+          121,
+          140,
+          99,
+          93,
+          68,
+          55,
+          54,
+          37,
+          36
+        ]
+      },
+      "boxplot": {
+        "min": 21.266828536987305,
+        "q1": 24.80769157409668,
+        "median": 27.253660202026367,
+        "q3": 30.21782684326172,
+        "max": 36.432830810546875
+      },
+      "units": "kg/m2"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "21.266828536987305"
+      ],
+      [
+        "Maximum",
+        "36.432830810546875"
+      ],
+      [
+        "Range",
+        "15.16600227355957"
+      ],
+      [
+        "Median",
+        "27.253660202026367"
+      ],
+      [
+        "IQR",
+        "24.80769157409668 - 30.21782684326172"
+      ],
+      [
+        "Decile 1",
+        "23.274202728271487"
+      ],
+      [
+        "Decile 2",
+        "24.352466964721682"
+      ],
+      [
+        "Decile 3",
+        "25.322022247314454"
+      ],
+      [
+        "Decile 4",
+        "26.32300262451172"
+      ],
+      [
+        "Decile 5",
+        "27.253660202026367"
+      ],
+      [
+        "Decile 6",
+        "28.289264678955078"
+      ],
+      [
+        "Decile 7",
+        "29.588941955566405"
+      ],
+      [
+        "Decile 8",
+        "30.94817276000977"
+      ],
+      [
+        "Decile 9",
+        "32.763649749755864"
+      ],
+      [
+        "Mean",
+        "27.681513755274942"
+      ],
+      [
+        "Std Dev.",
+        "3.576983891606293"
+      ],
+      [
+        "Variance",
+        "12.7948137608109"
+      ],
+      [
+        "Displayed N",
+        "1997"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

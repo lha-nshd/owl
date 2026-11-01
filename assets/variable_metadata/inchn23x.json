@@ -1,0 +1,883 @@
+{
+  "varname": "inchn23x",
+  "label": "Which of the letters on the showcard represents your total net household income. Please include your own and your partners earned income (after deduction for income tax and national insurance), any state benefits and any other sources - at age 77 years",
+  "field_id": "10990",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10990",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 948.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "incsec23x",
+    "incass23x",
+    "inchn_myft",
+    "incgwn23x",
+    "incmn23x",
+    "incubn23x"
+  ],
+  "linked_years": [
+    "2020-2024",
+    "2023"
+  ],
+  "categories": [
+    "Economic circumstances [5151]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Item not applicable"
+    },
+    {
+      "value": "-2.0",
+      "label": "Schedule not applicable"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Don't Know"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown/Short visit"
+    },
+    {
+      "value": "10.0",
+      "label": "27,000 - 29,999 (annual)/2,250 - 2,499 (monthly)/520 - 576 (weekly)"
+    },
+    {
+      "value": "11.0",
+      "label": "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)"
+    },
+    {
+      "value": "12.0",
+      "label": "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)"
+    },
+    {
+      "value": "13.0",
+      "label": "80,000 or more (annual)/6,667 or more (monthly)/1,539 or more (weekly)"
+    },
+    {
+      "value": "14.0",
+      "label": "Refused to answer"
+    },
+    {
+      "value": "2.0",
+      "label": "6,000 - 7,999 (annual)/500 - 666 (monthly)/116 - 153 (weekly)"
+    },
+    {
+      "value": "3.0",
+      "label": "8,000 - 9,999 (annual)/667 - 833 (monthly)/154 - 192 (weekly)"
+    },
+    {
+      "value": "4.0",
+      "label": "10,000 - 11,999 (annual)/834 - 999 (monthly)/193 - 230 (weekly)"
+    },
+    {
+      "value": "5.0",
+      "label": "12,000 - 14,999 (annual)/1,100 - 1,249 (monthly)/231 - 288 (weekly)"
+    },
+    {
+      "value": "6.0",
+      "label": "15,000 - 17,999 (annual)/1,250 - 1,499 (monthly)/289 - 346 (weekly)"
+    },
+    {
+      "value": "7.0",
+      "label": "18,000 - 20,999 (annual)/1,500 - 1,749 (monthly)/347 - 403 (weekly)"
+    },
+    {
+      "value": "8.0",
+      "label": "21,000 - 23,999 (annual)/1,750 - 1,999 (monthly)/404 - 461 (weekly)"
+    },
+    {
+      "value": "9.0",
+      "label": "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)"
+    },
+    {
+      "value": "98.0",
+      "label": "Refusal"
+    },
+    {
+      "value": "99.0",
+      "label": "Don't Know"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "6,000 - 7,999 (annual)/500 - 666 (monthly)/116 - 153 (weekly)",
+      "count": 18,
+      "pct": 1.9
+    },
+    {
+      "label": "8,000 - 9,999 (annual)/667 - 833 (monthly)/154 - 192 (weekly)",
+      "count": 26,
+      "pct": 2.7
+    },
+    {
+      "label": "10,000 - 11,999 (annual)/834 - 999 (monthly)/193 - 230 (weekly)",
+      "count": 39,
+      "pct": 4.1
+    },
+    {
+      "label": "12,000 - 14,999 (annual)/1,100 - 1,249 (monthly)/231 - 288 (weekly)",
+      "count": 83,
+      "pct": 8.8
+    },
+    {
+      "label": "15,000 - 17,999 (annual)/1,250 - 1,499 (monthly)/289 - 346 (weekly)",
+      "count": 74,
+      "pct": 7.8
+    },
+    {
+      "label": "18,000 - 20,999 (annual)/1,500 - 1,749 (monthly)/347 - 403 (weekly)",
+      "count": 85,
+      "pct": 9.0
+    },
+    {
+      "label": "21,000 - 23,999 (annual)/1,750 - 1,999 (monthly)/404 - 461 (weekly)",
+      "count": 92,
+      "pct": 9.7
+    },
+    {
+      "label": "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)",
+      "count": 96,
+      "pct": 10.1
+    },
+    {
+      "label": "27,000 - 29,999 (annual)/2,250 - 2,499 (monthly)/520 - 576 (weekly)",
+      "count": 70,
+      "pct": 7.4
+    },
+    {
+      "label": "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)",
+      "count": 173,
+      "pct": 18.2
+    },
+    {
+      "label": "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)",
+      "count": 153,
+      "pct": 16.1
+    },
+    {
+      "label": "80,000 or more (annual)/6,667 or more (monthly)/1,539 or more (weekly)",
+      "count": 39,
+      "pct": 4.1
+    }
+  ],
+  "pdf": {
+    "varname": "inchn23x",
+    "label": "Which of the letters on the showcard represents your total net household income. Please include your own and your partners earned income (after deduction for income tax and national insurance), any state benefits and any other sources - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "inchn23x"
+      ],
+      [
+        "Field ID",
+        "10990"
+      ],
+      [
+        "Label",
+        "Which of the letters on the showcard represents your total net household income. Please include your own and your partners earned income (after deduction for income tax and national insurance), any state benefits and any other sources - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "socioecon23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "1"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2023 home visit, socioeconomic circumstances section."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "incsec23x",
+        "Thinking of the next ten years, how financially secure do you feel? - at age 77 years",
+        "2023",
+        "Home visit",
+        "5",
+        "socioecon23"
+      ],
+      [
+        "incass23x",
+        "If you sold all the assets you own in your household, e.g your house, car, jewellery, cashed in your savings and investments, and paid off any debts you have (including your mortgage), how much money do you think you would have - at age 77 years",
+        "2023",
+        "Home visit",
+        "6",
+        "socioecon23"
+      ],
+      [
+        "inchn_myft",
+        "Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Soci"
+      ],
+      [
+        "incgwn23x",
+        "Have you or your family had to go without things you really needed in the last year because you were short of money? - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "socioecon23"
+      ],
+      [
+        "incmn23x",
+        "How well do you manage on your present income - at age 77 years",
+        "2023",
+        "Home visit",
+        "2",
+        "socioecon23"
+      ],
+      [
+        "incubn23x",
+        "Have you found you have been unable to pay the bills in the last year because you were short of money? - at age 77 years",
+        "2023",
+        "Home visit",
+        "4",
+        "socioecon23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Economic circumstances [5151]",
+        "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Item not applicable",
+        true
+      ],
+      [
+        "-2.0",
+        "Schedule not applicable",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Don't Know",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown/Short visit",
+        true
+      ],
+      [
+        "10.0",
+        "27,000 - 29,999 (annual)/2,250 - 2,499 (monthly)/520 - 576 (weekly)",
+        false
+      ],
+      [
+        "11.0",
+        "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)",
+        false
+      ],
+      [
+        "12.0",
+        "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)",
+        false
+      ],
+      [
+        "13.0",
+        "80,000 or more (annual)/6,667 or more (monthly)/1,539 or more (weekly)",
+        false
+      ],
+      [
+        "14.0",
+        "Refused to answer",
+        true
+      ],
+      [
+        "2.0",
+        "6,000 - 7,999 (annual)/500 - 666 (monthly)/116 - 153 (weekly)",
+        false
+      ],
+      [
+        "3.0",
+        "8,000 - 9,999 (annual)/667 - 833 (monthly)/154 - 192 (weekly)",
+        false
+      ],
+      [
+        "4.0",
+        "10,000 - 11,999 (annual)/834 - 999 (monthly)/193 - 230 (weekly)",
+        false
+      ],
+      [
+        "5.0",
+        "12,000 - 14,999 (annual)/1,100 - 1,249 (monthly)/231 - 288 (weekly)",
+        false
+      ],
+      [
+        "6.0",
+        "15,000 - 17,999 (annual)/1,250 - 1,499 (monthly)/289 - 346 (weekly)",
+        false
+      ],
+      [
+        "7.0",
+        "18,000 - 20,999 (annual)/1,500 - 1,749 (monthly)/347 - 403 (weekly)",
+        false
+      ],
+      [
+        "8.0",
+        "21,000 - 23,999 (annual)/1,750 - 1,999 (monthly)/404 - 461 (weekly)",
+        false
+      ],
+      [
+        "9.0",
+        "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)",
+        false
+      ],
+      [
+        "98.0",
+        "Refusal",
+        true
+      ],
+      [
+        "99.0",
+        "Don't Know",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "2",
+        "18",
+        "2%"
+      ],
+      [
+        "3",
+        "26",
+        "3%"
+      ],
+      [
+        "4",
+        "39",
+        "4%"
+      ],
+      [
+        "5",
+        "83",
+        "9%"
+      ],
+      [
+        "6",
+        "74",
+        "8%"
+      ],
+      [
+        "7",
+        "85",
+        "9%"
+      ],
+      [
+        "8",
+        "92",
+        "10%"
+      ],
+      [
+        "9",
+        "96",
+        "10%"
+      ],
+      [
+        "10",
+        "70",
+        "7%"
+      ],
+      [
+        "11",
+        "173",
+        "18%"
+      ],
+      [
+        "12",
+        "153",
+        "16%"
+      ],
+      [
+        "13",
+        "39",
+        "4%"
+      ],
+      [
+        "Displayed N",
+        "948",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "inchn23x",
+    "label": "Which of the letters on the showcard represents your total net household income. Please include your own and your partners earned income (after deduction for income tax and national insurance), any state benefits and any other sources - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10990",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "inchn23x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10990",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Which of the letters on the showcard represents your total net household income. Please include your own and your partners earned income (after deduction for income tax and national insurance), any state benefits and any other sources - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "socioecon23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2023 home visit, socioeconomic circumstances section.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "incsec23x",
+        "description": "Thinking of the next ten years, how financially secure do you feel? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "5",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "incass23x",
+        "description": "If you sold all the assets you own in your household, e.g your house, car, jewellery, cashed in your savings and investments, and paid off any debts you have (including your mortgage), how much money do you think you would have - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "inchn_myft",
+        "description": "Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Soci"
+      },
+      {
+        "varname": "incgwn23x",
+        "description": "Have you or your family had to go without things you really needed in the last year because you were short of money? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "incmn23x",
+        "description": "How well do you manage on your present income - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "2",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "incubn23x",
+        "description": "Have you found you have been unable to pay the bills in the last year because you were short of money? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "4",
+        "library_file": "socioecon23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Economic circumstances [5151]",
+        "description": "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Economic_circumstances_5151.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Item not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-2.0",
+        "label": "Schedule not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Don't Know",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown/Short visit",
+        "is_missing": true
+      },
+      {
+        "value": "10.0",
+        "label": "27,000 - 29,999 (annual)/2,250 - 2,499 (monthly)/520 - 576 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "11.0",
+        "label": "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "12.0",
+        "label": "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "13.0",
+        "label": "80,000 or more (annual)/6,667 or more (monthly)/1,539 or more (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "14.0",
+        "label": "Refused to answer",
+        "is_missing": true
+      },
+      {
+        "value": "2.0",
+        "label": "6,000 - 7,999 (annual)/500 - 666 (monthly)/116 - 153 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "8,000 - 9,999 (annual)/667 - 833 (monthly)/154 - 192 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "10,000 - 11,999 (annual)/834 - 999 (monthly)/193 - 230 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "12,000 - 14,999 (annual)/1,100 - 1,249 (monthly)/231 - 288 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "15,000 - 17,999 (annual)/1,250 - 1,499 (monthly)/289 - 346 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "18,000 - 20,999 (annual)/1,500 - 1,749 (monthly)/347 - 403 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "21,000 - 23,999 (annual)/1,750 - 1,999 (monthly)/404 - 461 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "98.0",
+        "label": "Refusal",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Don't Know",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 1,
+      "vals": 20
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "2",
+          "label": "6,000 - 7,999 (annual)/500 - 666 (monthly)/116 - 153 (weekly)",
+          "count": 18,
+          "pct": 2
+        },
+        {
+          "value": "3",
+          "label": "8,000 - 9,999 (annual)/667 - 833 (monthly)/154 - 192 (weekly)",
+          "count": 26,
+          "pct": 3
+        },
+        {
+          "value": "4",
+          "label": "10,000 - 11,999 (annual)/834 - 999 (monthly)/193 - 230 (weekly)",
+          "count": 39,
+          "pct": 4
+        },
+        {
+          "value": "5",
+          "label": "12,000 - 14,999 (annual)/1,100 - 1,249 (monthly)/231 - 288 (weekly)",
+          "count": 83,
+          "pct": 9
+        },
+        {
+          "value": "6",
+          "label": "15,000 - 17,999 (annual)/1,250 - 1,499 (monthly)/289 - 346 (weekly)",
+          "count": 74,
+          "pct": 8
+        },
+        {
+          "value": "7",
+          "label": "18,000 - 20,999 (annual)/1,500 - 1,749 (monthly)/347 - 403 (weekly)",
+          "count": 85,
+          "pct": 9
+        },
+        {
+          "value": "8",
+          "label": "21,000 - 23,999 (annual)/1,750 - 1,999 (monthly)/404 - 461 (weekly)",
+          "count": 92,
+          "pct": 10
+        },
+        {
+          "value": "9",
+          "label": "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)",
+          "count": 96,
+          "pct": 10
+        },
+        {
+          "value": "10",
+          "label": "27,000 - 29,999 (annual)/2,250 - 2,499 (monthly)/520 - 576 (weekly)",
+          "count": 70,
+          "pct": 7
+        },
+        {
+          "value": "11",
+          "label": "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)",
+          "count": 173,
+          "pct": 18
+        },
+        {
+          "value": "12",
+          "label": "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)",
+          "count": 153,
+          "pct": 16
+        },
+        {
+          "value": "13",
+          "label": "80,000 or more (annual)/6,667 or more (monthly)/1,539 or more (weekly)",
+          "count": 39,
+          "pct": 4
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "2",
+        "18",
+        "2%"
+      ],
+      [
+        "3",
+        "26",
+        "3%"
+      ],
+      [
+        "4",
+        "39",
+        "4%"
+      ],
+      [
+        "5",
+        "83",
+        "9%"
+      ],
+      [
+        "6",
+        "74",
+        "8%"
+      ],
+      [
+        "7",
+        "85",
+        "9%"
+      ],
+      [
+        "8",
+        "92",
+        "10%"
+      ],
+      [
+        "9",
+        "96",
+        "10%"
+      ],
+      [
+        "10",
+        "70",
+        "7%"
+      ],
+      [
+        "11",
+        "173",
+        "18%"
+      ],
+      [
+        "12",
+        "153",
+        "16%"
+      ],
+      [
+        "13",
+        "39",
+        "4%"
+      ],
+      [
+        "Displayed N",
+        "948",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

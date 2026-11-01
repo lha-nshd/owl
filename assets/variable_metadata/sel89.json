@@ -1,0 +1,842 @@
+{
+  "varname": "sel89",
+  "label": "Please describe longest job since 1982. [SEG classification] - at age 43 years",
+  "field_id": "32858",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32858",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "SEG",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 946.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Employment history [23]",
+    "Employment history [5154]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "100.0",
+      "label": "Semi-skilled manual worker - Employees engaged in manual occupations which requires slightly but specific skills. "
+    },
+    {
+      "value": "110.0",
+      "label": "Unskilled manual workers - Other employees engaged in manual occupations"
+    },
+    {
+      "value": "12.0",
+      "label": "Managers in central and local government, industry, commerce, etc. Persons who generally plan and supervise in non-agricultural enterprises employing 25 or more persons"
+    },
+    {
+      "value": "120.0",
+      "label": "Own account workers  (Other than profnls). Self employed persons engaged in any trade, not normally required training or a university degree standard and have no emplys other than family workers. "
+    },
+    {
+      "value": "14.0",
+      "label": "Incorrect Coding"
+    },
+    {
+      "value": "160.0",
+      "label": "Member of the armed forces"
+    },
+    {
+      "value": "2.0",
+      "label": "Incorrect Coding"
+    },
+    {
+      "value": "21.0",
+      "label": "Employers in industry, commerce, etc. - small establishments. As in 11 but in establishments employing fewer than 25 persons."
+    },
+    {
+      "value": "22.0",
+      "label": "Managers in industry, commerce, etc. - small establishments. As in 12 but in establishments employing fewer than 25 persons."
+    },
+    {
+      "value": "4.0",
+      "label": "Incorrect Coding"
+    },
+    {
+      "value": "40.0",
+      "label": "professional workers- employees. Employees engaged in work normally requiring a university degree standard."
+    },
+    {
+      "value": "5.0",
+      "label": "Incorrect Coding"
+    },
+    {
+      "value": "51.0",
+      "label": "Ancillary workers and artists. Employed and engaged with non-manual occupations not normally requiring qualifications of university degree standards; not employing others therein. "
+    },
+    {
+      "value": "52.0",
+      "label": "Foreman and supervisors non-manual. Employees (other than managers) engaged in occupations included in group 60, who formally and immediately supervise other engaged in such occupations. "
+    },
+    {
+      "value": "60.0",
+      "label": "Junior non-manual workers - Employees, not exercising general planning or supervisory powers,engaged in clerical, excl who have additional and formal supervisory functions (they are incl in group 52)"
+    },
+    {
+      "value": "70.0",
+      "label": "Personal service workers - Employees engaged in service occupations caring for food, drink, clothing or other professional needs."
+    },
+    {
+      "value": "80.0",
+      "label": "Foreman and supervisors - manual. Employees (other than managers) who formally and immediately supervise other engaged in manual occupations whether or not themselves engaged in such occupations. "
+    },
+    {
+      "value": "888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "90.0",
+      "label": "Skilled manual worker - Employees engaged in manual occupation which requires considerable and specific skills"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Managers in central and local government, industry, commerce, etc. Persons who generally plan and supervise in non-agricultural enterprises employing 25 or more persons",
+      "count": 85,
+      "pct": 9.0
+    },
+    {
+      "label": "Employers in industry, commerce, etc. - small establishments. As in 11 but in establishments employing fewer than 25 persons.",
+      "count": 21,
+      "pct": 2.2
+    },
+    {
+      "label": "Managers in industry, commerce, etc. - small establishments. As in 12 but in establishments employing fewer than 25 persons.",
+      "count": 123,
+      "pct": 13.0
+    },
+    {
+      "label": "professional workers- employees. Employees engaged in work normally requiring a university degree standard.",
+      "count": 54,
+      "pct": 5.7
+    },
+    {
+      "label": "Ancillary workers and artists. Employed and engaged with non-manual occupations not normally requiring qualifications of university degree standards; not employing others therein.",
+      "count": 115,
+      "pct": 12.2
+    },
+    {
+      "label": "Foreman and supervisors non-manual. Employees (other than managers) engaged in occupations included in group 60, who formally and immediately supervise other engaged in such occupations.",
+      "count": 40,
+      "pct": 4.2
+    },
+    {
+      "label": "Junior non-manual workers - Employees, not exercising general planning or supervisory powers,engaged in clerical, excl who have additional and formal supervisory functions (they are incl in group 52)",
+      "count": 201,
+      "pct": 21.2
+    },
+    {
+      "label": "Personal service workers - Employees engaged in service occupations caring for food, drink, clothing or other professional needs.",
+      "count": 56,
+      "pct": 5.9
+    },
+    {
+      "label": "Foreman and supervisors - manual. Employees (other than managers) who formally and immediately supervise other engaged in manual occupations whether or not themselves engaged in such occupations.",
+      "count": 41,
+      "pct": 4.3
+    },
+    {
+      "label": "Skilled manual worker - Employees engaged in manual occupation which requires considerable and specific skills",
+      "count": 74,
+      "pct": 7.8
+    },
+    {
+      "label": "Semi-skilled manual worker - Employees engaged in manual occupations which requires slightly but specific skills.",
+      "count": 67,
+      "pct": 7.1
+    },
+    {
+      "label": "Unskilled manual workers - Other employees engaged in manual occupations",
+      "count": 31,
+      "pct": 3.3
+    },
+    {
+      "label": "Own account workers  (Other than profnls). Self employed persons engaged in any trade, not normally required training or a university degree standard and have no emplys other than family workers.",
+      "count": 23,
+      "pct": 2.4
+    },
+    {
+      "label": "Member of the armed forces",
+      "count": 15,
+      "pct": 1.6
+    }
+  ],
+  "pdf": {
+    "varname": "sel89",
+    "label": "Please describe longest job since 1982. [SEG classification] - at age 43 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "sel89"
+      ],
+      [
+        "Field ID",
+        "32858"
+      ],
+      [
+        "Label",
+        "Please describe longest job since 1982. [SEG classification] - at age 43 years"
+      ],
+      [
+        "Card Number",
+        "de89d"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "49(c)"
+      ],
+      [
+        "Year",
+        "1989"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "SEG"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Possible low cell count issue"
+      ],
+      [
+        "Notes",
+        "Questions about work asked in the 1989 A questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [5154]",
+        "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "100.0",
+        "Semi-skilled manual worker - Employees engaged in manual occupations which requires slightly but specific skills. ",
+        false
+      ],
+      [
+        "110.0",
+        "Unskilled manual workers - Other employees engaged in manual occupations",
+        false
+      ],
+      [
+        "12.0",
+        "Managers in central and local government, industry, commerce, etc. Persons who generally plan and supervise in non-agricultural enterprises employing 25 or more persons",
+        false
+      ],
+      [
+        "120.0",
+        "Own account workers  (Other than profnls). Self employed persons engaged in any trade, not normally required training or a university degree standard and have no emplys other than family workers. ",
+        false
+      ],
+      [
+        "14.0",
+        "Incorrect Coding",
+        true
+      ],
+      [
+        "160.0",
+        "Member of the armed forces",
+        false
+      ],
+      [
+        "2.0",
+        "Incorrect Coding",
+        true
+      ],
+      [
+        "21.0",
+        "Employers in industry, commerce, etc. - small establishments. As in 11 but in establishments employing fewer than 25 persons.",
+        false
+      ],
+      [
+        "22.0",
+        "Managers in industry, commerce, etc. - small establishments. As in 12 but in establishments employing fewer than 25 persons.",
+        false
+      ],
+      [
+        "4.0",
+        "Incorrect Coding",
+        true
+      ],
+      [
+        "40.0",
+        "professional workers- employees. Employees engaged in work normally requiring a university degree standard.",
+        false
+      ],
+      [
+        "5.0",
+        "Incorrect Coding",
+        true
+      ],
+      [
+        "51.0",
+        "Ancillary workers and artists. Employed and engaged with non-manual occupations not normally requiring qualifications of university degree standards; not employing others therein. ",
+        false
+      ],
+      [
+        "52.0",
+        "Foreman and supervisors non-manual. Employees (other than managers) engaged in occupations included in group 60, who formally and immediately supervise other engaged in such occupations. ",
+        false
+      ],
+      [
+        "60.0",
+        "Junior non-manual workers - Employees, not exercising general planning or supervisory powers,engaged in clerical, excl who have additional and formal supervisory functions (they are incl in group 52)",
+        false
+      ],
+      [
+        "70.0",
+        "Personal service workers - Employees engaged in service occupations caring for food, drink, clothing or other professional needs.",
+        false
+      ],
+      [
+        "80.0",
+        "Foreman and supervisors - manual. Employees (other than managers) who formally and immediately supervise other engaged in manual occupations whether or not themselves engaged in such occupations. ",
+        false
+      ],
+      [
+        "888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "90.0",
+        "Skilled manual worker - Employees engaged in manual occupation which requires considerable and specific skills",
+        false
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "12",
+        "85",
+        "9%"
+      ],
+      [
+        "21",
+        "21",
+        "2%"
+      ],
+      [
+        "22",
+        "123",
+        "13%"
+      ],
+      [
+        "40",
+        "54",
+        "6%"
+      ],
+      [
+        "51",
+        "115",
+        "12%"
+      ],
+      [
+        "52",
+        "40",
+        "4%"
+      ],
+      [
+        "60",
+        "201",
+        "21%"
+      ],
+      [
+        "70",
+        "56",
+        "6%"
+      ],
+      [
+        "80",
+        "41",
+        "4%"
+      ],
+      [
+        "90",
+        "74",
+        "8%"
+      ],
+      [
+        "100",
+        "67",
+        "7%"
+      ],
+      [
+        "110",
+        "31",
+        "3%"
+      ],
+      [
+        "120",
+        "23",
+        "2%"
+      ],
+      [
+        "160",
+        "15",
+        "2%"
+      ],
+      [
+        "Displayed N",
+        "946",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "sel89",
+    "label": "Please describe longest job since 1982. [SEG classification] - at age 43 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32858",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "sel89",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "32858",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Please describe longest job since 1982. [SEG classification] - at age 43 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "de89d",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "49(c)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1989",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "SEG",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Possible low cell count issue",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about work asked in the 1989 A questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [5154]",
+        "description": "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Employment_history_5154.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "100.0",
+        "label": "Semi-skilled manual worker - Employees engaged in manual occupations which requires slightly but specific skills. ",
+        "is_missing": false
+      },
+      {
+        "value": "110.0",
+        "label": "Unskilled manual workers - Other employees engaged in manual occupations",
+        "is_missing": false
+      },
+      {
+        "value": "12.0",
+        "label": "Managers in central and local government, industry, commerce, etc. Persons who generally plan and supervise in non-agricultural enterprises employing 25 or more persons",
+        "is_missing": false
+      },
+      {
+        "value": "120.0",
+        "label": "Own account workers  (Other than profnls). Self employed persons engaged in any trade, not normally required training or a university degree standard and have no emplys other than family workers. ",
+        "is_missing": false
+      },
+      {
+        "value": "14.0",
+        "label": "Incorrect Coding",
+        "is_missing": true
+      },
+      {
+        "value": "160.0",
+        "label": "Member of the armed forces",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Incorrect Coding",
+        "is_missing": true
+      },
+      {
+        "value": "21.0",
+        "label": "Employers in industry, commerce, etc. - small establishments. As in 11 but in establishments employing fewer than 25 persons.",
+        "is_missing": false
+      },
+      {
+        "value": "22.0",
+        "label": "Managers in industry, commerce, etc. - small establishments. As in 12 but in establishments employing fewer than 25 persons.",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Incorrect Coding",
+        "is_missing": true
+      },
+      {
+        "value": "40.0",
+        "label": "professional workers- employees. Employees engaged in work normally requiring a university degree standard.",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Incorrect Coding",
+        "is_missing": true
+      },
+      {
+        "value": "51.0",
+        "label": "Ancillary workers and artists. Employed and engaged with non-manual occupations not normally requiring qualifications of university degree standards; not employing others therein. ",
+        "is_missing": false
+      },
+      {
+        "value": "52.0",
+        "label": "Foreman and supervisors non-manual. Employees (other than managers) engaged in occupations included in group 60, who formally and immediately supervise other engaged in such occupations. ",
+        "is_missing": false
+      },
+      {
+        "value": "60.0",
+        "label": "Junior non-manual workers - Employees, not exercising general planning or supervisory powers,engaged in clerical, excl who have additional and formal supervisory functions (they are incl in group 52)",
+        "is_missing": false
+      },
+      {
+        "value": "70.0",
+        "label": "Personal service workers - Employees engaged in service occupations caring for food, drink, clothing or other professional needs.",
+        "is_missing": false
+      },
+      {
+        "value": "80.0",
+        "label": "Foreman and supervisors - manual. Employees (other than managers) who formally and immediately supervise other engaged in manual occupations whether or not themselves engaged in such occupations. ",
+        "is_missing": false
+      },
+      {
+        "value": "888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "90.0",
+        "label": "Skilled manual worker - Employees engaged in manual occupation which requires considerable and specific skills",
+        "is_missing": false
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 21
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "SEG",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "12",
+          "label": "Managers in central and local government, industry, commerce, etc. Persons who generally plan and supervise in non-agricultural enterprises employing 25 or more persons",
+          "count": 85,
+          "pct": 9
+        },
+        {
+          "value": "21",
+          "label": "Employers in industry, commerce, etc. - small establishments. As in 11 but in establishments employing fewer than 25 persons.",
+          "count": 21,
+          "pct": 2
+        },
+        {
+          "value": "22",
+          "label": "Managers in industry, commerce, etc. - small establishments. As in 12 but in establishments employing fewer than 25 persons.",
+          "count": 123,
+          "pct": 13
+        },
+        {
+          "value": "40",
+          "label": "professional workers- employees. Employees engaged in work normally requiring a university degree standard.",
+          "count": 54,
+          "pct": 6
+        },
+        {
+          "value": "51",
+          "label": "Ancillary workers and artists. Employed and engaged with non-manual occupations not normally requiring qualifications of university degree standards; not employing others therein. ",
+          "count": 115,
+          "pct": 12
+        },
+        {
+          "value": "52",
+          "label": "Foreman and supervisors non-manual. Employees (other than managers) engaged in occupations included in group 60, who formally and immediately supervise other engaged in such occupations. ",
+          "count": 40,
+          "pct": 4
+        },
+        {
+          "value": "60",
+          "label": "Junior non-manual workers - Employees, not exercising general planning or supervisory powers,engaged in clerical, excl who have additional and formal supervisory functions (they are incl in group 52)",
+          "count": 201,
+          "pct": 21
+        },
+        {
+          "value": "70",
+          "label": "Personal service workers - Employees engaged in service occupations caring for food, drink, clothing or other professional needs.",
+          "count": 56,
+          "pct": 6
+        },
+        {
+          "value": "80",
+          "label": "Foreman and supervisors - manual. Employees (other than managers) who formally and immediately supervise other engaged in manual occupations whether or not themselves engaged in such occupations. ",
+          "count": 41,
+          "pct": 4
+        },
+        {
+          "value": "90",
+          "label": "Skilled manual worker - Employees engaged in manual occupation which requires considerable and specific skills",
+          "count": 74,
+          "pct": 8
+        },
+        {
+          "value": "100",
+          "label": "Semi-skilled manual worker - Employees engaged in manual occupations which requires slightly but specific skills. ",
+          "count": 67,
+          "pct": 7
+        },
+        {
+          "value": "110",
+          "label": "Unskilled manual workers - Other employees engaged in manual occupations",
+          "count": 31,
+          "pct": 3
+        },
+        {
+          "value": "120",
+          "label": "Own account workers  (Other than profnls). Self employed persons engaged in any trade, not normally required training or a university degree standard and have no emplys other than family workers. ",
+          "count": 23,
+          "pct": 2
+        },
+        {
+          "value": "160",
+          "label": "Member of the armed forces",
+          "count": 15,
+          "pct": 2
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "12",
+        "85",
+        "9%"
+      ],
+      [
+        "21",
+        "21",
+        "2%"
+      ],
+      [
+        "22",
+        "123",
+        "13%"
+      ],
+      [
+        "40",
+        "54",
+        "6%"
+      ],
+      [
+        "51",
+        "115",
+        "12%"
+      ],
+      [
+        "52",
+        "40",
+        "4%"
+      ],
+      [
+        "60",
+        "201",
+        "21%"
+      ],
+      [
+        "70",
+        "56",
+        "6%"
+      ],
+      [
+        "80",
+        "41",
+        "4%"
+      ],
+      [
+        "90",
+        "74",
+        "8%"
+      ],
+      [
+        "100",
+        "67",
+        "7%"
+      ],
+      [
+        "110",
+        "31",
+        "3%"
+      ],
+      [
+        "120",
+        "23",
+        "2%"
+      ],
+      [
+        "160",
+        "15",
+        "2%"
+      ],
+      [
+        "Displayed N",
+        "946",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

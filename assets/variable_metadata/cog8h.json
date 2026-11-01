@@ -1,0 +1,526 @@
+{
+  "varname": "cog8h",
+  "label": "Cognitive function score (standardised to whole population on each test) - at age 8 years",
+  "field_id": "1208",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1208",
+  "year": "",
+  "form": "NF2 - Mental ability and scholastic attainment",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": -0.00030166141580314137,
+  "sd": 0.6957618910632253,
+  "series_size": 3829.0,
+  "minimum": -1.4206062788718936,
+  "maximum": 1.3975649914746395,
+  "truly_longitudinal_field_id": "1208",
+  "truly_longitudinal_varnames": [
+    "cog11h",
+    "cog15h"
+  ],
+  "truly_longitudinal_years": [
+    "1954",
+    "1957",
+    "1961"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Cognitive function [14]",
+    "Childhood cognition [1011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "cog8h",
+    "label": "Cognitive function score (standardised to whole population on each test) - at age 8 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "cog8h"
+      ],
+      [
+        "Field ID",
+        "1208"
+      ],
+      [
+        "Label",
+        "Cognitive function score (standardised to whole population on each test) - at age 8 years"
+      ],
+      [
+        "Card Number",
+        "cognition_2"
+      ],
+      [
+        "Form",
+        "NF2 - Mental ability and scholastic attainment"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1954"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "These are derived variables for childhood cognition. Variables are standardised and are variables recommended for use."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cog11h",
+        "1957",
+        "Cognitive function score (standardised to whole population on each test) - at age 11 years"
+      ],
+      [
+        "cog15h",
+        "1961",
+        "Cognitive function score (standardised to whole population on each test) - at age 15 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/cognition_2/Cognitive_variables_childhood_v1_external.docx",
+        "Cognitive_variables_childhood_v1_external.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/cognition_2/Documentation_cognition_2_v1.docx",
+        "Documentation_cognition_2_v1.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/cognition_2/Top-Sheet_cognition_2.docx",
+        "Top-Sheet_cognition_2.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cognitive function [14]",
+        "Legacy Category"
+      ],
+      [
+        "Childhood cognition [1011]",
+        "This category contains the derived variables used to measure childhood cognition."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "-1.4206062788718936"
+      ],
+      [
+        "Maximum",
+        "1.3975649914746395"
+      ],
+      [
+        "Range",
+        "2.818171270346533"
+      ],
+      [
+        "Median",
+        "0.013154283122767674"
+      ],
+      [
+        "IQR",
+        "-0.545604526729637 - 0.5407358344328804"
+      ],
+      [
+        "Decile 1",
+        "-0.971347870095873"
+      ],
+      [
+        "Decile 2",
+        "-0.6653412099647892"
+      ],
+      [
+        "Decile 3",
+        "-0.43027936438905157"
+      ],
+      [
+        "Decile 4",
+        "-0.21344389526134253"
+      ],
+      [
+        "Decile 5",
+        "0.013154283122767674"
+      ],
+      [
+        "Decile 6",
+        "0.2141023037623966"
+      ],
+      [
+        "Decile 7",
+        "0.4247361016764497"
+      ],
+      [
+        "Decile 8",
+        "0.6697778451885621"
+      ],
+      [
+        "Decile 9",
+        "0.9434161574303654"
+      ],
+      [
+        "Mean",
+        "-0.00030166141580314137"
+      ],
+      [
+        "Std Dev.",
+        "0.6957618910632253"
+      ],
+      [
+        "Variance",
+        "0.4840846090558754"
+      ],
+      [
+        "Displayed N",
+        "3829"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "cog8h",
+    "label": "Cognitive function score (standardised to whole population on each test) - at age 8 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1208",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cog8h",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1208",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Cognitive function score (standardised to whole population on each test) - at age 8 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "cognition_2",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "NF2 - Mental ability and scholastic attainment",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1954",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "These are derived variables for childhood cognition. Variables are standardised and are variables recommended for use.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1208",
+      "members": [
+        {
+          "varname": "cog8h",
+          "year": "1954",
+          "label": "Cognitive function score (standardised to whole population on each test) - at age 8 years",
+          "is_current": true
+        },
+        {
+          "varname": "cog11h",
+          "year": "1957",
+          "label": "Cognitive function score (standardised to whole population on each test) - at age 11 years",
+          "is_current": false
+        },
+        {
+          "varname": "cog15h",
+          "year": "1961",
+          "label": "Cognitive function score (standardised to whole population on each test) - at age 15 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/cognition_2/Cognitive_variables_childhood_v1_external.docx",
+        "text": "Cognitive_variables_childhood_v1_external.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/cognition_2/Documentation_cognition_2_v1.docx",
+        "text": "Documentation_cognition_2_v1.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/cognition_2/Top-Sheet_cognition_2.docx",
+        "text": "Top-Sheet_cognition_2.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cognitive function [14]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Childhood cognition [1011]",
+        "description": "This category contains the derived variables used to measure childhood cognition.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Childhood_cognition_1011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 4,
+      "cats": 2,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          -1.4206062788718936,
+          -1.28640764695063,
+          -1.1522090150293667,
+          -1.018010383108103,
+          -0.8838117511868396,
+          -0.7496131192655762,
+          -0.6154144873443126,
+          -0.4812158554230491,
+          -0.34701722350178565,
+          -0.21281859158052208,
+          -0.07861995965925872,
+          0.05557867226200486,
+          0.18977730418326844,
+          0.3239759361045318,
+          0.45817456802579537,
+          0.592373199947059,
+          0.7265718318683223,
+          0.8607704637895857,
+          0.9949690957108495,
+          1.1291677276321128,
+          1.2633663595533762,
+          1.3975649914746395
+        ],
+        "counts": [
+          78,
+          103,
+          144,
+          143,
+          173,
+          206,
+          203,
+          246,
+          238,
+          223,
+          248,
+          243,
+          243,
+          249,
+          207,
+          200,
+          189,
+          171,
+          133,
+          96,
+          93
+        ]
+      },
+      "boxplot": {
+        "min": -1.4206062788718936,
+        "q1": -0.545604526729637,
+        "median": 0.013154283122767674,
+        "q3": 0.5407358344328804,
+        "max": 1.3975649914746395
+      },
+      "units": "Not applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "-1.4206062788718936"
+      ],
+      [
+        "Maximum",
+        "1.3975649914746395"
+      ],
+      [
+        "Range",
+        "2.818171270346533"
+      ],
+      [
+        "Median",
+        "0.013154283122767674"
+      ],
+      [
+        "IQR",
+        "-0.545604526729637 - 0.5407358344328804"
+      ],
+      [
+        "Decile 1",
+        "-0.971347870095873"
+      ],
+      [
+        "Decile 2",
+        "-0.6653412099647892"
+      ],
+      [
+        "Decile 3",
+        "-0.43027936438905157"
+      ],
+      [
+        "Decile 4",
+        "-0.21344389526134253"
+      ],
+      [
+        "Decile 5",
+        "0.013154283122767674"
+      ],
+      [
+        "Decile 6",
+        "0.2141023037623966"
+      ],
+      [
+        "Decile 7",
+        "0.4247361016764497"
+      ],
+      [
+        "Decile 8",
+        "0.6697778451885621"
+      ],
+      [
+        "Decile 9",
+        "0.9434161574303654"
+      ],
+      [
+        "Mean",
+        "-0.00030166141580314137"
+      ],
+      [
+        "Std Dev.",
+        "0.6957618910632253"
+      ],
+      [
+        "Variance",
+        "0.4840846090558754"
+      ],
+      [
+        "Displayed N",
+        "3829"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

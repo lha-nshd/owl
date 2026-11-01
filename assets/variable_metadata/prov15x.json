@@ -1,0 +1,465 @@
+{
+  "varname": "prov15x",
+  "label": "Do you provide some regular service or help for any sick, disabled\u00a0or older person not living with you? - at age 69 years",
+  "field_id": "9136",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9136",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2136.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "9136",
+  "truly_longitudinal_varnames": [
+    "prov23x"
+  ],
+  "truly_longitudinal_years": [
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [
+    "prov_myft",
+    "provhelp25x",
+    "prov09"
+  ],
+  "linked_years": [
+    "2006-10",
+    "2020-2024",
+    "2025"
+  ],
+  "categories": [
+    "Social support or life events [25]",
+    "Physical capability [5108]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Paper HV only completed"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 1802,
+      "pct": 84.4
+    },
+    {
+      "label": "Yes",
+      "count": 334,
+      "pct": 15.6
+    }
+  ],
+  "pdf": {
+    "varname": "prov15x",
+    "label": "Do you provide some regular service or help for any sick, disabled\u00a0or older person not living with you? - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "prov15x"
+      ],
+      [
+        "Field ID",
+        "9136"
+      ],
+      [
+        "Label",
+        "Do you provide some regular service or help for any sick, disabled\u00a0or older person not living with you? - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "PhysCap15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "54"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2015 Home visit. Activity questions. Similar questions asked in the 2025 postal but referred to ADL's/IADL's."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "prov23x",
+        "2023",
+        "Do you provide some regular service or help for any sick, disabled\u00a0or older person not living with you? - at age 77 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "prov_myft",
+        "Do you provide some regular service or help for any sick, disabled or older person not living with you? - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Soci"
+      ],
+      [
+        "provhelp25x",
+        "Do you provide help to others, with any of the activities listed in questions 18 and 21? - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "25",
+        "Postal2025"
+      ],
+      [
+        "prov09",
+        "Do you provide some regular service or help for any sick, handicapped or elderly person not living with you - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "32(b)",
+        "Caring09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social support or life events [25]",
+        "Legacy Category"
+      ],
+      [
+        "Physical capability [5108]",
+        "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Paper HV only completed",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1802",
+        "84%"
+      ],
+      [
+        "1",
+        "334",
+        "16%"
+      ],
+      [
+        "Displayed N",
+        "2136",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "prov15x",
+    "label": "Do you provide some regular service or help for any sick, disabled\u00a0or older person not living with you? - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9136",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "prov15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9136",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Do you provide some regular service or help for any sick, disabled\u00a0or older person not living with you? - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysCap15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "54",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2015 Home visit. Activity questions. Similar questions asked in the 2025 postal but referred to ADL's/IADL's.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "9136",
+      "members": [
+        {
+          "varname": "prov15x",
+          "year": "2015",
+          "label": "Do you provide some regular service or help for any sick, disabled\u00a0or older person not living with you? - at age 69 years",
+          "is_current": true
+        },
+        {
+          "varname": "prov23x",
+          "year": "2023",
+          "label": "Do you provide some regular service or help for any sick, disabled\u00a0or older person not living with you? - at age 77 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "prov_myft",
+        "description": "Do you provide some regular service or help for any sick, disabled or older person not living with you? - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Soci"
+      },
+      {
+        "varname": "provhelp25x",
+        "description": "Do you provide help to others, with any of the activities listed in questions 18 and 21? - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "25",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "prov09",
+        "description": "Do you provide some regular service or help for any sick, handicapped or elderly person not living with you - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "32(b)",
+        "library_file": "Caring09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social support or life events [25]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical capability [5108]",
+        "description": "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_5108.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Paper HV only completed",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 1802,
+          "pct": 84
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 334,
+          "pct": 16
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1802",
+        "84%"
+      ],
+      [
+        "1",
+        "334",
+        "16%"
+      ],
+      [
+        "Displayed N",
+        "2136",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

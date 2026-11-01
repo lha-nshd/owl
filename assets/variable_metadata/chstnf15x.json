@@ -1,0 +1,466 @@
+{
+  "varname": "chstnf15x",
+  "label": "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at 69 years",
+  "field_id": "33369",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=33369",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1902.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "chstnf23x",
+    "chestinf",
+    "chstnf_myft",
+    "chstnf09"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10",
+    "2020-2024",
+    "2023"
+  ],
+  "categories": [
+    "Respiratory health [5]",
+    "Respiratory conditions [51013]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Question not asked in postal home visit"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 1691,
+      "pct": 88.9
+    },
+    {
+      "label": "Yes",
+      "count": 211,
+      "pct": 11.1
+    }
+  ],
+  "pdf": {
+    "varname": "chstnf15x",
+    "label": "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "chstnf15x"
+      ],
+      [
+        "Field ID",
+        "33369"
+      ],
+      [
+        "Label",
+        "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at 69 years"
+      ],
+      [
+        "Card Number",
+        "LungFunction15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "6"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "chstnf23x",
+        "In the past three weeks have you had any respiratory infections such as influenza, pneumonia, bronchitis or a severe cold - at age 77 years",
+        "2023",
+        "Home visit",
+        "6",
+        "lung_function23"
+      ],
+      [
+        "chestinf",
+        "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "121(c)",
+        "capi99a"
+      ],
+      [
+        "chstnf_myft",
+        "In last few weeks, have you had any respiratory infections such as influenza, pneumonia, bronchitis or a severe cold? - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_Lung"
+      ],
+      [
+        "chstnf09",
+        "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "70(e)",
+        "LungFunc09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/LungFunction15/Lung_function_documentation_ref.docx",
+        "Lung_function_documentation_ref.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory health [5]",
+        "Legacy Category"
+      ],
+      [
+        "Respiratory conditions [51013]",
+        "This category contains data from the questionnaires on whether the participant has and respiratory conditions i.e chronic lung disease, COPD, emphysema, asthma, bronchitis and hayfever. They were also asked if they were prescribed medication. CLS asthma harmonisation dataset is also included). Questions were asked in 1948 (age 2 years), 1952 (age 6 years), 1953 (age 7 years), 1957 (age 11 years), 1961 (age 15 years), 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2020-21 (covid), 2022 (age 76 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Question not asked in postal home visit",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1691",
+        "89%"
+      ],
+      [
+        "1",
+        "211",
+        "11%"
+      ],
+      [
+        "Displayed N",
+        "1902",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "chstnf15x",
+    "label": "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=33369",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "chstnf15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "33369",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "LungFunction15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "6",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "chstnf23x",
+        "description": "In the past three weeks have you had any respiratory infections such as influenza, pneumonia, bronchitis or a severe cold - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "lung_function23"
+      },
+      {
+        "varname": "chestinf",
+        "description": "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "121(c)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "chstnf_myft",
+        "description": "In last few weeks, have you had any respiratory infections such as influenza, pneumonia, bronchitis or a severe cold? - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_Lung"
+      },
+      {
+        "varname": "chstnf09",
+        "description": "In the past three weeks have you had any respiratory infections such as influenze, pneumonia, bronchitis or a severe cold - at 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "70(e)",
+        "library_file": "LungFunc09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/LungFunction15/Lung_function_documentation_ref.docx",
+        "text": "Lung_function_documentation_ref.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory health [5]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Respiratory conditions [51013]",
+        "description": "This category contains data from the questionnaires on whether the participant has and respiratory conditions i.e chronic lung disease, COPD, emphysema, asthma, bronchitis and hayfever. They were also asked if they were prescribed medication. CLS asthma harmonisation dataset is also included). Questions were asked in 1948 (age 2 years), 1952 (age 6 years), 1953 (age 7 years), 1957 (age 11 years), 1961 (age 15 years), 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2020-21 (covid), 2022 (age 76 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Respiratory_conditions_51013.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Question not asked in postal home visit",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 2,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 1691,
+          "pct": 89
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 211,
+          "pct": 11
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1691",
+        "89%"
+      ],
+      [
+        "1",
+        "211",
+        "11%"
+      ],
+      [
+        "Displayed N",
+        "1902",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

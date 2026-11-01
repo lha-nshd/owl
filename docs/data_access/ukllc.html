@@ -1,0 +1,130 @@
+---
+layout: default
+title: UK LLC
+parent: Accessing NSHD Data
+nav_order: 4
+permalink: /docs/accessing-nshd-data/ukllc/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-link" aria-hidden="true"></i> UK LLC</h1>
+    <p>Accessing NSHD variables linked to other longitudinal studies and administrative records through the UK Longitudinal Linkage Collaboration.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#introduction" class="ukl-toc-intro"><i class="ti ti-info-circle" aria-hidden="true"></i> Introduction</a></li>
+      <li><a href="#catalogue" class="ukl-toc-catalogue"><i class="ti ti-database" aria-hidden="true"></i> Continuous deposits &amp; the catalogue</a></li>
+      <li><a href="#linked-data" class="ukl-toc-linked"><i class="ti ti-git-merge" aria-hidden="true"></i> What NSHD data is linked</a></li>
+      <li><a href="#access" class="ukl-toc-access"><i class="ti ti-key" aria-hidden="true"></i> Who can access UK LLC, and how</a></li>
+      <li><a href="#relationship" class="ukl-toc-relationship"><i class="ti ti-route" aria-hidden="true"></i> UK LLC and the NSHD platforms</a></li>
+      <li><a href="#governance" class="ukl-toc-governance"><i class="ti ti-shield-lock" aria-hidden="true"></i> Security &amp; governance</a></li>
+      <li><a href="#support" class="ukl-toc-support"><i class="ti ti-lifebuoy" aria-hidden="true"></i> Getting help</a></li>
+    </ul>
+    <a href="/OWL/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Home</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>The <strong>UK Longitudinal Linkage Collaboration (UK LLC)</strong> is a secure research platform that pools data from over 20 UK longitudinal studies — NSHD among them — and connects it to outside records such as NHS health data, schooling and work history, and other government-held information. For NSHD, it is a way in to combine study variables with data from other cohorts and external sources, all within one protected workspace rather than through separate requests to each data holder.</p>
+  </div>
+
+  <div class="home-section gs-card-search">
+    <h2 id="introduction"><i class="ti ti-info-circle" aria-hidden="true"></i> Introduction</h2>
+    <p>UK LLC exists so that researchers don't have to piece together data from separate longitudinal studies and separate external record holders one at a time. Instead of a stand-alone NSHD request, working through UK LLC means NSHD variables can be pulled into the same workspace as matching variables from other cohorts, plus external records such as health, schooling, work and location data — with everything analysed in one place.</p>
+    <ul>
+      <li>NSHD sits alongside data from more than 20 other UK longitudinal studies, all held in the same environment</li>
+      <li>Individual NSHD participants can be matched to their NHS primary care, hospital and prescribing records</li>
+      <li>Government-held records — covering schooling, employment, and tax or benefits history — are steadily being added as further sources become available</li>
+      <li>No raw data is downloaded or exported; all analysis happens inside the secure environment itself</li>
+    </ul>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>UK LLC is a separate access route from Condor and Skylark. Use UK LLC when your research question needs NSHD data linked to other cohorts or to administrative records — otherwise, an NSHD-only request via Condor and Skylark may be simpler. See <a href="#relationship">UK LLC and the NSHD platforms</a> below.</span>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-explore">
+    <h2 id="catalogue"><i class="ti ti-database" aria-hidden="true"></i> Continuous deposits &amp; the catalogue</h2>
+    <p>NSHD datasets are deposited into UK LLC on an ongoing basis — new sweeps and variable groups are added as they become available, rather than as a single one-off transfer. Because of this, the set of NSHD variables accessible through UK LLC will keep growing over time and will not always exactly match what is available via Condor.</p>
+    <p>A full, searchable catalogue of every dataset NSHD has deposited into UK LLC — including the variables each one contains and their labels — is kept up to date and can be browsed below.</p>
+    <a class="gs-link-card gs-amber" href="/OWL/docs/search_methods/ukllc_catalogue" style="margin-top:12px;">
+      <i class="ti ti-table" aria-hidden="true"></i>
+      <div style="flex:1;">
+        <p class="gs-link-card-title">Browse the UK LLC Deposit Catalogue →</p>
+        <p class="gs-link-card-desc">Search and filter every NSHD dataset deposited into UK LLC by name, description or keyword, and open a dataset to see the variables and labels it contains.</p>
+      </div>
+      <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+    </a>
+    <div class="callout-note" style="margin-top:10px;">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Not finding a variable in the catalogue? It may not have been deposited yet. Check back periodically, or contact the NSHD data sharing team to ask about the deposit timeline for a specific sweep or module.</span>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-sidebar">
+    <h2 id="linked-data"><i class="ti ti-git-merge" aria-hidden="true"></i> What NSHD data is linked to, in UK LLC</h2>
+    <p>Inside the UK LLC TRE, NSHD participant data can be analysed alongside:</p>
+    <ul>
+      <li><strong>Other longitudinal studies</strong> — comparable variables from the 20+ other UK cohorts held in UK LLC, enabling cross-cohort and replication analyses</li>
+      <li><strong>NHS health records</strong> — primary care, secondary care, prescribing and other routinely collected clinical data</li>
+      <li><strong>Administrative and socio-economic data</strong> — education, employment, tax and benefits records held by government departments</li>
+      <li><strong>Place-based data</strong> — geo-coded environmental and neighbourhood-level indicators</li>
+    </ul>
+    <p>The specific NSHD variables and sweeps available for this kind of linked analysis are exactly those listed in the deposit catalogue above — if a variable has not yet been deposited, it cannot currently be linked or analysed within UK LLC.</p>
+  </div>
+
+  <div class="home-section gs-card-basket">
+    <h2 id="access"><i class="ti ti-key" aria-hidden="true"></i> Who can access UK LLC, and how</h2>
+    <p>UK LLC is meant for genuine researchers pursuing work that benefits the public, and it's built around one combined application rather than a separate approval step for every cohort you want to draw on.</p>
+    <ul>
+      <li>Accreditation and project sign-off happen through UK LLC's own process, separately from Condor or Skylark</li>
+      <li>A single application can cover NSHD together with any of the other studies your project needs</li>
+      <li>There's no charge for UK-based, accredited researchers to use UK LLC on public-benefit projects</li>
+      <li>Once approved, work is carried out inside UK LLC's secure environment, with any results screened before they can be taken out — the same principle used by other secure data facilities</li>
+    </ul>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Full eligibility criteria, the application process and current guidance are maintained by UK LLC directly, at <a href="https://ukllc.ac.uk/" target="_blank">ukllc.ac.uk</a></span>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-lavender">
+    <h2 id="relationship"><i class="ti ti-route" aria-hidden="true"></i> UK LLC and the NSHD platforms</h2>
+    <p>UK LLC is a separate infrastructure to OWL, the NSHD Showcase, Condor and Skylark, run by an external partnership rather than the NSHD team, but it fits into the same discovery-to-access journey:</p>
+    <ul>
+      <li>Use <strong>OWL</strong> and the <strong>NSHD Showcase</strong> to search and understand NSHD variables, exactly as you would for a Condor request</li>
+      <li>Use the <strong>UK LLC deposit catalogue</strong> above to check whether the variables you need have been deposited into UK LLC, and under what dataset name</li>
+      <li>If your research needs NSHD data <em>linked</em> to other cohorts or to NHS/administrative records, apply for access via UK LLC directly, rather than via Condor and Skylark</li>
+      <li>If your research only needs NSHD data on its own, Condor and Skylark remain the standard route — see the <a href="/OWL/docs/accessing-nshd-data/#journey">typical journey</a> on the previous page</li>
+    </ul>
+  </div>
+
+  <div class="home-section gs-card-blue">
+    <h2 id="governance"><i class="ti ti-shield-lock" aria-hidden="true"></i> Security &amp; governance</h2>
+    <p>Keeping participants' information safe is built into how UK LLC is run: it has been checked over by an outside auditor, and each contributing study — NSHD included — has agreed the rules under which its data is handled.</p>
+    <ul>
+      <li>Researchers work with the data inside the environment only; nothing is copied out to a local machine</li>
+      <li>Matching participants across datasets is handled by a separate processor, so the researchers analysing the data never see names or other identifying details</li>
+      <li>Anything a researcher wants to take out of the environment — tables, figures, results — is checked first to make sure it can't reveal individuals</li>
+      <li>NSHD decides for itself which of its datasets go into UK LLC, and how they're labelled in the catalogue</li>
+    </ul>
+  </div>
+
+  <div class="home-section gs-card-gold">
+    <h2 id="support"><i class="ti ti-lifebuoy" aria-hidden="true"></i> Getting help</h2>
+    <p>For questions about the NSHD variables and datasets available in UK LLC — including the deposit catalogue on this site — contact the NSHD data sharing team. For questions about UK LLC accreditation, applications, or the Trusted Research Environment itself, contact UK LLC directly.</p>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>UK LLC is at <a href="https://ukllc.ac.uk/" target="_blank">ukllc.ac.uk</a></span>
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

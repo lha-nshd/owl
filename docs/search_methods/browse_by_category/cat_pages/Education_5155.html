@@ -1,0 +1,106 @@
+---
+layout: default
+title: Education [5155]
+parent: Sociodemographics [515] 
+nav_order: 140
+classes: page-browse-by-category
+---
+
+<link rel="stylesheet" href="{ site.baseurl }/assets/css/topics.css">
+<link rel="stylesheet" href="{ site.baseurl }/assets/css/getting-started.css">
+
+<div class="page-browse-by-category">
+
+    <div class="hero-banner" style="
+        background: linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+        border-radius: 12px;
+        padding: 22px 28px;
+        margin-bottom: 16px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    ">
+      <h1 style="margin:0 0 4px;font-size:24px;font-weight:700;color:#2b004d;display:flex;align-items:center;gap:8px;">
+        <i class="ti ti-tags" aria-hidden="true"></i> Education [5155]
+      </h1>
+      <p style="margin:0 0 6px;font-size:12.5px;color:#6a3d8a;font-weight:500;">
+        <a href="Questionnaire_data_55.html" style="color:#6a3d8a;text-decoration:underline;text-underline-offset:2px;">Questionnaire data [55]</a>
+        <i class="ti ti-chevron-right" style="font-size:11px;opacity:0.6;vertical-align:middle;"></i>        <a href="Sociodemographics_515.html" style="color:#6a3d8a;text-decoration:underline;text-underline-offset:2px;">Sociodemographics [515]</a>
+        <i class="ti ti-chevron-right" style="font-size:11px;opacity:0.6;vertical-align:middle;"></i>        <span style="font-weight:700;">Education [5155]</span>
+      </p>
+      <p style="margin:0;font-size:14px;color:#555;line-height:1.6;">
+        This category contains data from the questionnaires on educational attainment of both the participant and spouse.
+      </p>
+    </div>
+
+    <!-- ⭐ Loading screen OUTSIDE browseUI so it shows while UI is hidden -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="spinner"></div>
+        <div>Loading data…</div>
+    </div>
+
+    <!-- ⭐ MAIN UI (hidden until data loads) -->
+    <div id="browseUI" style="visibility:hidden; position:relative;">
+        <!-- SEARCH + PAGE SIZE + RESET + PAGINATION -->
+        <div id="search-pagination-top" class="search-pagination-top">
+            <div id="resultsCount"></div>
+            <input id="globalSearch" type="text" placeholder="Search…" />
+            <select id="pageSize">
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+            <button id="addAllBtn" class="add-all-btn">Add All to Basket</button>
+            <button id="downloadCsvBtn" class="download-btn">Download Results (CSV)</button>
+            <a href="/OWL/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">
+              Download Blank Data Dictionary
+            </a>
+            <div id="paginationTop"></div>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="myTable2" class="my-table" style="width:100%; border-collapse: collapse;">
+                <colgroup>
+                  <col style="width: 40px;">
+                  <col style="width: 40px;">
+                  <col style="width: 95px;">
+                  <col style="width: 400px;">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th class="check-col">Add variable</th>
+                    <th data-sort="Order">
+                      <div class="th-inner">
+                        <span class="header-label">Order</span>
+                        <span class="sort-icon">⇅</span>
+                      </div>
+                    </th>
+                    <th data-sort="NSHD Variable Name">
+                      <div class="th-inner">
+                        <span class="header-label">NSHD Variable Name</span>
+                        <span class="sort-icon">⇅</span>
+                      </div>
+                    </th>
+                    <th data-sort="Variable Label">
+                      <div class="th-inner">
+                        <span class="header-label">Variable Label</span>
+                        <select id="labelFilterHeader" class="header-filter">
+                          <option value="">All</option>
+                        </select>
+                        <span class="sort-icon">⇅</span>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <!-- ⭐ BOTTOM PAGINATION BAR -->
+        <div id="paginationBottom" class="pagination-bar">
+            <div class="pagination-controls"></div>
+        </div>
+
+    </div> <!-- end browseUI -->
+</div> <!-- end page-browse-by-category -->
+
+<script src="/OWL/assets/js/browse_by_category.js"></script>

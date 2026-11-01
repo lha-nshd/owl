@@ -1,0 +1,520 @@
+{
+  "varname": "biochild_tot_19",
+  "label": "Number of biological children [age 19] (CLS harmonisation)",
+  "field_id": "21930",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21930",
+  "year": "",
+  "form": "H1 -Health visitor interview with study member",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 3523.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "biochild_tot_20",
+    "biochild_tot_43",
+    "biochild_tot_26",
+    "biochild_tot_31",
+    "biochild_tot_53",
+    "biochild_tot_22",
+    "biochild_tot_36"
+  ],
+  "linked_years": [
+    "1966",
+    "1968",
+    "1972",
+    "1977",
+    "1982",
+    "1989",
+    "1999"
+  ],
+  "categories": [
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-100.0",
+      "label": "No participation in sweep"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Information not provided"
+    },
+    {
+      "value": "0.0",
+      "label": "No children"
+    },
+    {
+      "value": "1.0",
+      "label": "One"
+    },
+    {
+      "value": "2.0",
+      "label": "Two"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No children",
+      "count": 3363,
+      "pct": 95.5
+    },
+    {
+      "label": "One",
+      "count": 142,
+      "pct": 4.0
+    },
+    {
+      "label": "Two",
+      "count": 18,
+      "pct": 0.5
+    }
+  ],
+  "pdf": {
+    "varname": "biochild_tot_19",
+    "label": "Number of biological children [age 19] (CLS harmonisation)",
+    "meta_rows": [
+      [
+        "Variable",
+        "biochild_tot_19"
+      ],
+      [
+        "Field ID",
+        "21930"
+      ],
+      [
+        "Label",
+        "Number of biological children [age 19] (CLS harmonisation)"
+      ],
+      [
+        "Card Number",
+        "CLS_fertility"
+      ],
+      [
+        "Form",
+        "H1 -Health visitor interview with study member"
+      ],
+      [
+        "Question",
+        "3"
+      ],
+      [
+        "Year",
+        "1965"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived as part of the CLS fertility work"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "biochild_tot_20",
+        "Number of biological children [age 20] (CLS harmonisation)",
+        "1966",
+        "H2 - Postal questionnaire",
+        "3",
+        "CLS_fertility"
+      ],
+      [
+        "biochild_tot_43",
+        "Number of biological children [age 43] (CLS harmonisation)",
+        "1989",
+        "A - Main questionnaire",
+        "9",
+        "CLS_fertility"
+      ],
+      [
+        "biochild_tot_26",
+        "Number of biological children [age 26] (CLS harmonisation)",
+        "1972",
+        "Section A - Main questionnaire",
+        "2",
+        "CLS_fertility"
+      ],
+      [
+        "biochild_tot_31",
+        "Number of biological children [age 31] (CLS harmonisation)",
+        "1977",
+        "H6 - Postal questionnaire",
+        "4",
+        "CLS_fertility"
+      ],
+      [
+        "biochild_tot_53",
+        "Number of biological children [age 53] (CLS harmonisation)",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "Various",
+        "CLS_fertility"
+      ],
+      [
+        "biochild_tot_22",
+        "Number of biological children [age 22] (CLS harmonisation)",
+        "1968",
+        "H3 - Postal questionnaire",
+        "Front page",
+        "CLS_fertility"
+      ],
+      [
+        "biochild_tot_36",
+        "Number of biological children [age 36] (CLS harmonisation)",
+        "1982",
+        "A - Main questionnaire",
+        "10",
+        "CLS_fertility"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-100.0",
+        "No participation in sweep",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Information not provided",
+        true
+      ],
+      [
+        "0.0",
+        "No children",
+        false
+      ],
+      [
+        "1.0",
+        "One",
+        false
+      ],
+      [
+        "2.0",
+        "Two",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "3363",
+        "95%"
+      ],
+      [
+        "1",
+        "142",
+        "4%"
+      ],
+      [
+        "2",
+        "18",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "3523",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "biochild_tot_19",
+    "label": "Number of biological children [age 19] (CLS harmonisation)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21930",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "biochild_tot_19",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "21930",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Number of biological children [age 19] (CLS harmonisation)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CLS_fertility",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "H1 -Health visitor interview with study member",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "3",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1965",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived as part of the CLS fertility work",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "biochild_tot_20",
+        "description": "Number of biological children [age 20] (CLS harmonisation)",
+        "year": "1966",
+        "form": "H2 - Postal questionnaire",
+        "question": "3",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "biochild_tot_43",
+        "description": "Number of biological children [age 43] (CLS harmonisation)",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "9",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "biochild_tot_26",
+        "description": "Number of biological children [age 26] (CLS harmonisation)",
+        "year": "1972",
+        "form": "Section A - Main questionnaire",
+        "question": "2",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "biochild_tot_31",
+        "description": "Number of biological children [age 31] (CLS harmonisation)",
+        "year": "1977",
+        "form": "H6 - Postal questionnaire",
+        "question": "4",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "biochild_tot_53",
+        "description": "Number of biological children [age 53] (CLS harmonisation)",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "Various",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "biochild_tot_22",
+        "description": "Number of biological children [age 22] (CLS harmonisation)",
+        "year": "1968",
+        "form": "H3 - Postal questionnaire",
+        "question": "Front page",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "biochild_tot_36",
+        "description": "Number of biological children [age 36] (CLS harmonisation)",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "10",
+        "library_file": "CLS_fertility"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-100.0",
+        "label": "No participation in sweep",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Information not provided",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No children",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "One",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Two",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 1,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No children",
+          "count": 3363,
+          "pct": 95
+        },
+        {
+          "value": "1",
+          "label": "One",
+          "count": 142,
+          "pct": 4
+        },
+        {
+          "value": "2",
+          "label": "Two",
+          "count": 18,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "3363",
+        "95%"
+      ],
+      [
+        "1",
+        "142",
+        "4%"
+      ],
+      [
+        "2",
+        "18",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "3523",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,567 @@
+/* ============================================================
+   OWL — Explore Topics
+   /OWL/assets/css/topics.css
+   Scoped to .page-topics to avoid clashing with JtD globals.
+   Depends on: Tabler Icons webfont (loaded via topics.js)
+   ============================================================ */
+
+/* ── Variables ──────────────────────────────────────────── */
+:root {
+  --purple-dark:   #3a0066;
+  --purple:        #4b067a;
+  --purple-mid:    #6a0dad;
+  --gradient-bg:   linear-gradient(135deg, #E8F5E9, #F3E5F5, #FFF3E0, #E0F7FA);
+  --green-light:   #E8F5E9;
+  --green-border:  #a5d6a7;
+  --text-main:     #333;
+  --max-width:     1000px;
+}
+
+/* ── Scoped reset ───────────────────────────────────────── */
+.page-topics *,
+.page-topics *::before,
+.page-topics *::after {
+  box-sizing: border-box;
+}
+
+.page-topics {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: var(--text-main);
+  line-height: 1.4;
+  padding-bottom: 60px;
+  max-width: var(--max-width);
+}
+
+/* ============================================================
+   SIDEBAR — nav level colours matching custom.scss
+   ============================================================ */
+
+/* Level 1 — top-level pages */
+.page-topics .nav-list > .nav-list-item > .nav-list-link {
+  color: #0f766e !important;
+}
+
+/* Level 2 — children */
+.page-topics .nav-list .nav-list .nav-list-item > .nav-list-link {
+  color: #3b4f7c !important;
+  padding-left: 1rem !important;
+}
+
+/* Level 3 — grandchildren */
+.page-topics .nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+  color: #c0525a !important;
+  padding-left: 1rem !important;
+}
+
+/* Level 4 — great-grandchildren */
+.page-topics .nav-list .nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+  color: #b07d4f !important;
+  padding-left: 1rem !important;
+}
+
+/* Level 5 */
+.page-topics .nav-list .nav-list .nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+  color: #6b5b8e !important;
+  padding-left: 1rem !important;
+}
+
+/* "Explore Documentation" section label */
+.page-topics .nav-label-explore {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #9b9b9b;
+  padding: 1.25rem 1rem 0.25rem 1rem;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* ── Nav icons ──────────────────────────────────────────── */
+/* Each nav link gets a Tabler icon prefix via data-icon attr set by JS */
+.page-topics .nav-list-link::before {
+  font-family: "tabler-icons", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 6px;
+  font-size: 15px;
+  vertical-align: -2px;
+  opacity: 0.75;
+  content: attr(data-nav-icon);
+}
+
+/* ============================================================
+   HERO BANNER
+   ============================================================ */
+.page-topics .hero-banner {
+  background: var(--gradient-bg);
+  border-radius: 12px;
+  padding: 26px 30px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  max-width: var(--max-width);
+}
+
+.page-topics .hero-banner .hero-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: var(--purple-mid);
+  display: block;
+  font-family: "tabler-icons", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.page-topics .hero-banner h1 {
+  margin: 0 0 8px !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: #800020 !important;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.page-topics .hero-banner h1 i {
+  font-size: 26px;
+  color: var(--purple-mid);
+  opacity: 0.85;
+}
+
+.page-topics .hero-banner p {
+  margin: 0 !important;
+  font-size: 15px !important;
+  color: #555 !important;
+  line-height: 1.6 !important;
+}
+
+/* ============================================================
+   PAGE SECTION HEADINGS  (h2)
+   ============================================================ */
+.page-topics .main-content h2,
+.page-topics .page-content h2 {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: var(--purple-dark) !important;
+  border-bottom: 2px solid var(--purple-mid) !important;
+  padding-bottom: 5px !important;
+  margin: 20px 0 10px !important;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page-topics .main-content h2 i,
+.page-topics .page-content h2 i {
+  font-size: 18px;
+  color: var(--purple-mid);
+  opacity: 0.8;
+}
+
+/* ============================================================
+   SIDEBAR SUMMARY (on-page TOC)
+   ============================================================ */
+.page-topics .sidebar-summary {
+  position: fixed;
+  right: 36px;
+  top: 140px;
+  width: 230px;
+  background: var(--gradient-bg);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 10px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  z-index: 100;
+}
+
+.page-topics .sidebar-summary h3 {
+  margin: 0 0 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: var(--purple-dark) !important;
+  border-bottom: 2px solid var(--purple-mid) !important;
+  padding-bottom: 4px !important;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.page-topics .sidebar-summary h3 i {
+  font-size: 15px;
+  color: var(--purple-mid);
+}
+
+.page-topics .sidebar-summary ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.page-topics .sidebar-summary li {
+  margin-bottom: 4px !important;
+}
+
+.page-topics .sidebar-summary a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: var(--purple) !important;
+  text-decoration: none !important;
+  font-size: 12.5px !important;
+  line-height: 1.4;
+}
+
+.page-topics .sidebar-summary a i {
+  font-size: 14px;
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
+.page-topics .sidebar-summary a:hover {
+  background: rgba(255,255,255,0.6);
+  text-decoration: underline !important;
+}
+
+.page-topics .sidebar-summary a.active {
+  background: rgba(255,255,255,0.9);
+  border-left: 3px solid var(--purple-mid);
+  font-weight: 700;
+  border-radius: 0 5px 5px 0;
+}
+
+.page-topics .sidebar-summary .sidebar-back {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 7px 10px;
+  background: var(--green-light);
+  border: 1px solid var(--green-border);
+  border-radius: 6px;
+  font-size: 12.5px !important;
+  font-weight: 600;
+  color: var(--purple) !important;
+  text-decoration: none !important;
+}
+
+.page-topics .sidebar-summary .sidebar-back:hover {
+  background: #d6ebd8;
+}
+
+/* Widened from 1180px: below roughly ~1500px, the space actually
+   available for .page-topics (viewport minus the theme's left nav,
+   ~260-300px) drops under this page's own 1000px max-width, so the
+   content stops being capped and starts filling all available width
+   instead — pushing its right edge further right, into where this
+   fixed-positioned sidebar sits (36px from the *viewport* edge,
+   completely independent of where the content actually ends). The old
+   1180px threshold hid the sidebar too late to catch that: there was a
+   real overlap window roughly between 1180px and ~1500px viewport width.
+   1550px comfortably covers left-nav width + content max-width +
+   sidebar width + its right offset, with margin to spare. */
+@media (max-width: 1550px) {
+  .page-topics .sidebar-summary { display: none; }
+}
+
+/* ============================================================
+   SECTION CARDS
+   ============================================================ */
+.page-topics .home-section {
+  background: #faf7ff;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 8px;
+  border-left: 4px solid var(--purple-mid);
+  padding: 1px 24px 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.page-topics .home-section h2 {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: var(--purple-dark) !important;
+  margin: 20px 0 14px !important;
+  border-bottom: 2px solid var(--purple-mid) !important;
+  padding-bottom: 6px !important;
+  line-height: 1.3 !important;
+}
+
+
+.page-topics .home-section p {
+  line-height: 1.65 !important;
+  margin-bottom: 12px !important;
+  color: var(--text-main) !important;
+}
+
+.page-topics .home-section ul {
+  color: var(--text-main) !important;
+  line-height: 1.8 !important;
+  padding-left: 20px !important;
+  margin-bottom: 12px !important;
+}
+
+.page-topics .home-section li {
+  margin-bottom: 3px !important;
+}
+
+/* ============================================================
+   TOPIC TABLE  (.topic-table)
+   Every row a different pastel, gradient header
+   ============================================================ */
+.page-topics table.topic-table,
+.page-topics .topic-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 13px;
+  margin: 10px 0 20px;
+  border: 1px solid rgba(0,0,0,0.08);
+  table-layout: fixed;
+}
+
+.page-topics table.topic-table thead th,
+.page-topics .topic-table thead th {
+  padding: 8px 6px !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #3a0066 !important;
+  text-align: center;
+  border-bottom: 2px solid #6a0dad !important;
+  border-right: 0.5px solid rgba(106,13,173,0.15) !important;
+  white-space: nowrap;
+}
+
+.page-topics table.topic-table thead th:first-child,
+.page-topics .topic-table thead th:first-child {
+  text-align: left;
+  white-space: normal;
+  padding-left: 10px !important;
+}
+
+.page-topics table.topic-table td,
+.page-topics .topic-table td {
+  padding: 8px 14px !important;
+  border-bottom: 1px solid rgba(0,0,0,0.06) !important;
+  color: #333 !important;
+  vertical-align: top;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.page-topics table.topic-table td:first-child,
+.page-topics .topic-table td:first-child {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  color: var(--purple) !important;
+  border-right: 2px solid rgba(106,13,173,0.15) !important;
+}
+
+.page-topics table.topic-table td:first-child a,
+.page-topics .topic-table td:first-child a {
+  font-weight: 700 !important;
+  color: var(--purple) !important;
+}
+
+.page-topics table.topic-table th:first-child,
+.page-topics table.topic-table td:first-child,
+.page-topics .topic-table th:first-child,
+.page-topics .topic-table td:first-child {
+  width: 28%;
+}
+
+
+.page-topics table.topic-table td a,
+.page-topics .topic-table td a {
+  color: #0f766e !important;
+  text-decoration: none !important;
+}
+
+.page-topics table.topic-table td a:hover,
+.page-topics .topic-table td a:hover {
+  text-decoration: underline !important;
+}
+
+.page-topics .topic-table td:not(:first-child) {
+  text-align: center;
+  color: var(--purple-mid);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.page-topics .topic-table thead th:not(:first-child) {
+  text-align: center;
+}
+
+.page-topics .topic-table thead th a.year-link {
+  color: var(--purple) !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+
+.page-topics .topic-table thead th a.year-link:hover {
+  text-decoration: underline !important;
+  color: var(--purple-mid) !important;
+}
+
+/* Pastel rows — every row a different colour, cycles every 10 */
+.page-topics table.topic-table tbody tr:nth-child(10n+1) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+1) td { background: #fde8d8 !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+2) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+2) td { background: #d8f3e8 !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+3) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+3) td { background: #d8eafd !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+4) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+4) td { background: #fdf6d8 !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+5) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+5) td { background: #fde0eb !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+6) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+6) td { background: #e8d8fd !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+7) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+7) td { background: #d8fdf4 !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+8) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+8) td { background: #fdf4d8 !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+9) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+9) td { background: #fdd8d8 !important; }
+.page-topics table.topic-table tbody tr:nth-child(10n+10) td,
+.page-topics .topic-table       tbody tr:nth-child(10n+10) td { background: #d8f0fd !important; }
+
+.page-topics table.topic-table tbody tr:hover td,
+.page-topics .topic-table       tbody tr:hover td {
+  filter: brightness(0.94);
+  transition: filter 0.15s;
+}
+
+.page-topics .topic-legend {
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page-topics .topic-legend-tick {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 16px;
+  border-radius: 3px;
+  background: #f3e8ff;
+  border: 0.5px solid rgba(106,13,173,0.25);
+  color: var(--purple-mid);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* ============================================================
+   CALLOUT / NOTE / WARNING
+   ============================================================ */
+.page-topics .callout-note {
+  background: #f5f2ff;
+  border-left: 3px solid var(--purple-mid);
+  border-radius: 0 6px 6px 0;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #3b2a8a;
+  margin: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.page-topics .callout-note i {
+  font-size: 16px;
+  margin-top: 1px;
+  flex-shrink: 0;
+  color: var(--purple-mid);
+}
+
+.page-topics .callout-warning {
+  background: #fff9e6;
+  border-left: 3px solid #e8a200;
+  border-radius: 0 6px 6px 0;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #7a4f00;
+  margin: 12px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.page-topics .callout-warning i {
+  font-size: 16px;
+  margin-top: 1px;
+  flex-shrink: 0;
+  color: #e8a200;
+}
+
+.page-topics .funding-note {
+  background: #f9f4ff;
+  border-left: 3px solid var(--purple-mid);
+  border-radius: 0 4px 4px 0;
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #555;
+  font-style: italic;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
+/* ============================================================
+   PDF LINK BUTTONS
+   ============================================================ */
+.page-topics .pdf-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.page-topics .pdf-link {
+  background: linear-gradient(135deg, #e6a83a, #d9604f);
+  color: #4a1a08 !important;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none !important;
+  transition: background 0.2s;
+}
+
+.page-topics .pdf-link:hover {
+  background: linear-gradient(135deg, #ffcc80, #ef9a9a);
+  color: #7a3a1a !important;
+}
+
+.page-topics .pdf-link i {
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 800px) {
+  .page-topics table.topic-table {
+    font-size: 12px;
+  }
+  .page-topics table.topic-table thead th,
+  .page-topics table.topic-table td {
+    padding: 6px 8px !important;
+  }
+}

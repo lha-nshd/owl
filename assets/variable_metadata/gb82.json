@@ -1,0 +1,491 @@
+{
+  "varname": "gb82",
+  "label": "Do you have gall bladder trouble all or most of the time - at age 36 years",
+  "field_id": "8080",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8080",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 3319.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "gallb",
+    "pgb89",
+    "gb89",
+    "ogb89",
+    "lgb89",
+    "dgb89",
+    "bgb89"
+  ],
+  "linked_years": [
+    "1989",
+    "1999"
+  ],
+  "categories": [
+    "General health [3]",
+    "Digestive and genitourinary system conditions [51017]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 3284,
+      "pct": 98.9
+    },
+    {
+      "label": "Yes",
+      "count": 35,
+      "pct": 1.1
+    }
+  ],
+  "pdf": {
+    "varname": "gb82",
+    "label": "Do you have gall bladder trouble all or most of the time - at age 36 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "gb82"
+      ],
+      [
+        "Field ID",
+        "8080"
+      ],
+      [
+        "Label",
+        "Do you have gall bladder trouble all or most of the time - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "B14"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "20"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "gallb",
+        "Have you had gall bladder trouble in the last 10 years - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "48",
+        "capi99a"
+      ],
+      [
+        "pgb89",
+        "Have you taken any prescribed medicines or tablets for gall bladder trouble in the last year - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "gb89",
+        "Have you ever had gall bladder trouble - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "ogb89",
+        "How many times have you consulted another health professional about gall bladder trouble in the last year - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "lgb89",
+        "How old were you the last time you had gall bladder trouble - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "dgb89",
+        "How many times have you consulted a doctor about gall bladder trouble in the last year - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "bgb89",
+        "How old were you the first time you had gall bladder trouble - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Digestive and genitourinary system conditions [51017]",
+        "This category contains data from the questionnaires on digestive and genitourinary conditions, such as issues with stomach, gall bladder, gums and mouth, liver and hernia. It also includes details about constipation and bowel problems. Kidney, bladder infections and incontinence were also added for the genitourinary conditions."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "3284",
+        "99%"
+      ],
+      [
+        "1",
+        "35",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "3319",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "gb82",
+    "label": "Do you have gall bladder trouble all or most of the time - at age 36 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8080",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "gb82",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8080",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Do you have gall bladder trouble all or most of the time - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "B14",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "20",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "gallb",
+        "description": "Have you had gall bladder trouble in the last 10 years - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "48",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "pgb89",
+        "description": "Have you taken any prescribed medicines or tablets for gall bladder trouble in the last year - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "gb89",
+        "description": "Have you ever had gall bladder trouble - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "ogb89",
+        "description": "How many times have you consulted another health professional about gall bladder trouble in the last year - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "lgb89",
+        "description": "How old were you the last time you had gall bladder trouble - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "dgb89",
+        "description": "How many times have you consulted a doctor about gall bladder trouble in the last year - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "bgb89",
+        "description": "How old were you the first time you had gall bladder trouble - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Digestive and genitourinary system conditions [51017]",
+        "description": "This category contains data from the questionnaires on digestive and genitourinary conditions, such as issues with stomach, gall bladder, gums and mouth, liver and hernia. It also includes details about constipation and bowel problems. Kidney, bladder infections and incontinence were also added for the genitourinary conditions.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Digestive_and_genitourinary_system_conditions_51017.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 3284,
+          "pct": 99
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 35,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "3284",
+        "99%"
+      ],
+      [
+        "1",
+        "35",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "3319",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

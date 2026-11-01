@@ -1,0 +1,433 @@
+{
+  "varname": "dharam315x",
+  "label": "Month of the next heart attack, since postal quesionnaire - at age 69 years",
+  "field_id": "7530",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7530",
+  "year": "",
+  "form": "Home visit",
+  "units": "month",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dharay25x",
+    "dhara315x",
+    "dharam22x",
+    "dharaa22x",
+    "dharay315x",
+    "dharaa315x",
+    "dharay22x"
+  ],
+  "linked_years": [
+    "2015",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Heart and circulatory conditions [51014]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Question not answered (excluded by the capi or left blank)"
+    },
+    {
+      "value": "0.0",
+      "label": "Unknown month"
+    },
+    {
+      "value": "999.0",
+      "label": "Month and Year unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dharam315x",
+    "label": "Month of the next heart attack, since postal quesionnaire - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dharam315x"
+      ],
+      [
+        "Field ID",
+        "7530"
+      ],
+      [
+        "Label",
+        "Month of the next heart attack, since postal quesionnaire - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "MedicalConditions15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "3(c)"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "month"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains the month information about the date"
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dharay25x",
+        "Since the age of 60 years, when were you told that you had heart attack (myocardial infarct/coronary thrombosis) - Year - at age 76 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "dhara315x",
+        "Your postal questionnaire mentioned you had had a heart attack, have you had any more events since then - at age 69 years",
+        "2015",
+        "Home visit",
+        "3(a)",
+        "MedicalConditions15"
+      ],
+      [
+        "dharam22x",
+        "What was the date of the first of these heart attacks (month) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "60",
+        "Postal22"
+      ],
+      [
+        "dharaa22x",
+        "If you cannot remember the month and year of the heart attack, please give your age  - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "60",
+        "Postal22"
+      ],
+      [
+        "dharay315x",
+        "Year of the next heart attack, since postal questionnaire - at age 69 years",
+        "2015",
+        "Home visit",
+        "3(c)",
+        "MedicalConditions15"
+      ],
+      [
+        "dharaa315x",
+        "What was your age when you had the next heart attack, since postal questionnaire - at age 69 years",
+        "2015",
+        "Home visit",
+        "3(c)",
+        "MedicalConditions15"
+      ],
+      [
+        "dharay22x",
+        "What was the date of the first of these heart attacks (year) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "60",
+        "Postal22"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Heart and circulatory conditions [51014]",
+        "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Question not answered (excluded by the capi or left blank)",
+        true
+      ],
+      [
+        "0.0",
+        "Unknown month",
+        true
+      ],
+      [
+        "999.0",
+        "Month and Year unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "dharam315x",
+    "label": "Month of the next heart attack, since postal quesionnaire - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7530",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dharam315x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7530",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Month of the next heart attack, since postal quesionnaire - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "MedicalConditions15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "3(c)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "month",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains the month information about the date",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dharay25x",
+        "description": "Since the age of 60 years, when were you told that you had heart attack (myocardial infarct/coronary thrombosis) - Year - at age 76 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "dhara315x",
+        "description": "Your postal questionnaire mentioned you had had a heart attack, have you had any more events since then - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(a)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dharam22x",
+        "description": "What was the date of the first of these heart attacks (month) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "60",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "dharaa22x",
+        "description": "If you cannot remember the month and year of the heart attack, please give your age  - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "60",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "dharay315x",
+        "description": "Year of the next heart attack, since postal questionnaire - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(c)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dharaa315x",
+        "description": "What was your age when you had the next heart attack, since postal questionnaire - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(c)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dharay22x",
+        "description": "What was the date of the first of these heart attacks (year) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "60",
+        "library_file": "Postal22"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Heart and circulatory conditions [51014]",
+        "description": "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_and_circulatory_conditions_51014.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Question not answered (excluded by the capi or left blank)",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Unknown month",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Month and Year unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "month",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

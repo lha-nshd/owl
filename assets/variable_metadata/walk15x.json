@@ -1,0 +1,552 @@
+{
+  "varname": "walk15x",
+  "label": "Do you find it difficult to walk for a quarter of a mile on the level because of longterm health problems? - at age 69 years",
+  "field_id": "9038",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9038",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2193.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "9038",
+  "truly_longitudinal_varnames": [
+    "walk09"
+  ],
+  "truly_longitudinal_years": [
+    "2006-10",
+    "2015"
+  ],
+  "linked_varnames": [
+    "walkl",
+    "walkl15x",
+    "walk89",
+    "walk",
+    "walkl09",
+    "walkc89"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Physical capability [5108]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Level of difficulty unknown (paper HV only completed)"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "2.0",
+      "label": "Unable to walk"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 1933,
+      "pct": 88.1
+    },
+    {
+      "label": "Yes",
+      "count": 250,
+      "pct": 11.4
+    },
+    {
+      "label": "Unable to walk",
+      "count": 10,
+      "pct": 0.5
+    }
+  ],
+  "pdf": {
+    "varname": "walk15x",
+    "label": "Do you find it difficult to walk for a quarter of a mile on the level because of longterm health problems? - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "walk15x"
+      ],
+      [
+        "Field ID",
+        "9038"
+      ],
+      [
+        "Label",
+        "Do you find it difficult to walk for a quarter of a mile on the level because of longterm health problems? - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "PhysCap15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "17"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2015 Home visit. Activity questions."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "walk09",
+        "2006-10",
+        "Do you find it difficult to walk for a quarter of a mile on the level because of longterm health problems? - at age 60-64 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "walkl",
+        "If difficulty in walking a quarter of a mile, how far can you walk without stopping or severe discomfort? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "84(b)",
+        "capi99a"
+      ],
+      [
+        "walkl15x",
+        "If difficulty in walking a quarter of a mile, how far can you walk without stopping or severe discomfort? - at age 69 years",
+        "2015",
+        "Home visit",
+        "18",
+        "PhysCap15"
+      ],
+      [
+        "walk89",
+        "Due to long-term health problems or physical or mental disabilities do you have difficulty walking for a quarter of a mile on the level? - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Section D - 1(a)",
+        "de89d"
+      ],
+      [
+        "walk",
+        "Do you find it difficult to walk for a quarter of a mile on the level because of long term health problems? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "84",
+        "capi99a"
+      ],
+      [
+        "walkl09",
+        "If difficulty in walking a quarter of a mile, how far can you walk without stopping or severe discomfort? - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "47(b)",
+        "PhysCap09"
+      ],
+      [
+        "walkc89",
+        "If you have difficulty walking for a quarter of a mile on the level, what distance can you walk without stopping or being in severe discomfort?  - at age 43 years",
+        "1989",
+        "C - Disability Supplementary questions",
+        "1(a)",
+        "de89c"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Physical capability [5108]",
+        "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Level of difficulty unknown (paper HV only completed)",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "2.0",
+        "Unable to walk",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1933",
+        "88%"
+      ],
+      [
+        "1",
+        "250",
+        "11%"
+      ],
+      [
+        "2",
+        "10",
+        "0%"
+      ],
+      [
+        "Displayed N",
+        "2193",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "walk15x",
+    "label": "Do you find it difficult to walk for a quarter of a mile on the level because of longterm health problems? - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9038",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "walk15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9038",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Do you find it difficult to walk for a quarter of a mile on the level because of longterm health problems? - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysCap15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "17",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2015 Home visit. Activity questions.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "9038",
+      "members": [
+        {
+          "varname": "walk09",
+          "year": "2006-10",
+          "label": "Do you find it difficult to walk for a quarter of a mile on the level because of longterm health problems? - at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "walk15x",
+          "year": "2015",
+          "label": "Do you find it difficult to walk for a quarter of a mile on the level because of longterm health problems? - at age 69 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "walkl",
+        "description": "If difficulty in walking a quarter of a mile, how far can you walk without stopping or severe discomfort? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "84(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "walkl15x",
+        "description": "If difficulty in walking a quarter of a mile, how far can you walk without stopping or severe discomfort? - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "18",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "walk89",
+        "description": "Due to long-term health problems or physical or mental disabilities do you have difficulty walking for a quarter of a mile on the level? - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Section D - 1(a)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "walk",
+        "description": "Do you find it difficult to walk for a quarter of a mile on the level because of long term health problems? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "84",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "walkl09",
+        "description": "If difficulty in walking a quarter of a mile, how far can you walk without stopping or severe discomfort? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "47(b)",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "walkc89",
+        "description": "If you have difficulty walking for a quarter of a mile on the level, what distance can you walk without stopping or being in severe discomfort?  - at age 43 years",
+        "year": "1989",
+        "form": "C - Disability Supplementary questions",
+        "question": "1(a)",
+        "library_file": "de89c"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical capability [5108]",
+        "description": "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_5108.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Level of difficulty unknown (paper HV only completed)",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Unable to walk",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 1933,
+          "pct": 88
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 250,
+          "pct": 11
+        },
+        {
+          "value": "2",
+          "label": "Unable to walk",
+          "count": 10,
+          "pct": 0
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1933",
+        "88%"
+      ],
+      [
+        "1",
+        "250",
+        "11%"
+      ],
+      [
+        "2",
+        "10",
+        "0%"
+      ],
+      [
+        "Displayed N",
+        "2193",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

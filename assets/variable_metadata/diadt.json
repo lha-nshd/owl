@@ -1,0 +1,512 @@
+{
+  "varname": "diadt",
+  "label": "Age in months at point of diagnosis of diabetes - up to age 53 years",
+  "field_id": "31147",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31147",
+  "year": "",
+  "form": "Various",
+  "units": "months",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 483.41641791044776,
+  "sd": 211.98678788527104,
+  "series_size": 5360.0,
+  "minimum": 0.0,
+  "maximum": 642.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dagec",
+    "diabre",
+    "diabty",
+    "diabec"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Endocrine and metabolic conditions [51015]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "diadt",
+    "label": "Age in months at point of diagnosis of diabetes - up to age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "diadt"
+      ],
+      [
+        "Field ID",
+        "31147"
+      ],
+      [
+        "Label",
+        "Age in months at point of diagnosis of diabetes - up to age 53 years"
+      ],
+      [
+        "Card Number",
+        "diabetes2"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "months"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived diabetes variable till age 53 years (1999). There are later variables collected and also the CLS harmonisation dataset."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dagec",
+        "Age at diagnosis of diabetes (years) - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "diabetes"
+      ],
+      [
+        "diabre",
+        "Reason for diabetes classification - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "diabetes"
+      ],
+      [
+        "diabty",
+        "Type of diabetes - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "diabetes"
+      ],
+      [
+        "diabec",
+        "Diabetes at any point - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "diabetes"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Endocrine and metabolic conditions [51015]",
+        "This category contains data from the questionnaires on whether the participant has any endocrine and metabolic conditions asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2025 (age 79 years). Data collected includes the type of diabetes, how it is being controlled and the date of diagnosis. At age 60-64 years GP validation was also carried out. The CLS harmonisation dataset which also includes the covid questionnaires 2020-2022 is also included."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "642"
+      ],
+      [
+        "Range",
+        "642"
+      ],
+      [
+        "Median",
+        "642.0"
+      ],
+      [
+        "IQR",
+        "318.0 - 642.0"
+      ],
+      [
+        "Decile 1",
+        "90.0"
+      ],
+      [
+        "Decile 2",
+        "282.0"
+      ],
+      [
+        "Decile 3",
+        "378.0"
+      ],
+      [
+        "Decile 4",
+        "522.0"
+      ],
+      [
+        "Decile 5",
+        "642.0"
+      ],
+      [
+        "Decile 6",
+        "642.0"
+      ],
+      [
+        "Decile 7",
+        "642.0"
+      ],
+      [
+        "Decile 8",
+        "642.0"
+      ],
+      [
+        "Decile 9",
+        "642.0"
+      ],
+      [
+        "Mean",
+        "483.41641791044776"
+      ],
+      [
+        "Std Dev.",
+        "211.98678788527104"
+      ],
+      [
+        "Variance",
+        "44938.3982379149"
+      ],
+      [
+        "Displayed N",
+        "5360"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "diadt",
+    "label": "Age in months at point of diagnosis of diabetes - up to age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31147",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "diadt",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31147",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age in months at point of diagnosis of diabetes - up to age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "diabetes2",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "months",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived diabetes variable till age 53 years (1999). There are later variables collected and also the CLS harmonisation dataset.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dagec",
+        "description": "Age at diagnosis of diabetes (years) - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "diabetes"
+      },
+      {
+        "varname": "diabre",
+        "description": "Reason for diabetes classification - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "diabetes"
+      },
+      {
+        "varname": "diabty",
+        "description": "Type of diabetes - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "diabetes"
+      },
+      {
+        "varname": "diabec",
+        "description": "Diabetes at any point - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "diabetes"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Endocrine and metabolic conditions [51015]",
+        "description": "This category contains data from the questionnaires on whether the participant has any endocrine and metabolic conditions asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2025 (age 79 years). Data collected includes the type of diabetes, how it is being controlled and the date of diagnosis. At age 60-64 years GP validation was also carried out. The CLS harmonisation dataset which also includes the covid questionnaires 2020-2022 is also included.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Endocrine_and_metabolic_conditions_51015.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "months",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          35.666666666666664,
+          71.33333333333333,
+          107.0,
+          142.66666666666666,
+          178.33333333333331,
+          214.0,
+          249.66666666666666,
+          285.3333333333333,
+          321.0,
+          356.66666666666663,
+          392.3333333333333,
+          428.0,
+          463.66666666666663,
+          499.3333333333333,
+          535.0,
+          570.6666666666666,
+          606.3333333333333,
+          642.0
+        ],
+        "counts": [
+          429,
+          58,
+          86,
+          32,
+          10,
+          128,
+          117,
+          227,
+          340,
+          0,
+          264,
+          2,
+          238,
+          6,
+          457,
+          9,
+          21,
+          2936
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 318.0,
+        "median": 642.0,
+        "q3": 642.0,
+        "max": 642.0
+      },
+      "units": "months"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "642"
+      ],
+      [
+        "Range",
+        "642"
+      ],
+      [
+        "Median",
+        "642.0"
+      ],
+      [
+        "IQR",
+        "318.0 - 642.0"
+      ],
+      [
+        "Decile 1",
+        "90.0"
+      ],
+      [
+        "Decile 2",
+        "282.0"
+      ],
+      [
+        "Decile 3",
+        "378.0"
+      ],
+      [
+        "Decile 4",
+        "522.0"
+      ],
+      [
+        "Decile 5",
+        "642.0"
+      ],
+      [
+        "Decile 6",
+        "642.0"
+      ],
+      [
+        "Decile 7",
+        "642.0"
+      ],
+      [
+        "Decile 8",
+        "642.0"
+      ],
+      [
+        "Decile 9",
+        "642.0"
+      ],
+      [
+        "Mean",
+        "483.41641791044776"
+      ],
+      [
+        "Std Dev.",
+        "211.98678788527104"
+      ],
+      [
+        "Variance",
+        "44938.3982379149"
+      ],
+      [
+        "Displayed N",
+        "5360"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

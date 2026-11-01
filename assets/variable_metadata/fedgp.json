@@ -1,0 +1,387 @@
+{
+  "varname": "fedgp",
+  "label": "Any education beyond age 26 years",
+  "field_id": "30530",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30530",
+  "year": "",
+  "form": "Various",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 3163.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "fuedgp",
+    "furthed"
+  ],
+  "linked_years": [
+    "1989"
+  ],
+  "categories": [
+    "Education [21]",
+    "Education [5155]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No education beyond 26 years"
+    },
+    {
+      "value": "1.0",
+      "label": "Any education beyond age 26 years"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No education beyond 26 years",
+      "count": 1291,
+      "pct": 40.8
+    },
+    {
+      "label": "Any education beyond age 26 years",
+      "count": 1872,
+      "pct": 59.2
+    }
+  ],
+  "pdf": {
+    "varname": "fedgp",
+    "label": "Any education beyond age 26 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "fedgp"
+      ],
+      [
+        "Field ID",
+        "30530"
+      ],
+      [
+        "Label",
+        "Any education beyond age 26 years"
+      ],
+      [
+        "Card Number",
+        "education_beyond26"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1989"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Qualifications and training section."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "fuedgp",
+        "Education beyond age 26 years (grouped further)",
+        "1989",
+        "Various",
+        "Various",
+        "education_beyond26"
+      ],
+      [
+        "furthed",
+        "Further education since age 26 years",
+        "1989",
+        "Various",
+        "Various",
+        "education_beyond26"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/education_beyond26/Documentation_Education beyond 26_External.docx",
+        "Documentation_Education beyond 26_External.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Education [21]",
+        "Legacy Category"
+      ],
+      [
+        "Education [5155]",
+        "This category contains data from the questionnaires on educational attainment of both the participant and spouse."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No education beyond 26 years",
+        false
+      ],
+      [
+        "1.0",
+        "Any education beyond age 26 years",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1291",
+        "41%"
+      ],
+      [
+        "1",
+        "1872",
+        "59%"
+      ],
+      [
+        "Displayed N",
+        "3163",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "fedgp",
+    "label": "Any education beyond age 26 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30530",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "fedgp",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "30530",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Any education beyond age 26 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "education_beyond26",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1989",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Qualifications and training section.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "fuedgp",
+        "description": "Education beyond age 26 years (grouped further)",
+        "year": "1989",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "education_beyond26"
+      },
+      {
+        "varname": "furthed",
+        "description": "Further education since age 26 years",
+        "year": "1989",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "education_beyond26"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/education_beyond26/Documentation_Education beyond 26_External.docx",
+        "text": "Documentation_Education beyond 26_External.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Education [21]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Education [5155]",
+        "description": "This category contains data from the questionnaires on educational attainment of both the participant and spouse.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Education_5155.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No education beyond 26 years",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Any education beyond age 26 years",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 2,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No education beyond 26 years",
+          "count": 1291,
+          "pct": 41
+        },
+        {
+          "value": "1",
+          "label": "Any education beyond age 26 years",
+          "count": 1872,
+          "pct": 59
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1291",
+        "41%"
+      ],
+      [
+        "1",
+        "1872",
+        "59%"
+      ],
+      [
+        "Displayed N",
+        "3163",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

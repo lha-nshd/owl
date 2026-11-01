@@ -1,0 +1,705 @@
+{
+  "varname": "cw2_numcigspp",
+  "label": "In the month before the Coronavirus outbreak, how many cigarettes a day did you usually smoke? - Covid wave 2 (age 74 years)",
+  "field_id": "12279",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12279",
+  "year": "",
+  "form": "Covid wave 2",
+  "units": "cigs",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 13.857142857142858,
+  "sd": 5.75934614580604,
+  "series_size": 21.0,
+  "minimum": 5.0,
+  "maximum": 20.0,
+  "truly_longitudinal_field_id": "12279",
+  "truly_longitudinal_varnames": [
+    "cw1_numcigspp"
+  ],
+  "truly_longitudinal_years": [
+    "2020"
+  ],
+  "linked_varnames": [
+    "cw3_numcigssp",
+    "cw1_numcigssp",
+    "cw2_numcigssp"
+  ],
+  "linked_years": [
+    "2020",
+    "2021"
+  ],
+  "categories": [
+    "Coronavirus (Covid-19) [28]",
+    "Lifestyle habits [6025]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "No information"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "0"
+    },
+    {
+      "value": "10.0",
+      "label": "10"
+    },
+    {
+      "value": "13.0",
+      "label": "13"
+    },
+    {
+      "value": "15.0",
+      "label": "15"
+    },
+    {
+      "value": "20.0",
+      "label": "20"
+    },
+    {
+      "value": "25.0",
+      "label": "25"
+    },
+    {
+      "value": "4.0",
+      "label": "4"
+    },
+    {
+      "value": "5.0",
+      "label": "5"
+    },
+    {
+      "value": "50.0",
+      "label": "50"
+    },
+    {
+      "value": "6.0",
+      "label": "6"
+    },
+    {
+      "value": "7.0",
+      "label": "7"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "cw2_numcigspp",
+    "label": "In the month before the Coronavirus outbreak, how many cigarettes a day did you usually smoke? - Covid wave 2 (age 74 years)",
+    "meta_rows": [
+      [
+        "Variable",
+        "cw2_numcigspp"
+      ],
+      [
+        "Field ID",
+        "12279"
+      ],
+      [
+        "Label",
+        "In the month before the Coronavirus outbreak, how many cigarettes a day did you usually smoke? - Covid wave 2 (age 74 years)"
+      ],
+      [
+        "Card Number",
+        "CW2_COVID"
+      ],
+      [
+        "Form",
+        "Covid wave 2"
+      ],
+      [
+        "Question",
+        "101"
+      ],
+      [
+        "Year",
+        "2020"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "cigs"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about smoking, drinking alcohol, exercise, diet and sleep.  Also asked in waves 1 and 3 but wording is different in wave 3."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cw1_numcigspp",
+        "2020",
+        "In the month before the Coronavirus outbreak, how many cigarettes a day did you usually smoke? - Covid wave 1 (age 74 years)"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "cw3_numcigssp",
+        "In the last four weeks, how many cigarettes a day have you typically smoked? - Covid wave 3 (age 75 years)",
+        "2021",
+        "Covid wave 3",
+        "96",
+        "CW3_COVID"
+      ],
+      [
+        "cw1_numcigssp",
+        "Since the start of the Coronavirus outbreak, how many cigarettes a day have you typically smoked? - Covid wave 1 (age 74 years)",
+        "2020",
+        "Covid wave 1",
+        "61",
+        "CW1_COVID"
+      ],
+      [
+        "cw2_numcigssp",
+        "In the last four weeks, how many cigarettes a day have you typically smoked? - Covid wave 2 (age 74 years)",
+        "2020",
+        "Covid wave 2",
+        "102",
+        "CW2_COVID"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Coronavirus (Covid-19) [28]",
+        "Legacy Category"
+      ],
+      [
+        "Lifestyle habits [6025]",
+        "This category contains data about the lifestyle habits i.e. smoking, drinking alcohol, exercise, diet and sleep asked in the 2020-2021 covid questionnaires where the participant was 74 years."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "No information",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "0",
+        false
+      ],
+      [
+        "10.0",
+        "10",
+        false
+      ],
+      [
+        "13.0",
+        "13",
+        false
+      ],
+      [
+        "15.0",
+        "15",
+        false
+      ],
+      [
+        "20.0",
+        "20",
+        false
+      ],
+      [
+        "25.0",
+        "25",
+        false
+      ],
+      [
+        "4.0",
+        "4",
+        false
+      ],
+      [
+        "5.0",
+        "5",
+        false
+      ],
+      [
+        "50.0",
+        "50",
+        false
+      ],
+      [
+        "6.0",
+        "6",
+        false
+      ],
+      [
+        "7.0",
+        "7",
+        false
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "5"
+      ],
+      [
+        "Maximum",
+        "20"
+      ],
+      [
+        "Range",
+        "15"
+      ],
+      [
+        "Median",
+        "15.0"
+      ],
+      [
+        "IQR",
+        "10.0 - 20.0"
+      ],
+      [
+        "Decile 1",
+        "5.0"
+      ],
+      [
+        "Decile 2",
+        "7.0"
+      ],
+      [
+        "Decile 3",
+        "10.0"
+      ],
+      [
+        "Decile 4",
+        "13.0"
+      ],
+      [
+        "Decile 5",
+        "15.0"
+      ],
+      [
+        "Decile 6",
+        "15.0"
+      ],
+      [
+        "Decile 7",
+        "20.0"
+      ],
+      [
+        "Decile 8",
+        "20.0"
+      ],
+      [
+        "Decile 9",
+        "20.0"
+      ],
+      [
+        "Mean",
+        "13.857142857142858"
+      ],
+      [
+        "Std Dev.",
+        "5.75934614580604"
+      ],
+      [
+        "Variance",
+        "33.17006802721089"
+      ],
+      [
+        "Displayed N",
+        "21"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "cw2_numcigspp",
+    "label": "In the month before the Coronavirus outbreak, how many cigarettes a day did you usually smoke? - Covid wave 2 (age 74 years)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12279",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cw2_numcigspp",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "12279",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "In the month before the Coronavirus outbreak, how many cigarettes a day did you usually smoke? - Covid wave 2 (age 74 years)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CW2_COVID",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Covid wave 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "101",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "cigs",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about smoking, drinking alcohol, exercise, diet and sleep.  Also asked in waves 1 and 3 but wording is different in wave 3.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "12279",
+      "members": [
+        {
+          "varname": "cw1_numcigspp",
+          "year": "2020",
+          "label": "In the month before the Coronavirus outbreak, how many cigarettes a day did you usually smoke? - Covid wave 1 (age 74 years)",
+          "is_current": false
+        },
+        {
+          "varname": "cw2_numcigspp",
+          "year": "2020",
+          "label": "In the month before the Coronavirus outbreak, how many cigarettes a day did you usually smoke? - Covid wave 2 (age 74 years)",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "cw3_numcigssp",
+        "description": "In the last four weeks, how many cigarettes a day have you typically smoked? - Covid wave 3 (age 75 years)",
+        "year": "2021",
+        "form": "Covid wave 3",
+        "question": "96",
+        "library_file": "CW3_COVID"
+      },
+      {
+        "varname": "cw1_numcigssp",
+        "description": "Since the start of the Coronavirus outbreak, how many cigarettes a day have you typically smoked? - Covid wave 1 (age 74 years)",
+        "year": "2020",
+        "form": "Covid wave 1",
+        "question": "61",
+        "library_file": "CW1_COVID"
+      },
+      {
+        "varname": "cw2_numcigssp",
+        "description": "In the last four weeks, how many cigarettes a day have you typically smoked? - Covid wave 2 (age 74 years)",
+        "year": "2020",
+        "form": "Covid wave 2",
+        "question": "102",
+        "library_file": "CW2_COVID"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Coronavirus (Covid-19) [28]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Lifestyle habits [6025]",
+        "description": "This category contains data about the lifestyle habits i.e. smoking, drinking alcohol, exercise, diet and sleep asked in the 2020-2021 covid questionnaires where the participant was 74 years.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Lifestyle_habits_6025.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "No information",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "0",
+        "is_missing": false
+      },
+      {
+        "value": "10.0",
+        "label": "10",
+        "is_missing": false
+      },
+      {
+        "value": "13.0",
+        "label": "13",
+        "is_missing": false
+      },
+      {
+        "value": "15.0",
+        "label": "15",
+        "is_missing": false
+      },
+      {
+        "value": "20.0",
+        "label": "20",
+        "is_missing": false
+      },
+      {
+        "value": "25.0",
+        "label": "25",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "4",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "5",
+        "is_missing": false
+      },
+      {
+        "value": "50.0",
+        "label": "50",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "6",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "7",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 15
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "cigs",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          5.0,
+          7.5,
+          10.0,
+          12.5,
+          15.0,
+          17.5,
+          20.0
+        ],
+        "counts": [
+          5,
+          0,
+          3,
+          1,
+          4,
+          8
+        ]
+      },
+      "boxplot": {
+        "min": 5.0,
+        "q1": 10.0,
+        "median": 15.0,
+        "q3": 20.0,
+        "max": 20.0
+      },
+      "units": "cigs"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "5"
+      ],
+      [
+        "Maximum",
+        "20"
+      ],
+      [
+        "Range",
+        "15"
+      ],
+      [
+        "Median",
+        "15.0"
+      ],
+      [
+        "IQR",
+        "10.0 - 20.0"
+      ],
+      [
+        "Decile 1",
+        "5.0"
+      ],
+      [
+        "Decile 2",
+        "7.0"
+      ],
+      [
+        "Decile 3",
+        "10.0"
+      ],
+      [
+        "Decile 4",
+        "13.0"
+      ],
+      [
+        "Decile 5",
+        "15.0"
+      ],
+      [
+        "Decile 6",
+        "15.0"
+      ],
+      [
+        "Decile 7",
+        "20.0"
+      ],
+      [
+        "Decile 8",
+        "20.0"
+      ],
+      [
+        "Decile 9",
+        "20.0"
+      ],
+      [
+        "Mean",
+        "13.857142857142858"
+      ],
+      [
+        "Std Dev.",
+        "5.75934614580604"
+      ],
+      [
+        "Variance",
+        "33.17006802721089"
+      ],
+      [
+        "Displayed N",
+        "21"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

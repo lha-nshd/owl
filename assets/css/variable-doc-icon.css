@@ -1,0 +1,66 @@
+/* ============================================================
+   OWL — Variable documentation icon
+   /OWL/assets/css/variable-doc-icon.css
+
+   Styles the small circular "view documentation" icon that
+   variable-doc-icon.js adds next to every documented variable
+   name, site-wide. Include this alongside the site's other
+   shared stylesheets in _includes/head_custom.html.
+   ============================================================ */
+
+.var-doc-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 15px;
+  min-height: 15px;
+  margin-left: 5px;
+  color: hsl(200 55% 40%);
+  text-decoration: none !important;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 15px;
+  line-height: 1;
+}
+.var-doc-icon:hover {
+  color: hsl(200 55% 25%);
+}
+
+.var-doc-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 500;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.14);
+  min-width: 260px;
+  max-width: 340px;
+  padding: 6px;
+  display: none;
+}
+.var-doc-dropdown.open { display: block; }
+.var-doc-dropdown-item {
+  display: block;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: #222;
+  text-decoration: none !important;
+}
+.var-doc-dropdown-item:hover { background: hsl(200 55% 95%); }
+.var-doc-dropdown-item .dt {
+  display: inline-block;
+  font-size: 9.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  color: hsl(200 55% 32%);
+  margin-bottom: 2px;
+}
+
+/* The legend now lives in the shared bar: variable-icon-key.css */

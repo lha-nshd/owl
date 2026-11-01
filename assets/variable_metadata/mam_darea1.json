@@ -1,0 +1,539 @@
+{
+  "varname": "mam_darea1",
+  "label": "Area of dense tissue in cm2  (mammogram density) - by age 53 years",
+  "field_id": "31084",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31084",
+  "year": "",
+  "form": "X-Ray",
+  "units": "cm2",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 24.758174904942965,
+  "sd": 15.589918648358541,
+  "series_size": 789.0,
+  "minimum": 2.1,
+  "maximum": 67.76,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "mam_barea1",
+    "mam_wolfe",
+    "mam_birads",
+    "mam_pd1"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Women's health [9]",
+    "Mammogram [1053]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "8888.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "mam_darea1",
+    "label": "Area of dense tissue in cm2  (mammogram density) - by age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "mam_darea1"
+      ],
+      [
+        "Field ID",
+        "31084"
+      ],
+      [
+        "Label",
+        "Area of dense tissue in cm2  (mammogram density) - by age 53 years"
+      ],
+      [
+        "Card Number",
+        "mammogram"
+      ],
+      [
+        "Form",
+        "X-Ray"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "cm2"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Mammograms were obtained from women who at 53 years reported having previously had a mammogram."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "mam_barea1",
+        "Area of delimited projected breast in cm2  (mammogram density) - by age 53 years",
+        "1999",
+        "X-Ray",
+        "Not applicable",
+        "mammogram"
+      ],
+      [
+        "mam_wolfe",
+        "1,2,3, 4, for n1, p1, p2, dy  (mammogram density) - by age 53 years",
+        "1999",
+        "X-Ray",
+        "Not applicable",
+        "mammogram"
+      ],
+      [
+        "mam_birads",
+        "1,2,3,4  (mammogram density) - by age 53 years",
+        "1999",
+        "X-Ray",
+        "Not applicable",
+        "mammogram"
+      ],
+      [
+        "mam_pd1",
+        "Percent density (%), CC view (mammogram density) - by age 53 years",
+        "1999",
+        "X-Ray",
+        "Not applicable",
+        "mammogram"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/mammogram/Threhold_density.docx",
+        "Threhold_density.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Mammogram [1053]",
+        "This category contains the derived variables from the mammogram obtained from the participants who reported at age 53 years of having the scan done. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "8888.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.1"
+      ],
+      [
+        "Maximum",
+        "67.76"
+      ],
+      [
+        "Range",
+        "65.66000000000001"
+      ],
+      [
+        "Median",
+        "21.68"
+      ],
+      [
+        "IQR",
+        "11.91 - 34.87"
+      ],
+      [
+        "Decile 1",
+        "6.428"
+      ],
+      [
+        "Decile 2",
+        "10.098"
+      ],
+      [
+        "Decile 3",
+        "14.274"
+      ],
+      [
+        "Decile 4",
+        "18.042"
+      ],
+      [
+        "Decile 5",
+        "21.68"
+      ],
+      [
+        "Decile 6",
+        "26.618"
+      ],
+      [
+        "Decile 7",
+        "31.496"
+      ],
+      [
+        "Decile 8",
+        "38.11400000000001"
+      ],
+      [
+        "Decile 9",
+        "47.998000000000005"
+      ],
+      [
+        "Mean",
+        "24.758174904942965"
+      ],
+      [
+        "Std Dev.",
+        "15.589918648358541"
+      ],
+      [
+        "Variance",
+        "243.0455634624374"
+      ],
+      [
+        "Displayed N",
+        "789"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "mam_darea1",
+    "label": "Area of dense tissue in cm2  (mammogram density) - by age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31084",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "mam_darea1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31084",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Area of dense tissue in cm2  (mammogram density) - by age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "mammogram",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "X-Ray",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "cm2",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Mammograms were obtained from women who at 53 years reported having previously had a mammogram.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "mam_barea1",
+        "description": "Area of delimited projected breast in cm2  (mammogram density) - by age 53 years",
+        "year": "1999",
+        "form": "X-Ray",
+        "question": "Not applicable",
+        "library_file": "mammogram"
+      },
+      {
+        "varname": "mam_wolfe",
+        "description": "1,2,3, 4, for n1, p1, p2, dy  (mammogram density) - by age 53 years",
+        "year": "1999",
+        "form": "X-Ray",
+        "question": "Not applicable",
+        "library_file": "mammogram"
+      },
+      {
+        "varname": "mam_birads",
+        "description": "1,2,3,4  (mammogram density) - by age 53 years",
+        "year": "1999",
+        "form": "X-Ray",
+        "question": "Not applicable",
+        "library_file": "mammogram"
+      },
+      {
+        "varname": "mam_pd1",
+        "description": "Percent density (%), CC view (mammogram density) - by age 53 years",
+        "year": "1999",
+        "form": "X-Ray",
+        "question": "Not applicable",
+        "library_file": "mammogram"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/mammogram/Threhold_density.docx",
+        "text": "Threhold_density.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Mammogram [1053]",
+        "description": "This category contains the derived variables from the mammogram obtained from the participants who reported at age 53 years of having the scan done. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Mammogram_1053.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 2,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "cm2",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          2.1,
+          6.790000000000001,
+          11.48,
+          16.17,
+          20.860000000000003,
+          25.550000000000004,
+          30.240000000000002,
+          34.93000000000001,
+          39.620000000000005,
+          44.31,
+          49.00000000000001,
+          53.690000000000005,
+          58.38,
+          63.07000000000001,
+          67.76
+        ],
+        "counts": [
+          87,
+          100,
+          89,
+          100,
+          79,
+          71,
+          69,
+          51,
+          34,
+          35,
+          30,
+          18,
+          18,
+          8
+        ]
+      },
+      "boxplot": {
+        "min": 2.1,
+        "q1": 11.91,
+        "median": 21.68,
+        "q3": 34.87,
+        "max": 67.76
+      },
+      "units": "cm2"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.1"
+      ],
+      [
+        "Maximum",
+        "67.76"
+      ],
+      [
+        "Range",
+        "65.66000000000001"
+      ],
+      [
+        "Median",
+        "21.68"
+      ],
+      [
+        "IQR",
+        "11.91 - 34.87"
+      ],
+      [
+        "Decile 1",
+        "6.428"
+      ],
+      [
+        "Decile 2",
+        "10.098"
+      ],
+      [
+        "Decile 3",
+        "14.274"
+      ],
+      [
+        "Decile 4",
+        "18.042"
+      ],
+      [
+        "Decile 5",
+        "21.68"
+      ],
+      [
+        "Decile 6",
+        "26.618"
+      ],
+      [
+        "Decile 7",
+        "31.496"
+      ],
+      [
+        "Decile 8",
+        "38.11400000000001"
+      ],
+      [
+        "Decile 9",
+        "47.998000000000005"
+      ],
+      [
+        "Mean",
+        "24.758174904942965"
+      ],
+      [
+        "Std Dev.",
+        "15.589918648358541"
+      ],
+      [
+        "Variance",
+        "243.0455634624374"
+      ],
+      [
+        "Displayed N",
+        "789"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

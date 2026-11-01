@@ -1,0 +1,245 @@
+---
+layout: default
+title: Where should I start?
+parent: Getting Started
+nav_order: 1
+permalink: /docs/getting-started/where-to-start/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<style>
+  /* Inline copy of the category "i" description icon, and boxed sub-sections for the two ways of browsing */
+  .bc-i { display: inline-flex; align-items: center; justify-content: center; width: 17px; height: 17px; margin: 0 2px; vertical-align: middle; border: 1.5px solid #6a0dad; border-radius: 50%; background: #fff; color: #6a0dad; font: italic 700 11px/1 Georgia, serif; }
+  .bc-sub { margin: 16px 0; padding: 12px 18px 4px; border-left: 3px solid rgba(0,0,0,0.2); border-radius: 6px; background: rgba(255,255,255,0.6); }
+  .bc-sub h3 { margin: 0 0 8px; font-size: 15px; font-weight: 700; }
+</style>
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-traffic-lights" aria-hidden="true"></i> Where should I start?</h1>
+    <p>Two approaches, ten tools — pick the one that fits how you think about the problem.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+
+    <p class="gs-sidebar-group-label gs-sidebar-search">Search methods</p>
+    <ul class="gs-sidebar-group">
+      <li><a href="#search-data-dictionary"><i class="ti ti-search" aria-hidden="true"></i> Search Data Dictionary</a></li>
+      <li><a href="#browse-by-category"><i class="ti ti-layout-grid" aria-hidden="true"></i> Browse by Category</a></li>
+      <li><a href="#popular-variables"><i class="ti ti-star" aria-hidden="true"></i> Popular Variables</a></li>
+      <li><a href="#longitudinal-search"><i class="ti ti-timeline" aria-hidden="true"></i> Longitudinal Search</a></li>
+      <li><a href="#search-by-year"><i class="ti ti-calendar-time" aria-hidden="true"></i> Search by Year</a></li>
+      <li><a href="#ukllc-catalogue"><i class="ti ti-link" aria-hidden="true"></i> UK LLC Catalogue</a></li>
+      <li><a href="#discover-projects"><i class="ti ti-compass" aria-hidden="true"></i> Discover Projects</a></li>
+    </ul>
+
+    <p class="gs-sidebar-group-label gs-sidebar-explore">Explore documentation</p>
+    <ul class="gs-sidebar-group">
+      <li><a href="#questionnaires"><i class="ti ti-clipboard-list" aria-hidden="true"></i> NSHD Questionnaires</a></li>
+      <li><a href="#topics"><i class="ti ti-tags" aria-hidden="true"></i> Topics</a></li>
+      <li><a href="#documentation"><i class="ti ti-notes" aria-hidden="true"></i> Documentation</a></li>
+    </ul>
+
+    <a href="{{ site.baseurl }}/docs/getting-started/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to getting started</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>The OWL splits broadly into two approaches. <strong>Search methods</strong> are for when you already have something concrete to look for — a variable name, a keyword, a general category you can narrow into, or a similar project that has already been approved. <strong>Explore documentation</strong> is for when you're browsing without a specific target in mind, working from a survey wave, a subject area, or a variable's own history outward toward the data itself. Most research workflows end up using a mix of both, often starting broad with documentation and finishing precise with search. The ten sections below cover each tool in turn, grouped by which of the two approaches they belong to.</p>
+  </div>
+
+  <div class="gs-category-band gs-band-search">
+    <i class="ti ti-search" aria-hidden="true"></i>
+    <span>Search methods</span>
+  </div>
+
+  <div class="home-section gs-accent-search">
+    <h2 id="search-data-dictionary"><i class="ti ti-search" aria-hidden="true"></i> Search Data Dictionary</h2>
+    <p>The Data Dictionary Search is the most direct route into the dataset when you already have something concrete to search for — a variable name, a keyword from a label, or a phrase you remember from a description. It searches variable names, labels, descriptions, and category metadata simultaneously, updating live as you type, so you can see results narrowing in real time rather than waiting for a page reload.</p>
+    <p>What makes it particularly powerful is the accompanying filter panel, which lets you layer additional constraints on top of a text search — restricting results further. This combination of free-text search and structured filtering means you can start broad and narrow down quickly, without needing to know the exact spelling or format of a variable name in advance.</p>
+    <p>This is the right tool if you've read a publication or report that references a specific variable, if a colleague has mentioned a measure by name, or if you already roughly know what you're after and just need to confirm the variable coding, sweep, or label wording before using it in your own analysis.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary.html">
+        <i class="ti ti-search" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Data Dictionary Search &rarr;</p>
+          <p class="gs-link-card-desc">Search every variable by name, label, description or category.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-accent-search">
+    <h2 id="browse-by-category"><i class="ti ti-layout-grid" aria-hidden="true"></i> Browse by Category</h2>
+    <p>Browse by Category presents the whole dataset as a category tree that you can open up and tick. Broad domains such as clinical data, biological samples, or questionnaire data sit at the top, branching down through progressively narrower sub-categories until you reach the categories that hold the variables themselves. Unlike a free-text search, this method doesn't require you to guess a keyword at all; you work from a general area down to specific measures, and you can pick several categories at once.</p>
+    <div class="bc-sub">
+      <h3>Browsing within the page</h3>
+      <p>The tree starts collapsed, showing only the top-level categories. Open a branch with its + button (and close it with &minus;), or use Expand all and Collapse all; the Find a category box filters the tree by category name or ID as you type. Every row shows the category's ID, how many variables it holds directly and how many sit in its sub-categories, and a small <span class="bc-i" aria-hidden="true">i</span> icon that shows the category's description when you hover over it. Tick one or more categories &mdash; ticking a parent selects everything inside it &mdash; and your choices are listed in the Selected panel on the right with their full path, where you can remove any one of them or clear them all. Choose Show variables and every variable in your selected categories is listed in a single table below the tree.</p>
+      <p>That table works like the others on OWL: search across names, labels and categories, change the page size, sort any column, and tick variables to add them to your basket, or add or remove everything on the current page in one click. The dropdown in the Category column narrows the results to one of your selected categories, each part of a variable's category path is a link to that category's own page, and the whole result set can be downloaded as a CSV. Variable names link through to their metadata pages, and restricted variables are marked with a padlock.</p>
+    </div>
+    <div class="bc-sub">
+      <h3>Browsing from the pages at the side</h3>
+      <p>The same hierarchy is also built into the sidebar, under Search Overview &rarr; Browse by Category, where every category has its own page. A category page opens with a description of the category and a breadcrumb showing where it sits in the tree, followed by a table of its variables that you can search, sort, filter by label, add to your basket and download. A parent category that holds no publicly viewable variables of its own says so and points you on to its sub-categories. Because each category has its own address, the sidebar is the better route when you know which category you want, want to stay within it, or want to bookmark it or share a link to it.</p>
+    </div>
+    <p>Use the tree on the Browse by Category page when you want to combine several categories into one list, compare what sits in different branches, or see everything available in a domain rather than a single matching result. Use the sidebar pages to read a single category in more depth. Both are especially useful when you're unfamiliar with how the dataset is organised, or when a category name is more memorable to you than any specific variable name within it. Only variables that are publicly viewable on OWL are listed, so counts may be lower than the full set held on Condor.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/browse_by_category/Browse_by_Category.html">
+        <i class="ti ti-layout-grid" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Browse by Category &rarr;</p>
+          <p class="gs-link-card-desc">Tick categories in the tree and see all their variables in one table.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-accent-search">
+    <h2 id="popular-variables"><i class="ti ti-star" aria-hidden="true"></i> View Popular Variables</h2>
+    <p>Popular Variables takes a different approach entirely: rather than searching or browsing by subject, it shows you what other researchers have actually used. The table tracks how frequently each variable has been added to project baskets across recent research activity, giving a practical signal of which measures the wider research community considers essential, well-validated, or simply convenient for common types of analysis.</p>
+    <p>This is a useful complement to the other methods rather than a replacement for them — it works well as a sanity check once you've identified a candidate set of variables, letting you see whether your selections align with common practice, or whether there's a frequently-used alternative measure you hadn't considered. It's equally useful at the very start of a project, when you want a quick sense of established, frequently-used measures in a general area before diving into a more targeted search.</p>
+    <p>The table includes usage counts, full variable labels, and direct links through to each variable's metadata page.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/popular_vars/popular-variables/">
+        <i class="ti ti-star" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Popular Variables &rarr;</p>
+          <p class="gs-link-card-desc">See which variables are most often added to project baskets.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-accent-search">
+    <h2 id="longitudinal-search"><i class="ti ti-timeline" aria-hidden="true"></i> Longitudinal Search</h2>
+    <p>Longitudinal Search is built for a narrower and more specific question than it might sound: not every measure that's ever been repeated, but variables collected with <em>identical question text and coding</em> across two or more sweeps — true longitudinal measures you can track cleanly over time, grouped together under their shared Field ID rather than listed as separate one-off variables.</p>
+    <p>Opening a Field ID's detail panel gives you the sweep-by-sweep trajectory at a glance: a line chart of the mean with a min–max band for continuous measures, or a stacked bar of the response distribution for categorical ones, alongside a full table of statistics — year, age, mean, SD, min, max, and sample size — for every sweep it was collected in. You can add every sweep to your basket in one click, or open the panel and choose only the specific sweeps you need.</p>
+    <p>This is the right tool once you already have a measure in mind and want to see its full trajectory before deciding which sweeps to use — and it's also reachable directly from any variable's own metadata page, via a "View all in Longitudinal Search" link, if you find a variable first and want to see what else it connects to over time.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/longitudinal_variables/longitudinal_search_guide/">
+        <i class="ti ti-timeline" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Longitudinal Search &rarr;</p>
+          <p class="gs-link-card-desc">Follow a variable's trajectory across sweeps.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-accent-search">
+    <h2 id="search-by-year"><i class="ti ti-calendar-time" aria-hidden="true"></i> Search by Year</h2>
+    <p>Search by Year flips the usual approach on its head — instead of starting from a variable name or a topic, you start from a point in time. A row of pills across the top of the page represents every NSHD sweep from 1946 onward; clicking one or more filters the results down to variables collected in those years, with single-sweep collections and rolling collection windows shown distinctly, and named sub-studies — Insight46, MyoFit, Covid, Women's Health — highlighted in their own colour alongside a legend, so you can tell mainline survey data apart from sub-study data at a glance.</p>
+    <p>Topic filters spanning five levels of the category hierarchy sit alongside the year pills, and the two interact live: as you narrow by topic, pills for years with no matching results dim automatically, so it's clear before you click which sweeps actually have relevant data for the area you're interested in, rather than finding out only after filtering.</p>
+    <p>This is the right tool when you're working to a specific life stage or calendar period — a particular age, a named sub-study, or a specific year of data collection — and want to see everything collected at that point, rather than starting from a variable or a subject and working out which sweep it belongs to.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/search_by_year/search_by_year/">
+        <i class="ti ti-calendar-time" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Search by Year &rarr;</p>
+          <p class="gs-link-card-desc">Start from a sweep and see everything collected in it.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-accent-search">
+    <h2 id="ukllc-catalogue"><i class="ti ti-link" aria-hidden="true"></i> UK LLC Catalogue</h2>
+    <p>The UK LLC Catalogue searches a different, smaller pool of NSHD data than the five tools above: not the main dictionary, but the datasets NSHD has deposited into the UK Longitudinal Linkage Collaboration (UK LLC) — a Trusted Research Environment that links NSHD data to over 20 other UK longitudinal studies, plus NHS and other administrative records. It's a table of every file deposited so far, filterable by dataset and searchable by name, description, and keyword; opening a row shows the variables it contains and their labels.</p>
+    <p>Variables found here work the same as anywhere else on OWL — add them to your basket for a standard Condor/Skylark data request — but there's also a second option: applying for UK LLC access directly, if what you actually need is that NSHD variable analysed alongside other cohorts or linked administrative records, which a normal Condor request can't provide. Deposits into UK LLC happen continuously, so the catalogue only shows what's been submitted so far — if a variable you expect isn't listed yet, it may simply be pending.</p>
+    <p>This is the right tool once you already know you need linked, cross-cohort data rather than NSHD on its own — for anything else, the five tools above will usually get you to a variable faster.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/ukllc_catalogue">
+        <i class="ti ti-link" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open the UK LLC Catalogue &rarr;</p>
+          <p class="gs-link-card-desc">Search the NSHD datasets deposited into UK LLC.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-accent-search">
+    <h2 id="discover-projects"><i class="ti ti-compass" aria-hidden="true"></i> Discover Projects</h2>
+    <p>Discover Projects searches by what other researchers have actually asked for. Rather than starting from a variable name, a subject or a point in time, you start from the research itself: every project that has been approved to use NSHD data is listed in a sortable table with its project ID, date, applicant, title and a short summary, newest first. A search box looks across titles, summaries, applicants, institutions and variable names at once, so you can find work on your topic, or by a particular group, in a single search.</p>
+    <p>Opening a row shows every variable that project requested, in the same style of table used by the UK LLC Catalogue — with each variable's label, topic and year of collection taken from the data dictionary, its own filter box and sortable columns. You can add variables to your basket one at a time or in batches, and download a project's variables, so a project that looks like yours can be a ready-made starting point for your own variable list. Variables that are not in OWL yet are flagged as not yet available, with a pointer to check Condor, and cannot be added to the basket.</p>
+    <p>This is the right tool when you are planning a new application and want to see how similar questions have been approached, when you want to check whether work like yours has been done before, or when you want to know which variables researchers choose together for a particular kind of question. For the bigger picture of how many projects are approved each year and what they ask for, see the <a href="{{ site.baseurl }}/docs/data_sharing/metrics">Metrics and Trends</a> page, and for how to apply, see <a href="{{ site.baseurl }}/docs/data_sharing/">Data Sharing</a>.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/search_methods/discover-projects">
+        <i class="ti ti-compass" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Discover Projects &rarr;</p>
+          <p class="gs-link-card-desc">Browse approved projects and the variables each one asked for.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="gs-category-band gs-band-explore">
+    <i class="ti ti-folder" aria-hidden="true"></i>
+    <span>Explore documentation</span>
+  </div>
+
+  <div class="home-section gs-accent-explore">
+    <h2 id="questionnaires"><i class="ti ti-clipboard-list" aria-hidden="true"></i> NSHD Questionnaires</h2>
+    <p>The Questionnaires archive preserves the original chronological structure of the study, organised sweep by sweep from the 1946 maternity survey through to the most recent data collection. This is the place to go when you want to see exactly how a question was worded, what response options were offered, or which respondent — the study member themselves, a parent, or a teacher — actually answered a given question.</p>
+    <p>Each questionnaire page presents a downloadable copy of the original survey instrument as it was actually administered, with variable names annotated directly onto the PDF wherever possible — so you can trace a specific item in the data dictionary back to the precise question that generated it, in its original context and phrasing. This is invaluable for understanding subtle changes in question wording or response scales between sweeps, which can materially affect how comparable a variable is across different ages.</p>
+    <p>Researchers often turn to this archive when preparing a methods section, checking for measurement consistency across waves, or simply trying to understand what a study member was actually being asked at a particular point in their life, rather than relying solely on the abbreviated variable label.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-amber" href="{{ site.baseurl }}/docs/questionnaires/NSHD_questionnaires_homepage.html">
+        <i class="ti ti-clipboard-list" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open NSHD Questionnaires &rarr;</p>
+          <p class="gs-link-card-desc">The original survey instruments, sweep by sweep.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-accent-explore">
+    <h2 id="topics"><i class="ti ti-tags" aria-hidden="true"></i> Topics</h2>
+    <p>Topics is built for understanding a subject area, not primarily for finding individual variables — it's the right starting point when you want context on how something was measured across the study, before you go looking for the data itself. Variables are grouped thematically into areas like physical health, cognition, mental wellbeing, and lifestyle, with each topic page explaining what was measured, how, and across which sweeps.</p>
+    <p>Most topic pages are documentation rather than data listings: they describe the instruments used, summarise how measurement changed over time, and link out to the relevant questionnaires or variable metadata pages rather than presenting variables directly. A smaller number of topic pages — typically ones built around a single well-defined questionnaire, like the MRC respiratory symptom questionnaire — do include a table of the actual variable names across sweeps, but this is the exception rather than the rule. Because the NSHD has run for nearly 80 years, a topic can span multiple decades and several different instruments or measurement approaches, and the topic page's main job is to make that history legible in one place.</p>
+    <p>Use Topics when you want to understand a subject's coverage and measurement history before diving into variables, or when you're scoping out what's available in a general area. If you need an actual variable list, Browse by Category or Search Data Dictionary will usually get you there faster — Topics will often point you toward the right questionnaire or category to search next, rather than listing variables itself.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-amber" href="{{ site.baseurl }}/docs/topics/">
+        <i class="ti ti-tags" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Topics &rarr;</p>
+          <p class="gs-link-card-desc">Subject areas and how each was measured over the years.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="home-section gs-accent-explore">
+    <h2 id="documentation"><i class="ti ti-notes" aria-hidden="true"></i> Documentation</h2>
+    <p>Documentation covers a different kind of question to Topics or Questionnaires: not what was measured or how a question was worded, but how a variable or dataset actually came to be — a data note explaining a derivation, a topsheet recording what a cleaning task produced, or a correction to a variable that turned out to be wrong. Where Topics and Questionnaires describe the study's design, Documentation describes its history.</p>
+    <p>It's split into two kinds. Variable-level documentation covers one specific variable or a small tightly-related group — usually short, often a topsheet or a bug-fix note. Dataset-level documentation covers a whole derived dataset or a measure repeated across many sweeps — usually longer, closer in style to an academic write-up. Every document is automatically checked against the data dictionary, so if it names real variables you'll see them listed on the page and can add them straight to your basket without leaving it.</p>
+    <p>Use Documentation when you've already found a variable and want to know its backstory — whether it's ever been corrected, how it was derived, or what wider dataset it belongs to — rather than what it measures, which Topics and the variable's own metadata page already cover.</p>
+    <p>If you're the one writing documentation rather than reading it, there are now two tools built specifically for that. <a href="{{ site.baseurl }}/docs/documentation/create-documentation/">Create Documentation Online</a> lets you build a topsheet and its accompanying document directly in the browser, with a live preview showing how it'll actually look once published. <a href="{{ site.baseurl }}/docs/documentation/#page-proof">Page Proof</a> checks a document you've already written in Word — flagging likely formatting mistakes and previewing the result — before you send it in. Both are linked from the <a href="{{ site.baseurl }}/docs/documentation/">Browse Documentation</a> page, alongside a full guide to writing documentation for OWL.</p>
+    <div style="margin-top:12px;">
+      <a class="gs-link-card gs-amber" href="{{ site.baseurl }}/docs/documentation/">
+        <i class="ti ti-notes" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Open Documentation &rarr;</p>
+          <p class="gs-link-card-desc">Data notes, cleaning records and how variables were built.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>

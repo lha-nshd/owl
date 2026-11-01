@@ -1,0 +1,578 @@
+{
+  "varname": "hba99n",
+  "label": "Glycohaemoglobin - HbA1c (%) - at age 53 years",
+  "field_id": "1067",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1067",
+  "year": "",
+  "form": "Blood assays",
+  "units": "%",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 5.591329966329966,
+  "sd": 0.3437644379008956,
+  "series_size": 2376.0,
+  "minimum": 4.9,
+  "maximum": 6.4,
+  "truly_longitudinal_field_id": "1067",
+  "truly_longitudinal_varnames": [
+    "hba1c09",
+    "hba1c15x"
+  ],
+  "truly_longitudinal_years": [
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Blood, urine, and other samples [27]",
+    "Blood biochemistry [2011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77.0",
+      "label": "No sample"
+    },
+    {
+      "value": "98.0",
+      "label": "Excluded"
+    },
+    {
+      "value": "99.0",
+      "label": "No questionnaire"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "hba99n",
+    "label": "Glycohaemoglobin - HbA1c (%) - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "hba99n"
+      ],
+      [
+        "Field ID",
+        "1067"
+      ],
+      [
+        "Label",
+        "Glycohaemoglobin - HbA1c (%) - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "cvd_bloods"
+      ],
+      [
+        "Form",
+        "Blood assays"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "%"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Variable from blood assays."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "hba1c15x",
+        "2015",
+        "Glycohaemoglobin - HbA1c (%) - at age 69 years"
+      ],
+      [
+        "hba1c09",
+        "2006-10",
+        "Glycohaemoglobin - HbA1c (%) - at age 60-64 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/cvd_bloods/Biological samples_1999.doc",
+        "Biological samples_1999.doc"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/cvd_bloods/Documentation_cvd_bloods1999_v1.docx",
+        "Documentation_cvd_bloods1999_v1.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/cvd_bloods/Bloodmeasures_updated_v1.docx",
+        "Bloodmeasures_updated_v1.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/cvd_bloods/TopSheet_cvd_bloods1999_v1.docx",
+        "TopSheet_cvd_bloods1999_v1.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood, urine, and other samples [27]",
+        "Legacy Category"
+      ],
+      [
+        "Blood biochemistry [2011]",
+        "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77.0",
+        "No sample",
+        true
+      ],
+      [
+        "98.0",
+        "Excluded",
+        true
+      ],
+      [
+        "99.0",
+        "No questionnaire",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "4.9"
+      ],
+      [
+        "Maximum",
+        "6.4"
+      ],
+      [
+        "Range",
+        "1.5"
+      ],
+      [
+        "Median",
+        "5.6"
+      ],
+      [
+        "IQR",
+        "5.3 - 5.8"
+      ],
+      [
+        "Decile 1",
+        "5.1"
+      ],
+      [
+        "Decile 2",
+        "5.3"
+      ],
+      [
+        "Decile 3",
+        "5.4"
+      ],
+      [
+        "Decile 4",
+        "5.5"
+      ],
+      [
+        "Decile 5",
+        "5.6"
+      ],
+      [
+        "Decile 6",
+        "5.7"
+      ],
+      [
+        "Decile 7",
+        "5.8"
+      ],
+      [
+        "Decile 8",
+        "5.9"
+      ],
+      [
+        "Decile 9",
+        "6.1"
+      ],
+      [
+        "Mean",
+        "5.591329966329966"
+      ],
+      [
+        "Std Dev.",
+        "0.3437644379008956"
+      ],
+      [
+        "Variance",
+        "0.1181739887653187"
+      ],
+      [
+        "Displayed N",
+        "2376"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "hba99n",
+    "label": "Glycohaemoglobin - HbA1c (%) - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1067",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hba99n",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1067",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Glycohaemoglobin - HbA1c (%) - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "cvd_bloods",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Blood assays",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "%",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Variable from blood assays.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1067",
+      "members": [
+        {
+          "varname": "hba99n",
+          "year": "1999",
+          "label": "Glycohaemoglobin - HbA1c (%) - at age 53 years",
+          "is_current": true
+        },
+        {
+          "varname": "hba1c09",
+          "year": "2006-10",
+          "label": "Glycohaemoglobin - HbA1c (%) - at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "hba1c15x",
+          "year": "2015",
+          "label": "Glycohaemoglobin - HbA1c (%) - at age 69 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/cvd_bloods/Biological samples_1999.doc",
+        "text": "Biological samples_1999.doc"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/cvd_bloods/Documentation_cvd_bloods1999_v1.docx",
+        "text": "Documentation_cvd_bloods1999_v1.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/cvd_bloods/Bloodmeasures_updated_v1.docx",
+        "text": "Bloodmeasures_updated_v1.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/cvd_bloods/TopSheet_cvd_bloods1999_v1.docx",
+        "text": "TopSheet_cvd_bloods1999_v1.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood, urine, and other samples [27]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood biochemistry [2011]",
+        "description": "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biochemistry_2011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No sample",
+        "is_missing": true
+      },
+      {
+        "value": "98.0",
+        "label": "Excluded",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 5,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "%",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          4.9,
+          4.9714285714285715,
+          5.042857142857144,
+          5.114285714285715,
+          5.185714285714286,
+          5.257142857142857,
+          5.328571428571429,
+          5.4,
+          5.4714285714285715,
+          5.542857142857143,
+          5.614285714285715,
+          5.685714285714286,
+          5.757142857142857,
+          5.828571428571429,
+          5.9,
+          5.9714285714285715,
+          6.042857142857143,
+          6.114285714285715,
+          6.185714285714286,
+          6.257142857142857,
+          6.328571428571429,
+          6.4
+        ],
+        "counts": [
+          65,
+          87,
+          101,
+          0,
+          168,
+          181,
+          0,
+          237,
+          262,
+          257,
+          0,
+          221,
+          231,
+          0,
+          179,
+          144,
+          111,
+          0,
+          72,
+          36,
+          24
+        ]
+      },
+      "boxplot": {
+        "min": 4.9,
+        "q1": 5.3,
+        "median": 5.6,
+        "q3": 5.8,
+        "max": 6.4
+      },
+      "units": "%"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "4.9"
+      ],
+      [
+        "Maximum",
+        "6.4"
+      ],
+      [
+        "Range",
+        "1.5"
+      ],
+      [
+        "Median",
+        "5.6"
+      ],
+      [
+        "IQR",
+        "5.3 - 5.8"
+      ],
+      [
+        "Decile 1",
+        "5.1"
+      ],
+      [
+        "Decile 2",
+        "5.3"
+      ],
+      [
+        "Decile 3",
+        "5.4"
+      ],
+      [
+        "Decile 4",
+        "5.5"
+      ],
+      [
+        "Decile 5",
+        "5.6"
+      ],
+      [
+        "Decile 6",
+        "5.7"
+      ],
+      [
+        "Decile 7",
+        "5.8"
+      ],
+      [
+        "Decile 8",
+        "5.9"
+      ],
+      [
+        "Decile 9",
+        "6.1"
+      ],
+      [
+        "Mean",
+        "5.591329966329966"
+      ],
+      [
+        "Std Dev.",
+        "0.3437644379008956"
+      ],
+      [
+        "Variance",
+        "0.1181739887653187"
+      ],
+      [
+        "Displayed N",
+        "2376"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

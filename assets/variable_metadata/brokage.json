@@ -1,0 +1,317 @@
+{
+  "varname": "brokage",
+  "label": "Age Category of first broken bone (categorised) - at age 60-64 years.",
+  "field_id": "14660",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14660",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 259.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Fractures [5113]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "25 - 49 years"
+    },
+    {
+      "value": "2.0",
+      "label": "50 - 65 years"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "50 - 65 years",
+      "count": 259,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "brokage",
+    "label": "Age Category of first broken bone (categorised) - at age 60-64 years.",
+    "meta_rows": [
+      [
+        "Variable",
+        "brokage"
+      ],
+      [
+        "Field ID",
+        "14660"
+      ],
+      [
+        "Label",
+        "Age Category of first broken bone (categorised) - at age 60-64 years."
+      ],
+      [
+        "Card Number",
+        "FRACTURET09"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "25"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "These are the cross-sectional derived variables from the 2006-10 data collection. Information on fractures was also collected in the 2014 postal questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Fractures [5113]",
+        "This category contains data from the questionnaire on whether the participant had broken any bones."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "25 - 49 years",
+        true
+      ],
+      [
+        "2.0",
+        "50 - 65 years",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "2",
+        "259",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "259",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "brokage",
+    "label": "Age Category of first broken bone (categorised) - at age 60-64 years.",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14660",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "brokage",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "14660",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age Category of first broken bone (categorised) - at age 60-64 years.",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "FRACTURET09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "25",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "These are the cross-sectional derived variables from the 2006-10 data collection. Information on fractures was also collected in the 2014 postal questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Fractures [5113]",
+        "description": "This category contains data from the questionnaire on whether the participant had broken any bones.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Fractures_5113.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "25 - 49 years",
+        "is_missing": true
+      },
+      {
+        "value": "2.0",
+        "label": "50 - 65 years",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "2",
+          "label": "50 - 65 years",
+          "count": 259,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "2",
+        "259",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "259",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

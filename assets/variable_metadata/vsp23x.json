@@ -1,0 +1,565 @@
+{
+  "varname": "vsp23x",
+  "label": "Visual letter search: Speed (max 600) - at age 77 years",
+  "field_id": "1212",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1212",
+  "year": "",
+  "form": "Paper test",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 247.60445387062566,
+  "sd": 54.050381639250375,
+  "series_size": 943.0,
+  "minimum": 150.0,
+  "maximum": 372.0,
+  "truly_longitudinal_field_id": "1212",
+  "truly_longitudinal_varnames": [
+    "cansp189",
+    "cansp99",
+    "vsp09",
+    "vsp15x"
+  ],
+  "truly_longitudinal_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [
+    "cansp389",
+    "canspa89",
+    "cansp289"
+  ],
+  "linked_years": [
+    "1989"
+  ],
+  "categories": [
+    "Processing speed [10125]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "vsp23x",
+    "label": "Visual letter search: Speed (max 600) - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "vsp23x"
+      ],
+      [
+        "Field ID",
+        "1212"
+      ],
+      [
+        "Label",
+        "Visual letter search: Speed (max 600) - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "cognition23"
+      ],
+      [
+        "Form",
+        "Paper test"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Cognition module. Quite a few variables come from the Paper test and some come from the CAPI."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cansp189",
+        "1989",
+        "Visual letter search: Speed (trial 1) - at age 43 years"
+      ],
+      [
+        "cansp99",
+        "1999",
+        "Visual letter search: Speed (max 600) - at age 53 years"
+      ],
+      [
+        "vsp09",
+        "2006-10",
+        "Visual letter search: Speed (max 600) - at age 60-64 years"
+      ],
+      [
+        "vsp15x",
+        "2015",
+        "Visual letter search: Speed (max 600) - at age 69 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "cansp389",
+        "Visual letter search: Speed (trial 3) - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Letter Search",
+        "cog89"
+      ],
+      [
+        "canspa89",
+        "Visual letter search: Speed (average of 3 trials) - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Letter Search",
+        "cog89"
+      ],
+      [
+        "cansp289",
+        "Visual letter search: Speed (trial 2) - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Letter Search",
+        "cog89"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Processing speed [10125]",
+        "Letter search speed: mean speed for each of the three trials."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "150"
+      ],
+      [
+        "Maximum",
+        "372"
+      ],
+      [
+        "Range",
+        "222"
+      ],
+      [
+        "Median",
+        "239.0"
+      ],
+      [
+        "IQR",
+        "204.0 - 288.0"
+      ],
+      [
+        "Decile 1",
+        "174.0"
+      ],
+      [
+        "Decile 2",
+        "204.0"
+      ],
+      [
+        "Decile 3",
+        "217.0"
+      ],
+      [
+        "Decile 4",
+        "231.0"
+      ],
+      [
+        "Decile 5",
+        "239.0"
+      ],
+      [
+        "Decile 6",
+        "269.0"
+      ],
+      [
+        "Decile 7",
+        "287.0"
+      ],
+      [
+        "Decile 8",
+        "288.0"
+      ],
+      [
+        "Decile 9",
+        "307.0"
+      ],
+      [
+        "Mean",
+        "247.60445387062566"
+      ],
+      [
+        "Std Dev.",
+        "54.050381639250375"
+      ],
+      [
+        "Variance",
+        "2921.443755348614"
+      ],
+      [
+        "Displayed N",
+        "943"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "vsp23x",
+    "label": "Visual letter search: Speed (max 600) - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1212",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "vsp23x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1212",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Visual letter search: Speed (max 600) - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "cognition23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Paper test",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Cognition module. Quite a few variables come from the Paper test and some come from the CAPI.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1212",
+      "members": [
+        {
+          "varname": "cansp189",
+          "year": "1989",
+          "label": "Visual letter search: Speed (trial 1) - at age 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "cansp99",
+          "year": "1999",
+          "label": "Visual letter search: Speed (max 600) - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "vsp09",
+          "year": "2006-10",
+          "label": "Visual letter search: Speed (max 600) - at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "vsp15x",
+          "year": "2015",
+          "label": "Visual letter search: Speed (max 600) - at age 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "vsp23x",
+          "year": "2023",
+          "label": "Visual letter search: Speed (max 600) - at age 77 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "cansp389",
+        "description": "Visual letter search: Speed (trial 3) - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Letter Search",
+        "library_file": "cog89"
+      },
+      {
+        "varname": "canspa89",
+        "description": "Visual letter search: Speed (average of 3 trials) - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Letter Search",
+        "library_file": "cog89"
+      },
+      {
+        "varname": "cansp289",
+        "description": "Visual letter search: Speed (trial 2) - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Letter Search",
+        "library_file": "cog89"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Processing speed [10125]",
+        "description": "Letter search speed: mean speed for each of the three trials.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Processing_speed_10125.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 1,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          150.0,
+          167.07692307692307,
+          184.15384615384616,
+          201.23076923076923,
+          218.30769230769232,
+          235.3846153846154,
+          252.46153846153845,
+          269.53846153846155,
+          286.61538461538464,
+          303.6923076923077,
+          320.7692307692308,
+          337.8461538461538,
+          354.9230769230769,
+          372.0
+        ],
+        "counts": [
+          63,
+          114,
+          0,
+          112,
+          117,
+          105,
+          100,
+          37,
+          158,
+          57,
+          39,
+          0,
+          41
+        ]
+      },
+      "boxplot": {
+        "min": 150.0,
+        "q1": 204.0,
+        "median": 239.0,
+        "q3": 288.0,
+        "max": 372.0
+      },
+      "units": "Not applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "150"
+      ],
+      [
+        "Maximum",
+        "372"
+      ],
+      [
+        "Range",
+        "222"
+      ],
+      [
+        "Median",
+        "239.0"
+      ],
+      [
+        "IQR",
+        "204.0 - 288.0"
+      ],
+      [
+        "Decile 1",
+        "174.0"
+      ],
+      [
+        "Decile 2",
+        "204.0"
+      ],
+      [
+        "Decile 3",
+        "217.0"
+      ],
+      [
+        "Decile 4",
+        "231.0"
+      ],
+      [
+        "Decile 5",
+        "239.0"
+      ],
+      [
+        "Decile 6",
+        "269.0"
+      ],
+      [
+        "Decile 7",
+        "287.0"
+      ],
+      [
+        "Decile 8",
+        "288.0"
+      ],
+      [
+        "Decile 9",
+        "307.0"
+      ],
+      [
+        "Mean",
+        "247.60445387062566"
+      ],
+      [
+        "Std Dev.",
+        "54.050381639250375"
+      ],
+      [
+        "Variance",
+        "2921.443755348614"
+      ],
+      [
+        "Displayed N",
+        "943"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "varname": "op4y09",
+  "label": "Fourth outpatient illness - Date of beginning of treatment (year) - at age 60-64 years",
+  "field_id": "10095",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10095",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "year",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 25.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Hospital admissions [10]",
+    "Hospital out-patient admissions [51062]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "2005.0",
+      "label": "2005"
+    },
+    {
+      "value": "2007.0",
+      "label": "2007"
+    },
+    {
+      "value": "7777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "2005",
+      "count": 10,
+      "pct": 40.0
+    },
+    {
+      "label": "2007",
+      "count": 15,
+      "pct": 60.0
+    }
+  ],
+  "pdf": {
+    "varname": "op4y09",
+    "label": "Fourth outpatient illness - Date of beginning of treatment (year) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "op4y09"
+      ],
+      [
+        "Field ID",
+        "10095"
+      ],
+      [
+        "Label",
+        "Fourth outpatient illness - Date of beginning of treatment (year) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "OutpatTreat09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "23"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "year"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Date variable - contains exact year of hospital admission"
+      ],
+      [
+        "Notes",
+        "Hospital out-patient data asked in the 2006-10 data collection."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Hospital admissions [10]",
+        "Legacy Category"
+      ],
+      [
+        "Hospital out-patient admissions [51062]",
+        "This category contains data from the questionnaires on hospital out-patient admissions. This is for treatments and surgery at the hospital where the participant went home the same day and did not spend a night in hospital. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "2005.0",
+        "2005",
+        false
+      ],
+      [
+        "2007.0",
+        "2007",
+        false
+      ],
+      [
+        "7777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "2005",
+        "10",
+        "40%"
+      ],
+      [
+        "2007",
+        "15",
+        "60%"
+      ],
+      [
+        "Displayed N",
+        "25",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "op4y09",
+    "label": "Fourth outpatient illness - Date of beginning of treatment (year) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10095",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "op4y09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10095",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Fourth outpatient illness - Date of beginning of treatment (year) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "OutpatTreat09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "23",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "year",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Date variable - contains exact year of hospital admission",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Hospital out-patient data asked in the 2006-10 data collection.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Hospital admissions [10]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hospital out-patient admissions [51062]",
+        "description": "This category contains data from the questionnaires on hospital out-patient admissions. This is for treatments and surgery at the hospital where the participant went home the same day and did not spend a night in hospital. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hospital_out-patient_admissions_51062.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "2005.0",
+        "label": "2005",
+        "is_missing": false
+      },
+      {
+        "value": "2007.0",
+        "label": "2007",
+        "is_missing": false
+      },
+      {
+        "value": "7777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "year",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "2005",
+          "label": "2005",
+          "count": 10,
+          "pct": 40
+        },
+        {
+          "value": "2007",
+          "label": "2007",
+          "count": 15,
+          "pct": 60
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "2005",
+        "10",
+        "40%"
+      ],
+      [
+        "2007",
+        "15",
+        "60%"
+      ],
+      [
+        "Displayed N",
+        "25",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

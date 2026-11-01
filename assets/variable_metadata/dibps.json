@@ -1,0 +1,538 @@
+{
+  "varname": "dibps",
+  "label": "Deflated basic pay p.a. (Industry Specific Index) at age 26 years",
+  "field_id": "7174",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7174",
+  "year": "",
+  "form": "Section C - Main questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 1255.6442949756888,
+  "sd": 373.7450462951657,
+  "series_size": 1234.0,
+  "minimum": 402.69,
+  "maximum": 2160.54,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dincs",
+    "dincg",
+    "dibpg"
+  ],
+  "linked_years": [
+    "1972"
+  ],
+  "categories": [
+    "Other socioeconomic circumstances [24]",
+    "Economic circumstances [5151]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "88888.88",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99999.99",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dibps",
+    "label": "Deflated basic pay p.a. (Industry Specific Index) at age 26 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dibps"
+      ],
+      [
+        "Field ID",
+        "7174"
+      ],
+      [
+        "Label",
+        "Deflated basic pay p.a. (Industry Specific Index) at age 26 years"
+      ],
+      [
+        "Card Number",
+        "Y65"
+      ],
+      [
+        "Form",
+        "Section C - Main questionnaire"
+      ],
+      [
+        "Question",
+        "53"
+      ],
+      [
+        "Year",
+        "1972"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains raw values"
+      ],
+      [
+        "Notes",
+        "1972C Q37-Q53. Questions asked to all employees and those self employed."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dincs",
+        "Deflated before tax earnings p.a. (Industry Specific code) at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "53",
+        "Y65"
+      ],
+      [
+        "dincg",
+        "Deflated before tax earnings p.a. (General index) at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "53",
+        "Y65"
+      ],
+      [
+        "dibpg",
+        "Deflated basic pay p.a. (General Index) at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "53",
+        "Y65"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Economic circumstances [5151]",
+        "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "88888.88",
+        "Not applicable",
+        true
+      ],
+      [
+        "99999.99",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "402.69"
+      ],
+      [
+        "Maximum",
+        "2160.54"
+      ],
+      [
+        "Range",
+        "1757.85"
+      ],
+      [
+        "Median",
+        "1230.03"
+      ],
+      [
+        "IQR",
+        "1013.0175 - 1497.5125"
+      ],
+      [
+        "Decile 1",
+        "780.039"
+      ],
+      [
+        "Decile 2",
+        "954.364"
+      ],
+      [
+        "Decile 3",
+        "1043.858"
+      ],
+      [
+        "Decile 4",
+        "1139.97"
+      ],
+      [
+        "Decile 5",
+        "1230.03"
+      ],
+      [
+        "Decile 6",
+        "1323.052"
+      ],
+      [
+        "Decile 7",
+        "1443.36"
+      ],
+      [
+        "Decile 8",
+        "1564.4860000000003"
+      ],
+      [
+        "Decile 9",
+        "1777.4250000000002"
+      ],
+      [
+        "Mean",
+        "1255.6442949756888"
+      ],
+      [
+        "Std Dev.",
+        "373.7450462951657"
+      ],
+      [
+        "Variance",
+        "139685.35963017555"
+      ],
+      [
+        "Displayed N",
+        "1234"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dibps",
+    "label": "Deflated basic pay p.a. (Industry Specific Index) at age 26 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7174",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dibps",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7174",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Deflated basic pay p.a. (Industry Specific Index) at age 26 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Y65",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Section C - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "53",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1972",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains raw values",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "1972C Q37-Q53. Questions asked to all employees and those self employed.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dincs",
+        "description": "Deflated before tax earnings p.a. (Industry Specific code) at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "53",
+        "library_file": "Y65"
+      },
+      {
+        "varname": "dincg",
+        "description": "Deflated before tax earnings p.a. (General index) at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "53",
+        "library_file": "Y65"
+      },
+      {
+        "varname": "dibpg",
+        "description": "Deflated basic pay p.a. (General Index) at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "53",
+        "library_file": "Y65"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Economic circumstances [5151]",
+        "description": "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Economic_circumstances_5151.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "88888.88",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99999.99",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          402.69,
+          490.5825,
+          578.475,
+          666.3675000000001,
+          754.26,
+          842.1524999999999,
+          930.0450000000001,
+          1017.9375,
+          1105.83,
+          1193.7225,
+          1281.615,
+          1369.5075,
+          1457.4,
+          1545.2925,
+          1633.185,
+          1721.0775,
+          1808.97,
+          1896.8625,
+          1984.755,
+          2072.6475,
+          2160.54
+        ],
+        "counts": [
+          21,
+          22,
+          29,
+          38,
+          45,
+          64,
+          94,
+          136,
+          114,
+          130,
+          97,
+          92,
+          85,
+          76,
+          30,
+          48,
+          37,
+          30,
+          26,
+          20
+        ]
+      },
+      "boxplot": {
+        "min": 402.69,
+        "q1": 1013.0175,
+        "median": 1230.03,
+        "q3": 1497.5125,
+        "max": 2160.54
+      },
+      "units": "Not applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "402.69"
+      ],
+      [
+        "Maximum",
+        "2160.54"
+      ],
+      [
+        "Range",
+        "1757.85"
+      ],
+      [
+        "Median",
+        "1230.03"
+      ],
+      [
+        "IQR",
+        "1013.0175 - 1497.5125"
+      ],
+      [
+        "Decile 1",
+        "780.039"
+      ],
+      [
+        "Decile 2",
+        "954.364"
+      ],
+      [
+        "Decile 3",
+        "1043.858"
+      ],
+      [
+        "Decile 4",
+        "1139.97"
+      ],
+      [
+        "Decile 5",
+        "1230.03"
+      ],
+      [
+        "Decile 6",
+        "1323.052"
+      ],
+      [
+        "Decile 7",
+        "1443.36"
+      ],
+      [
+        "Decile 8",
+        "1564.4860000000003"
+      ],
+      [
+        "Decile 9",
+        "1777.4250000000002"
+      ],
+      [
+        "Mean",
+        "1255.6442949756888"
+      ],
+      [
+        "Std Dev.",
+        "373.7450462951657"
+      ],
+      [
+        "Variance",
+        "139685.35963017555"
+      ],
+      [
+        "Displayed N",
+        "1234"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

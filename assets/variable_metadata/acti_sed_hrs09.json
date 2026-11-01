@@ -1,0 +1,462 @@
+{
+  "varname": "acti_sed_hrs09",
+  "label": "Time spent sedentary (<=1.5 rel METs) (hrs/day) - at age 60-64 years",
+  "field_id": "1011",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1011",
+  "year": "",
+  "form": "Actiheart monitor",
+  "units": "hrs/day",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 17.394653293906835,
+  "sd": 1.6770245657808072,
+  "series_size": 1553.0,
+  "minimum": 13.638957977294922,
+  "maximum": 20.717384338378906,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Other health behaviours [17]",
+    "Actiheart monitor [1101]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "No such actiheart data"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "acti_sed_hrs09",
+    "label": "Time spent sedentary (<=1.5 rel METs) (hrs/day) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "acti_sed_hrs09"
+      ],
+      [
+        "Field ID",
+        "1011"
+      ],
+      [
+        "Label",
+        "Time spent sedentary (<=1.5 rel METs) (hrs/day) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Actiheart09"
+      ],
+      [
+        "Form",
+        "Actiheart monitor"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hrs/day"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived actiheart variables. The raw actiheart data cannot be requested via Skylark, please talk to LHA staff"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Actiheart monitor [1101]",
+        "This category contains dervied variables from the actiheart monitor worn by the participants for 5 days including overnight."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "No such actiheart data",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "13.638957977294922"
+      ],
+      [
+        "Maximum",
+        "20.717384338378906"
+      ],
+      [
+        "Range",
+        "7.078426361083984"
+      ],
+      [
+        "Median",
+        "17.43938636779785"
+      ],
+      [
+        "IQR",
+        "16.152469635009766 - 18.713449478149414"
+      ],
+      [
+        "Decile 1",
+        "15.015536499023437"
+      ],
+      [
+        "Decile 2",
+        "15.834357833862304"
+      ],
+      [
+        "Decile 3",
+        "16.4458740234375"
+      ],
+      [
+        "Decile 4",
+        "16.921063232421876"
+      ],
+      [
+        "Decile 5",
+        "17.43938636779785"
+      ],
+      [
+        "Decile 6",
+        "17.967361068725587"
+      ],
+      [
+        "Decile 7",
+        "18.453229904174805"
+      ],
+      [
+        "Decile 8",
+        "18.94906692504883"
+      ],
+      [
+        "Decile 9",
+        "19.6017578125"
+      ],
+      [
+        "Mean",
+        "17.394653293906835"
+      ],
+      [
+        "Std Dev.",
+        "1.6770245657808072"
+      ],
+      [
+        "Variance",
+        "2.812411394232305"
+      ],
+      [
+        "Displayed N",
+        "1553"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "acti_sed_hrs09",
+    "label": "Time spent sedentary (<=1.5 rel METs) (hrs/day) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1011",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "acti_sed_hrs09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1011",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Time spent sedentary (<=1.5 rel METs) (hrs/day) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Actiheart09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Actiheart monitor",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hrs/day",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived actiheart variables. The raw actiheart data cannot be requested via Skylark, please talk to LHA staff",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Actiheart monitor [1101]",
+        "description": "This category contains dervied variables from the actiheart monitor worn by the participants for 5 days including overnight.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Actiheart_monitor_1101.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "No such actiheart data",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "hrs/day",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          13.638957977294922,
+          14.055335998535156,
+          14.47171401977539,
+          14.888092041015625,
+          15.30447006225586,
+          15.720848083496094,
+          16.137226104736328,
+          16.553604125976562,
+          16.969982147216797,
+          17.38636016845703,
+          17.802738189697266,
+          18.2191162109375,
+          18.635494232177734,
+          19.05187225341797,
+          19.468250274658203,
+          19.884628295898438,
+          20.301006317138672,
+          20.717384338378906
+        ],
+        "counts": [
+          28,
+          43,
+          63,
+          57,
+          85,
+          108,
+          116,
+          135,
+          125,
+          119,
+          137,
+          121,
+          129,
+          101,
+          78,
+          66,
+          42
+        ]
+      },
+      "boxplot": {
+        "min": 13.638957977294922,
+        "q1": 16.152469635009766,
+        "median": 17.43938636779785,
+        "q3": 18.713449478149414,
+        "max": 20.717384338378906
+      },
+      "units": "hrs/day"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "13.638957977294922"
+      ],
+      [
+        "Maximum",
+        "20.717384338378906"
+      ],
+      [
+        "Range",
+        "7.078426361083984"
+      ],
+      [
+        "Median",
+        "17.43938636779785"
+      ],
+      [
+        "IQR",
+        "16.152469635009766 - 18.713449478149414"
+      ],
+      [
+        "Decile 1",
+        "15.015536499023437"
+      ],
+      [
+        "Decile 2",
+        "15.834357833862304"
+      ],
+      [
+        "Decile 3",
+        "16.4458740234375"
+      ],
+      [
+        "Decile 4",
+        "16.921063232421876"
+      ],
+      [
+        "Decile 5",
+        "17.43938636779785"
+      ],
+      [
+        "Decile 6",
+        "17.967361068725587"
+      ],
+      [
+        "Decile 7",
+        "18.453229904174805"
+      ],
+      [
+        "Decile 8",
+        "18.94906692504883"
+      ],
+      [
+        "Decile 9",
+        "19.6017578125"
+      ],
+      [
+        "Mean",
+        "17.394653293906835"
+      ],
+      [
+        "Std Dev.",
+        "1.6770245657808072"
+      ],
+      [
+        "Variance",
+        "2.812411394232305"
+      ],
+      [
+        "Displayed N",
+        "1553"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

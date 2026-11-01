@@ -1,0 +1,473 @@
+{
+  "varname": "smokden09",
+  "label": "Whether smoking data available and source of data - at age 60-64 years",
+  "field_id": "10238",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10238",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 5356.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Other health behaviours [17]",
+    "Smoking [5251]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Smoking data from Postal Questionnaire"
+    },
+    {
+      "value": "2.0",
+      "label": "Smoking data from Pre-assessment Questionnaire"
+    },
+    {
+      "value": "4.0",
+      "label": "No smoking data - did not complete Postal or Pre-assessment Q"
+    },
+    {
+      "value": "5.0",
+      "label": "No smoking data - completed postal and pre-assessment but Q not asked"
+    },
+    {
+      "value": "6.0",
+      "label": "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q"
+    },
+    {
+      "value": "7.0",
+      "label": "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Smoking data from Postal Questionnaire",
+      "count": 2179,
+      "pct": 40.7
+    },
+    {
+      "label": "Smoking data from Pre-assessment Questionnaire",
+      "count": 226,
+      "pct": 4.2
+    },
+    {
+      "label": "No smoking data - did not complete Postal or Pre-assessment Q",
+      "count": 2703,
+      "pct": 50.5
+    },
+    {
+      "label": "No smoking data - completed postal and pre-assessment but Q not asked",
+      "count": 19,
+      "pct": 0.4
+    },
+    {
+      "label": "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q",
+      "count": 229,
+      "pct": 4.3
+    }
+  ],
+  "pdf": {
+    "varname": "smokden09",
+    "label": "Whether smoking data available and source of data - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "smokden09"
+      ],
+      [
+        "Field ID",
+        "10238"
+      ],
+      [
+        "Label",
+        "Whether smoking data available and source of data - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Smoking09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "57"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lifestyle questions - smoking habits Q54-Q57"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Smoking [5251]",
+        "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Smoking data from Postal Questionnaire",
+        false
+      ],
+      [
+        "2.0",
+        "Smoking data from Pre-assessment Questionnaire",
+        false
+      ],
+      [
+        "4.0",
+        "No smoking data - did not complete Postal or Pre-assessment Q",
+        false
+      ],
+      [
+        "5.0",
+        "No smoking data - completed postal and pre-assessment but Q not asked",
+        false
+      ],
+      [
+        "6.0",
+        "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q",
+        false
+      ],
+      [
+        "7.0",
+        "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "2179",
+        "41%"
+      ],
+      [
+        "2",
+        "226",
+        "4%"
+      ],
+      [
+        "4",
+        "2703",
+        "50%"
+      ],
+      [
+        "5",
+        "19",
+        "0%"
+      ],
+      [
+        "6",
+        "60",
+        "1%"
+      ],
+      [
+        "7",
+        "169",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "5356",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "smokden09",
+    "label": "Whether smoking data available and source of data - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10238",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "smokden09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10238",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Whether smoking data available and source of data - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Smoking09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "57",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lifestyle questions - smoking habits Q54-Q57",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Smoking [5251]",
+        "description": "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Smoking_5251.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Smoking data from Postal Questionnaire",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Smoking data from Pre-assessment Questionnaire",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "No smoking data - did not complete Postal or Pre-assessment Q",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "No smoking data - completed postal and pre-assessment but Q not asked",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Smoking data from Postal Questionnaire",
+          "count": 2179,
+          "pct": 41
+        },
+        {
+          "value": "2",
+          "label": "Smoking data from Pre-assessment Questionnaire",
+          "count": 226,
+          "pct": 4
+        },
+        {
+          "value": "4",
+          "label": "No smoking data - did not complete Postal or Pre-assessment Q",
+          "count": 2703,
+          "pct": 50
+        },
+        {
+          "value": "5",
+          "label": "No smoking data - completed postal and pre-assessment but Q not asked",
+          "count": 19,
+          "pct": 0
+        },
+        {
+          "value": "6",
+          "label": "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q",
+          "count": 60,
+          "pct": 1
+        },
+        {
+          "value": "7",
+          "label": "No smoking data - has Pre-assess Q where smoking was not asked. No Postal Q",
+          "count": 169,
+          "pct": 3
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "2179",
+        "41%"
+      ],
+      [
+        "2",
+        "226",
+        "4%"
+      ],
+      [
+        "4",
+        "2703",
+        "50%"
+      ],
+      [
+        "5",
+        "19",
+        "0%"
+      ],
+      [
+        "6",
+        "60",
+        "1%"
+      ],
+      [
+        "7",
+        "169",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "5356",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

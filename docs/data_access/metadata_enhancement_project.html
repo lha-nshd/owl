@@ -1,0 +1,135 @@
+---
+layout: default
+title: Metadata Enhancement Project
+parent: Accessing NSHD Data
+nav_order: 1
+permalink: /docs/accessing-nshd-data/metadata-enhancement-project/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-sparkles" aria-hidden="true"></i> Metadata Enhancement Project</h1>
+    <p>How the NSHD data team is systematically improving variable metadata across 35,000+ variables to make discovery easier and more reliable.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#existing-fields" class="gs-toc-da-owl"><i class="ti ti-edit" aria-hidden="true"></i> Existing fields</a></li>
+      <li><a href="#new-fields" class="gs-toc-da-showcase"><i class="ti ti-plus" aria-hidden="true"></i> New metadata fields</a></li>
+      <li><a href="#progress" class="gs-toc-da-skylark"><i class="ti ti-progress" aria-hidden="true"></i> Project progress</a></li>
+    </ul>
+    <a href="/OWL/docs/accessing-nshd-data/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Accessing NSHD Data</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>The Metadata Enhancement Project is an ongoing programme of work to transform the quality of metadata held across the NSHD data infrastructure. The project covers all 35,000+ variables in the NSHD repository and is due for completion at the end of 2027. Work is progressing questionnaire by questionnaire — you can check the data coverage of what is available on OWL via the <a href="{{ site.baseurl }}/docs/data-coverage/" style="color:#6a0dad;">Data Coverage</a> page. The improvements directly affect what you see when browsing variables on OWL and in Condor. This page explains what has been changed and why.</p>
+  </div>
+
+  <div class="home-section gs-card-search">
+    <h2 id="existing-fields"><i class="ti ti-edit" aria-hidden="true"></i> Improvements to existing fields</h2>
+    <p>The following improvements are being applied to all variables as they are processed through the project:</p>
+
+    <style>
+      .enh-row { display:flex; gap:10px; margin-bottom:10px; align-items:flex-start; }
+      .enh-badge { font-size:10px; font-weight:700; padding:3px 9px; border-radius:10px; white-space:nowrap; flex-shrink:0; margin-top:2px; }
+      .eb-1 { background:hsl(180 45% 90%); color:hsl(180 45% 16%); border:1px solid hsl(180 45% 60%); }
+      .eb-2 { background:hsl(35 60% 90%);  color:hsl(35 60% 16%);  border:1px solid hsl(35 60% 60%);  }
+      .eb-3 { background:hsl(340 45% 90%); color:hsl(340 45% 18%); border:1px solid hsl(340 45% 60%); }
+      .eb-4 { background:hsl(125 35% 88%); color:hsl(125 35% 16%); border:1px solid hsl(125 35% 58%); }
+      .eb-5 { background:hsl(210 45% 90%); color:hsl(210 45% 16%); border:1px solid hsl(210 45% 60%); }
+      .eb-6 { background:hsl(270 35% 90%); color:hsl(270 35% 18%); border:1px solid hsl(270 35% 58%); }
+      .enh-text { font-size:12px; color:#333; margin:0; line-height:1.6; }
+    </style>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-1">Variable labels</span>
+      <p class="enh-text">Variable labels are being expanded and rewritten to be fully descriptive, replacing the truncated text inherited from legacy SPSS files which historically imposed strict character limits. The aim is to give researchers an accurate description of what was measured. OWL also gives access to the orginal questionnaire if researchers want to read the full question text.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-2">Age at collection</span>
+      <p class="enh-text">Where possible, the participant's age at collection is appended to each variable label — for example <em>Standing height — at age 43 years</em>. This makes it immediately clear at which point in the life course a variable was collected, without needing to cross-reference the sweep year. For researchers new to the 1946 birth cohort, this significantly reduces ambiguity when selecting variables across multiple time points.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-3">Longitudinal label standardisation</span>
+      <p class="enh-text">For variables collected at more than one sweep — repeat measures of the same construct over time — the main body of the label is now standardised across all instances, with only the participant age differing between sweeps. This makes it straightforward to identify and compare all time points of a measure, since they share a consistent label root.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-4">Category structure</span>
+      <p class="enh-text">All variables are being re-categorised into a new hierarchical topic structure. The previous system had 23 flat top-level categories that were not assigned to all variables, leaving many uncategorised. The new structure uses a multi-level hierarchy of domains, categories, and sub-categories — mirroring UK Biobank's categorisation where possible — so variables can be found by topic browsing as well as by keyword search. Variables can belong to multiple categories simultaneously.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-5">Derived status</span>
+      <p class="enh-text">The derived variable flag is being fully populated across all variables. Previously this field was only set for some variables. On OWL the Derived Status field clearly indicates 0 (directly measured or recorded) or 1 (derived or calculated from other variables), helping researchers understand whether they are working with raw collected data or a constructed measure.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-6">Missing value codes</span>
+      <p class="enh-text">The database field that identifies which value labels represent missing data codes — for example 77 (No questionnaire), 99 (Unknown), or 9999 (No examination done) — is being fully populated for all variables. This enables OWL to correctly exclude these codes from distribution plots and summary statistics, so that only substantive responses are shown in the frequency displays.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-1">Value label consistency</span>
+      <p class="enh-text">Value labels are being standardised for consistency across variables. For example, "No" may have been coded differently across questionnaires and sweeps — appearing variously as no, No, or NO. These inconsistencies are being resolved so that the same response is labelled identically wherever it appears. Missing value labels are also being identified and added where they were not previously recorded.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-2">Longitudinal linking</span>
+      <p class="enh-text">Variables collected at different sweeps are being linked together where appropriate. On OWL, the Truly Longitudinal grouping requires that the question text and response coding are identical across all sweeps being linked. The wider Linked and Longitudinal Variables section is more flexible and can connect any variables for any reason — including measures where the question wording or coding changed, or variables that form part of the same instrument or scale.</p>
+    </div>
+
+  </div>
+
+  <div class="home-section gs-card-explore">
+    <h2 id="new-fields"><i class="ti ti-plus" aria-hidden="true"></i> New metadata fields created</h2>
+    <p>Several new metadata fields have been created as part of the project that did not previously exist in the NSHD databases. These are visible on OWL variable metadata pages:</p>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-2">Units</span>
+      <p class="enh-text">A dedicated field capturing the unit of measurement for continuous variables — for example cm, kg, mmHg, or seconds — held separately from the label text. This makes it straightforward to identify what scale a continuous variable is measured on without reading the full label. On OWL, Units appears as a distinct field on the variable metadata page.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-2">Sensitive flag</span>
+      <p class="enh-text">A flag to identify variables that are sensitive but not entirely hidden from public view — for example variables containing ICD diagnosis codes or BNF medication codes. Previously, variables were either fully visible or fully hidden. The sensitive flag creates an intermediate state, notifying researchers that a variable carries additional sensitivity considerations before they include it in a data request.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-2">Reason Sensitive / Reason Public</span>
+      <p class="enh-text">Text fields recording, respectively, why a variable has been flagged as sensitive and why a variable is made publicly visible in OWL. These fields provide transparency about the governance decisions behind access controls, so researchers understand the basis on which access is granted or restricted.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-2">Notes</span>
+      <p class="enh-text">A free-text notes field for variable-specific contextual information that does not fit neatly into other structured fields. Notes may contain measurement conditions — for example whether a height measurement was taken with or without shoes — known caveats about data quality, recoding details, or any other information that helps researchers interpret the variable correctly. Notes are specific to each variable and appear on the OWL variable metadata page.</p>
+    </div>
+
+    <div class="enh-row">
+      <span class="enh-badge eb-2">Distribution plots and statistics</span>
+      <p class="enh-text">New frequency distribution visualisations have been created for all variables processed through the project. Continuous variables receive a histogram and a table of summary statistics — minimum, deciles 1 through 9, maximum, mean, standard deviation, and variance. Categorical variables receive a bar chart and a response count table. These appear on the OWL variable metadata page, with disclosure controls applied: response categories with fewer than 10 observations are suppressed in the display, and continuous distributions are trimmed to the 5th–95th percentile range to reduce the influence of extreme outliers.</p>
+    </div>
+
+  </div>
+
+  <div class="home-section gs-card-basket">
+    <h2 id="progress"><i class="ti ti-progress" aria-hidden="true"></i> Project progress</h2>
+    <p>The Metadata Enhancement Project covers all 35,000+ variables in the NSHD repository and is being worked through questionnaire by questionnaire. Once a questionnaire's variables have been processed, reviewed, and validated, they are made available on OWL and Condor with the enhanced metadata, new distribution plots, and updated category structure.</p>
+    <p>The <a href="{{ site.baseurl }}/docs/data-coverage/" style="color:#6a0dad;">Data Coverage</a> page on OWL shows what is currently available. This is the best place to check whether variables from a particular sweep or instrument have been updated.</p>
+    <p>The project is due for completion at the end of 2027, at which point all variables in the NSHD repository will have been processed, enhanced, and made available on OWL and Condor with the full set of new metadata fields and distribution visualisations.</p>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Check what is currently available on the <a href="{{ site.baseurl }}/docs/data-coverage/" style="color:#6a0dad;">Data Coverage page</a>.</span>
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>
