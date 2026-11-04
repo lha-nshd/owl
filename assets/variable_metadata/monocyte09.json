@@ -1,0 +1,606 @@
+{
+  "varname": "monocyte09",
+  "label": "Monocyte (10^9/L) - at age 60-64 years",
+  "field_id": "1088",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1088",
+  "year": "",
+  "form": "Blood assays",
+  "units": "10^9/L",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.47260450160771705,
+  "sd": 0.12822588197073903,
+  "series_size": 1866.0,
+  "minimum": 0.26,
+  "maximum": 0.81,
+  "truly_longitudinal_field_id": "1088",
+  "truly_longitudinal_varnames": [
+    "mono23x",
+    "monocyte15x"
+  ],
+  "truly_longitudinal_years": [
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Blood, urine, and other samples [27]",
+    "Blood biochemistry [2011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "7.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "77.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "7777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown, see corresponding result code"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "monocyte09",
+    "label": "Monocyte (10^9/L) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "monocyte09"
+      ],
+      [
+        "Field ID",
+        "1088"
+      ],
+      [
+        "Label",
+        "Monocyte (10^9/L) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Blood_Urine09"
+      ],
+      [
+        "Form",
+        "Blood assays"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "10^9/L"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Variable from blood assays."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "mono23x",
+        "2023",
+        "Monocyte (10^9/L) - at age 77 years"
+      ],
+      [
+        "monocyte15x",
+        "2015",
+        "Monocyte (10^9/L) - at age 69 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood, urine, and other samples [27]",
+        "Legacy Category"
+      ],
+      [
+        "Blood biochemistry [2011]",
+        "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "7.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "77.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "7777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "9.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown, see corresponding result code",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.26"
+      ],
+      [
+        "Maximum",
+        "0.81"
+      ],
+      [
+        "Range",
+        "0.55"
+      ],
+      [
+        "Median",
+        "0.46"
+      ],
+      [
+        "IQR",
+        "0.38 - 0.55"
+      ],
+      [
+        "Decile 1",
+        "0.3"
+      ],
+      [
+        "Decile 2",
+        "0.36"
+      ],
+      [
+        "Decile 3",
+        "0.4"
+      ],
+      [
+        "Decile 4",
+        "0.41"
+      ],
+      [
+        "Decile 5",
+        "0.46"
+      ],
+      [
+        "Decile 6",
+        "0.5"
+      ],
+      [
+        "Decile 7",
+        "0.53"
+      ],
+      [
+        "Decile 8",
+        "0.6"
+      ],
+      [
+        "Decile 9",
+        "0.66"
+      ],
+      [
+        "Mean",
+        "0.47260450160771705"
+      ],
+      [
+        "Std Dev.",
+        "0.12822588197073903"
+      ],
+      [
+        "Variance",
+        "0.0164418768071739"
+      ],
+      [
+        "Displayed N",
+        "1866"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "monocyte09",
+    "label": "Monocyte (10^9/L) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1088",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "monocyte09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1088",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Monocyte (10^9/L) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Blood_Urine09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Blood assays",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "10^9/L",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Variable from blood assays.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1088",
+      "members": [
+        {
+          "varname": "monocyte09",
+          "year": "2006-10",
+          "label": "Monocyte (10^9/L) - at age 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "monocyte15x",
+          "year": "2015",
+          "label": "Monocyte (10^9/L) - at age 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "mono23x",
+          "year": "2023",
+          "label": "Monocyte (10^9/L) - at age 77 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood, urine, and other samples [27]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood biochemistry [2011]",
+        "description": "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biochemistry_2011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "7.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "10^9/L",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.26,
+          0.28750000000000003,
+          0.315,
+          0.3425,
+          0.37,
+          0.3975,
+          0.42500000000000004,
+          0.4525,
+          0.48000000000000004,
+          0.5075000000000001,
+          0.535,
+          0.5625,
+          0.5900000000000001,
+          0.6175,
+          0.645,
+          0.6725000000000001,
+          0.7000000000000001,
+          0.7275,
+          0.7550000000000001,
+          0.7825000000000001,
+          0.81
+        ],
+        "counts": [
+          40,
+          198,
+          81,
+          83,
+          104,
+          304,
+          113,
+          100,
+          218,
+          94,
+          92,
+          65,
+          121,
+          51,
+          32,
+          78,
+          17,
+          22,
+          23,
+          30
+        ]
+      },
+      "boxplot": {
+        "min": 0.26,
+        "q1": 0.38,
+        "median": 0.46,
+        "q3": 0.55,
+        "max": 0.81
+      },
+      "units": "10^9/L"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.26"
+      ],
+      [
+        "Maximum",
+        "0.81"
+      ],
+      [
+        "Range",
+        "0.55"
+      ],
+      [
+        "Median",
+        "0.46"
+      ],
+      [
+        "IQR",
+        "0.38 - 0.55"
+      ],
+      [
+        "Decile 1",
+        "0.3"
+      ],
+      [
+        "Decile 2",
+        "0.36"
+      ],
+      [
+        "Decile 3",
+        "0.4"
+      ],
+      [
+        "Decile 4",
+        "0.41"
+      ],
+      [
+        "Decile 5",
+        "0.46"
+      ],
+      [
+        "Decile 6",
+        "0.5"
+      ],
+      [
+        "Decile 7",
+        "0.53"
+      ],
+      [
+        "Decile 8",
+        "0.6"
+      ],
+      [
+        "Decile 9",
+        "0.66"
+      ],
+      [
+        "Mean",
+        "0.47260450160771705"
+      ],
+      [
+        "Std Dev.",
+        "0.12822588197073903"
+      ],
+      [
+        "Variance",
+        "0.0164418768071739"
+      ],
+      [
+        "Displayed N",
+        "1866"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

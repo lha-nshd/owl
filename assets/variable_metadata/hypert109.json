@@ -1,0 +1,447 @@
+{
+  "varname": "hypert109",
+  "label": "Hypertension (BP>=140/90) - first reading - at age 60-64 years",
+  "field_id": "1155",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1155",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2215.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "hypert209",
+    "hypert09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Blood pressure [1103]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "885.0",
+      "label": "Unable - reason unknown"
+    },
+    {
+      "value": "886.0",
+      "label": "Unable because machine not working"
+    },
+    {
+      "value": "887.0",
+      "label": "Unable because of pain discomfort"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 1175,
+      "pct": 53.0
+    },
+    {
+      "label": "Yes",
+      "count": 1040,
+      "pct": 47.0
+    }
+  ],
+  "pdf": {
+    "varname": "hypert109",
+    "label": "Hypertension (BP>=140/90) - first reading - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "hypert109"
+      ],
+      [
+        "Field ID",
+        "1155"
+      ],
+      [
+        "Label",
+        "Hypertension (BP>=140/90) - first reading - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "BP09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "32"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2006-10 nurse schedule. Blood pressure section."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "hypert209",
+        "Hypertension (BP>=140/90) - second reading - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "32",
+        "BP09"
+      ],
+      [
+        "hypert09",
+        "Hypertension (BP>=140/90) - second reading or first if no second reading - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "32",
+        "BP09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Blood pressure [1103]",
+        "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "885.0",
+        "Unable - reason unknown",
+        true
+      ],
+      [
+        "886.0",
+        "Unable because machine not working",
+        true
+      ],
+      [
+        "887.0",
+        "Unable because of pain discomfort",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1175",
+        "53%"
+      ],
+      [
+        "1",
+        "1040",
+        "47%"
+      ],
+      [
+        "Displayed N",
+        "2215",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "hypert109",
+    "label": "Hypertension (BP>=140/90) - first reading - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1155",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hypert109",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1155",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Hypertension (BP>=140/90) - first reading - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "BP09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "32",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 nurse schedule. Blood pressure section.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "hypert209",
+        "description": "Hypertension (BP>=140/90) - second reading - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "32",
+        "library_file": "BP09"
+      },
+      {
+        "varname": "hypert09",
+        "description": "Hypertension (BP>=140/90) - second reading or first if no second reading - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "32",
+        "library_file": "BP09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood pressure [1103]",
+        "description": "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pressure_1103.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "885.0",
+        "label": "Unable - reason unknown",
+        "is_missing": true
+      },
+      {
+        "value": "886.0",
+        "label": "Unable because machine not working",
+        "is_missing": true
+      },
+      {
+        "value": "887.0",
+        "label": "Unable because of pain discomfort",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 8
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 1175,
+          "pct": 53
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 1040,
+          "pct": 47
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1175",
+        "53%"
+      ],
+      [
+        "1",
+        "1040",
+        "47%"
+      ],
+      [
+        "Displayed N",
+        "2215",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

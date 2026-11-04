@@ -1,0 +1,498 @@
+{
+  "varname": "dlunga115x",
+  "label": "What was your age when the first mentioned chronic lung disease was diagnosed - at age 69 years",
+  "field_id": "8522",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8522",
+  "year": "",
+  "form": "Home visit",
+  "units": "years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 64.62616822429906,
+  "sd": 4.098149490041648,
+  "series_size": 107.0,
+  "minimum": 50.0,
+  "maximum": 69.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dlunga215x"
+  ],
+  "linked_years": [
+    "2015"
+  ],
+  "categories": [
+    "Respiratory health [5]",
+    "Respiratory conditions [51013]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Question not asked in postal home visit"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dlunga115x",
+    "label": "What was your age when the first mentioned chronic lung disease was diagnosed - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dlunga115x"
+      ],
+      [
+        "Field ID",
+        "8522"
+      ],
+      [
+        "Label",
+        "What was your age when the first mentioned chronic lung disease was diagnosed - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "MedicalConditions15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "10(c)"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dlunga215x",
+        "What was your age when the second mentioned chronic lung disease was diagnosed - at age 69 years",
+        "2015",
+        "Home visit",
+        "10c2",
+        "MedicalConditions15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory health [5]",
+        "Legacy Category"
+      ],
+      [
+        "Respiratory conditions [51013]",
+        "This category contains data from the questionnaires on whether the participant has and respiratory conditions i.e chronic lung disease, COPD, emphysema, asthma, bronchitis and hayfever. They were also asked if they were prescribed medication. CLS asthma harmonisation dataset is also included). Questions were asked in 1948 (age 2 years), 1952 (age 6 years), 1953 (age 7 years), 1957 (age 11 years), 1961 (age 15 years), 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2020-21 (covid), 2022 (age 76 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Question not asked in postal home visit",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "50"
+      ],
+      [
+        "Maximum",
+        "69"
+      ],
+      [
+        "Range",
+        "19"
+      ],
+      [
+        "Median",
+        "66.0"
+      ],
+      [
+        "IQR",
+        "63.0 - 68.0"
+      ],
+      [
+        "Decile 1",
+        "60.0"
+      ],
+      [
+        "Decile 2",
+        "61.2"
+      ],
+      [
+        "Decile 3",
+        "63.8"
+      ],
+      [
+        "Decile 4",
+        "65.0"
+      ],
+      [
+        "Decile 5",
+        "66.0"
+      ],
+      [
+        "Decile 6",
+        "66.0"
+      ],
+      [
+        "Decile 7",
+        "67.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "69.0"
+      ],
+      [
+        "Mean",
+        "64.62616822429906"
+      ],
+      [
+        "Std Dev.",
+        "4.098149490041648"
+      ],
+      [
+        "Variance",
+        "16.794829242728625"
+      ],
+      [
+        "Displayed N",
+        "107"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dlunga115x",
+    "label": "What was your age when the first mentioned chronic lung disease was diagnosed - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8522",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dlunga115x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8522",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "What was your age when the first mentioned chronic lung disease was diagnosed - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "MedicalConditions15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "10(c)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dlunga215x",
+        "description": "What was your age when the second mentioned chronic lung disease was diagnosed - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "10c2",
+        "library_file": "MedicalConditions15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory health [5]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Respiratory conditions [51013]",
+        "description": "This category contains data from the questionnaires on whether the participant has and respiratory conditions i.e chronic lung disease, COPD, emphysema, asthma, bronchitis and hayfever. They were also asked if they were prescribed medication. CLS asthma harmonisation dataset is also included). Questions were asked in 1948 (age 2 years), 1952 (age 6 years), 1953 (age 7 years), 1957 (age 11 years), 1961 (age 15 years), 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2020-21 (covid), 2022 (age 76 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Respiratory_conditions_51013.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Question not asked in postal home visit",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          50.0,
+          51.9,
+          53.8,
+          55.7,
+          57.6,
+          59.5,
+          61.4,
+          63.3,
+          65.2,
+          67.1,
+          69.0
+        ],
+        "counts": [
+          2,
+          1,
+          3,
+          1,
+          2,
+          13,
+          10,
+          18,
+          27,
+          30
+        ]
+      },
+      "boxplot": {
+        "min": 50.0,
+        "q1": 63.0,
+        "median": 66.0,
+        "q3": 68.0,
+        "max": 69.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "50"
+      ],
+      [
+        "Maximum",
+        "69"
+      ],
+      [
+        "Range",
+        "19"
+      ],
+      [
+        "Median",
+        "66.0"
+      ],
+      [
+        "IQR",
+        "63.0 - 68.0"
+      ],
+      [
+        "Decile 1",
+        "60.0"
+      ],
+      [
+        "Decile 2",
+        "61.2"
+      ],
+      [
+        "Decile 3",
+        "63.8"
+      ],
+      [
+        "Decile 4",
+        "65.0"
+      ],
+      [
+        "Decile 5",
+        "66.0"
+      ],
+      [
+        "Decile 6",
+        "66.0"
+      ],
+      [
+        "Decile 7",
+        "67.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "69.0"
+      ],
+      [
+        "Mean",
+        "64.62616822429906"
+      ],
+      [
+        "Std Dev.",
+        "4.098149490041648"
+      ],
+      [
+        "Variance",
+        "16.794829242728625"
+      ],
+      [
+        "Displayed N",
+        "107"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

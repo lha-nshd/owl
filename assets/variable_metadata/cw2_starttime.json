@@ -1,0 +1,279 @@
+{
+  "varname": "cw2_starttime",
+  "label": "Start date of covid-19 online survey started - Covid wave 2 (age 74 years)",
+  "field_id": "12102",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12102",
+  "year": "",
+  "form": "Covid wave 2",
+  "units": "datetime",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "unavailable",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "12102",
+  "truly_longitudinal_varnames": [
+    "cw1_startdate",
+    "cw3_datetime_start"
+  ],
+  "truly_longitudinal_years": [
+    "2020",
+    "2021"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Data collection information [6021]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "cw2_starttime",
+    "label": "Start date of covid-19 online survey started - Covid wave 2 (age 74 years)",
+    "meta_rows": [
+      [
+        "Variable",
+        "cw2_starttime"
+      ],
+      [
+        "Field ID",
+        "12102"
+      ],
+      [
+        "Label",
+        "Start date of covid-19 online survey started - Covid wave 2 (age 74 years)"
+      ],
+      [
+        "Card Number",
+        "CW2_COVID"
+      ],
+      [
+        "Form",
+        "Covid wave 2"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "datetime"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Date variable contains exact date"
+      ],
+      [
+        "Notes",
+        "This question was not asked in the postal version only asked online."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cw1_startdate",
+        "2020",
+        "Start date of covid-19 online survey started - Covid wave 1 (age 74 years)"
+      ],
+      [
+        "cw3_datetime_start",
+        "2021",
+        "Start date of covid-19 online survey started - Covid wave 3 (age 75 years)"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Data collection information [6021]",
+        "This category contains the data collection information from the 2020-2021 covid questionnaires where the participant was 74 years."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "unavailable",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "cw2_starttime",
+    "label": "Start date of covid-19 online survey started - Covid wave 2 (age 74 years)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12102",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cw2_starttime",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "12102",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Start date of covid-19 online survey started - Covid wave 2 (age 74 years)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CW2_COVID",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Covid wave 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "datetime",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Date variable contains exact date",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This question was not asked in the postal version only asked online.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "12102",
+      "members": [
+        {
+          "varname": "cw1_startdate",
+          "year": "2020",
+          "label": "Start date of covid-19 online survey started - Covid wave 1 (age 74 years)",
+          "is_current": false
+        },
+        {
+          "varname": "cw2_starttime",
+          "year": "2020",
+          "label": "Start date of covid-19 online survey started - Covid wave 2 (age 74 years)",
+          "is_current": true
+        },
+        {
+          "varname": "cw3_datetime_start",
+          "year": "2021",
+          "label": "Start date of covid-19 online survey started - Covid wave 3 (age 75 years)",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Data collection information [6021]",
+        "description": "This category contains the data collection information from the 2020-2021 covid questionnaires where the participant was 74 years.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Data_collection_information_6021.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "unavailable",
+    "dist_units": "datetime",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

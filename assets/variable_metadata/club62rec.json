@@ -1,0 +1,590 @@
+{
+  "varname": "club62rec",
+  "label": "What clubs do you belong to - at age 16 years",
+  "field_id": "30609",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30609",
+  "year": "",
+  "form": "Y1b - Study member at Youth Exmployent Office",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 3076.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Social support or life events [25]",
+    "Social activities [5254]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6399.0",
+      "label": "Multiple clubs, unknown which ones"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9899.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "No form"
+    },
+    {
+      "value": "0.0",
+      "label": "No club"
+    },
+    {
+      "value": "1.0",
+      "label": "Youth club, run by church"
+    },
+    {
+      "value": "2.0",
+      "label": "Other youth club"
+    },
+    {
+      "value": "3.0",
+      "label": "Club connected with work"
+    },
+    {
+      "value": "4.0",
+      "label": "Sports club"
+    },
+    {
+      "value": "5.0",
+      "label": "Scouts, guides, cadets"
+    },
+    {
+      "value": "6.0",
+      "label": "Club connected with school"
+    },
+    {
+      "value": "7.0",
+      "label": "Others"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No club",
+      "count": 1502,
+      "pct": 48.8
+    },
+    {
+      "label": "Youth club, run by church",
+      "count": 365,
+      "pct": 11.9
+    },
+    {
+      "label": "Other youth club",
+      "count": 368,
+      "pct": 12.0
+    },
+    {
+      "label": "Club connected with work",
+      "count": 68,
+      "pct": 2.2
+    },
+    {
+      "label": "Sports club",
+      "count": 193,
+      "pct": 6.3
+    },
+    {
+      "label": "Scouts, guides, cadets",
+      "count": 74,
+      "pct": 2.4
+    },
+    {
+      "label": "Club connected with school",
+      "count": 226,
+      "pct": 7.3
+    },
+    {
+      "label": "Others",
+      "count": 280,
+      "pct": 9.1
+    }
+  ],
+  "pdf": {
+    "varname": "club62rec",
+    "label": "What clubs do you belong to - at age 16 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "club62rec"
+      ],
+      [
+        "Field ID",
+        "30609"
+      ],
+      [
+        "Label",
+        "What clubs do you belong to - at age 16 years"
+      ],
+      [
+        "Card Number",
+        "SupportRec"
+      ],
+      [
+        "Form",
+        "Y1b - Study member at Youth Exmployent Office"
+      ],
+      [
+        "Question",
+        "16"
+      ],
+      [
+        "Year",
+        "1962"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Recoded of club variable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social support or life events [25]",
+        "Legacy Category"
+      ],
+      [
+        "Social activities [5254]",
+        "This category contains data from the questionnaires on social acitivities such as reading and using a computer. It also include spare time activities."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6399.0",
+        "Multiple clubs, unknown which ones",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9899.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "No form",
+        true
+      ],
+      [
+        "0.0",
+        "No club",
+        false
+      ],
+      [
+        "1.0",
+        "Youth club, run by church",
+        false
+      ],
+      [
+        "2.0",
+        "Other youth club",
+        false
+      ],
+      [
+        "3.0",
+        "Club connected with work",
+        false
+      ],
+      [
+        "4.0",
+        "Sports club",
+        false
+      ],
+      [
+        "5.0",
+        "Scouts, guides, cadets",
+        false
+      ],
+      [
+        "6.0",
+        "Club connected with school",
+        false
+      ],
+      [
+        "7.0",
+        "Others",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1502",
+        "49%"
+      ],
+      [
+        "1",
+        "365",
+        "12%"
+      ],
+      [
+        "2",
+        "368",
+        "12%"
+      ],
+      [
+        "3",
+        "68",
+        "2%"
+      ],
+      [
+        "4",
+        "193",
+        "6%"
+      ],
+      [
+        "5",
+        "74",
+        "2%"
+      ],
+      [
+        "6",
+        "226",
+        "7%"
+      ],
+      [
+        "7",
+        "280",
+        "9%"
+      ],
+      [
+        "Displayed N",
+        "3076",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "club62rec",
+    "label": "What clubs do you belong to - at age 16 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30609",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "club62rec",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "30609",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "What clubs do you belong to - at age 16 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "SupportRec",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Y1b - Study member at Youth Exmployent Office",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "16",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1962",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Recoded of club variable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social support or life events [25]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Social activities [5254]",
+        "description": "This category contains data from the questionnaires on social acitivities such as reading and using a computer. It also include spare time activities.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Social_activities_5254.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6399.0",
+        "label": "Multiple clubs, unknown which ones",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9899.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "No form",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No club",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Youth club, run by church",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Other youth club",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Club connected with work",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Sports club",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Scouts, guides, cadets",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "Club connected with school",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "Others",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 12
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No club",
+          "count": 1502,
+          "pct": 49
+        },
+        {
+          "value": "1",
+          "label": "Youth club, run by church",
+          "count": 365,
+          "pct": 12
+        },
+        {
+          "value": "2",
+          "label": "Other youth club",
+          "count": 368,
+          "pct": 12
+        },
+        {
+          "value": "3",
+          "label": "Club connected with work",
+          "count": 68,
+          "pct": 2
+        },
+        {
+          "value": "4",
+          "label": "Sports club",
+          "count": 193,
+          "pct": 6
+        },
+        {
+          "value": "5",
+          "label": "Scouts, guides, cadets",
+          "count": 74,
+          "pct": 2
+        },
+        {
+          "value": "6",
+          "label": "Club connected with school",
+          "count": 226,
+          "pct": 7
+        },
+        {
+          "value": "7",
+          "label": "Others",
+          "count": 280,
+          "pct": 9
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1502",
+        "49%"
+      ],
+      [
+        "1",
+        "365",
+        "12%"
+      ],
+      [
+        "2",
+        "368",
+        "12%"
+      ],
+      [
+        "3",
+        "68",
+        "2%"
+      ],
+      [
+        "4",
+        "193",
+        "6%"
+      ],
+      [
+        "5",
+        "74",
+        "2%"
+      ],
+      [
+        "6",
+        "226",
+        "7%"
+      ],
+      [
+        "7",
+        "280",
+        "9%"
+      ],
+      [
+        "Displayed N",
+        "3076",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

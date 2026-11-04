@@ -1,0 +1,437 @@
+{
+  "varname": "suvr_crb_i46p1",
+  "label": "Global standardised uptake value ratios (SUVR) with whole cerebellum reference region - Insight 46 phase 1",
+  "field_id": "60243",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60243",
+  "year": "",
+  "form": "Insight46 - Phase 1",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.9710524286990361,
+  "sd": 0.09355334249470561,
+  "series_size": 414.0,
+  "minimum": 0.840428143922802,
+  "maximum": 1.29950184432682,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Cross-sectional beta-amyloid status (phase 1) [603411]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "suvr_crb_i46p1",
+    "label": "Global standardised uptake value ratios (SUVR) with whole cerebellum reference region - Insight 46 phase 1",
+    "meta_rows": [
+      [
+        "Variable",
+        "suvr_crb_i46p1"
+      ],
+      [
+        "Field ID",
+        "60243"
+      ],
+      [
+        "Label",
+        "Global standardised uptake value ratios (SUVR) with whole cerebellum reference region - Insight 46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46_amyloidstatus_crb"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 1"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2015-2018"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Florbetapir-PET global standardised uptake value ratios (SUVRs) were calculated from a composite cortical target region normalised to a whole cerebellum reference region and with and without partial volume correction (PVC) using the Discrete Iterative Yang technique. Positive or negative amyloid status was determined using a Gaussian mixture model applied to SUVRs, with the 99th percentile of the lower Gaussian as the cutoff (non-PVC > 1.0770 and PVC > 1.0306). See library file I46_AMYLOIDSTATUS_erodedWM for SUVR and amyloid-beta status calculated from a composite cortical target region normalised to an eroded white matter reference region. This pipeline has been performed for the cross-sectional analysis of SUVR only.  For longitudinal pipelines (Phase 1 baseline and Phase 2 follow-up), see file handle I46P2_AmyloidPET for longitudinal values."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cross-sectional beta-amyloid status (phase 1) [603411]",
+        "This category contains variables related to the cross-sectional beta-amyloid status (phase 1) from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.840428143922802"
+      ],
+      [
+        "Maximum",
+        "1.29950184432682"
+      ],
+      [
+        "Range",
+        "0.45907370040401807"
+      ],
+      [
+        "Median",
+        "0.948758284794709"
+      ],
+      [
+        "IQR",
+        "0.9061174111542338 - 1.00850513952487"
+      ],
+      [
+        "Decile 1",
+        "0.8776279354873306"
+      ],
+      [
+        "Decile 2",
+        "0.8968810645674695"
+      ],
+      [
+        "Decile 3",
+        "0.9158239716685214"
+      ],
+      [
+        "Decile 4",
+        "0.9319142037809872"
+      ],
+      [
+        "Decile 5",
+        "0.948758284794709"
+      ],
+      [
+        "Decile 6",
+        "0.9667844054556481"
+      ],
+      [
+        "Decile 7",
+        "0.9927681000679445"
+      ],
+      [
+        "Decile 8",
+        "1.0269275857001758"
+      ],
+      [
+        "Decile 9",
+        "1.10129814143098"
+      ],
+      [
+        "Mean",
+        "0.9710524286990361"
+      ],
+      [
+        "Std Dev.",
+        "0.09355334249470561"
+      ],
+      [
+        "Variance",
+        "0.00875222789193169"
+      ],
+      [
+        "Displayed N",
+        "414"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "suvr_crb_i46p1",
+    "label": "Global standardised uptake value ratios (SUVR) with whole cerebellum reference region - Insight 46 phase 1",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60243",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "suvr_crb_i46p1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "60243",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Global standardised uptake value ratios (SUVR) with whole cerebellum reference region - Insight 46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46_amyloidstatus_crb",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015-2018",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Florbetapir-PET global standardised uptake value ratios (SUVRs) were calculated from a composite cortical target region normalised to a whole cerebellum reference region and with and without partial volume correction (PVC) using the Discrete Iterative Yang technique. Positive or negative amyloid status was determined using a Gaussian mixture model applied to SUVRs, with the 99th percentile of the lower Gaussian as the cutoff (non-PVC > 1.0770 and PVC > 1.0306). See library file I46_AMYLOIDSTATUS_erodedWM for SUVR and amyloid-beta status calculated from a composite cortical target region normalised to an eroded white matter reference region. This pipeline has been performed for the cross-sectional analysis of SUVR only.  For longitudinal pipelines (Phase 1 baseline and Phase 2 follow-up), see file handle I46P2_AmyloidPET for longitudinal values.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cross-sectional beta-amyloid status (phase 1) [603411]",
+        "description": "This category contains variables related to the cross-sectional beta-amyloid status (phase 1) from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Cross-sectional_beta-amyloid_status_(phase_1)_603411.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.840428143922802,
+          0.8674324792406853,
+          0.8944368145585688,
+          0.9214411498764522,
+          0.9484454851943356,
+          0.9754498205122191,
+          1.0024541558301023,
+          1.0294584911479858,
+          1.0564628264658693,
+          1.0834671617837528,
+          1.110471497101636,
+          1.1374758324195196,
+          1.1644801677374028,
+          1.1914845030552863,
+          1.2184888383731698,
+          1.2454931736910533,
+          1.2724975090089365,
+          1.29950184432682
+        ],
+        "counts": [
+          27,
+          52,
+          61,
+          66,
+          58,
+          40,
+          33,
+          14,
+          14,
+          10,
+          9,
+          4,
+          7,
+          5,
+          6,
+          4,
+          4
+        ]
+      },
+      "boxplot": {
+        "min": 0.840428143922802,
+        "q1": 0.9061174111542338,
+        "median": 0.948758284794709,
+        "q3": 1.00850513952487,
+        "max": 1.29950184432682
+      },
+      "units": "Not applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.840428143922802"
+      ],
+      [
+        "Maximum",
+        "1.29950184432682"
+      ],
+      [
+        "Range",
+        "0.45907370040401807"
+      ],
+      [
+        "Median",
+        "0.948758284794709"
+      ],
+      [
+        "IQR",
+        "0.9061174111542338 - 1.00850513952487"
+      ],
+      [
+        "Decile 1",
+        "0.8776279354873306"
+      ],
+      [
+        "Decile 2",
+        "0.8968810645674695"
+      ],
+      [
+        "Decile 3",
+        "0.9158239716685214"
+      ],
+      [
+        "Decile 4",
+        "0.9319142037809872"
+      ],
+      [
+        "Decile 5",
+        "0.948758284794709"
+      ],
+      [
+        "Decile 6",
+        "0.9667844054556481"
+      ],
+      [
+        "Decile 7",
+        "0.9927681000679445"
+      ],
+      [
+        "Decile 8",
+        "1.0269275857001758"
+      ],
+      [
+        "Decile 9",
+        "1.10129814143098"
+      ],
+      [
+        "Mean",
+        "0.9710524286990361"
+      ],
+      [
+        "Std Dev.",
+        "0.09355334249470561"
+      ],
+      [
+        "Variance",
+        "0.00875222789193169"
+      ],
+      [
+        "Displayed N",
+        "414"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

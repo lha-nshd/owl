@@ -1,0 +1,483 @@
+{
+  "varname": "smose82",
+  "label": "Have you ever smoked as much as one cigarette per day for as long as a year? - at age 36 years",
+  "field_id": "33103",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=33103",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2212.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "33103",
+  "truly_longitudinal_varnames": [
+    "smose89"
+  ],
+  "truly_longitudinal_years": [
+    "1982",
+    "1989"
+  ],
+  "linked_varnames": [
+    "smor09",
+    "smor22x",
+    "smose",
+    "smor14x"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10",
+    "2014",
+    "2022"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "Smoking [5251]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 1297,
+      "pct": 58.6
+    },
+    {
+      "label": "Yes",
+      "count": 915,
+      "pct": 41.4
+    }
+  ],
+  "pdf": {
+    "varname": "smose82",
+    "label": "Have you ever smoked as much as one cigarette per day for as long as a year? - at age 36 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "smose82"
+      ],
+      [
+        "Field ID",
+        "33103"
+      ],
+      [
+        "Label",
+        "Have you ever smoked as much as one cigarette per day for as long as a year? - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "B19"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "78(a)"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Smoking questions asked in the 1982 questionnaire."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "smose89",
+        "1989",
+        "Have you ever smoked as much as one cigarette per day for as long as a year? - at age 43 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "smor09",
+        "Have you ever smoked cigarettes regularly, by which we mean at least one cigarette a day for 12 months or more? - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "55(a)",
+        "Smoking09"
+      ],
+      [
+        "smor22x",
+        "Have you ever smoked cigarettes regularly, by which we mean at least one cigarette a day for 12 months or more? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "137",
+        "Postal22"
+      ],
+      [
+        "smose",
+        "Have you ever smoked cigarettes regularly, by which we mean at least one cigarette a day for 12 months or more? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "59",
+        "capi99a"
+      ],
+      [
+        "smor14x",
+        "Have you ever smoked cigarettes regularly, by which we mean at least one cigarette a day for 12 months or more? - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "47(a)",
+        "Smoking14"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Smoking [5251]",
+        "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1297",
+        "59%"
+      ],
+      [
+        "1",
+        "915",
+        "41%"
+      ],
+      [
+        "Displayed N",
+        "2212",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "smose82",
+    "label": "Have you ever smoked as much as one cigarette per day for as long as a year? - at age 36 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=33103",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "smose82",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "33103",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Have you ever smoked as much as one cigarette per day for as long as a year? - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "B19",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "78(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Smoking questions asked in the 1982 questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "33103",
+      "members": [
+        {
+          "varname": "smose82",
+          "year": "1982",
+          "label": "Have you ever smoked as much as one cigarette per day for as long as a year? - at age 36 years",
+          "is_current": true
+        },
+        {
+          "varname": "smose89",
+          "year": "1989",
+          "label": "Have you ever smoked as much as one cigarette per day for as long as a year? - at age 43 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "smor09",
+        "description": "Have you ever smoked cigarettes regularly, by which we mean at least one cigarette a day for 12 months or more? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "55(a)",
+        "library_file": "Smoking09"
+      },
+      {
+        "varname": "smor22x",
+        "description": "Have you ever smoked cigarettes regularly, by which we mean at least one cigarette a day for 12 months or more? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "137",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "smose",
+        "description": "Have you ever smoked cigarettes regularly, by which we mean at least one cigarette a day for 12 months or more? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "59",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "smor14x",
+        "description": "Have you ever smoked cigarettes regularly, by which we mean at least one cigarette a day for 12 months or more? - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "47(a)",
+        "library_file": "Smoking14"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Smoking [5251]",
+        "description": "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Smoking_5251.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 1297,
+          "pct": 59
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 915,
+          "pct": 41
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1297",
+        "59%"
+      ],
+      [
+        "1",
+        "915",
+        "41%"
+      ],
+      [
+        "Displayed N",
+        "2212",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

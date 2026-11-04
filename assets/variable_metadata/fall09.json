@@ -1,0 +1,543 @@
+{
+  "varname": "fall09",
+  "label": "Do you easily fall or have difficulty keeping your balance because of long term health problems? - at age 60-64 years",
+  "field_id": "10366",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10366",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2235.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "fall",
+    "balc89",
+    "falln09",
+    "fall89",
+    "falln09x",
+    "fallen09",
+    "fallen",
+    "fallno",
+    "fallc89",
+    "dfalln09"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2006-10"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Physical capability [5108]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "9.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 2076,
+      "pct": 92.9
+    },
+    {
+      "label": "Yes",
+      "count": 159,
+      "pct": 7.1
+    }
+  ],
+  "pdf": {
+    "varname": "fall09",
+    "label": "Do you easily fall or have difficulty keeping your balance because of long term health problems? - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "fall09"
+      ],
+      [
+        "Field ID",
+        "10366"
+      ],
+      [
+        "Label",
+        "Do you easily fall or have difficulty keeping your balance because of long term health problems? - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "PhysCap09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "49"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Difficulties participant may have in carrying out daily activities from the 2006-10 nurse schedule."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "fall",
+        "Do you easily fall or have difficulty keeping your balance because of long term health problems? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "86",
+        "capi99a"
+      ],
+      [
+        "balc89",
+        "you fall or have difficulty keeping balance, to balance do you need to hold onto anything or can you maintain your balance? - at age 43 years",
+        "1989",
+        "C - Disability Supplementary questions",
+        "1(c)",
+        "de89c"
+      ],
+      [
+        "falln09",
+        "If fallen in last 12 months, number of falls? - at age 60-64 years ",
+        "2006-10",
+        "Nurse schedule",
+        "51",
+        "PhysCap09"
+      ],
+      [
+        "fall89",
+        "Due to long-term health problems or physical or mental disabilities do you fall or have difficulty keeping balance? - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Section D - 1(c)",
+        "de89d"
+      ],
+      [
+        "falln09x",
+        "If fallen in last 12 months, number of falls (grouped)? - at age 60-64 years ",
+        "2006-10",
+        "Nurse schedule",
+        "51",
+        "PhysCap09"
+      ],
+      [
+        "fallen09",
+        "Have you fallen at all in the past 12 months? - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "51",
+        "PhysCap09"
+      ],
+      [
+        "fallen",
+        "Have you fallen at all in the past 12 months? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "86(b)",
+        "capi99a"
+      ],
+      [
+        "fallno",
+        "If fallen in last 12 months, number of falls? - at age 53 years ",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "86(c)",
+        "capi99a"
+      ],
+      [
+        "fallc89",
+        "you fall or have difficulty keeping balance, how many times have you fallen in the last year? - at age 43 years",
+        "1989",
+        "C - Disability Supplementary questions",
+        "1(c)",
+        "de89c"
+      ],
+      [
+        "dfalln09",
+        "On how many of these falls have you injured yourself badly enough to see a doctor? - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "51",
+        "PhysCap09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Physical capability [5108]",
+        "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "9.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "2076",
+        "93%"
+      ],
+      [
+        "1",
+        "159",
+        "7%"
+      ],
+      [
+        "Displayed N",
+        "2235",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "fall09",
+    "label": "Do you easily fall or have difficulty keeping your balance because of long term health problems? - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10366",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "fall09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10366",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Do you easily fall or have difficulty keeping your balance because of long term health problems? - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysCap09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "49",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Difficulties participant may have in carrying out daily activities from the 2006-10 nurse schedule.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "fall",
+        "description": "Do you easily fall or have difficulty keeping your balance because of long term health problems? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "86",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "balc89",
+        "description": "you fall or have difficulty keeping balance, to balance do you need to hold onto anything or can you maintain your balance? - at age 43 years",
+        "year": "1989",
+        "form": "C - Disability Supplementary questions",
+        "question": "1(c)",
+        "library_file": "de89c"
+      },
+      {
+        "varname": "falln09",
+        "description": "If fallen in last 12 months, number of falls? - at age 60-64 years ",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "51",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "fall89",
+        "description": "Due to long-term health problems or physical or mental disabilities do you fall or have difficulty keeping balance? - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Section D - 1(c)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "falln09x",
+        "description": "If fallen in last 12 months, number of falls (grouped)? - at age 60-64 years ",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "51",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "fallen09",
+        "description": "Have you fallen at all in the past 12 months? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "51",
+        "library_file": "PhysCap09"
+      },
+      {
+        "varname": "fallen",
+        "description": "Have you fallen at all in the past 12 months? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "86(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "fallno",
+        "description": "If fallen in last 12 months, number of falls? - at age 53 years ",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "86(c)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "fallc89",
+        "description": "you fall or have difficulty keeping balance, how many times have you fallen in the last year? - at age 43 years",
+        "year": "1989",
+        "form": "C - Disability Supplementary questions",
+        "question": "1(c)",
+        "library_file": "de89c"
+      },
+      {
+        "varname": "dfalln09",
+        "description": "On how many of these falls have you injured yourself badly enough to see a doctor? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "51",
+        "library_file": "PhysCap09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical capability [5108]",
+        "description": "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_5108.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 10,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 2076,
+          "pct": 93
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 159,
+          "pct": 7
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "2076",
+        "93%"
+      ],
+      [
+        "1",
+        "159",
+        "7%"
+      ],
+      [
+        "Displayed N",
+        "2235",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

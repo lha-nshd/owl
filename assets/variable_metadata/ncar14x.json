@@ -1,0 +1,533 @@
+{
+  "varname": "ncar14x",
+  "label": "In total, how many cars or vans are owned, or available for use, by members of your household? - at age 68 years",
+  "field_id": "8607",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8607",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2395.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "8607",
+  "truly_longitudinal_varnames": [
+    "ncar22x"
+  ],
+  "truly_longitudinal_years": [
+    "2014",
+    "2022"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Other socioeconomic circumstances [24]",
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Zero"
+    },
+    {
+      "value": "1.0",
+      "label": "One"
+    },
+    {
+      "value": "2.0",
+      "label": "Two"
+    },
+    {
+      "value": "3.0",
+      "label": "Three"
+    },
+    {
+      "value": "4.0",
+      "label": "Four"
+    },
+    {
+      "value": "5.0",
+      "label": "Five"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Zero",
+      "count": 170,
+      "pct": 7.1
+    },
+    {
+      "label": "One",
+      "count": 1184,
+      "pct": 49.4
+    },
+    {
+      "label": "Two",
+      "count": 859,
+      "pct": 35.9
+    },
+    {
+      "label": "Three",
+      "count": 142,
+      "pct": 5.9
+    },
+    {
+      "label": "Four",
+      "count": 29,
+      "pct": 1.2
+    },
+    {
+      "label": "Five",
+      "count": 11,
+      "pct": 0.5
+    }
+  ],
+  "pdf": {
+    "varname": "ncar14x",
+    "label": "In total, how many cars or vans are owned, or available for use, by members of your household? - at age 68 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ncar14x"
+      ],
+      [
+        "Field ID",
+        "8607"
+      ],
+      [
+        "Label",
+        "In total, how many cars or vans are owned, or available for use, by members of your household? - at age 68 years"
+      ],
+      [
+        "Card Number",
+        "VehiclesPeople14"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "2"
+      ],
+      [
+        "Year",
+        "2014"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Family, home and retirement questions, Q1-Q15."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "ncar22x",
+        "2022",
+        "In total, how many cars or vans are owned, or available for use, by members of your household? - at age 76 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Zero",
+        false
+      ],
+      [
+        "1.0",
+        "One",
+        false
+      ],
+      [
+        "2.0",
+        "Two",
+        false
+      ],
+      [
+        "3.0",
+        "Three",
+        false
+      ],
+      [
+        "4.0",
+        "Four",
+        false
+      ],
+      [
+        "5.0",
+        "Five",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "170",
+        "7%"
+      ],
+      [
+        "1",
+        "1184",
+        "49%"
+      ],
+      [
+        "2",
+        "859",
+        "36%"
+      ],
+      [
+        "3",
+        "142",
+        "6%"
+      ],
+      [
+        "4",
+        "29",
+        "1%"
+      ],
+      [
+        "5",
+        "11",
+        "0%"
+      ],
+      [
+        "Displayed N",
+        "2395",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "ncar14x",
+    "label": "In total, how many cars or vans are owned, or available for use, by members of your household? - at age 68 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8607",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ncar14x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8607",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "In total, how many cars or vans are owned, or available for use, by members of your household? - at age 68 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "VehiclesPeople14",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "2",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2014",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Family, home and retirement questions, Q1-Q15.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "8607",
+      "members": [
+        {
+          "varname": "ncar14x",
+          "year": "2014",
+          "label": "In total, how many cars or vans are owned, or available for use, by members of your household? - at age 68 years",
+          "is_current": true
+        },
+        {
+          "varname": "ncar22x",
+          "year": "2022",
+          "label": "In total, how many cars or vans are owned, or available for use, by members of your household? - at age 76 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Zero",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "One",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Two",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Three",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Four",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Five",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 2,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Zero",
+          "count": 170,
+          "pct": 7
+        },
+        {
+          "value": "1",
+          "label": "One",
+          "count": 1184,
+          "pct": 49
+        },
+        {
+          "value": "2",
+          "label": "Two",
+          "count": 859,
+          "pct": 36
+        },
+        {
+          "value": "3",
+          "label": "Three",
+          "count": 142,
+          "pct": 6
+        },
+        {
+          "value": "4",
+          "label": "Four",
+          "count": 29,
+          "pct": 1
+        },
+        {
+          "value": "5",
+          "label": "Five",
+          "count": 11,
+          "pct": 0
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "170",
+        "7%"
+      ],
+      [
+        "1",
+        "1184",
+        "49%"
+      ],
+      [
+        "2",
+        "859",
+        "36%"
+      ],
+      [
+        "3",
+        "142",
+        "6%"
+      ],
+      [
+        "4",
+        "29",
+        "1%"
+      ],
+      [
+        "5",
+        "11",
+        "0%"
+      ],
+      [
+        "Displayed N",
+        "2395",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "varname": "ibppa",
+  "label": "Basic pay per annum (Pay coded in \u00a3s and new pence with decimal point e.g. 234.56 = \u00a3234.56) at age 26 years",
+  "field_id": "7171",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7171",
+  "year": "",
+  "form": "Section C - Main questionnaire",
+  "units": "pounds",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 1308.5324919871794,
+  "sd": 391.1744522268292,
+  "series_size": 1248.0,
+  "minimum": 426.4,
+  "maximum": 2250.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ibs",
+    "hth"
+  ],
+  "linked_years": [
+    "1972"
+  ],
+  "categories": [
+    "Other socioeconomic circumstances [24]",
+    "Economic circumstances [5151]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "7777.77",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8888.88",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9999.99",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "ibppa",
+    "label": "Basic pay per annum (Pay coded in \u00a3s and new pence with decimal point e.g. 234.56 = \u00a3234.56) at age 26 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ibppa"
+      ],
+      [
+        "Field ID",
+        "7171"
+      ],
+      [
+        "Label",
+        "Basic pay per annum (Pay coded in \u00a3s and new pence with decimal point e.g. 234.56 = \u00a3234.56) at age 26 years"
+      ],
+      [
+        "Card Number",
+        "Y65"
+      ],
+      [
+        "Form",
+        "Section C - Main questionnaire"
+      ],
+      [
+        "Question",
+        "40"
+      ],
+      [
+        "Year",
+        "1972"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "pounds"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains raw values"
+      ],
+      [
+        "Notes",
+        "1972C Q37-Q53. Questions asked to all employees and those self employed."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ibs",
+        "In your job is there a basic or standard rate of pay at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "40",
+        "Y64"
+      ],
+      [
+        "hth",
+        "How many weekly hours are typically worked at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "37",
+        "Y65"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Economic circumstances [5151]",
+        "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "7777.77",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8888.88",
+        "Not applicable",
+        true
+      ],
+      [
+        "9999.99",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "426.4"
+      ],
+      [
+        "Maximum",
+        "2250.0"
+      ],
+      [
+        "Range",
+        "1823.6"
+      ],
+      [
+        "Median",
+        "1289.6"
+      ],
+      [
+        "IQR",
+        "1040.0 - 1560.0"
+      ],
+      [
+        "Decile 1",
+        "813.41"
+      ],
+      [
+        "Decile 2",
+        "994.5"
+      ],
+      [
+        "Decile 3",
+        "1092.0"
+      ],
+      [
+        "Decile 4",
+        "1196.0"
+      ],
+      [
+        "Decile 5",
+        "1289.6"
+      ],
+      [
+        "Decile 6",
+        "1365.0"
+      ],
+      [
+        "Decile 7",
+        "1500.0"
+      ],
+      [
+        "Decile 8",
+        "1612.0"
+      ],
+      [
+        "Decile 9",
+        "1867.7999999999997"
+      ],
+      [
+        "Mean",
+        "1308.5324919871794"
+      ],
+      [
+        "Std Dev.",
+        "391.1744522268292"
+      ],
+      [
+        "Variance",
+        "153017.45207495987"
+      ],
+      [
+        "Displayed N",
+        "1248"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "ibppa",
+    "label": "Basic pay per annum (Pay coded in \u00a3s and new pence with decimal point e.g. 234.56 = \u00a3234.56) at age 26 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7171",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ibppa",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7171",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Basic pay per annum (Pay coded in \u00a3s and new pence with decimal point e.g. 234.56 = \u00a3234.56) at age 26 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Y65",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Section C - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "40",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1972",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "pounds",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains raw values",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "1972C Q37-Q53. Questions asked to all employees and those self employed.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ibs",
+        "description": "In your job is there a basic or standard rate of pay at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "40",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "hth",
+        "description": "How many weekly hours are typically worked at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "37",
+        "library_file": "Y65"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Economic circumstances [5151]",
+        "description": "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Economic_circumstances_5151.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "7777.77",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8888.88",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9999.99",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "pounds",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          426.4,
+          522.378947368421,
+          618.3578947368421,
+          714.3368421052631,
+          810.3157894736842,
+          906.2947368421052,
+          1002.2736842105263,
+          1098.2526315789473,
+          1194.2315789473682,
+          1290.2105263157894,
+          1386.1894736842105,
+          1482.1684210526314,
+          1578.1473684210528,
+          1674.1263157894737,
+          1770.1052631578946,
+          1866.0842105263155,
+          1962.0631578947368,
+          2058.0421052631577,
+          2154.0210526315786,
+          2250.0
+        ],
+        "counts": [
+          22,
+          20,
+          31,
+          50,
+          55,
+          86,
+          129,
+          100,
+          134,
+          135,
+          93,
+          107,
+          71,
+          48,
+          42,
+          33,
+          41,
+          24,
+          27
+        ]
+      },
+      "boxplot": {
+        "min": 426.4,
+        "q1": 1040.0,
+        "median": 1289.6,
+        "q3": 1560.0,
+        "max": 2250.0
+      },
+      "units": "pounds"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "426.4"
+      ],
+      [
+        "Maximum",
+        "2250.0"
+      ],
+      [
+        "Range",
+        "1823.6"
+      ],
+      [
+        "Median",
+        "1289.6"
+      ],
+      [
+        "IQR",
+        "1040.0 - 1560.0"
+      ],
+      [
+        "Decile 1",
+        "813.41"
+      ],
+      [
+        "Decile 2",
+        "994.5"
+      ],
+      [
+        "Decile 3",
+        "1092.0"
+      ],
+      [
+        "Decile 4",
+        "1196.0"
+      ],
+      [
+        "Decile 5",
+        "1289.6"
+      ],
+      [
+        "Decile 6",
+        "1365.0"
+      ],
+      [
+        "Decile 7",
+        "1500.0"
+      ],
+      [
+        "Decile 8",
+        "1612.0"
+      ],
+      [
+        "Decile 9",
+        "1867.7999999999997"
+      ],
+      [
+        "Mean",
+        "1308.5324919871794"
+      ],
+      [
+        "Std Dev.",
+        "391.1744522268292"
+      ],
+      [
+        "Variance",
+        "153017.45207495987"
+      ],
+      [
+        "Displayed N",
+        "1248"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,625 @@
+{
+  "varname": "frl09",
+  "label": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 60-64 years",
+  "field_id": "14770",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14770",
+  "year": "",
+  "form": "Self completion",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2189.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "14770",
+  "truly_longitudinal_varnames": [
+    "frl99"
+  ],
+  "truly_longitudinal_years": [
+    "1999",
+    "2006-10"
+  ],
+  "linked_varnames": [
+    "frlo14x",
+    "frl14x",
+    "frl22x"
+  ],
+  "linked_years": [
+    "2014",
+    "2022"
+  ],
+  "categories": [
+    "Social support or life events [25]",
+    "Social support [535]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Husband/wife/partner"
+    },
+    {
+      "value": "2.0",
+      "label": "Boyfriend/girlfriend"
+    },
+    {
+      "value": "3.0",
+      "label": "Parent"
+    },
+    {
+      "value": "4.0",
+      "label": "Brother/sister"
+    },
+    {
+      "value": "5.0",
+      "label": "Son/daughter"
+    },
+    {
+      "value": "6.0",
+      "label": "Other relative"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "9.0",
+      "label": "Other friend"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Husband/wife/partner",
+      "count": 1771,
+      "pct": 80.9
+    },
+    {
+      "label": "Boyfriend/girlfriend",
+      "count": 41,
+      "pct": 1.9
+    },
+    {
+      "label": "Parent",
+      "count": 19,
+      "pct": 0.9
+    },
+    {
+      "label": "Brother/sister",
+      "count": 58,
+      "pct": 2.6
+    },
+    {
+      "label": "Son/daughter",
+      "count": 215,
+      "pct": 9.8
+    },
+    {
+      "label": "Other relative",
+      "count": 16,
+      "pct": 0.7
+    },
+    {
+      "label": "Other friend",
+      "count": 69,
+      "pct": 3.2
+    }
+  ],
+  "pdf": {
+    "varname": "frl09",
+    "label": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "frl09"
+      ],
+      [
+        "Field ID",
+        "14770"
+      ],
+      [
+        "Label",
+        "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "SelfComp09"
+      ],
+      [
+        "Form",
+        "Self completion"
+      ],
+      [
+        "Question",
+        "1(a)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Friends and relatives questions, Q1. This question also asked in 2022 and 2014 but slightly different coding."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "frl99",
+        "1999",
+        "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 53 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "frlo14x",
+        "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Other specified closest person - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "67(a)",
+        "SocialNetworks14"
+      ],
+      [
+        "frl14x",
+        "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "67(a)",
+        "SocialNetworks14"
+      ],
+      [
+        "frl22x",
+        "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "171(a)",
+        "Postal22"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social support or life events [25]",
+        "Legacy Category"
+      ],
+      [
+        "Social support [535]",
+        "This category contains data from the questionnaires on social networks including loneliness."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Husband/wife/partner",
+        false
+      ],
+      [
+        "2.0",
+        "Boyfriend/girlfriend",
+        false
+      ],
+      [
+        "3.0",
+        "Parent",
+        false
+      ],
+      [
+        "4.0",
+        "Brother/sister",
+        false
+      ],
+      [
+        "5.0",
+        "Son/daughter",
+        false
+      ],
+      [
+        "6.0",
+        "Other relative",
+        false
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "9.0",
+        "Other friend",
+        false
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "1771",
+        "81%"
+      ],
+      [
+        "2",
+        "41",
+        "2%"
+      ],
+      [
+        "3",
+        "19",
+        "1%"
+      ],
+      [
+        "4",
+        "58",
+        "3%"
+      ],
+      [
+        "5",
+        "215",
+        "10%"
+      ],
+      [
+        "6",
+        "16",
+        "1%"
+      ],
+      [
+        "9",
+        "69",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "2189",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "frl09",
+    "label": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14770",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "frl09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "14770",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "SelfComp09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Self completion",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Friends and relatives questions, Q1. This question also asked in 2022 and 2014 but slightly different coding.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "14770",
+      "members": [
+        {
+          "varname": "frl99",
+          "year": "1999",
+          "label": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "frl09",
+          "year": "2006-10",
+          "label": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 60-64 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "frlo14x",
+        "description": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Other specified closest person - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "67(a)",
+        "library_file": "SocialNetworks14"
+      },
+      {
+        "varname": "frl14x",
+        "description": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "67(a)",
+        "library_file": "SocialNetworks14"
+      },
+      {
+        "varname": "frl22x",
+        "description": "Thinking about the person you have felt closest to in the last 12 months please answer the following questions: Is this person your: - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "171(a)",
+        "library_file": "Postal22"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social support or life events [25]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Social support [535]",
+        "description": "This category contains data from the questionnaires on social networks including loneliness.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Social_support_535.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Husband/wife/partner",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Boyfriend/girlfriend",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Parent",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Brother/sister",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Son/daughter",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "Other relative",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Other friend",
+        "is_missing": false
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 10
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Husband/wife/partner",
+          "count": 1771,
+          "pct": 81
+        },
+        {
+          "value": "2",
+          "label": "Boyfriend/girlfriend",
+          "count": 41,
+          "pct": 2
+        },
+        {
+          "value": "3",
+          "label": "Parent",
+          "count": 19,
+          "pct": 1
+        },
+        {
+          "value": "4",
+          "label": "Brother/sister",
+          "count": 58,
+          "pct": 3
+        },
+        {
+          "value": "5",
+          "label": "Son/daughter",
+          "count": 215,
+          "pct": 10
+        },
+        {
+          "value": "6",
+          "label": "Other relative",
+          "count": 16,
+          "pct": 1
+        },
+        {
+          "value": "9",
+          "label": "Other friend",
+          "count": 69,
+          "pct": 3
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "1771",
+        "81%"
+      ],
+      [
+        "2",
+        "41",
+        "2%"
+      ],
+      [
+        "3",
+        "19",
+        "1%"
+      ],
+      [
+        "4",
+        "58",
+        "3%"
+      ],
+      [
+        "5",
+        "215",
+        "10%"
+      ],
+      [
+        "6",
+        "16",
+        "1%"
+      ],
+      [
+        "9",
+        "69",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "2189",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

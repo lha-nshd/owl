@@ -1,0 +1,584 @@
+{
+  "varname": "dcanea115x",
+  "label": "What was your age when the first mentioned cancer was diagnosed - at age 69 years",
+  "field_id": "8030",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8030",
+  "year": "",
+  "form": "Home visit",
+  "units": "years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 65.21991701244814,
+  "sd": 3.0861384634393354,
+  "series_size": 241.0,
+  "minimum": 57.0,
+  "maximum": 69.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dcanea315x",
+    "lcane89",
+    "cana82",
+    "bcane89",
+    "dcanea215x",
+    "cage"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2015"
+  ],
+  "categories": [
+    "General health [3]",
+    "Cancer [51012]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Question not asked in postal home visit"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dcanea115x",
+    "label": "What was your age when the first mentioned cancer was diagnosed - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dcanea115x"
+      ],
+      [
+        "Field ID",
+        "8030"
+      ],
+      [
+        "Label",
+        "What was your age when the first mentioned cancer was diagnosed - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "MedicalConditions15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "9(c)"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dcanea315x",
+        "What was your age when the third mentioned cancer was diagnosed - at age 69 years",
+        "2015",
+        "Home visit",
+        "9c3",
+        "MedicalConditions15"
+      ],
+      [
+        "lcane89",
+        "How old were you when you last had cancer - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "cana82",
+        "Age when cancer discovered (21-36) - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "21(c)",
+        "B15"
+      ],
+      [
+        "bcane89",
+        "How old were you when you first had cancer - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "dcanea215x",
+        "What was your age when the second mentioned cancer was diagnosed - at age 69 years",
+        "2015",
+        "Home visit",
+        "9c2",
+        "MedicalConditions15"
+      ],
+      [
+        "cage",
+        "How old were you then (first diagnosis of cancer) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "36(e)",
+        "capi99a"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Cancer [51012]",
+        "This category contains data from the questionnaires on cancer (self reported). Data was collected in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years) and 2015 (age 69 years). Information includes ICD codes and age of cancer, whether medicine was prescribed."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Question not asked in postal home visit",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "57"
+      ],
+      [
+        "Maximum",
+        "69"
+      ],
+      [
+        "Range",
+        "12"
+      ],
+      [
+        "Median",
+        "66.0"
+      ],
+      [
+        "IQR",
+        "63.0 - 68.0"
+      ],
+      [
+        "Decile 1",
+        "60.0"
+      ],
+      [
+        "Decile 2",
+        "62.0"
+      ],
+      [
+        "Decile 3",
+        "64.0"
+      ],
+      [
+        "Decile 4",
+        "65.0"
+      ],
+      [
+        "Decile 5",
+        "66.0"
+      ],
+      [
+        "Decile 6",
+        "67.0"
+      ],
+      [
+        "Decile 7",
+        "67.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "69.0"
+      ],
+      [
+        "Mean",
+        "65.21991701244814"
+      ],
+      [
+        "Std Dev.",
+        "3.0861384634393354"
+      ],
+      [
+        "Variance",
+        "9.524250615519703"
+      ],
+      [
+        "Displayed N",
+        "241"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dcanea115x",
+    "label": "What was your age when the first mentioned cancer was diagnosed - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8030",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dcanea115x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8030",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "What was your age when the first mentioned cancer was diagnosed - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "MedicalConditions15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "9(c)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dcanea315x",
+        "description": "What was your age when the third mentioned cancer was diagnosed - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "9c3",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "lcane89",
+        "description": "How old were you when you last had cancer - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "cana82",
+        "description": "Age when cancer discovered (21-36) - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "21(c)",
+        "library_file": "B15"
+      },
+      {
+        "varname": "bcane89",
+        "description": "How old were you when you first had cancer - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "dcanea215x",
+        "description": "What was your age when the second mentioned cancer was diagnosed - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "9c2",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "cage",
+        "description": "How old were you then (first diagnosis of cancer) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "36(e)",
+        "library_file": "capi99a"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Cancer [51012]",
+        "description": "This category contains data from the questionnaires on cancer (self reported). Data was collected in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years) and 2015 (age 69 years). Information includes ICD codes and age of cancer, whether medicine was prescribed.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Cancer_51012.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Question not asked in postal home visit",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          57.0,
+          58.333333333333336,
+          59.666666666666664,
+          61.0,
+          62.333333333333336,
+          63.666666666666664,
+          65.0,
+          66.33333333333333,
+          67.66666666666667,
+          69.0
+        ],
+        "counts": [
+          7,
+          4,
+          15,
+          24,
+          17,
+          17,
+          48,
+          42,
+          67
+        ]
+      },
+      "boxplot": {
+        "min": 57.0,
+        "q1": 63.0,
+        "median": 66.0,
+        "q3": 68.0,
+        "max": 69.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "57"
+      ],
+      [
+        "Maximum",
+        "69"
+      ],
+      [
+        "Range",
+        "12"
+      ],
+      [
+        "Median",
+        "66.0"
+      ],
+      [
+        "IQR",
+        "63.0 - 68.0"
+      ],
+      [
+        "Decile 1",
+        "60.0"
+      ],
+      [
+        "Decile 2",
+        "62.0"
+      ],
+      [
+        "Decile 3",
+        "64.0"
+      ],
+      [
+        "Decile 4",
+        "65.0"
+      ],
+      [
+        "Decile 5",
+        "66.0"
+      ],
+      [
+        "Decile 6",
+        "67.0"
+      ],
+      [
+        "Decile 7",
+        "67.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "69.0"
+      ],
+      [
+        "Mean",
+        "65.21991701244814"
+      ],
+      [
+        "Std Dev.",
+        "3.0861384634393354"
+      ],
+      [
+        "Variance",
+        "9.524250615519703"
+      ],
+      [
+        "Displayed N",
+        "241"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

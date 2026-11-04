@@ -1,0 +1,809 @@
+{
+  "varname": "legbc09",
+  "label": "Balance time - eyes closed (seconds) - at 60-64 years",
+  "field_id": "5831",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=5831",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "seconds",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 4.110804416278434,
+  "sd": 2.3131311085240993,
+  "series_size": 1902.0,
+  "minimum": 1.340000033378601,
+  "maximum": 12.819999694824219,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "legdm",
+    "legbpmsec_myft",
+    "legbpsec_myft",
+    "legbps23x",
+    "legdm09",
+    "legbc15x",
+    "legbcs23x",
+    "legbcsec_myft",
+    "legbcmsec_myft",
+    "legbc",
+    "legbp",
+    "legbp09",
+    "legbp15x",
+    "legbpm23x",
+    "legbcms23x",
+    "legbpms23x"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10",
+    "2015",
+    "2020-2024",
+    "2023"
+  ],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Standing balance [1153]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "Non-participant"
+    },
+    {
+      "value": "888.0",
+      "label": "Unable/unwilling"
+    },
+    {
+      "value": "998.0",
+      "label": "Completed other balance test"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "legbc09",
+    "label": "Balance time - eyes closed (seconds) - at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "legbc09"
+      ],
+      [
+        "Field ID",
+        "5831"
+      ],
+      [
+        "Label",
+        "Balance time - eyes closed (seconds) - at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "PhysPerf09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "67(d)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "seconds"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2006-10 balance and co-ordination test. More information available in the documentation."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "legdm",
+        "Which is your dominant leg (ignoring any current injury)? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "87(b)",
+        "capi99a"
+      ],
+      [
+        "legbpmsec_myft",
+        "Balance time - eyes open (milliseconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "legbpsec_myft",
+        "Balance time - eyes open (seconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "legbps23x",
+        "Balance time - eyes open (seconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "balance23"
+      ],
+      [
+        "legdm09",
+        "Which is your dominant leg (ignoring any current injury)? - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "67(b)",
+        "PhysPerf09"
+      ],
+      [
+        "legbc15x",
+        "Balance time - eyes closed (hundredth s) - at 69 years",
+        "2015",
+        "Home visit",
+        "6",
+        "PhysPerf15"
+      ],
+      [
+        "legbcs23x",
+        "Balance time - eyes closed (seconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "6",
+        "balance23"
+      ],
+      [
+        "legbcsec_myft",
+        "Balance time - eyes closed (seconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "legbcmsec_myft",
+        "Balance time - eyes closed (milliseconds) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Physical"
+      ],
+      [
+        "legbc",
+        "Balance time - eyes closed (seconds) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "87(f)",
+        "capi99a"
+      ],
+      [
+        "legbp",
+        "Balance time - eyes open (seconds) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "87(d)",
+        "capi99a"
+      ],
+      [
+        "legbp09",
+        "Balance time - eyes open (seconds) - at 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "66(c)",
+        "PhysPerf09"
+      ],
+      [
+        "legbp15x",
+        "Balance time - eyes open (hundredth s) - at 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "PhysPerf15"
+      ],
+      [
+        "legbpm23x",
+        "Balance time - eyes open (minutes) - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "balance23"
+      ],
+      [
+        "legbcms23x",
+        "Balance time - eyes closed (milliseconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "6",
+        "balance23"
+      ],
+      [
+        "legbpms23x",
+        "Balance time - eyes open (milliseconds) - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "balance23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Standing balance [1153]",
+        "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to perform tests of standing balance.  If willing and able (reasons for inability included health reasons and equipment not available) two tests of standing balance were performed, one with eyes open and one with eyes closed. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "Non-participant",
+        true
+      ],
+      [
+        "888.0",
+        "Unable/unwilling",
+        true
+      ],
+      [
+        "998.0",
+        "Completed other balance test",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.340000033378601"
+      ],
+      [
+        "Maximum",
+        "12.819999694824219"
+      ],
+      [
+        "Range",
+        "11.479999661445618"
+      ],
+      [
+        "Median",
+        "3.440000057220459"
+      ],
+      [
+        "IQR",
+        "2.4700000286102295 - 5.0"
+      ],
+      [
+        "Decile 1",
+        "1.909999966621399"
+      ],
+      [
+        "Decile 2",
+        "2.25"
+      ],
+      [
+        "Decile 3",
+        "2.6600000858306885"
+      ],
+      [
+        "Decile 4",
+        "3.0299999713897705"
+      ],
+      [
+        "Decile 5",
+        "3.440000057220459"
+      ],
+      [
+        "Decile 6",
+        "3.9460000514984124"
+      ],
+      [
+        "Decile 7",
+        "4.570000171661377"
+      ],
+      [
+        "Decile 8",
+        "5.493999958038335"
+      ],
+      [
+        "Decile 9",
+        "7.337000131607058"
+      ],
+      [
+        "Mean",
+        "4.110804416278434"
+      ],
+      [
+        "Std Dev.",
+        "2.3131311085240993"
+      ],
+      [
+        "Variance",
+        "5.350575525221928"
+      ],
+      [
+        "Displayed N",
+        "1902"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "legbc09",
+    "label": "Balance time - eyes closed (seconds) - at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=5831",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "legbc09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "5831",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Balance time - eyes closed (seconds) - at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysPerf09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "67(d)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "seconds",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 balance and co-ordination test. More information available in the documentation.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "legdm",
+        "description": "Which is your dominant leg (ignoring any current injury)? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "87(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "legbpmsec_myft",
+        "description": "Balance time - eyes open (milliseconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "legbpsec_myft",
+        "description": "Balance time - eyes open (seconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "legbps23x",
+        "description": "Balance time - eyes open (seconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "balance23"
+      },
+      {
+        "varname": "legdm09",
+        "description": "Which is your dominant leg (ignoring any current injury)? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "67(b)",
+        "library_file": "PhysPerf09"
+      },
+      {
+        "varname": "legbc15x",
+        "description": "Balance time - eyes closed (hundredth s) - at 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "legbcs23x",
+        "description": "Balance time - eyes closed (seconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "balance23"
+      },
+      {
+        "varname": "legbcsec_myft",
+        "description": "Balance time - eyes closed (seconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "legbcmsec_myft",
+        "description": "Balance time - eyes closed (milliseconds) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Physical"
+      },
+      {
+        "varname": "legbc",
+        "description": "Balance time - eyes closed (seconds) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "87(f)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "legbp",
+        "description": "Balance time - eyes open (seconds) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "87(d)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "legbp09",
+        "description": "Balance time - eyes open (seconds) - at 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "66(c)",
+        "library_file": "PhysPerf09"
+      },
+      {
+        "varname": "legbp15x",
+        "description": "Balance time - eyes open (hundredth s) - at 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "PhysPerf15"
+      },
+      {
+        "varname": "legbpm23x",
+        "description": "Balance time - eyes open (minutes) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "balance23"
+      },
+      {
+        "varname": "legbcms23x",
+        "description": "Balance time - eyes closed (milliseconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "balance23"
+      },
+      {
+        "varname": "legbpms23x",
+        "description": "Balance time - eyes open (milliseconds) - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "balance23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Standing balance [1153]",
+        "description": "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to perform tests of standing balance.  If willing and able (reasons for inability included health reasons and equipment not available) two tests of standing balance were performed, one with eyes open and one with eyes closed. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Standing_balance_1153.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "Non-participant",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Unable/unwilling",
+        "is_missing": true
+      },
+      {
+        "value": "998.0",
+        "label": "Completed other balance test",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 16,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "seconds",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1.340000033378601,
+          1.7358620906698292,
+          2.1317241479610574,
+          2.5275862052522857,
+          2.9234482625435136,
+          3.319310319834742,
+          3.7151723771259704,
+          4.111034434417198,
+          4.506896491708426,
+          4.902758548999655,
+          5.298620606290883,
+          5.694482663582111,
+          6.09034472087334,
+          6.486206778164568,
+          6.8820688354557955,
+          7.277930892747024,
+          7.673792950038252,
+          8.06965500732948,
+          8.465517064620709,
+          8.861379121911938,
+          9.257241179203165,
+          9.653103236494394,
+          10.04896529378562,
+          10.44482735107685,
+          10.840689408368078,
+          11.236551465659305,
+          11.632413522950534,
+          12.028275580241763,
+          12.42413763753299,
+          12.819999694824219
+        ],
+        "counts": [
+          119,
+          186,
+          201,
+          187,
+          211,
+          150,
+          147,
+          114,
+          95,
+          71,
+          77,
+          40,
+          42,
+          30,
+          35,
+          30,
+          27,
+          17,
+          11,
+          11,
+          20,
+          13,
+          12,
+          5,
+          9,
+          12,
+          16,
+          10,
+          4
+        ]
+      },
+      "boxplot": {
+        "min": 1.340000033378601,
+        "q1": 2.4700000286102295,
+        "median": 3.440000057220459,
+        "q3": 5.0,
+        "max": 12.819999694824219
+      },
+      "units": "seconds"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.340000033378601"
+      ],
+      [
+        "Maximum",
+        "12.819999694824219"
+      ],
+      [
+        "Range",
+        "11.479999661445618"
+      ],
+      [
+        "Median",
+        "3.440000057220459"
+      ],
+      [
+        "IQR",
+        "2.4700000286102295 - 5.0"
+      ],
+      [
+        "Decile 1",
+        "1.909999966621399"
+      ],
+      [
+        "Decile 2",
+        "2.25"
+      ],
+      [
+        "Decile 3",
+        "2.6600000858306885"
+      ],
+      [
+        "Decile 4",
+        "3.0299999713897705"
+      ],
+      [
+        "Decile 5",
+        "3.440000057220459"
+      ],
+      [
+        "Decile 6",
+        "3.9460000514984124"
+      ],
+      [
+        "Decile 7",
+        "4.570000171661377"
+      ],
+      [
+        "Decile 8",
+        "5.493999958038335"
+      ],
+      [
+        "Decile 9",
+        "7.337000131607058"
+      ],
+      [
+        "Mean",
+        "4.110804416278434"
+      ],
+      [
+        "Std Dev.",
+        "2.3131311085240993"
+      ],
+      [
+        "Variance",
+        "5.350575525221928"
+      ],
+      [
+        "Displayed N",
+        "1902"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

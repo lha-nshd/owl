@@ -1,0 +1,595 @@
+{
+  "varname": "blly09",
+  "label": "When was your last period? (Include current period if bleeding now) - year - at age 60-64 years",
+  "field_id": "20069",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=20069",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "year",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 1998.851851851852,
+  "sd": 5.275405574745142,
+  "series_size": 54.0,
+  "minimum": 1986.0,
+  "maximum": 2008.0,
+  "truly_longitudinal_field_id": "20069",
+  "truly_longitudinal_varnames": [
+    "blly00",
+    "blly03",
+    "blly93",
+    "blly94",
+    "blly95",
+    "blly96",
+    "blly97",
+    "blly98",
+    "blly99"
+  ],
+  "truly_longitudinal_years": [
+    "1993",
+    "1994",
+    "1995",
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2003",
+    "2006-10"
+  ],
+  "linked_varnames": [
+    "blly9b"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Women's health [9]",
+    "Menstrual cycle [7007]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "blly09",
+    "label": "When was your last period? (Include current period if bleeding now) - year - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "blly09"
+      ],
+      [
+        "Field ID",
+        "20069"
+      ],
+      [
+        "Label",
+        "When was your last period? (Include current period if bleeding now) - year - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "HRTMeno09"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "year"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Possible low cell counts. Contains the year information about the date"
+      ],
+      [
+        "Notes",
+        "Additional women's health questionnaire sent in 2006-10, possibly to only those that did not complete 2005 questionnaire"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "blly93",
+        "1993",
+        "When was your last period? (Include current period if bleeding now) - year - at age 47 years"
+      ],
+      [
+        "blly94",
+        "1994",
+        "When was your last period? (Include current period if bleeding now) - year - at age 48 years"
+      ],
+      [
+        "blly95",
+        "1995",
+        "When was your last period? (Include current period if bleeding now) - year - at age 49 years"
+      ],
+      [
+        "blly96",
+        "1996",
+        "When was your last period? (Include current period if bleeding now) - year - at age 50 years"
+      ],
+      [
+        "blly97",
+        "1997",
+        "When was your last period? (Include current period if bleeding now) - year - at age 51 years"
+      ],
+      [
+        "blly98",
+        "1998",
+        "When was your last period? (Include current period if bleeding now) - year - at age 52 years"
+      ],
+      [
+        "blly99",
+        "1999",
+        "When was your last period? (Include current period if bleeding now) - year - at age 53 years"
+      ],
+      [
+        "blly00",
+        "2000",
+        "When was your last period? (Include current period if bleeding now) - year - at age 54 years"
+      ],
+      [
+        "blly03",
+        "2003",
+        "When was your last period? (Include current period if bleeding now) - year - at age 57 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "blly9b",
+        "When was your last period (1999 Self-completion)? (Include current period if bleeding now) - year - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "60",
+        "des99"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Menstrual cycle [7007]",
+        "This cateogry contains data from the woman's health questionnaires on periods -  frequency, flow, length and if they had stopped. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1986"
+      ],
+      [
+        "Maximum",
+        "2008"
+      ],
+      [
+        "Range",
+        "22"
+      ],
+      [
+        "Median",
+        "2000.0"
+      ],
+      [
+        "IQR",
+        "1997.0 - 2003.0"
+      ],
+      [
+        "Decile 1",
+        "1990.6"
+      ],
+      [
+        "Decile 2",
+        "1995.6"
+      ],
+      [
+        "Decile 3",
+        "1997.9"
+      ],
+      [
+        "Decile 4",
+        "1998.2"
+      ],
+      [
+        "Decile 5",
+        "2000.0"
+      ],
+      [
+        "Decile 6",
+        "2001.0"
+      ],
+      [
+        "Decile 7",
+        "2002.0"
+      ],
+      [
+        "Decile 8",
+        "2003.0"
+      ],
+      [
+        "Decile 9",
+        "2004.0"
+      ],
+      [
+        "Mean",
+        "1998.851851851852"
+      ],
+      [
+        "Std Dev.",
+        "5.275405574745142"
+      ],
+      [
+        "Variance",
+        "27.829903978052126"
+      ],
+      [
+        "Displayed N",
+        "54"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "blly09",
+    "label": "When was your last period? (Include current period if bleeding now) - year - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=20069",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "blly09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "20069",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "When was your last period? (Include current period if bleeding now) - year - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "HRTMeno09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "year",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Possible low cell counts. Contains the year information about the date",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Additional women's health questionnaire sent in 2006-10, possibly to only those that did not complete 2005 questionnaire",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "20069",
+      "members": [
+        {
+          "varname": "blly93",
+          "year": "1993",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 47 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly94",
+          "year": "1994",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 48 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly95",
+          "year": "1995",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 49 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly96",
+          "year": "1996",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 50 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly97",
+          "year": "1997",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 51 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly98",
+          "year": "1998",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 52 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly99",
+          "year": "1999",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly00",
+          "year": "2000",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 54 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly03",
+          "year": "2003",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 57 years",
+          "is_current": false
+        },
+        {
+          "varname": "blly09",
+          "year": "2006-10",
+          "label": "When was your last period? (Include current period if bleeding now) - year - at age 60-64 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "blly9b",
+        "description": "When was your last period (1999 Self-completion)? (Include current period if bleeding now) - year - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "60",
+        "library_file": "des99"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Menstrual cycle [7007]",
+        "description": "This cateogry contains data from the woman's health questionnaires on periods -  frequency, flow, length and if they had stopped. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Menstrual_cycle_7007.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 10,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "year",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1986.0,
+          1989.142857142857,
+          1992.2857142857142,
+          1995.4285714285713,
+          1998.5714285714287,
+          2001.7142857142858,
+          2004.857142857143,
+          2008.0
+        ],
+        "counts": [
+          5,
+          5,
+          1,
+          11,
+          12,
+          16,
+          4
+        ]
+      },
+      "boxplot": {
+        "min": 1986.0,
+        "q1": 1997.0,
+        "median": 2000.0,
+        "q3": 2003.0,
+        "max": 2008.0
+      },
+      "units": "year"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1986"
+      ],
+      [
+        "Maximum",
+        "2008"
+      ],
+      [
+        "Range",
+        "22"
+      ],
+      [
+        "Median",
+        "2000.0"
+      ],
+      [
+        "IQR",
+        "1997.0 - 2003.0"
+      ],
+      [
+        "Decile 1",
+        "1990.6"
+      ],
+      [
+        "Decile 2",
+        "1995.6"
+      ],
+      [
+        "Decile 3",
+        "1997.9"
+      ],
+      [
+        "Decile 4",
+        "1998.2"
+      ],
+      [
+        "Decile 5",
+        "2000.0"
+      ],
+      [
+        "Decile 6",
+        "2001.0"
+      ],
+      [
+        "Decile 7",
+        "2002.0"
+      ],
+      [
+        "Decile 8",
+        "2003.0"
+      ],
+      [
+        "Decile 9",
+        "2004.0"
+      ],
+      [
+        "Mean",
+        "1998.851851851852"
+      ],
+      [
+        "Std Dev.",
+        "5.275405574745142"
+      ],
+      [
+        "Variance",
+        "27.829903978052126"
+      ],
+      [
+        "Displayed N",
+        "54"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

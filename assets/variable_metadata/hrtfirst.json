@@ -1,0 +1,743 @@
+{
+  "varname": "hrtfirst",
+  "label": "Age of first starting HRT, grouped, by age 60-64 years",
+  "field_id": "22012",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=22012",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1383.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "percess_new",
+    "hrtepisodes",
+    "hrtevernow",
+    "wopall09",
+    "menotype",
+    "lastcon09",
+    "percessage_new",
+    "recencyofhrt",
+    "mentyp22_new",
+    "reprolife",
+    "menotype3cat",
+    "lengthofhrt"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Women's health [9]",
+    "Hormone replacement therapy (HRT) [7001]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "45 and under"
+    },
+    {
+      "value": "2.0",
+      "label": "46 - 47"
+    },
+    {
+      "value": "3.0",
+      "label": "48 - 49"
+    },
+    {
+      "value": "4.0",
+      "label": "50 - 51"
+    },
+    {
+      "value": "5.0",
+      "label": "52 and over"
+    },
+    {
+      "value": "6.0",
+      "label": "Never had HRT"
+    },
+    {
+      "value": "996.0",
+      "label": "Unknown start date"
+    },
+    {
+      "value": "997.0",
+      "label": "Too few HRT responses to quantify"
+    },
+    {
+      "value": "998.0",
+      "label": "Women not in the women's health study"
+    },
+    {
+      "value": "999.0",
+      "label": "Men"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "45 and under",
+      "count": 182,
+      "pct": 13.2
+    },
+    {
+      "label": "46 - 47",
+      "count": 189,
+      "pct": 13.7
+    },
+    {
+      "label": "48 - 49",
+      "count": 182,
+      "pct": 13.2
+    },
+    {
+      "label": "50 - 51",
+      "count": 134,
+      "pct": 9.7
+    },
+    {
+      "label": "52 and over",
+      "count": 144,
+      "pct": 10.4
+    },
+    {
+      "label": "Never had HRT",
+      "count": 552,
+      "pct": 39.9
+    }
+  ],
+  "pdf": {
+    "varname": "hrtfirst",
+    "label": "Age of first starting HRT, grouped, by age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "hrtfirst"
+      ],
+      [
+        "Field ID",
+        "22012"
+      ],
+      [
+        "Label",
+        "Age of first starting HRT, grouped, by age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "KeyMenopause"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived women's heatlth variables till age 60-64 years"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "percess_new",
+        "Period cessation age, grouped, all cases, different menopause types combined)",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "hrtepisodes",
+        "Number of episodes of HRT by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "hrtevernow",
+        "HRT - ever, never or current user - at age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "wopall09",
+        "Updated hysterectomy and / or oophorectomy status, by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "menotype",
+        "Menopause type by age 60-64 years, fewer categories (alternative coding of mentyp22_new)",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "lastcon09",
+        "Last year of contact for women's health data by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "percessage_new",
+        "Age at period cessation (months since birth), all cases",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "recencyofhrt",
+        "Recency of HRT use (at nurse visit at age 60-64 years), grouped",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "mentyp22_new",
+        "Menopause type by age 60-64 years, final version",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "reprolife",
+        "Length of reproductive life (months), all cases",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "menotype3cat",
+        "Menopause type by age 60-64 years, two surgical menopause groups (alternative coding of mentyp22_new)",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "lengthofhrt",
+        "Length of HRT use (completed years), grouped, by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Hormone replacement therapy (HRT) [7001]",
+        "This cateogry contains data from the woman's health questionnaires on hormone replacement therapy (HRT)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "45 and under",
+        false
+      ],
+      [
+        "2.0",
+        "46 - 47",
+        false
+      ],
+      [
+        "3.0",
+        "48 - 49",
+        false
+      ],
+      [
+        "4.0",
+        "50 - 51",
+        false
+      ],
+      [
+        "5.0",
+        "52 and over",
+        false
+      ],
+      [
+        "6.0",
+        "Never had HRT",
+        false
+      ],
+      [
+        "996.0",
+        "Unknown start date",
+        true
+      ],
+      [
+        "997.0",
+        "Too few HRT responses to quantify",
+        true
+      ],
+      [
+        "998.0",
+        "Women not in the women's health study",
+        true
+      ],
+      [
+        "999.0",
+        "Men",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "182",
+        "13%"
+      ],
+      [
+        "2",
+        "189",
+        "14%"
+      ],
+      [
+        "3",
+        "182",
+        "13%"
+      ],
+      [
+        "4",
+        "134",
+        "10%"
+      ],
+      [
+        "5",
+        "144",
+        "10%"
+      ],
+      [
+        "6",
+        "552",
+        "40%"
+      ],
+      [
+        "Displayed N",
+        "1383",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "hrtfirst",
+    "label": "Age of first starting HRT, grouped, by age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=22012",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hrtfirst",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "22012",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age of first starting HRT, grouped, by age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "KeyMenopause",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived women's heatlth variables till age 60-64 years",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "percess_new",
+        "description": "Period cessation age, grouped, all cases, different menopause types combined)",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "hrtepisodes",
+        "description": "Number of episodes of HRT by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "hrtevernow",
+        "description": "HRT - ever, never or current user - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "wopall09",
+        "description": "Updated hysterectomy and / or oophorectomy status, by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "menotype",
+        "description": "Menopause type by age 60-64 years, fewer categories (alternative coding of mentyp22_new)",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "lastcon09",
+        "description": "Last year of contact for women's health data by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "percessage_new",
+        "description": "Age at period cessation (months since birth), all cases",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "recencyofhrt",
+        "description": "Recency of HRT use (at nurse visit at age 60-64 years), grouped",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "mentyp22_new",
+        "description": "Menopause type by age 60-64 years, final version",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "reprolife",
+        "description": "Length of reproductive life (months), all cases",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "menotype3cat",
+        "description": "Menopause type by age 60-64 years, two surgical menopause groups (alternative coding of mentyp22_new)",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "lengthofhrt",
+        "description": "Length of HRT use (completed years), grouped, by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hormone replacement therapy (HRT) [7001]",
+        "description": "This cateogry contains data from the woman's health questionnaires on hormone replacement therapy (HRT)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hormone_replacement_therapy_(HRT)_7001.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "45 and under",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "46 - 47",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "48 - 49",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "50 - 51",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "52 and over",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "Never had HRT",
+        "is_missing": false
+      },
+      {
+        "value": "996.0",
+        "label": "Unknown start date",
+        "is_missing": true
+      },
+      {
+        "value": "997.0",
+        "label": "Too few HRT responses to quantify",
+        "is_missing": true
+      },
+      {
+        "value": "998.0",
+        "label": "Women not in the women's health study",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Men",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 12,
+      "docs": 1,
+      "cats": 2,
+      "vals": 11
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "45 and under",
+          "count": 182,
+          "pct": 13
+        },
+        {
+          "value": "2",
+          "label": "46 - 47",
+          "count": 189,
+          "pct": 14
+        },
+        {
+          "value": "3",
+          "label": "48 - 49",
+          "count": 182,
+          "pct": 13
+        },
+        {
+          "value": "4",
+          "label": "50 - 51",
+          "count": 134,
+          "pct": 10
+        },
+        {
+          "value": "5",
+          "label": "52 and over",
+          "count": 144,
+          "pct": 10
+        },
+        {
+          "value": "6",
+          "label": "Never had HRT",
+          "count": 552,
+          "pct": 40
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "182",
+        "13%"
+      ],
+      [
+        "2",
+        "189",
+        "14%"
+      ],
+      [
+        "3",
+        "182",
+        "13%"
+      ],
+      [
+        "4",
+        "134",
+        "10%"
+      ],
+      [
+        "5",
+        "144",
+        "10%"
+      ],
+      [
+        "6",
+        "552",
+        "40%"
+      ],
+      [
+        "Displayed N",
+        "1383",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

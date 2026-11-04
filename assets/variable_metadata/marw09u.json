@@ -1,0 +1,490 @@
+{
+  "varname": "marw09u",
+  "label": "Since 1999 have you been widowed (cleaned for since 1999) - at age 60-64 years",
+  "field_id": "10161",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10161",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2446.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "masy09u",
+    "mars09u",
+    "mady09u",
+    "nmarn09u",
+    "marm09u",
+    "mard09u",
+    "mary09u"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Marital history [19]",
+    "Marital status [5153]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "4.0",
+      "label": "Widowed"
+    },
+    {
+      "value": "7.0",
+      "label": "Did not complete postal questionnaire"
+    },
+    {
+      "value": "8.0",
+      "label": "not widowed"
+    },
+    {
+      "value": "9.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Widowed",
+      "count": 94,
+      "pct": 3.8
+    },
+    {
+      "label": "not widowed",
+      "count": 2352,
+      "pct": 96.2
+    }
+  ],
+  "pdf": {
+    "varname": "marw09u",
+    "label": "Since 1999 have you been widowed (cleaned for since 1999) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "marw09u"
+      ],
+      [
+        "Field ID",
+        "10161"
+      ],
+      [
+        "Label",
+        "Since 1999 have you been widowed (cleaned for since 1999) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Marriage09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "28(a)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about family and home. Updated using past data on marital status to clean to only include new changes."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "masy09u",
+        "Since 1999, year stopped living together (cleaned for since 1999) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(c)",
+        "Marriage09"
+      ],
+      [
+        "mars09u",
+        "Since 1999 have you been separated (cleaned for since 1999) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(a)",
+        "Marriage09"
+      ],
+      [
+        "mady09u",
+        "Since 1999, year husband/wife or partner died (cleaned for since 1999) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(d)",
+        "Marriage09"
+      ],
+      [
+        "nmarn09u",
+        "Since 1999 have you been married, remarried, separated, divorced, widow (cleaned for since 1999) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(a)",
+        "Marriage09"
+      ],
+      [
+        "marm09u",
+        "Since 1999 have you been married or remarried (cleaned for since 1999) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(a)",
+        "Marriage09"
+      ],
+      [
+        "mard09u",
+        "Since 1999 have you been divorced (cleaned for since 1999) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(a)",
+        "Marriage09"
+      ],
+      [
+        "mary09u",
+        "Since 1999, year married/remarried (cleaned for since 1999) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "28(b)",
+        "Marriage09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Marital history [19]",
+        "Legacy Category"
+      ],
+      [
+        "Marital status [5153]",
+        "This category contains data on the marital status history of the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "4.0",
+        "Widowed",
+        false
+      ],
+      [
+        "7.0",
+        "Did not complete postal questionnaire",
+        true
+      ],
+      [
+        "8.0",
+        "not widowed",
+        false
+      ],
+      [
+        "9.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "4",
+        "94",
+        "4%"
+      ],
+      [
+        "8",
+        "2352",
+        "96%"
+      ],
+      [
+        "Displayed N",
+        "2446",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "marw09u",
+    "label": "Since 1999 have you been widowed (cleaned for since 1999) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10161",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "marw09u",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10161",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Since 1999 have you been widowed (cleaned for since 1999) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Marriage09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "28(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about family and home. Updated using past data on marital status to clean to only include new changes.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "masy09u",
+        "description": "Since 1999, year stopped living together (cleaned for since 1999) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(c)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "mars09u",
+        "description": "Since 1999 have you been separated (cleaned for since 1999) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(a)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "mady09u",
+        "description": "Since 1999, year husband/wife or partner died (cleaned for since 1999) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(d)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "nmarn09u",
+        "description": "Since 1999 have you been married, remarried, separated, divorced, widow (cleaned for since 1999) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(a)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "marm09u",
+        "description": "Since 1999 have you been married or remarried (cleaned for since 1999) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(a)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "mard09u",
+        "description": "Since 1999 have you been divorced (cleaned for since 1999) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(a)",
+        "library_file": "Marriage09"
+      },
+      {
+        "varname": "mary09u",
+        "description": "Since 1999, year married/remarried (cleaned for since 1999) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "28(b)",
+        "library_file": "Marriage09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Marital history [19]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Marital status [5153]",
+        "description": "This category contains data on the marital status history of the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Marital_status_5153.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "4.0",
+        "label": "Widowed",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "Did not complete postal questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8.0",
+        "label": "not widowed",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "4",
+          "label": "Widowed",
+          "count": 94,
+          "pct": 4
+        },
+        {
+          "value": "8",
+          "label": "not widowed",
+          "count": 2352,
+          "pct": 96
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "4",
+        "94",
+        "4%"
+      ],
+      [
+        "8",
+        "2352",
+        "96%"
+      ],
+      [
+        "Displayed N",
+        "2446",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

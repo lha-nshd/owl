@@ -1,0 +1,621 @@
+{
+  "varname": "workhours09_w",
+  "label": "Scaled and imputed work hours per week (with missing categories) - at age 60-64 years",
+  "field_id": "13534",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13534",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "hours/week",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 24.643485915492956,
+  "sd": 15.611384540937197,
+  "series_size": 1136.0,
+  "minimum": 0.0,
+  "maximum": 57.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "stufn09_ec",
+    "wstairsmet09_w",
+    "durstairs",
+    "wstair09_w",
+    "durladder",
+    "wladder09_w",
+    "ladun09_ec",
+    "workhours09_w2"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "workhours09_w",
+    "label": "Scaled and imputed work hours per week (with missing categories) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "workhours09_w"
+      ],
+      [
+        "Field ID",
+        "13534"
+      ],
+      [
+        "Label",
+        "Scaled and imputed work hours per week (with missing categories) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours/week"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Work Stairs. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "stufn09_ec",
+        "Frequency of flights of stairs climbed at work per day - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "wstairsmet09_w",
+        "Total number of work stair/ladder hours MET hours/week (per 5 day work week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "durstairs",
+        "Average amount of time spent climbing stairs at work [hours/week] per 5 day work week - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "wstair09_w",
+        "Number of flights of stairs (10 steps) climbed at work (per 5 day work week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "durladder",
+        "Average amount of time spent climbing ladders at work [hours/week] per 5 day work week - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "wladder09_w",
+        "Number of times climbed up a ladder at work (per 5 day work week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "ladun09_ec",
+        "Frequency of ladders climbed at work per day - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "workhours09_w2",
+        "Total work activity hours per week PLUS stair/ladder hours (with missing categories) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "57"
+      ],
+      [
+        "Range",
+        "57"
+      ],
+      [
+        "Median",
+        "24.0"
+      ],
+      [
+        "IQR",
+        "10.0 - 38.0"
+      ],
+      [
+        "Decile 1",
+        "3.0"
+      ],
+      [
+        "Decile 2",
+        "8.0"
+      ],
+      [
+        "Decile 3",
+        "14.0"
+      ],
+      [
+        "Decile 4",
+        "19.0"
+      ],
+      [
+        "Decile 5",
+        "24.0"
+      ],
+      [
+        "Decile 6",
+        "30.0"
+      ],
+      [
+        "Decile 7",
+        "37.0"
+      ],
+      [
+        "Decile 8",
+        "40.0"
+      ],
+      [
+        "Decile 9",
+        "45.0"
+      ],
+      [
+        "Mean",
+        "24.643485915492956"
+      ],
+      [
+        "Std Dev.",
+        "15.611384540937197"
+      ],
+      [
+        "Variance",
+        "243.7153272850129"
+      ],
+      [
+        "Displayed N",
+        "1136"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "workhours09_w",
+    "label": "Scaled and imputed work hours per week (with missing categories) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13534",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "workhours09_w",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13534",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Scaled and imputed work hours per week (with missing categories) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours/week",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Work Stairs. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "stufn09_ec",
+        "description": "Frequency of flights of stairs climbed at work per day - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "wstairsmet09_w",
+        "description": "Total number of work stair/ladder hours MET hours/week (per 5 day work week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "durstairs",
+        "description": "Average amount of time spent climbing stairs at work [hours/week] per 5 day work week - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "wstair09_w",
+        "description": "Number of flights of stairs (10 steps) climbed at work (per 5 day work week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "durladder",
+        "description": "Average amount of time spent climbing ladders at work [hours/week] per 5 day work week - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "wladder09_w",
+        "description": "Number of times climbed up a ladder at work (per 5 day work week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "ladun09_ec",
+        "description": "Frequency of ladders climbed at work per day - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "workhours09_w2",
+        "description": "Total work activity hours per week PLUS stair/ladder hours (with missing categories) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "hours/week",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          4.75,
+          9.5,
+          14.25,
+          19.0,
+          23.75,
+          28.5,
+          33.25,
+          38.0,
+          42.75,
+          47.5,
+          52.25,
+          57.0
+        ],
+        "counts": [
+          137,
+          128,
+          79,
+          103,
+          91,
+          106,
+          82,
+          107,
+          158,
+          62,
+          59,
+          24
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 10.0,
+        "median": 24.0,
+        "q3": 38.0,
+        "max": 57.0
+      },
+      "units": "hours/week"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "57"
+      ],
+      [
+        "Range",
+        "57"
+      ],
+      [
+        "Median",
+        "24.0"
+      ],
+      [
+        "IQR",
+        "10.0 - 38.0"
+      ],
+      [
+        "Decile 1",
+        "3.0"
+      ],
+      [
+        "Decile 2",
+        "8.0"
+      ],
+      [
+        "Decile 3",
+        "14.0"
+      ],
+      [
+        "Decile 4",
+        "19.0"
+      ],
+      [
+        "Decile 5",
+        "24.0"
+      ],
+      [
+        "Decile 6",
+        "30.0"
+      ],
+      [
+        "Decile 7",
+        "37.0"
+      ],
+      [
+        "Decile 8",
+        "40.0"
+      ],
+      [
+        "Decile 9",
+        "45.0"
+      ],
+      [
+        "Mean",
+        "24.643485915492956"
+      ],
+      [
+        "Std Dev.",
+        "15.611384540937197"
+      ],
+      [
+        "Variance",
+        "243.7153272850129"
+      ],
+      [
+        "Displayed N",
+        "1136"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

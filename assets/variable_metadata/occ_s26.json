@@ -1,0 +1,543 @@
+{
+  "varname": "occ_s26",
+  "label": "Dummy for taking part in sweep at age 26 years",
+  "field_id": "31050",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31050",
+  "year": "",
+  "form": "Various",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 4541.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "occ_s36",
+    "occ_s43",
+    "occ_s22",
+    "occ_s20",
+    "occ_s31",
+    "occ_s53",
+    "occ_s25",
+    "occ_s19",
+    "occ_s15",
+    "occ_s23"
+  ],
+  "linked_years": [
+    "1961",
+    "1965",
+    "1966",
+    "1968",
+    "1969",
+    "1971",
+    "1977",
+    "1982",
+    "1989",
+    "1999"
+  ],
+  "categories": [
+    "Social class [22]",
+    "Employment history [23]",
+    "Job and occupational histories (1961-1999) [51541]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 839,
+      "pct": 18.5
+    },
+    {
+      "label": "Yes",
+      "count": 3702,
+      "pct": 81.5
+    }
+  ],
+  "pdf": {
+    "varname": "occ_s26",
+    "label": "Dummy for taking part in sweep at age 26 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "occ_s26"
+      ],
+      [
+        "Field ID",
+        "31050"
+      ],
+      [
+        "Label",
+        "Dummy for taking part in sweep at age 26 years"
+      ],
+      [
+        "Card Number",
+        "occhist"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "1972"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Possible low cell counts issue"
+      ],
+      [
+        "Notes",
+        "Derived occupational histories dataset. Goes from 1961 to 1999."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "occ_s36",
+        "Dummy for taking part in sweep at age 36 years",
+        "1982",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s43",
+        "Dummy for taking part in sweep at age 43 years",
+        "1989",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s22",
+        "Dummy for taking part in sweep at age 22 years",
+        "1968",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s20",
+        "Dummy for taking part in sweep at age 20 years",
+        "1966",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s31",
+        "Dummy for taking part in sweep at age 31 years",
+        "1977",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s53",
+        "Dummy for taking part in sweep at age 53 years",
+        "1999",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s25",
+        "Dummy for taking part in sweep at age 25 years",
+        "1971",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s19",
+        "Dummy for taking part in sweep at age 19 years",
+        "1965",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s15",
+        "Dummy for taking part in sweep at age 15 years",
+        "1961",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ],
+      [
+        "occ_s23",
+        "Dummy for taking part in sweep at age 23 years",
+        "1969",
+        "Various",
+        "Not applicable",
+        "occhist"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/occhist/Data_Note_1946.docx",
+        "Data_Note_1946.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social class [22]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Job and occupational histories (1961-1999) [51541]",
+        "The category includes information on jobs reported by cohort members at one of eight surveys conducted between the ages of 16 and 53. The jobs are organised into chronological order using reported or inferred job start dates in conjunction with the interview dates when the job episodes were collected. Information on the occupation of each job has been re-coded from SOC60, SOC70 and SOC80 codes into SOC90 codes. The dataset is designed for the analysis of changes in occupational status over time. It does not include information on spells of unemployment or economic inactivity. This work forms part of the ESRC Gender Network Grant, Project 1 \u2018Changing occupational careers of men and women\u2019, Reference: RES-225-25-2001. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "839",
+        "18%"
+      ],
+      [
+        "1",
+        "3702",
+        "82%"
+      ],
+      [
+        "Displayed N",
+        "4541",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "occ_s26",
+    "label": "Dummy for taking part in sweep at age 26 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31050",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "occ_s26",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31050",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Dummy for taking part in sweep at age 26 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "occhist",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1972",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Possible low cell counts issue",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived occupational histories dataset. Goes from 1961 to 1999.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "occ_s36",
+        "description": "Dummy for taking part in sweep at age 36 years",
+        "year": "1982",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s43",
+        "description": "Dummy for taking part in sweep at age 43 years",
+        "year": "1989",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s22",
+        "description": "Dummy for taking part in sweep at age 22 years",
+        "year": "1968",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s20",
+        "description": "Dummy for taking part in sweep at age 20 years",
+        "year": "1966",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s31",
+        "description": "Dummy for taking part in sweep at age 31 years",
+        "year": "1977",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s53",
+        "description": "Dummy for taking part in sweep at age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s25",
+        "description": "Dummy for taking part in sweep at age 25 years",
+        "year": "1971",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s19",
+        "description": "Dummy for taking part in sweep at age 19 years",
+        "year": "1965",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s15",
+        "description": "Dummy for taking part in sweep at age 15 years",
+        "year": "1961",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_s23",
+        "description": "Dummy for taking part in sweep at age 23 years",
+        "year": "1969",
+        "form": "Various",
+        "question": "Not applicable",
+        "library_file": "occhist"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/occhist/Data_Note_1946.docx",
+        "text": "Data_Note_1946.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social class [22]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Job and occupational histories (1961-1999) [51541]",
+        "description": "The category includes information on jobs reported by cohort members at one of eight surveys conducted between the ages of 16 and 53. The jobs are organised into chronological order using reported or inferred job start dates in conjunction with the interview dates when the job episodes were collected. Information on the occupation of each job has been re-coded from SOC60, SOC70 and SOC80 codes into SOC90 codes. The dataset is designed for the analysis of changes in occupational status over time. It does not include information on spells of unemployment or economic inactivity. This work forms part of the ESRC Gender Network Grant, Project 1 \u2018Changing occupational careers of men and women\u2019, Reference: RES-225-25-2001. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Job_and_occupational_histories_(1961-1999)_51541.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 10,
+      "docs": 2,
+      "cats": 3,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 839,
+          "pct": 18
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 3702,
+          "pct": 82
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "839",
+        "18%"
+      ],
+      [
+        "1",
+        "3702",
+        "82%"
+      ],
+      [
+        "Displayed N",
+        "4541",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

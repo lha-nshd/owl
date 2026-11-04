@@ -1,0 +1,559 @@
+{
+  "varname": "mch09",
+  "label": "Mean corpuscular hemoglobin - MCH (pg) - at age 60-64 years",
+  "field_id": "1082",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1082",
+  "year": "",
+  "form": "Blood assays",
+  "units": "pg",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 30.63719676549865,
+  "sd": 1.2251747052230466,
+  "series_size": 1855.0,
+  "minimum": 28.2,
+  "maximum": 33.3,
+  "truly_longitudinal_field_id": "1082",
+  "truly_longitudinal_varnames": [
+    "mch23x"
+  ],
+  "truly_longitudinal_years": [
+    "2006-10",
+    "2023"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Blood, urine, and other samples [27]",
+    "Blood biochemistry [2011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "7777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown, see corresponding result code"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "mch09",
+    "label": "Mean corpuscular hemoglobin - MCH (pg) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "mch09"
+      ],
+      [
+        "Field ID",
+        "1082"
+      ],
+      [
+        "Label",
+        "Mean corpuscular hemoglobin - MCH (pg) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Blood_Urine09"
+      ],
+      [
+        "Form",
+        "Blood assays"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "pg"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Variable from blood assays."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "mch23x",
+        "2023",
+        "Mean corpuscular hemoglobin - MCH (pg) - at age 77 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood, urine, and other samples [27]",
+        "Legacy Category"
+      ],
+      [
+        "Blood biochemistry [2011]",
+        "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "7777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown, see corresponding result code",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "28.2"
+      ],
+      [
+        "Maximum",
+        "33.3"
+      ],
+      [
+        "Range",
+        "5.099999999999998"
+      ],
+      [
+        "Median",
+        "30.6"
+      ],
+      [
+        "IQR",
+        "29.7 - 31.6"
+      ],
+      [
+        "Decile 1",
+        "29.1"
+      ],
+      [
+        "Decile 2",
+        "29.5"
+      ],
+      [
+        "Decile 3",
+        "29.9"
+      ],
+      [
+        "Decile 4",
+        "30.2"
+      ],
+      [
+        "Decile 5",
+        "30.6"
+      ],
+      [
+        "Decile 6",
+        "31.0"
+      ],
+      [
+        "Decile 7",
+        "31.3"
+      ],
+      [
+        "Decile 8",
+        "31.8"
+      ],
+      [
+        "Decile 9",
+        "32.3"
+      ],
+      [
+        "Mean",
+        "30.63719676549865"
+      ],
+      [
+        "Std Dev.",
+        "1.2251747052230466"
+      ],
+      [
+        "Variance",
+        "1.5010530583183792"
+      ],
+      [
+        "Displayed N",
+        "1855"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "mch09",
+    "label": "Mean corpuscular hemoglobin - MCH (pg) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1082",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "mch09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1082",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Mean corpuscular hemoglobin - MCH (pg) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Blood_Urine09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Blood assays",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "pg",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Variable from blood assays.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1082",
+      "members": [
+        {
+          "varname": "mch09",
+          "year": "2006-10",
+          "label": "Mean corpuscular hemoglobin - MCH (pg) - at age 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "mch23x",
+          "year": "2023",
+          "label": "Mean corpuscular hemoglobin - MCH (pg) - at age 77 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood, urine, and other samples [27]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood biochemistry [2011]",
+        "description": "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biochemistry_2011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "pg",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          28.2,
+          28.5,
+          28.8,
+          29.099999999999998,
+          29.4,
+          29.7,
+          30.0,
+          30.299999999999997,
+          30.599999999999998,
+          30.9,
+          31.2,
+          31.499999999999996,
+          31.799999999999997,
+          32.099999999999994,
+          32.4,
+          32.699999999999996,
+          33.0,
+          33.3
+        ],
+        "counts": [
+          54,
+          57,
+          72,
+          125,
+          125,
+          155,
+          174,
+          147,
+          154,
+          160,
+          119,
+          132,
+          114,
+          86,
+          68,
+          52,
+          61
+        ]
+      },
+      "boxplot": {
+        "min": 28.2,
+        "q1": 29.7,
+        "median": 30.6,
+        "q3": 31.6,
+        "max": 33.3
+      },
+      "units": "pg"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "28.2"
+      ],
+      [
+        "Maximum",
+        "33.3"
+      ],
+      [
+        "Range",
+        "5.099999999999998"
+      ],
+      [
+        "Median",
+        "30.6"
+      ],
+      [
+        "IQR",
+        "29.7 - 31.6"
+      ],
+      [
+        "Decile 1",
+        "29.1"
+      ],
+      [
+        "Decile 2",
+        "29.5"
+      ],
+      [
+        "Decile 3",
+        "29.9"
+      ],
+      [
+        "Decile 4",
+        "30.2"
+      ],
+      [
+        "Decile 5",
+        "30.6"
+      ],
+      [
+        "Decile 6",
+        "31.0"
+      ],
+      [
+        "Decile 7",
+        "31.3"
+      ],
+      [
+        "Decile 8",
+        "31.8"
+      ],
+      [
+        "Decile 9",
+        "32.3"
+      ],
+      [
+        "Mean",
+        "30.63719676549865"
+      ],
+      [
+        "Std Dev.",
+        "1.2251747052230466"
+      ],
+      [
+        "Variance",
+        "1.5010530583183792"
+      ],
+      [
+        "Displayed N",
+        "1855"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

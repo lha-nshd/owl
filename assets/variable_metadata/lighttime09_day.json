@@ -1,0 +1,1472 @@
+{
+  "varname": "lighttime09_day",
+  "label": "Average time [minutes/day] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years",
+  "field_id": "13235",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13235",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "minutes/day",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 204.93232120323182,
+  "sd": 106.66917676356178,
+  "series_size": 2000.0,
+  "minimum": 32.85714340209961,
+  "maximum": 467.1428527832031,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "vig09a",
+    "light09",
+    "moderatetime09a_dayx",
+    "mod09x",
+    "modvigtime09b_day",
+    "moderatetime09a_day",
+    "modvig09a",
+    "modvigtime09b_dayx",
+    "vigoroustime09ax",
+    "modvigtime09b_hx",
+    "modvigtime09",
+    "modvigtime09a_h",
+    "modvig09",
+    "modvigtime09a",
+    "sedtime09_day",
+    "vig09",
+    "vigoroustime09a_day",
+    "vig09x",
+    "moderatetime09_hx",
+    "vigoroustime09_hx",
+    "modvigtime09bx",
+    "moderatetime09",
+    "sedtime09",
+    "moderatetime09_dayx",
+    "moderatetime09a",
+    "modvigtime09b",
+    "vigoroustime09a",
+    "vigoroustime09x",
+    "modvigtime09a_day",
+    "modvigtime09_day",
+    "moderatetime09_day",
+    "modvigtime09a_dayx",
+    "lighttime09_h",
+    "modvig09ax",
+    "modvigtime09a_hx",
+    "mod09",
+    "modvigtime09_h",
+    "vigoroustime09_h",
+    "modvigtime09_dayx",
+    "vigoroustime09a_h",
+    "lighttime09",
+    "sedtime09_h",
+    "sed09",
+    "vigoroustime09a_dayx",
+    "moderatetime09x",
+    "moderatetime09ax",
+    "moderatetime09_h",
+    "vig09ax",
+    "modvig09x",
+    "moderatetime09a_hx",
+    "vigoroustime09",
+    "vigoroustime09_day",
+    "modvigtime09_hx",
+    "modvigtime09ax",
+    "vigoroustime09a_hx",
+    "modvigtime09b_h",
+    "modvigtime09x",
+    "vigoroustime09_dayx",
+    "moderatetime09a_h"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77777.0",
+      "label": "No questionnaire"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "lighttime09_day",
+    "label": "Average time [minutes/day] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "lighttime09_day"
+      ],
+      [
+        "Field ID",
+        "13235"
+      ],
+      [
+        "Label",
+        "Average time [minutes/day] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "minutes/day"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Light time. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "vig09a",
+        "Average time [minutes/week] spent in vigorous LT activity in the last year, excluding skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "light09",
+        "Average time [minutes/week] spent in light LT activity in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09a_dayx",
+        "Average time [minutes/day] spent in activity of 3.00-5.99MET in the last year, excluding DIY - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "mod09x",
+        "Average time [minutes/week] spent in moderate LT activity in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09b_day",
+        "Average time [minutes/day] spent in activity of 3+MET in the last year, excluding diy and skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09a_day",
+        "Average time [minutes/day] spent in activity of 3.00-5.99MET in the last year, excluding DIY - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvig09a",
+        "Average time [minutes/week] spent in moderate/vigorous LT activity in the last year, excluding skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09b_dayx",
+        "Average time [minutes/day] spent in activity of 3+MET in the last year, excluding diy and skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09ax",
+        "Average time [minutes/week] spent in activity of >=6MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09b_hx",
+        "Average time [hours/week] spent in activity of 3+MET in the last year, excluding diy and skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09",
+        "Average time [minutes/week] spent in activity of 3+MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09a_h",
+        "Average time [hours/week] spent in activity of 3+MET in the last year, excluding skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvig09",
+        "Average time [minutes/week] spent in moderate/vigorous LT activity in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09a",
+        "Average time [minutes/week] spent in activity of 3+MET in the last year, excluding skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "sedtime09_day",
+        "Average time [minutes/day] spent in activity of <1.50MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vig09",
+        "Average time [minutes/week] spent in vigorous LT activity in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09a_day",
+        "Average time [minutes/day] spent in activity of >=6MET in the last year, excluding skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vig09x",
+        "Average time [minutes/week] spent in vigorous LT activity in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09_hx",
+        "Average time [hours/week] spent in activity of 3.00-5.99MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09_hx",
+        "Average time [hours/week] spent in activity of >=6MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09bx",
+        "Average time [minutes/week] spent in activity of 3+MET in the last year, excluding diy and skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09",
+        "Average time [minutes/week] spent in activity of 3.00-5.99MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "sedtime09",
+        "Average time [minutes/week] spent in activity of <1.50MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09_dayx",
+        "Average time [minutes/day] spent in activity of 3.00-5.99MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09a",
+        "Average time [minutes/week] spent in activity of 3.00-5.99MET in the last year, excluding DIY - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09b",
+        "Average time [minutes/week] spent in activity of 3+MET in the last year, excluding diy and skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09a",
+        "Average time [minutes/week] spent in activity of >=6MET in the last year, excluding skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09x",
+        "Average time [minutes/week] spent in activity of >=6MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09a_day",
+        "Average time [minutes/day] spent in activity of 3+MET in the last year, excluding skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09_day",
+        "Average time [minutes/day] spent in activity of 3+MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09_day",
+        "Average time [minutes/day] spent in activity of 3.00-5.99MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09a_dayx",
+        "Average time [minutes/day] spent in activity of 3+MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "lighttime09_h",
+        "Average time [hours/week] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvig09ax",
+        "Average time [minutes/week] spent in moderate/vigorous LT activity in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09a_hx",
+        "Average time [hours/week] spent in activity of 3+MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "mod09",
+        "Average time [minutes/week] spent in moderate LT activity in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09_h",
+        "Average time [hours/week] spent in activity of 3+MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09_h",
+        "Average time [hours/week] spent in activity of >=6MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09_dayx",
+        "Average time [minutes/day] spent in activity of 3+MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09a_h",
+        "Average time [hours/week] spent in activity of >=6MET in the last year, excluding skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "lighttime09",
+        "Average time [minutes/week] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "sedtime09_h",
+        "Average time [hours/week] spent in activity of <1.50MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "sed09",
+        "Average time [minutes/week] spent in sedentary LT activity in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09a_dayx",
+        "Average time [minutes/day] spent in activity of >=6MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09x",
+        "Average time [minutes/week] spent in activity of 3.00-5.99MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09ax",
+        "Average time [minutes/week] spent in activity of 3.00-5.99MET in the last year, excluding DIY - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09_h",
+        "Average time [hours/week] spent in activity of 3.00-5.99MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vig09ax",
+        "Average time [minutes/week] spent in vigorous LT activity in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvig09x",
+        "Average time [minutes/week] spent in moderate/vigorous LT activity in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09a_hx",
+        "Average time [hours/week] spent in activity of 3.00-5.99MET in the last year, excluding DIY - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09",
+        "Average time [minutes/week] spent in activity of >=6MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09_day",
+        "Average time [minutes/day] spent in activity of >=6MET in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09_hx",
+        "Average time [hours/week] spent in activity of 3+MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09ax",
+        "Average time [minutes/week] spent in activity of 3+MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09a_hx",
+        "Average time [hours/week] spent in activity of >=6MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09b_h",
+        "Average time [hours/week] spent in activity of 3+MET in the last year, excluding diy and skiing - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "modvigtime09x",
+        "Average time [minutes/week] spent in activity of 3+MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "vigoroustime09_dayx",
+        "Average time [minutes/day] spent in activity of >=6MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "moderatetime09a_h",
+        "Average time [hours/week] spent in activity of 3.00-5.99MET in the last year, excluding DIY - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77777.0",
+        "No questionnaire",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "32.85714340209961"
+      ],
+      [
+        "Maximum",
+        "467.1428527832031"
+      ],
+      [
+        "Range",
+        "434.2857093811035"
+      ],
+      [
+        "Median",
+        "190.7142791748047"
+      ],
+      [
+        "IQR",
+        "120.0 - 276.79944610595703"
+      ],
+      [
+        "Decile 1",
+        "73.84615325927734"
+      ],
+      [
+        "Decile 2",
+        "105.23076477050782"
+      ],
+      [
+        "Decile 3",
+        "132.85714721679688"
+      ],
+      [
+        "Decile 4",
+        "162.85714721679688"
+      ],
+      [
+        "Decile 5",
+        "190.7142791748047"
+      ],
+      [
+        "Decile 6",
+        "221.04396057128906"
+      ],
+      [
+        "Decile 7",
+        "257.1428527832031"
+      ],
+      [
+        "Decile 8",
+        "301.2747253417969"
+      ],
+      [
+        "Decile 9",
+        "362.1428527832031"
+      ],
+      [
+        "Mean",
+        "204.93232120323182"
+      ],
+      [
+        "Std Dev.",
+        "106.66917676356178"
+      ],
+      [
+        "Variance",
+        "11378.31327141599"
+      ],
+      [
+        "Displayed N",
+        "2000"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "lighttime09_day",
+    "label": "Average time [minutes/day] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13235",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "lighttime09_day",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13235",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Average time [minutes/day] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "minutes/day",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Light time. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "vig09a",
+        "description": "Average time [minutes/week] spent in vigorous LT activity in the last year, excluding skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "light09",
+        "description": "Average time [minutes/week] spent in light LT activity in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09a_dayx",
+        "description": "Average time [minutes/day] spent in activity of 3.00-5.99MET in the last year, excluding DIY - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "mod09x",
+        "description": "Average time [minutes/week] spent in moderate LT activity in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09b_day",
+        "description": "Average time [minutes/day] spent in activity of 3+MET in the last year, excluding diy and skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09a_day",
+        "description": "Average time [minutes/day] spent in activity of 3.00-5.99MET in the last year, excluding DIY - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvig09a",
+        "description": "Average time [minutes/week] spent in moderate/vigorous LT activity in the last year, excluding skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09b_dayx",
+        "description": "Average time [minutes/day] spent in activity of 3+MET in the last year, excluding diy and skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09ax",
+        "description": "Average time [minutes/week] spent in activity of >=6MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09b_hx",
+        "description": "Average time [hours/week] spent in activity of 3+MET in the last year, excluding diy and skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09",
+        "description": "Average time [minutes/week] spent in activity of 3+MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09a_h",
+        "description": "Average time [hours/week] spent in activity of 3+MET in the last year, excluding skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvig09",
+        "description": "Average time [minutes/week] spent in moderate/vigorous LT activity in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09a",
+        "description": "Average time [minutes/week] spent in activity of 3+MET in the last year, excluding skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "sedtime09_day",
+        "description": "Average time [minutes/day] spent in activity of <1.50MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vig09",
+        "description": "Average time [minutes/week] spent in vigorous LT activity in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09a_day",
+        "description": "Average time [minutes/day] spent in activity of >=6MET in the last year, excluding skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vig09x",
+        "description": "Average time [minutes/week] spent in vigorous LT activity in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09_hx",
+        "description": "Average time [hours/week] spent in activity of 3.00-5.99MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09_hx",
+        "description": "Average time [hours/week] spent in activity of >=6MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09bx",
+        "description": "Average time [minutes/week] spent in activity of 3+MET in the last year, excluding diy and skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09",
+        "description": "Average time [minutes/week] spent in activity of 3.00-5.99MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "sedtime09",
+        "description": "Average time [minutes/week] spent in activity of <1.50MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09_dayx",
+        "description": "Average time [minutes/day] spent in activity of 3.00-5.99MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09a",
+        "description": "Average time [minutes/week] spent in activity of 3.00-5.99MET in the last year, excluding DIY - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09b",
+        "description": "Average time [minutes/week] spent in activity of 3+MET in the last year, excluding diy and skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09a",
+        "description": "Average time [minutes/week] spent in activity of >=6MET in the last year, excluding skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09x",
+        "description": "Average time [minutes/week] spent in activity of >=6MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09a_day",
+        "description": "Average time [minutes/day] spent in activity of 3+MET in the last year, excluding skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09_day",
+        "description": "Average time [minutes/day] spent in activity of 3+MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09_day",
+        "description": "Average time [minutes/day] spent in activity of 3.00-5.99MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09a_dayx",
+        "description": "Average time [minutes/day] spent in activity of 3+MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "lighttime09_h",
+        "description": "Average time [hours/week] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvig09ax",
+        "description": "Average time [minutes/week] spent in moderate/vigorous LT activity in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09a_hx",
+        "description": "Average time [hours/week] spent in activity of 3+MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "mod09",
+        "description": "Average time [minutes/week] spent in moderate LT activity in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09_h",
+        "description": "Average time [hours/week] spent in activity of 3+MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09_h",
+        "description": "Average time [hours/week] spent in activity of >=6MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09_dayx",
+        "description": "Average time [minutes/day] spent in activity of 3+MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09a_h",
+        "description": "Average time [hours/week] spent in activity of >=6MET in the last year, excluding skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "lighttime09",
+        "description": "Average time [minutes/week] spent in activity of 1.50-2.99MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "sedtime09_h",
+        "description": "Average time [hours/week] spent in activity of <1.50MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "sed09",
+        "description": "Average time [minutes/week] spent in sedentary LT activity in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09a_dayx",
+        "description": "Average time [minutes/day] spent in activity of >=6MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09x",
+        "description": "Average time [minutes/week] spent in activity of 3.00-5.99MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09ax",
+        "description": "Average time [minutes/week] spent in activity of 3.00-5.99MET in the last year, excluding DIY - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09_h",
+        "description": "Average time [hours/week] spent in activity of 3.00-5.99MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vig09ax",
+        "description": "Average time [minutes/week] spent in vigorous LT activity in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvig09x",
+        "description": "Average time [minutes/week] spent in moderate/vigorous LT activity in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09a_hx",
+        "description": "Average time [hours/week] spent in activity of 3.00-5.99MET in the last year, excluding DIY - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09",
+        "description": "Average time [minutes/week] spent in activity of >=6MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09_day",
+        "description": "Average time [minutes/day] spent in activity of >=6MET in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09_hx",
+        "description": "Average time [hours/week] spent in activity of 3+MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09ax",
+        "description": "Average time [minutes/week] spent in activity of 3+MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09a_hx",
+        "description": "Average time [hours/week] spent in activity of >=6MET in the last year, excluding skiing - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09b_h",
+        "description": "Average time [hours/week] spent in activity of 3+MET in the last year, excluding diy and skiing - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "modvigtime09x",
+        "description": "Average time [minutes/week] spent in activity of 3+MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "vigoroustime09_dayx",
+        "description": "Average time [minutes/day] spent in activity of >=6MET in the last year - recoded to cap outlier values - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "moderatetime09a_h",
+        "description": "Average time [hours/week] spent in activity of 3.00-5.99MET in the last year, excluding DIY - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 59,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "minutes/day",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          32.85714340209961,
+          56.98412725660536,
+          81.11111111111111,
+          105.23809496561687,
+          129.36507882012262,
+          153.49206267462836,
+          177.61904652913412,
+          201.7460303836399,
+          225.87301423814563,
+          249.99999809265137,
+          274.1269819471571,
+          298.2539658016629,
+          322.38094965616864,
+          346.5079335106744,
+          370.6349173651802,
+          394.7619012196859,
+          418.88888507419165,
+          443.0158689286974,
+          467.1428527832031
+        ],
+        "counts": [
+          125,
+          115,
+          160,
+          179,
+          152,
+          167,
+          174,
+          152,
+          145,
+          116,
+          106,
+          82,
+          89,
+          59,
+          51,
+          46,
+          44,
+          38
+        ]
+      },
+      "boxplot": {
+        "min": 32.85714340209961,
+        "q1": 120.0,
+        "median": 190.7142791748047,
+        "q3": 276.79944610595703,
+        "max": 467.1428527832031
+      },
+      "units": "minutes/day"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "32.85714340209961"
+      ],
+      [
+        "Maximum",
+        "467.1428527832031"
+      ],
+      [
+        "Range",
+        "434.2857093811035"
+      ],
+      [
+        "Median",
+        "190.7142791748047"
+      ],
+      [
+        "IQR",
+        "120.0 - 276.79944610595703"
+      ],
+      [
+        "Decile 1",
+        "73.84615325927734"
+      ],
+      [
+        "Decile 2",
+        "105.23076477050782"
+      ],
+      [
+        "Decile 3",
+        "132.85714721679688"
+      ],
+      [
+        "Decile 4",
+        "162.85714721679688"
+      ],
+      [
+        "Decile 5",
+        "190.7142791748047"
+      ],
+      [
+        "Decile 6",
+        "221.04396057128906"
+      ],
+      [
+        "Decile 7",
+        "257.1428527832031"
+      ],
+      [
+        "Decile 8",
+        "301.2747253417969"
+      ],
+      [
+        "Decile 9",
+        "362.1428527832031"
+      ],
+      [
+        "Mean",
+        "204.93232120323182"
+      ],
+      [
+        "Std Dev.",
+        "106.66917676356178"
+      ],
+      [
+        "Variance",
+        "11378.31327141599"
+      ],
+      [
+        "Displayed N",
+        "2000"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

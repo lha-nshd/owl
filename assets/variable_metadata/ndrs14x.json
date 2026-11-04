@@ -1,0 +1,886 @@
+{
+  "varname": "ndrs14x",
+  "label": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 68 years",
+  "field_id": "8798",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8798",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "measures",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 4.4003656307129795,
+  "sd": 3.9278967412142367,
+  "series_size": 547.0,
+  "minimum": 1.0,
+  "maximum": 20.0,
+  "truly_longitudinal_field_id": "8798",
+  "truly_longitudinal_varnames": [
+    "drspt89",
+    "drspt99",
+    "ndrs09",
+    "ndrs22x"
+  ],
+  "truly_longitudinal_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2014",
+    "2022"
+  ],
+  "linked_varnames": [
+    "drwn99",
+    "drw22x",
+    "drwin89",
+    "drw09",
+    "drbee89",
+    "ndrb22x",
+    "drbe99",
+    "drb22x",
+    "drb14x",
+    "drb09",
+    "ndrw14x",
+    "ndrw09",
+    "ndrw22x",
+    "drw14x",
+    "drwin99",
+    "ndrb09",
+    "ndrb14x",
+    "drbee99"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2014",
+    "2022"
+  ],
+  "categories": [
+    "Nutrition [16]",
+    "Other health behaviours [17]",
+    "Alcohol [5252]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "95.0",
+      "label": "Less than one unit"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "ndrs14x",
+    "label": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 68 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ndrs14x"
+      ],
+      [
+        "Field ID",
+        "8798"
+      ],
+      [
+        "Label",
+        "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 68 years"
+      ],
+      [
+        "Card Number",
+        "Alcohol14"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "49(a)"
+      ],
+      [
+        "Year",
+        "2014"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "measures"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lifestyle questions - drinking habits Q48-49."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "ndrs22x",
+        "2022",
+        "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 76 years"
+      ],
+      [
+        "ndrs09",
+        "2006-10",
+        "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 60-64 years."
+      ],
+      [
+        "drspt99",
+        "1999",
+        "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 53 years"
+      ],
+      [
+        "drspt89",
+        "1989",
+        "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 43 years."
+      ]
+    ],
+    "linked_rows": [
+      [
+        "drwn99",
+        "In the last 7 days have you had wine, sherry, martini, or port (alcoholic drinks only) - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "6(b)",
+        "des99"
+      ],
+      [
+        "drw22x",
+        "In the last 7 days have you had wine, sherry, martini, or port (alcoholic drinks only) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "141",
+        "Postal22"
+      ],
+      [
+        "drwin89",
+        "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Section F - 1",
+        "de89d"
+      ],
+      [
+        "drw09",
+        "In the last 7 days have you had wine, sherry, martini, or port (alcoholic drinks only) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "10(b)",
+        "Alcohol09"
+      ],
+      [
+        "drbee89",
+        "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 43 years",
+        "1989",
+        "B - Self completion",
+        "Section F - 1",
+        "de89d"
+      ],
+      [
+        "ndrb22x",
+        "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "141",
+        "Postal22"
+      ],
+      [
+        "drbe99",
+        "In the last 7 days have you had beer, lager, cider, or stout (alcoholic drinks only) - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "6(c)",
+        "des99"
+      ],
+      [
+        "drb22x",
+        "In the last 7 days have you had beer, lager, cider, or stout (alcoholic drinks only) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "141",
+        "Postal22"
+      ],
+      [
+        "drb14x",
+        "In the last 7 days have you had beer, lager, cider, or stout (alcoholic drinks only) - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "49(c)",
+        "Alcohol14"
+      ],
+      [
+        "drb09",
+        "In the last 7 days have you had beer, lager, cider, or stout (alcoholic drinks only) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "10(c)",
+        "Alcohol09"
+      ],
+      [
+        "ndrw14x",
+        "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "49(b)",
+        "Alcohol14"
+      ],
+      [
+        "ndrw09",
+        "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "10(b)",
+        "Alcohol09"
+      ],
+      [
+        "ndrw22x",
+        "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "141",
+        "Postal22"
+      ],
+      [
+        "drw14x",
+        "In the last 7 days have you had wine, sherry, martini, or port (alcoholic drinks only) - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "49(b)",
+        "Alcohol14"
+      ],
+      [
+        "drwin99",
+        "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "6(b)",
+        "des99"
+      ],
+      [
+        "ndrb09",
+        "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "10(c)",
+        "Alcohol09"
+      ],
+      [
+        "ndrb14x",
+        "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "49(c)",
+        "Alcohol14"
+      ],
+      [
+        "drbee99",
+        "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "6(c)",
+        "des99"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Nutrition [16]",
+        "Legacy Category"
+      ],
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Alcohol [5252]",
+        "This category contains data from the questionnaires on drinking alcohol."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "95.0",
+        "Less than one unit",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1"
+      ],
+      [
+        "Maximum",
+        "20"
+      ],
+      [
+        "Range",
+        "19"
+      ],
+      [
+        "Median",
+        "3.0"
+      ],
+      [
+        "IQR",
+        "2.0 - 6.0"
+      ],
+      [
+        "Decile 1",
+        "1.0"
+      ],
+      [
+        "Decile 2",
+        "1.0"
+      ],
+      [
+        "Decile 3",
+        "2.0"
+      ],
+      [
+        "Decile 4",
+        "2.0"
+      ],
+      [
+        "Decile 5",
+        "3.0"
+      ],
+      [
+        "Decile 6",
+        "4.0"
+      ],
+      [
+        "Decile 7",
+        "5.0"
+      ],
+      [
+        "Decile 8",
+        "7.0"
+      ],
+      [
+        "Decile 9",
+        "10.0"
+      ],
+      [
+        "Mean",
+        "4.4003656307129795"
+      ],
+      [
+        "Std Dev.",
+        "3.9278967412142367"
+      ],
+      [
+        "Variance",
+        "15.42837280964142"
+      ],
+      [
+        "Displayed N",
+        "547"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "ndrs14x",
+    "label": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 68 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8798",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ndrs14x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8798",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 68 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Alcohol14",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "49(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2014",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "measures",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lifestyle questions - drinking habits Q48-49.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "8798",
+      "members": [
+        {
+          "varname": "drspt89",
+          "year": "1989",
+          "label": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 43 years.",
+          "is_current": false
+        },
+        {
+          "varname": "drspt99",
+          "year": "1999",
+          "label": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "ndrs09",
+          "year": "2006-10",
+          "label": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 60-64 years.",
+          "is_current": false
+        },
+        {
+          "varname": "ndrs14x",
+          "year": "2014",
+          "label": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 68 years",
+          "is_current": true
+        },
+        {
+          "varname": "ndrs22x",
+          "year": "2022",
+          "label": "How many measures of spirits or liqueurs have you had in the last 7 days? - at age 76 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "drwn99",
+        "description": "In the last 7 days have you had wine, sherry, martini, or port (alcoholic drinks only) - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "6(b)",
+        "library_file": "des99"
+      },
+      {
+        "varname": "drw22x",
+        "description": "In the last 7 days have you had wine, sherry, martini, or port (alcoholic drinks only) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "141",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "drwin89",
+        "description": "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Section F - 1",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "drw09",
+        "description": "In the last 7 days have you had wine, sherry, martini, or port (alcoholic drinks only) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "10(b)",
+        "library_file": "Alcohol09"
+      },
+      {
+        "varname": "drbee89",
+        "description": "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 43 years",
+        "year": "1989",
+        "form": "B - Self completion",
+        "question": "Section F - 1",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "ndrb22x",
+        "description": "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "141",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "drbe99",
+        "description": "In the last 7 days have you had beer, lager, cider, or stout (alcoholic drinks only) - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "6(c)",
+        "library_file": "des99"
+      },
+      {
+        "varname": "drb22x",
+        "description": "In the last 7 days have you had beer, lager, cider, or stout (alcoholic drinks only) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "141",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "drb14x",
+        "description": "In the last 7 days have you had beer, lager, cider, or stout (alcoholic drinks only) - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "49(c)",
+        "library_file": "Alcohol14"
+      },
+      {
+        "varname": "drb09",
+        "description": "In the last 7 days have you had beer, lager, cider, or stout (alcoholic drinks only) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "10(c)",
+        "library_file": "Alcohol09"
+      },
+      {
+        "varname": "ndrw14x",
+        "description": "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "49(b)",
+        "library_file": "Alcohol14"
+      },
+      {
+        "varname": "ndrw09",
+        "description": "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "10(b)",
+        "library_file": "Alcohol09"
+      },
+      {
+        "varname": "ndrw22x",
+        "description": "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "141",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "drw14x",
+        "description": "In the last 7 days have you had wine, sherry, martini, or port (alcoholic drinks only) - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "49(b)",
+        "library_file": "Alcohol14"
+      },
+      {
+        "varname": "drwin99",
+        "description": "How many glasses of wine, sherry, martini, or port have you had in the last 7 days? - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "6(b)",
+        "library_file": "des99"
+      },
+      {
+        "varname": "ndrb09",
+        "description": "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "10(c)",
+        "library_file": "Alcohol09"
+      },
+      {
+        "varname": "ndrb14x",
+        "description": "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "49(c)",
+        "library_file": "Alcohol14"
+      },
+      {
+        "varname": "drbee99",
+        "description": "How many 1/2 pints of beer, lager, cider, or stout have you had in the last 7 days? - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "6(c)",
+        "library_file": "des99"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Nutrition [16]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Alcohol [5252]",
+        "description": "This category contains data from the questionnaires on drinking alcohol.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Alcohol_5252.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "95.0",
+        "label": "Less than one unit",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 22,
+      "docs": 1,
+      "cats": 3,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "measures",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          11.0,
+          12.0,
+          13.0,
+          14.0,
+          15.0,
+          16.0,
+          17.0,
+          18.0,
+          19.0,
+          20.0
+        ],
+        "counts": [
+          117,
+          121,
+          57,
+          71,
+          29,
+          40,
+          26,
+          15,
+          2,
+          31,
+          0,
+          9,
+          0,
+          14,
+          4,
+          1,
+          0,
+          1,
+          9
+        ]
+      },
+      "boxplot": {
+        "min": 1.0,
+        "q1": 2.0,
+        "median": 3.0,
+        "q3": 6.0,
+        "max": 20.0
+      },
+      "units": "measures"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1"
+      ],
+      [
+        "Maximum",
+        "20"
+      ],
+      [
+        "Range",
+        "19"
+      ],
+      [
+        "Median",
+        "3.0"
+      ],
+      [
+        "IQR",
+        "2.0 - 6.0"
+      ],
+      [
+        "Decile 1",
+        "1.0"
+      ],
+      [
+        "Decile 2",
+        "1.0"
+      ],
+      [
+        "Decile 3",
+        "2.0"
+      ],
+      [
+        "Decile 4",
+        "2.0"
+      ],
+      [
+        "Decile 5",
+        "3.0"
+      ],
+      [
+        "Decile 6",
+        "4.0"
+      ],
+      [
+        "Decile 7",
+        "5.0"
+      ],
+      [
+        "Decile 8",
+        "7.0"
+      ],
+      [
+        "Decile 9",
+        "10.0"
+      ],
+      [
+        "Mean",
+        "4.4003656307129795"
+      ],
+      [
+        "Std Dev.",
+        "3.9278967412142367"
+      ],
+      [
+        "Variance",
+        "15.42837280964142"
+      ],
+      [
+        "Displayed N",
+        "547"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

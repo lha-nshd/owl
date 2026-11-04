@@ -1,0 +1,833 @@
+{
+  "varname": "walkbikeactivity09_w",
+  "label": "Total walking or cycling hours per week - get about and commute (with missing categories not assigned) - at age 60-64 years",
+  "field_id": "13567",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13567",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "hours/week",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.544241204208933,
+  "sd": 1.13554707382766,
+  "series_size": 5098.0,
+  "minimum": 0.0,
+  "maximum": 5.166666507720947,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "wcyclejour09",
+    "walkmet09_w",
+    "dur_walk09_w",
+    "wwalkjour09",
+    "dur_walk09_d",
+    "dur_bike09_w",
+    "walkdis09",
+    "cyclemet09_w",
+    "dur_bike09_d",
+    "bikedis09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "walkbikeactivity09_w",
+    "label": "Total walking or cycling hours per week - get about and commute (with missing categories not assigned) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "walkbikeactivity09_w"
+      ],
+      [
+        "Field ID",
+        "13567"
+      ],
+      [
+        "Label",
+        "Total walking or cycling hours per week - get about and commute (with missing categories not assigned) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours/week"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Active Transport (Get About) - Walking/Cycling. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "wcyclejour09",
+        "Number of total journeys by bicycle (week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "walkmet09_w",
+        "Average MET hours/week for getting about by walking - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dur_walk09_w",
+        "Average amount of time spent getting about via walking [hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "wwalkjour09",
+        "Number of total journeys by foot (week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dur_walk09_d",
+        "Average amount of time spent getting about via walking [hours/day] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dur_bike09_w",
+        "Average amount of time spent getting about via cycling [hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "walkdis09",
+        "Total distance walked (miles/week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "cyclemet09_w",
+        "Average MET hours/week for getting about by cycling - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dur_bike09_d",
+        "Average amount of time spent getting about via cycling [hours/day] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "bikedis09",
+        "Total distance biked (miles/week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "5.166666507720947"
+      ],
+      [
+        "Range",
+        "5.166666507720947"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.4124999940395355"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.8333333134651184"
+      ],
+      [
+        "Decile 9",
+        "2.3333332538604736"
+      ],
+      [
+        "Mean",
+        "0.544241204208933"
+      ],
+      [
+        "Std Dev.",
+        "1.13554707382766"
+      ],
+      [
+        "Variance",
+        "1.2894671568785612"
+      ],
+      [
+        "Displayed N",
+        "5098"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "walkbikeactivity09_w",
+    "label": "Total walking or cycling hours per week - get about and commute (with missing categories not assigned) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13567",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "walkbikeactivity09_w",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13567",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Total walking or cycling hours per week - get about and commute (with missing categories not assigned) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours/week",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Active Transport (Get About) - Walking/Cycling. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "wcyclejour09",
+        "description": "Number of total journeys by bicycle (week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "walkmet09_w",
+        "description": "Average MET hours/week for getting about by walking - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dur_walk09_w",
+        "description": "Average amount of time spent getting about via walking [hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "wwalkjour09",
+        "description": "Number of total journeys by foot (week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dur_walk09_d",
+        "description": "Average amount of time spent getting about via walking [hours/day] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dur_bike09_w",
+        "description": "Average amount of time spent getting about via cycling [hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "walkdis09",
+        "description": "Total distance walked (miles/week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "cyclemet09_w",
+        "description": "Average MET hours/week for getting about by cycling - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dur_bike09_d",
+        "description": "Average amount of time spent getting about via cycling [hours/day] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "bikedis09",
+        "description": "Total distance biked (miles/week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 10,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "hours/week",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          0.04783950470111988,
+          0.09567900940223976,
+          0.14351851410335964,
+          0.19135801880447953,
+          0.23919752350559942,
+          0.2870370282067193,
+          0.3348765329078392,
+          0.38271603760895906,
+          0.4305555423100789,
+          0.47839504701119884,
+          0.5262345517123187,
+          0.5740740564134386,
+          0.6219135611145584,
+          0.6697530658156784,
+          0.7175925705167983,
+          0.7654320752179181,
+          0.813271579919038,
+          0.8611110846201578,
+          0.9089505893212778,
+          0.9567900940223977,
+          1.0046295987235174,
+          1.0524691034246374,
+          1.1003086081257574,
+          1.1481481128268771,
+          1.195987617527997,
+          1.2438271222291168,
+          1.2916666269302368,
+          1.3395061316313568,
+          1.3873456363324765,
+          1.4351851410335965,
+          1.4830246457347163,
+          1.5308641504358362,
+          1.5787036551369562,
+          1.626543159838076,
+          1.674382664539196,
+          1.7222221692403157,
+          1.7700616739414357,
+          1.8179011786425556,
+          1.8657406833436754,
+          1.9135801880447953,
+          1.961419692745915,
+          2.009259197447035,
+          2.057098702148155,
+          2.104938206849275,
+          2.1527777115503945,
+          2.2006172162515147,
+          2.2484567209526345,
+          2.2962962256537542,
+          2.3441357303548744,
+          2.391975235055994,
+          2.439814739757114,
+          2.4876542444582337,
+          2.535493749159354,
+          2.5833332538604736,
+          2.6311727585615934,
+          2.6790122632627136,
+          2.7268517679638333,
+          2.774691272664953,
+          2.8225307773660733,
+          2.870370282067193,
+          2.9182097867683128,
+          2.9660492914694325,
+          3.0138887961705527,
+          3.0617283008716725,
+          3.109567805572792,
+          3.1574073102739124,
+          3.205246814975032,
+          3.253086319676152,
+          3.3009258243772717,
+          3.348765329078392,
+          3.3966048337795116,
+          3.4444443384806314,
+          3.4922838431817516,
+          3.5401233478828713,
+          3.587962852583991,
+          3.6358023572851113,
+          3.683641861986231,
+          3.7314813666873508,
+          3.7793208713884705,
+          3.8271603760895907,
+          3.8749998807907104,
+          3.92283938549183,
+          3.9706788901929504,
+          4.01851839489407,
+          4.06635789959519,
+          4.11419740429631,
+          4.16203690899743,
+          4.20987641369855,
+          4.257715918399669,
+          4.305555423100789,
+          4.35339492780191,
+          4.4012344325030295,
+          4.449073937204149,
+          4.496913441905269,
+          4.544752946606389,
+          4.5925924513075085,
+          4.640431956008628,
+          4.688271460709749,
+          4.736110965410869,
+          4.783950470111988,
+          4.831789974813108,
+          4.879629479514228,
+          4.927468984215348,
+          4.975308488916467,
+          5.023147993617588,
+          5.070987498318708,
+          5.1188270030198275,
+          5.166666507720947
+        ],
+        "counts": [
+          3644,
+          22,
+          0,
+          47,
+          2,
+          29,
+          77,
+          1,
+          22,
+          5,
+          40,
+          0,
+          30,
+          95,
+          4,
+          14,
+          4,
+          55,
+          4,
+          12,
+          77,
+          1,
+          9,
+          2,
+          35,
+          2,
+          10,
+          68,
+          2,
+          21,
+          0,
+          29,
+          0,
+          9,
+          61,
+          0,
+          9,
+          1,
+          17,
+          1,
+          8,
+          73,
+          1,
+          8,
+          0,
+          26,
+          0,
+          6,
+          49,
+          0,
+          10,
+          1,
+          16,
+          1,
+          7,
+          45,
+          0,
+          2,
+          1,
+          15,
+          10,
+          0,
+          30,
+          0,
+          5,
+          1,
+          12,
+          7,
+          2,
+          54,
+          2,
+          4,
+          0,
+          15,
+          4,
+          2,
+          20,
+          1,
+          3,
+          0,
+          12,
+          2,
+          1,
+          41,
+          3,
+          4,
+          2,
+          8,
+          2,
+          1,
+          23,
+          0,
+          4,
+          0,
+          2,
+          2,
+          0,
+          34,
+          0,
+          2,
+          0,
+          15,
+          3,
+          0,
+          17,
+          2,
+          6,
+          10
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.4124999940395355,
+        "max": 5.166666507720947
+      },
+      "units": "hours/week"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "5.166666507720947"
+      ],
+      [
+        "Range",
+        "5.166666507720947"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.4124999940395355"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.8333333134651184"
+      ],
+      [
+        "Decile 9",
+        "2.3333332538604736"
+      ],
+      [
+        "Mean",
+        "0.544241204208933"
+      ],
+      [
+        "Std Dev.",
+        "1.13554707382766"
+      ],
+      [
+        "Variance",
+        "1.2894671568785612"
+      ],
+      [
+        "Displayed N",
+        "5098"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

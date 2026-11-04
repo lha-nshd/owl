@@ -1,0 +1,2850 @@
+{
+  "varname": "occ_soc2d1",
+  "label": "Occupation: SOC90, 2-digit - 1st job episode - up to age 53 years",
+  "field_id": "30774",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30774",
+  "year": "",
+  "form": "Various",
+  "units": "SOC 90",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 4414.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "occ_soc2d7",
+    "occ_soc2d18",
+    "occ_soc2d26",
+    "occ_soc2d20",
+    "occ_soc2d4",
+    "occ_soc2d22",
+    "occ_soc2d8",
+    "occ_soc2d10",
+    "occ_soc2d3",
+    "occ_soc2d9",
+    "occ_soc2d12",
+    "occ_soc2d6",
+    "occ_soc2d2",
+    "occ_soc2d14",
+    "occ_soc2d24",
+    "occ_soc2d27",
+    "occ_soc2d23",
+    "occ_soc2d5",
+    "occ_soc2d15",
+    "occ_soc2d17",
+    "occ_soc2d13",
+    "occ_soc2d16",
+    "occ_soc2d25",
+    "occ_soc2d11",
+    "occ_soc2d19",
+    "occ_soc2d21"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Social class [22]",
+    "Employment history [23]",
+    "Job and occupational histories (1961-1999) [51541]"
+  ],
+  "value_labels": [
+    {
+      "value": "-8.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "13.0",
+      "label": "13 Financial institution and office managers, civil service executive officers"
+    },
+    {
+      "value": "16.0",
+      "label": "16 Managers in farming, horticulture, forestry and fishing"
+    },
+    {
+      "value": "17.0",
+      "label": "17 Manager, and proprietors in service industries"
+    },
+    {
+      "value": "19.0",
+      "label": "19 Managers and administrators nec"
+    },
+    {
+      "value": "20.0",
+      "label": "20 Natural scientists"
+    },
+    {
+      "value": "21.0",
+      "label": "21 Engineers and technologists"
+    },
+    {
+      "value": "22.0",
+      "label": "22 Health professional"
+    },
+    {
+      "value": "23.0",
+      "label": "23 Teaching professionals"
+    },
+    {
+      "value": "24.0",
+      "label": "24 Legal professionals"
+    },
+    {
+      "value": "25.0",
+      "label": "25 Business and financial professionals"
+    },
+    {
+      "value": "26.0",
+      "label": "26 Architects and surveyors"
+    },
+    {
+      "value": "27.0",
+      "label": "27 Librarians and related professionals"
+    },
+    {
+      "value": "29.0",
+      "label": "29 Professional occupations nec"
+    },
+    {
+      "value": "30.0",
+      "label": "30 Scientific technicians"
+    },
+    {
+      "value": "31.0",
+      "label": "31 Draughtspersons, quantity surveyors and other surveyors"
+    },
+    {
+      "value": "33.0",
+      "label": "33 Ship and aircraft officers, air traffic planners and controllers"
+    },
+    {
+      "value": "34.0",
+      "label": "34 Health associate professionals"
+    },
+    {
+      "value": "36.0",
+      "label": "36 Business and financial associate professionals"
+    },
+    {
+      "value": "38.0",
+      "label": "38 Literary, artistic and sports professional"
+    },
+    {
+      "value": "39.0",
+      "label": "39 Associate professional occupations nec"
+    },
+    {
+      "value": "43.0",
+      "label": "43 Clerks (not otherwise specified)"
+    },
+    {
+      "value": "44.0",
+      "label": "44 Stores and despatch clerks, storekeepers"
+    },
+    {
+      "value": "45.0",
+      "label": "45 Secretaries, personal assistants, typists, word processors operators"
+    },
+    {
+      "value": "46.0",
+      "label": "46 Receptionists, telephonists and related occupations"
+    },
+    {
+      "value": "50.0",
+      "label": "50 Construction trades"
+    },
+    {
+      "value": "51.0",
+      "label": "51 Metal machining, fitting and instrument making trades"
+    },
+    {
+      "value": "52.0",
+      "label": "52 Electrical/electronic trades"
+    },
+    {
+      "value": "53.0",
+      "label": "53 Metal farming, welding and related trades"
+    },
+    {
+      "value": "54.0",
+      "label": "54 Travel and transport vechiles"
+    },
+    {
+      "value": "55.0",
+      "label": "55 Textiles, garments and related trades"
+    },
+    {
+      "value": "56.0",
+      "label": "56 Printing and related trades"
+    },
+    {
+      "value": "57.0",
+      "label": "57 Woodworking tradcs"
+    },
+    {
+      "value": "58.0",
+      "label": "58 Food preparation trades"
+    },
+    {
+      "value": "59.0",
+      "label": "59 Other craft and related occupations nec"
+    },
+    {
+      "value": "60.0",
+      "label": "60 NCOs and other ranks, armed forces"
+    },
+    {
+      "value": "61.0",
+      "label": "61 Security and protected service occupations"
+    },
+    {
+      "value": "62.0",
+      "label": "62 Catering occupations"
+    },
+    {
+      "value": "65.0",
+      "label": "65 Childcare and related occupations"
+    },
+    {
+      "value": "66.0",
+      "label": "66 Hairdressers, beauticians and related occupation"
+    },
+    {
+      "value": "71.0",
+      "label": "71 Sales representatives"
+    },
+    {
+      "value": "72.0",
+      "label": "72 Sales assistants and check-our operators"
+    },
+    {
+      "value": "73.0",
+      "label": "73 Mobile, market and door-to-door salespersons"
+    },
+    {
+      "value": "79.0",
+      "label": "79 Sales nec"
+    },
+    {
+      "value": "80.0",
+      "label": "80 Food drink and tobacco process operatives"
+    },
+    {
+      "value": "81.0",
+      "label": "81 Textiles and tannery process operatives"
+    },
+    {
+      "value": "82.0",
+      "label": "82 Chemicals, paper, plastics and related process operatives"
+    },
+    {
+      "value": "83.0",
+      "label": "83 Metal making and treating process opeeratives"
+    },
+    {
+      "value": "84.0",
+      "label": "84 Metal working process operatives"
+    },
+    {
+      "value": "85.0",
+      "label": "85 Assemblers/lineworkers"
+    },
+    {
+      "value": "86.0",
+      "label": "86 Other routine process operatives"
+    },
+    {
+      "value": "87.0",
+      "label": "87 Road transport operatives"
+    },
+    {
+      "value": "88.0",
+      "label": "88 Other transport and machinery operatives"
+    },
+    {
+      "value": "89.0",
+      "label": "89 Machne and plant operatives nec"
+    },
+    {
+      "value": "90.0",
+      "label": "90 Other occupations m agriculture, forestry and fishing"
+    },
+    {
+      "value": "91.0",
+      "label": "91 Other occupations in mining and manufacturing"
+    },
+    {
+      "value": "92.0",
+      "label": "92 Other occupations in construction"
+    },
+    {
+      "value": "93.0",
+      "label": "93 Other occupations in transport"
+    },
+    {
+      "value": "94.0",
+      "label": "94 Other occpations in communication"
+    },
+    {
+      "value": "95.0",
+      "label": "95 Other occupations in sales and service"
+    },
+    {
+      "value": "99.0",
+      "label": "99 Other occupations nec"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "13 Financial institution and office managers, civil service executive officers",
+      "count": 12,
+      "pct": 0.3
+    },
+    {
+      "label": "16 Managers in farming, horticulture, forestry and fishing",
+      "count": 18,
+      "pct": 0.4
+    },
+    {
+      "label": "17 Manager, and proprietors in service industries",
+      "count": 98,
+      "pct": 2.2
+    },
+    {
+      "label": "19 Managers and administrators nec",
+      "count": 26,
+      "pct": 0.6
+    },
+    {
+      "label": "20 Natural scientists",
+      "count": 20,
+      "pct": 0.5
+    },
+    {
+      "label": "21 Engineers and technologists",
+      "count": 96,
+      "pct": 2.2
+    },
+    {
+      "label": "22 Health professional",
+      "count": 30,
+      "pct": 0.7
+    },
+    {
+      "label": "23 Teaching professionals",
+      "count": 266,
+      "pct": 6.0
+    },
+    {
+      "label": "24 Legal professionals",
+      "count": 14,
+      "pct": 0.3
+    },
+    {
+      "label": "25 Business and financial professionals",
+      "count": 32,
+      "pct": 0.7
+    },
+    {
+      "label": "26 Architects and surveyors",
+      "count": 13,
+      "pct": 0.3
+    },
+    {
+      "label": "27 Librarians and related professionals",
+      "count": 24,
+      "pct": 0.5
+    },
+    {
+      "label": "29 Professional occupations nec",
+      "count": 20,
+      "pct": 0.5
+    },
+    {
+      "label": "30 Scientific technicians",
+      "count": 60,
+      "pct": 1.4
+    },
+    {
+      "label": "31 Draughtspersons, quantity surveyors and other surveyors",
+      "count": 60,
+      "pct": 1.4
+    },
+    {
+      "label": "33 Ship and aircraft officers, air traffic planners and controllers",
+      "count": 15,
+      "pct": 0.3
+    },
+    {
+      "label": "34 Health associate professionals",
+      "count": 83,
+      "pct": 1.9
+    },
+    {
+      "label": "36 Business and financial associate professionals",
+      "count": 27,
+      "pct": 0.6
+    },
+    {
+      "label": "38 Literary, artistic and sports professional",
+      "count": 40,
+      "pct": 0.9
+    },
+    {
+      "label": "39 Associate professional occupations nec",
+      "count": 49,
+      "pct": 1.1
+    },
+    {
+      "label": "43 Clerks (not otherwise specified)",
+      "count": 860,
+      "pct": 19.5
+    },
+    {
+      "label": "44 Stores and despatch clerks, storekeepers",
+      "count": 58,
+      "pct": 1.3
+    },
+    {
+      "label": "45 Secretaries, personal assistants, typists, word processors operators",
+      "count": 263,
+      "pct": 6.0
+    },
+    {
+      "label": "46 Receptionists, telephonists and related occupations",
+      "count": 35,
+      "pct": 0.8
+    },
+    {
+      "label": "50 Construction trades",
+      "count": 62,
+      "pct": 1.4
+    },
+    {
+      "label": "51 Metal machining, fitting and instrument making trades",
+      "count": 164,
+      "pct": 3.7
+    },
+    {
+      "label": "52 Electrical/electronic trades",
+      "count": 139,
+      "pct": 3.1
+    },
+    {
+      "label": "53 Metal farming, welding and related trades",
+      "count": 74,
+      "pct": 1.7
+    },
+    {
+      "label": "54 Travel and transport vechiles",
+      "count": 38,
+      "pct": 0.9
+    },
+    {
+      "label": "55 Textiles, garments and related trades",
+      "count": 160,
+      "pct": 3.6
+    },
+    {
+      "label": "56 Printing and related trades",
+      "count": 13,
+      "pct": 0.3
+    },
+    {
+      "label": "57 Woodworking tradcs",
+      "count": 96,
+      "pct": 2.2
+    },
+    {
+      "label": "58 Food preparation trades",
+      "count": 17,
+      "pct": 0.4
+    },
+    {
+      "label": "59 Other craft and related occupations nec",
+      "count": 29,
+      "pct": 0.7
+    },
+    {
+      "label": "60 NCOs and other ranks, armed forces",
+      "count": 68,
+      "pct": 1.5
+    },
+    {
+      "label": "61 Security and protected service occupations",
+      "count": 12,
+      "pct": 0.3
+    },
+    {
+      "label": "62 Catering occupations",
+      "count": 42,
+      "pct": 1.0
+    },
+    {
+      "label": "65 Childcare and related occupations",
+      "count": 11,
+      "pct": 0.2
+    },
+    {
+      "label": "66 Hairdressers, beauticians and related occupation",
+      "count": 92,
+      "pct": 2.1
+    },
+    {
+      "label": "71 Sales representatives",
+      "count": 18,
+      "pct": 0.4
+    },
+    {
+      "label": "72 Sales assistants and check-our operators",
+      "count": 371,
+      "pct": 8.4
+    },
+    {
+      "label": "73 Mobile, market and door-to-door salespersons",
+      "count": 18,
+      "pct": 0.4
+    },
+    {
+      "label": "79 Sales nec",
+      "count": 17,
+      "pct": 0.4
+    },
+    {
+      "label": "80 Food drink and tobacco process operatives",
+      "count": 19,
+      "pct": 0.4
+    },
+    {
+      "label": "81 Textiles and tannery process operatives",
+      "count": 22,
+      "pct": 0.5
+    },
+    {
+      "label": "82 Chemicals, paper, plastics and related process operatives",
+      "count": 45,
+      "pct": 1.0
+    },
+    {
+      "label": "83 Metal making and treating process opeeratives",
+      "count": 13,
+      "pct": 0.3
+    },
+    {
+      "label": "84 Metal working process operatives",
+      "count": 18,
+      "pct": 0.4
+    },
+    {
+      "label": "85 Assemblers/lineworkers",
+      "count": 11,
+      "pct": 0.2
+    },
+    {
+      "label": "86 Other routine process operatives",
+      "count": 81,
+      "pct": 1.8
+    },
+    {
+      "label": "87 Road transport operatives",
+      "count": 16,
+      "pct": 0.4
+    },
+    {
+      "label": "88 Other transport and machinery operatives",
+      "count": 14,
+      "pct": 0.3
+    },
+    {
+      "label": "89 Machne and plant operatives nec",
+      "count": 58,
+      "pct": 1.3
+    },
+    {
+      "label": "90 Other occupations m agriculture, forestry and fishing",
+      "count": 173,
+      "pct": 3.9
+    },
+    {
+      "label": "91 Other occupations in mining and manufacturing",
+      "count": 69,
+      "pct": 1.6
+    },
+    {
+      "label": "92 Other occupations in construction",
+      "count": 32,
+      "pct": 0.7
+    },
+    {
+      "label": "93 Other occupations in transport",
+      "count": 26,
+      "pct": 0.6
+    },
+    {
+      "label": "94 Other occpations in communication",
+      "count": 19,
+      "pct": 0.4
+    },
+    {
+      "label": "95 Other occupations in sales and service",
+      "count": 70,
+      "pct": 1.6
+    },
+    {
+      "label": "99 Other occupations nec",
+      "count": 68,
+      "pct": 1.5
+    }
+  ],
+  "pdf": {
+    "varname": "occ_soc2d1",
+    "label": "Occupation: SOC90, 2-digit - 1st job episode - up to age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "occ_soc2d1"
+      ],
+      [
+        "Field ID",
+        "30774"
+      ],
+      [
+        "Label",
+        "Occupation: SOC90, 2-digit - 1st job episode - up to age 53 years"
+      ],
+      [
+        "Card Number",
+        "occhist"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "SOC 90"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Possible low cell counts issue"
+      ],
+      [
+        "Notes",
+        "Derived occupational histories dataset. Goes from 1961 to 1999."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "occ_soc2d7",
+        "Occupation: SOC90, 2-digit - 7th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d18",
+        "Occupation: SOC90, 2-digit - 18th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d26",
+        "Occupation: SOC90, 2-digit - 26th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d20",
+        "Occupation: SOC90, 2-digit - 20th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d4",
+        "Occupation: SOC90, 2-digit - 4th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d22",
+        "Occupation: SOC90, 2-digit - 22nd job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d8",
+        "Occupation: SOC90, 2-digit - 8th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d10",
+        "Occupation: SOC90, 2-digit - 10th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d3",
+        "Occupation: SOC90, 2-digit - 3rd job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d9",
+        "Occupation: SOC90, 2-digit - 9th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d12",
+        "Occupation: SOC90, 2-digit - 12th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d6",
+        "Occupation: SOC90, 2-digit - 6th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d2",
+        "Occupation: SOC90, 2-digit - 2nd job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d14",
+        "Occupation: SOC90, 2-digit - 14th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d24",
+        "Occupation: SOC90, 2-digit - 24th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d27",
+        "Occupation: SOC90, 2-digit - 27th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d23",
+        "Occupation: SOC90, 2-digit - 23rd job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d5",
+        "Occupation: SOC90, 2-digit - 5th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d15",
+        "Occupation: SOC90, 2-digit - 15th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d17",
+        "Occupation: SOC90, 2-digit - 17th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d13",
+        "Occupation: SOC90, 2-digit - 13th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d16",
+        "Occupation: SOC90, 2-digit - 16th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d25",
+        "Occupation: SOC90, 2-digit - 25th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d11",
+        "Occupation: SOC90, 2-digit - 11th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d19",
+        "Occupation: SOC90, 2-digit - 19th job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ],
+      [
+        "occ_soc2d21",
+        "Occupation: SOC90, 2-digit - 21st job episode - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "occhist"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/occhist/Data_Note_1946.docx",
+        "Data_Note_1946.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social class [22]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Job and occupational histories (1961-1999) [51541]",
+        "The category includes information on jobs reported by cohort members at one of eight surveys conducted between the ages of 16 and 53. The jobs are organised into chronological order using reported or inferred job start dates in conjunction with the interview dates when the job episodes were collected. Information on the occupation of each job has been re-coded from SOC60, SOC70 and SOC80 codes into SOC90 codes. The dataset is designed for the analysis of changes in occupational status over time. It does not include information on spells of unemployment or economic inactivity. This work forms part of the ESRC Gender Network Grant, Project 1 \u2018Changing occupational careers of men and women\u2019, Reference: RES-225-25-2001. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-8.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "13.0",
+        "13 Financial institution and office managers, civil service executive officers",
+        false
+      ],
+      [
+        "16.0",
+        "16 Managers in farming, horticulture, forestry and fishing",
+        false
+      ],
+      [
+        "17.0",
+        "17 Manager, and proprietors in service industries",
+        false
+      ],
+      [
+        "19.0",
+        "19 Managers and administrators nec",
+        false
+      ],
+      [
+        "20.0",
+        "20 Natural scientists",
+        false
+      ],
+      [
+        "21.0",
+        "21 Engineers and technologists",
+        false
+      ],
+      [
+        "22.0",
+        "22 Health professional",
+        false
+      ],
+      [
+        "23.0",
+        "23 Teaching professionals",
+        false
+      ],
+      [
+        "24.0",
+        "24 Legal professionals",
+        false
+      ],
+      [
+        "25.0",
+        "25 Business and financial professionals",
+        false
+      ],
+      [
+        "26.0",
+        "26 Architects and surveyors",
+        false
+      ],
+      [
+        "27.0",
+        "27 Librarians and related professionals",
+        false
+      ],
+      [
+        "29.0",
+        "29 Professional occupations nec",
+        false
+      ],
+      [
+        "30.0",
+        "30 Scientific technicians",
+        false
+      ],
+      [
+        "31.0",
+        "31 Draughtspersons, quantity surveyors and other surveyors",
+        false
+      ],
+      [
+        "33.0",
+        "33 Ship and aircraft officers, air traffic planners and controllers",
+        false
+      ],
+      [
+        "34.0",
+        "34 Health associate professionals",
+        false
+      ],
+      [
+        "36.0",
+        "36 Business and financial associate professionals",
+        false
+      ],
+      [
+        "38.0",
+        "38 Literary, artistic and sports professional",
+        false
+      ],
+      [
+        "39.0",
+        "39 Associate professional occupations nec",
+        false
+      ],
+      [
+        "43.0",
+        "43 Clerks (not otherwise specified)",
+        false
+      ],
+      [
+        "44.0",
+        "44 Stores and despatch clerks, storekeepers",
+        false
+      ],
+      [
+        "45.0",
+        "45 Secretaries, personal assistants, typists, word processors operators",
+        false
+      ],
+      [
+        "46.0",
+        "46 Receptionists, telephonists and related occupations",
+        false
+      ],
+      [
+        "50.0",
+        "50 Construction trades",
+        false
+      ],
+      [
+        "51.0",
+        "51 Metal machining, fitting and instrument making trades",
+        false
+      ],
+      [
+        "52.0",
+        "52 Electrical/electronic trades",
+        false
+      ],
+      [
+        "53.0",
+        "53 Metal farming, welding and related trades",
+        false
+      ],
+      [
+        "54.0",
+        "54 Travel and transport vechiles",
+        false
+      ],
+      [
+        "55.0",
+        "55 Textiles, garments and related trades",
+        false
+      ],
+      [
+        "56.0",
+        "56 Printing and related trades",
+        false
+      ],
+      [
+        "57.0",
+        "57 Woodworking tradcs",
+        false
+      ],
+      [
+        "58.0",
+        "58 Food preparation trades",
+        false
+      ],
+      [
+        "59.0",
+        "59 Other craft and related occupations nec",
+        false
+      ],
+      [
+        "60.0",
+        "60 NCOs and other ranks, armed forces",
+        false
+      ],
+      [
+        "61.0",
+        "61 Security and protected service occupations",
+        false
+      ],
+      [
+        "62.0",
+        "62 Catering occupations",
+        false
+      ],
+      [
+        "65.0",
+        "65 Childcare and related occupations",
+        false
+      ],
+      [
+        "66.0",
+        "66 Hairdressers, beauticians and related occupation",
+        false
+      ],
+      [
+        "71.0",
+        "71 Sales representatives",
+        false
+      ],
+      [
+        "72.0",
+        "72 Sales assistants and check-our operators",
+        false
+      ],
+      [
+        "73.0",
+        "73 Mobile, market and door-to-door salespersons",
+        false
+      ],
+      [
+        "79.0",
+        "79 Sales nec",
+        false
+      ],
+      [
+        "80.0",
+        "80 Food drink and tobacco process operatives",
+        false
+      ],
+      [
+        "81.0",
+        "81 Textiles and tannery process operatives",
+        false
+      ],
+      [
+        "82.0",
+        "82 Chemicals, paper, plastics and related process operatives",
+        false
+      ],
+      [
+        "83.0",
+        "83 Metal making and treating process opeeratives",
+        false
+      ],
+      [
+        "84.0",
+        "84 Metal working process operatives",
+        false
+      ],
+      [
+        "85.0",
+        "85 Assemblers/lineworkers",
+        false
+      ],
+      [
+        "86.0",
+        "86 Other routine process operatives",
+        false
+      ],
+      [
+        "87.0",
+        "87 Road transport operatives",
+        false
+      ],
+      [
+        "88.0",
+        "88 Other transport and machinery operatives",
+        false
+      ],
+      [
+        "89.0",
+        "89 Machne and plant operatives nec",
+        false
+      ],
+      [
+        "90.0",
+        "90 Other occupations m agriculture, forestry and fishing",
+        false
+      ],
+      [
+        "91.0",
+        "91 Other occupations in mining and manufacturing",
+        false
+      ],
+      [
+        "92.0",
+        "92 Other occupations in construction",
+        false
+      ],
+      [
+        "93.0",
+        "93 Other occupations in transport",
+        false
+      ],
+      [
+        "94.0",
+        "94 Other occpations in communication",
+        false
+      ],
+      [
+        "95.0",
+        "95 Other occupations in sales and service",
+        false
+      ],
+      [
+        "99.0",
+        "99 Other occupations nec",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "13",
+        "12",
+        "0%"
+      ],
+      [
+        "16",
+        "18",
+        "0%"
+      ],
+      [
+        "17",
+        "98",
+        "2%"
+      ],
+      [
+        "19",
+        "26",
+        "1%"
+      ],
+      [
+        "20",
+        "20",
+        "0%"
+      ],
+      [
+        "21",
+        "96",
+        "2%"
+      ],
+      [
+        "22",
+        "30",
+        "1%"
+      ],
+      [
+        "23",
+        "266",
+        "6%"
+      ],
+      [
+        "24",
+        "14",
+        "0%"
+      ],
+      [
+        "25",
+        "32",
+        "1%"
+      ],
+      [
+        "26",
+        "13",
+        "0%"
+      ],
+      [
+        "27",
+        "24",
+        "1%"
+      ],
+      [
+        "29",
+        "20",
+        "0%"
+      ],
+      [
+        "30",
+        "60",
+        "1%"
+      ],
+      [
+        "31",
+        "60",
+        "1%"
+      ],
+      [
+        "33",
+        "15",
+        "0%"
+      ],
+      [
+        "34",
+        "83",
+        "2%"
+      ],
+      [
+        "36",
+        "27",
+        "1%"
+      ],
+      [
+        "38",
+        "40",
+        "1%"
+      ],
+      [
+        "39",
+        "49",
+        "1%"
+      ],
+      [
+        "43",
+        "860",
+        "19%"
+      ],
+      [
+        "44",
+        "58",
+        "1%"
+      ],
+      [
+        "45",
+        "263",
+        "6%"
+      ],
+      [
+        "46",
+        "35",
+        "1%"
+      ],
+      [
+        "50",
+        "62",
+        "1%"
+      ],
+      [
+        "51",
+        "164",
+        "4%"
+      ],
+      [
+        "52",
+        "139",
+        "3%"
+      ],
+      [
+        "53",
+        "74",
+        "2%"
+      ],
+      [
+        "54",
+        "38",
+        "1%"
+      ],
+      [
+        "55",
+        "160",
+        "4%"
+      ],
+      [
+        "56",
+        "13",
+        "0%"
+      ],
+      [
+        "57",
+        "96",
+        "2%"
+      ],
+      [
+        "58",
+        "17",
+        "0%"
+      ],
+      [
+        "59",
+        "29",
+        "1%"
+      ],
+      [
+        "60",
+        "68",
+        "2%"
+      ],
+      [
+        "61",
+        "12",
+        "0%"
+      ],
+      [
+        "62",
+        "42",
+        "1%"
+      ],
+      [
+        "65",
+        "11",
+        "0%"
+      ],
+      [
+        "66",
+        "92",
+        "2%"
+      ],
+      [
+        "71",
+        "18",
+        "0%"
+      ],
+      [
+        "72",
+        "371",
+        "8%"
+      ],
+      [
+        "73",
+        "18",
+        "0%"
+      ],
+      [
+        "79",
+        "17",
+        "0%"
+      ],
+      [
+        "80",
+        "19",
+        "0%"
+      ],
+      [
+        "81",
+        "22",
+        "0%"
+      ],
+      [
+        "82",
+        "45",
+        "1%"
+      ],
+      [
+        "83",
+        "13",
+        "0%"
+      ],
+      [
+        "84",
+        "18",
+        "0%"
+      ],
+      [
+        "85",
+        "11",
+        "0%"
+      ],
+      [
+        "86",
+        "81",
+        "2%"
+      ],
+      [
+        "87",
+        "16",
+        "0%"
+      ],
+      [
+        "88",
+        "14",
+        "0%"
+      ],
+      [
+        "89",
+        "58",
+        "1%"
+      ],
+      [
+        "90",
+        "173",
+        "4%"
+      ],
+      [
+        "91",
+        "69",
+        "2%"
+      ],
+      [
+        "92",
+        "32",
+        "1%"
+      ],
+      [
+        "93",
+        "26",
+        "1%"
+      ],
+      [
+        "94",
+        "19",
+        "0%"
+      ],
+      [
+        "95",
+        "70",
+        "2%"
+      ],
+      [
+        "99",
+        "68",
+        "2%"
+      ],
+      [
+        "Displayed N",
+        "4414",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "occ_soc2d1",
+    "label": "Occupation: SOC90, 2-digit - 1st job episode - up to age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30774",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "occ_soc2d1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "30774",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Occupation: SOC90, 2-digit - 1st job episode - up to age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "occhist",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "SOC 90",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Possible low cell counts issue",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived occupational histories dataset. Goes from 1961 to 1999.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "occ_soc2d7",
+        "description": "Occupation: SOC90, 2-digit - 7th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d18",
+        "description": "Occupation: SOC90, 2-digit - 18th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d26",
+        "description": "Occupation: SOC90, 2-digit - 26th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d20",
+        "description": "Occupation: SOC90, 2-digit - 20th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d4",
+        "description": "Occupation: SOC90, 2-digit - 4th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d22",
+        "description": "Occupation: SOC90, 2-digit - 22nd job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d8",
+        "description": "Occupation: SOC90, 2-digit - 8th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d10",
+        "description": "Occupation: SOC90, 2-digit - 10th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d3",
+        "description": "Occupation: SOC90, 2-digit - 3rd job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d9",
+        "description": "Occupation: SOC90, 2-digit - 9th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d12",
+        "description": "Occupation: SOC90, 2-digit - 12th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d6",
+        "description": "Occupation: SOC90, 2-digit - 6th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d2",
+        "description": "Occupation: SOC90, 2-digit - 2nd job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d14",
+        "description": "Occupation: SOC90, 2-digit - 14th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d24",
+        "description": "Occupation: SOC90, 2-digit - 24th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d27",
+        "description": "Occupation: SOC90, 2-digit - 27th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d23",
+        "description": "Occupation: SOC90, 2-digit - 23rd job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d5",
+        "description": "Occupation: SOC90, 2-digit - 5th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d15",
+        "description": "Occupation: SOC90, 2-digit - 15th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d17",
+        "description": "Occupation: SOC90, 2-digit - 17th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d13",
+        "description": "Occupation: SOC90, 2-digit - 13th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d16",
+        "description": "Occupation: SOC90, 2-digit - 16th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d25",
+        "description": "Occupation: SOC90, 2-digit - 25th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d11",
+        "description": "Occupation: SOC90, 2-digit - 11th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d19",
+        "description": "Occupation: SOC90, 2-digit - 19th job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      },
+      {
+        "varname": "occ_soc2d21",
+        "description": "Occupation: SOC90, 2-digit - 21st job episode - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "occhist"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/occhist/Data_Note_1946.docx",
+        "text": "Data_Note_1946.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social class [22]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Job and occupational histories (1961-1999) [51541]",
+        "description": "The category includes information on jobs reported by cohort members at one of eight surveys conducted between the ages of 16 and 53. The jobs are organised into chronological order using reported or inferred job start dates in conjunction with the interview dates when the job episodes were collected. Information on the occupation of each job has been re-coded from SOC60, SOC70 and SOC80 codes into SOC90 codes. The dataset is designed for the analysis of changes in occupational status over time. It does not include information on spells of unemployment or economic inactivity. This work forms part of the ESRC Gender Network Grant, Project 1 \u2018Changing occupational careers of men and women\u2019, Reference: RES-225-25-2001. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Job_and_occupational_histories_(1961-1999)_51541.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-8.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "13.0",
+        "label": "13 Financial institution and office managers, civil service executive officers",
+        "is_missing": false
+      },
+      {
+        "value": "16.0",
+        "label": "16 Managers in farming, horticulture, forestry and fishing",
+        "is_missing": false
+      },
+      {
+        "value": "17.0",
+        "label": "17 Manager, and proprietors in service industries",
+        "is_missing": false
+      },
+      {
+        "value": "19.0",
+        "label": "19 Managers and administrators nec",
+        "is_missing": false
+      },
+      {
+        "value": "20.0",
+        "label": "20 Natural scientists",
+        "is_missing": false
+      },
+      {
+        "value": "21.0",
+        "label": "21 Engineers and technologists",
+        "is_missing": false
+      },
+      {
+        "value": "22.0",
+        "label": "22 Health professional",
+        "is_missing": false
+      },
+      {
+        "value": "23.0",
+        "label": "23 Teaching professionals",
+        "is_missing": false
+      },
+      {
+        "value": "24.0",
+        "label": "24 Legal professionals",
+        "is_missing": false
+      },
+      {
+        "value": "25.0",
+        "label": "25 Business and financial professionals",
+        "is_missing": false
+      },
+      {
+        "value": "26.0",
+        "label": "26 Architects and surveyors",
+        "is_missing": false
+      },
+      {
+        "value": "27.0",
+        "label": "27 Librarians and related professionals",
+        "is_missing": false
+      },
+      {
+        "value": "29.0",
+        "label": "29 Professional occupations nec",
+        "is_missing": false
+      },
+      {
+        "value": "30.0",
+        "label": "30 Scientific technicians",
+        "is_missing": false
+      },
+      {
+        "value": "31.0",
+        "label": "31 Draughtspersons, quantity surveyors and other surveyors",
+        "is_missing": false
+      },
+      {
+        "value": "33.0",
+        "label": "33 Ship and aircraft officers, air traffic planners and controllers",
+        "is_missing": false
+      },
+      {
+        "value": "34.0",
+        "label": "34 Health associate professionals",
+        "is_missing": false
+      },
+      {
+        "value": "36.0",
+        "label": "36 Business and financial associate professionals",
+        "is_missing": false
+      },
+      {
+        "value": "38.0",
+        "label": "38 Literary, artistic and sports professional",
+        "is_missing": false
+      },
+      {
+        "value": "39.0",
+        "label": "39 Associate professional occupations nec",
+        "is_missing": false
+      },
+      {
+        "value": "43.0",
+        "label": "43 Clerks (not otherwise specified)",
+        "is_missing": false
+      },
+      {
+        "value": "44.0",
+        "label": "44 Stores and despatch clerks, storekeepers",
+        "is_missing": false
+      },
+      {
+        "value": "45.0",
+        "label": "45 Secretaries, personal assistants, typists, word processors operators",
+        "is_missing": false
+      },
+      {
+        "value": "46.0",
+        "label": "46 Receptionists, telephonists and related occupations",
+        "is_missing": false
+      },
+      {
+        "value": "50.0",
+        "label": "50 Construction trades",
+        "is_missing": false
+      },
+      {
+        "value": "51.0",
+        "label": "51 Metal machining, fitting and instrument making trades",
+        "is_missing": false
+      },
+      {
+        "value": "52.0",
+        "label": "52 Electrical/electronic trades",
+        "is_missing": false
+      },
+      {
+        "value": "53.0",
+        "label": "53 Metal farming, welding and related trades",
+        "is_missing": false
+      },
+      {
+        "value": "54.0",
+        "label": "54 Travel and transport vechiles",
+        "is_missing": false
+      },
+      {
+        "value": "55.0",
+        "label": "55 Textiles, garments and related trades",
+        "is_missing": false
+      },
+      {
+        "value": "56.0",
+        "label": "56 Printing and related trades",
+        "is_missing": false
+      },
+      {
+        "value": "57.0",
+        "label": "57 Woodworking tradcs",
+        "is_missing": false
+      },
+      {
+        "value": "58.0",
+        "label": "58 Food preparation trades",
+        "is_missing": false
+      },
+      {
+        "value": "59.0",
+        "label": "59 Other craft and related occupations nec",
+        "is_missing": false
+      },
+      {
+        "value": "60.0",
+        "label": "60 NCOs and other ranks, armed forces",
+        "is_missing": false
+      },
+      {
+        "value": "61.0",
+        "label": "61 Security and protected service occupations",
+        "is_missing": false
+      },
+      {
+        "value": "62.0",
+        "label": "62 Catering occupations",
+        "is_missing": false
+      },
+      {
+        "value": "65.0",
+        "label": "65 Childcare and related occupations",
+        "is_missing": false
+      },
+      {
+        "value": "66.0",
+        "label": "66 Hairdressers, beauticians and related occupation",
+        "is_missing": false
+      },
+      {
+        "value": "71.0",
+        "label": "71 Sales representatives",
+        "is_missing": false
+      },
+      {
+        "value": "72.0",
+        "label": "72 Sales assistants and check-our operators",
+        "is_missing": false
+      },
+      {
+        "value": "73.0",
+        "label": "73 Mobile, market and door-to-door salespersons",
+        "is_missing": false
+      },
+      {
+        "value": "79.0",
+        "label": "79 Sales nec",
+        "is_missing": false
+      },
+      {
+        "value": "80.0",
+        "label": "80 Food drink and tobacco process operatives",
+        "is_missing": false
+      },
+      {
+        "value": "81.0",
+        "label": "81 Textiles and tannery process operatives",
+        "is_missing": false
+      },
+      {
+        "value": "82.0",
+        "label": "82 Chemicals, paper, plastics and related process operatives",
+        "is_missing": false
+      },
+      {
+        "value": "83.0",
+        "label": "83 Metal making and treating process opeeratives",
+        "is_missing": false
+      },
+      {
+        "value": "84.0",
+        "label": "84 Metal working process operatives",
+        "is_missing": false
+      },
+      {
+        "value": "85.0",
+        "label": "85 Assemblers/lineworkers",
+        "is_missing": false
+      },
+      {
+        "value": "86.0",
+        "label": "86 Other routine process operatives",
+        "is_missing": false
+      },
+      {
+        "value": "87.0",
+        "label": "87 Road transport operatives",
+        "is_missing": false
+      },
+      {
+        "value": "88.0",
+        "label": "88 Other transport and machinery operatives",
+        "is_missing": false
+      },
+      {
+        "value": "89.0",
+        "label": "89 Machne and plant operatives nec",
+        "is_missing": false
+      },
+      {
+        "value": "90.0",
+        "label": "90 Other occupations m agriculture, forestry and fishing",
+        "is_missing": false
+      },
+      {
+        "value": "91.0",
+        "label": "91 Other occupations in mining and manufacturing",
+        "is_missing": false
+      },
+      {
+        "value": "92.0",
+        "label": "92 Other occupations in construction",
+        "is_missing": false
+      },
+      {
+        "value": "93.0",
+        "label": "93 Other occupations in transport",
+        "is_missing": false
+      },
+      {
+        "value": "94.0",
+        "label": "94 Other occpations in communication",
+        "is_missing": false
+      },
+      {
+        "value": "95.0",
+        "label": "95 Other occupations in sales and service",
+        "is_missing": false
+      },
+      {
+        "value": "99.0",
+        "label": "99 Other occupations nec",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 26,
+      "docs": 2,
+      "cats": 3,
+      "vals": 62
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "SOC 90",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "13",
+          "label": "13 Financial institution and office managers, civil service executive officers",
+          "count": 12,
+          "pct": 0
+        },
+        {
+          "value": "16",
+          "label": "16 Managers in farming, horticulture, forestry and fishing",
+          "count": 18,
+          "pct": 0
+        },
+        {
+          "value": "17",
+          "label": "17 Manager, and proprietors in service industries",
+          "count": 98,
+          "pct": 2
+        },
+        {
+          "value": "19",
+          "label": "19 Managers and administrators nec",
+          "count": 26,
+          "pct": 1
+        },
+        {
+          "value": "20",
+          "label": "20 Natural scientists",
+          "count": 20,
+          "pct": 0
+        },
+        {
+          "value": "21",
+          "label": "21 Engineers and technologists",
+          "count": 96,
+          "pct": 2
+        },
+        {
+          "value": "22",
+          "label": "22 Health professional",
+          "count": 30,
+          "pct": 1
+        },
+        {
+          "value": "23",
+          "label": "23 Teaching professionals",
+          "count": 266,
+          "pct": 6
+        },
+        {
+          "value": "24",
+          "label": "24 Legal professionals",
+          "count": 14,
+          "pct": 0
+        },
+        {
+          "value": "25",
+          "label": "25 Business and financial professionals",
+          "count": 32,
+          "pct": 1
+        },
+        {
+          "value": "26",
+          "label": "26 Architects and surveyors",
+          "count": 13,
+          "pct": 0
+        },
+        {
+          "value": "27",
+          "label": "27 Librarians and related professionals",
+          "count": 24,
+          "pct": 1
+        },
+        {
+          "value": "29",
+          "label": "29 Professional occupations nec",
+          "count": 20,
+          "pct": 0
+        },
+        {
+          "value": "30",
+          "label": "30 Scientific technicians",
+          "count": 60,
+          "pct": 1
+        },
+        {
+          "value": "31",
+          "label": "31 Draughtspersons, quantity surveyors and other surveyors",
+          "count": 60,
+          "pct": 1
+        },
+        {
+          "value": "33",
+          "label": "33 Ship and aircraft officers, air traffic planners and controllers",
+          "count": 15,
+          "pct": 0
+        },
+        {
+          "value": "34",
+          "label": "34 Health associate professionals",
+          "count": 83,
+          "pct": 2
+        },
+        {
+          "value": "36",
+          "label": "36 Business and financial associate professionals",
+          "count": 27,
+          "pct": 1
+        },
+        {
+          "value": "38",
+          "label": "38 Literary, artistic and sports professional",
+          "count": 40,
+          "pct": 1
+        },
+        {
+          "value": "39",
+          "label": "39 Associate professional occupations nec",
+          "count": 49,
+          "pct": 1
+        },
+        {
+          "value": "43",
+          "label": "43 Clerks (not otherwise specified)",
+          "count": 860,
+          "pct": 19
+        },
+        {
+          "value": "44",
+          "label": "44 Stores and despatch clerks, storekeepers",
+          "count": 58,
+          "pct": 1
+        },
+        {
+          "value": "45",
+          "label": "45 Secretaries, personal assistants, typists, word processors operators",
+          "count": 263,
+          "pct": 6
+        },
+        {
+          "value": "46",
+          "label": "46 Receptionists, telephonists and related occupations",
+          "count": 35,
+          "pct": 1
+        },
+        {
+          "value": "50",
+          "label": "50 Construction trades",
+          "count": 62,
+          "pct": 1
+        },
+        {
+          "value": "51",
+          "label": "51 Metal machining, fitting and instrument making trades",
+          "count": 164,
+          "pct": 4
+        },
+        {
+          "value": "52",
+          "label": "52 Electrical/electronic trades",
+          "count": 139,
+          "pct": 3
+        },
+        {
+          "value": "53",
+          "label": "53 Metal farming, welding and related trades",
+          "count": 74,
+          "pct": 2
+        },
+        {
+          "value": "54",
+          "label": "54 Travel and transport vechiles",
+          "count": 38,
+          "pct": 1
+        },
+        {
+          "value": "55",
+          "label": "55 Textiles, garments and related trades",
+          "count": 160,
+          "pct": 4
+        },
+        {
+          "value": "56",
+          "label": "56 Printing and related trades",
+          "count": 13,
+          "pct": 0
+        },
+        {
+          "value": "57",
+          "label": "57 Woodworking tradcs",
+          "count": 96,
+          "pct": 2
+        },
+        {
+          "value": "58",
+          "label": "58 Food preparation trades",
+          "count": 17,
+          "pct": 0
+        },
+        {
+          "value": "59",
+          "label": "59 Other craft and related occupations nec",
+          "count": 29,
+          "pct": 1
+        },
+        {
+          "value": "60",
+          "label": "60 NCOs and other ranks, armed forces",
+          "count": 68,
+          "pct": 2
+        },
+        {
+          "value": "61",
+          "label": "61 Security and protected service occupations",
+          "count": 12,
+          "pct": 0
+        },
+        {
+          "value": "62",
+          "label": "62 Catering occupations",
+          "count": 42,
+          "pct": 1
+        },
+        {
+          "value": "65",
+          "label": "65 Childcare and related occupations",
+          "count": 11,
+          "pct": 0
+        },
+        {
+          "value": "66",
+          "label": "66 Hairdressers, beauticians and related occupation",
+          "count": 92,
+          "pct": 2
+        },
+        {
+          "value": "71",
+          "label": "71 Sales representatives",
+          "count": 18,
+          "pct": 0
+        },
+        {
+          "value": "72",
+          "label": "72 Sales assistants and check-our operators",
+          "count": 371,
+          "pct": 8
+        },
+        {
+          "value": "73",
+          "label": "73 Mobile, market and door-to-door salespersons",
+          "count": 18,
+          "pct": 0
+        },
+        {
+          "value": "79",
+          "label": "79 Sales nec",
+          "count": 17,
+          "pct": 0
+        },
+        {
+          "value": "80",
+          "label": "80 Food drink and tobacco process operatives",
+          "count": 19,
+          "pct": 0
+        },
+        {
+          "value": "81",
+          "label": "81 Textiles and tannery process operatives",
+          "count": 22,
+          "pct": 0
+        },
+        {
+          "value": "82",
+          "label": "82 Chemicals, paper, plastics and related process operatives",
+          "count": 45,
+          "pct": 1
+        },
+        {
+          "value": "83",
+          "label": "83 Metal making and treating process opeeratives",
+          "count": 13,
+          "pct": 0
+        },
+        {
+          "value": "84",
+          "label": "84 Metal working process operatives",
+          "count": 18,
+          "pct": 0
+        },
+        {
+          "value": "85",
+          "label": "85 Assemblers/lineworkers",
+          "count": 11,
+          "pct": 0
+        },
+        {
+          "value": "86",
+          "label": "86 Other routine process operatives",
+          "count": 81,
+          "pct": 2
+        },
+        {
+          "value": "87",
+          "label": "87 Road transport operatives",
+          "count": 16,
+          "pct": 0
+        },
+        {
+          "value": "88",
+          "label": "88 Other transport and machinery operatives",
+          "count": 14,
+          "pct": 0
+        },
+        {
+          "value": "89",
+          "label": "89 Machne and plant operatives nec",
+          "count": 58,
+          "pct": 1
+        },
+        {
+          "value": "90",
+          "label": "90 Other occupations m agriculture, forestry and fishing",
+          "count": 173,
+          "pct": 4
+        },
+        {
+          "value": "91",
+          "label": "91 Other occupations in mining and manufacturing",
+          "count": 69,
+          "pct": 2
+        },
+        {
+          "value": "92",
+          "label": "92 Other occupations in construction",
+          "count": 32,
+          "pct": 1
+        },
+        {
+          "value": "93",
+          "label": "93 Other occupations in transport",
+          "count": 26,
+          "pct": 1
+        },
+        {
+          "value": "94",
+          "label": "94 Other occpations in communication",
+          "count": 19,
+          "pct": 0
+        },
+        {
+          "value": "95",
+          "label": "95 Other occupations in sales and service",
+          "count": 70,
+          "pct": 2
+        },
+        {
+          "value": "99",
+          "label": "99 Other occupations nec",
+          "count": 68,
+          "pct": 2
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "13",
+        "12",
+        "0%"
+      ],
+      [
+        "16",
+        "18",
+        "0%"
+      ],
+      [
+        "17",
+        "98",
+        "2%"
+      ],
+      [
+        "19",
+        "26",
+        "1%"
+      ],
+      [
+        "20",
+        "20",
+        "0%"
+      ],
+      [
+        "21",
+        "96",
+        "2%"
+      ],
+      [
+        "22",
+        "30",
+        "1%"
+      ],
+      [
+        "23",
+        "266",
+        "6%"
+      ],
+      [
+        "24",
+        "14",
+        "0%"
+      ],
+      [
+        "25",
+        "32",
+        "1%"
+      ],
+      [
+        "26",
+        "13",
+        "0%"
+      ],
+      [
+        "27",
+        "24",
+        "1%"
+      ],
+      [
+        "29",
+        "20",
+        "0%"
+      ],
+      [
+        "30",
+        "60",
+        "1%"
+      ],
+      [
+        "31",
+        "60",
+        "1%"
+      ],
+      [
+        "33",
+        "15",
+        "0%"
+      ],
+      [
+        "34",
+        "83",
+        "2%"
+      ],
+      [
+        "36",
+        "27",
+        "1%"
+      ],
+      [
+        "38",
+        "40",
+        "1%"
+      ],
+      [
+        "39",
+        "49",
+        "1%"
+      ],
+      [
+        "43",
+        "860",
+        "19%"
+      ],
+      [
+        "44",
+        "58",
+        "1%"
+      ],
+      [
+        "45",
+        "263",
+        "6%"
+      ],
+      [
+        "46",
+        "35",
+        "1%"
+      ],
+      [
+        "50",
+        "62",
+        "1%"
+      ],
+      [
+        "51",
+        "164",
+        "4%"
+      ],
+      [
+        "52",
+        "139",
+        "3%"
+      ],
+      [
+        "53",
+        "74",
+        "2%"
+      ],
+      [
+        "54",
+        "38",
+        "1%"
+      ],
+      [
+        "55",
+        "160",
+        "4%"
+      ],
+      [
+        "56",
+        "13",
+        "0%"
+      ],
+      [
+        "57",
+        "96",
+        "2%"
+      ],
+      [
+        "58",
+        "17",
+        "0%"
+      ],
+      [
+        "59",
+        "29",
+        "1%"
+      ],
+      [
+        "60",
+        "68",
+        "2%"
+      ],
+      [
+        "61",
+        "12",
+        "0%"
+      ],
+      [
+        "62",
+        "42",
+        "1%"
+      ],
+      [
+        "65",
+        "11",
+        "0%"
+      ],
+      [
+        "66",
+        "92",
+        "2%"
+      ],
+      [
+        "71",
+        "18",
+        "0%"
+      ],
+      [
+        "72",
+        "371",
+        "8%"
+      ],
+      [
+        "73",
+        "18",
+        "0%"
+      ],
+      [
+        "79",
+        "17",
+        "0%"
+      ],
+      [
+        "80",
+        "19",
+        "0%"
+      ],
+      [
+        "81",
+        "22",
+        "0%"
+      ],
+      [
+        "82",
+        "45",
+        "1%"
+      ],
+      [
+        "83",
+        "13",
+        "0%"
+      ],
+      [
+        "84",
+        "18",
+        "0%"
+      ],
+      [
+        "85",
+        "11",
+        "0%"
+      ],
+      [
+        "86",
+        "81",
+        "2%"
+      ],
+      [
+        "87",
+        "16",
+        "0%"
+      ],
+      [
+        "88",
+        "14",
+        "0%"
+      ],
+      [
+        "89",
+        "58",
+        "1%"
+      ],
+      [
+        "90",
+        "173",
+        "4%"
+      ],
+      [
+        "91",
+        "69",
+        "2%"
+      ],
+      [
+        "92",
+        "32",
+        "1%"
+      ],
+      [
+        "93",
+        "26",
+        "1%"
+      ],
+      [
+        "94",
+        "19",
+        "0%"
+      ],
+      [
+        "95",
+        "70",
+        "2%"
+      ],
+      [
+        "99",
+        "68",
+        "2%"
+      ],
+      [
+        "Displayed N",
+        "4414",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

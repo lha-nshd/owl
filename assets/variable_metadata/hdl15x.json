@@ -1,0 +1,606 @@
+{
+  "varname": "hdl15x",
+  "label": "High-density lipoprotein - HDL (mmol/L) at age 69 years",
+  "field_id": "1069",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1069",
+  "year": "",
+  "form": "Blood assays",
+  "units": "mmol/L",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 1.5593715545755238,
+  "sd": 0.3933261350282488,
+  "series_size": 1814.0,
+  "minimum": 0.9,
+  "maximum": 2.5,
+  "truly_longitudinal_field_id": "1069",
+  "truly_longitudinal_varnames": [
+    "hdl09",
+    "hdl99n"
+  ],
+  "truly_longitudinal_years": [
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Blood, urine, and other samples [27]",
+    "Blood biochemistry [2011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No sample"
+    },
+    {
+      "value": "993.0",
+      "label": "Lab error - test not performed"
+    },
+    {
+      "value": "994.0",
+      "label": "Platelet clumps on film"
+    },
+    {
+      "value": "995.0",
+      "label": "Sample degraded / contaminated"
+    },
+    {
+      "value": "996.0",
+      "label": "Sample insufficient for test"
+    },
+    {
+      "value": "997.0",
+      "label": "No sample received for this test"
+    },
+    {
+      "value": "998.0",
+      "label": "Sample unstable / too old"
+    },
+    {
+      "value": "999.0",
+      "label": "No result - unknown reason"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "hdl15x",
+    "label": "High-density lipoprotein - HDL (mmol/L) at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "hdl15x"
+      ],
+      [
+        "Field ID",
+        "1069"
+      ],
+      [
+        "Label",
+        "High-density lipoprotein - HDL (mmol/L) at age 69 years"
+      ],
+      [
+        "Card Number",
+        "Bloods15"
+      ],
+      [
+        "Form",
+        "Blood assays"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmol/L"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Variable from blood assays."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "hdl09",
+        "2006-10",
+        "High-density lipoprotein - HDL (mmol/L) at age 60-64 years"
+      ],
+      [
+        "hdl99n",
+        "1999",
+        "High-density lipoprotein - HDL (mmol/L) at age 53 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood, urine, and other samples [27]",
+        "Legacy Category"
+      ],
+      [
+        "Blood biochemistry [2011]",
+        "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No sample",
+        true
+      ],
+      [
+        "993.0",
+        "Lab error - test not performed",
+        true
+      ],
+      [
+        "994.0",
+        "Platelet clumps on film",
+        true
+      ],
+      [
+        "995.0",
+        "Sample degraded / contaminated",
+        true
+      ],
+      [
+        "996.0",
+        "Sample insufficient for test",
+        true
+      ],
+      [
+        "997.0",
+        "No sample received for this test",
+        true
+      ],
+      [
+        "998.0",
+        "Sample unstable / too old",
+        true
+      ],
+      [
+        "999.0",
+        "No result - unknown reason",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.9"
+      ],
+      [
+        "Maximum",
+        "2.5"
+      ],
+      [
+        "Range",
+        "1.6"
+      ],
+      [
+        "Median",
+        "1.5"
+      ],
+      [
+        "IQR",
+        "1.3 - 1.8"
+      ],
+      [
+        "Decile 1",
+        "1.1"
+      ],
+      [
+        "Decile 2",
+        "1.2"
+      ],
+      [
+        "Decile 3",
+        "1.3"
+      ],
+      [
+        "Decile 4",
+        "1.4"
+      ],
+      [
+        "Decile 5",
+        "1.5"
+      ],
+      [
+        "Decile 6",
+        "1.6"
+      ],
+      [
+        "Decile 7",
+        "1.8"
+      ],
+      [
+        "Decile 8",
+        "1.9"
+      ],
+      [
+        "Decile 9",
+        "2.1"
+      ],
+      [
+        "Mean",
+        "1.5593715545755238"
+      ],
+      [
+        "Std Dev.",
+        "0.3933261350282488"
+      ],
+      [
+        "Variance",
+        "0.15470544849626022"
+      ],
+      [
+        "Displayed N",
+        "1814"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "hdl15x",
+    "label": "High-density lipoprotein - HDL (mmol/L) at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1069",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hdl15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1069",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "High-density lipoprotein - HDL (mmol/L) at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Bloods15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Blood assays",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmol/L",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Variable from blood assays.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1069",
+      "members": [
+        {
+          "varname": "hdl99n",
+          "year": "1999",
+          "label": "High-density lipoprotein - HDL (mmol/L) at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "hdl09",
+          "year": "2006-10",
+          "label": "High-density lipoprotein - HDL (mmol/L) at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "hdl15x",
+          "year": "2015",
+          "label": "High-density lipoprotein - HDL (mmol/L) at age 69 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood, urine, and other samples [27]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood biochemistry [2011]",
+        "description": "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biochemistry_2011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No sample",
+        "is_missing": true
+      },
+      {
+        "value": "993.0",
+        "label": "Lab error - test not performed",
+        "is_missing": true
+      },
+      {
+        "value": "994.0",
+        "label": "Platelet clumps on film",
+        "is_missing": true
+      },
+      {
+        "value": "995.0",
+        "label": "Sample degraded / contaminated",
+        "is_missing": true
+      },
+      {
+        "value": "996.0",
+        "label": "Sample insufficient for test",
+        "is_missing": true
+      },
+      {
+        "value": "997.0",
+        "label": "No sample received for this test",
+        "is_missing": true
+      },
+      {
+        "value": "998.0",
+        "label": "Sample unstable / too old",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "No result - unknown reason",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmol/L",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.9,
+          0.98,
+          1.06,
+          1.1400000000000001,
+          1.22,
+          1.3,
+          1.38,
+          1.46,
+          1.54,
+          1.62,
+          1.7000000000000002,
+          1.78,
+          1.8599999999999999,
+          1.94,
+          2.02,
+          2.1,
+          2.18,
+          2.2600000000000002,
+          2.34,
+          2.42,
+          2.5
+        ],
+        "counts": [
+          74,
+          104,
+          138,
+          126,
+          0,
+          175,
+          156,
+          158,
+          181,
+          151,
+          0,
+          113,
+          106,
+          94,
+          0,
+          71,
+          65,
+          56,
+          28,
+          18
+        ]
+      },
+      "boxplot": {
+        "min": 0.9,
+        "q1": 1.3,
+        "median": 1.5,
+        "q3": 1.8,
+        "max": 2.5
+      },
+      "units": "mmol/L"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.9"
+      ],
+      [
+        "Maximum",
+        "2.5"
+      ],
+      [
+        "Range",
+        "1.6"
+      ],
+      [
+        "Median",
+        "1.5"
+      ],
+      [
+        "IQR",
+        "1.3 - 1.8"
+      ],
+      [
+        "Decile 1",
+        "1.1"
+      ],
+      [
+        "Decile 2",
+        "1.2"
+      ],
+      [
+        "Decile 3",
+        "1.3"
+      ],
+      [
+        "Decile 4",
+        "1.4"
+      ],
+      [
+        "Decile 5",
+        "1.5"
+      ],
+      [
+        "Decile 6",
+        "1.6"
+      ],
+      [
+        "Decile 7",
+        "1.8"
+      ],
+      [
+        "Decile 8",
+        "1.9"
+      ],
+      [
+        "Decile 9",
+        "2.1"
+      ],
+      [
+        "Mean",
+        "1.5593715545755238"
+      ],
+      [
+        "Std Dev.",
+        "0.3933261350282488"
+      ],
+      [
+        "Variance",
+        "0.15470544849626022"
+      ],
+      [
+        "Displayed N",
+        "1814"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

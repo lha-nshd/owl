@@ -1,0 +1,528 @@
+{
+  "varname": "bs_62",
+  "label": "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1962 - at age 16 years",
+  "field_id": "14820",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14820",
+  "year": "",
+  "form": "Not applicable",
+  "units": "ug/m3",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 106.81244414191418,
+  "sd": 47.78946093872742,
+  "series_size": 3636.0,
+  "minimum": 31.3585,
+  "maximum": 215.316,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "bs_71c",
+    "bs_91",
+    "bs_81",
+    "bs_71"
+  ],
+  "linked_years": [
+    "1971",
+    "1982",
+    "1989"
+  ],
+  "categories": [
+    "Residential air pollution [5271]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "bs_62",
+    "label": "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1962 - at age 16 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "bs_62"
+      ],
+      [
+        "Field ID",
+        "14820"
+      ],
+      [
+        "Label",
+        "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1962 - at age 16 years"
+      ],
+      [
+        "Card Number",
+        "pollution62_10_set1"
+      ],
+      [
+        "Form",
+        "Not applicable"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "1962"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "ug/m3"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Black smoke maps were modelled based on a land use regression (LUR) model. BS & SO2 concentrations were modelled as part of the CHESS project (Welcome Trust funded, grant 075883). For details of the models see references Gulliver et al, 2011 (for BS & SO2) and Gulliver et al, 2013 (for NO2)."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "bs_71c",
+        "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1971 - at age 25 years",
+        "1971",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ],
+      [
+        "bs_91",
+        "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1991 - at age 45 years",
+        "1989",
+        "Not applicable",
+        "Not applicable",
+        "Pollution89"
+      ],
+      [
+        "bs_81",
+        "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1981 - at age 35 years",
+        "1982",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ],
+      [
+        "bs_71",
+        "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1971 - at age 25 years",
+        "1971",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/pollution62_10_set1/NSHD_air_pollution_exposure_estimates_1989-2010.pdf",
+        "NSHD_air_pollution_exposure_estimates_1989-2010.pdf"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Residential air pollution [5271]",
+        "This category contains data information air pollution estimates that were modelled for the participants addresses using models developed as part of the European Study of Cohorts for Air Pollution Effects (ESCAPE, http://www.escapeproject.eu/) funded under the EU 7th Framework Programme. Air pollution estimates were modelled for each address using a Land Use Regression (LUR) model."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "31.3585"
+      ],
+      [
+        "Maximum",
+        "215.316"
+      ],
+      [
+        "Range",
+        "183.9575"
+      ],
+      [
+        "Median",
+        "98.9541"
+      ],
+      [
+        "IQR",
+        "68.689175 - 142.60375000000002"
+      ],
+      [
+        "Decile 1",
+        "47.4417"
+      ],
+      [
+        "Decile 2",
+        "60.9025"
+      ],
+      [
+        "Decile 3",
+        "76.10025"
+      ],
+      [
+        "Decile 4",
+        "88.4103"
+      ],
+      [
+        "Decile 5",
+        "98.9541"
+      ],
+      [
+        "Decile 6",
+        "110.507"
+      ],
+      [
+        "Decile 7",
+        "130.39550000000003"
+      ],
+      [
+        "Decile 8",
+        "153.968"
+      ],
+      [
+        "Decile 9",
+        "179.64100000000002"
+      ],
+      [
+        "Mean",
+        "106.81244414191418"
+      ],
+      [
+        "Std Dev.",
+        "47.78946093872742"
+      ],
+      [
+        "Variance",
+        "2283.8325768141544"
+      ],
+      [
+        "Displayed N",
+        "3636"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "bs_62",
+    "label": "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1962 - at age 16 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14820",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bs_62",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "14820",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1962 - at age 16 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "pollution62_10_set1",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1962",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "ug/m3",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Black smoke maps were modelled based on a land use regression (LUR) model. BS & SO2 concentrations were modelled as part of the CHESS project (Welcome Trust funded, grant 075883). For details of the models see references Gulliver et al, 2011 (for BS & SO2) and Gulliver et al, 2013 (for NO2).",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "bs_71c",
+        "description": "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1971 - at age 25 years",
+        "year": "1971",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      },
+      {
+        "varname": "bs_91",
+        "description": "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1991 - at age 45 years",
+        "year": "1989",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "Pollution89"
+      },
+      {
+        "varname": "bs_81",
+        "description": "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1981 - at age 35 years",
+        "year": "1982",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      },
+      {
+        "varname": "bs_71",
+        "description": "Black smoke; land use regression (LUR) estimate for annual  mean air pollution concentration (ug/m3) in 1971 - at age 25 years",
+        "year": "1971",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/pollution62_10_set1/NSHD_air_pollution_exposure_estimates_1989-2010.pdf",
+        "text": "NSHD_air_pollution_exposure_estimates_1989-2010.pdf"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Residential air pollution [5271]",
+        "description": "This category contains data information air pollution estimates that were modelled for the participants addresses using models developed as part of the European Study of Cohorts for Air Pollution Effects (ESCAPE, http://www.escapeproject.eu/) funded under the EU 7th Framework Programme. Air pollution estimates were modelled for each address using a Land Use Regression (LUR) model.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Residential_air_pollution_5271.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 2,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "ug/m3",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          31.3585,
+          40.556375,
+          49.75425,
+          58.952124999999995,
+          68.15,
+          77.34787499999999,
+          86.54575,
+          95.74362500000001,
+          104.94149999999999,
+          114.139375,
+          123.33724999999998,
+          132.535125,
+          141.733,
+          150.930875,
+          160.12875,
+          169.32662499999998,
+          178.5245,
+          187.722375,
+          196.92024999999998,
+          206.118125,
+          215.316
+        ],
+        "counts": [
+          191,
+          240,
+          258,
+          210,
+          222,
+          285,
+          300,
+          302,
+          245,
+          174,
+          154,
+          133,
+          132,
+          143,
+          144,
+          126,
+          113,
+          96,
+          87,
+          81
+        ]
+      },
+      "boxplot": {
+        "min": 31.3585,
+        "q1": 68.689175,
+        "median": 98.9541,
+        "q3": 142.60375000000002,
+        "max": 215.316
+      },
+      "units": "ug/m3"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "31.3585"
+      ],
+      [
+        "Maximum",
+        "215.316"
+      ],
+      [
+        "Range",
+        "183.9575"
+      ],
+      [
+        "Median",
+        "98.9541"
+      ],
+      [
+        "IQR",
+        "68.689175 - 142.60375000000002"
+      ],
+      [
+        "Decile 1",
+        "47.4417"
+      ],
+      [
+        "Decile 2",
+        "60.9025"
+      ],
+      [
+        "Decile 3",
+        "76.10025"
+      ],
+      [
+        "Decile 4",
+        "88.4103"
+      ],
+      [
+        "Decile 5",
+        "98.9541"
+      ],
+      [
+        "Decile 6",
+        "110.507"
+      ],
+      [
+        "Decile 7",
+        "130.39550000000003"
+      ],
+      [
+        "Decile 8",
+        "153.968"
+      ],
+      [
+        "Decile 9",
+        "179.64100000000002"
+      ],
+      [
+        "Mean",
+        "106.81244414191418"
+      ],
+      [
+        "Std Dev.",
+        "47.78946093872742"
+      ],
+      [
+        "Variance",
+        "2283.8325768141544"
+      ],
+      [
+        "Displayed N",
+        "3636"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

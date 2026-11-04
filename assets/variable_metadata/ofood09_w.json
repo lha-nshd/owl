@@ -1,0 +1,611 @@
+{
+  "varname": "ofood09_w",
+  "label": "Average time duration [hours/week] spent preparing food in the last year (EPAQ2 categories) - at age 60-64 years",
+  "field_id": "13370",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13370",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "hours/week",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2223.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ofood09_d",
+    "food09_d",
+    "food09_w"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No time spent"
+    },
+    {
+      "value": "1.0",
+      "label": "Less than 1 hour a week"
+    },
+    {
+      "value": "2.0",
+      "label": "1-3 hours/week"
+    },
+    {
+      "value": "3.0",
+      "label": "3-6 hours/week"
+    },
+    {
+      "value": "4.0",
+      "label": "6-10 hours/week"
+    },
+    {
+      "value": "5.0",
+      "label": "10-15 hours/week"
+    },
+    {
+      "value": "6.0",
+      "label": ">15 hours/week"
+    },
+    {
+      "value": "777.0",
+      "label": "Non respondent"
+    },
+    {
+      "value": "888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No time spent",
+      "count": 104,
+      "pct": 4.7
+    },
+    {
+      "label": "Less than 1 hour a week",
+      "count": 172,
+      "pct": 7.7
+    },
+    {
+      "label": "1-3 hours/week",
+      "count": 347,
+      "pct": 15.6
+    },
+    {
+      "label": "3-6 hours/week",
+      "count": 389,
+      "pct": 17.5
+    },
+    {
+      "label": "6-10 hours/week",
+      "count": 788,
+      "pct": 35.4
+    },
+    {
+      "label": "10-15 hours/week",
+      "count": 245,
+      "pct": 11.0
+    },
+    {
+      "label": ">15 hours/week",
+      "count": 178,
+      "pct": 8.0
+    }
+  ],
+  "pdf": {
+    "varname": "ofood09_w",
+    "label": "Average time duration [hours/week] spent preparing food in the last year (EPAQ2 categories) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ofood09_w"
+      ],
+      [
+        "Field ID",
+        "13370"
+      ],
+      [
+        "Label",
+        "Average time duration [hours/week] spent preparing food in the last year (EPAQ2 categories) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours/week"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Home Activities (food preparation, shopping for food, shopping for other items, cleaning, laundry, caring for babies, caring for elderly). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ofood09_d",
+        "Average time duration [hours/day] spent preparing food in the last year (EPAQ2 categories) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "food09_d",
+        "Average time duration [hours/day] spent preparing food in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "food09_w",
+        "Average time duration [hours/week] spent preparing food in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No time spent",
+        false
+      ],
+      [
+        "1.0",
+        "Less than 1 hour a week",
+        false
+      ],
+      [
+        "2.0",
+        "1-3 hours/week",
+        false
+      ],
+      [
+        "3.0",
+        "3-6 hours/week",
+        false
+      ],
+      [
+        "4.0",
+        "6-10 hours/week",
+        false
+      ],
+      [
+        "5.0",
+        "10-15 hours/week",
+        false
+      ],
+      [
+        "6.0",
+        ">15 hours/week",
+        false
+      ],
+      [
+        "777.0",
+        "Non respondent",
+        true
+      ],
+      [
+        "888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "104",
+        "5%"
+      ],
+      [
+        "1",
+        "172",
+        "8%"
+      ],
+      [
+        "2",
+        "347",
+        "16%"
+      ],
+      [
+        "3",
+        "389",
+        "17%"
+      ],
+      [
+        "4",
+        "788",
+        "35%"
+      ],
+      [
+        "5",
+        "245",
+        "11%"
+      ],
+      [
+        "6",
+        "178",
+        "8%"
+      ],
+      [
+        "Displayed N",
+        "2223",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "ofood09_w",
+    "label": "Average time duration [hours/week] spent preparing food in the last year (EPAQ2 categories) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13370",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ofood09_w",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13370",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Average time duration [hours/week] spent preparing food in the last year (EPAQ2 categories) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours/week",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Home Activities (food preparation, shopping for food, shopping for other items, cleaning, laundry, caring for babies, caring for elderly). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ofood09_d",
+        "description": "Average time duration [hours/day] spent preparing food in the last year (EPAQ2 categories) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "food09_d",
+        "description": "Average time duration [hours/day] spent preparing food in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "food09_w",
+        "description": "Average time duration [hours/week] spent preparing food in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No time spent",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Less than 1 hour a week",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "1-3 hours/week",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "3-6 hours/week",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "6-10 hours/week",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "10-15 hours/week",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": ">15 hours/week",
+        "is_missing": false
+      },
+      {
+        "value": "777.0",
+        "label": "Non respondent",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 2,
+      "vals": 11
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "hours/week",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No time spent",
+          "count": 104,
+          "pct": 5
+        },
+        {
+          "value": "1",
+          "label": "Less than 1 hour a week",
+          "count": 172,
+          "pct": 8
+        },
+        {
+          "value": "2",
+          "label": "1-3 hours/week",
+          "count": 347,
+          "pct": 16
+        },
+        {
+          "value": "3",
+          "label": "3-6 hours/week",
+          "count": 389,
+          "pct": 17
+        },
+        {
+          "value": "4",
+          "label": "6-10 hours/week",
+          "count": 788,
+          "pct": 35
+        },
+        {
+          "value": "5",
+          "label": "10-15 hours/week",
+          "count": 245,
+          "pct": 11
+        },
+        {
+          "value": "6",
+          "label": ">15 hours/week",
+          "count": 178,
+          "pct": 8
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "104",
+        "5%"
+      ],
+      [
+        "1",
+        "172",
+        "8%"
+      ],
+      [
+        "2",
+        "347",
+        "16%"
+      ],
+      [
+        "3",
+        "389",
+        "17%"
+      ],
+      [
+        "4",
+        "788",
+        "35%"
+      ],
+      [
+        "5",
+        "245",
+        "11%"
+      ],
+      [
+        "6",
+        "178",
+        "8%"
+      ],
+      [
+        "Displayed N",
+        "2223",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

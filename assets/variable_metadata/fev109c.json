@@ -1,0 +1,621 @@
+{
+  "varname": "fev109c",
+  "label": "First blow - FEV - raw count in litres - at age 60-64 years",
+  "field_id": "14795",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14795",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "litres",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2.472869520897044,
+  "sd": 0.5800618374525096,
+  "series_size": 1962.0,
+  "minimum": 1.26,
+  "maximum": 3.68,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "fev209u",
+    "fev109u",
+    "fev09u",
+    "fev09u2",
+    "fev09s",
+    "fev209c"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Respiratory health [5]",
+    "Spirometry [1105]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No reading obtained"
+    },
+    {
+      "value": "7777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "fev109c",
+    "label": "First blow - FEV - raw count in litres - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "fev109c"
+      ],
+      [
+        "Field ID",
+        "14795"
+      ],
+      [
+        "Label",
+        "First blow - FEV - raw count in litres - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "LungFunc09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "litres"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lung function variables from the 2006-10 data collection"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "fev209u",
+        "Second blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "LungFunc09"
+      ],
+      [
+        "fev109u",
+        "First blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "LungFunc09"
+      ],
+      [
+        "fev09u",
+        "Maximum score where a minumum of two blows have been recorded and are deemed satisfactory. Highest of two is used else if only one satisfactory blow that is used - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "LungFunc09"
+      ],
+      [
+        "fev09u2",
+        "Maximum score where two blows have been recorded and are deemed satisfactory - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "LungFunc09"
+      ],
+      [
+        "fev09s",
+        "Maximum score where two blows  have been recorded and the difference between the maximum two values is 0.30L or less (Quanjer method) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "LungFunc09"
+      ],
+      [
+        "fev209c",
+        "Second blow - FEV - raw count in litres - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "Not applicable",
+        "LungFunc09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/LungFunc09/Lung_function_documentation_ref.docx",
+        "Lung_function_documentation_ref.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory health [5]",
+        "Legacy Category"
+      ],
+      [
+        "Spirometry [1105]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No reading obtained",
+        true
+      ],
+      [
+        "7777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.26"
+      ],
+      [
+        "Maximum",
+        "3.68"
+      ],
+      [
+        "Range",
+        "2.42"
+      ],
+      [
+        "Median",
+        "2.42"
+      ],
+      [
+        "IQR",
+        "2.04 - 2.94"
+      ],
+      [
+        "Decile 1",
+        "1.72"
+      ],
+      [
+        "Decile 2",
+        "1.95"
+      ],
+      [
+        "Decile 3",
+        "2.11"
+      ],
+      [
+        "Decile 4",
+        "2.27"
+      ],
+      [
+        "Decile 5",
+        "2.42"
+      ],
+      [
+        "Decile 6",
+        "2.6"
+      ],
+      [
+        "Decile 7",
+        "2.816999999999998"
+      ],
+      [
+        "Decile 8",
+        "3.04"
+      ],
+      [
+        "Decile 9",
+        "3.29"
+      ],
+      [
+        "Mean",
+        "2.472869520897044"
+      ],
+      [
+        "Std Dev.",
+        "0.5800618374525096"
+      ],
+      [
+        "Variance",
+        "0.3364717352687817"
+      ],
+      [
+        "Displayed N",
+        "1962"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "fev109c",
+    "label": "First blow - FEV - raw count in litres - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14795",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "fev109c",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "14795",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "First blow - FEV - raw count in litres - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "LungFunc09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "litres",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lung function variables from the 2006-10 data collection",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "fev209u",
+        "description": "Second blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "LungFunc09"
+      },
+      {
+        "varname": "fev109u",
+        "description": "First blow raw counts with the outliers removed and unsatisfactory blows are removed - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "LungFunc09"
+      },
+      {
+        "varname": "fev09u",
+        "description": "Maximum score where a minumum of two blows have been recorded and are deemed satisfactory. Highest of two is used else if only one satisfactory blow that is used - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "LungFunc09"
+      },
+      {
+        "varname": "fev09u2",
+        "description": "Maximum score where two blows have been recorded and are deemed satisfactory - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "LungFunc09"
+      },
+      {
+        "varname": "fev09s",
+        "description": "Maximum score where two blows  have been recorded and the difference between the maximum two values is 0.30L or less (Quanjer method) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "LungFunc09"
+      },
+      {
+        "varname": "fev209c",
+        "description": "Second blow - FEV - raw count in litres - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "Not applicable",
+        "library_file": "LungFunc09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/LungFunc09/Lung_function_documentation_ref.docx",
+        "text": "Lung_function_documentation_ref.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory health [5]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Spirometry [1105]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_1105.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No reading obtained",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 2,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "litres",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1.26,
+          1.4023529411764706,
+          1.5447058823529412,
+          1.6870588235294117,
+          1.8294117647058823,
+          1.9717647058823529,
+          2.1141176470588237,
+          2.256470588235294,
+          2.3988235294117644,
+          2.541176470588235,
+          2.683529411764706,
+          2.8258823529411763,
+          2.9682352941176466,
+          3.1105882352941174,
+          3.2529411764705882,
+          3.395294117647058,
+          3.537647058823529,
+          3.68
+        ],
+        "counts": [
+          38,
+          63,
+          76,
+          89,
+          152,
+          172,
+          183,
+          179,
+          168,
+          132,
+          126,
+          112,
+          140,
+          116,
+          88,
+          67,
+          61
+        ]
+      },
+      "boxplot": {
+        "min": 1.26,
+        "q1": 2.04,
+        "median": 2.42,
+        "q3": 2.94,
+        "max": 3.68
+      },
+      "units": "litres"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.26"
+      ],
+      [
+        "Maximum",
+        "3.68"
+      ],
+      [
+        "Range",
+        "2.42"
+      ],
+      [
+        "Median",
+        "2.42"
+      ],
+      [
+        "IQR",
+        "2.04 - 2.94"
+      ],
+      [
+        "Decile 1",
+        "1.72"
+      ],
+      [
+        "Decile 2",
+        "1.95"
+      ],
+      [
+        "Decile 3",
+        "2.11"
+      ],
+      [
+        "Decile 4",
+        "2.27"
+      ],
+      [
+        "Decile 5",
+        "2.42"
+      ],
+      [
+        "Decile 6",
+        "2.6"
+      ],
+      [
+        "Decile 7",
+        "2.816999999999998"
+      ],
+      [
+        "Decile 8",
+        "3.04"
+      ],
+      [
+        "Decile 9",
+        "3.29"
+      ],
+      [
+        "Mean",
+        "2.472869520897044"
+      ],
+      [
+        "Std Dev.",
+        "0.5800618374525096"
+      ],
+      [
+        "Variance",
+        "0.3364717352687817"
+      ],
+      [
+        "Displayed N",
+        "1962"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,577 @@
+{
+  "varname": "dwop4xx",
+  "label": "Age of bilateral oophorectomy - till age 57 years",
+  "field_id": "21844",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21844",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "years",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 43.5,
+  "sd": 3.5,
+  "series_size": 2.0,
+  "minimum": 40.0,
+  "maximum": 47.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "dwop1xx",
+    "dwop5xx",
+    "dwop3xx",
+    "dwop2xx"
+  ],
+  "linked_years": [
+    "2003"
+  ],
+  "categories": [
+    "Women's health [9]",
+    "Hysterectomy [7006]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "888.0",
+      "label": "Did not have this operation (or unknown hysterectomy status)"
+    },
+    {
+      "value": "8888.0",
+      "label": "Male"
+    },
+    {
+      "value": "997.0",
+      "label": "Returned at least one questionnaire but did not report any info on operations"
+    },
+    {
+      "value": "999.0",
+      "label": "Had this operation but date missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dwop4xx",
+    "label": "Age of bilateral oophorectomy - till age 57 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dwop4xx"
+      ],
+      [
+        "Field ID",
+        "21844"
+      ],
+      [
+        "Label",
+        "Age of bilateral oophorectomy - till age 57 years"
+      ],
+      [
+        "Card Number",
+        "womenhlth_hyst"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "2003"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "dwop1xx",
+        "Age of hysterectomy and bilateral oophorectomy - till age 57 years",
+        "2003",
+        "Woman's Health Questionnaire",
+        "Various",
+        "womenhlth_hyst"
+      ],
+      [
+        "dwop5xx",
+        "Age of unilateral oophorectomy - till age 57 years",
+        "2003",
+        "Woman's Health Questionnaire",
+        "Various",
+        "womenhlth_hyst"
+      ],
+      [
+        "dwop3xx",
+        "Age of hysterectomy and unilateral oophorectomy - till age 57 years",
+        "2003",
+        "Woman's Health Questionnaire",
+        "Various",
+        "womenhlth_hyst"
+      ],
+      [
+        "dwop2xx",
+        "Age of hysterectomy only - till age 57 years",
+        "2003",
+        "Woman's Health Questionnaire",
+        "Various",
+        "womenhlth_hyst"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Hysterectomy_status.docx",
+        "Hysterectomy_status.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Reason_for_hysterectomy.docx",
+        "Reason_for_hysterectomy.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Route_of_hysterectomy.docx",
+        "Route_of_hysterectomy.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Hysterectomy [7006]",
+        "This cateogry contains data from the woman's health questionnaires on operation for the removal of uterus (womb) and both ovaries (hysterectomy and bilateral oophorectomy)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "888.0",
+        "Did not have this operation (or unknown hysterectomy status)",
+        true
+      ],
+      [
+        "8888.0",
+        "Male",
+        true
+      ],
+      [
+        "997.0",
+        "Returned at least one questionnaire but did not report any info on operations",
+        true
+      ],
+      [
+        "999.0",
+        "Had this operation but date missing",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "40"
+      ],
+      [
+        "Maximum",
+        "47"
+      ],
+      [
+        "Range",
+        "7"
+      ],
+      [
+        "Median",
+        "43.5"
+      ],
+      [
+        "IQR",
+        "41.75 - 45.25"
+      ],
+      [
+        "Decile 1",
+        "40.7"
+      ],
+      [
+        "Decile 2",
+        "41.4"
+      ],
+      [
+        "Decile 3",
+        "42.1"
+      ],
+      [
+        "Decile 4",
+        "42.8"
+      ],
+      [
+        "Decile 5",
+        "43.5"
+      ],
+      [
+        "Decile 6",
+        "44.2"
+      ],
+      [
+        "Decile 7",
+        "44.9"
+      ],
+      [
+        "Decile 8",
+        "45.6"
+      ],
+      [
+        "Decile 9",
+        "46.3"
+      ],
+      [
+        "Mean",
+        "43.5"
+      ],
+      [
+        "Std Dev.",
+        "3.5"
+      ],
+      [
+        "Variance",
+        "12.25"
+      ],
+      [
+        "Displayed N",
+        "2"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dwop4xx",
+    "label": "Age of bilateral oophorectomy - till age 57 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21844",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dwop4xx",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "21844",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age of bilateral oophorectomy - till age 57 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "womenhlth_hyst",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2003",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "dwop1xx",
+        "description": "Age of hysterectomy and bilateral oophorectomy - till age 57 years",
+        "year": "2003",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "womenhlth_hyst"
+      },
+      {
+        "varname": "dwop5xx",
+        "description": "Age of unilateral oophorectomy - till age 57 years",
+        "year": "2003",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "womenhlth_hyst"
+      },
+      {
+        "varname": "dwop3xx",
+        "description": "Age of hysterectomy and unilateral oophorectomy - till age 57 years",
+        "year": "2003",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "womenhlth_hyst"
+      },
+      {
+        "varname": "dwop2xx",
+        "description": "Age of hysterectomy only - till age 57 years",
+        "year": "2003",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "womenhlth_hyst"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Hysterectomy_status.docx",
+        "text": "Hysterectomy_status.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Reason_for_hysterectomy.docx",
+        "text": "Reason_for_hysterectomy.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Route_of_hysterectomy.docx",
+        "text": "Route_of_hysterectomy.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hysterectomy [7006]",
+        "description": "This cateogry contains data from the woman's health questionnaires on operation for the removal of uterus (womb) and both ovaries (hysterectomy and bilateral oophorectomy)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hysterectomy_7006.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Did not have this operation (or unknown hysterectomy status)",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Male",
+        "is_missing": true
+      },
+      {
+        "value": "997.0",
+        "label": "Returned at least one questionnaire but did not report any info on operations",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Had this operation but date missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 4,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          40.0,
+          43.5,
+          47.0
+        ],
+        "counts": [
+          1,
+          1
+        ]
+      },
+      "boxplot": {
+        "min": 40.0,
+        "q1": 41.75,
+        "median": 43.5,
+        "q3": 45.25,
+        "max": 47.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "40"
+      ],
+      [
+        "Maximum",
+        "47"
+      ],
+      [
+        "Range",
+        "7"
+      ],
+      [
+        "Median",
+        "43.5"
+      ],
+      [
+        "IQR",
+        "41.75 - 45.25"
+      ],
+      [
+        "Decile 1",
+        "40.7"
+      ],
+      [
+        "Decile 2",
+        "41.4"
+      ],
+      [
+        "Decile 3",
+        "42.1"
+      ],
+      [
+        "Decile 4",
+        "42.8"
+      ],
+      [
+        "Decile 5",
+        "43.5"
+      ],
+      [
+        "Decile 6",
+        "44.2"
+      ],
+      [
+        "Decile 7",
+        "44.9"
+      ],
+      [
+        "Decile 8",
+        "45.6"
+      ],
+      [
+        "Decile 9",
+        "46.3"
+      ],
+      [
+        "Mean",
+        "43.5"
+      ],
+      [
+        "Std Dev.",
+        "3.5"
+      ],
+      [
+        "Variance",
+        "12.25"
+      ],
+      [
+        "Displayed N",
+        "2"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

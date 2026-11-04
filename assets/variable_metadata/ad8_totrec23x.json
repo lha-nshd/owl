@@ -1,0 +1,850 @@
+{
+  "varname": "ad8_totrec23x",
+  "label": "Total AD8 Score - at age 77 years",
+  "field_id": "11008",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=11008",
+  "year": "",
+  "form": "AD8 dementia screening interview",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 835.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ad8_learning23x",
+    "ad8_daily_mem23x",
+    "ad8_appointments23x",
+    "ad8willing23x",
+    "ad8_financial23x",
+    "ad8_mmyy23x",
+    "ad8rel23x",
+    "ad8live23x",
+    "ad8_judgement23x",
+    "ad8_interests23x",
+    "ad8_repetition23x",
+    "ad8proxwill23x",
+    "ad8present23x",
+    "ad8present2_23x"
+  ],
+  "linked_years": [
+    "2023"
+  ],
+  "categories": [
+    "AD8 Dementia screening interview [5204]"
+  ],
+  "value_labels": [
+    {
+      "value": "-5.0",
+      "label": "Unwilling or no one present for test"
+    },
+    {
+      "value": "-6.0",
+      "label": "Not applicable - Module not attempted"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Zero"
+    },
+    {
+      "value": "1.0",
+      "label": "One"
+    },
+    {
+      "value": "2.0",
+      "label": "Two"
+    },
+    {
+      "value": "3.0",
+      "label": "Three"
+    },
+    {
+      "value": "4.0",
+      "label": "Four"
+    },
+    {
+      "value": "5.0",
+      "label": "Five"
+    },
+    {
+      "value": "6.0",
+      "label": "Six"
+    },
+    {
+      "value": "8.0",
+      "label": "Eight"
+    },
+    {
+      "value": "98.0",
+      "label": "Refusal"
+    },
+    {
+      "value": "99.0",
+      "label": "Don't Know"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Zero",
+      "count": 472,
+      "pct": 56.5
+    },
+    {
+      "label": "One",
+      "count": 155,
+      "pct": 18.6
+    },
+    {
+      "label": "Two",
+      "count": 79,
+      "pct": 9.5
+    },
+    {
+      "label": "Three",
+      "count": 55,
+      "pct": 6.6
+    },
+    {
+      "label": "Four",
+      "count": 34,
+      "pct": 4.1
+    },
+    {
+      "label": "Five",
+      "count": 16,
+      "pct": 1.9
+    },
+    {
+      "label": "Six",
+      "count": 14,
+      "pct": 1.7
+    },
+    {
+      "label": "Eight",
+      "count": 10,
+      "pct": 1.2
+    }
+  ],
+  "pdf": {
+    "varname": "ad8_totrec23x",
+    "label": "Total AD8 Score - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ad8_totrec23x"
+      ],
+      [
+        "Field ID",
+        "11008"
+      ],
+      [
+        "Label",
+        "Total AD8 Score - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "ad823"
+      ],
+      [
+        "Form",
+        "AD8 dementia screening interview"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2023 Home visit. AD8 dementia screening interview with some extra variables from the CAPI."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ad8_learning23x",
+        "AD8 - Trouble learning how to use a tool, appliance, or gadget (e.g. VCR, computer, microwave, remote control) - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "4",
+        "ad823"
+      ],
+      [
+        "ad8_daily_mem23x",
+        "AD8 - Daily problems with thinking and/or memory - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "8",
+        "ad823"
+      ],
+      [
+        "ad8_appointments23x",
+        "AD8 - Trouble remembering appointments - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "7",
+        "ad823"
+      ],
+      [
+        "ad8willing23x",
+        "AD8 - Willing to have somone answer questions about participants memory - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "Not applicable",
+        "ad823"
+      ],
+      [
+        "ad8_financial23x",
+        "AD8 - Trouble handling complicated financial affairs (e.g. balancing checkbook, income taxes, paying bills) - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "6",
+        "ad823"
+      ],
+      [
+        "ad8_mmyy23x",
+        "AD8 - Forgets correct month or year - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "5",
+        "ad823"
+      ],
+      [
+        "ad8rel23x",
+        "AD8 - What is your relationship to the individual who will answer these questions about your memory - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "Not applicable",
+        "ad823"
+      ],
+      [
+        "ad8live23x",
+        "AD8 - Does the person who will answer the questions about your memory live with you - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "Not applicable",
+        "ad823"
+      ],
+      [
+        "ad8_judgement23x",
+        "AD8 - Problems with judgement (e.g. problems making decisions, bad financial decisions, problems with thinking) - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "1",
+        "ad823"
+      ],
+      [
+        "ad8_interests23x",
+        "AD8 - Less interest in hobbies/activites - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "2",
+        "ad823"
+      ],
+      [
+        "ad8_repetition23x",
+        "AD8 - Repeats the same things over and over (questions, stories, or statements) - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "3",
+        "ad823"
+      ],
+      [
+        "ad8proxwill23x",
+        "AD8 - Are happy for me to ask you these questions about the participant about their memory - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "Not applicable",
+        "ad823"
+      ],
+      [
+        "ad8present23x",
+        "AD8 - Did the participant say they did not wish to do the AD8 during the booking phone call - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "Not applicable",
+        "ad823"
+      ],
+      [
+        "ad8present2_23x",
+        "AD8 - Is a person available now in person or on the phone who will answer questions about your memory - at age 77 years",
+        "2023",
+        "AD8 dementia screening interview",
+        "Not applicable",
+        "ad823"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "AD8 Dementia screening interview [5204]",
+        "This is an eight-item informant interview to differentiate between ageing and dementia. The AD8 was developed as a brief instrument to help discriminate between signs of normal aging and mild dementia. The AD8 contains 8 items that test for memory, orientation, judgment, and function. Cut points are: normal cognition 0-1; impairment in cognition 2 or greater. The AD8 assesses intra-individual change across a variety of cognitive domains compared to previous levels of function and is sensitive to early signs of dementia regardless of etiology."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-5.0",
+        "Unwilling or no one present for test",
+        true
+      ],
+      [
+        "-6.0",
+        "Not applicable - Module not attempted",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Zero",
+        false
+      ],
+      [
+        "1.0",
+        "One",
+        false
+      ],
+      [
+        "2.0",
+        "Two",
+        false
+      ],
+      [
+        "3.0",
+        "Three",
+        false
+      ],
+      [
+        "4.0",
+        "Four",
+        false
+      ],
+      [
+        "5.0",
+        "Five",
+        false
+      ],
+      [
+        "6.0",
+        "Six",
+        false
+      ],
+      [
+        "8.0",
+        "Eight",
+        false
+      ],
+      [
+        "98.0",
+        "Refusal",
+        true
+      ],
+      [
+        "99.0",
+        "Don't Know",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "472",
+        "57%"
+      ],
+      [
+        "1",
+        "155",
+        "19%"
+      ],
+      [
+        "2",
+        "79",
+        "9%"
+      ],
+      [
+        "3",
+        "55",
+        "7%"
+      ],
+      [
+        "4",
+        "34",
+        "4%"
+      ],
+      [
+        "5",
+        "16",
+        "2%"
+      ],
+      [
+        "6",
+        "14",
+        "2%"
+      ],
+      [
+        "8",
+        "10",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "835",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "ad8_totrec23x",
+    "label": "Total AD8 Score - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=11008",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ad8_totrec23x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "11008",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Total AD8 Score - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "ad823",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "AD8 dementia screening interview",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2023 Home visit. AD8 dementia screening interview with some extra variables from the CAPI.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ad8_learning23x",
+        "description": "AD8 - Trouble learning how to use a tool, appliance, or gadget (e.g. VCR, computer, microwave, remote control) - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "4",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8_daily_mem23x",
+        "description": "AD8 - Daily problems with thinking and/or memory - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "8",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8_appointments23x",
+        "description": "AD8 - Trouble remembering appointments - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "7",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8willing23x",
+        "description": "AD8 - Willing to have somone answer questions about participants memory - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "Not applicable",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8_financial23x",
+        "description": "AD8 - Trouble handling complicated financial affairs (e.g. balancing checkbook, income taxes, paying bills) - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "6",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8_mmyy23x",
+        "description": "AD8 - Forgets correct month or year - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "5",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8rel23x",
+        "description": "AD8 - What is your relationship to the individual who will answer these questions about your memory - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "Not applicable",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8live23x",
+        "description": "AD8 - Does the person who will answer the questions about your memory live with you - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "Not applicable",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8_judgement23x",
+        "description": "AD8 - Problems with judgement (e.g. problems making decisions, bad financial decisions, problems with thinking) - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "1",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8_interests23x",
+        "description": "AD8 - Less interest in hobbies/activites - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "2",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8_repetition23x",
+        "description": "AD8 - Repeats the same things over and over (questions, stories, or statements) - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "3",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8proxwill23x",
+        "description": "AD8 - Are happy for me to ask you these questions about the participant about their memory - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "Not applicable",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8present23x",
+        "description": "AD8 - Did the participant say they did not wish to do the AD8 during the booking phone call - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "Not applicable",
+        "library_file": "ad823"
+      },
+      {
+        "varname": "ad8present2_23x",
+        "description": "AD8 - Is a person available now in person or on the phone who will answer questions about your memory - at age 77 years",
+        "year": "2023",
+        "form": "AD8 dementia screening interview",
+        "question": "Not applicable",
+        "library_file": "ad823"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "AD8 Dementia screening interview [5204]",
+        "description": "This is an eight-item informant interview to differentiate between ageing and dementia. The AD8 was developed as a brief instrument to help discriminate between signs of normal aging and mild dementia. The AD8 contains 8 items that test for memory, orientation, judgment, and function. Cut points are: normal cognition 0-1; impairment in cognition 2 or greater. The AD8 assesses intra-individual change across a variety of cognitive domains compared to previous levels of function and is sensitive to early signs of dementia regardless of etiology.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/AD8_Dementia_screening_interview_5204.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-5.0",
+        "label": "Unwilling or no one present for test",
+        "is_missing": true
+      },
+      {
+        "value": "-6.0",
+        "label": "Not applicable - Module not attempted",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Zero",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "One",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Two",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Three",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Four",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Five",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "Six",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "Eight",
+        "is_missing": false
+      },
+      {
+        "value": "98.0",
+        "label": "Refusal",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Don't Know",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 14,
+      "docs": 1,
+      "cats": 1,
+      "vals": 14
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Zero",
+          "count": 472,
+          "pct": 57
+        },
+        {
+          "value": "1",
+          "label": "One",
+          "count": 155,
+          "pct": 19
+        },
+        {
+          "value": "2",
+          "label": "Two",
+          "count": 79,
+          "pct": 9
+        },
+        {
+          "value": "3",
+          "label": "Three",
+          "count": 55,
+          "pct": 7
+        },
+        {
+          "value": "4",
+          "label": "Four",
+          "count": 34,
+          "pct": 4
+        },
+        {
+          "value": "5",
+          "label": "Five",
+          "count": 16,
+          "pct": 2
+        },
+        {
+          "value": "6",
+          "label": "Six",
+          "count": 14,
+          "pct": 2
+        },
+        {
+          "value": "8",
+          "label": "Eight",
+          "count": 10,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "472",
+        "57%"
+      ],
+      [
+        "1",
+        "155",
+        "19%"
+      ],
+      [
+        "2",
+        "79",
+        "9%"
+      ],
+      [
+        "3",
+        "55",
+        "7%"
+      ],
+      [
+        "4",
+        "34",
+        "4%"
+      ],
+      [
+        "5",
+        "16",
+        "2%"
+      ],
+      [
+        "6",
+        "14",
+        "2%"
+      ],
+      [
+        "8",
+        "10",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "835",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

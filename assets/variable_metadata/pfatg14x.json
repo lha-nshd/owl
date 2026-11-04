@@ -1,0 +1,556 @@
+{
+  "varname": "pfatg14x",
+  "label": "Moderate- to high-intensity strength training for 30 minutes - physical fatigue level - at age 68 years",
+  "field_id": "9799",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9799",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1862.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "mfatg14x",
+    "fatg14x"
+  ],
+  "linked_years": [
+    "2014"
+  ],
+  "categories": [
+    "General health [3]",
+    "Musculoskeletal health and physical capability [7]",
+    "Fatigue [5114]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No fatigue"
+    },
+    {
+      "value": "1.0",
+      "label": "One out of 5"
+    },
+    {
+      "value": "2.0",
+      "label": "Two out of 5"
+    },
+    {
+      "value": "3.0",
+      "label": "Three out of 5"
+    },
+    {
+      "value": "4.0",
+      "label": "Four out of 5"
+    },
+    {
+      "value": "5.0",
+      "label": "Extreme fatigue"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No fatigue",
+      "count": 236,
+      "pct": 12.7
+    },
+    {
+      "label": "One out of 5",
+      "count": 119,
+      "pct": 6.4
+    },
+    {
+      "label": "Two out of 5",
+      "count": 233,
+      "pct": 12.5
+    },
+    {
+      "label": "Three out of 5",
+      "count": 370,
+      "pct": 19.9
+    },
+    {
+      "label": "Four out of 5",
+      "count": 456,
+      "pct": 24.5
+    },
+    {
+      "label": "Extreme fatigue",
+      "count": 448,
+      "pct": 24.1
+    }
+  ],
+  "pdf": {
+    "varname": "pfatg14x",
+    "label": "Moderate- to high-intensity strength training for 30 minutes - physical fatigue level - at age 68 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "pfatg14x"
+      ],
+      [
+        "Field ID",
+        "9799"
+      ],
+      [
+        "Label",
+        "Moderate- to high-intensity strength training for 30 minutes - physical fatigue level - at age 68 years"
+      ],
+      [
+        "Card Number",
+        "Fatigability14"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "45(g)"
+      ],
+      [
+        "Year",
+        "2014"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Physical and mental fatigue Q45. Not asked in 2022 postal."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "mfatg14x",
+        "Moderate- to high-intensity strength training for 30 minutes - mental fatigue level - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "45(g)",
+        "Fatigability14"
+      ],
+      [
+        "fatg14x",
+        "Moderate- to high-intensity strength training for 30 minutes - done in past month - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "45(g)",
+        "Fatigability14"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Fatigue [5114]",
+        "This category contains data from the questionnaire on physical and mental fatigue."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No fatigue",
+        false
+      ],
+      [
+        "1.0",
+        "One out of 5",
+        false
+      ],
+      [
+        "2.0",
+        "Two out of 5",
+        false
+      ],
+      [
+        "3.0",
+        "Three out of 5",
+        false
+      ],
+      [
+        "4.0",
+        "Four out of 5",
+        false
+      ],
+      [
+        "5.0",
+        "Extreme fatigue",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0.0",
+        "236",
+        "13%"
+      ],
+      [
+        "1.0",
+        "119",
+        "6%"
+      ],
+      [
+        "2.0",
+        "233",
+        "13%"
+      ],
+      [
+        "3.0",
+        "370",
+        "20%"
+      ],
+      [
+        "4.0",
+        "456",
+        "24%"
+      ],
+      [
+        "5.0",
+        "448",
+        "24%"
+      ],
+      [
+        "Displayed N",
+        "1862",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "pfatg14x",
+    "label": "Moderate- to high-intensity strength training for 30 minutes - physical fatigue level - at age 68 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9799",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "pfatg14x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9799",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Moderate- to high-intensity strength training for 30 minutes - physical fatigue level - at age 68 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Fatigability14",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "45(g)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2014",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Physical and mental fatigue Q45. Not asked in 2022 postal.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "mfatg14x",
+        "description": "Moderate- to high-intensity strength training for 30 minutes - mental fatigue level - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "45(g)",
+        "library_file": "Fatigability14"
+      },
+      {
+        "varname": "fatg14x",
+        "description": "Moderate- to high-intensity strength training for 30 minutes - done in past month - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "45(g)",
+        "library_file": "Fatigability14"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Fatigue [5114]",
+        "description": "This category contains data from the questionnaire on physical and mental fatigue.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Fatigue_5114.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No fatigue",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "One out of 5",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Two out of 5",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Three out of 5",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Four out of 5",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Extreme fatigue",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 3,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0.0",
+          "label": "No fatigue",
+          "count": 236,
+          "pct": 13
+        },
+        {
+          "value": "1.0",
+          "label": "One out of 5",
+          "count": 119,
+          "pct": 6
+        },
+        {
+          "value": "2.0",
+          "label": "Two out of 5",
+          "count": 233,
+          "pct": 13
+        },
+        {
+          "value": "3.0",
+          "label": "Three out of 5",
+          "count": 370,
+          "pct": 20
+        },
+        {
+          "value": "4.0",
+          "label": "Four out of 5",
+          "count": 456,
+          "pct": 24
+        },
+        {
+          "value": "5.0",
+          "label": "Extreme fatigue",
+          "count": 448,
+          "pct": 24
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0.0",
+        "236",
+        "13%"
+      ],
+      [
+        "1.0",
+        "119",
+        "6%"
+      ],
+      [
+        "2.0",
+        "233",
+        "13%"
+      ],
+      [
+        "3.0",
+        "370",
+        "20%"
+      ],
+      [
+        "4.0",
+        "456",
+        "24%"
+      ],
+      [
+        "5.0",
+        "448",
+        "24%"
+      ],
+      [
+        "Displayed N",
+        "1862",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

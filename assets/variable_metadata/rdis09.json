@@ -1,0 +1,492 @@
+{
+  "varname": "rdis09",
+  "label": "In the last year have you fallen out or had a serious disagreement with a friend or relative (other than your spouse/partner or children) or someone you know well or felt betrayed by them in the last 12 months? - at age 60-64 years.",
+  "field_id": "14749",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14749",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2201.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "rdis",
+    "rdis22x",
+    "reach22x",
+    "rdis89",
+    "rdisch22x",
+    "rdisr89",
+    "rdisc89"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2022"
+  ],
+  "categories": [
+    "Social support or life events [25]",
+    "Life events [540]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 2058,
+      "pct": 93.5
+    },
+    {
+      "label": "Yes",
+      "count": 143,
+      "pct": 6.5
+    }
+  ],
+  "pdf": {
+    "varname": "rdis09",
+    "label": "In the last year have you fallen out or had a serious disagreement with a friend or relative (other than your spouse/partner or children) or someone you know well or felt betrayed by them in the last 12 months? - at age 60-64 years.",
+    "meta_rows": [
+      [
+        "Variable",
+        "rdis09"
+      ],
+      [
+        "Field ID",
+        "14749"
+      ],
+      [
+        "Label",
+        "In the last year have you fallen out or had a serious disagreement with a friend or relative (other than your spouse/partner or children) or someone you know well or felt betrayed by them in the last 12 months? - at age 60-64 years."
+      ],
+      [
+        "Card Number",
+        "LIFEEV09"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "31(o)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Live events - Things participant has experienced in the last 12 months. Asked in the 2006-10 data collection."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "rdis",
+        "In the last year have you fallen out or had a serious disagreement with a friend or relative or someone you know well or felt betrayed by them in the last 12 months? - at age 53 years.",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "96(o)",
+        "capi99a"
+      ],
+      [
+        "rdis22x",
+        "Life events you may have had in the last year: Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "173(h)",
+        "Postal22"
+      ],
+      [
+        "reach22x",
+        "Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them: When this happened or when you found out about it, were you? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "173(h)",
+        "Postal22"
+      ],
+      [
+        "rdis89",
+        "Life events you may have had in the last year: Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "68(n)",
+        "de89d"
+      ],
+      [
+        "rdisch22x",
+        "Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them: As a result of this has your way of life changed at all? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "173(h)",
+        "Postal22"
+      ],
+      [
+        "rdisr89",
+        "In the last year have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them? When this happened or when you found out about it, were you? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "68(n)",
+        "de89d"
+      ],
+      [
+        "rdisc89",
+        "In the last year have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them? As a result of this have you had to change your way of life? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "68(n)",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social support or life events [25]",
+        "Legacy Category"
+      ],
+      [
+        "Life events [540]",
+        "This category contains data from the questionnaires on life events such as serious illness and disability, accidents, robbery, disagreements with spouse and relatives, difficulties with children and grandchildren, major breavement or disappointments."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "2058",
+        "94%"
+      ],
+      [
+        "1",
+        "143",
+        "6%"
+      ],
+      [
+        "Displayed N",
+        "2201",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "rdis09",
+    "label": "In the last year have you fallen out or had a serious disagreement with a friend or relative (other than your spouse/partner or children) or someone you know well or felt betrayed by them in the last 12 months? - at age 60-64 years.",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14749",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "rdis09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "14749",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "In the last year have you fallen out or had a serious disagreement with a friend or relative (other than your spouse/partner or children) or someone you know well or felt betrayed by them in the last 12 months? - at age 60-64 years.",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "LIFEEV09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "31(o)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Live events - Things participant has experienced in the last 12 months. Asked in the 2006-10 data collection.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "rdis",
+        "description": "In the last year have you fallen out or had a serious disagreement with a friend or relative or someone you know well or felt betrayed by them in the last 12 months? - at age 53 years.",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "96(o)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "rdis22x",
+        "description": "Life events you may have had in the last year: Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "173(h)",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "reach22x",
+        "description": "Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them: When this happened or when you found out about it, were you? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "173(h)",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "rdis89",
+        "description": "Life events you may have had in the last year: Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "68(n)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "rdisch22x",
+        "description": "Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them: As a result of this has your way of life changed at all? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "173(h)",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "rdisr89",
+        "description": "In the last year have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them? When this happened or when you found out about it, were you? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "68(n)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "rdisc89",
+        "description": "In the last year have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them? As a result of this have you had to change your way of life? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "68(n)",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social support or life events [25]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Life events [540]",
+        "description": "This category contains data from the questionnaires on life events such as serious illness and disability, accidents, robbery, disagreements with spouse and relatives, difficulties with children and grandchildren, major breavement or disappointments.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Life_events_540.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 2058,
+          "pct": 94
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 143,
+          "pct": 6
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "2058",
+        "94%"
+      ],
+      [
+        "1",
+        "143",
+        "6%"
+      ],
+      [
+        "Displayed N",
+        "2201",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "varname": "svpari_bl_i46p2",
+  "label": "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+  "field_id": "62866",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=62866",
+  "year": "",
+  "form": "Insight46 - Phase 2",
+  "units": "SUVR",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 1.0171488468007261,
+  "sd": 0.08682450454451195,
+  "series_size": 392.0,
+  "minimum": 0.909921822160334,
+  "maximum": 1.3459202373680077,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "svpari_fu_i46p2"
+  ],
+  "linked_years": [
+    "2018-2021"
+  ],
+  "categories": [
+    "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No data"
+    },
+    {
+      "value": "-9.0",
+      "label": "Not available"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "svpari_bl_i46p2",
+    "label": "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+    "meta_rows": [
+      [
+        "Variable",
+        "svpari_bl_i46p2"
+      ],
+      [
+        "Field ID",
+        "62866"
+      ],
+      [
+        "Label",
+        "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46P2_AmyloidPET2"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 2"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2018-2021"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "SUVR"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Longitudinal regional amyloid-beta PET [18F]florbetapir SUVRs and amyloid-beta status for phase 1 and 2 Insight 46 scans using FreeSurfer, MRI-based anatomical parcellations."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "svpari_fu_i46p2",
+        "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_AmyloidPET2"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46P2_AmyloidPET2/fs_v_gif_validate.pdf",
+        "fs_v_gif_validate.pdf"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Longitudinal beta-amyloid status (phase 1 and 2) [603412]",
+        "This category contains variables related to the longitudinal beta-amyloid status, standard uptake value ratios (SUVRs), and centiloid values (phases 1 and 2) from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No data",
+        true
+      ],
+      [
+        "-9.0",
+        "Not available",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.909921822160334"
+      ],
+      [
+        "Maximum",
+        "1.3459202373680077"
+      ],
+      [
+        "Range",
+        "0.4359984152076737"
+      ],
+      [
+        "Median",
+        "0.9958897842914998"
+      ],
+      [
+        "IQR",
+        "0.9562290505716697 - 1.0446177646073456"
+      ],
+      [
+        "Decile 1",
+        "0.9333724314269074"
+      ],
+      [
+        "Decile 2",
+        "0.9496865739268975"
+      ],
+      [
+        "Decile 3",
+        "0.9621919146258934"
+      ],
+      [
+        "Decile 4",
+        "0.9790675172080149"
+      ],
+      [
+        "Decile 5",
+        "0.9958897842914998"
+      ],
+      [
+        "Decile 6",
+        "1.010653231118894"
+      ],
+      [
+        "Decile 7",
+        "1.031047173653073"
+      ],
+      [
+        "Decile 8",
+        "1.0720882428663767"
+      ],
+      [
+        "Decile 9",
+        "1.137457077798116"
+      ],
+      [
+        "Mean",
+        "1.0171488468007261"
+      ],
+      [
+        "Std Dev.",
+        "0.08682450454451195"
+      ],
+      [
+        "Variance",
+        "0.0075384945893999765"
+      ],
+      [
+        "Displayed N",
+        "392"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "svpari_bl_i46p2",
+    "label": "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=62866",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "svpari_bl_i46p2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "62866",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46P2_AmyloidPET2",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2018-2021",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "SUVR",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Longitudinal regional amyloid-beta PET [18F]florbetapir SUVRs and amyloid-beta status for phase 1 and 2 Insight 46 scans using FreeSurfer, MRI-based anatomical parcellations.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "svpari_fu_i46p2",
+        "description": "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_AmyloidPET2"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46P2_AmyloidPET2/fs_v_gif_validate.pdf",
+        "text": "fs_v_gif_validate.pdf"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Longitudinal beta-amyloid status (phase 1 and 2) [603412]",
+        "description": "This category contains variables related to the longitudinal beta-amyloid status, standard uptake value ratios (SUVRs), and centiloid values (phases 1 and 2) from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Longitudinal_beta-amyloid_status_(phase_1_and_2)_603412.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No data",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Not available",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 2,
+      "cats": 1,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "SUVR",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.909921822160334,
+          0.9328691071712643,
+          0.9558163921821944,
+          0.9787636771931246,
+          1.0017109622040548,
+          1.024658247214985,
+          1.0476055322259152,
+          1.0705528172368455,
+          1.0935001022477755,
+          1.1164473872587057,
+          1.139394672269636,
+          1.1623419572805662,
+          1.1852892422914962,
+          1.2082365273024265,
+          1.2311838123133567,
+          1.254131097324287,
+          1.2770783823352172,
+          1.3000256673461474,
+          1.3229729523570775,
+          1.3459202373680077
+        ],
+        "counts": [
+          38,
+          59,
+          59,
+          55,
+          52,
+          35,
+          15,
+          14,
+          18,
+          8,
+          9,
+          4,
+          3,
+          5,
+          7,
+          5,
+          1,
+          4,
+          1
+        ]
+      },
+      "boxplot": {
+        "min": 0.909921822160334,
+        "q1": 0.9562290505716697,
+        "median": 0.9958897842914998,
+        "q3": 1.0446177646073456,
+        "max": 1.3459202373680077
+      },
+      "units": "SUVR"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.909921822160334"
+      ],
+      [
+        "Maximum",
+        "1.3459202373680077"
+      ],
+      [
+        "Range",
+        "0.4359984152076737"
+      ],
+      [
+        "Median",
+        "0.9958897842914998"
+      ],
+      [
+        "IQR",
+        "0.9562290505716697 - 1.0446177646073456"
+      ],
+      [
+        "Decile 1",
+        "0.9333724314269074"
+      ],
+      [
+        "Decile 2",
+        "0.9496865739268975"
+      ],
+      [
+        "Decile 3",
+        "0.9621919146258934"
+      ],
+      [
+        "Decile 4",
+        "0.9790675172080149"
+      ],
+      [
+        "Decile 5",
+        "0.9958897842914998"
+      ],
+      [
+        "Decile 6",
+        "1.010653231118894"
+      ],
+      [
+        "Decile 7",
+        "1.031047173653073"
+      ],
+      [
+        "Decile 8",
+        "1.0720882428663767"
+      ],
+      [
+        "Decile 9",
+        "1.137457077798116"
+      ],
+      [
+        "Mean",
+        "1.0171488468007261"
+      ],
+      [
+        "Std Dev.",
+        "0.08682450454451195"
+      ],
+      [
+        "Variance",
+        "0.0075384945893999765"
+      ],
+      [
+        "Displayed N",
+        "392"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

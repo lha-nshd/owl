@@ -1,0 +1,650 @@
+{
+  "varname": "htn23x",
+  "label": "Standing Height in cm - at age 77 years",
+  "field_id": "1016",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1016",
+  "year": "",
+  "form": "Home visit",
+  "units": "cm",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 165.3967942088935,
+  "sd": 7.7445407306899074,
+  "series_size": 967.0,
+  "minimum": 151.2,
+  "maximum": 179.8,
+  "truly_longitudinal_field_id": "1016",
+  "truly_longitudinal_varnames": [
+    "ht48u",
+    "ht50u",
+    "ht52u",
+    "ht53u",
+    "ht57u",
+    "ht61u",
+    "ht66u",
+    "ht72u",
+    "ht82u",
+    "ht89u",
+    "ht99u",
+    "htn09_v2",
+    "htn15x"
+  ],
+  "truly_longitudinal_years": [
+    "1948",
+    "1950",
+    "1952",
+    "1953",
+    "1957",
+    "1961",
+    "1966",
+    "1972",
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Body size measures [11021]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "999.0",
+      "label": "Unable to take a measurement"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "htn23x",
+    "label": "Standing Height in cm - at age 77 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "htn23x"
+      ],
+      [
+        "Field ID",
+        "1016"
+      ],
+      [
+        "Label",
+        "Standing Height in cm - at age 77 years"
+      ],
+      [
+        "Card Number",
+        "anthropometry23"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "3"
+      ],
+      [
+        "Year",
+        "2023"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "cm"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Anthropometry section of the home visit. Rounded up to the higher mm"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "ht48u",
+        "1948",
+        "Standing Height in cm - at age 2 years"
+      ],
+      [
+        "ht50u",
+        "1950",
+        "Standing Height in cm - at age 4 years"
+      ],
+      [
+        "ht52u",
+        "1952",
+        "Standing Height in cm - at age 6 years"
+      ],
+      [
+        "ht53u",
+        "1953",
+        "Standing Height in cm - at age 7 years"
+      ],
+      [
+        "ht57u",
+        "1957",
+        "Standing Height in cm - at age 11 years"
+      ],
+      [
+        "ht61u",
+        "1961",
+        "Standing Height in cm - at age 15 years"
+      ],
+      [
+        "ht66u",
+        "1966",
+        "Standing Height in cm - at age 20 years"
+      ],
+      [
+        "ht72u",
+        "1972",
+        "Standing Height in cm - at age 26 years"
+      ],
+      [
+        "ht82u",
+        "1982",
+        "Standing Height in cm - at age 36 years"
+      ],
+      [
+        "ht89u",
+        "1989",
+        "Standing Height in cm - at age 43 years"
+      ],
+      [
+        "ht99u",
+        "1999",
+        "Standing Height in cm - at age 53 years"
+      ],
+      [
+        "htn09_v2",
+        "2006-10",
+        "Standing Height in cm - at age 60-64 years"
+      ],
+      [
+        "htn15x",
+        "2015",
+        "Standing Height in cm - at age 69 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Body size measures [11021]",
+        "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "999.0",
+        "Unable to take a measurement",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "151.2"
+      ],
+      [
+        "Maximum",
+        "179.8"
+      ],
+      [
+        "Range",
+        "28.600000000000023"
+      ],
+      [
+        "Median",
+        "165.2"
+      ],
+      [
+        "IQR",
+        "159.0 - 172.0"
+      ],
+      [
+        "Decile 1",
+        "154.8"
+      ],
+      [
+        "Decile 2",
+        "157.9"
+      ],
+      [
+        "Decile 3",
+        "160.2"
+      ],
+      [
+        "Decile 4",
+        "162.5"
+      ],
+      [
+        "Decile 5",
+        "165.2"
+      ],
+      [
+        "Decile 6",
+        "168.06"
+      ],
+      [
+        "Decile 7",
+        "170.51999999999998"
+      ],
+      [
+        "Decile 8",
+        "173.2"
+      ],
+      [
+        "Decile 9",
+        "176.1"
+      ],
+      [
+        "Mean",
+        "165.3967942088935"
+      ],
+      [
+        "Std Dev.",
+        "7.7445407306899074"
+      ],
+      [
+        "Variance",
+        "59.97791112931497"
+      ],
+      [
+        "Displayed N",
+        "967"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "htn23x",
+    "label": "Standing Height in cm - at age 77 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1016",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "htn23x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1016",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Standing Height in cm - at age 77 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "anthropometry23",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "3",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2023",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "cm",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Anthropometry section of the home visit. Rounded up to the higher mm",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1016",
+      "members": [
+        {
+          "varname": "ht48u",
+          "year": "1948",
+          "label": "Standing Height in cm - at age 2 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht50u",
+          "year": "1950",
+          "label": "Standing Height in cm - at age 4 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht52u",
+          "year": "1952",
+          "label": "Standing Height in cm - at age 6 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht53u",
+          "year": "1953",
+          "label": "Standing Height in cm - at age 7 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht57u",
+          "year": "1957",
+          "label": "Standing Height in cm - at age 11 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht61u",
+          "year": "1961",
+          "label": "Standing Height in cm - at age 15 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht66u",
+          "year": "1966",
+          "label": "Standing Height in cm - at age 20 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht72u",
+          "year": "1972",
+          "label": "Standing Height in cm - at age 26 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht82u",
+          "year": "1982",
+          "label": "Standing Height in cm - at age 36 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht89u",
+          "year": "1989",
+          "label": "Standing Height in cm - at age 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "ht99u",
+          "year": "1999",
+          "label": "Standing Height in cm - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "htn09_v2",
+          "year": "2006-10",
+          "label": "Standing Height in cm - at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "htn15x",
+          "year": "2015",
+          "label": "Standing Height in cm - at age 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "htn23x",
+          "year": "2023",
+          "label": "Standing Height in cm - at age 77 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Body size measures [11021]",
+        "description": "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Body_size_measures_11021.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unable to take a measurement",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 13,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "cm",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          151.2,
+          153.79999999999998,
+          156.4,
+          159.0,
+          161.6,
+          164.2,
+          166.8,
+          169.4,
+          172.0,
+          174.6,
+          177.20000000000002,
+          179.8
+        ],
+        "counts": [
+          67,
+          76,
+          95,
+          103,
+          106,
+          91,
+          89,
+          93,
+          106,
+          71,
+          70
+        ]
+      },
+      "boxplot": {
+        "min": 151.2,
+        "q1": 159.0,
+        "median": 165.2,
+        "q3": 172.0,
+        "max": 179.8
+      },
+      "units": "cm"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "151.2"
+      ],
+      [
+        "Maximum",
+        "179.8"
+      ],
+      [
+        "Range",
+        "28.600000000000023"
+      ],
+      [
+        "Median",
+        "165.2"
+      ],
+      [
+        "IQR",
+        "159.0 - 172.0"
+      ],
+      [
+        "Decile 1",
+        "154.8"
+      ],
+      [
+        "Decile 2",
+        "157.9"
+      ],
+      [
+        "Decile 3",
+        "160.2"
+      ],
+      [
+        "Decile 4",
+        "162.5"
+      ],
+      [
+        "Decile 5",
+        "165.2"
+      ],
+      [
+        "Decile 6",
+        "168.06"
+      ],
+      [
+        "Decile 7",
+        "170.51999999999998"
+      ],
+      [
+        "Decile 8",
+        "173.2"
+      ],
+      [
+        "Decile 9",
+        "176.1"
+      ],
+      [
+        "Mean",
+        "165.3967942088935"
+      ],
+      [
+        "Std Dev.",
+        "7.7445407306899074"
+      ],
+      [
+        "Variance",
+        "59.97791112931497"
+      ],
+      [
+        "Displayed N",
+        "967"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

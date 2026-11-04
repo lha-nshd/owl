@@ -1,0 +1,699 @@
+{
+  "varname": "scd_onset_i46p1",
+  "label": "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , at what age did these dfficulties start? - Insight46 phase 1",
+  "field_id": "61268",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=61268",
+  "year": "",
+  "form": "Insight46 - Phase 1",
+  "units": "years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 64.82307692307693,
+  "sd": 4.94658450093113,
+  "series_size": 260.0,
+  "minimum": 45.0,
+  "maximum": 69.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "scd_twoyears_i46p1",
+    "doctor_i46p2",
+    "twoyears_i46p2",
+    "scd_report_i46p1",
+    "difficulties_i46p2",
+    "scd_difficulties_i46p1",
+    "report_i46p2",
+    "scd_peers_i46p1",
+    "onset_i46p2",
+    "peers_i46p2",
+    "scd_doctor_i46p1"
+  ],
+  "linked_years": [
+    "2015-2018",
+    "2018-2021"
+  ],
+  "categories": [
+    "Cognitive function [14]",
+    "Personal history of neurological disorder [60401]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Missing value"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "scd_onset_i46p1",
+    "label": "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , at what age did these dfficulties start? - Insight46 phase 1",
+    "meta_rows": [
+      [
+        "Variable",
+        "scd_onset_i46p1"
+      ],
+      [
+        "Field ID",
+        "61268"
+      ],
+      [
+        "Label",
+        "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , at what age did these dfficulties start? - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46_memory"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 1"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2015-2018"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 subjective cognitive decline questions, designsed to asssess for SCD-plus features which increase the likelihood of preclinical Alzheimer's disease  (see Table 3 in Rami et al 2014 doi: 10.1016/j.jalz.2014.01.001) . Also collected in phase 2 - see library file I46P2_Memory."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "scd_twoyears_i46p1",
+        "In the last two years has your cognition or memory declined? - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_memory"
+      ],
+      [
+        "doctor_i46p2",
+        "If yes to either difficulties_i46p2 or  twoyears_i46p2 , would you ask a doctor about these difficulties? - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_Memory"
+      ],
+      [
+        "twoyears_i46p2",
+        "In the last two years has your cognition or memory declined? - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_Memory"
+      ],
+      [
+        "scd_report_i46p1",
+        "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , would you like the letter to your GP to report these difficulties that you have mentioned? - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_memory"
+      ],
+      [
+        "difficulties_i46p2",
+        "Do you perceive memory or cognitive difficulties? - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_Memory"
+      ],
+      [
+        "scd_difficulties_i46p1",
+        "Do you perceive memory or cognitive difficulties? - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_memory"
+      ],
+      [
+        "report_i46p2",
+        "If yes to either difficulties_i46p2 or  twoyears_i46p2 , would you like the letter to your GP to report these difficulties that you have mentioned?  - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_Memory"
+      ],
+      [
+        "scd_peers_i46p1",
+        "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , do you perceive memory or cognitive difficulties more than other people the same age? - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_memory"
+      ],
+      [
+        "onset_i46p2",
+        "If yes to either difficulties_i46p2 or  twoyears_i46p2 , at what age did these dfficulties start?  - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_Memory"
+      ],
+      [
+        "peers_i46p2",
+        "If yes to either difficulties_i46p2 or  twoyears_i46p2 , do you perceive memory or cognitive difficulties more than other people the same age?  - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_Memory"
+      ],
+      [
+        "scd_doctor_i46p1",
+        "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , would you ask a doctor about these difficulties? - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_memory"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_memory/Docs_I46_memory_I46W1_1.docx",
+        "Docs_I46_memory_I46W1_1.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_memory/Docs_I46_memory_I46W1_2.docx",
+        "Docs_I46_memory_I46W1_2.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_memory/Docs_I46_memory_I46W1_3.docx",
+        "Docs_I46_memory_I46W1_3.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cognitive function [14]",
+        "Legacy Category"
+      ],
+      [
+        "Personal history of neurological disorder [60401]",
+        "This category contains information on self-reported personal history of neurological disoder; consensus assessment of mild cognitive impairment and dementia of the participants in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Missing value",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "45"
+      ],
+      [
+        "Maximum",
+        "69"
+      ],
+      [
+        "Range",
+        "24"
+      ],
+      [
+        "Median",
+        "67.0"
+      ],
+      [
+        "IQR",
+        "65.0 - 68.0"
+      ],
+      [
+        "Decile 1",
+        "59.900000000000006"
+      ],
+      [
+        "Decile 2",
+        "62.0"
+      ],
+      [
+        "Decile 3",
+        "65.0"
+      ],
+      [
+        "Decile 4",
+        "65.0"
+      ],
+      [
+        "Decile 5",
+        "67.0"
+      ],
+      [
+        "Decile 6",
+        "67.0"
+      ],
+      [
+        "Decile 7",
+        "68.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "69.0"
+      ],
+      [
+        "Mean",
+        "64.82307692307693"
+      ],
+      [
+        "Std Dev.",
+        "4.94658450093113"
+      ],
+      [
+        "Variance",
+        "24.468698224852073"
+      ],
+      [
+        "Displayed N",
+        "260"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "scd_onset_i46p1",
+    "label": "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , at what age did these dfficulties start? - Insight46 phase 1",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=61268",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "scd_onset_i46p1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "61268",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , at what age did these dfficulties start? - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46_memory",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015-2018",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 subjective cognitive decline questions, designsed to asssess for SCD-plus features which increase the likelihood of preclinical Alzheimer's disease  (see Table 3 in Rami et al 2014 doi: 10.1016/j.jalz.2014.01.001) . Also collected in phase 2 - see library file I46P2_Memory.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "scd_twoyears_i46p1",
+        "description": "In the last two years has your cognition or memory declined? - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_memory"
+      },
+      {
+        "varname": "doctor_i46p2",
+        "description": "If yes to either difficulties_i46p2 or  twoyears_i46p2 , would you ask a doctor about these difficulties? - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_Memory"
+      },
+      {
+        "varname": "twoyears_i46p2",
+        "description": "In the last two years has your cognition or memory declined? - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_Memory"
+      },
+      {
+        "varname": "scd_report_i46p1",
+        "description": "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , would you like the letter to your GP to report these difficulties that you have mentioned? - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_memory"
+      },
+      {
+        "varname": "difficulties_i46p2",
+        "description": "Do you perceive memory or cognitive difficulties? - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_Memory"
+      },
+      {
+        "varname": "scd_difficulties_i46p1",
+        "description": "Do you perceive memory or cognitive difficulties? - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_memory"
+      },
+      {
+        "varname": "report_i46p2",
+        "description": "If yes to either difficulties_i46p2 or  twoyears_i46p2 , would you like the letter to your GP to report these difficulties that you have mentioned?  - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_Memory"
+      },
+      {
+        "varname": "scd_peers_i46p1",
+        "description": "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , do you perceive memory or cognitive difficulties more than other people the same age? - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_memory"
+      },
+      {
+        "varname": "onset_i46p2",
+        "description": "If yes to either difficulties_i46p2 or  twoyears_i46p2 , at what age did these dfficulties start?  - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_Memory"
+      },
+      {
+        "varname": "peers_i46p2",
+        "description": "If yes to either difficulties_i46p2 or  twoyears_i46p2 , do you perceive memory or cognitive difficulties more than other people the same age?  - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_Memory"
+      },
+      {
+        "varname": "scd_doctor_i46p1",
+        "description": "If yes to either scd_difficulties_i46p1 or  scd_twoyears_i46p1 , would you ask a doctor about these difficulties? - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_memory"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_memory/Docs_I46_memory_I46W1_1.docx",
+        "text": "Docs_I46_memory_I46W1_1.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_memory/Docs_I46_memory_I46W1_2.docx",
+        "text": "Docs_I46_memory_I46W1_2.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_memory/Docs_I46_memory_I46W1_3.docx",
+        "text": "Docs_I46_memory_I46W1_3.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cognitive function [14]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Personal history of neurological disorder [60401]",
+        "description": "This category contains information on self-reported personal history of neurological disoder; consensus assessment of mild cognitive impairment and dementia of the participants in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Personal_history_of_neurological_disorder_60401.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Missing value",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 11,
+      "docs": 4,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          45.0,
+          46.0,
+          47.0,
+          48.0,
+          49.0,
+          50.0,
+          51.0,
+          52.0,
+          53.0,
+          54.0,
+          55.0,
+          56.0,
+          57.0,
+          58.0,
+          59.0,
+          60.0,
+          61.0,
+          62.0,
+          63.0,
+          64.0,
+          65.0,
+          66.0,
+          67.0,
+          68.0,
+          69.0
+        ],
+        "counts": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          1,
+          0,
+          1,
+          5,
+          0,
+          1,
+          1,
+          4,
+          19,
+          2,
+          6,
+          4,
+          6,
+          51,
+          15,
+          34,
+          97
+        ]
+      },
+      "boxplot": {
+        "min": 45.0,
+        "q1": 65.0,
+        "median": 67.0,
+        "q3": 68.0,
+        "max": 69.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "45"
+      ],
+      [
+        "Maximum",
+        "69"
+      ],
+      [
+        "Range",
+        "24"
+      ],
+      [
+        "Median",
+        "67.0"
+      ],
+      [
+        "IQR",
+        "65.0 - 68.0"
+      ],
+      [
+        "Decile 1",
+        "59.900000000000006"
+      ],
+      [
+        "Decile 2",
+        "62.0"
+      ],
+      [
+        "Decile 3",
+        "65.0"
+      ],
+      [
+        "Decile 4",
+        "65.0"
+      ],
+      [
+        "Decile 5",
+        "67.0"
+      ],
+      [
+        "Decile 6",
+        "67.0"
+      ],
+      [
+        "Decile 7",
+        "68.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "69.0"
+      ],
+      [
+        "Mean",
+        "64.82307692307693"
+      ],
+      [
+        "Std Dev.",
+        "4.94658450093113"
+      ],
+      [
+        "Variance",
+        "24.468698224852073"
+      ],
+      [
+        "Displayed N",
+        "260"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "varname": "postt1_sl2_bld_myft",
+  "label": "Post-contrast T1 slice 2 blood mean (mid LV) - Myofit sub-study",
+  "field_id": "70718",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70718",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "Not Applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": true,
+  "security_message": "Only available via special request. Contact Dr. Gaby Captur, gabriella.captur@ucl.ac.uk, for access to these data. ",
+  "mean": 500.0258613894338,
+  "sd": 43.0063385296219,
+  "series_size": 223.0,
+  "minimum": 418.9219970703125,
+  "maximum": 602.5250244140625,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "postt1_sl1_bld_myft",
+    "postt1_sl1_myo_myft",
+    "postt1_sl3_myo_myft",
+    "postt1_sl2_myo_myft",
+    "postt1_sl3_bld_myft"
+  ],
+  "linked_years": [
+    "2020-2024"
+  ],
+  "categories": [
+    "Heart tissue characteristics [8046]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "postt1_sl2_bld_myft",
+    "label": "Post-contrast T1 slice 2 blood mean (mid LV) - Myofit sub-study",
+    "meta_rows": [
+      [
+        "Variable",
+        "postt1_sl2_bld_myft"
+      ],
+      [
+        "Field ID",
+        "70718"
+      ],
+      [
+        "Label",
+        "Post-contrast T1 slice 2 blood mean (mid LV) - Myofit sub-study"
+      ],
+      [
+        "Card Number",
+        "myft_mapping"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not Applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Heart tissue characteristics from the MyoFit study."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "postt1_sl1_bld_myft",
+        "Post-contrast T1 slice 1 blood mean (basal LV) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_mapping"
+      ],
+      [
+        "postt1_sl1_myo_myft",
+        "Post-contrast T1 slice 1 myocardial mean (basal LV) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_mapping"
+      ],
+      [
+        "postt1_sl3_myo_myft",
+        "Post-contrast T1 slice 3 myocardial mean (apical LV) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_mapping"
+      ],
+      [
+        "postt1_sl2_myo_myft",
+        "Post-contrast T1 slice 2 myocardial mean (mid LV) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_mapping"
+      ],
+      [
+        "postt1_sl3_bld_myft",
+        "Post-contrast T1 slice 3 blood mean (apical LV) - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_mapping"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Heart tissue characteristics [8046]",
+        "This category contains data on the heart tissue characteristics mapping. This test was done on the 1946 birth cohort participants who took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "418.9219970703125"
+      ],
+      [
+        "Maximum",
+        "602.5250244140625"
+      ],
+      [
+        "Range",
+        "183.60302734375"
+      ],
+      [
+        "Median",
+        "499.09698486328125"
+      ],
+      [
+        "IQR",
+        "464.1860046386719 - 527.6669921875"
+      ],
+      [
+        "Decile 1",
+        "443.3377990722656"
+      ],
+      [
+        "Decile 2",
+        "459.1584106445313"
+      ],
+      [
+        "Decile 3",
+        "468.1814025878906"
+      ],
+      [
+        "Decile 4",
+        "486.4010070800781"
+      ],
+      [
+        "Decile 5",
+        "499.09698486328125"
+      ],
+      [
+        "Decile 6",
+        "512.5037841796875"
+      ],
+      [
+        "Decile 7",
+        "522.1993896484375"
+      ],
+      [
+        "Decile 8",
+        "535.6960083007813"
+      ],
+      [
+        "Decile 9",
+        "558.9004150390625"
+      ],
+      [
+        "Mean",
+        "500.0258613894338"
+      ],
+      [
+        "Std Dev.",
+        "43.0063385296219"
+      ],
+      [
+        "Variance",
+        "1849.545153724441"
+      ],
+      [
+        "Displayed N",
+        "223"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "postt1_sl2_bld_myft",
+    "label": "Post-contrast T1 slice 2 blood mean (mid LV) - Myofit sub-study",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70718",
+    "is_restricted": true,
+    "security_message": "Only available via special request. Contact Dr. Gaby Captur, gabriella.captur@ucl.ac.uk, for access to these data. ",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "postt1_sl2_bld_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70718",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Post-contrast T1 slice 2 blood mean (mid LV) - Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "myft_mapping",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not Applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Heart tissue characteristics from the MyoFit study.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "postt1_sl1_bld_myft",
+        "description": "Post-contrast T1 slice 1 blood mean (basal LV) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_mapping"
+      },
+      {
+        "varname": "postt1_sl1_myo_myft",
+        "description": "Post-contrast T1 slice 1 myocardial mean (basal LV) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_mapping"
+      },
+      {
+        "varname": "postt1_sl3_myo_myft",
+        "description": "Post-contrast T1 slice 3 myocardial mean (apical LV) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_mapping"
+      },
+      {
+        "varname": "postt1_sl2_myo_myft",
+        "description": "Post-contrast T1 slice 2 myocardial mean (mid LV) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_mapping"
+      },
+      {
+        "varname": "postt1_sl3_bld_myft",
+        "description": "Post-contrast T1 slice 3 blood mean (apical LV) - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_mapping"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Heart tissue characteristics [8046]",
+        "description": "This category contains data on the heart tissue characteristics mapping. This test was done on the 1946 birth cohort participants who took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_tissue_characteristics_8046.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not Applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          418.9219970703125,
+          439.32233344184027,
+          459.72266981336804,
+          480.1230061848958,
+          500.5233425564236,
+          520.9236789279514,
+          541.3240152994791,
+          561.724351671007,
+          582.1246880425347,
+          602.5250244140625
+        ],
+        "counts": [
+          18,
+          28,
+          34,
+          33,
+          41,
+          32,
+          16,
+          12,
+          9
+        ]
+      },
+      "boxplot": {
+        "min": 418.9219970703125,
+        "q1": 464.1860046386719,
+        "median": 499.09698486328125,
+        "q3": 527.6669921875,
+        "max": 602.5250244140625
+      },
+      "units": "Not Applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "418.9219970703125"
+      ],
+      [
+        "Maximum",
+        "602.5250244140625"
+      ],
+      [
+        "Range",
+        "183.60302734375"
+      ],
+      [
+        "Median",
+        "499.09698486328125"
+      ],
+      [
+        "IQR",
+        "464.1860046386719 - 527.6669921875"
+      ],
+      [
+        "Decile 1",
+        "443.3377990722656"
+      ],
+      [
+        "Decile 2",
+        "459.1584106445313"
+      ],
+      [
+        "Decile 3",
+        "468.1814025878906"
+      ],
+      [
+        "Decile 4",
+        "486.4010070800781"
+      ],
+      [
+        "Decile 5",
+        "499.09698486328125"
+      ],
+      [
+        "Decile 6",
+        "512.5037841796875"
+      ],
+      [
+        "Decile 7",
+        "522.1993896484375"
+      ],
+      [
+        "Decile 8",
+        "535.6960083007813"
+      ],
+      [
+        "Decile 9",
+        "558.9004150390625"
+      ],
+      [
+        "Mean",
+        "500.0258613894338"
+      ],
+      [
+        "Std Dev.",
+        "43.0063385296219"
+      ],
+      [
+        "Variance",
+        "1849.545153724441"
+      ],
+      [
+        "Displayed N",
+        "223"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

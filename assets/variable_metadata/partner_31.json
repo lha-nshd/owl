@@ -1,0 +1,431 @@
+{
+  "varname": "partner_31",
+  "label": "Partner in household [age 31] (CLS harmonisation)",
+  "field_id": "21973",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21973",
+  "year": "",
+  "form": "H6 - Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 3259.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "partner_36",
+    "partner_53",
+    "partner_26",
+    "partner_43"
+  ],
+  "linked_years": [
+    "1972",
+    "1982",
+    "1989",
+    "1999"
+  ],
+  "categories": [
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-100.0",
+      "label": "No participation in sweep"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Information not provided"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 598,
+      "pct": 18.3
+    },
+    {
+      "label": "Yes",
+      "count": 2661,
+      "pct": 81.7
+    }
+  ],
+  "pdf": {
+    "varname": "partner_31",
+    "label": "Partner in household [age 31] (CLS harmonisation)",
+    "meta_rows": [
+      [
+        "Variable",
+        "partner_31"
+      ],
+      [
+        "Field ID",
+        "21973"
+      ],
+      [
+        "Label",
+        "Partner in household [age 31] (CLS harmonisation)"
+      ],
+      [
+        "Card Number",
+        "CLS_fertility"
+      ],
+      [
+        "Form",
+        "H6 - Postal questionnaire"
+      ],
+      [
+        "Question",
+        "1"
+      ],
+      [
+        "Year",
+        "1977"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived as part of the CLS fertility work"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "partner_36",
+        "Partner in household [age 36] (CLS harmonisation)",
+        "1982",
+        "A - Main questionnaire",
+        "1",
+        "CLS_fertility"
+      ],
+      [
+        "partner_53",
+        "Partner in household [age 53] (CLS harmonisation)",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "11",
+        "CLS_fertility"
+      ],
+      [
+        "partner_26",
+        "Partner in household [age 26] (CLS harmonisation)",
+        "1972",
+        "Section A - Main questionnaire",
+        "1",
+        "CLS_fertility"
+      ],
+      [
+        "partner_43",
+        "Partner in household [age 43] (CLS harmonisation)",
+        "1989",
+        "A - Main questionnaire",
+        "2",
+        "CLS_fertility"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-100.0",
+        "No participation in sweep",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Information not provided",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "598",
+        "18%"
+      ],
+      [
+        "1",
+        "2661",
+        "82%"
+      ],
+      [
+        "Displayed N",
+        "3259",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "partner_31",
+    "label": "Partner in household [age 31] (CLS harmonisation)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21973",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "partner_31",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "21973",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Partner in household [age 31] (CLS harmonisation)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CLS_fertility",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "H6 - Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1977",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived as part of the CLS fertility work",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "partner_36",
+        "description": "Partner in household [age 36] (CLS harmonisation)",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "1",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "partner_53",
+        "description": "Partner in household [age 53] (CLS harmonisation)",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "11",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "partner_26",
+        "description": "Partner in household [age 26] (CLS harmonisation)",
+        "year": "1972",
+        "form": "Section A - Main questionnaire",
+        "question": "1",
+        "library_file": "CLS_fertility"
+      },
+      {
+        "varname": "partner_43",
+        "description": "Partner in household [age 43] (CLS harmonisation)",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "2",
+        "library_file": "CLS_fertility"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-100.0",
+        "label": "No participation in sweep",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Information not provided",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 1,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 598,
+          "pct": 18
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 2661,
+          "pct": 82
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "598",
+        "18%"
+      ],
+      [
+        "1",
+        "2661",
+        "82%"
+      ],
+      [
+        "Displayed N",
+        "3259",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "varname": "op1r189",
+  "label": "First outpatient illness - Why did you go to hospital? - first reason/diagnosis - at age 43 years",
+  "field_id": "32669",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32669",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "ICD",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "op1r289",
+    "op1r389"
+  ],
+  "linked_years": [
+    "1989"
+  ],
+  "categories": [
+    "Other health care [12]",
+    "Hospital out-patient admissions [51062]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No such treatment noted"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "op1r189",
+    "label": "First outpatient illness - Why did you go to hospital? - first reason/diagnosis - at age 43 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "op1r189"
+      ],
+      [
+        "Field ID",
+        "32669"
+      ],
+      [
+        "Label",
+        "First outpatient illness - Why did you go to hospital? - first reason/diagnosis - at age 43 years"
+      ],
+      [
+        "Card Number",
+        "de89d"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "18(b)"
+      ],
+      [
+        "Year",
+        "1989"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "ICD"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains ICD codes. Possible low cell count issue."
+      ],
+      [
+        "Notes",
+        "Hospital out-patient data asked in the 1989 A main questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "op1r289",
+        "First outpatient illness - Why did you go to hospital? - second reason/diagnosis - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "18(b)",
+        "de89d"
+      ],
+      [
+        "op1r389",
+        "First outpatient illness - Why did you go to hospital? - third reason/diagnosis - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "18(b)",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health care [12]",
+        "Legacy Category"
+      ],
+      [
+        "Hospital out-patient admissions [51062]",
+        "This category contains data from the questionnaires on hospital out-patient admissions. This is for treatments and surgery at the hospital where the participant went home the same day and did not spend a night in hospital. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No such treatment noted",
+        true
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "op1r189",
+    "label": "First outpatient illness - Why did you go to hospital? - first reason/diagnosis - at age 43 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32669",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "op1r189",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "32669",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "First outpatient illness - Why did you go to hospital? - first reason/diagnosis - at age 43 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "de89d",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "18(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1989",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "ICD",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains ICD codes. Possible low cell count issue.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Hospital out-patient data asked in the 1989 A main questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "op1r289",
+        "description": "First outpatient illness - Why did you go to hospital? - second reason/diagnosis - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "18(b)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "op1r389",
+        "description": "First outpatient illness - Why did you go to hospital? - third reason/diagnosis - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "18(b)",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health care [12]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hospital out-patient admissions [51062]",
+        "description": "This category contains data from the questionnaires on hospital out-patient admissions. This is for treatments and surgery at the hospital where the participant went home the same day and did not spend a night in hospital. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hospital_out-patient_admissions_51062.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No such treatment noted",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "ICD",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

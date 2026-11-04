@@ -1,0 +1,461 @@
+{
+  "varname": "brain_vol_l_i46",
+  "label": "Total brain volume (cm3) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+  "field_id": "60165",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60165",
+  "year": "",
+  "form": "Insight46 - Phase 2",
+  "units": "cm3",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 1099.1004600938966,
+  "sd": 77.09572484341163,
+  "series_size": 426.0,
+  "minimum": 945.265,
+  "maximum": 1262.61,
+  "truly_longitudinal_field_id": "60165",
+  "truly_longitudinal_varnames": [
+    "brain_vol_l_i46p2"
+  ],
+  "truly_longitudinal_years": [
+    "2018-2021"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Brain volumes - Longitudinal (phase 1 and 2) [603312]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "brain_vol_l_i46",
+    "label": "Total brain volume (cm3) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+    "meta_rows": [
+      [
+        "Variable",
+        "brain_vol_l_i46"
+      ],
+      [
+        "Field ID",
+        "60165"
+      ],
+      [
+        "Label",
+        "Total brain volume (cm3) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46_brainVolumes_L"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 2"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2018-2021"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "cm3"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 brain volumes measured from T1 MRI as part of the longitudinal pipeline. Can be used for longitudinal analysis with phase 2 brain volumes. Note that boundary shift integral measures have also been quantified for some regions (whole brain, ventricles, hippocampus) which provide more precise estimates of volume change between phase 1 and 2 compared to indirectly calculating the difference in volume between each time-point - see library file - I46P2_brainVolumes_L"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "brain_vol_l_i46p2",
+        "2018-2021",
+        "Total brain volume (cm3) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_brainVolumes_L/Docs_brainvolumesL_I46W1.docx",
+        "Docs_brainvolumesL_I46W1.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Brain volumes - Longitudinal (phase 1 and 2) [603312]",
+        "This category contains variables related to the brain volumes (longitudinal measures) parcellated from T1 MRI (phases 1 and 2) from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "945.265"
+      ],
+      [
+        "Maximum",
+        "1262.61"
+      ],
+      [
+        "Range",
+        "317.3449999999999"
+      ],
+      [
+        "Median",
+        "1100.4299999999998"
+      ],
+      [
+        "IQR",
+        "1043.0225 - 1153.4325"
+      ],
+      [
+        "Decile 1",
+        "993.001"
+      ],
+      [
+        "Decile 2",
+        "1025.37"
+      ],
+      [
+        "Decile 3",
+        "1053.63"
+      ],
+      [
+        "Decile 4",
+        "1077.3"
+      ],
+      [
+        "Decile 5",
+        "1100.4299999999998"
+      ],
+      [
+        "Decile 6",
+        "1122.84"
+      ],
+      [
+        "Decile 7",
+        "1142.99"
+      ],
+      [
+        "Decile 8",
+        "1171.08"
+      ],
+      [
+        "Decile 9",
+        "1198.7"
+      ],
+      [
+        "Mean",
+        "1099.1004600938966"
+      ],
+      [
+        "Std Dev.",
+        "77.09572484341163"
+      ],
+      [
+        "Variance",
+        "5943.750789131038"
+      ],
+      [
+        "Displayed N",
+        "426"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "brain_vol_l_i46",
+    "label": "Total brain volume (cm3) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60165",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "brain_vol_l_i46",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "60165",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Total brain volume (cm3) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46_brainVolumes_L",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2018-2021",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "cm3",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 brain volumes measured from T1 MRI as part of the longitudinal pipeline. Can be used for longitudinal analysis with phase 2 brain volumes. Note that boundary shift integral measures have also been quantified for some regions (whole brain, ventricles, hippocampus) which provide more precise estimates of volume change between phase 1 and 2 compared to indirectly calculating the difference in volume between each time-point - see library file - I46P2_brainVolumes_L",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "60165",
+      "members": [
+        {
+          "varname": "brain_vol_l_i46",
+          "year": "2018-2021",
+          "label": "Total brain volume (cm3) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "is_current": true
+        },
+        {
+          "varname": "brain_vol_l_i46p2",
+          "year": "2018-2021",
+          "label": "Total brain volume (cm3) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_brainVolumes_L/Docs_brainvolumesL_I46W1.docx",
+        "text": "Docs_brainvolumesL_I46W1.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Brain volumes - Longitudinal (phase 1 and 2) [603312]",
+        "description": "This category contains variables related to the brain volumes (longitudinal measures) parcellated from T1 MRI (phases 1 and 2) from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Brain_volumes_-_Longitudinal_(phase_1_and_2)_603312.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 2,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "cm3",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          945.265,
+          974.1145454545455,
+          1002.9640909090908,
+          1031.8136363636363,
+          1060.6631818181818,
+          1089.5127272727273,
+          1118.3622727272727,
+          1147.2118181818182,
+          1176.0613636363635,
+          1204.910909090909,
+          1233.7604545454544,
+          1262.61
+        ],
+        "counts": [
+          29,
+          25,
+          37,
+          47,
+          52,
+          54,
+          61,
+          43,
+          39,
+          24,
+          15
+        ]
+      },
+      "boxplot": {
+        "min": 945.265,
+        "q1": 1043.0225,
+        "median": 1100.4299999999998,
+        "q3": 1153.4325,
+        "max": 1262.61
+      },
+      "units": "cm3"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "945.265"
+      ],
+      [
+        "Maximum",
+        "1262.61"
+      ],
+      [
+        "Range",
+        "317.3449999999999"
+      ],
+      [
+        "Median",
+        "1100.4299999999998"
+      ],
+      [
+        "IQR",
+        "1043.0225 - 1153.4325"
+      ],
+      [
+        "Decile 1",
+        "993.001"
+      ],
+      [
+        "Decile 2",
+        "1025.37"
+      ],
+      [
+        "Decile 3",
+        "1053.63"
+      ],
+      [
+        "Decile 4",
+        "1077.3"
+      ],
+      [
+        "Decile 5",
+        "1100.4299999999998"
+      ],
+      [
+        "Decile 6",
+        "1122.84"
+      ],
+      [
+        "Decile 7",
+        "1142.99"
+      ],
+      [
+        "Decile 8",
+        "1171.08"
+      ],
+      [
+        "Decile 9",
+        "1198.7"
+      ],
+      [
+        "Mean",
+        "1099.1004600938966"
+      ],
+      [
+        "Std Dev.",
+        "77.09572484341163"
+      ],
+      [
+        "Variance",
+        "5943.750789131038"
+      ],
+      [
+        "Displayed N",
+        "426"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

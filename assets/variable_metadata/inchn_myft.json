@@ -1,0 +1,511 @@
+{
+  "varname": "inchn_myft",
+  "label": "Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study",
+  "field_id": "70100",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70100",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 33.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "incgwn23x",
+    "incubn23x",
+    "incass23x",
+    "inchn23x",
+    "incmn23x",
+    "incsec23x"
+  ],
+  "linked_years": [
+    "2023"
+  ],
+  "categories": [
+    "Economic circumstances [8051]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "11.0",
+      "label": "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)"
+    },
+    {
+      "value": "12.0",
+      "label": "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)"
+    },
+    {
+      "value": "14.0",
+      "label": "Refused to answer"
+    },
+    {
+      "value": "9.0",
+      "label": "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)",
+      "count": 10,
+      "pct": 30.3
+    },
+    {
+      "label": "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)",
+      "count": 11,
+      "pct": 33.3
+    },
+    {
+      "label": "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)",
+      "count": 12,
+      "pct": 36.4
+    }
+  ],
+  "pdf": {
+    "varname": "inchn_myft",
+    "label": "Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study",
+    "meta_rows": [
+      [
+        "Variable",
+        "inchn_myft"
+      ],
+      [
+        "Field ID",
+        "70100"
+      ],
+      [
+        "Label",
+        "Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study"
+      ],
+      [
+        "Card Number",
+        "Myft_Soci"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Low cell counts"
+      ],
+      [
+        "Notes",
+        "Full variable label:  Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study.     Socioeconomic position. These variables need to be merged with those who have answered the questions in the 2023 Home visit."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "incgwn23x",
+        "Have you or your family had to go without things you really needed in the last year because you were short of money? - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "socioecon23"
+      ],
+      [
+        "incubn23x",
+        "Have you found you have been unable to pay the bills in the last year because you were short of money? - at age 77 years",
+        "2023",
+        "Home visit",
+        "4",
+        "socioecon23"
+      ],
+      [
+        "incass23x",
+        "If you sold all the assets you own in your household, e.g your house, car, jewellery, cashed in your savings and investments, and paid off any debts you have (including your mortgage), how much money do you think you would have - at age 77 years",
+        "2023",
+        "Home visit",
+        "6",
+        "socioecon23"
+      ],
+      [
+        "inchn23x",
+        "Which of the letters on the showcard represents your total net household income. Please include your own and your partners earned income (after deduction for income tax and national insurance), any state benefits and any other sources - at age 77 years",
+        "2023",
+        "Home visit",
+        "1",
+        "socioecon23"
+      ],
+      [
+        "incmn23x",
+        "How well do you manage on your present income - at age 77 years",
+        "2023",
+        "Home visit",
+        "2",
+        "socioecon23"
+      ],
+      [
+        "incsec23x",
+        "Thinking of the next ten years, how financially secure do you feel? - at age 77 years",
+        "2023",
+        "Home visit",
+        "5",
+        "socioecon23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Economic circumstances [8051]",
+        "This category contains data on the economic circumstances of the participant such as household income and benefit details, recorded by the 1946 birth cohort participants who took part in the Myofit (2020-2024) sub-study. Participants who were unable to do answer the questions during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "11.0",
+        "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)",
+        false
+      ],
+      [
+        "12.0",
+        "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)",
+        false
+      ],
+      [
+        "14.0",
+        "Refused to answer",
+        true
+      ],
+      [
+        "9.0",
+        "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "9",
+        "10",
+        "30%"
+      ],
+      [
+        "11",
+        "11",
+        "33%"
+      ],
+      [
+        "12",
+        "12",
+        "36%"
+      ],
+      [
+        "Displayed N",
+        "33",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "inchn_myft",
+    "label": "Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70100",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "inchn_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70100",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Myft_Soci",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Low cell counts",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Full variable label:  Which of the letters on the showcard represents your total net household income? Include your own and partners earned income (after deduction for income tax and NI), state benefits and other sources - Myofit sub-study.     Socioeconomic position. These variables need to be merged with those who have answered the questions in the 2023 Home visit.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "incgwn23x",
+        "description": "Have you or your family had to go without things you really needed in the last year because you were short of money? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "incubn23x",
+        "description": "Have you found you have been unable to pay the bills in the last year because you were short of money? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "4",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "incass23x",
+        "description": "If you sold all the assets you own in your household, e.g your house, car, jewellery, cashed in your savings and investments, and paid off any debts you have (including your mortgage), how much money do you think you would have - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "6",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "inchn23x",
+        "description": "Which of the letters on the showcard represents your total net household income. Please include your own and your partners earned income (after deduction for income tax and national insurance), any state benefits and any other sources - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "1",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "incmn23x",
+        "description": "How well do you manage on your present income - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "2",
+        "library_file": "socioecon23"
+      },
+      {
+        "varname": "incsec23x",
+        "description": "Thinking of the next ten years, how financially secure do you feel? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "5",
+        "library_file": "socioecon23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Economic circumstances [8051]",
+        "description": "This category contains data on the economic circumstances of the participant such as household income and benefit details, recorded by the 1946 birth cohort participants who took part in the Myofit (2020-2024) sub-study. Participants who were unable to do answer the questions during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Economic_circumstances_8051.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "11.0",
+        "label": "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "12.0",
+        "label": "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)",
+        "is_missing": false
+      },
+      {
+        "value": "14.0",
+        "label": "Refused to answer",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 1,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "9",
+          "label": "24,000 - 26,999 (annual)/2,000 - 2,249 (monthly)/462 - 519 (weekly)",
+          "count": 10,
+          "pct": 30
+        },
+        {
+          "value": "11",
+          "label": "30,000 - 39,999 (annual)/2,500 - 3,333 (monthly)/577 - 769 (weekly)",
+          "count": 11,
+          "pct": 33
+        },
+        {
+          "value": "12",
+          "label": "40,000 - 79,999 (annual)/3,334 - 6,666 (monthly)/770 - 1,538 (weekly)",
+          "count": 12,
+          "pct": 36
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "9",
+        "10",
+        "30%"
+      ],
+      [
+        "11",
+        "11",
+        "33%"
+      ],
+      [
+        "12",
+        "12",
+        "36%"
+      ],
+      [
+        "Displayed N",
+        "33",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

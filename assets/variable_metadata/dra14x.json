@@ -1,0 +1,584 @@
+{
+  "varname": "dra14x",
+  "label": "In the past 12 months, how often have you had an alcoholic drink? - at age 68 years",
+  "field_id": "8796",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8796",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2424.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "8796",
+  "truly_longitudinal_varnames": [
+    "dra22x"
+  ],
+  "truly_longitudinal_years": [
+    "2014",
+    "2022"
+  ],
+  "linked_varnames": [
+    "dra09",
+    "dralc99"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10"
+  ],
+  "categories": [
+    "Nutrition [16]",
+    "Other health behaviours [17]",
+    "Alcohol [5252]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Never"
+    },
+    {
+      "value": "1.0",
+      "label": "Only on special occasions"
+    },
+    {
+      "value": "2.0",
+      "label": "Monthly or less"
+    },
+    {
+      "value": "3.0",
+      "label": "2 to 4 times per month"
+    },
+    {
+      "value": "4.0",
+      "label": "2 to 3 times per week"
+    },
+    {
+      "value": "5.0",
+      "label": "4 or more times per week"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Never",
+      "count": 235,
+      "pct": 9.7
+    },
+    {
+      "label": "Only on special occasions",
+      "count": 391,
+      "pct": 16.1
+    },
+    {
+      "label": "Monthly or less",
+      "count": 167,
+      "pct": 6.9
+    },
+    {
+      "label": "2 to 4 times per month",
+      "count": 369,
+      "pct": 15.2
+    },
+    {
+      "label": "2 to 3 times per week",
+      "count": 581,
+      "pct": 24.0
+    },
+    {
+      "label": "4 or more times per week",
+      "count": 681,
+      "pct": 28.1
+    }
+  ],
+  "pdf": {
+    "varname": "dra14x",
+    "label": "In the past 12 months, how often have you had an alcoholic drink? - at age 68 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dra14x"
+      ],
+      [
+        "Field ID",
+        "8796"
+      ],
+      [
+        "Label",
+        "In the past 12 months, how often have you had an alcoholic drink? - at age 68 years"
+      ],
+      [
+        "Card Number",
+        "Alcohol14"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "48"
+      ],
+      [
+        "Year",
+        "2014"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lifestyle questions - drinking habits Q48-49. It was asked in one way in 1999 and 2006-10 and in another in 2014 and 2022."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "dra22x",
+        "2022",
+        "In the past 12 months, how often have you had an alcoholic drink? - at age 76 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "dra09",
+        "Have you drunk alcohol in the last year? - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "9",
+        "Alcohol09"
+      ],
+      [
+        "dralc99",
+        "Have you drunk alcohol in the last year? - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "5",
+        "des99"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Nutrition [16]",
+        "Legacy Category"
+      ],
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Alcohol [5252]",
+        "This category contains data from the questionnaires on drinking alcohol."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Never",
+        false
+      ],
+      [
+        "1.0",
+        "Only on special occasions",
+        false
+      ],
+      [
+        "2.0",
+        "Monthly or less",
+        false
+      ],
+      [
+        "3.0",
+        "2 to 4 times per month",
+        false
+      ],
+      [
+        "4.0",
+        "2 to 3 times per week",
+        false
+      ],
+      [
+        "5.0",
+        "4 or more times per week",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "235",
+        "10%"
+      ],
+      [
+        "1",
+        "391",
+        "16%"
+      ],
+      [
+        "2",
+        "167",
+        "7%"
+      ],
+      [
+        "3",
+        "369",
+        "15%"
+      ],
+      [
+        "4",
+        "581",
+        "24%"
+      ],
+      [
+        "5",
+        "681",
+        "28%"
+      ],
+      [
+        "Displayed N",
+        "2424",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "dra14x",
+    "label": "In the past 12 months, how often have you had an alcoholic drink? - at age 68 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8796",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dra14x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8796",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "In the past 12 months, how often have you had an alcoholic drink? - at age 68 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Alcohol14",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "48",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2014",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lifestyle questions - drinking habits Q48-49. It was asked in one way in 1999 and 2006-10 and in another in 2014 and 2022.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "8796",
+      "members": [
+        {
+          "varname": "dra14x",
+          "year": "2014",
+          "label": "In the past 12 months, how often have you had an alcoholic drink? - at age 68 years",
+          "is_current": true
+        },
+        {
+          "varname": "dra22x",
+          "year": "2022",
+          "label": "In the past 12 months, how often have you had an alcoholic drink? - at age 76 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "dra09",
+        "description": "Have you drunk alcohol in the last year? - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "9",
+        "library_file": "Alcohol09"
+      },
+      {
+        "varname": "dralc99",
+        "description": "Have you drunk alcohol in the last year? - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "5",
+        "library_file": "des99"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Nutrition [16]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Alcohol [5252]",
+        "description": "This category contains data from the questionnaires on drinking alcohol.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Alcohol_5252.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Never",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Only on special occasions",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Monthly or less",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "2 to 4 times per month",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "2 to 3 times per week",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "4 or more times per week",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 3,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Never",
+          "count": 235,
+          "pct": 10
+        },
+        {
+          "value": "1",
+          "label": "Only on special occasions",
+          "count": 391,
+          "pct": 16
+        },
+        {
+          "value": "2",
+          "label": "Monthly or less",
+          "count": 167,
+          "pct": 7
+        },
+        {
+          "value": "3",
+          "label": "2 to 4 times per month",
+          "count": 369,
+          "pct": 15
+        },
+        {
+          "value": "4",
+          "label": "2 to 3 times per week",
+          "count": 581,
+          "pct": 24
+        },
+        {
+          "value": "5",
+          "label": "4 or more times per week",
+          "count": 681,
+          "pct": 28
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "235",
+        "10%"
+      ],
+      [
+        "1",
+        "391",
+        "16%"
+      ],
+      [
+        "2",
+        "167",
+        "7%"
+      ],
+      [
+        "3",
+        "369",
+        "15%"
+      ],
+      [
+        "4",
+        "581",
+        "24%"
+      ],
+      [
+        "5",
+        "681",
+        "28%"
+      ],
+      [
+        "Displayed N",
+        "2424",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

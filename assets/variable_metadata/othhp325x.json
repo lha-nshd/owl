@@ -1,0 +1,462 @@
+{
+  "varname": "othhp325x",
+  "label": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Third other diagnosis - at age 79 years",
+  "field_id": "15110",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=15110",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 223.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ohp82",
+    "othhp225x",
+    "othhp125x",
+    "othhp09",
+    "ohp89",
+    "othhp15x"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "2006-10",
+    "2015",
+    "2025"
+  ],
+  "categories": [
+    "Other medical conditions [51011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 132,
+      "pct": 59.2
+    },
+    {
+      "label": "Yes",
+      "count": 91,
+      "pct": 40.8
+    }
+  ],
+  "pdf": {
+    "varname": "othhp325x",
+    "label": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Third other diagnosis - at age 79 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "othhp325x"
+      ],
+      [
+        "Field ID",
+        "15110"
+      ],
+      [
+        "Label",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Third other diagnosis - at age 79 years"
+      ],
+      [
+        "Card Number",
+        "Postal2025"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "9"
+      ],
+      [
+        "Year",
+        "2025"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about health from the 2025 Postal questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ohp82",
+        "Do you have any other health or medical problems not mentioned but that keep recurring, or that you have most of, or all, the time - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "21(a)",
+        "B14"
+      ],
+      [
+        "othhp225x",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Second other diagnosis - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "othhp125x",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: First other diagnosis - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "othhp09",
+        "Since 1999 have you suffered from any other troublesome health problem(s) which has been diagnosed by a medical doctor - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "14",
+        "OtherHealth09"
+      ],
+      [
+        "ohp89",
+        "Do you have any other health or medical problems not mentioned but that keep recurring, or that you have most of, or all, the time - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21(a)",
+        "de89d"
+      ],
+      [
+        "othhp15x",
+        "Since 2006, have you had other diagnosed medical conditions not already mentioned - at age 69 years",
+        "2015",
+        "Home visit",
+        "21(a)",
+        "MedicalConditions15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/Postal2025/Postal_questionnaire_2025_top sheet_27Aug2025.docx",
+        "Postal_questionnaire_2025_top sheet_27Aug2025.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other medical conditions [51011]",
+        "This category contains data on all other medical conditions the participant reported which have not been classified in another category."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "132",
+        "59%"
+      ],
+      [
+        "1",
+        "91",
+        "41%"
+      ],
+      [
+        "Displayed N",
+        "223",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "othhp325x",
+    "label": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Third other diagnosis - at age 79 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=15110",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "othhp325x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "15110",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Third other diagnosis - at age 79 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Postal2025",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "9",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2025",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about health from the 2025 Postal questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ohp82",
+        "description": "Do you have any other health or medical problems not mentioned but that keep recurring, or that you have most of, or all, the time - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "21(a)",
+        "library_file": "B14"
+      },
+      {
+        "varname": "othhp225x",
+        "description": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Second other diagnosis - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "othhp125x",
+        "description": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: First other diagnosis - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "othhp09",
+        "description": "Since 1999 have you suffered from any other troublesome health problem(s) which has been diagnosed by a medical doctor - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "14",
+        "library_file": "OtherHealth09"
+      },
+      {
+        "varname": "ohp89",
+        "description": "Do you have any other health or medical problems not mentioned but that keep recurring, or that you have most of, or all, the time - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21(a)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "othhp15x",
+        "description": "Since 2006, have you had other diagnosed medical conditions not already mentioned - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "21(a)",
+        "library_file": "MedicalConditions15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/Postal2025/Postal_questionnaire_2025_top sheet_27Aug2025.docx",
+        "text": "Postal_questionnaire_2025_top sheet_27Aug2025.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other medical conditions [51011]",
+        "description": "This category contains data on all other medical conditions the participant reported which have not been classified in another category.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Other_medical_conditions_51011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 2,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 132,
+          "pct": 59
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 91,
+          "pct": 41
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "132",
+        "59%"
+      ],
+      [
+        "1",
+        "91",
+        "41%"
+      ],
+      [
+        "Displayed N",
+        "223",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

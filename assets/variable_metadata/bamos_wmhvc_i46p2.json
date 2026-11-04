@@ -1,0 +1,439 @@
+{
+  "varname": "bamos_wmhvc_i46p2",
+  "label": "Change in white matter hyperintensity (WMH) volume from baseline to follow-up (p2_bamos_wmhv_long \u2013 p1_bamos_wmhv_long) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+  "field_id": "60214",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60214",
+  "year": "",
+  "form": "Insight46 - Phase 2",
+  "units": "ml",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.8369303585059242,
+  "sd": 0.931619730853079,
+  "series_size": 304.0,
+  "minimum": -0.3292999863624573,
+  "maximum": 3.6654601097106934,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "White matter hyperintsity (WMH) volumes - Longitudinal (phase 1 and 2) [603322]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "bamos_wmhvc_i46p2",
+    "label": "Change in white matter hyperintensity (WMH) volume from baseline to follow-up (p2_bamos_wmhv_long \u2013 p1_bamos_wmhv_long) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+    "meta_rows": [
+      [
+        "Variable",
+        "bamos_wmhvc_i46p2"
+      ],
+      [
+        "Field ID",
+        "60214"
+      ],
+      [
+        "Label",
+        "Change in white matter hyperintensity (WMH) volume from baseline to follow-up (p2_bamos_wmhv_long \u2013 p1_bamos_wmhv_long) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2"
+      ],
+      [
+        "Card Number",
+        "I46P2_Bamos_L"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 2"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2018-2021"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "ml"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 & 2 white matter hyperintensity volumes  generated using the longitudinal Bayesian Model Selection (BaMoS) pipeline. These data are intended for longitudinal analysis, and should be used to reflect WMH volume change between Phase 1 and Phase 2. For cross-sectional analysis of Phase 1 global WMH volume, use the variable lesiontot_i46p1. For cross-sectional analysis using only Phase 2 WMH volumes, use the cross-sectional Phase 2 WMHV variable. This is because WMH volumes calculated in a longitudinal framework from mid-point registered images tend to be a more conservative estimate of WMH volume, incorporating information from both time-points. If only interested in WMH volume at a single time-point, cross-sectional measurements are more appropriate. For longitudinal analysis of WMH volume change, it is recommended that only this dataset is used, rather than a combination of cross-sectional measurements of WMH volume from Phase 1 and Phase 2.  For phase 1 cross-sectional measurements, see file handle I46_bamos."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46P2_Bamos_L/Docs_Bamos_L_I46W2.docx",
+        "Docs_Bamos_L_I46W2.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "White matter hyperintsity (WMH) volumes - Longitudinal (phase 1 and 2) [603322]",
+        "This category contains the longitudinal (phase 1 and 2 only) variables related to the white matter hyperintensity volumnes generated using the Bayesian Model Seletion (BaMoS) pipeline from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "-0.3292999863624573"
+      ],
+      [
+        "Maximum",
+        "3.6654601097106934"
+      ],
+      [
+        "Range",
+        "3.9947600960731506"
+      ],
+      [
+        "Median",
+        "0.5407449901103973"
+      ],
+      [
+        "IQR",
+        "0.14270249754190445 - 1.230670005083084"
+      ],
+      [
+        "Decile 1",
+        "-0.06081480048596859"
+      ],
+      [
+        "Decile 2",
+        "0.09094839990139007"
+      ],
+      [
+        "Decile 3",
+        "0.2131079003214836"
+      ],
+      [
+        "Decile 4",
+        "0.33292419314384464"
+      ],
+      [
+        "Decile 5",
+        "0.5407449901103973"
+      ],
+      [
+        "Decile 6",
+        "0.7534340143203732"
+      ],
+      [
+        "Decile 7",
+        "1.1199829816818236"
+      ],
+      [
+        "Decile 8",
+        "1.5683180332183841"
+      ],
+      [
+        "Decile 9",
+        "2.2509910821914674"
+      ],
+      [
+        "Mean",
+        "0.8369303585059242"
+      ],
+      [
+        "Std Dev.",
+        "0.931619730853079"
+      ],
+      [
+        "Variance",
+        "0.8679153229147635"
+      ],
+      [
+        "Displayed N",
+        "304"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "bamos_wmhvc_i46p2",
+    "label": "Change in white matter hyperintensity (WMH) volume from baseline to follow-up (p2_bamos_wmhv_long \u2013 p1_bamos_wmhv_long) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60214",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bamos_wmhvc_i46p2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "60214",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Change in white matter hyperintensity (WMH) volume from baseline to follow-up (p2_bamos_wmhv_long \u2013 p1_bamos_wmhv_long) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46P2_Bamos_L",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2018-2021",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "ml",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 & 2 white matter hyperintensity volumes  generated using the longitudinal Bayesian Model Selection (BaMoS) pipeline. These data are intended for longitudinal analysis, and should be used to reflect WMH volume change between Phase 1 and Phase 2. For cross-sectional analysis of Phase 1 global WMH volume, use the variable lesiontot_i46p1. For cross-sectional analysis using only Phase 2 WMH volumes, use the cross-sectional Phase 2 WMHV variable. This is because WMH volumes calculated in a longitudinal framework from mid-point registered images tend to be a more conservative estimate of WMH volume, incorporating information from both time-points. If only interested in WMH volume at a single time-point, cross-sectional measurements are more appropriate. For longitudinal analysis of WMH volume change, it is recommended that only this dataset is used, rather than a combination of cross-sectional measurements of WMH volume from Phase 1 and Phase 2.  For phase 1 cross-sectional measurements, see file handle I46_bamos.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46P2_Bamos_L/Docs_Bamos_L_I46W2.docx",
+        "text": "Docs_Bamos_L_I46W2.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "White matter hyperintsity (WMH) volumes - Longitudinal (phase 1 and 2) [603322]",
+        "description": "This category contains the longitudinal (phase 1 and 2 only) variables related to the white matter hyperintensity volumnes generated using the Bayesian Model Seletion (BaMoS) pipeline from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/White_matter_hyperintsity_(WMH)_volumes_-_Longitudinal_(phase_1_and_2)_603322.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 2,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "ml",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          -0.3292999863624573,
+          -0.022010748202984154,
+          0.28527848995648897,
+          0.592567728115962,
+          0.8998569662754352,
+          1.2071462044349084,
+          1.5144354425943813,
+          1.8217246807538547,
+          2.1290139189133277,
+          2.4363031570728007,
+          2.743592395232274,
+          3.050881633391747,
+          3.35817087155122,
+          3.6654601097106934
+        ],
+        "counts": [
+          35,
+          77,
+          47,
+          36,
+          29,
+          15,
+          17,
+          11,
+          11,
+          7,
+          7,
+          7,
+          5
+        ]
+      },
+      "boxplot": {
+        "min": -0.3292999863624573,
+        "q1": 0.14270249754190445,
+        "median": 0.5407449901103973,
+        "q3": 1.230670005083084,
+        "max": 3.6654601097106934
+      },
+      "units": "ml"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "-0.3292999863624573"
+      ],
+      [
+        "Maximum",
+        "3.6654601097106934"
+      ],
+      [
+        "Range",
+        "3.9947600960731506"
+      ],
+      [
+        "Median",
+        "0.5407449901103973"
+      ],
+      [
+        "IQR",
+        "0.14270249754190445 - 1.230670005083084"
+      ],
+      [
+        "Decile 1",
+        "-0.06081480048596859"
+      ],
+      [
+        "Decile 2",
+        "0.09094839990139007"
+      ],
+      [
+        "Decile 3",
+        "0.2131079003214836"
+      ],
+      [
+        "Decile 4",
+        "0.33292419314384464"
+      ],
+      [
+        "Decile 5",
+        "0.5407449901103973"
+      ],
+      [
+        "Decile 6",
+        "0.7534340143203732"
+      ],
+      [
+        "Decile 7",
+        "1.1199829816818236"
+      ],
+      [
+        "Decile 8",
+        "1.5683180332183841"
+      ],
+      [
+        "Decile 9",
+        "2.2509910821914674"
+      ],
+      [
+        "Mean",
+        "0.8369303585059242"
+      ],
+      [
+        "Std Dev.",
+        "0.931619730853079"
+      ],
+      [
+        "Variance",
+        "0.8679153229147635"
+      ],
+      [
+        "Displayed N",
+        "304"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

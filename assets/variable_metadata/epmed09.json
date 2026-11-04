@@ -1,0 +1,318 @@
+{
+  "varname": "epmed09",
+  "label": "Epilepsy medication prescribed (BNF code) from the postal questionnaire at age 60-64 years",
+  "field_id": "7152",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7152",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "BNF code",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "General health [3]",
+    "Medication [11]",
+    "Medication derivations at data collection level (cross-sectional) [505221]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "66666666.0",
+      "label": "Data not yet ingested (All Manchester)"
+    },
+    {
+      "value": "77777777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "88888888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99999999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "epmed09",
+    "label": "Epilepsy medication prescribed (BNF code) from the postal questionnaire at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "epmed09"
+      ],
+      [
+        "Field ID",
+        "7152"
+      ],
+      [
+        "Label",
+        "Epilepsy medication prescribed (BNF code) from the postal questionnaire at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "PostalAllDrugs09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "12(b)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "BNF code"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell counts issue. Recoded version is available."
+      ],
+      [
+        "Notes",
+        "This variable refers to derived regular medication data. This was asked at 1977, 1982, 1989, 1999, 2006-10, 2015 and 2023 data collection waves. Medication in the last 24 hours was only asked at the 2006-10 nurse schedule."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Medication [11]",
+        "Legacy Category"
+      ],
+      [
+        "Medication derivations at data collection level (cross-sectional) [505221]",
+        "This category contains information about the regular medication taken by the participant - derived at the data collection level."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "66666666.0",
+        "Data not yet ingested (All Manchester)",
+        true
+      ],
+      [
+        "77777777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "88888888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99999999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "epmed09",
+    "label": "Epilepsy medication prescribed (BNF code) from the postal questionnaire at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7152",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "epmed09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7152",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Epilepsy medication prescribed (BNF code) from the postal questionnaire at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PostalAllDrugs09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "12(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "BNF code",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell counts issue. Recoded version is available.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This variable refers to derived regular medication data. This was asked at 1977, 1982, 1989, 1999, 2006-10, 2015 and 2023 data collection waves. Medication in the last 24 hours was only asked at the 2006-10 nurse schedule.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Medication [11]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Medication derivations at data collection level (cross-sectional) [505221]",
+        "description": "This category contains information about the regular medication taken by the participant - derived at the data collection level.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Medication_derivations_at_data_collection_level_(cross-sectional)_505221.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "66666666.0",
+        "label": "Data not yet ingested (All Manchester)",
+        "is_missing": true
+      },
+      {
+        "value": "77777777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "88888888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99999999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 3,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": true,
+    "dist_type": "categorical",
+    "dist_units": "BNF code",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

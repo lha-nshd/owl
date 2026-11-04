@@ -1,0 +1,657 @@
+{
+  "varname": "walkmet09_w",
+  "label": "Average MET hours/week for getting about by walking - at age 60-64 years",
+  "field_id": "13565",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13565",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "MET hour/week",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 14.10296673286991,
+  "sd": 16.3124193682259,
+  "series_size": 2014.0,
+  "minimum": 0.0,
+  "maximum": 66.5,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "wcyclejour09",
+    "dur_walk09_w",
+    "walkbikeactivity09_w",
+    "wwalkjour09",
+    "dur_walk09_d",
+    "dur_bike09_w",
+    "walkdis09",
+    "cyclemet09_w",
+    "dur_bike09_d",
+    "bikedis09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "walkmet09_w",
+    "label": "Average MET hours/week for getting about by walking - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "walkmet09_w"
+      ],
+      [
+        "Field ID",
+        "13565"
+      ],
+      [
+        "Label",
+        "Average MET hours/week for getting about by walking - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "MET hour/week"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Active Transport (Get About) - Walking/Cycling. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "wcyclejour09",
+        "Number of total journeys by bicycle (week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dur_walk09_w",
+        "Average amount of time spent getting about via walking [hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "walkbikeactivity09_w",
+        "Total walking or cycling hours per week - get about and commute (with missing categories not assigned) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "wwalkjour09",
+        "Number of total journeys by foot (week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dur_walk09_d",
+        "Average amount of time spent getting about via walking [hours/day] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dur_bike09_w",
+        "Average amount of time spent getting about via cycling [hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "walkdis09",
+        "Total distance walked (miles/week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "cyclemet09_w",
+        "Average MET hours/week for getting about by cycling - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "dur_bike09_d",
+        "Average amount of time spent getting about via cycling [hours/day] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "bikedis09",
+        "Total distance biked (miles/week) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "66.5"
+      ],
+      [
+        "Range",
+        "66.5"
+      ],
+      [
+        "Median",
+        "7.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 21.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "1.75"
+      ],
+      [
+        "Decile 4",
+        "4.375"
+      ],
+      [
+        "Decile 5",
+        "7.0"
+      ],
+      [
+        "Decile 6",
+        "14.0"
+      ],
+      [
+        "Decile 7",
+        "17.58749999999992"
+      ],
+      [
+        "Decile 8",
+        "26.25"
+      ],
+      [
+        "Decile 9",
+        "42.0"
+      ],
+      [
+        "Mean",
+        "14.10296673286991"
+      ],
+      [
+        "Std Dev.",
+        "16.3124193682259"
+      ],
+      [
+        "Variance",
+        "266.09502564487144"
+      ],
+      [
+        "Displayed N",
+        "2014"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "walkmet09_w",
+    "label": "Average MET hours/week for getting about by walking - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13565",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "walkmet09_w",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13565",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Average MET hours/week for getting about by walking - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "MET hour/week",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Active Transport (Get About) - Walking/Cycling. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "wcyclejour09",
+        "description": "Number of total journeys by bicycle (week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dur_walk09_w",
+        "description": "Average amount of time spent getting about via walking [hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "walkbikeactivity09_w",
+        "description": "Total walking or cycling hours per week - get about and commute (with missing categories not assigned) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "wwalkjour09",
+        "description": "Number of total journeys by foot (week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dur_walk09_d",
+        "description": "Average amount of time spent getting about via walking [hours/day] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dur_bike09_w",
+        "description": "Average amount of time spent getting about via cycling [hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "walkdis09",
+        "description": "Total distance walked (miles/week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "cyclemet09_w",
+        "description": "Average MET hours/week for getting about by cycling - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "dur_bike09_d",
+        "description": "Average amount of time spent getting about via cycling [hours/day] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "bikedis09",
+        "description": "Total distance biked (miles/week) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 10,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "MET hour/week",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          3.325,
+          6.65,
+          9.975000000000001,
+          13.3,
+          16.625,
+          19.950000000000003,
+          23.275000000000002,
+          26.6,
+          29.925,
+          33.25,
+          36.575,
+          39.900000000000006,
+          43.225,
+          46.550000000000004,
+          49.875,
+          53.2,
+          56.525000000000006,
+          59.85,
+          63.175000000000004,
+          66.5
+        ],
+        "counts": [
+          693,
+          198,
+          181,
+          129,
+          144,
+          85,
+          110,
+          85,
+          55,
+          38,
+          52,
+          28,
+          47,
+          26,
+          52,
+          29,
+          17,
+          9,
+          28,
+          8
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 7.0,
+        "q3": 21.0,
+        "max": 66.5
+      },
+      "units": "MET hour/week"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "66.5"
+      ],
+      [
+        "Range",
+        "66.5"
+      ],
+      [
+        "Median",
+        "7.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 21.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "1.75"
+      ],
+      [
+        "Decile 4",
+        "4.375"
+      ],
+      [
+        "Decile 5",
+        "7.0"
+      ],
+      [
+        "Decile 6",
+        "14.0"
+      ],
+      [
+        "Decile 7",
+        "17.58749999999992"
+      ],
+      [
+        "Decile 8",
+        "26.25"
+      ],
+      [
+        "Decile 9",
+        "42.0"
+      ],
+      [
+        "Mean",
+        "14.10296673286991"
+      ],
+      [
+        "Std Dev.",
+        "16.3124193682259"
+      ],
+      [
+        "Variance",
+        "266.09502564487144"
+      ],
+      [
+        "Displayed N",
+        "2014"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "varname": "psqihse_i46p2",
+  "label": "Sleep efficiency.  Categorized such that if tmphse_i46p2 is \u2265 85 then psqihse_i46p2 = 0, < 85 and \u2265 75 = 1, <75 and \u2265 65 = 2, and < 65 = 3. Min score = 0 (better) and max score = 3 (worse). In PSQI scoring tool, psqihse_i46p2 variable is known as PSQIHSE.  - Insight46 phase 2",
+  "field_id": "61365",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=61365",
+  "year": "",
+  "form": "Insight46 - Phase 2",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 441.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Sleep [60406]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Missing"
+    },
+    {
+      "value": "0.0",
+      "label": ">85"
+    },
+    {
+      "value": "1.0",
+      "label": ">=75 and <85"
+    },
+    {
+      "value": "2.0",
+      "label": ">=65 and <75"
+    },
+    {
+      "value": "3.0",
+      "label": "<65"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": ">85",
+      "count": 165,
+      "pct": 37.4
+    },
+    {
+      "label": ">=75 and <85",
+      "count": 142,
+      "pct": 32.2
+    },
+    {
+      "label": ">=65 and <75",
+      "count": 80,
+      "pct": 18.1
+    },
+    {
+      "label": "<65",
+      "count": 54,
+      "pct": 12.2
+    }
+  ],
+  "pdf": {
+    "varname": "psqihse_i46p2",
+    "label": "Sleep efficiency.  Categorized such that if tmphse_i46p2 is \u2265 85 then psqihse_i46p2 = 0, < 85 and \u2265 75 = 1, <75 and \u2265 65 = 2, and < 65 = 3. Min score = 0 (better) and max score = 3 (worse). In PSQI scoring tool, psqihse_i46p2 variable is known as PSQIHSE.  - Insight46 phase 2",
+    "meta_rows": [
+      [
+        "Variable",
+        "psqihse_i46p2"
+      ],
+      [
+        "Field ID",
+        "61365"
+      ],
+      [
+        "Label",
+        "Sleep efficiency.  Categorized such that if tmphse_i46p2 is \u2265 85 then psqihse_i46p2 = 0, < 85 and \u2265 75 = 1, <75 and \u2265 65 = 2, and < 65 = 3. Min score = 0 (better) and max score = 3 (worse). In PSQI scoring tool, psqihse_i46p2 variable is known as PSQIHSE.  - Insight46 phase 2"
+      ],
+      [
+        "Card Number",
+        "I46P2_PSQI"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 2"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2018-2021"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 2 Pittsburgh Sleep Quality Index (PSQI): designed to assess sleep quality and sleep distubance within the last month. Eight domains are assessed including sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbance, use of sleep medication, and daytime dysfunction. A global score is derived as the sum of the domain score. A global PSQI>5 represents poor sleep quality. Not performed at phase 1."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46P2_PSQI/Docs_PSQI_I46W2.docx",
+        "Docs_PSQI_I46W2.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Sleep [60406]",
+        "This category contains questions about activing out dreams (phase 1); several validated sleep questionnaires (phase 2): Epworth Sleepiness Questionnaire, Pittsburgh Sleep Quality Index (PSQI), REM Sleep Behaviour Disorder Screening Questionnaire (RBDSQ) of the participants in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Missing",
+        true
+      ],
+      [
+        "0.0",
+        ">85",
+        false
+      ],
+      [
+        "1.0",
+        ">=75 and <85",
+        false
+      ],
+      [
+        "2.0",
+        ">=65 and <75",
+        false
+      ],
+      [
+        "3.0",
+        "<65",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "165",
+        "37%"
+      ],
+      [
+        "1",
+        "142",
+        "32%"
+      ],
+      [
+        "2",
+        "80",
+        "18%"
+      ],
+      [
+        "3",
+        "54",
+        "12%"
+      ],
+      [
+        "Displayed N",
+        "441",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "psqihse_i46p2",
+    "label": "Sleep efficiency.  Categorized such that if tmphse_i46p2 is \u2265 85 then psqihse_i46p2 = 0, < 85 and \u2265 75 = 1, <75 and \u2265 65 = 2, and < 65 = 3. Min score = 0 (better) and max score = 3 (worse). In PSQI scoring tool, psqihse_i46p2 variable is known as PSQIHSE.  - Insight46 phase 2",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=61365",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "psqihse_i46p2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "61365",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Sleep efficiency.  Categorized such that if tmphse_i46p2 is \u2265 85 then psqihse_i46p2 = 0, < 85 and \u2265 75 = 1, <75 and \u2265 65 = 2, and < 65 = 3. Min score = 0 (better) and max score = 3 (worse). In PSQI scoring tool, psqihse_i46p2 variable is known as PSQIHSE.  - Insight46 phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46P2_PSQI",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2018-2021",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 2 Pittsburgh Sleep Quality Index (PSQI): designed to assess sleep quality and sleep distubance within the last month. Eight domains are assessed including sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbance, use of sleep medication, and daytime dysfunction. A global score is derived as the sum of the domain score. A global PSQI>5 represents poor sleep quality. Not performed at phase 1.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46P2_PSQI/Docs_PSQI_I46W2.docx",
+        "text": "Docs_PSQI_I46W2.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Sleep [60406]",
+        "description": "This category contains questions about activing out dreams (phase 1); several validated sleep questionnaires (phase 2): Epworth Sleepiness Questionnaire, Pittsburgh Sleep Quality Index (PSQI), REM Sleep Behaviour Disorder Screening Questionnaire (RBDSQ) of the participants in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Sleep_60406.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Missing",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": ">85",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": ">=75 and <85",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": ">=65 and <75",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "<65",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 2,
+      "cats": 1,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": ">85",
+          "count": 165,
+          "pct": 37
+        },
+        {
+          "value": "1",
+          "label": ">=75 and <85",
+          "count": 142,
+          "pct": 32
+        },
+        {
+          "value": "2",
+          "label": ">=65 and <75",
+          "count": 80,
+          "pct": 18
+        },
+        {
+          "value": "3",
+          "label": "<65",
+          "count": 54,
+          "pct": 12
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "165",
+        "37%"
+      ],
+      [
+        "1",
+        "142",
+        "32%"
+      ],
+      [
+        "2",
+        "80",
+        "18%"
+      ],
+      [
+        "3",
+        "54",
+        "12%"
+      ],
+      [
+        "Displayed N",
+        "441",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

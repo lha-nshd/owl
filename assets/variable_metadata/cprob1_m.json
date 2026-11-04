@@ -1,0 +1,1291 @@
+{
+  "varname": "cprob1_m",
+  "label": "Conditional probability for class 1 - severe clinical disorders (males) - up to age 60-64 years",
+  "field_id": "13850",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13850",
+  "year": "",
+  "form": "Various",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.10789139390556661,
+  "sd": 0.2682624479858982,
+  "series_size": 488.0,
+  "minimum": 0.0,
+  "maximum": 0.9760000109672546,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "anemia_sev",
+    "class_m",
+    "cd_13modsevtot",
+    "hyper_mod",
+    "cd_15modsevtot",
+    "diab_modsev",
+    "cprob1_f",
+    "ecg_sev",
+    "hypo_mod",
+    "chol_sev",
+    "osteo_sev",
+    "osteo_modsev",
+    "cv_modsev",
+    "cancer_modsev",
+    "ecg_modsev",
+    "cprob2_f",
+    "ckd_sev",
+    "cprob2_m",
+    "liver_sev",
+    "obese_sev",
+    "ht_sev",
+    "class_f",
+    "cd_15sevtot",
+    "cv_sev",
+    "obese_mod",
+    "ckd_modsev",
+    "chol_mod",
+    "chol_modsev",
+    "crd_sev",
+    "diab_mod",
+    "hyper_sev",
+    "hypo_modsev",
+    "crd_modsev",
+    "liver_modsev",
+    "ht_modsev",
+    "hyper_modsev",
+    "diab_sev",
+    "cancer_sev",
+    "psych_modsev",
+    "hypo_sev",
+    "anemia_modsev",
+    "obese_modsev",
+    "ckd_mod",
+    "ht_mod",
+    "cd_13sevtot",
+    "psych_sev"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "General health [3]",
+    "Clinical disorders (Derived at age 60-64 years) [51021]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "cprob1_m",
+    "label": "Conditional probability for class 1 - severe clinical disorders (males) - up to age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "cprob1_m"
+      ],
+      [
+        "Field ID",
+        "13850"
+      ],
+      [
+        "Label",
+        "Conditional probability for class 1 - severe clinical disorders (males) - up to age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "ClinDisLtnt09"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Clinical disorder derived dataset. Variables go till 60-64 years. Many of the clinical disorders were defined at two levels: these are described as 'level 1' and 'level 2' in Pierce et al, but are labelled as 'severe' and 'moderate' also and indicated in the variable names with the suffixes '_sev' and '_mod'."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "anemia_sev",
+        "Anemia (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "class_m",
+        "Most likely latent class (males) - clinical disorders - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "ClinDisLtnt09"
+      ],
+      [
+        "cd_13modsevtot",
+        "Count of moderate-severe clinical disorders excluding ECG abnormalities and Osteoporosis (max. 13) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIST09"
+      ],
+      [
+        "hyper_mod",
+        "Hyperthyroidism (moderate) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "cd_15modsevtot",
+        "Count of moderate-severe clinical disorders (max. 15) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIST09"
+      ],
+      [
+        "diab_modsev",
+        "Diabetes (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "cprob1_f",
+        "Conditional probability for class 1 - severe clinical disorders (females) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "ClinDisLtnt09"
+      ],
+      [
+        "ecg_sev",
+        "ECG abnormalities (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "hypo_mod",
+        "Hypothyroidism (moderate) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "chol_sev",
+        "Raised cholesterol (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "osteo_sev",
+        "Osteoporosis (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "osteo_modsev",
+        "Osteoporosis (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "cv_modsev",
+        "CVD (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "cancer_modsev",
+        "Cancers (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "ecg_modsev",
+        "ECG abnormalities (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "cprob2_f",
+        "Conditional probability for class 2 - moderate clinical disorders (females) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "ClinDisLtnt09"
+      ],
+      [
+        "ckd_sev",
+        "Renal disease (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "cprob2_m",
+        "Conditional probability for class 2 - moderate clinical disorders (males) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "ClinDisLtnt09"
+      ],
+      [
+        "liver_sev",
+        "Liver disease (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "obese_sev",
+        "Obesity (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "ht_sev",
+        "Hypertension (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "class_f",
+        "Most likely latent class (females) - clinical disorders - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "ClinDisLtnt09"
+      ],
+      [
+        "cd_15sevtot",
+        "Count of severe clinical disorders (max. 15) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIST09"
+      ],
+      [
+        "cv_sev",
+        "CVD (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "obese_mod",
+        "Obesity (moderate) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "ckd_modsev",
+        "Renal disease (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "chol_mod",
+        "Raised cholesterol (moderate) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "chol_modsev",
+        "Raised cholesterol (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "crd_sev",
+        "Respiratory disease (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "diab_mod",
+        "Diabetes (moderate) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "hyper_sev",
+        "Hyperthyroidism (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "hypo_modsev",
+        "Hypothyroidism (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "crd_modsev",
+        "Respiratory disease (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "liver_modsev",
+        "Liver disease (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "ht_modsev",
+        "Hypertension (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "hyper_modsev",
+        "Hyperthyroidism (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "diab_sev",
+        "Diabetes (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "cancer_sev",
+        "Cancers (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "psych_modsev",
+        "Psychiatric problems (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "hypo_sev",
+        "Hypothyroidism (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "anemia_modsev",
+        "Anaemia (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "obese_modsev",
+        "Obesity (moderate or severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "ckd_mod",
+        "Renal disease (moderate) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "ht_mod",
+        "Hypertension (moderate) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ],
+      [
+        "cd_13sevtot",
+        "Count of severe clinical disorders excluding ECG abnormalities and Osteoporosis (max. 13) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIST09"
+      ],
+      [
+        "psych_sev",
+        "Psychiatric problems (severe) - up to age 60-64 years",
+        "2006-10",
+        "Various",
+        "Various",
+        "CLINDIS09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Clinical disorders (Derived at age 60-64 years) [51021]",
+        "This category contains the derived clinical disorder variables in 2006-10 (at age 60-64 years). These include cardio and cerebo-vascular disease, hypertension, raised cholesterol, renal impairment, diabetes, obesity, hypothyroidism, hyperthyroidism, anaemia, respiratory disease, liver disease, psychiatric problems, cancer, atrial fibrillation on ECG and osteporosis."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "0.9760000109672546"
+      ],
+      [
+        "Range",
+        "0.9760000109672546"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.03099999949336052"
+      ],
+      [
+        "Decile 9",
+        "0.6460000276565552"
+      ],
+      [
+        "Mean",
+        "0.10789139390556661"
+      ],
+      [
+        "Std Dev.",
+        "0.2682624479858982"
+      ],
+      [
+        "Variance",
+        "0.07196474099938675"
+      ],
+      [
+        "Displayed N",
+        "488"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "cprob1_m",
+    "label": "Conditional probability for class 1 - severe clinical disorders (males) - up to age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13850",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cprob1_m",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13850",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Conditional probability for class 1 - severe clinical disorders (males) - up to age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "ClinDisLtnt09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Clinical disorder derived dataset. Variables go till 60-64 years. Many of the clinical disorders were defined at two levels: these are described as 'level 1' and 'level 2' in Pierce et al, but are labelled as 'severe' and 'moderate' also and indicated in the variable names with the suffixes '_sev' and '_mod'.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "anemia_sev",
+        "description": "Anemia (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "class_m",
+        "description": "Most likely latent class (males) - clinical disorders - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "ClinDisLtnt09"
+      },
+      {
+        "varname": "cd_13modsevtot",
+        "description": "Count of moderate-severe clinical disorders excluding ECG abnormalities and Osteoporosis (max. 13) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIST09"
+      },
+      {
+        "varname": "hyper_mod",
+        "description": "Hyperthyroidism (moderate) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "cd_15modsevtot",
+        "description": "Count of moderate-severe clinical disorders (max. 15) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIST09"
+      },
+      {
+        "varname": "diab_modsev",
+        "description": "Diabetes (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "cprob1_f",
+        "description": "Conditional probability for class 1 - severe clinical disorders (females) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "ClinDisLtnt09"
+      },
+      {
+        "varname": "ecg_sev",
+        "description": "ECG abnormalities (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "hypo_mod",
+        "description": "Hypothyroidism (moderate) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "chol_sev",
+        "description": "Raised cholesterol (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "osteo_sev",
+        "description": "Osteoporosis (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "osteo_modsev",
+        "description": "Osteoporosis (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "cv_modsev",
+        "description": "CVD (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "cancer_modsev",
+        "description": "Cancers (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "ecg_modsev",
+        "description": "ECG abnormalities (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "cprob2_f",
+        "description": "Conditional probability for class 2 - moderate clinical disorders (females) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "ClinDisLtnt09"
+      },
+      {
+        "varname": "ckd_sev",
+        "description": "Renal disease (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "cprob2_m",
+        "description": "Conditional probability for class 2 - moderate clinical disorders (males) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "ClinDisLtnt09"
+      },
+      {
+        "varname": "liver_sev",
+        "description": "Liver disease (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "obese_sev",
+        "description": "Obesity (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "ht_sev",
+        "description": "Hypertension (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "class_f",
+        "description": "Most likely latent class (females) - clinical disorders - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "ClinDisLtnt09"
+      },
+      {
+        "varname": "cd_15sevtot",
+        "description": "Count of severe clinical disorders (max. 15) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIST09"
+      },
+      {
+        "varname": "cv_sev",
+        "description": "CVD (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "obese_mod",
+        "description": "Obesity (moderate) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "ckd_modsev",
+        "description": "Renal disease (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "chol_mod",
+        "description": "Raised cholesterol (moderate) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "chol_modsev",
+        "description": "Raised cholesterol (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "crd_sev",
+        "description": "Respiratory disease (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "diab_mod",
+        "description": "Diabetes (moderate) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "hyper_sev",
+        "description": "Hyperthyroidism (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "hypo_modsev",
+        "description": "Hypothyroidism (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "crd_modsev",
+        "description": "Respiratory disease (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "liver_modsev",
+        "description": "Liver disease (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "ht_modsev",
+        "description": "Hypertension (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "hyper_modsev",
+        "description": "Hyperthyroidism (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "diab_sev",
+        "description": "Diabetes (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "cancer_sev",
+        "description": "Cancers (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "psych_modsev",
+        "description": "Psychiatric problems (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "hypo_sev",
+        "description": "Hypothyroidism (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "anemia_modsev",
+        "description": "Anaemia (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "obese_modsev",
+        "description": "Obesity (moderate or severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "ckd_mod",
+        "description": "Renal disease (moderate) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "ht_mod",
+        "description": "Hypertension (moderate) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      },
+      {
+        "varname": "cd_13sevtot",
+        "description": "Count of severe clinical disorders excluding ECG abnormalities and Osteoporosis (max. 13) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIST09"
+      },
+      {
+        "varname": "psych_sev",
+        "description": "Psychiatric problems (severe) - up to age 60-64 years",
+        "year": "2006-10",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "CLINDIS09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Clinical disorders (Derived at age 60-64 years) [51021]",
+        "description": "This category contains the derived clinical disorder variables in 2006-10 (at age 60-64 years). These include cardio and cerebo-vascular disease, hypertension, raised cholesterol, renal impairment, diabetes, obesity, hypothyroidism, hyperthyroidism, anaemia, respiratory disease, liver disease, psychiatric problems, cancer, atrial fibrillation on ECG and osteporosis.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Clinical_disorders_(Derived_at_age_60-64_years)_51021.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 46,
+      "docs": 1,
+      "cats": 2,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          0.02168888913260566,
+          0.04337777826521132,
+          0.06506666739781697,
+          0.08675555653042263,
+          0.1084444456630283,
+          0.13013333479563394,
+          0.1518222239282396,
+          0.17351111306084527,
+          0.19520000219345093,
+          0.2168888913260566,
+          0.23857778045866224,
+          0.2602666695912679,
+          0.28195555872387357,
+          0.3036444478564792,
+          0.3253333369890849,
+          0.34702222612169054,
+          0.3687111152542962,
+          0.39040000438690187,
+          0.4120888935195075,
+          0.4337777826521132,
+          0.45546667178471884,
+          0.4771555609173245,
+          0.49884445004993017,
+          0.5205333391825357,
+          0.5422222283151414,
+          0.5639111174477471,
+          0.5856000065803528,
+          0.6072888957129584,
+          0.6289777848455641,
+          0.6506666739781698,
+          0.6723555631107754,
+          0.6940444522433811,
+          0.7157333413759868,
+          0.7374222305085923,
+          0.759111119641198,
+          0.7808000087738037,
+          0.8024888979064093,
+          0.824177787039015,
+          0.8458666761716207,
+          0.8675555653042264,
+          0.889244454436832,
+          0.9109333435694377,
+          0.9326222327020434,
+          0.954311121834649,
+          0.9760000109672546
+        ],
+        "counts": [
+          385,
+          27,
+          4,
+          0,
+          0,
+          1,
+          0,
+          0,
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          4,
+          0,
+          16,
+          1,
+          5,
+          0,
+          0,
+          4,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          8,
+          2,
+          2,
+          15
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0,
+        "max": 0.9760000109672546
+      },
+      "units": "Not applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "0.9760000109672546"
+      ],
+      [
+        "Range",
+        "0.9760000109672546"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.03099999949336052"
+      ],
+      [
+        "Decile 9",
+        "0.6460000276565552"
+      ],
+      [
+        "Mean",
+        "0.10789139390556661"
+      ],
+      [
+        "Std Dev.",
+        "0.2682624479858982"
+      ],
+      [
+        "Variance",
+        "0.07196474099938675"
+      ],
+      [
+        "Displayed N",
+        "488"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

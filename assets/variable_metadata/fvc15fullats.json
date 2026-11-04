@@ -1,0 +1,613 @@
+{
+  "varname": "fvc15fullats",
+  "label": "FVC - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+  "field_id": "6150",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6150",
+  "year": "",
+  "form": "Home visit",
+  "units": "litres",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 3.3503530785398232,
+  "sd": 0.7367513351109483,
+  "series_size": 904.0,
+  "minimum": 2.114511,
+  "maximum": 5.014167,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "bestvalidfev2015",
+    "fev15fullats",
+    "bestvalidfev1989",
+    "bestvalidfev2009",
+    "bestvalidfev1999"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "categories": [
+    "Respiratory health [5]",
+    "Spirometry [1105]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Fewer than three blows"
+    },
+    {
+      "value": "-2.0",
+      "label": "No blow data"
+    },
+    {
+      "value": "-3.0",
+      "label": "Blow quality grade insufficient"
+    },
+    {
+      "value": "-4.0",
+      "label": "Blow quality grade insuff and highest two FEV1s or FVCs had a diff > 0.15L"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Highest two FEV1s or FVCs had a difference >0.15L"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "fvc15fullats",
+    "label": "FVC - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "fvc15fullats"
+      ],
+      [
+        "Field ID",
+        "6150"
+      ],
+      [
+        "Label",
+        "FVC - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "LungFunction15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "8"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "litres"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived variables for all 1989-2015."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "bestvalidfev2015",
+        "Best FEV (ATS) measure - at age 69 years",
+        "2015",
+        "Home visit",
+        "8",
+        "predicted_lungfunction89_15"
+      ],
+      [
+        "fev15fullats",
+        "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+        "2015",
+        "Home visit",
+        "8",
+        "LungFunction15"
+      ],
+      [
+        "bestvalidfev1989",
+        "Best FEV (ATS) measure - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "95",
+        "predicted_lungfunction89_15"
+      ],
+      [
+        "bestvalidfev2009",
+        "Best FEV (ATS) measure - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "70",
+        "predicted_lungfunction89_15"
+      ],
+      [
+        "bestvalidfev1999",
+        "Best FEV (ATS) measure - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "121",
+        "predicted_lungfunction89_15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/LungFunction15/Lung_function_documentation_ref.docx",
+        "Lung_function_documentation_ref.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory health [5]",
+        "Legacy Category"
+      ],
+      [
+        "Spirometry [1105]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Fewer than three blows",
+        true
+      ],
+      [
+        "-2.0",
+        "No blow data",
+        true
+      ],
+      [
+        "-3.0",
+        "Blow quality grade insufficient",
+        true
+      ],
+      [
+        "-4.0",
+        "Blow quality grade insuff and highest two FEV1s or FVCs had a diff > 0.15L",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Highest two FEV1s or FVCs had a difference >0.15L",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.114511"
+      ],
+      [
+        "Maximum",
+        "5.014167"
+      ],
+      [
+        "Range",
+        "2.899656"
+      ],
+      [
+        "Median",
+        "3.2090595"
+      ],
+      [
+        "IQR",
+        "2.75397075 - 3.87256725"
+      ],
+      [
+        "Decile 1",
+        "2.4625257"
+      ],
+      [
+        "Decile 2",
+        "2.6756648000000003"
+      ],
+      [
+        "Decile 3",
+        "2.8415340000000002"
+      ],
+      [
+        "Decile 4",
+        "3.0165582"
+      ],
+      [
+        "Decile 5",
+        "3.2090595"
+      ],
+      [
+        "Decile 6",
+        "3.4681037999999997"
+      ],
+      [
+        "Decile 7",
+        "3.7353707"
+      ],
+      [
+        "Decile 8",
+        "4.0668132"
+      ],
+      [
+        "Decile 9",
+        "4.463600800000001"
+      ],
+      [
+        "Mean",
+        "3.3503530785398232"
+      ],
+      [
+        "Std Dev.",
+        "0.7367513351109483"
+      ],
+      [
+        "Variance",
+        "0.5428025297877648"
+      ],
+      [
+        "Displayed N",
+        "904"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "fvc15fullats",
+    "label": "FVC - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6150",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "fvc15fullats",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "6150",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "FVC - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "LungFunction15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "litres",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variables for all 1989-2015.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "bestvalidfev2015",
+        "description": "Best FEV (ATS) measure - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "predicted_lungfunction89_15"
+      },
+      {
+        "varname": "fev15fullats",
+        "description": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "LungFunction15"
+      },
+      {
+        "varname": "bestvalidfev1989",
+        "description": "Best FEV (ATS) measure - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "95",
+        "library_file": "predicted_lungfunction89_15"
+      },
+      {
+        "varname": "bestvalidfev2009",
+        "description": "Best FEV (ATS) measure - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "70",
+        "library_file": "predicted_lungfunction89_15"
+      },
+      {
+        "varname": "bestvalidfev1999",
+        "description": "Best FEV (ATS) measure - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "121",
+        "library_file": "predicted_lungfunction89_15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/LungFunction15/Lung_function_documentation_ref.docx",
+        "text": "Lung_function_documentation_ref.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory health [5]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Spirometry [1105]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_1105.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Fewer than three blows",
+        "is_missing": true
+      },
+      {
+        "value": "-2.0",
+        "label": "No blow data",
+        "is_missing": true
+      },
+      {
+        "value": "-3.0",
+        "label": "Blow quality grade insufficient",
+        "is_missing": true
+      },
+      {
+        "value": "-4.0",
+        "label": "Blow quality grade insuff and highest two FEV1s or FVCs had a diff > 0.15L",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Highest two FEV1s or FVCs had a difference >0.15L",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 2,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "litres",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          2.114511,
+          2.3375614615384612,
+          2.560611923076923,
+          2.7836623846153845,
+          3.006712846153846,
+          3.2297633076923074,
+          3.4528137692307688,
+          3.6758642307692306,
+          3.898914692307692,
+          4.121965153846153,
+          4.3450156153846144,
+          4.568066076923077,
+          4.791116538461538,
+          5.014167
+        ],
+        "counts": [
+          43,
+          89,
+          111,
+          113,
+          106,
+          72,
+          79,
+          68,
+          54,
+          53,
+          37,
+          50,
+          29
+        ]
+      },
+      "boxplot": {
+        "min": 2.114511,
+        "q1": 2.75397075,
+        "median": 3.2090595,
+        "q3": 3.87256725,
+        "max": 5.014167
+      },
+      "units": "litres"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "2.114511"
+      ],
+      [
+        "Maximum",
+        "5.014167"
+      ],
+      [
+        "Range",
+        "2.899656"
+      ],
+      [
+        "Median",
+        "3.2090595"
+      ],
+      [
+        "IQR",
+        "2.75397075 - 3.87256725"
+      ],
+      [
+        "Decile 1",
+        "2.4625257"
+      ],
+      [
+        "Decile 2",
+        "2.6756648000000003"
+      ],
+      [
+        "Decile 3",
+        "2.8415340000000002"
+      ],
+      [
+        "Decile 4",
+        "3.0165582"
+      ],
+      [
+        "Decile 5",
+        "3.2090595"
+      ],
+      [
+        "Decile 6",
+        "3.4681037999999997"
+      ],
+      [
+        "Decile 7",
+        "3.7353707"
+      ],
+      [
+        "Decile 8",
+        "4.0668132"
+      ],
+      [
+        "Decile 9",
+        "4.463600800000001"
+      ],
+      [
+        "Mean",
+        "3.3503530785398232"
+      ],
+      [
+        "Std Dev.",
+        "0.7367513351109483"
+      ],
+      [
+        "Variance",
+        "0.5428025297877648"
+      ],
+      [
+        "Displayed N",
+        "904"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

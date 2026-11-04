@@ -1,0 +1,567 @@
+{
+  "varname": "ort612",
+  "label": "Does the child have any orthopaedic defects  - Option 2 - at age 15 years",
+  "field_id": "35691",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=35691",
+  "year": "",
+  "form": "D4 - Examination by the school doctor",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 186.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "ort613",
+    "ort614",
+    "ort611"
+  ],
+  "linked_years": [
+    "1961"
+  ],
+  "categories": [
+    "Childhood health examination [51071]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "2.0",
+      "label": "Valgus ankles - Extremities"
+    },
+    {
+      "value": "3.0",
+      "label": "Hallux Valgus"
+    },
+    {
+      "value": "4.0",
+      "label": "Painful flat feet"
+    },
+    {
+      "value": "6.0",
+      "label": "Kyphosis - Postural"
+    },
+    {
+      "value": "7.0",
+      "label": "Poliomyelitis disease"
+    },
+    {
+      "value": "8.0",
+      "label": "Other defects"
+    },
+    {
+      "value": "9.0",
+      "label": "Other defects"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Valgus ankles - Extremities",
+      "count": 19,
+      "pct": 10.2
+    },
+    {
+      "label": "Hallux Valgus",
+      "count": 15,
+      "pct": 8.1
+    },
+    {
+      "label": "Painful flat feet",
+      "count": 10,
+      "pct": 5.4
+    },
+    {
+      "label": "Kyphosis - Postural",
+      "count": 33,
+      "pct": 17.7
+    },
+    {
+      "label": "Poliomyelitis disease",
+      "count": 11,
+      "pct": 5.9
+    },
+    {
+      "label": "Other defects",
+      "count": 98,
+      "pct": 52.7
+    }
+  ],
+  "pdf": {
+    "varname": "ort612",
+    "label": "Does the child have any orthopaedic defects  - Option 2 - at age 15 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ort612"
+      ],
+      [
+        "Field ID",
+        "35691"
+      ],
+      [
+        "Label",
+        "Does the child have any orthopaedic defects  - Option 2 - at age 15 years"
+      ],
+      [
+        "Card Number",
+        "B02"
+      ],
+      [
+        "Form",
+        "D4 - Examination by the school doctor"
+      ],
+      [
+        "Question",
+        "25"
+      ],
+      [
+        "Year",
+        "1961"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Possible low cell counts issue"
+      ],
+      [
+        "Notes",
+        "1961 - Examination by the School Doctor"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "ort613",
+        "Does the child have any orthopaedic defects  - Option 3 - at age 15 years",
+        "1961",
+        "D4 - Examination by the school doctor",
+        "25",
+        "B02"
+      ],
+      [
+        "ort614",
+        "Does the child have any orthopaedic defects  - Option 4 - at age 15 years",
+        "1961",
+        "D4 - Examination by the school doctor",
+        "25",
+        "B02"
+      ],
+      [
+        "ort611",
+        "Does the child have any orthopaedic defects  - Option 1 - at age 15 years",
+        "1961",
+        "D4 - Examination by the school doctor",
+        "25",
+        "B02"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Childhood health examination [51071]",
+        "This category contains data from the questionnaires on childhood health examination mainly carried out by the doctor i.e. pulse, nassal pasages, throat and tonsils, lungs, heart, abdomen etc. Speech, ears, eyes and handedness were aslo assessed."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "Unknown",
+        true
+      ],
+      [
+        "2.0",
+        "Valgus ankles - Extremities",
+        false
+      ],
+      [
+        "3.0",
+        "Hallux Valgus",
+        false
+      ],
+      [
+        "4.0",
+        "Painful flat feet",
+        false
+      ],
+      [
+        "6.0",
+        "Kyphosis - Postural",
+        false
+      ],
+      [
+        "7.0",
+        "Poliomyelitis disease",
+        false
+      ],
+      [
+        "8.0",
+        "Other defects",
+        false
+      ],
+      [
+        "9.0",
+        "Other defects",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "2",
+        "19",
+        "10%"
+      ],
+      [
+        "3",
+        "15",
+        "8%"
+      ],
+      [
+        "4",
+        "10",
+        "5%"
+      ],
+      [
+        "6",
+        "33",
+        "18%"
+      ],
+      [
+        "7",
+        "11",
+        "6%"
+      ],
+      [
+        "8",
+        "86",
+        "46%"
+      ],
+      [
+        "9",
+        "12",
+        "6%"
+      ],
+      [
+        "Displayed N",
+        "186",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "ort612",
+    "label": "Does the child have any orthopaedic defects  - Option 2 - at age 15 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=35691",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ort612",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "35691",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Does the child have any orthopaedic defects  - Option 2 - at age 15 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "B02",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "D4 - Examination by the school doctor",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "25",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1961",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Possible low cell counts issue",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "1961 - Examination by the School Doctor",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "ort613",
+        "description": "Does the child have any orthopaedic defects  - Option 3 - at age 15 years",
+        "year": "1961",
+        "form": "D4 - Examination by the school doctor",
+        "question": "25",
+        "library_file": "B02"
+      },
+      {
+        "varname": "ort614",
+        "description": "Does the child have any orthopaedic defects  - Option 4 - at age 15 years",
+        "year": "1961",
+        "form": "D4 - Examination by the school doctor",
+        "question": "25",
+        "library_file": "B02"
+      },
+      {
+        "varname": "ort611",
+        "description": "Does the child have any orthopaedic defects  - Option 1 - at age 15 years",
+        "year": "1961",
+        "form": "D4 - Examination by the school doctor",
+        "question": "25",
+        "library_file": "B02"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Childhood health examination [51071]",
+        "description": "This category contains data from the questionnaires on childhood health examination mainly carried out by the doctor i.e. pulse, nassal pasages, throat and tonsils, lungs, heart, abdomen etc. Speech, ears, eyes and handedness were aslo assessed.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Childhood_health_examination_51071.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "2.0",
+        "label": "Valgus ankles - Extremities",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Hallux Valgus",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Painful flat feet",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "Kyphosis - Postural",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "Poliomyelitis disease",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "Other defects",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "Other defects",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 1,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "2",
+          "label": "Valgus ankles - Extremities",
+          "count": 19,
+          "pct": 10
+        },
+        {
+          "value": "3",
+          "label": "Hallux Valgus",
+          "count": 15,
+          "pct": 8
+        },
+        {
+          "value": "4",
+          "label": "Painful flat feet",
+          "count": 10,
+          "pct": 5
+        },
+        {
+          "value": "6",
+          "label": "Kyphosis - Postural",
+          "count": 33,
+          "pct": 18
+        },
+        {
+          "value": "7",
+          "label": "Poliomyelitis disease",
+          "count": 11,
+          "pct": 6
+        },
+        {
+          "value": "8",
+          "label": "Other defects",
+          "count": 86,
+          "pct": 46
+        },
+        {
+          "value": "9",
+          "label": "Other defects",
+          "count": 12,
+          "pct": 6
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "2",
+        "19",
+        "10%"
+      ],
+      [
+        "3",
+        "15",
+        "8%"
+      ],
+      [
+        "4",
+        "10",
+        "5%"
+      ],
+      [
+        "6",
+        "33",
+        "18%"
+      ],
+      [
+        "7",
+        "11",
+        "6%"
+      ],
+      [
+        "8",
+        "86",
+        "46%"
+      ],
+      [
+        "9",
+        "12",
+        "6%"
+      ],
+      [
+        "Displayed N",
+        "186",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "varname": "marb",
+  "label": "Thinking of your first marriage, when were you married. How did this marriage end? - at age 53 years",
+  "field_id": "29845",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=29845",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "year",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 483.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "marb4",
+    "mary4",
+    "marb2",
+    "marb3",
+    "mary",
+    "mary2",
+    "mary3"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Marital history [19]",
+    "Marital status [5153]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Marriage not ended"
+    },
+    {
+      "value": "2.0",
+      "label": "Death"
+    },
+    {
+      "value": "3.0",
+      "label": "Divorce"
+    },
+    {
+      "value": "4.0",
+      "label": "Separation"
+    },
+    {
+      "value": "8.0",
+      "label": "Not applicable"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Marriage not ended",
+      "count": 86,
+      "pct": 17.8
+    },
+    {
+      "label": "Death",
+      "count": 64,
+      "pct": 13.3
+    },
+    {
+      "label": "Divorce",
+      "count": 285,
+      "pct": 59.0
+    },
+    {
+      "label": "Separation",
+      "count": 48,
+      "pct": 9.9
+    }
+  ],
+  "pdf": {
+    "varname": "marb",
+    "label": "Thinking of your first marriage, when were you married. How did this marriage end? - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "marb"
+      ],
+      [
+        "Field ID",
+        "29845"
+      ],
+      [
+        "Label",
+        "Thinking of your first marriage, when were you married. How did this marriage end? - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "capi99a"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "16(b)"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "year"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about family and home. Cleaned cross-sectional only. Variables are available which were cleaned using historical data."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "marb4",
+        "Thinking of your fourth marriage, when were you married. How did this marriage end? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "16(b)",
+        "capi99a"
+      ],
+      [
+        "mary4",
+        "Thinking of your fourth marriage, when were you married. Can you tell me the year? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "16(a)",
+        "capi99a"
+      ],
+      [
+        "marb2",
+        "Thinking of your second marriage, when were you married. How did this marriage end? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "16(b)",
+        "capi99a"
+      ],
+      [
+        "marb3",
+        "Thinking of your third marriage, when were you married. How did this marriage end? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "16(b)",
+        "capi99a"
+      ],
+      [
+        "mary",
+        "Thinking of your first marriage, when were you married. Can you tell me the year? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "16(a)",
+        "capi99a"
+      ],
+      [
+        "mary2",
+        "Thinking of your second marriage, when were you married. Can you tell me the year? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "16(a)",
+        "capi99a"
+      ],
+      [
+        "mary3",
+        "Thinking of your third marriage, when were you married. Can you tell me the year? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "16(a)",
+        "capi99a"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Marital history [19]",
+        "Legacy Category"
+      ],
+      [
+        "Marital status [5153]",
+        "This category contains data on the marital status history of the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Marriage not ended",
+        false
+      ],
+      [
+        "2.0",
+        "Death",
+        false
+      ],
+      [
+        "3.0",
+        "Divorce",
+        false
+      ],
+      [
+        "4.0",
+        "Separation",
+        false
+      ],
+      [
+        "8.0",
+        "Not applicable",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "86",
+        "18%"
+      ],
+      [
+        "2",
+        "64",
+        "13%"
+      ],
+      [
+        "3",
+        "285",
+        "59%"
+      ],
+      [
+        "4",
+        "48",
+        "10%"
+      ],
+      [
+        "Displayed N",
+        "483",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "marb",
+    "label": "Thinking of your first marriage, when were you married. How did this marriage end? - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=29845",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "marb",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "29845",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Thinking of your first marriage, when were you married. How did this marriage end? - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "capi99a",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "16(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "year",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about family and home. Cleaned cross-sectional only. Variables are available which were cleaned using historical data.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "marb4",
+        "description": "Thinking of your fourth marriage, when were you married. How did this marriage end? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "16(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "mary4",
+        "description": "Thinking of your fourth marriage, when were you married. Can you tell me the year? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "16(a)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "marb2",
+        "description": "Thinking of your second marriage, when were you married. How did this marriage end? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "16(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "marb3",
+        "description": "Thinking of your third marriage, when were you married. How did this marriage end? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "16(b)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "mary",
+        "description": "Thinking of your first marriage, when were you married. Can you tell me the year? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "16(a)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "mary2",
+        "description": "Thinking of your second marriage, when were you married. Can you tell me the year? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "16(a)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "mary3",
+        "description": "Thinking of your third marriage, when were you married. Can you tell me the year? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "16(a)",
+        "library_file": "capi99a"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Marital history [19]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Marital status [5153]",
+        "description": "This category contains data on the marital status history of the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Marital_status_5153.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Marriage not ended",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Death",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Divorce",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Separation",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "year",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Marriage not ended",
+          "count": 86,
+          "pct": 18
+        },
+        {
+          "value": "2",
+          "label": "Death",
+          "count": 64,
+          "pct": 13
+        },
+        {
+          "value": "3",
+          "label": "Divorce",
+          "count": 285,
+          "pct": 59
+        },
+        {
+          "value": "4",
+          "label": "Separation",
+          "count": 48,
+          "pct": 10
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "86",
+        "18%"
+      ],
+      [
+        "2",
+        "64",
+        "13%"
+      ],
+      [
+        "3",
+        "285",
+        "59%"
+      ],
+      [
+        "4",
+        "48",
+        "10%"
+      ],
+      [
+        "Displayed N",
+        "483",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

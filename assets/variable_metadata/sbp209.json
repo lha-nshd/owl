@@ -1,0 +1,590 @@
+{
+  "varname": "sbp209",
+  "label": "Systolic blood pressure (mmHg) - second reading - at age 60-64 years",
+  "field_id": "1136",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1136",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "mmHg",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 135.58744394618833,
+  "sd": 13.982307911174459,
+  "series_size": 2007.0,
+  "minimum": 108.0,
+  "maximum": 169.0,
+  "truly_longitudinal_field_id": "1136",
+  "truly_longitudinal_varnames": [
+    "sbp215x",
+    "sbp223x",
+    "sbp289f",
+    "sbp992"
+  ],
+  "truly_longitudinal_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Blood pressure [1103]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "885.0",
+      "label": "Unable - reason unknown"
+    },
+    {
+      "value": "886.0",
+      "label": "Unable because machine not working"
+    },
+    {
+      "value": "887.0",
+      "label": "Unable because of pain discomfort"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "sbp209",
+    "label": "Systolic blood pressure (mmHg) - second reading - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "sbp209"
+      ],
+      [
+        "Field ID",
+        "1136"
+      ],
+      [
+        "Label",
+        "Systolic blood pressure (mmHg) - second reading - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "BP09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "32"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmHg"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2006-10 nurse schedule. Blood pressure section."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "sbp289f",
+        "1989",
+        "Systolic blood pressure (mmHg) - second reading - at age 43 years"
+      ],
+      [
+        "sbp992",
+        "1999",
+        "Systolic blood pressure (mmHg) - second reading - at age 53 years"
+      ],
+      [
+        "sbp215x",
+        "2015",
+        "Systolic blood pressure (mmHg) - second reading - at age 69 years"
+      ],
+      [
+        "sbp223x",
+        "2023",
+        "Systolic blood pressure (mmHg) - second reading - at age 77 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Blood pressure [1103]",
+        "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "885.0",
+        "Unable - reason unknown",
+        true
+      ],
+      [
+        "886.0",
+        "Unable because machine not working",
+        true
+      ],
+      [
+        "887.0",
+        "Unable because of pain discomfort",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "108.0"
+      ],
+      [
+        "Maximum",
+        "169.0"
+      ],
+      [
+        "Range",
+        "61.0"
+      ],
+      [
+        "Median",
+        "135.0"
+      ],
+      [
+        "IQR",
+        "125.0 - 145.0"
+      ],
+      [
+        "Decile 1",
+        "117.0"
+      ],
+      [
+        "Decile 2",
+        "123.0"
+      ],
+      [
+        "Decile 3",
+        "127.0"
+      ],
+      [
+        "Decile 4",
+        "131.0"
+      ],
+      [
+        "Decile 5",
+        "135.0"
+      ],
+      [
+        "Decile 6",
+        "139.0"
+      ],
+      [
+        "Decile 7",
+        "143.0"
+      ],
+      [
+        "Decile 8",
+        "148.0"
+      ],
+      [
+        "Decile 9",
+        "155.0"
+      ],
+      [
+        "Mean",
+        "135.58744394618833"
+      ],
+      [
+        "Std Dev.",
+        "13.982307911174459"
+      ],
+      [
+        "Variance",
+        "195.50493452289186"
+      ],
+      [
+        "Displayed N",
+        "2007"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "sbp209",
+    "label": "Systolic blood pressure (mmHg) - second reading - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1136",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "sbp209",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1136",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Systolic blood pressure (mmHg) - second reading - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "BP09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "32",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmHg",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 nurse schedule. Blood pressure section.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1136",
+      "members": [
+        {
+          "varname": "sbp289f",
+          "year": "1989",
+          "label": "Systolic blood pressure (mmHg) - second reading - at age 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "sbp992",
+          "year": "1999",
+          "label": "Systolic blood pressure (mmHg) - second reading - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "sbp209",
+          "year": "2006-10",
+          "label": "Systolic blood pressure (mmHg) - second reading - at age 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "sbp215x",
+          "year": "2015",
+          "label": "Systolic blood pressure (mmHg) - second reading - at age 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "sbp223x",
+          "year": "2023",
+          "label": "Systolic blood pressure (mmHg) - second reading - at age 77 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood pressure [1103]",
+        "description": "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pressure_1103.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "885.0",
+        "label": "Unable - reason unknown",
+        "is_missing": true
+      },
+      {
+        "value": "886.0",
+        "label": "Unable because machine not working",
+        "is_missing": true
+      },
+      {
+        "value": "887.0",
+        "label": "Unable because of pain discomfort",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmHg",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          108.0,
+          111.05,
+          114.1,
+          117.15,
+          120.2,
+          123.25,
+          126.3,
+          129.35,
+          132.4,
+          135.45,
+          138.5,
+          141.55,
+          144.6,
+          147.65,
+          150.7,
+          153.75,
+          156.8,
+          159.85,
+          162.9,
+          165.95,
+          169.0
+        ],
+        "counts": [
+          63,
+          66,
+          90,
+          86,
+          130,
+          164,
+          104,
+          173,
+          162,
+          134,
+          137,
+          165,
+          108,
+          122,
+          75,
+          55,
+          62,
+          48,
+          29,
+          34
+        ]
+      },
+      "boxplot": {
+        "min": 108.0,
+        "q1": 125.0,
+        "median": 135.0,
+        "q3": 145.0,
+        "max": 169.0
+      },
+      "units": "mmHg"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "108.0"
+      ],
+      [
+        "Maximum",
+        "169.0"
+      ],
+      [
+        "Range",
+        "61.0"
+      ],
+      [
+        "Median",
+        "135.0"
+      ],
+      [
+        "IQR",
+        "125.0 - 145.0"
+      ],
+      [
+        "Decile 1",
+        "117.0"
+      ],
+      [
+        "Decile 2",
+        "123.0"
+      ],
+      [
+        "Decile 3",
+        "127.0"
+      ],
+      [
+        "Decile 4",
+        "131.0"
+      ],
+      [
+        "Decile 5",
+        "135.0"
+      ],
+      [
+        "Decile 6",
+        "139.0"
+      ],
+      [
+        "Decile 7",
+        "143.0"
+      ],
+      [
+        "Decile 8",
+        "148.0"
+      ],
+      [
+        "Decile 9",
+        "155.0"
+      ],
+      [
+        "Mean",
+        "135.58744394618833"
+      ],
+      [
+        "Std Dev.",
+        "13.982307911174459"
+      ],
+      [
+        "Variance",
+        "195.50493452289186"
+      ],
+      [
+        "Displayed N",
+        "2007"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

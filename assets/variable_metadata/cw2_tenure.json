@@ -1,0 +1,586 @@
+{
+  "varname": "cw2_tenure",
+  "label": "Do your (or your household) own or rent your home or have some other arrangement? - Covid wave 2 (age 74 years)",
+  "field_id": "12528",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12528",
+  "year": "",
+  "form": "Covid wave 2",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2091.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "12528",
+  "truly_longitudinal_varnames": [
+    "cw3_tenure"
+  ],
+  "truly_longitudinal_years": [
+    "2020",
+    "2021"
+  ],
+  "linked_varnames": [
+    "cw3_tenurebc",
+    "cw2_tenchange",
+    "cw2_tenurebc",
+    "cw3_tenchange"
+  ],
+  "linked_years": [
+    "2020",
+    "2021"
+  ],
+  "categories": [
+    "Coronavirus (Covid-19) [28]",
+    "Family and home [6023]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "No information"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Own - outright"
+    },
+    {
+      "value": "2.0",
+      "label": "Own - buying with help of a mortgage / loan"
+    },
+    {
+      "value": "4.0",
+      "label": "Rent it"
+    },
+    {
+      "value": "5.0",
+      "label": "Live here rent-free, including rent-free in relative's/friend's/employer\u2019s property; exclude squatting"
+    },
+    {
+      "value": "7.0",
+      "label": "Other arrangement"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Own - outright",
+      "count": 1817,
+      "pct": 86.9
+    },
+    {
+      "label": "Own - buying with help of a mortgage / loan",
+      "count": 68,
+      "pct": 3.3
+    },
+    {
+      "label": "Rent it",
+      "count": 161,
+      "pct": 7.7
+    },
+    {
+      "label": "Live here rent-free, including rent-free in relative's/friend's/employer\u2019s property; exclude squatting",
+      "count": 19,
+      "pct": 0.9
+    },
+    {
+      "label": "Other arrangement",
+      "count": 26,
+      "pct": 1.2
+    }
+  ],
+  "pdf": {
+    "varname": "cw2_tenure",
+    "label": "Do your (or your household) own or rent your home or have some other arrangement? - Covid wave 2 (age 74 years)",
+    "meta_rows": [
+      [
+        "Variable",
+        "cw2_tenure"
+      ],
+      [
+        "Field ID",
+        "12528"
+      ],
+      [
+        "Label",
+        "Do your (or your household) own or rent your home or have some other arrangement? - Covid wave 2 (age 74 years)"
+      ],
+      [
+        "Card Number",
+        "CW2_COVID"
+      ],
+      [
+        "Form",
+        "Covid wave 2"
+      ],
+      [
+        "Question",
+        "63"
+      ],
+      [
+        "Year",
+        "2020"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about where participant is currently living - Covid wave 2 questionnaire. This question was not asked in wave 1."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cw3_tenure",
+        "2021",
+        "Do your (or your household) own or rent your home or have some other arrangement? - Covid wave 3 (age 75 years)"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "cw3_tenurebc",
+        "At the start of the Coronavirus outbreak in March, did you (or your household) own or rent your home or have some other arrangement? - Covid wave 3 (age 75 years)",
+        "2021",
+        "Covid wave 3",
+        "62",
+        "CW3_COVID"
+      ],
+      [
+        "cw2_tenchange",
+        "Has your tenure changed since the start of the Coronavirus outbreak in March? - Covid wave 2 (age 74 years)",
+        "2020",
+        "Covid wave 2",
+        "64",
+        "CW2_COVID"
+      ],
+      [
+        "cw2_tenurebc",
+        "At the start of the Coronavirus outbreak in March, did you (or your household) own or rent your home or have some other arrangement? - Covid wave 2 (age 74 years)",
+        "2020",
+        "Covid wave 2",
+        "65",
+        "CW2_COVID"
+      ],
+      [
+        "cw3_tenchange",
+        "Has your tenure changed since the start of the Coronavirus outbreak in March 2020? - Covid wave 3 (age 75 years)",
+        "2021",
+        "Covid wave 3",
+        "61",
+        "CW3_COVID"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Coronavirus (Covid-19) [28]",
+        "Legacy Category"
+      ],
+      [
+        "Family and home [6023]",
+        "This category contains data about the family and home where the participant is currently living. This included household grid, relationships, family and conflict change, childcare, caring and housing asked in the 2020-2021 covid questionnaires where the participant was 74 years."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "No information",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Own - outright",
+        false
+      ],
+      [
+        "2.0",
+        "Own - buying with help of a mortgage / loan",
+        false
+      ],
+      [
+        "4.0",
+        "Rent it",
+        false
+      ],
+      [
+        "5.0",
+        "Live here rent-free, including rent-free in relative's/friend's/employer\u2019s property; exclude squatting",
+        false
+      ],
+      [
+        "7.0",
+        "Other arrangement",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "1817",
+        "87%"
+      ],
+      [
+        "2",
+        "68",
+        "3%"
+      ],
+      [
+        "4",
+        "161",
+        "8%"
+      ],
+      [
+        "5",
+        "19",
+        "1%"
+      ],
+      [
+        "7",
+        "26",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2091",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "cw2_tenure",
+    "label": "Do your (or your household) own or rent your home or have some other arrangement? - Covid wave 2 (age 74 years)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12528",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cw2_tenure",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "12528",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Do your (or your household) own or rent your home or have some other arrangement? - Covid wave 2 (age 74 years)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CW2_COVID",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Covid wave 2",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "63",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about where participant is currently living - Covid wave 2 questionnaire. This question was not asked in wave 1.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "12528",
+      "members": [
+        {
+          "varname": "cw2_tenure",
+          "year": "2020",
+          "label": "Do your (or your household) own or rent your home or have some other arrangement? - Covid wave 2 (age 74 years)",
+          "is_current": true
+        },
+        {
+          "varname": "cw3_tenure",
+          "year": "2021",
+          "label": "Do your (or your household) own or rent your home or have some other arrangement? - Covid wave 3 (age 75 years)",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "cw3_tenurebc",
+        "description": "At the start of the Coronavirus outbreak in March, did you (or your household) own or rent your home or have some other arrangement? - Covid wave 3 (age 75 years)",
+        "year": "2021",
+        "form": "Covid wave 3",
+        "question": "62",
+        "library_file": "CW3_COVID"
+      },
+      {
+        "varname": "cw2_tenchange",
+        "description": "Has your tenure changed since the start of the Coronavirus outbreak in March? - Covid wave 2 (age 74 years)",
+        "year": "2020",
+        "form": "Covid wave 2",
+        "question": "64",
+        "library_file": "CW2_COVID"
+      },
+      {
+        "varname": "cw2_tenurebc",
+        "description": "At the start of the Coronavirus outbreak in March, did you (or your household) own or rent your home or have some other arrangement? - Covid wave 2 (age 74 years)",
+        "year": "2020",
+        "form": "Covid wave 2",
+        "question": "65",
+        "library_file": "CW2_COVID"
+      },
+      {
+        "varname": "cw3_tenchange",
+        "description": "Has your tenure changed since the start of the Coronavirus outbreak in March 2020? - Covid wave 3 (age 75 years)",
+        "year": "2021",
+        "form": "Covid wave 3",
+        "question": "61",
+        "library_file": "CW3_COVID"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Coronavirus (Covid-19) [28]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Family and home [6023]",
+        "description": "This category contains data about the family and home where the participant is currently living. This included household grid, relationships, family and conflict change, childcare, caring and housing asked in the 2020-2021 covid questionnaires where the participant was 74 years.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Family_and_home_6023.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "No information",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Own - outright",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Own - buying with help of a mortgage / loan",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Rent it",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Live here rent-free, including rent-free in relative's/friend's/employer\u2019s property; exclude squatting",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "Other arrangement",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Own - outright",
+          "count": 1817,
+          "pct": 87
+        },
+        {
+          "value": "2",
+          "label": "Own - buying with help of a mortgage / loan",
+          "count": 68,
+          "pct": 3
+        },
+        {
+          "value": "4",
+          "label": "Rent it",
+          "count": 161,
+          "pct": 8
+        },
+        {
+          "value": "5",
+          "label": "Live here rent-free, including rent-free in relative's/friend's/employer\u2019s property; exclude squatting",
+          "count": 19,
+          "pct": 1
+        },
+        {
+          "value": "7",
+          "label": "Other arrangement",
+          "count": 26,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "1817",
+        "87%"
+      ],
+      [
+        "2",
+        "68",
+        "3%"
+      ],
+      [
+        "4",
+        "161",
+        "8%"
+      ],
+      [
+        "5",
+        "19",
+        "1%"
+      ],
+      [
+        "7",
+        "26",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2091",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

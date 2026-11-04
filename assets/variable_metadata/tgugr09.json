@@ -1,0 +1,293 @@
+{
+  "varname": "tgugr09",
+  "label": "Timed get up and go - reason unable/unwilling (string) - at age 60-64 years",
+  "field_id": "10471",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10471",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "ICD-10",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "tgugr09x",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Timed get up and go [1154]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "7777.0",
+      "label": "Non-participant"
+    },
+    {
+      "value": "8888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9999.0",
+      "label": "Reason not reported"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "tgugr09",
+    "label": "Timed get up and go - reason unable/unwilling (string) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "tgugr09"
+      ],
+      [
+        "Field ID",
+        "10471"
+      ],
+      [
+        "Label",
+        "Timed get up and go - reason unable/unwilling (string) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "PhysPerf09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "68(a)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "tgugr09x"
+      ],
+      [
+        "Units",
+        "ICD-10"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains ICD codes. Recoded version of the variable is available."
+      ],
+      [
+        "Notes",
+        "2006-10 Timed get up and go test. More information available in the documentation."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Timed get up and go [1154]",
+        "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to be timed getting up from a chair, walking 3m, turning around, walking back 3m and sitting back in the chair at their normal pace (i.e. perform a test known as 'timed get up and go').  If willing and able (reasons for inability included health reasons and equipment or insufficient space) one test of timed get up and go was performed.  Unlike in other tests participants were able to use walking aids to complete this test."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "7777.0",
+        "Non-participant",
+        true
+      ],
+      [
+        "8888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9999.0",
+        "Reason not reported",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "tgugr09",
+    "label": "Timed get up and go - reason unable/unwilling (string) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10471",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "tgugr09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10471",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Timed get up and go - reason unable/unwilling (string) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysPerf09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "68(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "tgugr09x",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "ICD-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains ICD codes. Recoded version of the variable is available.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 Timed get up and go test. More information available in the documentation.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Timed get up and go [1154]",
+        "description": "During the clinic (or home) visit at age 60-64 years study participants were asked by the attending nurse whether they would be willing to be timed getting up from a chair, walking 3m, turning around, walking back 3m and sitting back in the chair at their normal pace (i.e. perform a test known as 'timed get up and go').  If willing and able (reasons for inability included health reasons and equipment or insufficient space) one test of timed get up and go was performed.  Unlike in other tests participants were able to use walking aids to complete this test.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Timed_get_up_and_go_1154.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "Non-participant",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Reason not reported",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "ICD-10",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

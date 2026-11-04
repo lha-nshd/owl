@@ -1,0 +1,521 @@
+{
+  "varname": "bestvalidfev2015",
+  "label": "Best FEV (ATS) measure - at age 69 years",
+  "field_id": "6111",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6111",
+  "year": "",
+  "form": "Home visit",
+  "units": "litres",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2445.44736591133,
+  "sd": 560.4736754329764,
+  "series_size": 1015.0,
+  "minimum": 1433.9741999999999,
+  "maximum": 3643.7146000000002,
+  "truly_longitudinal_field_id": "6111",
+  "truly_longitudinal_varnames": [
+    "bestvalidfev1989",
+    "bestvalidfev1999",
+    "bestvalidfev2009"
+  ],
+  "truly_longitudinal_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "linked_varnames": [
+    "fev15fullats",
+    "fvc15fullats"
+  ],
+  "linked_years": [
+    "2015"
+  ],
+  "categories": [
+    "Spirometry [1105]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "bestvalidfev2015",
+    "label": "Best FEV (ATS) measure - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "bestvalidfev2015"
+      ],
+      [
+        "Field ID",
+        "6111"
+      ],
+      [
+        "Label",
+        "Best FEV (ATS) measure - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "predicted_lungfunction89_15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "8"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "litres"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived variables for all 1989-2015."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "bestvalidfev1989",
+        "1989",
+        "Best FEV (ATS) measure - at age 43 years"
+      ],
+      [
+        "bestvalidfev1999",
+        "1999",
+        "Best FEV (ATS) measure - at age 53 years"
+      ],
+      [
+        "bestvalidfev2009",
+        "2006-10",
+        "Best FEV (ATS) measure - at age 60-64 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "fev15fullats",
+        "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+        "2015",
+        "Home visit",
+        "8",
+        "LungFunction15"
+      ],
+      [
+        "fvc15fullats",
+        "FVC - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+        "2015",
+        "Home visit",
+        "8",
+        "LungFunction15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Spirometry [1105]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1433.9741999999999"
+      ],
+      [
+        "Maximum",
+        "3643.7146000000002"
+      ],
+      [
+        "Range",
+        "2209.7404000000006"
+      ],
+      [
+        "Median",
+        "2370.9175999999998"
+      ],
+      [
+        "IQR",
+        "2004.0025999999998 - 2870.81235"
+      ],
+      [
+        "Decile 1",
+        "1738.9582"
+      ],
+      [
+        "Decile 2",
+        "1926.8656799999999"
+      ],
+      [
+        "Decile 3",
+        "2079.2506399999997"
+      ],
+      [
+        "Decile 4",
+        "2211.07494"
+      ],
+      [
+        "Decile 5",
+        "2370.9175999999998"
+      ],
+      [
+        "Decile 6",
+        "2557.7812799999997"
+      ],
+      [
+        "Decile 7",
+        "2763.0579"
+      ],
+      [
+        "Decile 8",
+        "3015.70058"
+      ],
+      [
+        "Decile 9",
+        "3256.2641200000003"
+      ],
+      [
+        "Mean",
+        "2445.44736591133"
+      ],
+      [
+        "Std Dev.",
+        "560.4736754329764"
+      ],
+      [
+        "Variance",
+        "314130.7408533493"
+      ],
+      [
+        "Displayed N",
+        "1015"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "bestvalidfev2015",
+    "label": "Best FEV (ATS) measure - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6111",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bestvalidfev2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "6111",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Best FEV (ATS) measure - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "predicted_lungfunction89_15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "litres",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variables for all 1989-2015.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "6111",
+      "members": [
+        {
+          "varname": "bestvalidfev1989",
+          "year": "1989",
+          "label": "Best FEV (ATS) measure - at age 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "bestvalidfev1999",
+          "year": "1999",
+          "label": "Best FEV (ATS) measure - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "bestvalidfev2009",
+          "year": "2006-10",
+          "label": "Best FEV (ATS) measure - at age 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "bestvalidfev2015",
+          "year": "2015",
+          "label": "Best FEV (ATS) measure - at age 69 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "fev15fullats",
+        "description": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "LungFunction15"
+      },
+      {
+        "varname": "fvc15fullats",
+        "description": "FVC - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two FEV1 and FVC values is 0.15L or less (full ATS) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "8",
+        "library_file": "LungFunction15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Spirometry [1105]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_1105.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "litres",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1433.9741999999999,
+          1603.9542307692307,
+          1773.9342615384614,
+          1943.9142923076924,
+          2113.8943230769232,
+          2283.874353846154,
+          2453.854384615385,
+          2623.8344153846156,
+          2793.8144461538463,
+          2963.794476923077,
+          3133.774507692308,
+          3303.7545384615387,
+          3473.73456923077,
+          3643.7146000000002
+        ],
+        "counts": [
+          46,
+          75,
+          92,
+          117,
+          129,
+          95,
+          89,
+          79,
+          74,
+          68,
+          62,
+          47,
+          42
+        ]
+      },
+      "boxplot": {
+        "min": 1433.9741999999999,
+        "q1": 2004.0025999999998,
+        "median": 2370.9175999999998,
+        "q3": 2870.81235,
+        "max": 3643.7146000000002
+      },
+      "units": "litres"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1433.9741999999999"
+      ],
+      [
+        "Maximum",
+        "3643.7146000000002"
+      ],
+      [
+        "Range",
+        "2209.7404000000006"
+      ],
+      [
+        "Median",
+        "2370.9175999999998"
+      ],
+      [
+        "IQR",
+        "2004.0025999999998 - 2870.81235"
+      ],
+      [
+        "Decile 1",
+        "1738.9582"
+      ],
+      [
+        "Decile 2",
+        "1926.8656799999999"
+      ],
+      [
+        "Decile 3",
+        "2079.2506399999997"
+      ],
+      [
+        "Decile 4",
+        "2211.07494"
+      ],
+      [
+        "Decile 5",
+        "2370.9175999999998"
+      ],
+      [
+        "Decile 6",
+        "2557.7812799999997"
+      ],
+      [
+        "Decile 7",
+        "2763.0579"
+      ],
+      [
+        "Decile 8",
+        "3015.70058"
+      ],
+      [
+        "Decile 9",
+        "3256.2641200000003"
+      ],
+      [
+        "Mean",
+        "2445.44736591133"
+      ],
+      [
+        "Std Dev.",
+        "560.4736754329764"
+      ],
+      [
+        "Variance",
+        "314130.7408533493"
+      ],
+      [
+        "Displayed N",
+        "1015"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

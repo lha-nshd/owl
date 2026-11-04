@@ -1,0 +1,572 @@
+{
+  "varname": "mdy15x",
+  "label": "Date of mother's death - year - at age 69 years.",
+  "field_id": "30628",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30628",
+  "year": "",
+  "form": "Home visit",
+  "units": "year",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2005.3382716049382,
+  "sd": 9.407989353699183,
+  "series_size": 405.0,
+  "minimum": 1977.0,
+  "maximum": 2015.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "mdy09",
+    "mdy89",
+    "mdy",
+    "mdy82"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10"
+  ],
+  "categories": [
+    "Mortality [13]",
+    "Parental death [5012]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "No answer"
+    },
+    {
+      "value": "0.0",
+      "label": "Partial date known"
+    },
+    {
+      "value": "999.0",
+      "label": "Date details unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "mdy15x",
+    "label": "Date of mother's death - year - at age 69 years.",
+    "meta_rows": [
+      [
+        "Variable",
+        "mdy15x"
+      ],
+      [
+        "Field ID",
+        "30628"
+      ],
+      [
+        "Label",
+        "Date of mother's death - year - at age 69 years."
+      ],
+      [
+        "Card Number",
+        "LifeEvents15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "9"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "year"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell count issue. Contains information about parental death."
+      ],
+      [
+        "Notes",
+        "Parental death questions from 2015 Home visit."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "mdy09",
+        "Date of mother's death - year - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "26(c)",
+        "PRNTLDTH09"
+      ],
+      [
+        "mdy89",
+        "Date of mother's death - year - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "19(b)",
+        "de89d"
+      ],
+      [
+        "mdy",
+        "Date of mother's death - year - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "64(c)",
+        "capi99a"
+      ],
+      [
+        "mdy82",
+        "Date of mother's death - year - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "18(b)",
+        "B13"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Mortality [13]",
+        "Legacy Category"
+      ],
+      [
+        "Parental death [5012]",
+        "This category contains information on parental death of the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "No answer",
+        true
+      ],
+      [
+        "0.0",
+        "Partial date known",
+        false
+      ],
+      [
+        "999.0",
+        "Date details unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1977"
+      ],
+      [
+        "Maximum",
+        "2015"
+      ],
+      [
+        "Range",
+        "38"
+      ],
+      [
+        "Median",
+        "2009.0"
+      ],
+      [
+        "IQR",
+        "2001.0 - 2012.0"
+      ],
+      [
+        "Decile 1",
+        "1990.0"
+      ],
+      [
+        "Decile 2",
+        "1999.0"
+      ],
+      [
+        "Decile 3",
+        "2002.2"
+      ],
+      [
+        "Decile 4",
+        "2007.0"
+      ],
+      [
+        "Decile 5",
+        "2009.0"
+      ],
+      [
+        "Decile 6",
+        "2011.0"
+      ],
+      [
+        "Decile 7",
+        "2012.0"
+      ],
+      [
+        "Decile 8",
+        "2013.0"
+      ],
+      [
+        "Decile 9",
+        "2014.0"
+      ],
+      [
+        "Mean",
+        "2005.3382716049382"
+      ],
+      [
+        "Std Dev.",
+        "9.407989353699183"
+      ],
+      [
+        "Variance",
+        "88.51026367931716"
+      ],
+      [
+        "Displayed N",
+        "405"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "mdy15x",
+    "label": "Date of mother's death - year - at age 69 years.",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30628",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "mdy15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "30628",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Date of mother's death - year - at age 69 years.",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "LifeEvents15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "9",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "year",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell count issue. Contains information about parental death.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Parental death questions from 2015 Home visit.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "mdy09",
+        "description": "Date of mother's death - year - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "26(c)",
+        "library_file": "PRNTLDTH09"
+      },
+      {
+        "varname": "mdy89",
+        "description": "Date of mother's death - year - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "19(b)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "mdy",
+        "description": "Date of mother's death - year - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "64(c)",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "mdy82",
+        "description": "Date of mother's death - year - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "18(b)",
+        "library_file": "B13"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Mortality [13]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Parental death [5012]",
+        "description": "This category contains information on parental death of the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Parental_death_5012.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "No answer",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Partial date known",
+        "is_missing": false
+      },
+      {
+        "value": "999.0",
+        "label": "Date details unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 4,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "year",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1977.0,
+          1979.923076923077,
+          1982.8461538461538,
+          1985.7692307692307,
+          1988.6923076923076,
+          1991.6153846153845,
+          1994.5384615384614,
+          1997.4615384615386,
+          2000.3846153846155,
+          2003.3076923076924,
+          2006.2307692307693,
+          2009.1538461538462,
+          2012.076923076923,
+          2015.0
+        ],
+        "counts": [
+          8,
+          5,
+          9,
+          13,
+          15,
+          9,
+          15,
+          23,
+          36,
+          26,
+          49,
+          104,
+          93
+        ]
+      },
+      "boxplot": {
+        "min": 1977.0,
+        "q1": 2001.0,
+        "median": 2009.0,
+        "q3": 2012.0,
+        "max": 2015.0
+      },
+      "units": "year"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1977"
+      ],
+      [
+        "Maximum",
+        "2015"
+      ],
+      [
+        "Range",
+        "38"
+      ],
+      [
+        "Median",
+        "2009.0"
+      ],
+      [
+        "IQR",
+        "2001.0 - 2012.0"
+      ],
+      [
+        "Decile 1",
+        "1990.0"
+      ],
+      [
+        "Decile 2",
+        "1999.0"
+      ],
+      [
+        "Decile 3",
+        "2002.2"
+      ],
+      [
+        "Decile 4",
+        "2007.0"
+      ],
+      [
+        "Decile 5",
+        "2009.0"
+      ],
+      [
+        "Decile 6",
+        "2011.0"
+      ],
+      [
+        "Decile 7",
+        "2012.0"
+      ],
+      [
+        "Decile 8",
+        "2013.0"
+      ],
+      [
+        "Decile 9",
+        "2014.0"
+      ],
+      [
+        "Mean",
+        "2005.3382716049382"
+      ],
+      [
+        "Std Dev.",
+        "9.407989353699183"
+      ],
+      [
+        "Variance",
+        "88.51026367931716"
+      ],
+      [
+        "Displayed N",
+        "405"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "varname": "medc09",
+  "label": "3rd medicine taken in the last 24 hours - BNF code (nurse schedule) at age 60-64 years",
+  "field_id": "6758",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6758",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "BNF code",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "unavailable",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Medication [11]",
+    "Raw medication taken in the last 24 hours [50511]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77777777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "88888888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99999999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "medc09",
+    "label": "3rd medicine taken in the last 24 hours - BNF code (nurse schedule) at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "medc09"
+      ],
+      [
+        "Field ID",
+        "6758"
+      ],
+      [
+        "Label",
+        "3rd medicine taken in the last 24 hours - BNF code (nurse schedule) at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "NurseAllDrugs09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "10"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "BNF code"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains raw BNF values"
+      ],
+      [
+        "Notes",
+        "This variable comes from the 2006-10 nurse schedule. The question asks if medication was taken in the last 24 hours. Regular medication are also available."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Medication [11]",
+        "Legacy Category"
+      ],
+      [
+        "Raw medication taken in the last 24 hours [50511]",
+        "This category contains information about the raw medication (BNF codes), taken 24 hours before the nurse visit at 2006-10 (age 60-64 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77777777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "88888888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99999999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "unavailable",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "medc09",
+    "label": "3rd medicine taken in the last 24 hours - BNF code (nurse schedule) at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6758",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "medc09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "6758",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "3rd medicine taken in the last 24 hours - BNF code (nurse schedule) at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "NurseAllDrugs09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "10",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "BNF code",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains raw BNF values",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This variable comes from the 2006-10 nurse schedule. The question asks if medication was taken in the last 24 hours. Regular medication are also available.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Medication [11]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Raw medication taken in the last 24 hours [50511]",
+        "description": "This category contains information about the raw medication (BNF codes), taken 24 hours before the nurse visit at 2006-10 (age 60-64 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Raw_medication_taken_in_the_last_24_hours_50511.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77777777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "88888888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99999999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": true,
+    "dist_type": "unavailable",
+    "dist_units": "BNF code",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

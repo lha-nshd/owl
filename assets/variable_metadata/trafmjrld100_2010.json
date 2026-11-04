@@ -1,0 +1,746 @@
+{
+  "varname": "trafmjrld100_2010",
+  "label": "Total traffic load (intensity*length) on major roads in a 100m buffer based upon local road network in 2010 - at age 60-64 years",
+  "field_id": "14847",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14847",
+  "year": "",
+  "form": "Not applicable",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 125467.50859598853,
+  "sd": 455372.9275711782,
+  "series_size": 3141.0,
+  "minimum": 0.0,
+  "maximum": 2667171.8,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "trafmajor_2010",
+    "disvmajor1_2010",
+    "majroadlngth100_2010",
+    "trafnear_2010",
+    "disvnear1_2010",
+    "majorroad_2010"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Residential air pollution [5271]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "trafmjrld100_2010",
+    "label": "Total traffic load (intensity*length) on major roads in a 100m buffer based upon local road network in 2010 - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "trafmjrld100_2010"
+      ],
+      [
+        "Field ID",
+        "14847"
+      ],
+      [
+        "Label",
+        "Total traffic load (intensity*length) on major roads in a 100m buffer based upon local road network in 2010 - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "pollution62_10_set1"
+      ],
+      [
+        "Form",
+        "Not applicable"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Land Use Regression (LUR) was used to estimate ambient air pollution concentrations at the home addresses of the NSHD participants. LUR combines the actual measurement of air pollution done between 26 Jan 2010 - 18 January 2011 and the development of stochastic models using predictor variables such as traffic variables, population density and meteorology derived with Geographical Information Systems (GIS) to develop statistical models using linear regression"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "trafmajor_2010",
+        "Traffic intensity on the nearest major road defined as a road with traffic intensity > 5,000 vehicles / day based upon a local road network in 2010 - at age 60-64 years",
+        "2006-10",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ],
+      [
+        "disvmajor1_2010",
+        "Inverse distance to the nearest major road defined as a road with traffic intensity > 5,000 vehicles / day based upon a local road network ni 2010 - at age 60-64 years",
+        "2006-10",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ],
+      [
+        "majroadlngth100_2010",
+        "Sum of road length of major roads defined as class 0, 1 or 2 (and possibly classes 3 or 4 based upon local knowledge) from the central road network within a 100m buffer in 2010 - at age 60-64 years",
+        "2006-10",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ],
+      [
+        "trafnear_2010",
+        "Traffic intensity on the nearest road based upon local road network in 2010 - at age 60-64 years",
+        "2006-10",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ],
+      [
+        "disvnear1_2010",
+        "Inverse distance to the nearest road based upon local road network in 2010 - at age 60-64 years",
+        "2006-10",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ],
+      [
+        "majorroad_2010",
+        "Indicator variable indicating whether a coordinate is within 50m of a class 1 or 2 type road and/or within 100m of a class 0 road (=motorway), based upon central road network in 2010 - at age 60-64 years",
+        "2006-10",
+        "Not applicable",
+        "Not applicable",
+        "pollution62_10_set1"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/pollution62_10_set1/NSHD_air_pollution_exposure_estimates_1989-2010.pdf",
+        "NSHD_air_pollution_exposure_estimates_1989-2010.pdf"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Residential air pollution [5271]",
+        "This category contains data information air pollution estimates that were modelled for the participants addresses using models developed as part of the European Study of Cohorts for Air Pollution Effects (ESCAPE, http://www.escapeproject.eu/) funded under the EU 7th Framework Programme. Air pollution estimates were modelled for each address using a Land Use Regression (LUR) model."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "2667171.8"
+      ],
+      [
+        "Range",
+        "2667171.8"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.0"
+      ],
+      [
+        "Decile 9",
+        "0.0"
+      ],
+      [
+        "Mean",
+        "125467.50859598853"
+      ],
+      [
+        "Std Dev.",
+        "455372.9275711782"
+      ],
+      [
+        "Variance",
+        "207364503164.7455"
+      ],
+      [
+        "Displayed N",
+        "3141"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "trafmjrld100_2010",
+    "label": "Total traffic load (intensity*length) on major roads in a 100m buffer based upon local road network in 2010 - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=14847",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "trafmjrld100_2010",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "14847",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Total traffic load (intensity*length) on major roads in a 100m buffer based upon local road network in 2010 - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "pollution62_10_set1",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Land Use Regression (LUR) was used to estimate ambient air pollution concentrations at the home addresses of the NSHD participants. LUR combines the actual measurement of air pollution done between 26 Jan 2010 - 18 January 2011 and the development of stochastic models using predictor variables such as traffic variables, population density and meteorology derived with Geographical Information Systems (GIS) to develop statistical models using linear regression",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "trafmajor_2010",
+        "description": "Traffic intensity on the nearest major road defined as a road with traffic intensity > 5,000 vehicles / day based upon a local road network in 2010 - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      },
+      {
+        "varname": "disvmajor1_2010",
+        "description": "Inverse distance to the nearest major road defined as a road with traffic intensity > 5,000 vehicles / day based upon a local road network ni 2010 - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      },
+      {
+        "varname": "majroadlngth100_2010",
+        "description": "Sum of road length of major roads defined as class 0, 1 or 2 (and possibly classes 3 or 4 based upon local knowledge) from the central road network within a 100m buffer in 2010 - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      },
+      {
+        "varname": "trafnear_2010",
+        "description": "Traffic intensity on the nearest road based upon local road network in 2010 - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      },
+      {
+        "varname": "disvnear1_2010",
+        "description": "Inverse distance to the nearest road based upon local road network in 2010 - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      },
+      {
+        "varname": "majorroad_2010",
+        "description": "Indicator variable indicating whether a coordinate is within 50m of a class 1 or 2 type road and/or within 100m of a class 0 road (=motorway), based upon central road network in 2010 - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Not applicable",
+        "question": "Not applicable",
+        "library_file": "pollution62_10_set1"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/pollution62_10_set1/NSHD_air_pollution_exposure_estimates_1989-2010.pdf",
+        "text": "NSHD_air_pollution_exposure_estimates_1989-2010.pdf"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Residential air pollution [5271]",
+        "description": "This category contains data information air pollution estimates that were modelled for the participants addresses using models developed as part of the European Study of Cohorts for Air Pollution Effects (ESCAPE, http://www.escapeproject.eu/) funded under the EU 7th Framework Programme. Air pollution estimates were modelled for each address using a Land Use Regression (LUR) model.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Residential_air_pollution_5271.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 2,
+      "cats": 1,
+      "vals": 1
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          23603.290265486725,
+          47206.58053097345,
+          70809.87079646018,
+          94413.1610619469,
+          118016.45132743362,
+          141619.74159292036,
+          165223.03185840708,
+          188826.3221238938,
+          212429.61238938052,
+          236032.90265486724,
+          259636.19292035396,
+          283239.4831858407,
+          306842.7734513274,
+          330446.06371681415,
+          354049.35398230085,
+          377652.6442477876,
+          401255.93451327435,
+          424859.22477876104,
+          448462.5150442478,
+          472065.8053097345,
+          495669.09557522123,
+          519272.3858407079,
+          542875.6761061946,
+          566478.9663716814,
+          590082.2566371681,
+          613685.5469026548,
+          637288.8371681416,
+          660892.1274336283,
+          684495.417699115,
+          708098.7079646017,
+          731701.9982300885,
+          755305.2884955752,
+          778908.5787610619,
+          802511.8690265487,
+          826115.1592920354,
+          849718.4495575221,
+          873321.7398230088,
+          896925.0300884956,
+          920528.3203539823,
+          944131.610619469,
+          967734.9008849558,
+          991338.1911504425,
+          1014941.4814159292,
+          1038544.7716814158,
+          1062148.0619469027,
+          1085751.3522123892,
+          1109354.642477876,
+          1132957.9327433628,
+          1156561.2230088494,
+          1180164.5132743362,
+          1203767.803539823,
+          1227371.0938053096,
+          1250974.3840707964,
+          1274577.6743362832,
+          1298180.9646017698,
+          1321784.2548672566,
+          1345387.5451327434,
+          1368990.83539823,
+          1392594.1256637168,
+          1416197.4159292034,
+          1439800.7061946902,
+          1463403.996460177,
+          1487007.2867256636,
+          1510610.5769911504,
+          1534213.8672566372,
+          1557817.1575221238,
+          1581420.4477876106,
+          1605023.7380530974,
+          1628627.028318584,
+          1652230.3185840708,
+          1675833.6088495573,
+          1699436.8991150442,
+          1723040.189380531,
+          1746643.4796460175,
+          1770246.7699115044,
+          1793850.0601769912,
+          1817453.3504424777,
+          1841056.6407079645,
+          1864659.9309734514,
+          1888263.221238938,
+          1911866.5115044247,
+          1935469.8017699115,
+          1959073.0920353981,
+          1982676.382300885,
+          2006279.6725663715,
+          2029882.9628318583,
+          2053486.2530973451,
+          2077089.5433628317,
+          2100692.8336283187,
+          2124296.1238938053,
+          2147899.414159292,
+          2171502.7044247785,
+          2195105.9946902655,
+          2218709.284955752,
+          2242312.5752212387,
+          2265915.8654867257,
+          2289519.1557522123,
+          2313122.446017699,
+          2336725.736283186,
+          2360329.0265486725,
+          2383932.316814159,
+          2407535.607079646,
+          2431138.8973451327,
+          2454742.1876106192,
+          2478345.4778761063,
+          2501948.768141593,
+          2525552.0584070794,
+          2549155.3486725665,
+          2572758.638938053,
+          2596361.9292035396,
+          2619965.2194690267,
+          2643568.5097345132,
+          2667171.8
+        ],
+        "counts": [
+          2882,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          2,
+          1,
+          1,
+          0,
+          1,
+          2,
+          2,
+          2,
+          2,
+          5,
+          0,
+          1,
+          1,
+          1,
+          7,
+          1,
+          1,
+          0,
+          3,
+          0,
+          2,
+          1,
+          4,
+          3,
+          5,
+          3,
+          4,
+          2,
+          8,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          4,
+          3,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          3,
+          3,
+          1,
+          1,
+          4,
+          5,
+          0,
+          3,
+          5,
+          6,
+          3,
+          2,
+          4,
+          4,
+          5,
+          2,
+          4,
+          2,
+          3,
+          3,
+          5,
+          2,
+          2,
+          5,
+          1,
+          3,
+          4,
+          3,
+          0,
+          4,
+          5,
+          3,
+          1,
+          1,
+          0,
+          2,
+          1,
+          5,
+          2,
+          2,
+          1,
+          0,
+          1,
+          2,
+          2,
+          3,
+          2,
+          2,
+          2,
+          5
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.0,
+        "max": 2667171.8
+      },
+      "units": "Not applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0"
+      ],
+      [
+        "Maximum",
+        "2667171.8"
+      ],
+      [
+        "Range",
+        "2667171.8"
+      ],
+      [
+        "Median",
+        "0.0"
+      ],
+      [
+        "IQR",
+        "0.0 - 0.0"
+      ],
+      [
+        "Decile 1",
+        "0.0"
+      ],
+      [
+        "Decile 2",
+        "0.0"
+      ],
+      [
+        "Decile 3",
+        "0.0"
+      ],
+      [
+        "Decile 4",
+        "0.0"
+      ],
+      [
+        "Decile 5",
+        "0.0"
+      ],
+      [
+        "Decile 6",
+        "0.0"
+      ],
+      [
+        "Decile 7",
+        "0.0"
+      ],
+      [
+        "Decile 8",
+        "0.0"
+      ],
+      [
+        "Decile 9",
+        "0.0"
+      ],
+      [
+        "Mean",
+        "125467.50859598853"
+      ],
+      [
+        "Std Dev.",
+        "455372.9275711782"
+      ],
+      [
+        "Variance",
+        "207364503164.7455"
+      ],
+      [
+        "Displayed N",
+        "3141"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

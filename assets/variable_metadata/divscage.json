@@ -1,0 +1,473 @@
+{
+  "varname": "divscage",
+  "label": "Age at which parents divorced (history variable) - up to age 53 years",
+  "field_id": "31149",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31149",
+  "year": "",
+  "form": "Various",
+  "units": "years",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 8.07182320441989,
+  "sd": 6.643264481733976,
+  "series_size": 362.0,
+  "minimum": 0.0,
+  "maximum": 23.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "divsbc"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Marital status [5153]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "88.0",
+      "label": "No divorce"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "divscage",
+    "label": "Age at which parents divorced (history variable) - up to age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "divscage"
+      ],
+      [
+        "Field ID",
+        "31149"
+      ],
+      [
+        "Label",
+        "Age at which parents divorced (history variable) - up to age 53 years"
+      ],
+      [
+        "Card Number",
+        "NewDivorce"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell count issue. Contains age information."
+      ],
+      [
+        "Notes",
+        "Derived divorce file till 1999, age 53 years. Variables recording age at parent divorce (div and da72) have been cleaned if missing or inconsistent. Early nurse reports (1950-1961) were used to correctly code age at divorce of parents creating new variables divscage and divsbc."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "divsbc",
+        "Age at which parents divorced (history variable) categories - up to age 53 years",
+        "1999",
+        "Various",
+        "Various",
+        "NewDivorce"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Marital status [5153]",
+        "This category contains data on the marital status history of the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "88.0",
+        "No divorce",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "23"
+      ],
+      [
+        "Range",
+        "23"
+      ],
+      [
+        "Median",
+        "6.0"
+      ],
+      [
+        "IQR",
+        "2.0 - 13.0"
+      ],
+      [
+        "Decile 1",
+        "1.0"
+      ],
+      [
+        "Decile 2",
+        "2.0"
+      ],
+      [
+        "Decile 3",
+        "3.0"
+      ],
+      [
+        "Decile 4",
+        "4.0"
+      ],
+      [
+        "Decile 5",
+        "6.0"
+      ],
+      [
+        "Decile 6",
+        "8.0"
+      ],
+      [
+        "Decile 7",
+        "11.699999999999989"
+      ],
+      [
+        "Decile 8",
+        "14.800000000000011"
+      ],
+      [
+        "Decile 9",
+        "19.0"
+      ],
+      [
+        "Mean",
+        "8.07182320441989"
+      ],
+      [
+        "Std Dev.",
+        "6.643264481733976"
+      ],
+      [
+        "Variance",
+        "44.13296297426819"
+      ],
+      [
+        "Displayed N",
+        "362"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "divscage",
+    "label": "Age at which parents divorced (history variable) - up to age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31149",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "divscage",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31149",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age at which parents divorced (history variable) - up to age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "NewDivorce",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell count issue. Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived divorce file till 1999, age 53 years. Variables recording age at parent divorce (div and da72) have been cleaned if missing or inconsistent. Early nurse reports (1950-1961) were used to correctly code age at divorce of parents creating new variables divscage and divsbc.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "divsbc",
+        "description": "Age at which parents divorced (history variable) categories - up to age 53 years",
+        "year": "1999",
+        "form": "Various",
+        "question": "Various",
+        "library_file": "NewDivorce"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Marital status [5153]",
+        "description": "This category contains data on the marital status history of the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Marital_status_5153.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "No divorce",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0,
+          2.3,
+          4.6,
+          6.8999999999999995,
+          9.2,
+          11.5,
+          13.799999999999999,
+          16.099999999999998,
+          18.4,
+          20.7,
+          23.0
+        ],
+        "counts": [
+          92,
+          59,
+          33,
+          51,
+          18,
+          27,
+          30,
+          11,
+          17,
+          24
+        ]
+      },
+      "boxplot": {
+        "min": 0.0,
+        "q1": 2.0,
+        "median": 6.0,
+        "q3": 13.0,
+        "max": 23.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0"
+      ],
+      [
+        "Maximum",
+        "23"
+      ],
+      [
+        "Range",
+        "23"
+      ],
+      [
+        "Median",
+        "6.0"
+      ],
+      [
+        "IQR",
+        "2.0 - 13.0"
+      ],
+      [
+        "Decile 1",
+        "1.0"
+      ],
+      [
+        "Decile 2",
+        "2.0"
+      ],
+      [
+        "Decile 3",
+        "3.0"
+      ],
+      [
+        "Decile 4",
+        "4.0"
+      ],
+      [
+        "Decile 5",
+        "6.0"
+      ],
+      [
+        "Decile 6",
+        "8.0"
+      ],
+      [
+        "Decile 7",
+        "11.699999999999989"
+      ],
+      [
+        "Decile 8",
+        "14.800000000000011"
+      ],
+      [
+        "Decile 9",
+        "19.0"
+      ],
+      [
+        "Mean",
+        "8.07182320441989"
+      ],
+      [
+        "Std Dev.",
+        "6.643264481733976"
+      ],
+      [
+        "Variance",
+        "44.13296297426819"
+      ],
+      [
+        "Displayed N",
+        "362"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

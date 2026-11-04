@@ -1,0 +1,445 @@
+{
+  "varname": "haexc_3_myft",
+  "label": "Have you had or experienced any of the following - Medication for TB?  - Myofit sub-study",
+  "field_id": "70197",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70197",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 65.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "haexc23x_5",
+    "haexc_1_myft",
+    "haexc_2_myft",
+    "haexc23x_1",
+    "haexc23x_3",
+    "haexc23x_4",
+    "haexc23x_2"
+  ],
+  "linked_years": [
+    "2020-2024",
+    "2023"
+  ],
+  "categories": [
+    "Spirometry [8071]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 65,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "haexc_3_myft",
+    "label": "Have you had or experienced any of the following - Medication for TB?  - Myofit sub-study",
+    "meta_rows": [
+      [
+        "Variable",
+        "haexc_3_myft"
+      ],
+      [
+        "Field ID",
+        "70197"
+      ],
+      [
+        "Label",
+        "Have you had or experienced any of the following - Medication for TB?  - Myofit sub-study"
+      ],
+      [
+        "Card Number",
+        "myft_Lung"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Low cell counts"
+      ],
+      [
+        "Notes",
+        "Lung function variables from the MyoFit study. For those participants who were unable to do the test during the 2023 Home visit, they were asked to do the test during the Myofit clinic visit. These need to be merged with the 2023 HV and NOT the 2015 HV."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "haexc23x_5",
+        "Have you had or experienced any of the following - None of the above - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "lung_function23"
+      ],
+      [
+        "haexc_1_myft",
+        "Have you had or experienced any of the following - Recently coughing up blood of unknown origin? - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_Lung"
+      ],
+      [
+        "haexc_2_myft",
+        "Have you had or experienced any of the following - Ever been diagnosed with aneurysm in chest, brain or stomach? - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "myft_Lung"
+      ],
+      [
+        "haexc23x_1",
+        "Have you had or experienced any of the following - Recently coughing up blood of unknown origin? - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "lung_function23"
+      ],
+      [
+        "haexc23x_3",
+        "Have you had or experienced any of the following - Medication for TB? - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "lung_function23"
+      ],
+      [
+        "haexc23x_4",
+        "Have you had or experienced any of the following - Raised intraocular pressure - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "lung_function23"
+      ],
+      [
+        "haexc23x_2",
+        "Have you had or experienced any of the following - Ever been diagnosed with aneurysm in chest, brain or stomach? - at age 77 years",
+        "2023",
+        "Home visit",
+        "3",
+        "lung_function23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Spirometry [8071]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required. Participants who were unable to do the test during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "65",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "65",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "haexc_3_myft",
+    "label": "Have you had or experienced any of the following - Medication for TB?  - Myofit sub-study",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70197",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "haexc_3_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70197",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Have you had or experienced any of the following - Medication for TB?  - Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "myft_Lung",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Low cell counts",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lung function variables from the MyoFit study. For those participants who were unable to do the test during the 2023 Home visit, they were asked to do the test during the Myofit clinic visit. These need to be merged with the 2023 HV and NOT the 2015 HV.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "haexc23x_5",
+        "description": "Have you had or experienced any of the following - None of the above - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "lung_function23"
+      },
+      {
+        "varname": "haexc_1_myft",
+        "description": "Have you had or experienced any of the following - Recently coughing up blood of unknown origin? - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_Lung"
+      },
+      {
+        "varname": "haexc_2_myft",
+        "description": "Have you had or experienced any of the following - Ever been diagnosed with aneurysm in chest, brain or stomach? - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "myft_Lung"
+      },
+      {
+        "varname": "haexc23x_1",
+        "description": "Have you had or experienced any of the following - Recently coughing up blood of unknown origin? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "lung_function23"
+      },
+      {
+        "varname": "haexc23x_3",
+        "description": "Have you had or experienced any of the following - Medication for TB? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "lung_function23"
+      },
+      {
+        "varname": "haexc23x_4",
+        "description": "Have you had or experienced any of the following - Raised intraocular pressure - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "lung_function23"
+      },
+      {
+        "varname": "haexc23x_2",
+        "description": "Have you had or experienced any of the following - Ever been diagnosed with aneurysm in chest, brain or stomach? - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "lung_function23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Spirometry [8071]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required. Participants who were unable to do the test during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_8071.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 65,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "65",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "65",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "varname": "neutroph09",
+  "label": "Neutrophils (10^9/L) - at age 60-64 years",
+  "field_id": "1092",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1092",
+  "year": "",
+  "form": "Blood assays",
+  "units": "10^9/L",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 3.485324049276915,
+  "sd": 0.9532231790110067,
+  "series_size": 1867.0,
+  "minimum": 1.9,
+  "maximum": 6.1,
+  "truly_longitudinal_field_id": "1092",
+  "truly_longitudinal_varnames": [
+    "neut23x",
+    "neutroph15x"
+  ],
+  "truly_longitudinal_years": [
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Blood, urine, and other samples [27]",
+    "Blood biochemistry [2011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "7777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown, see corresponding result code"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "neutroph09",
+    "label": "Neutrophils (10^9/L) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "neutroph09"
+      ],
+      [
+        "Field ID",
+        "1092"
+      ],
+      [
+        "Label",
+        "Neutrophils (10^9/L) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Blood_Urine09"
+      ],
+      [
+        "Form",
+        "Blood assays"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "10^9/L"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Variable from blood assays."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "neut23x",
+        "2023",
+        "Neutrophils (10^9/L) - at age 77 years"
+      ],
+      [
+        "neutroph15x",
+        "2015",
+        "Neutrophils (10^9/L) - at age 69 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood, urine, and other samples [27]",
+        "Legacy Category"
+      ],
+      [
+        "Blood biochemistry [2011]",
+        "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "7777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown, see corresponding result code",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.9"
+      ],
+      [
+        "Maximum",
+        "6.1"
+      ],
+      [
+        "Range",
+        "4.199999999999999"
+      ],
+      [
+        "Median",
+        "3.33"
+      ],
+      [
+        "IQR",
+        "2.75 - 4.1"
+      ],
+      [
+        "Decile 1",
+        "2.3160000000000003"
+      ],
+      [
+        "Decile 2",
+        "2.6"
+      ],
+      [
+        "Decile 3",
+        "2.9"
+      ],
+      [
+        "Decile 4",
+        "3.1"
+      ],
+      [
+        "Decile 5",
+        "3.33"
+      ],
+      [
+        "Decile 6",
+        "3.6"
+      ],
+      [
+        "Decile 7",
+        "3.93"
+      ],
+      [
+        "Decile 8",
+        "4.3"
+      ],
+      [
+        "Decile 9",
+        "4.884"
+      ],
+      [
+        "Mean",
+        "3.485324049276915"
+      ],
+      [
+        "Std Dev.",
+        "0.9532231790110067"
+      ],
+      [
+        "Variance",
+        "0.9086344290038498"
+      ],
+      [
+        "Displayed N",
+        "1867"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "neutroph09",
+    "label": "Neutrophils (10^9/L) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1092",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "neutroph09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1092",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Neutrophils (10^9/L) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Blood_Urine09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Blood assays",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "10^9/L",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Variable from blood assays.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1092",
+      "members": [
+        {
+          "varname": "neutroph09",
+          "year": "2006-10",
+          "label": "Neutrophils (10^9/L) - at age 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "neutroph15x",
+          "year": "2015",
+          "label": "Neutrophils (10^9/L) - at age 69 years",
+          "is_current": false
+        },
+        {
+          "varname": "neut23x",
+          "year": "2023",
+          "label": "Neutrophils (10^9/L) - at age 77 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood, urine, and other samples [27]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood biochemistry [2011]",
+        "description": "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biochemistry_2011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "10^9/L",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1.9,
+          2.11,
+          2.32,
+          2.53,
+          2.7399999999999998,
+          2.9499999999999997,
+          3.1599999999999997,
+          3.3699999999999997,
+          3.5799999999999996,
+          3.7899999999999996,
+          3.9999999999999996,
+          4.209999999999999,
+          4.42,
+          4.629999999999999,
+          4.84,
+          5.049999999999999,
+          5.26,
+          5.469999999999999,
+          5.68,
+          5.889999999999999,
+          6.1
+        ],
+        "counts": [
+          94,
+          93,
+          124,
+          143,
+          150,
+          175,
+          173,
+          139,
+          128,
+          109,
+          136,
+          82,
+          74,
+          57,
+          49,
+          45,
+          33,
+          17,
+          20,
+          26
+        ]
+      },
+      "boxplot": {
+        "min": 1.9,
+        "q1": 2.75,
+        "median": 3.33,
+        "q3": 4.1,
+        "max": 6.1
+      },
+      "units": "10^9/L"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.9"
+      ],
+      [
+        "Maximum",
+        "6.1"
+      ],
+      [
+        "Range",
+        "4.199999999999999"
+      ],
+      [
+        "Median",
+        "3.33"
+      ],
+      [
+        "IQR",
+        "2.75 - 4.1"
+      ],
+      [
+        "Decile 1",
+        "2.3160000000000003"
+      ],
+      [
+        "Decile 2",
+        "2.6"
+      ],
+      [
+        "Decile 3",
+        "2.9"
+      ],
+      [
+        "Decile 4",
+        "3.1"
+      ],
+      [
+        "Decile 5",
+        "3.33"
+      ],
+      [
+        "Decile 6",
+        "3.6"
+      ],
+      [
+        "Decile 7",
+        "3.93"
+      ],
+      [
+        "Decile 8",
+        "4.3"
+      ],
+      [
+        "Decile 9",
+        "4.884"
+      ],
+      [
+        "Mean",
+        "3.485324049276915"
+      ],
+      [
+        "Std Dev.",
+        "0.9532231790110067"
+      ],
+      [
+        "Variance",
+        "0.9086344290038498"
+      ],
+      [
+        "Displayed N",
+        "1867"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

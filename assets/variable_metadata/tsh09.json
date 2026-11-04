@@ -1,0 +1,573 @@
+{
+  "varname": "tsh09",
+  "label": "Thyroid stimulating hormone - TSH (mIU/L) - at age 60-64 years",
+  "field_id": "1129",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1129",
+  "year": "",
+  "form": "Blood assays",
+  "units": "mIU/L",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2.22678381256656,
+  "sd": 1.032765339333066,
+  "series_size": 1878.0,
+  "minimum": 0.7,
+  "maximum": 5.7,
+  "truly_longitudinal_field_id": "1129",
+  "truly_longitudinal_varnames": [
+    "tsh23x"
+  ],
+  "truly_longitudinal_years": [
+    "2006-10",
+    "2023"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Blood, urine, and other samples [27]",
+    "Blood biochemistry [2011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "7777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown, see corresponding result code"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "tsh09",
+    "label": "Thyroid stimulating hormone - TSH (mIU/L) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "tsh09"
+      ],
+      [
+        "Field ID",
+        "1129"
+      ],
+      [
+        "Label",
+        "Thyroid stimulating hormone - TSH (mIU/L) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Blood_Urine09"
+      ],
+      [
+        "Form",
+        "Blood assays"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mIU/L"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Variable from blood assays."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "tsh23x",
+        "2023",
+        "Thyroid stimulating hormone - TSH (mIU/L) - at age 77 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood, urine, and other samples [27]",
+        "Legacy Category"
+      ],
+      [
+        "Blood biochemistry [2011]",
+        "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "7777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown, see corresponding result code",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.7"
+      ],
+      [
+        "Maximum",
+        "5.7"
+      ],
+      [
+        "Range",
+        "5.0"
+      ],
+      [
+        "Median",
+        "2.0"
+      ],
+      [
+        "IQR",
+        "1.5 - 2.8"
+      ],
+      [
+        "Decile 1",
+        "1.1"
+      ],
+      [
+        "Decile 2",
+        "1.3"
+      ],
+      [
+        "Decile 3",
+        "1.6"
+      ],
+      [
+        "Decile 4",
+        "1.8"
+      ],
+      [
+        "Decile 5",
+        "2.0"
+      ],
+      [
+        "Decile 6",
+        "2.3"
+      ],
+      [
+        "Decile 7",
+        "2.6"
+      ],
+      [
+        "Decile 8",
+        "3.0"
+      ],
+      [
+        "Decile 9",
+        "3.7"
+      ],
+      [
+        "Mean",
+        "2.22678381256656"
+      ],
+      [
+        "Std Dev.",
+        "1.032765339333066"
+      ],
+      [
+        "Variance",
+        "1.0666042461277432"
+      ],
+      [
+        "Displayed N",
+        "1878"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "tsh09",
+    "label": "Thyroid stimulating hormone - TSH (mIU/L) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1129",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "tsh09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1129",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Thyroid stimulating hormone - TSH (mIU/L) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Blood_Urine09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Blood assays",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mIU/L",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Variable from blood assays.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1129",
+      "members": [
+        {
+          "varname": "tsh09",
+          "year": "2006-10",
+          "label": "Thyroid stimulating hormone - TSH (mIU/L) - at age 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "tsh23x",
+          "year": "2023",
+          "label": "Thyroid stimulating hormone - TSH (mIU/L) - at age 77 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood, urine, and other samples [27]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood biochemistry [2011]",
+        "description": "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biochemistry_2011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mIU/L",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.7,
+          0.9083333333333333,
+          1.1166666666666667,
+          1.325,
+          1.5333333333333332,
+          1.7416666666666667,
+          1.95,
+          2.158333333333333,
+          2.3666666666666667,
+          2.575,
+          2.783333333333333,
+          2.991666666666667,
+          3.2,
+          3.408333333333333,
+          3.616666666666667,
+          3.825,
+          4.033333333333333,
+          4.241666666666667,
+          4.45,
+          4.658333333333333,
+          4.866666666666667,
+          5.075,
+          5.283333333333334,
+          5.491666666666667,
+          5.7
+        ],
+        "counts": [
+          103,
+          119,
+          177,
+          151,
+          172,
+          166,
+          151,
+          138,
+          129,
+          89,
+          80,
+          82,
+          76,
+          41,
+          44,
+          29,
+          21,
+          31,
+          19,
+          15,
+          13,
+          15,
+          5,
+          12
+        ]
+      },
+      "boxplot": {
+        "min": 0.7,
+        "q1": 1.5,
+        "median": 2.0,
+        "q3": 2.8,
+        "max": 5.7
+      },
+      "units": "mIU/L"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.7"
+      ],
+      [
+        "Maximum",
+        "5.7"
+      ],
+      [
+        "Range",
+        "5.0"
+      ],
+      [
+        "Median",
+        "2.0"
+      ],
+      [
+        "IQR",
+        "1.5 - 2.8"
+      ],
+      [
+        "Decile 1",
+        "1.1"
+      ],
+      [
+        "Decile 2",
+        "1.3"
+      ],
+      [
+        "Decile 3",
+        "1.6"
+      ],
+      [
+        "Decile 4",
+        "1.8"
+      ],
+      [
+        "Decile 5",
+        "2.0"
+      ],
+      [
+        "Decile 6",
+        "2.3"
+      ],
+      [
+        "Decile 7",
+        "2.6"
+      ],
+      [
+        "Decile 8",
+        "3.0"
+      ],
+      [
+        "Decile 9",
+        "3.7"
+      ],
+      [
+        "Mean",
+        "2.22678381256656"
+      ],
+      [
+        "Std Dev.",
+        "1.032765339333066"
+      ],
+      [
+        "Variance",
+        "1.0666042461277432"
+      ],
+      [
+        "Displayed N",
+        "1878"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

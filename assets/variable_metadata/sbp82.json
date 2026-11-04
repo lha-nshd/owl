@@ -1,0 +1,533 @@
+{
+  "varname": "sbp82",
+  "label": "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 36 years",
+  "field_id": "1137",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1137",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "mmHg",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 119.79360135135137,
+  "sd": 11.39114052688498,
+  "series_size": 2960.0,
+  "minimum": 97.23,
+  "maximum": 144.8,
+  "truly_longitudinal_field_id": "1137",
+  "truly_longitudinal_varnames": [
+    "sbp09",
+    "sbp89",
+    "sbp99"
+  ],
+  "truly_longitudinal_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Blood pressure [1103]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "sbp82",
+    "label": "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 36 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "sbp82"
+      ],
+      [
+        "Field ID",
+        "1137"
+      ],
+      [
+        "Label",
+        "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "cvd_bp"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "81"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmHg"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "1982 Main questionnaire. Blood pressure section."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "sbp89",
+        "1989",
+        "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 43 years"
+      ],
+      [
+        "sbp99",
+        "1999",
+        "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 53 years"
+      ],
+      [
+        "sbp09",
+        "2006-10",
+        "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 60-64 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/cvd_bp/Doc_cvd_bp_v1.docx",
+        "Doc_cvd_bp_v1.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Blood pressure [1103]",
+        "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "97.23"
+      ],
+      [
+        "Maximum",
+        "144.8"
+      ],
+      [
+        "Range",
+        "47.57000000000001"
+      ],
+      [
+        "Median",
+        "119.15"
+      ],
+      [
+        "IQR",
+        "111.265 - 128.1775"
+      ],
+      [
+        "Decile 1",
+        "104.609"
+      ],
+      [
+        "Decile 2",
+        "109.207"
+      ],
+      [
+        "Decile 3",
+        "112.91199999999999"
+      ],
+      [
+        "Decile 4",
+        "116.075"
+      ],
+      [
+        "Decile 5",
+        "119.15"
+      ],
+      [
+        "Decile 6",
+        "122.6"
+      ],
+      [
+        "Decile 7",
+        "126.1865"
+      ],
+      [
+        "Decile 8",
+        "130.30100000000002"
+      ],
+      [
+        "Decile 9",
+        "135.7505"
+      ],
+      [
+        "Mean",
+        "119.79360135135137"
+      ],
+      [
+        "Std Dev.",
+        "11.39114052688498"
+      ],
+      [
+        "Variance",
+        "129.7580825032414"
+      ],
+      [
+        "Displayed N",
+        "2960"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "sbp82",
+    "label": "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 36 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1137",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "sbp82",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1137",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "cvd_bp",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "81",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmHg",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "1982 Main questionnaire. Blood pressure section.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1137",
+      "members": [
+        {
+          "varname": "sbp82",
+          "year": "1982",
+          "label": "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 36 years",
+          "is_current": true
+        },
+        {
+          "varname": "sbp89",
+          "year": "1989",
+          "label": "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "sbp99",
+          "year": "1999",
+          "label": "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "sbp09",
+          "year": "2006-10",
+          "label": "Systolic blood pressure (mmHg) - second reading, if missing, first reading is used - at age 60-64 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/cvd_bp/Doc_cvd_bp_v1.docx",
+        "text": "Doc_cvd_bp_v1.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood pressure [1103]",
+        "description": "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pressure_1103.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 2,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmHg",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          97.23,
+          99.4952380952381,
+          101.7604761904762,
+          104.02571428571429,
+          106.29095238095239,
+          108.55619047619048,
+          110.82142857142858,
+          113.08666666666667,
+          115.35190476190476,
+          117.61714285714287,
+          119.88238095238097,
+          122.14761904761906,
+          124.41285714285715,
+          126.67809523809525,
+          128.94333333333333,
+          131.20857142857145,
+          133.47380952380954,
+          135.73904761904762,
+          138.00428571428574,
+          140.26952380952383,
+          142.53476190476192,
+          144.8
+        ],
+        "counts": [
+          67,
+          86,
+          107,
+          134,
+          146,
+          160,
+          204,
+          212,
+          215,
+          217,
+          187,
+          181,
+          195,
+          163,
+          137,
+          138,
+          110,
+          105,
+          64,
+          69,
+          63
+        ]
+      },
+      "boxplot": {
+        "min": 97.23,
+        "q1": 111.265,
+        "median": 119.15,
+        "q3": 128.1775,
+        "max": 144.8
+      },
+      "units": "mmHg"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "97.23"
+      ],
+      [
+        "Maximum",
+        "144.8"
+      ],
+      [
+        "Range",
+        "47.57000000000001"
+      ],
+      [
+        "Median",
+        "119.15"
+      ],
+      [
+        "IQR",
+        "111.265 - 128.1775"
+      ],
+      [
+        "Decile 1",
+        "104.609"
+      ],
+      [
+        "Decile 2",
+        "109.207"
+      ],
+      [
+        "Decile 3",
+        "112.91199999999999"
+      ],
+      [
+        "Decile 4",
+        "116.075"
+      ],
+      [
+        "Decile 5",
+        "119.15"
+      ],
+      [
+        "Decile 6",
+        "122.6"
+      ],
+      [
+        "Decile 7",
+        "126.1865"
+      ],
+      [
+        "Decile 8",
+        "130.30100000000002"
+      ],
+      [
+        "Decile 9",
+        "135.7505"
+      ],
+      [
+        "Mean",
+        "119.79360135135137"
+      ],
+      [
+        "Std Dev.",
+        "11.39114052688498"
+      ],
+      [
+        "Variance",
+        "129.7580825032414"
+      ],
+      [
+        "Displayed N",
+        "2960"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

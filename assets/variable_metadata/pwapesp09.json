@@ -1,0 +1,500 @@
+{
+  "varname": "pwapesp09",
+  "label": "End Systolic Pressure (PWA) at 60-64 years",
+  "field_id": "5946",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=5946",
+  "year": "",
+  "form": "SphygmoCor",
+  "units": "mmHg",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 99.82930402930403,
+  "sd": 10.85634561788475,
+  "series_size": 1365.0,
+  "minimum": 79.0,
+  "maximum": 124.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Pulse wave analysis (PWA) [10521]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "7777.0",
+      "label": "No Clinic/Home visit"
+    },
+    {
+      "value": "7778.0",
+      "label": "Test not done - had a home visit"
+    },
+    {
+      "value": "7779.0",
+      "label": "Test not done but went to clinic"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "pwapesp09",
+    "label": "End Systolic Pressure (PWA) at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "pwapesp09"
+      ],
+      [
+        "Field ID",
+        "5946"
+      ],
+      [
+        "Label",
+        "End Systolic Pressure (PWA) at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "PWA09"
+      ],
+      [
+        "Form",
+        "SphygmoCor"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmHg"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived variables from the Pulse wave analysis carried out in 2006-10 data collection."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Pulse wave analysis (PWA) [10521]",
+        "Pulse wave analysis and blood pressure measurement was carried out using a vicorder instrument."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "7777.0",
+        "No Clinic/Home visit",
+        true
+      ],
+      [
+        "7778.0",
+        "Test not done - had a home visit",
+        true
+      ],
+      [
+        "7779.0",
+        "Test not done but went to clinic",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "79"
+      ],
+      [
+        "Maximum",
+        "124"
+      ],
+      [
+        "Range",
+        "45"
+      ],
+      [
+        "Median",
+        "100.0"
+      ],
+      [
+        "IQR",
+        "91.0 - 108.0"
+      ],
+      [
+        "Decile 1",
+        "86.0"
+      ],
+      [
+        "Decile 2",
+        "90.0"
+      ],
+      [
+        "Decile 3",
+        "93.0"
+      ],
+      [
+        "Decile 4",
+        "96.0"
+      ],
+      [
+        "Decile 5",
+        "100.0"
+      ],
+      [
+        "Decile 6",
+        "103.0"
+      ],
+      [
+        "Decile 7",
+        "106.0"
+      ],
+      [
+        "Decile 8",
+        "110.0"
+      ],
+      [
+        "Decile 9",
+        "115.0"
+      ],
+      [
+        "Mean",
+        "99.82930402930403"
+      ],
+      [
+        "Std Dev.",
+        "10.85634561788475"
+      ],
+      [
+        "Variance",
+        "117.86024017496544"
+      ],
+      [
+        "Displayed N",
+        "1365"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "pwapesp09",
+    "label": "End Systolic Pressure (PWA) at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=5946",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "pwapesp09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "5946",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "End Systolic Pressure (PWA) at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PWA09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "SphygmoCor",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmHg",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variables from the Pulse wave analysis carried out in 2006-10 data collection.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Pulse wave analysis (PWA) [10521]",
+        "description": "Pulse wave analysis and blood pressure measurement was carried out using a vicorder instrument.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Pulse_wave_analysis_(PWA)_10521.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No Clinic/Home visit",
+        "is_missing": true
+      },
+      {
+        "value": "7778.0",
+        "label": "Test not done - had a home visit",
+        "is_missing": true
+      },
+      {
+        "value": "7779.0",
+        "label": "Test not done but went to clinic",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmHg",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          79.0,
+          82.0,
+          85.0,
+          88.0,
+          91.0,
+          94.0,
+          97.0,
+          100.0,
+          103.0,
+          106.0,
+          109.0,
+          112.0,
+          115.0,
+          118.0,
+          121.0,
+          124.0
+        ],
+        "counts": [
+          55,
+          59,
+          77,
+          118,
+          128,
+          112,
+          126,
+          140,
+          129,
+          106,
+          91,
+          66,
+          76,
+          44,
+          38
+        ]
+      },
+      "boxplot": {
+        "min": 79.0,
+        "q1": 91.0,
+        "median": 100.0,
+        "q3": 108.0,
+        "max": 124.0
+      },
+      "units": "mmHg"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "79"
+      ],
+      [
+        "Maximum",
+        "124"
+      ],
+      [
+        "Range",
+        "45"
+      ],
+      [
+        "Median",
+        "100.0"
+      ],
+      [
+        "IQR",
+        "91.0 - 108.0"
+      ],
+      [
+        "Decile 1",
+        "86.0"
+      ],
+      [
+        "Decile 2",
+        "90.0"
+      ],
+      [
+        "Decile 3",
+        "93.0"
+      ],
+      [
+        "Decile 4",
+        "96.0"
+      ],
+      [
+        "Decile 5",
+        "100.0"
+      ],
+      [
+        "Decile 6",
+        "103.0"
+      ],
+      [
+        "Decile 7",
+        "106.0"
+      ],
+      [
+        "Decile 8",
+        "110.0"
+      ],
+      [
+        "Decile 9",
+        "115.0"
+      ],
+      [
+        "Mean",
+        "99.82930402930403"
+      ],
+      [
+        "Std Dev.",
+        "10.85634561788475"
+      ],
+      [
+        "Variance",
+        "117.86024017496544"
+      ],
+      [
+        "Displayed N",
+        "1365"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

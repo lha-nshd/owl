@@ -1,0 +1,491 @@
+{
+  "varname": "msmu09",
+  "label": "How long ago did you give up smoking? - months ago - at age 60-64 years",
+  "field_id": "8793",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8793",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "months",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": null,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "8793",
+  "truly_longitudinal_varnames": [
+    "msmu14x",
+    "msmu22x"
+  ],
+  "truly_longitudinal_years": [
+    "2006-10",
+    "2014",
+    "2022"
+  ],
+  "linked_varnames": [
+    "givup89",
+    "ysmu14x",
+    "wsmu09",
+    "ysmu22x",
+    "stop89",
+    "wsmu14x",
+    "wsmu22x",
+    "ysmu09"
+  ],
+  "linked_years": [
+    "1989",
+    "2006-10",
+    "2014",
+    "2022"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "Smoking [5251]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "66.0",
+      "label": "SM has Pre-assessment and Postal Qs but was not asked the smoking questions"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "msmu09",
+    "label": "How long ago did you give up smoking? - months ago - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "msmu09"
+      ],
+      [
+        "Field ID",
+        "8793"
+      ],
+      [
+        "Label",
+        "How long ago did you give up smoking? - months ago - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Smoking09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "55(b)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "months"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Lifestyle questions - smoking habits Q54-Q73"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "msmu22x",
+        "2022",
+        "How long ago did you give up smoking? - months ago - at age 76 years"
+      ],
+      [
+        "msmu14x",
+        "2014",
+        "How long ago did you give up smoking? - months ago - at age 68 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "givup89",
+        "Have you ever tried to give up smoking? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "75(b)",
+        "de89d"
+      ],
+      [
+        "ysmu14x",
+        "How long ago did you give up smoking? - years ago - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "47(b)",
+        "Smoking14"
+      ],
+      [
+        "wsmu09",
+        "How long ago did you give up smoking? - weeks ago - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "55(b)",
+        "Smoking09"
+      ],
+      [
+        "ysmu22x",
+        "How long ago did you give up smoking? - years ago - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "138",
+        "Postal22"
+      ],
+      [
+        "stop89",
+        "How long is it since you last gave up cigarette smoking? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "75(c)",
+        "de89d"
+      ],
+      [
+        "wsmu14x",
+        "How long ago did you give up smoking? - weeks ago - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "47(b)",
+        "Smoking14"
+      ],
+      [
+        "wsmu22x",
+        "How long ago did you give up smoking? - weeks ago - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "138",
+        "Postal22"
+      ],
+      [
+        "ysmu09",
+        "How long ago did you give up smoking? - years ago - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "55(b)",
+        "Smoking09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Smoking [5251]",
+        "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "66.0",
+        "SM has Pre-assessment and Postal Qs but was not asked the smoking questions",
+        true
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [],
+    "freq_note": ""
+  },
+  "page": {
+    "varname": "msmu09",
+    "label": "How long ago did you give up smoking? - months ago - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8793",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "msmu09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8793",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How long ago did you give up smoking? - months ago - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Smoking09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "55(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "months",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Lifestyle questions - smoking habits Q54-Q73",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "8793",
+      "members": [
+        {
+          "varname": "msmu09",
+          "year": "2006-10",
+          "label": "How long ago did you give up smoking? - months ago - at age 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "msmu14x",
+          "year": "2014",
+          "label": "How long ago did you give up smoking? - months ago - at age 68 years",
+          "is_current": false
+        },
+        {
+          "varname": "msmu22x",
+          "year": "2022",
+          "label": "How long ago did you give up smoking? - months ago - at age 76 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "givup89",
+        "description": "Have you ever tried to give up smoking? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "75(b)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "ysmu14x",
+        "description": "How long ago did you give up smoking? - years ago - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "47(b)",
+        "library_file": "Smoking14"
+      },
+      {
+        "varname": "wsmu09",
+        "description": "How long ago did you give up smoking? - weeks ago - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "55(b)",
+        "library_file": "Smoking09"
+      },
+      {
+        "varname": "ysmu22x",
+        "description": "How long ago did you give up smoking? - years ago - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "138",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "stop89",
+        "description": "How long is it since you last gave up cigarette smoking? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "75(c)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "wsmu14x",
+        "description": "How long ago did you give up smoking? - weeks ago - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "47(b)",
+        "library_file": "Smoking14"
+      },
+      {
+        "varname": "wsmu22x",
+        "description": "How long ago did you give up smoking? - weeks ago - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "138",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "ysmu09",
+        "description": "How long ago did you give up smoking? - years ago - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "55(b)",
+        "library_file": "Smoking09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Smoking [5251]",
+        "description": "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Smoking_5251.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "66.0",
+        "label": "SM has Pre-assessment and Postal Qs but was not asked the smoking questions",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 10,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "months",
+    "chart": null,
+    "freq_rows": [],
+    "freq_note": "",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "varname": "bleyn03",
+  "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 57 years",
+  "field_id": "20324",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=20324",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 183.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "20324",
+  "truly_longitudinal_varnames": [
+    "bleyn00",
+    "bleyn94",
+    "bleyn95",
+    "bleyn96",
+    "bleyn97",
+    "bleyn98",
+    "bleyn99"
+  ],
+  "truly_longitudinal_years": [
+    "1994",
+    "1995",
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2003"
+  ],
+  "linked_varnames": [
+    "bleyn9b",
+    "bleyn93"
+  ],
+  "linked_years": [
+    "1993",
+    "1999"
+  ],
+  "categories": [
+    "Women's health [9]",
+    "Menstrual cycle [7007]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "3.0",
+      "label": "No obvious reason/menopause"
+    },
+    {
+      "value": "7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No obvious reason/menopause",
+      "count": 183,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "bleyn03",
+    "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 57 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "bleyn03"
+      ],
+      [
+        "Field ID",
+        "20324"
+      ],
+      [
+        "Label",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 57 years"
+      ],
+      [
+        "Card Number",
+        "DEWH032"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "3(iii)"
+      ],
+      [
+        "Year",
+        "2003"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Menstrual bleeding"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "bleyn94",
+        "1994",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 48 years"
+      ],
+      [
+        "bleyn95",
+        "1995",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 49 years"
+      ],
+      [
+        "bleyn96",
+        "1996",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 50 years"
+      ],
+      [
+        "bleyn97",
+        "1997",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 51 years"
+      ],
+      [
+        "bleyn98",
+        "1998",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 52 years"
+      ],
+      [
+        "bleyn99",
+        "1999",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 53 years"
+      ],
+      [
+        "bleyn00",
+        "2000",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 54 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "bleyn9b",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause (1999 Self-completion)? - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "58(iv)",
+        "des99"
+      ],
+      [
+        "bleyn93",
+        "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 47 years",
+        "1993",
+        "Woman's Health Questionnaire",
+        "7(iv)",
+        "DEWH93"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Menstrual cycle [7007]",
+        "This cateogry contains data from the woman's health questionnaires on periods -  frequency, flow, length and if they had stopped. "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "3.0",
+        "No obvious reason/menopause",
+        false
+      ],
+      [
+        "7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "3",
+        "183",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "183",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "bleyn03",
+    "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 57 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=20324",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "bleyn03",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "20324",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 57 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "DEWH032",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "3(iii)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2003",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Menstrual bleeding",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "20324",
+      "members": [
+        {
+          "varname": "bleyn94",
+          "year": "1994",
+          "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 48 years",
+          "is_current": false
+        },
+        {
+          "varname": "bleyn95",
+          "year": "1995",
+          "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 49 years",
+          "is_current": false
+        },
+        {
+          "varname": "bleyn96",
+          "year": "1996",
+          "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 50 years",
+          "is_current": false
+        },
+        {
+          "varname": "bleyn97",
+          "year": "1997",
+          "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 51 years",
+          "is_current": false
+        },
+        {
+          "varname": "bleyn98",
+          "year": "1998",
+          "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 52 years",
+          "is_current": false
+        },
+        {
+          "varname": "bleyn99",
+          "year": "1999",
+          "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "bleyn00",
+          "year": "2000",
+          "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 54 years",
+          "is_current": false
+        },
+        {
+          "varname": "bleyn03",
+          "year": "2003",
+          "label": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 57 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "bleyn9b",
+        "description": "If no period in last 12 months, were they stopped by no obvious reason/menopause (1999 Self-completion)? - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "58(iv)",
+        "library_file": "des99"
+      },
+      {
+        "varname": "bleyn93",
+        "description": "If no period in last 12 months, were they stopped by no obvious reason/menopause? - at age 47 years",
+        "year": "1993",
+        "form": "Woman's Health Questionnaire",
+        "question": "7(iv)",
+        "library_file": "DEWH93"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Menstrual cycle [7007]",
+        "description": "This cateogry contains data from the woman's health questionnaires on periods -  frequency, flow, length and if they had stopped. ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Menstrual_cycle_7007.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "3.0",
+        "label": "No obvious reason/menopause",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 9,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "3",
+          "label": "No obvious reason/menopause",
+          "count": 183,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "3",
+        "183",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "183",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

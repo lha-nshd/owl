@@ -1,0 +1,393 @@
+{
+  "varname": "disa14x",
+  "label": "Do you have any longstanding illness or health problem? (By longstanding we mean illnesses or health problems which have lasted, or are expected to last, for 6 months or more) - at age 68 years",
+  "field_id": "8640",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8640",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2428.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "8640",
+  "truly_longitudinal_varnames": [
+    "disa22x"
+  ],
+  "truly_longitudinal_years": [
+    "2014",
+    "2022"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "General health [3]",
+    "Self-rated health [5103]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 1000,
+      "pct": 41.2
+    },
+    {
+      "label": "Yes",
+      "count": 1428,
+      "pct": 58.8
+    }
+  ],
+  "pdf": {
+    "varname": "disa14x",
+    "label": "Do you have any longstanding illness or health problem? (By longstanding we mean illnesses or health problems which have lasted, or are expected to last, for 6 months or more) - at age 68 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "disa14x"
+      ],
+      [
+        "Field ID",
+        "8640"
+      ],
+      [
+        "Label",
+        "Do you have any longstanding illness or health problem? (By longstanding we mean illnesses or health problems which have lasted, or are expected to last, for 6 months or more) - at age 68 years"
+      ],
+      [
+        "Card Number",
+        "SelfRatedHealth14"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "17"
+      ],
+      [
+        "Year",
+        "2014"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Current health and health since your 60-64th birthday questions, Q16-Q37."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "disa22x",
+        "2022",
+        "Do you have any longstanding illness or health problem? (By longstanding we mean illnesses or health problems which have lasted, or are expected to last, for 6 months or more) - at age 76 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Self-rated health [5103]",
+        "This category contains data from the questionnaires on self rated health and qualiy of life of the participant."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1000",
+        "41%"
+      ],
+      [
+        "1",
+        "1428",
+        "59%"
+      ],
+      [
+        "Displayed N",
+        "2428",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "disa14x",
+    "label": "Do you have any longstanding illness or health problem? (By longstanding we mean illnesses or health problems which have lasted, or are expected to last, for 6 months or more) - at age 68 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=8640",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "disa14x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "8640",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Do you have any longstanding illness or health problem? (By longstanding we mean illnesses or health problems which have lasted, or are expected to last, for 6 months or more) - at age 68 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "SelfRatedHealth14",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "17",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2014",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Current health and health since your 60-64th birthday questions, Q16-Q37.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "8640",
+      "members": [
+        {
+          "varname": "disa14x",
+          "year": "2014",
+          "label": "Do you have any longstanding illness or health problem? (By longstanding we mean illnesses or health problems which have lasted, or are expected to last, for 6 months or more) - at age 68 years",
+          "is_current": true
+        },
+        {
+          "varname": "disa22x",
+          "year": "2022",
+          "label": "Do you have any longstanding illness or health problem? (By longstanding we mean illnesses or health problems which have lasted, or are expected to last, for 6 months or more) - at age 76 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Self-rated health [5103]",
+        "description": "This category contains data from the questionnaires on self rated health and qualiy of life of the participant.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Self-rated_health_5103.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 1000,
+          "pct": 41
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 1428,
+          "pct": 59
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1000",
+        "41%"
+      ],
+      [
+        "1",
+        "1428",
+        "59%"
+      ],
+      [
+        "Displayed N",
+        "2428",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,685 @@
+{
+  "varname": "hou09",
+  "label": "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 60-64 years",
+  "field_id": "40262",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=40262",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2419.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "hou82",
+    "hhnumwh25_5x",
+    "hhnumwh25_7x",
+    "hhnumwh25_2x",
+    "hhnumwh25_4x",
+    "hhnumwh25_1x",
+    "hhnumwh25_6x",
+    "hou14x",
+    "hou",
+    "hou22x",
+    "hhnumwh25_3x",
+    "hou89"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2014",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "Other socioeconomic circumstances [24]",
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "One"
+    },
+    {
+      "value": "2.0",
+      "label": "Two"
+    },
+    {
+      "value": "3.0",
+      "label": "Three"
+    },
+    {
+      "value": "4.0",
+      "label": "Four"
+    },
+    {
+      "value": "5.0",
+      "label": "Five"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "One",
+      "count": 347,
+      "pct": 14.3
+    },
+    {
+      "label": "Two",
+      "count": 1674,
+      "pct": 69.2
+    },
+    {
+      "label": "Three",
+      "count": 292,
+      "pct": 12.1
+    },
+    {
+      "label": "Four",
+      "count": 86,
+      "pct": 3.6
+    },
+    {
+      "label": "Five",
+      "count": 20,
+      "pct": 0.8
+    }
+  ],
+  "pdf": {
+    "varname": "hou09",
+    "label": "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "hou09"
+      ],
+      [
+        "Field ID",
+        "40262"
+      ],
+      [
+        "Label",
+        "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "HousingTen09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "26"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell counts issue. Recoded version is available."
+      ],
+      [
+        "Notes",
+        "Family, home and retirement questions, Q1-Q15. Contains low numbers for certain categories."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "hou82",
+        "How many people live in this household, including you? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "1(a)",
+        "B10"
+      ],
+      [
+        "hhnumwh25_5x",
+        "How many people in total live in your household, and who are they: Other relative - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "27",
+        "Postal2025"
+      ],
+      [
+        "hhnumwh25_7x",
+        "How many people in total live in your household, and who are they: Other - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "27",
+        "Postal2025"
+      ],
+      [
+        "hhnumwh25_2x",
+        "How many people in total live in your household, and who are they: Children - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "27",
+        "Postal2025"
+      ],
+      [
+        "hhnumwh25_4x",
+        "How many people in total live in your household, and who are they: Sibling - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "27",
+        "Postal2025"
+      ],
+      [
+        "hhnumwh25_1x",
+        "How many people in total live in your household, and who are they: Husband/Wife/Cohabiting Partner - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "27",
+        "Postal2025"
+      ],
+      [
+        "hhnumwh25_6x",
+        "How many people in total live in your household, and who are they: Friend / unrelated sharer - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "27",
+        "Postal2025"
+      ],
+      [
+        "hou14x",
+        "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "3",
+        "VehiclesPeople14"
+      ],
+      [
+        "hou",
+        "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "10",
+        "capi99a"
+      ],
+      [
+        "hou22x",
+        "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "3",
+        "Postal22"
+      ],
+      [
+        "hhnumwh25_3x",
+        "How many people in total live in your household, and who are they: Grandchild - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "27",
+        "Postal2025"
+      ],
+      [
+        "hou89",
+        "How many people live in this household, including you? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "2(a)",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "One",
+        false
+      ],
+      [
+        "2.0",
+        "Two",
+        false
+      ],
+      [
+        "3.0",
+        "Three",
+        false
+      ],
+      [
+        "4.0",
+        "Four",
+        false
+      ],
+      [
+        "5.0",
+        "Five",
+        false
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "347",
+        "14%"
+      ],
+      [
+        "2",
+        "1674",
+        "69%"
+      ],
+      [
+        "3",
+        "292",
+        "12%"
+      ],
+      [
+        "4",
+        "86",
+        "4%"
+      ],
+      [
+        "5",
+        "20",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2419",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "hou09",
+    "label": "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=40262",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hou09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "40262",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "HousingTen09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "26",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell counts issue. Recoded version is available.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Family, home and retirement questions, Q1-Q15. Contains low numbers for certain categories.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "hou82",
+        "description": "How many people live in this household, including you? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "1(a)",
+        "library_file": "B10"
+      },
+      {
+        "varname": "hhnumwh25_5x",
+        "description": "How many people in total live in your household, and who are they: Other relative - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "27",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "hhnumwh25_7x",
+        "description": "How many people in total live in your household, and who are they: Other - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "27",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "hhnumwh25_2x",
+        "description": "How many people in total live in your household, and who are they: Children - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "27",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "hhnumwh25_4x",
+        "description": "How many people in total live in your household, and who are they: Sibling - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "27",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "hhnumwh25_1x",
+        "description": "How many people in total live in your household, and who are they: Husband/Wife/Cohabiting Partner - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "27",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "hhnumwh25_6x",
+        "description": "How many people in total live in your household, and who are they: Friend / unrelated sharer - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "27",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "hou14x",
+        "description": "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "3",
+        "library_file": "VehiclesPeople14"
+      },
+      {
+        "varname": "hou",
+        "description": "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "10",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "hou22x",
+        "description": "How many people in total live in your household, including yourself?  Include those who live in the household but are away e.g. working away or a student - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "3",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "hhnumwh25_3x",
+        "description": "How many people in total live in your household, and who are they: Grandchild - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "27",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "hou89",
+        "description": "How many people live in this household, including you? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "2(a)",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "One",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Two",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Three",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Four",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Five",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 12,
+      "docs": 1,
+      "cats": 2,
+      "vals": 8
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "One",
+          "count": 347,
+          "pct": 14
+        },
+        {
+          "value": "2",
+          "label": "Two",
+          "count": 1674,
+          "pct": 69
+        },
+        {
+          "value": "3",
+          "label": "Three",
+          "count": 292,
+          "pct": 12
+        },
+        {
+          "value": "4",
+          "label": "Four",
+          "count": 86,
+          "pct": 4
+        },
+        {
+          "value": "5",
+          "label": "Five",
+          "count": 20,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "347",
+        "14%"
+      ],
+      [
+        "2",
+        "1674",
+        "69%"
+      ],
+      [
+        "3",
+        "292",
+        "12%"
+      ],
+      [
+        "4",
+        "86",
+        "4%"
+      ],
+      [
+        "5",
+        "20",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2419",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

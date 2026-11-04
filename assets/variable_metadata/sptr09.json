@@ -1,0 +1,529 @@
+{
+  "varname": "sptr09",
+  "label": "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 60-64 years",
+  "field_id": "10290",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10290",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2446.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "sptr25x",
+    "sptr14x",
+    "sptr89",
+    "sptr22x",
+    "spt89"
+  ],
+  "linked_years": [
+    "1989",
+    "2014",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "Social support or life events [25]",
+    "Social activities [5254]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Never"
+    },
+    {
+      "value": "1.0",
+      "label": "Less often"
+    },
+    {
+      "value": "2.0",
+      "label": "Monthly"
+    },
+    {
+      "value": "3.0",
+      "label": "Weekly"
+    },
+    {
+      "value": "77.0",
+      "label": "did not complete postal questionnaire"
+    },
+    {
+      "value": "99.0",
+      "label": "missing"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Never",
+      "count": 1438,
+      "pct": 58.8
+    },
+    {
+      "label": "Less often",
+      "count": 123,
+      "pct": 5.0
+    },
+    {
+      "label": "Monthly",
+      "count": 197,
+      "pct": 8.1
+    },
+    {
+      "label": "Weekly",
+      "count": 688,
+      "pct": 28.1
+    }
+  ],
+  "pdf": {
+    "varname": "sptr09",
+    "label": "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "sptr09"
+      ],
+      [
+        "Field ID",
+        "10290"
+      ],
+      [
+        "Label",
+        "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "SpareTimeActs09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "58(c)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Social activities Q58. Asked in both 2014 and 2022 but with different codings."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "sptr25x",
+        "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "39",
+        "Postal2025"
+      ],
+      [
+        "sptr14x",
+        "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "64(b)",
+        "SocialActivities14"
+      ],
+      [
+        "sptr89",
+        "In your spare time, do you help to run/belong to any sports clubs? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "57",
+        "de89d"
+      ],
+      [
+        "sptr22x",
+        "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "176(b)",
+        "Postal22"
+      ],
+      [
+        "spt89",
+        "How often do you take part in sports club activities? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "57",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social support or life events [25]",
+        "Legacy Category"
+      ],
+      [
+        "Social activities [5254]",
+        "This category contains data from the questionnaires on social acitivities such as reading and using a computer. It also include spare time activities."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Never",
+        false
+      ],
+      [
+        "1.0",
+        "Less often",
+        false
+      ],
+      [
+        "2.0",
+        "Monthly",
+        false
+      ],
+      [
+        "3.0",
+        "Weekly",
+        false
+      ],
+      [
+        "77.0",
+        "did not complete postal questionnaire",
+        true
+      ],
+      [
+        "99.0",
+        "missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1438",
+        "59%"
+      ],
+      [
+        "1",
+        "123",
+        "5%"
+      ],
+      [
+        "2",
+        "197",
+        "8%"
+      ],
+      [
+        "3",
+        "688",
+        "28%"
+      ],
+      [
+        "Displayed N",
+        "2446",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "sptr09",
+    "label": "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10290",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "sptr09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10290",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "SpareTimeActs09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "58(c)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Social activities Q58. Asked in both 2014 and 2022 but with different codings.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "sptr25x",
+        "description": "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "39",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "sptr14x",
+        "description": "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "64(b)",
+        "library_file": "SocialActivities14"
+      },
+      {
+        "varname": "sptr89",
+        "description": "In your spare time, do you help to run/belong to any sports clubs? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "57",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "sptr22x",
+        "description": "How often have you taken part in each of the following social activities in the last 12 months? - Sports group e.g. golf, cycle, dancing or walking clubs - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "176(b)",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "spt89",
+        "description": "How often do you take part in sports club activities? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "57",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social support or life events [25]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Social activities [5254]",
+        "description": "This category contains data from the questionnaires on social acitivities such as reading and using a computer. It also include spare time activities.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Social_activities_5254.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Never",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Less often",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Monthly",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Weekly",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "did not complete postal questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Never",
+          "count": 1438,
+          "pct": 59
+        },
+        {
+          "value": "1",
+          "label": "Less often",
+          "count": 123,
+          "pct": 5
+        },
+        {
+          "value": "2",
+          "label": "Monthly",
+          "count": 197,
+          "pct": 8
+        },
+        {
+          "value": "3",
+          "label": "Weekly",
+          "count": 688,
+          "pct": 28
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1438",
+        "59%"
+      ],
+      [
+        "1",
+        "123",
+        "5%"
+      ],
+      [
+        "2",
+        "197",
+        "8%"
+      ],
+      [
+        "3",
+        "688",
+        "28%"
+      ],
+      [
+        "Displayed N",
+        "2446",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

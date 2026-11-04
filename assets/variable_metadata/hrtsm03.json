@@ -1,0 +1,555 @@
+{
+  "varname": "hrtsm03",
+  "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 57 years ",
+  "field_id": "20127",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=20127",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "month",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 36.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "20127",
+  "truly_longitudinal_varnames": [
+    "hrtsm00",
+    "hrtsm93",
+    "hrtsm94",
+    "hrtsm95",
+    "hrtsm96",
+    "hrtsm97",
+    "hrtsm98",
+    "hrtsm99"
+  ],
+  "truly_longitudinal_years": [
+    "1993",
+    "1994",
+    "1995",
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2003"
+  ],
+  "linked_varnames": [
+    "hrtsm9b"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Women's health [9]",
+    "Hormone replacement therapy (HRT) [7001]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "January"
+    },
+    {
+      "value": "3.0",
+      "label": "March"
+    },
+    {
+      "value": "4.0",
+      "label": "April"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "January",
+      "count": 13,
+      "pct": 36.1
+    },
+    {
+      "label": "March",
+      "count": 13,
+      "pct": 36.1
+    },
+    {
+      "label": "April",
+      "count": 10,
+      "pct": 27.8
+    }
+  ],
+  "pdf": {
+    "varname": "hrtsm03",
+    "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 57 years ",
+    "meta_rows": [
+      [
+        "Variable",
+        "hrtsm03"
+      ],
+      [
+        "Field ID",
+        "20127"
+      ],
+      [
+        "Label",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 57 years"
+      ],
+      [
+        "Card Number",
+        "DEWH032"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "6(b)"
+      ],
+      [
+        "Year",
+        "2003"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "month"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains the month information about the date."
+      ],
+      [
+        "Notes",
+        "Hormone replacement therapy (HRT)"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "hrtsm93",
+        "1993",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 47 years "
+      ],
+      [
+        "hrtsm94",
+        "1994",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 48 years "
+      ],
+      [
+        "hrtsm95",
+        "1995",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 49 years "
+      ],
+      [
+        "hrtsm96",
+        "1996",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 50 years "
+      ],
+      [
+        "hrtsm97",
+        "1997",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 51 years "
+      ],
+      [
+        "hrtsm98",
+        "1998",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 52 years "
+      ],
+      [
+        "hrtsm99",
+        "1999",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 53 years "
+      ],
+      [
+        "hrtsm00",
+        "2000",
+        "When did you first start hormone replacement therapy (HRT) - month? - at age 54 years "
+      ]
+    ],
+    "linked_rows": [
+      [
+        "hrtsm9b",
+        "When did you first start hormone replacement therapy (HRT) - month (1999 Self-completion)? - at age 53 years",
+        "1999",
+        "B - Self completion",
+        "63",
+        "des99"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Hormone replacement therapy (HRT) [7001]",
+        "This cateogry contains data from the woman's health questionnaires on hormone replacement therapy (HRT)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "January",
+        false
+      ],
+      [
+        "3.0",
+        "March",
+        false
+      ],
+      [
+        "4.0",
+        "April",
+        false
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "13",
+        "36%"
+      ],
+      [
+        "3",
+        "13",
+        "36%"
+      ],
+      [
+        "4",
+        "10",
+        "28%"
+      ],
+      [
+        "Displayed N",
+        "36",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "hrtsm03",
+    "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 57 years ",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=20127",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "hrtsm03",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "20127",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "When did you first start hormone replacement therapy (HRT) - month? - at age 57 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "DEWH032",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "6(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2003",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "month",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains the month information about the date.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Hormone replacement therapy (HRT)",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "20127",
+      "members": [
+        {
+          "varname": "hrtsm93",
+          "year": "1993",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 47 years ",
+          "is_current": false
+        },
+        {
+          "varname": "hrtsm94",
+          "year": "1994",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 48 years ",
+          "is_current": false
+        },
+        {
+          "varname": "hrtsm95",
+          "year": "1995",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 49 years ",
+          "is_current": false
+        },
+        {
+          "varname": "hrtsm96",
+          "year": "1996",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 50 years ",
+          "is_current": false
+        },
+        {
+          "varname": "hrtsm97",
+          "year": "1997",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 51 years ",
+          "is_current": false
+        },
+        {
+          "varname": "hrtsm98",
+          "year": "1998",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 52 years ",
+          "is_current": false
+        },
+        {
+          "varname": "hrtsm99",
+          "year": "1999",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 53 years ",
+          "is_current": false
+        },
+        {
+          "varname": "hrtsm00",
+          "year": "2000",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 54 years ",
+          "is_current": false
+        },
+        {
+          "varname": "hrtsm03",
+          "year": "2003",
+          "label": "When did you first start hormone replacement therapy (HRT) - month? - at age 57 years ",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "hrtsm9b",
+        "description": "When did you first start hormone replacement therapy (HRT) - month (1999 Self-completion)? - at age 53 years",
+        "year": "1999",
+        "form": "B - Self completion",
+        "question": "63",
+        "library_file": "des99"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hormone replacement therapy (HRT) [7001]",
+        "description": "This cateogry contains data from the woman's health questionnaires on hormone replacement therapy (HRT)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hormone_replacement_therapy_(HRT)_7001.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "January",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "March",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "April",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 9,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "month",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "January",
+          "count": 13,
+          "pct": 36
+        },
+        {
+          "value": "3",
+          "label": "March",
+          "count": 13,
+          "pct": 36
+        },
+        {
+          "value": "4",
+          "label": "April",
+          "count": 10,
+          "pct": 28
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "13",
+        "36%"
+      ],
+      [
+        "3",
+        "13",
+        "36%"
+      ],
+      [
+        "4",
+        "10",
+        "28%"
+      ],
+      [
+        "Displayed N",
+        "36",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

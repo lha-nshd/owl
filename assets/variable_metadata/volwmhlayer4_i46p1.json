@@ -1,0 +1,611 @@
+{
+  "varname": "volwmhlayer4_i46p1",
+  "label": "White matter hyperintensity (WMH) volume (ml) in layer 4 (outer) - Cross-sectional - Insight46 phase 1 ",
+  "field_id": "60208",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60208",
+  "year": "",
+  "form": "Insight46 - Phase 1",
+  "units": "ml",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.8949863492604573,
+  "sd": 0.8380454371303481,
+  "series_size": 409.0,
+  "minimum": 0.107306562364101,
+  "maximum": 3.94803929328918,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "volwmhfront_i46p1",
+    "volwmhpar_i46p1",
+    "volwmhocc_i46p1",
+    "volwmhlayer3_i46p1",
+    "volwmhlayer1_i46p1",
+    "volwmhlayer2_i46p1",
+    "volwmhtemp_i46p1",
+    "volwmhbg_i46p1"
+  ],
+  "linked_years": [
+    "2015-2018"
+  ],
+  "categories": [
+    "Anthropometry [2]",
+    "White matter hyperintsity (WMH) volumes - Cross-sectional [603321]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Unknown / no data"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "volwmhlayer4_i46p1",
+    "label": "White matter hyperintensity (WMH) volume (ml) in layer 4 (outer) - Cross-sectional - Insight46 phase 1 ",
+    "meta_rows": [
+      [
+        "Variable",
+        "volwmhlayer4_i46p1"
+      ],
+      [
+        "Field ID",
+        "60208"
+      ],
+      [
+        "Label",
+        "White matter hyperintensity (WMH) volume (ml) in layer 4 (outer) - Cross-sectional - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46_bamos"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 1"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2015-2018"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "ml"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 white matter hyperintensity volumes (global and regional) generated using the cross-sectional Bayesian Model Selection (BaMoS) pipeline . Note that there is also a longitudinal phase 1 white matter hyperintensity volume dataset which was generated after phase 2 data collection was complete - library file I46P2_Bamos_L."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "volwmhfront_i46p1",
+        "White matter hyperintensity (WMH) volume (ml) in the frontal lobes - Cross-sectional - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "volwmhpar_i46p1",
+        "White matter hyperintensity (WMH) volume (ml) in the parietal lobes - Cross-sectional - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "volwmhocc_i46p1",
+        "White matter hyperintensity (WMH) volume (ml) in the occipital lobes - Cross-sectional - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "volwmhlayer3_i46p1",
+        "White matter hyperintensity (WMH) volume (ml) in layer 3 - Cross-sectional - Insight46 phase 1 ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "volwmhlayer1_i46p1",
+        "White matter hyperintensity (WMH) volume (ml) in layer 1 (inner) - Cross-sectional - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "volwmhlayer2_i46p1",
+        "White matter hyperintensity (WMH) volume (ml) in layer 2 - Cross-sectional - Insight46 phase 1 ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "volwmhtemp_i46p1",
+        "White matter hyperintensity (WMH) volume (ml) in the temporal lobes - Cross-sectional - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "volwmhbg_i46p1",
+        "White matter hyperintensity (WMH) volume (ml) in the basal ganglia - Cross-sectional - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_bamos/Docs_BaMoS_I46W1.docx",
+        "Docs_BaMoS_I46W1.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Anthropometry [2]",
+        "Legacy Category"
+      ],
+      [
+        "White matter hyperintsity (WMH) volumes - Cross-sectional [603321]",
+        "This category contains the cross-sectional variables related to the white matter hyperintensity volumnes generated using the Bayesian Model Seletion (BaMoS) pipeline from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Unknown / no data",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.107306562364101"
+      ],
+      [
+        "Maximum",
+        "3.94803929328918"
+      ],
+      [
+        "Range",
+        "3.840732730925079"
+      ],
+      [
+        "Median",
+        "0.56397145986557"
+      ],
+      [
+        "IQR",
+        "0.284732848405838 - 1.19611251354218"
+      ],
+      [
+        "Decile 1",
+        "0.185254269838333"
+      ],
+      [
+        "Decile 2",
+        "0.25045278072357163"
+      ],
+      [
+        "Decile 3",
+        "0.3210672616958616"
+      ],
+      [
+        "Decile 4",
+        "0.4299064338207248"
+      ],
+      [
+        "Decile 5",
+        "0.56397145986557"
+      ],
+      [
+        "Decile 6",
+        "0.7551285386085507"
+      ],
+      [
+        "Decile 7",
+        "1.0666762351989756"
+      ],
+      [
+        "Decile 8",
+        "1.467993092536926"
+      ],
+      [
+        "Decile 9",
+        "2.18859839439392"
+      ],
+      [
+        "Mean",
+        "0.8949863492604573"
+      ],
+      [
+        "Std Dev.",
+        "0.8380454371303481"
+      ],
+      [
+        "Variance",
+        "0.7023201546949961"
+      ],
+      [
+        "Displayed N",
+        "409"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "volwmhlayer4_i46p1",
+    "label": "White matter hyperintensity (WMH) volume (ml) in layer 4 (outer) - Cross-sectional - Insight46 phase 1 ",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60208",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "volwmhlayer4_i46p1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "60208",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "White matter hyperintensity (WMH) volume (ml) in layer 4 (outer) - Cross-sectional - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46_bamos",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015-2018",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "ml",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 white matter hyperintensity volumes (global and regional) generated using the cross-sectional Bayesian Model Selection (BaMoS) pipeline . Note that there is also a longitudinal phase 1 white matter hyperintensity volume dataset which was generated after phase 2 data collection was complete - library file I46P2_Bamos_L.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "volwmhfront_i46p1",
+        "description": "White matter hyperintensity (WMH) volume (ml) in the frontal lobes - Cross-sectional - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "volwmhpar_i46p1",
+        "description": "White matter hyperintensity (WMH) volume (ml) in the parietal lobes - Cross-sectional - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "volwmhocc_i46p1",
+        "description": "White matter hyperintensity (WMH) volume (ml) in the occipital lobes - Cross-sectional - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "volwmhlayer3_i46p1",
+        "description": "White matter hyperintensity (WMH) volume (ml) in layer 3 - Cross-sectional - Insight46 phase 1 ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "volwmhlayer1_i46p1",
+        "description": "White matter hyperintensity (WMH) volume (ml) in layer 1 (inner) - Cross-sectional - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "volwmhlayer2_i46p1",
+        "description": "White matter hyperintensity (WMH) volume (ml) in layer 2 - Cross-sectional - Insight46 phase 1 ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "volwmhtemp_i46p1",
+        "description": "White matter hyperintensity (WMH) volume (ml) in the temporal lobes - Cross-sectional - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "volwmhbg_i46p1",
+        "description": "White matter hyperintensity (WMH) volume (ml) in the basal ganglia - Cross-sectional - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_bamos/Docs_BaMoS_I46W1.docx",
+        "text": "Docs_BaMoS_I46W1.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Anthropometry [2]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "White matter hyperintsity (WMH) volumes - Cross-sectional [603321]",
+        "description": "This category contains the cross-sectional variables related to the white matter hyperintensity volumnes generated using the Bayesian Model Seletion (BaMoS) pipeline from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/White_matter_hyperintsity_(WMH)_volumes_-_Cross-sectional_603321.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Unknown / no data",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 2,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "ml",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.107306562364101,
+          0.34735235804691844,
+          0.5873981537297359,
+          0.8274439494125533,
+          1.0674897450953709,
+          1.3075355407781881,
+          1.5475813364610056,
+          1.787627132143823,
+          2.0276729278266408,
+          2.267718723509458,
+          2.5077645191922753,
+          2.747810314875093,
+          2.9878561105579102,
+          3.227901906240728,
+          3.467947701923545,
+          3.707993497606363,
+          3.94803929328918
+        ],
+        "counts": [
+          137,
+          76,
+          41,
+          32,
+          27,
+          22,
+          15,
+          14,
+          8,
+          8,
+          8,
+          5,
+          6,
+          3,
+          5,
+          2
+        ]
+      },
+      "boxplot": {
+        "min": 0.107306562364101,
+        "q1": 0.284732848405838,
+        "median": 0.56397145986557,
+        "q3": 1.19611251354218,
+        "max": 3.94803929328918
+      },
+      "units": "ml"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.107306562364101"
+      ],
+      [
+        "Maximum",
+        "3.94803929328918"
+      ],
+      [
+        "Range",
+        "3.840732730925079"
+      ],
+      [
+        "Median",
+        "0.56397145986557"
+      ],
+      [
+        "IQR",
+        "0.284732848405838 - 1.19611251354218"
+      ],
+      [
+        "Decile 1",
+        "0.185254269838333"
+      ],
+      [
+        "Decile 2",
+        "0.25045278072357163"
+      ],
+      [
+        "Decile 3",
+        "0.3210672616958616"
+      ],
+      [
+        "Decile 4",
+        "0.4299064338207248"
+      ],
+      [
+        "Decile 5",
+        "0.56397145986557"
+      ],
+      [
+        "Decile 6",
+        "0.7551285386085507"
+      ],
+      [
+        "Decile 7",
+        "1.0666762351989756"
+      ],
+      [
+        "Decile 8",
+        "1.467993092536926"
+      ],
+      [
+        "Decile 9",
+        "2.18859839439392"
+      ],
+      [
+        "Mean",
+        "0.8949863492604573"
+      ],
+      [
+        "Std Dev.",
+        "0.8380454371303481"
+      ],
+      [
+        "Variance",
+        "0.7023201546949961"
+      ],
+      [
+        "Displayed N",
+        "409"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

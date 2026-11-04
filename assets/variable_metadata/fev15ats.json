@@ -1,0 +1,573 @@
+{
+  "varname": "fev15ats",
+  "label": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 69 years",
+  "field_id": "6108",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6108",
+  "year": "",
+  "form": "Home visit",
+  "units": "litres",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 2.44544736591133,
+  "sd": 0.5604736754329763,
+  "series_size": 1015.0,
+  "minimum": 1.4339742,
+  "maximum": 3.6437146,
+  "truly_longitudinal_field_id": "6108",
+  "truly_longitudinal_varnames": [
+    "fev09ats",
+    "fev89ats",
+    "fev99ats"
+  ],
+  "truly_longitudinal_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Respiratory health [5]",
+    "Spirometry [1105]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Fewer than three blows"
+    },
+    {
+      "value": "-2.0",
+      "label": "No blow data"
+    },
+    {
+      "value": "-3.0",
+      "label": "Blow quality grade insufficient"
+    },
+    {
+      "value": "-4.0",
+      "label": "Blow quality grade insufficient and highest two FEV1s had a difference > 0.15L"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Highest two FEV1s had a difference >0.15L"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "fev15ats",
+    "label": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "fev15ats"
+      ],
+      [
+        "Field ID",
+        "6108"
+      ],
+      [
+        "Label",
+        "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 69 years"
+      ],
+      [
+        "Card Number",
+        "LungFunction15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "8"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "litres"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived variables for all 1989-2015."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "fev89ats",
+        "1989",
+        "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 43 years"
+      ],
+      [
+        "fev99ats",
+        "1999",
+        "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 53 years"
+      ],
+      [
+        "fev09ats",
+        "2006-10",
+        "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 60-64 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/LungFunction15/Lung_function_documentation_ref.docx",
+        "Lung_function_documentation_ref.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory health [5]",
+        "Legacy Category"
+      ],
+      [
+        "Spirometry [1105]",
+        "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Fewer than three blows",
+        true
+      ],
+      [
+        "-2.0",
+        "No blow data",
+        true
+      ],
+      [
+        "-3.0",
+        "Blow quality grade insufficient",
+        true
+      ],
+      [
+        "-4.0",
+        "Blow quality grade insufficient and highest two FEV1s had a difference > 0.15L",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Highest two FEV1s had a difference >0.15L",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.4339742"
+      ],
+      [
+        "Maximum",
+        "3.6437146"
+      ],
+      [
+        "Range",
+        "2.2097404000000003"
+      ],
+      [
+        "Median",
+        "2.3709176"
+      ],
+      [
+        "IQR",
+        "2.0040025999999997 - 2.87081235"
+      ],
+      [
+        "Decile 1",
+        "1.7389582"
+      ],
+      [
+        "Decile 2",
+        "1.92686568"
+      ],
+      [
+        "Decile 3",
+        "2.07925064"
+      ],
+      [
+        "Decile 4",
+        "2.21107494"
+      ],
+      [
+        "Decile 5",
+        "2.3709176"
+      ],
+      [
+        "Decile 6",
+        "2.55778128"
+      ],
+      [
+        "Decile 7",
+        "2.7630578999999997"
+      ],
+      [
+        "Decile 8",
+        "3.0157005800000003"
+      ],
+      [
+        "Decile 9",
+        "3.25626412"
+      ],
+      [
+        "Mean",
+        "2.44544736591133"
+      ],
+      [
+        "Std Dev.",
+        "0.5604736754329763"
+      ],
+      [
+        "Variance",
+        "0.3141307408533493"
+      ],
+      [
+        "Displayed N",
+        "1015"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "fev15ats",
+    "label": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=6108",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "fev15ats",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "6108",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "LungFunction15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "litres",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variables for all 1989-2015.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "6108",
+      "members": [
+        {
+          "varname": "fev89ats",
+          "year": "1989",
+          "label": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 43 years",
+          "is_current": false
+        },
+        {
+          "varname": "fev99ats",
+          "year": "1999",
+          "label": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "fev09ats",
+          "year": "2006-10",
+          "label": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 60-64 years",
+          "is_current": false
+        },
+        {
+          "varname": "fev15ats",
+          "year": "2015",
+          "label": "FEV - Maximum score where a minimum of three blows have been recorded and the difference between the maximum two values is 0.15L or less (ATS method) - at 69 years",
+          "is_current": true
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/LungFunction15/Lung_function_documentation_ref.docx",
+        "text": "Lung_function_documentation_ref.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory health [5]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Spirometry [1105]",
+        "description": "This category contains data on breath spirometry. The participant is asked to record two to three blows (lasting for at least 6 seconds) within a period of about 6 minutes. The computer compares the reproducibility of the first two blows and, if acceptable (defined as a <5% difference in forced volume vital capacity (FVC) & Forced Expiratory Volume in 1 second (FEV1)), will indicate that the third blow is not required.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Spirometry_1105.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Fewer than three blows",
+        "is_missing": true
+      },
+      {
+        "value": "-2.0",
+        "label": "No blow data",
+        "is_missing": true
+      },
+      {
+        "value": "-3.0",
+        "label": "Blow quality grade insufficient",
+        "is_missing": true
+      },
+      {
+        "value": "-4.0",
+        "label": "Blow quality grade insufficient and highest two FEV1s had a difference > 0.15L",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Highest two FEV1s had a difference >0.15L",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 2,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "litres",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          1.4339742,
+          1.6039542307692307,
+          1.7739342615384617,
+          1.9439142923076924,
+          2.113894323076923,
+          2.283874353846154,
+          2.4538543846153846,
+          2.6238344153846156,
+          2.7938144461538466,
+          2.963794476923077,
+          3.1337745076923076,
+          3.303754538461539,
+          3.4737345692307695,
+          3.6437146
+        ],
+        "counts": [
+          46,
+          75,
+          92,
+          117,
+          129,
+          95,
+          89,
+          79,
+          74,
+          68,
+          62,
+          47,
+          42
+        ]
+      },
+      "boxplot": {
+        "min": 1.4339742,
+        "q1": 2.0040025999999997,
+        "median": 2.3709176,
+        "q3": 2.87081235,
+        "max": 3.6437146
+      },
+      "units": "litres"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "1.4339742"
+      ],
+      [
+        "Maximum",
+        "3.6437146"
+      ],
+      [
+        "Range",
+        "2.2097404000000003"
+      ],
+      [
+        "Median",
+        "2.3709176"
+      ],
+      [
+        "IQR",
+        "2.0040025999999997 - 2.87081235"
+      ],
+      [
+        "Decile 1",
+        "1.7389582"
+      ],
+      [
+        "Decile 2",
+        "1.92686568"
+      ],
+      [
+        "Decile 3",
+        "2.07925064"
+      ],
+      [
+        "Decile 4",
+        "2.21107494"
+      ],
+      [
+        "Decile 5",
+        "2.3709176"
+      ],
+      [
+        "Decile 6",
+        "2.55778128"
+      ],
+      [
+        "Decile 7",
+        "2.7630578999999997"
+      ],
+      [
+        "Decile 8",
+        "3.0157005800000003"
+      ],
+      [
+        "Decile 9",
+        "3.25626412"
+      ],
+      [
+        "Mean",
+        "2.44544736591133"
+      ],
+      [
+        "Std Dev.",
+        "0.5604736754329763"
+      ],
+      [
+        "Variance",
+        "0.3141307408533493"
+      ],
+      [
+        "Displayed N",
+        "1015"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

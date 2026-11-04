@@ -1,0 +1,535 @@
+{
+  "varname": "incsp909m",
+  "label": "Survey member receives other income - merged - at age 60-64 years",
+  "field_id": "7263",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7263",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 262.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "incsp709m",
+    "incsp809m",
+    "incsp209m",
+    "incsp409m",
+    "incsp609m",
+    "incsp309m",
+    "incsp109m",
+    "incsp509m"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other socioeconomic circumstances [24]",
+    "Economic circumstances [5151]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "55.0",
+      "label": "Check 2006-7 Postal Questionnaire"
+    },
+    {
+      "value": "66.0",
+      "label": "Not asked economic circumstances questions"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9.0",
+      "label": "SM receives income from other source"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "SM receives income from other source",
+      "count": 57,
+      "pct": 21.8
+    },
+    {
+      "label": "Check 2006-7 Postal Questionnaire",
+      "count": 205,
+      "pct": 78.2
+    }
+  ],
+  "pdf": {
+    "varname": "incsp909m",
+    "label": "Survey member receives other income - merged - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "incsp909m"
+      ],
+      [
+        "Field ID",
+        "7263"
+      ],
+      [
+        "Label",
+        "Survey member receives other income - merged - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EconomicCircs09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "40(a)"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2006-10 Nurse schedule, Q40-Q41. Questions about economic circumstances which include benefits. Only household income in this wave."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "incsp709m",
+        "Survey member receives health-related or disability benefits e.g Incapacity Benefit, etc - merged. - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "40(a)",
+        "EconomicCircs09"
+      ],
+      [
+        "incsp809m",
+        "Survey member receives general benefits e.g. Pension Credit, Income Support for the over 60's, etc. - merged - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "40(a)",
+        "EconomicCircs09"
+      ],
+      [
+        "incsp209m",
+        "Survey member receives state pension (include basic state pension, SERPS and State second pension) - merged - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "40(a)",
+        "EconomicCircs09"
+      ],
+      [
+        "incsp409m",
+        "Survey member receives a private pension/annuity - merged - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "40(a)",
+        "EconomicCircs09"
+      ],
+      [
+        "incsp609m",
+        "Survey member receives rent from property or land - merged - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "40(a)",
+        "EconomicCircs09"
+      ],
+      [
+        "incsp309m",
+        "Survey member receives pension from a previous employer - merged - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "40(a)",
+        "EconomicCircs09"
+      ],
+      [
+        "incsp109m",
+        "Survey member receives earnings from employment or self-employment - merged - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "40(a)",
+        "EconomicCircs09"
+      ],
+      [
+        "incsp509m",
+        "Survey member receives dividends or interest from savings or investments - merged - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "40(a)",
+        "EconomicCircs09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Economic circumstances [5151]",
+        "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "55.0",
+        "Check 2006-7 Postal Questionnaire",
+        false
+      ],
+      [
+        "66.0",
+        "Not asked economic circumstances questions",
+        true
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9.0",
+        "SM receives income from other source",
+        false
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "9",
+        "57",
+        "22%"
+      ],
+      [
+        "55",
+        "205",
+        "78%"
+      ],
+      [
+        "Displayed N",
+        "262",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "incsp909m",
+    "label": "Survey member receives other income - merged - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7263",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "incsp909m",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7263",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Survey member receives other income - merged - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EconomicCircs09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "40(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 Nurse schedule, Q40-Q41. Questions about economic circumstances which include benefits. Only household income in this wave.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "incsp709m",
+        "description": "Survey member receives health-related or disability benefits e.g Incapacity Benefit, etc - merged. - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "40(a)",
+        "library_file": "EconomicCircs09"
+      },
+      {
+        "varname": "incsp809m",
+        "description": "Survey member receives general benefits e.g. Pension Credit, Income Support for the over 60's, etc. - merged - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "40(a)",
+        "library_file": "EconomicCircs09"
+      },
+      {
+        "varname": "incsp209m",
+        "description": "Survey member receives state pension (include basic state pension, SERPS and State second pension) - merged - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "40(a)",
+        "library_file": "EconomicCircs09"
+      },
+      {
+        "varname": "incsp409m",
+        "description": "Survey member receives a private pension/annuity - merged - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "40(a)",
+        "library_file": "EconomicCircs09"
+      },
+      {
+        "varname": "incsp609m",
+        "description": "Survey member receives rent from property or land - merged - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "40(a)",
+        "library_file": "EconomicCircs09"
+      },
+      {
+        "varname": "incsp309m",
+        "description": "Survey member receives pension from a previous employer - merged - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "40(a)",
+        "library_file": "EconomicCircs09"
+      },
+      {
+        "varname": "incsp109m",
+        "description": "Survey member receives earnings from employment or self-employment - merged - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "40(a)",
+        "library_file": "EconomicCircs09"
+      },
+      {
+        "varname": "incsp509m",
+        "description": "Survey member receives dividends or interest from savings or investments - merged - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "40(a)",
+        "library_file": "EconomicCircs09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Economic circumstances [5151]",
+        "description": "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Economic_circumstances_5151.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "55.0",
+        "label": "Check 2006-7 Postal Questionnaire",
+        "is_missing": false
+      },
+      {
+        "value": "66.0",
+        "label": "Not asked economic circumstances questions",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "SM receives income from other source",
+        "is_missing": false
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "9",
+          "label": "SM receives income from other source",
+          "count": 57,
+          "pct": 22
+        },
+        {
+          "value": "55",
+          "label": "Check 2006-7 Postal Questionnaire",
+          "count": 205,
+          "pct": 78
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "9",
+        "57",
+        "22%"
+      ],
+      [
+        "55",
+        "205",
+        "78%"
+      ],
+      [
+        "Displayed N",
+        "262",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

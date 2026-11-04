@@ -1,0 +1,727 @@
+{
+  "varname": "reprolife",
+  "label": "Length of reproductive life (months), all cases",
+  "field_id": "22021",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=22021",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "months",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 441.327868852459,
+  "sd": 53.858050773891996,
+  "series_size": 976.0,
+  "minimum": 295.0,
+  "maximum": 531.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "percess_new",
+    "hrtepisodes",
+    "hrtevernow",
+    "wopall09",
+    "menotype",
+    "lastcon09",
+    "percessage_new",
+    "recencyofhrt",
+    "mentyp22_new",
+    "menotype3cat",
+    "lengthofhrt",
+    "hrtfirst"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Women's health [9]",
+    "Hormone replacement therapy (HRT) [7001]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "995.0",
+      "label": "Natural menopause but length of reproductive life unknown"
+    },
+    {
+      "value": "996.0",
+      "label": "Hysterectomy but length of reproductive life unknown"
+    },
+    {
+      "value": "997.0",
+      "label": "Unknown menopause type or date"
+    },
+    {
+      "value": "998.0",
+      "label": "Women not in the women's health study"
+    },
+    {
+      "value": "999.0",
+      "label": "Men"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "reprolife",
+    "label": "Length of reproductive life (months), all cases",
+    "meta_rows": [
+      [
+        "Variable",
+        "reprolife"
+      ],
+      [
+        "Field ID",
+        "22021"
+      ],
+      [
+        "Label",
+        "Length of reproductive life (months), all cases"
+      ],
+      [
+        "Card Number",
+        "KeyMenopause"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "months"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived women's heatlth variables till age 60-64 years"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "percess_new",
+        "Period cessation age, grouped, all cases, different menopause types combined)",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "hrtepisodes",
+        "Number of episodes of HRT by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "hrtevernow",
+        "HRT - ever, never or current user - at age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "wopall09",
+        "Updated hysterectomy and / or oophorectomy status, by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "menotype",
+        "Menopause type by age 60-64 years, fewer categories (alternative coding of mentyp22_new)",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "lastcon09",
+        "Last year of contact for women's health data by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "percessage_new",
+        "Age at period cessation (months since birth), all cases",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "recencyofhrt",
+        "Recency of HRT use (at nurse visit at age 60-64 years), grouped",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "mentyp22_new",
+        "Menopause type by age 60-64 years, final version",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "menotype3cat",
+        "Menopause type by age 60-64 years, two surgical menopause groups (alternative coding of mentyp22_new)",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "lengthofhrt",
+        "Length of HRT use (completed years), grouped, by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ],
+      [
+        "hrtfirst",
+        "Age of first starting HRT, grouped, by age 60-64 years",
+        "2006-10",
+        "Woman's Health Questionnaire",
+        "Various",
+        "KeyMenopause"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Hormone replacement therapy (HRT) [7001]",
+        "This cateogry contains data from the woman's health questionnaires on hormone replacement therapy (HRT)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "995.0",
+        "Natural menopause but length of reproductive life unknown",
+        true
+      ],
+      [
+        "996.0",
+        "Hysterectomy but length of reproductive life unknown",
+        true
+      ],
+      [
+        "997.0",
+        "Unknown menopause type or date",
+        true
+      ],
+      [
+        "998.0",
+        "Women not in the women's health study",
+        true
+      ],
+      [
+        "999.0",
+        "Men",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "295"
+      ],
+      [
+        "Maximum",
+        "531"
+      ],
+      [
+        "Range",
+        "236"
+      ],
+      [
+        "Median",
+        "448.0"
+      ],
+      [
+        "IQR",
+        "411.0 - 481.0"
+      ],
+      [
+        "Decile 1",
+        "361.5"
+      ],
+      [
+        "Decile 2",
+        "400.0"
+      ],
+      [
+        "Decile 3",
+        "421.0"
+      ],
+      [
+        "Decile 4",
+        "436.0"
+      ],
+      [
+        "Decile 5",
+        "448.0"
+      ],
+      [
+        "Decile 6",
+        "461.0"
+      ],
+      [
+        "Decile 7",
+        "473.0"
+      ],
+      [
+        "Decile 8",
+        "488.0"
+      ],
+      [
+        "Decile 9",
+        "508.0"
+      ],
+      [
+        "Mean",
+        "441.327868852459"
+      ],
+      [
+        "Std Dev.",
+        "53.858050773891996"
+      ],
+      [
+        "Variance",
+        "2900.6896331631283"
+      ],
+      [
+        "Displayed N",
+        "976"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "reprolife",
+    "label": "Length of reproductive life (months), all cases",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=22021",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "reprolife",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "22021",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Length of reproductive life (months), all cases",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "KeyMenopause",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "months",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived women's heatlth variables till age 60-64 years",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "percess_new",
+        "description": "Period cessation age, grouped, all cases, different menopause types combined)",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "hrtepisodes",
+        "description": "Number of episodes of HRT by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "hrtevernow",
+        "description": "HRT - ever, never or current user - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "wopall09",
+        "description": "Updated hysterectomy and / or oophorectomy status, by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "menotype",
+        "description": "Menopause type by age 60-64 years, fewer categories (alternative coding of mentyp22_new)",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "lastcon09",
+        "description": "Last year of contact for women's health data by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "percessage_new",
+        "description": "Age at period cessation (months since birth), all cases",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "recencyofhrt",
+        "description": "Recency of HRT use (at nurse visit at age 60-64 years), grouped",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "mentyp22_new",
+        "description": "Menopause type by age 60-64 years, final version",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "menotype3cat",
+        "description": "Menopause type by age 60-64 years, two surgical menopause groups (alternative coding of mentyp22_new)",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "lengthofhrt",
+        "description": "Length of HRT use (completed years), grouped, by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      },
+      {
+        "varname": "hrtfirst",
+        "description": "Age of first starting HRT, grouped, by age 60-64 years",
+        "year": "2006-10",
+        "form": "Woman's Health Questionnaire",
+        "question": "Various",
+        "library_file": "KeyMenopause"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hormone replacement therapy (HRT) [7001]",
+        "description": "This cateogry contains data from the woman's health questionnaires on hormone replacement therapy (HRT)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hormone_replacement_therapy_(HRT)_7001.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "995.0",
+        "label": "Natural menopause but length of reproductive life unknown",
+        "is_missing": true
+      },
+      {
+        "value": "996.0",
+        "label": "Hysterectomy but length of reproductive life unknown",
+        "is_missing": true
+      },
+      {
+        "value": "997.0",
+        "label": "Unknown menopause type or date",
+        "is_missing": true
+      },
+      {
+        "value": "998.0",
+        "label": "Women not in the women's health study",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Men",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 12,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "months",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          295.0,
+          308.88235294117646,
+          322.7647058823529,
+          336.6470588235294,
+          350.52941176470586,
+          364.4117647058823,
+          378.29411764705884,
+          392.1764705882353,
+          406.05882352941177,
+          419.94117647058823,
+          433.8235294117647,
+          447.7058823529412,
+          461.5882352941177,
+          475.47058823529414,
+          489.3529411764706,
+          503.2352941176471,
+          517.1176470588235,
+          531.0
+        ],
+        "counts": [
+          19,
+          17,
+          21,
+          17,
+          26,
+          36,
+          33,
+          56,
+          53,
+          94,
+          115,
+          101,
+          110,
+          90,
+          68,
+          67,
+          53
+        ]
+      },
+      "boxplot": {
+        "min": 295.0,
+        "q1": 411.0,
+        "median": 448.0,
+        "q3": 481.0,
+        "max": 531.0
+      },
+      "units": "months"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "295"
+      ],
+      [
+        "Maximum",
+        "531"
+      ],
+      [
+        "Range",
+        "236"
+      ],
+      [
+        "Median",
+        "448.0"
+      ],
+      [
+        "IQR",
+        "411.0 - 481.0"
+      ],
+      [
+        "Decile 1",
+        "361.5"
+      ],
+      [
+        "Decile 2",
+        "400.0"
+      ],
+      [
+        "Decile 3",
+        "421.0"
+      ],
+      [
+        "Decile 4",
+        "436.0"
+      ],
+      [
+        "Decile 5",
+        "448.0"
+      ],
+      [
+        "Decile 6",
+        "461.0"
+      ],
+      [
+        "Decile 7",
+        "473.0"
+      ],
+      [
+        "Decile 8",
+        "488.0"
+      ],
+      [
+        "Decile 9",
+        "508.0"
+      ],
+      [
+        "Mean",
+        "441.327868852459"
+      ],
+      [
+        "Std Dev.",
+        "53.858050773891996"
+      ],
+      [
+        "Variance",
+        "2900.6896331631283"
+      ],
+      [
+        "Displayed N",
+        "976"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

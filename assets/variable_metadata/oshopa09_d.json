@@ -1,0 +1,679 @@
+{
+  "varname": "oshopa09_d",
+  "label": "Average time duration [hours/day] spent food shopping in the last year (EPAQ2 categories) - at age 60-64 years",
+  "field_id": "13373",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13373",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "hours/day",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2223.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "oshopb09_d",
+    "shopb09_d",
+    "oshopa09_w",
+    "shopa09_d",
+    "oshopb09_w",
+    "shopa09_w",
+    "shopb09_w"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No time spent"
+    },
+    {
+      "value": "1.0",
+      "label": "Less than 5 min/day"
+    },
+    {
+      "value": "2.0",
+      "label": "8.5-25 min/week"
+    },
+    {
+      "value": "3.0",
+      "label": "25-51 min/week"
+    },
+    {
+      "value": "4.0",
+      "label": "51-85 min/week"
+    },
+    {
+      "value": "5.0",
+      "label": "85-128 min/week"
+    },
+    {
+      "value": "6.0",
+      "label": ">128 min/week"
+    },
+    {
+      "value": "777.0",
+      "label": "Non respondent"
+    },
+    {
+      "value": "888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No time spent",
+      "count": 118,
+      "pct": 5.3
+    },
+    {
+      "label": "Less than 5 min/day",
+      "count": 333,
+      "pct": 15.0
+    },
+    {
+      "label": "8.5-25 min/week",
+      "count": 1191,
+      "pct": 53.6
+    },
+    {
+      "label": "25-51 min/week",
+      "count": 390,
+      "pct": 17.5
+    },
+    {
+      "label": "51-85 min/week",
+      "count": 150,
+      "pct": 6.7
+    },
+    {
+      "label": "85-128 min/week",
+      "count": 27,
+      "pct": 1.2
+    },
+    {
+      "label": ">128 min/week",
+      "count": 14,
+      "pct": 0.6
+    }
+  ],
+  "pdf": {
+    "varname": "oshopa09_d",
+    "label": "Average time duration [hours/day] spent food shopping in the last year (EPAQ2 categories) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "oshopa09_d"
+      ],
+      [
+        "Field ID",
+        "13373"
+      ],
+      [
+        "Label",
+        "Average time duration [hours/day] spent food shopping in the last year (EPAQ2 categories) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours/day"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Home Activities (food preparation, shopping for food, shopping for other items, cleaning, laundry, caring for babies, caring for elderly). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "oshopb09_d",
+        "Average time duration [hours/day] spent shopping for non-food items in the last year (EPAQ2 categories) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "shopb09_d",
+        "Average time duration [hours/day] spent shopping for non-food items in the last - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "oshopa09_w",
+        "Average time duration [hours/week] spent food shopping in the last year (EPAQ2 categories) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "shopa09_d",
+        "Average time duration [hours/day] spent food shopping in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "oshopb09_w",
+        "Average time duration [hours/week] spent shopping for non-food items in the last (EPAQ2 categories) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "shopa09_w",
+        "Average time duration [hours/week] spent food shopping in the last year - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "shopb09_w",
+        "Average time duration [hours/week] spent shopping for non-food items in the last - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No time spent",
+        false
+      ],
+      [
+        "1.0",
+        "Less than 5 min/day",
+        false
+      ],
+      [
+        "2.0",
+        "8.5-25 min/week",
+        false
+      ],
+      [
+        "3.0",
+        "25-51 min/week",
+        false
+      ],
+      [
+        "4.0",
+        "51-85 min/week",
+        false
+      ],
+      [
+        "5.0",
+        "85-128 min/week",
+        false
+      ],
+      [
+        "6.0",
+        ">128 min/week",
+        false
+      ],
+      [
+        "777.0",
+        "Non respondent",
+        true
+      ],
+      [
+        "888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "118",
+        "5%"
+      ],
+      [
+        "1",
+        "333",
+        "15%"
+      ],
+      [
+        "2",
+        "1191",
+        "54%"
+      ],
+      [
+        "3",
+        "390",
+        "18%"
+      ],
+      [
+        "4",
+        "150",
+        "7%"
+      ],
+      [
+        "5",
+        "27",
+        "1%"
+      ],
+      [
+        "6",
+        "14",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2223",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "oshopa09_d",
+    "label": "Average time duration [hours/day] spent food shopping in the last year (EPAQ2 categories) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13373",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "oshopa09_d",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13373",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Average time duration [hours/day] spent food shopping in the last year (EPAQ2 categories) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours/day",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Home Activities (food preparation, shopping for food, shopping for other items, cleaning, laundry, caring for babies, caring for elderly). Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "oshopb09_d",
+        "description": "Average time duration [hours/day] spent shopping for non-food items in the last year (EPAQ2 categories) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "shopb09_d",
+        "description": "Average time duration [hours/day] spent shopping for non-food items in the last - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "oshopa09_w",
+        "description": "Average time duration [hours/week] spent food shopping in the last year (EPAQ2 categories) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "shopa09_d",
+        "description": "Average time duration [hours/day] spent food shopping in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "oshopb09_w",
+        "description": "Average time duration [hours/week] spent shopping for non-food items in the last (EPAQ2 categories) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "shopa09_w",
+        "description": "Average time duration [hours/week] spent food shopping in the last year - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "shopb09_w",
+        "description": "Average time duration [hours/week] spent shopping for non-food items in the last - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No time spent",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Less than 5 min/day",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "8.5-25 min/week",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "25-51 min/week",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "51-85 min/week",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "85-128 min/week",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": ">128 min/week",
+        "is_missing": false
+      },
+      {
+        "value": "777.0",
+        "label": "Non respondent",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 11
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "hours/day",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No time spent",
+          "count": 118,
+          "pct": 5
+        },
+        {
+          "value": "1",
+          "label": "Less than 5 min/day",
+          "count": 333,
+          "pct": 15
+        },
+        {
+          "value": "2",
+          "label": "8.5-25 min/week",
+          "count": 1191,
+          "pct": 54
+        },
+        {
+          "value": "3",
+          "label": "25-51 min/week",
+          "count": 390,
+          "pct": 18
+        },
+        {
+          "value": "4",
+          "label": "51-85 min/week",
+          "count": 150,
+          "pct": 7
+        },
+        {
+          "value": "5",
+          "label": "85-128 min/week",
+          "count": 27,
+          "pct": 1
+        },
+        {
+          "value": "6",
+          "label": ">128 min/week",
+          "count": 14,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "118",
+        "5%"
+      ],
+      [
+        "1",
+        "333",
+        "15%"
+      ],
+      [
+        "2",
+        "1191",
+        "54%"
+      ],
+      [
+        "3",
+        "390",
+        "18%"
+      ],
+      [
+        "4",
+        "150",
+        "7%"
+      ],
+      [
+        "5",
+        "27",
+        "1%"
+      ],
+      [
+        "6",
+        "14",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "2223",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

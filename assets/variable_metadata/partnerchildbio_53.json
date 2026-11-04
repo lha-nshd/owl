@@ -1,0 +1,447 @@
+{
+  "varname": "partnerchildbio_53",
+  "label": "Whether has live in spouse/partner and/or any bio children [age 53] (CLS harmonisation)",
+  "field_id": "21984",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21984",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2650.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "partnerchildbio_43"
+  ],
+  "linked_years": [
+    "1989"
+  ],
+  "categories": [
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-100.0",
+      "label": "No participation in sweep"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Information not provided"
+    },
+    {
+      "value": "0.0",
+      "label": "No partner no children"
+    },
+    {
+      "value": "1.0",
+      "label": "Partner no children"
+    },
+    {
+      "value": "2.0",
+      "label": "Children no partner"
+    },
+    {
+      "value": "3.0",
+      "label": "Partner and children"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No partner no children",
+      "count": 54,
+      "pct": 2.0
+    },
+    {
+      "label": "Partner no children",
+      "count": 292,
+      "pct": 11.0
+    },
+    {
+      "label": "Children no partner",
+      "count": 134,
+      "pct": 5.1
+    },
+    {
+      "label": "Partner and children",
+      "count": 2170,
+      "pct": 81.9
+    }
+  ],
+  "pdf": {
+    "varname": "partnerchildbio_53",
+    "label": "Whether has live in spouse/partner and/or any bio children [age 53] (CLS harmonisation)",
+    "meta_rows": [
+      [
+        "Variable",
+        "partnerchildbio_53"
+      ],
+      [
+        "Field ID",
+        "21984"
+      ],
+      [
+        "Label",
+        "Whether has live in spouse/partner and/or any bio children [age 53] (CLS harmonisation)"
+      ],
+      [
+        "Card Number",
+        "CLS_fertility"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived as part of the CLS fertility work"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "partnerchildbio_43",
+        "Whether has live in spouse/partner and/or any bio children [age 43] (CLS harmonisation)",
+        "1989",
+        "A - Main questionnaire",
+        "Various",
+        "CLS_fertility"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-100.0",
+        "No participation in sweep",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Information not provided",
+        true
+      ],
+      [
+        "0.0",
+        "No partner no children",
+        false
+      ],
+      [
+        "1.0",
+        "Partner no children",
+        false
+      ],
+      [
+        "2.0",
+        "Children no partner",
+        false
+      ],
+      [
+        "3.0",
+        "Partner and children",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "54",
+        "2%"
+      ],
+      [
+        "1",
+        "292",
+        "11%"
+      ],
+      [
+        "2",
+        "134",
+        "5%"
+      ],
+      [
+        "3",
+        "2170",
+        "82%"
+      ],
+      [
+        "Displayed N",
+        "2650",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "partnerchildbio_53",
+    "label": "Whether has live in spouse/partner and/or any bio children [age 53] (CLS harmonisation)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21984",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "partnerchildbio_53",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "21984",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Whether has live in spouse/partner and/or any bio children [age 53] (CLS harmonisation)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CLS_fertility",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived as part of the CLS fertility work",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "partnerchildbio_43",
+        "description": "Whether has live in spouse/partner and/or any bio children [age 43] (CLS harmonisation)",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "CLS_fertility"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-100.0",
+        "label": "No participation in sweep",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Information not provided",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No partner no children",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Partner no children",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Children no partner",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Partner and children",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 1,
+      "docs": 1,
+      "cats": 1,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No partner no children",
+          "count": 54,
+          "pct": 2
+        },
+        {
+          "value": "1",
+          "label": "Partner no children",
+          "count": 292,
+          "pct": 11
+        },
+        {
+          "value": "2",
+          "label": "Children no partner",
+          "count": 134,
+          "pct": 5
+        },
+        {
+          "value": "3",
+          "label": "Partner and children",
+          "count": 2170,
+          "pct": 82
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "54",
+        "2%"
+      ],
+      [
+        "1",
+        "292",
+        "11%"
+      ],
+      [
+        "2",
+        "134",
+        "5%"
+      ],
+      [
+        "3",
+        "2170",
+        "82%"
+      ],
+      [
+        "Displayed N",
+        "2650",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "varname": "nic",
+  "label": "Nicotine levels of cigarettes smoked (coded as mg/cigarette x 10) - at age 36 years",
+  "field_id": "39085",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=39085",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "mg/cigarette x 10",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 927.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Other health behaviours [17]",
+    "Smoking [5251]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "10.0",
+      "label": "1.0"
+    },
+    {
+      "value": "11.0",
+      "label": "1.1"
+    },
+    {
+      "value": "12.0",
+      "label": "1.2"
+    },
+    {
+      "value": "13.0",
+      "label": "1.3"
+    },
+    {
+      "value": "14.0",
+      "label": "1.4"
+    },
+    {
+      "value": "15.0",
+      "label": "1.5"
+    },
+    {
+      "value": "6.0",
+      "label": "0.6"
+    },
+    {
+      "value": "7.0",
+      "label": "0.7"
+    },
+    {
+      "value": "77.0",
+      "label": "Cigarette brand unknown and hand-rolled cigarettes"
+    },
+    {
+      "value": "8.0",
+      "label": "0.8"
+    },
+    {
+      "value": "88.0",
+      "label": "Non-smoker"
+    },
+    {
+      "value": "9.0",
+      "label": "0.9"
+    },
+    {
+      "value": "99.0",
+      "label": "Don't know"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "0.6",
+      "count": 26,
+      "pct": 2.8
+    },
+    {
+      "label": "0.7",
+      "count": 13,
+      "pct": 1.4
+    },
+    {
+      "label": "0.8",
+      "count": 99,
+      "pct": 10.7
+    },
+    {
+      "label": "0.9",
+      "count": 28,
+      "pct": 3.0
+    },
+    {
+      "label": "1.0",
+      "count": 20,
+      "pct": 2.2
+    },
+    {
+      "label": "1.1",
+      "count": 11,
+      "pct": 1.2
+    },
+    {
+      "label": "1.2",
+      "count": 69,
+      "pct": 7.4
+    },
+    {
+      "label": "1.3",
+      "count": 108,
+      "pct": 11.7
+    },
+    {
+      "label": "1.4",
+      "count": 388,
+      "pct": 41.9
+    },
+    {
+      "label": "1.5",
+      "count": 165,
+      "pct": 17.8
+    }
+  ],
+  "pdf": {
+    "varname": "nic",
+    "label": "Nicotine levels of cigarettes smoked (coded as mg/cigarette x 10) - at age 36 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "nic"
+      ],
+      [
+        "Field ID",
+        "39085"
+      ],
+      [
+        "Label",
+        "Nicotine levels of cigarettes smoked (coded as mg/cigarette x 10) - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "D02"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mg/cigarette x 10"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived variable created for the 1982 data collection."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Smoking [5251]",
+        "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "10.0",
+        "1.0",
+        false
+      ],
+      [
+        "11.0",
+        "1.1",
+        false
+      ],
+      [
+        "12.0",
+        "1.2",
+        false
+      ],
+      [
+        "13.0",
+        "1.3",
+        false
+      ],
+      [
+        "14.0",
+        "1.4",
+        false
+      ],
+      [
+        "15.0",
+        "1.5",
+        false
+      ],
+      [
+        "6.0",
+        "0.6",
+        false
+      ],
+      [
+        "7.0",
+        "0.7",
+        false
+      ],
+      [
+        "77.0",
+        "Cigarette brand unknown and hand-rolled cigarettes",
+        true
+      ],
+      [
+        "8.0",
+        "0.8",
+        false
+      ],
+      [
+        "88.0",
+        "Non-smoker",
+        true
+      ],
+      [
+        "9.0",
+        "0.9",
+        false
+      ],
+      [
+        "99.0",
+        "Don't know",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "6",
+        "26",
+        "3%"
+      ],
+      [
+        "7",
+        "13",
+        "1%"
+      ],
+      [
+        "8",
+        "99",
+        "11%"
+      ],
+      [
+        "9",
+        "28",
+        "3%"
+      ],
+      [
+        "10",
+        "20",
+        "2%"
+      ],
+      [
+        "11",
+        "11",
+        "1%"
+      ],
+      [
+        "12",
+        "69",
+        "7%"
+      ],
+      [
+        "13",
+        "108",
+        "12%"
+      ],
+      [
+        "14",
+        "388",
+        "42%"
+      ],
+      [
+        "15",
+        "165",
+        "18%"
+      ],
+      [
+        "Displayed N",
+        "927",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "nic",
+    "label": "Nicotine levels of cigarettes smoked (coded as mg/cigarette x 10) - at age 36 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=39085",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "nic",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "39085",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Nicotine levels of cigarettes smoked (coded as mg/cigarette x 10) - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "D02",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mg/cigarette x 10",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived variable created for the 1982 data collection.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Smoking [5251]",
+        "description": "This category contains data from the questionnaires on smoking cigarettes, pipes and vapes. Both cross-sectional and longitudinal variables are available. Participants were asked questions like,  how many cigarettes they smoked and how long ago they gave up smoking and when they started. Derived smoking pack-years variables are also available. Questions were asked in 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years) and 2022 (age 76 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Smoking_5251.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "10.0",
+        "label": "1.0",
+        "is_missing": false
+      },
+      {
+        "value": "11.0",
+        "label": "1.1",
+        "is_missing": false
+      },
+      {
+        "value": "12.0",
+        "label": "1.2",
+        "is_missing": false
+      },
+      {
+        "value": "13.0",
+        "label": "1.3",
+        "is_missing": false
+      },
+      {
+        "value": "14.0",
+        "label": "1.4",
+        "is_missing": false
+      },
+      {
+        "value": "15.0",
+        "label": "1.5",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "0.6",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "0.7",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "Cigarette brand unknown and hand-rolled cigarettes",
+        "is_missing": true
+      },
+      {
+        "value": "8.0",
+        "label": "0.8",
+        "is_missing": false
+      },
+      {
+        "value": "88.0",
+        "label": "Non-smoker",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "0.9",
+        "is_missing": false
+      },
+      {
+        "value": "99.0",
+        "label": "Don't know",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 15
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "mg/cigarette x 10",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "6",
+          "label": "0.6",
+          "count": 26,
+          "pct": 3
+        },
+        {
+          "value": "7",
+          "label": "0.7",
+          "count": 13,
+          "pct": 1
+        },
+        {
+          "value": "8",
+          "label": "0.8",
+          "count": 99,
+          "pct": 11
+        },
+        {
+          "value": "9",
+          "label": "0.9",
+          "count": 28,
+          "pct": 3
+        },
+        {
+          "value": "10",
+          "label": "1.0",
+          "count": 20,
+          "pct": 2
+        },
+        {
+          "value": "11",
+          "label": "1.1",
+          "count": 11,
+          "pct": 1
+        },
+        {
+          "value": "12",
+          "label": "1.2",
+          "count": 69,
+          "pct": 7
+        },
+        {
+          "value": "13",
+          "label": "1.3",
+          "count": 108,
+          "pct": 12
+        },
+        {
+          "value": "14",
+          "label": "1.4",
+          "count": 388,
+          "pct": 42
+        },
+        {
+          "value": "15",
+          "label": "1.5",
+          "count": 165,
+          "pct": 18
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "6",
+        "26",
+        "3%"
+      ],
+      [
+        "7",
+        "13",
+        "1%"
+      ],
+      [
+        "8",
+        "99",
+        "11%"
+      ],
+      [
+        "9",
+        "28",
+        "3%"
+      ],
+      [
+        "10",
+        "20",
+        "2%"
+      ],
+      [
+        "11",
+        "11",
+        "1%"
+      ],
+      [
+        "12",
+        "69",
+        "7%"
+      ],
+      [
+        "13",
+        "108",
+        "12%"
+      ],
+      [
+        "14",
+        "388",
+        "42%"
+      ],
+      [
+        "15",
+        "165",
+        "18%"
+      ],
+      [
+        "Displayed N",
+        "927",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

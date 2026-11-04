@@ -1,0 +1,408 @@
+{
+  "varname": "ffs2",
+  "label": "Fried frailty score: for those that answered at least one measure - at age 60-64 years",
+  "field_id": "10430",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10430",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2232.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "General health [3]",
+    "Physical capability [5108]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "Zero"
+    },
+    {
+      "value": "1.0",
+      "label": "One"
+    },
+    {
+      "value": "2.0",
+      "label": "Two"
+    },
+    {
+      "value": "3.0",
+      "label": "Three"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Zero",
+      "count": 1148,
+      "pct": 51.4
+    },
+    {
+      "label": "One",
+      "count": 768,
+      "pct": 34.4
+    },
+    {
+      "label": "Two",
+      "count": 268,
+      "pct": 12.0
+    },
+    {
+      "label": "Three",
+      "count": 48,
+      "pct": 2.2
+    }
+  ],
+  "pdf": {
+    "varname": "ffs2",
+    "label": "Fried frailty score: for those that answered at least one measure - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ffs2"
+      ],
+      [
+        "Field ID",
+        "10430"
+      ],
+      [
+        "Label",
+        "Fried frailty score: for those that answered at least one measure - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Frailty09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived frailty variables from the 2006-10 data collection."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "General health [3]",
+        "Legacy Category"
+      ],
+      [
+        "Physical capability [5108]",
+        "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "Zero",
+        false
+      ],
+      [
+        "1.0",
+        "One",
+        false
+      ],
+      [
+        "2.0",
+        "Two",
+        false
+      ],
+      [
+        "3.0",
+        "Three",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1148",
+        "51%"
+      ],
+      [
+        "1",
+        "768",
+        "34%"
+      ],
+      [
+        "2",
+        "268",
+        "12%"
+      ],
+      [
+        "3",
+        "48",
+        "2%"
+      ],
+      [
+        "Displayed N",
+        "2232",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "ffs2",
+    "label": "Fried frailty score: for those that answered at least one measure - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10430",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ffs2",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10430",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Fried frailty score: for those that answered at least one measure - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Frailty09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived frailty variables from the 2006-10 data collection.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "General health [3]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical capability [5108]",
+        "description": "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_5108.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Zero",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "One",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Two",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Three",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Zero",
+          "count": 1148,
+          "pct": 51
+        },
+        {
+          "value": "1",
+          "label": "One",
+          "count": 768,
+          "pct": 34
+        },
+        {
+          "value": "2",
+          "label": "Two",
+          "count": 268,
+          "pct": 12
+        },
+        {
+          "value": "3",
+          "label": "Three",
+          "count": 48,
+          "pct": 2
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1148",
+        "51%"
+      ],
+      [
+        "1",
+        "768",
+        "34%"
+      ],
+      [
+        "2",
+        "268",
+        "12%"
+      ],
+      [
+        "3",
+        "48",
+        "2%"
+      ],
+      [
+        "Displayed N",
+        "2232",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

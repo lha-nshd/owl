@@ -1,0 +1,811 @@
+{
+  "varname": "adlht115x",
+  "label": "Altogether, how many hours of help have you received with these activities for daily living (ADL) tasks in the last week - at age 69 years",
+  "field_id": "9079",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9079",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 148.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "adlht115_hv_phvx",
+    "adlh115x_2",
+    "adlh115x_6",
+    "adlh115x_7",
+    "adlh115x_5",
+    "adlhd115_phvx",
+    "adlh15_7x",
+    "adlh15_2_4x",
+    "adlh115x_0",
+    "iadlt15_hv_phvx",
+    "adls2_15x",
+    "adlh115x_8",
+    "iadlt15x",
+    "adlh115x_9",
+    "adlh115x_10",
+    "adlh115x_4",
+    "adlh115x_12",
+    "adls_15x",
+    "adlh115x_1",
+    "adlh15_5_6x",
+    "adlh115x_13",
+    "adlh115x_3",
+    "adlh115x_11"
+  ],
+  "linked_years": [
+    "2015"
+  ],
+  "categories": [
+    "Social support or life events [25]",
+    "Physical capability [5108]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Paper HV only completed"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No help in past week"
+    },
+    {
+      "value": "1.0",
+      "label": "Less than one hour"
+    },
+    {
+      "value": "2.0",
+      "label": "1-4 hours"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No help in past week",
+      "count": 84,
+      "pct": 56.8
+    },
+    {
+      "label": "Less than one hour",
+      "count": 37,
+      "pct": 25.0
+    },
+    {
+      "label": "1-4 hours",
+      "count": 27,
+      "pct": 18.2
+    }
+  ],
+  "pdf": {
+    "varname": "adlht115x",
+    "label": "Altogether, how many hours of help have you received with these activities for daily living (ADL) tasks in the last week - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "adlht115x"
+      ],
+      [
+        "Field ID",
+        "9079"
+      ],
+      [
+        "Label",
+        "Altogether, how many hours of help have you received with these activities for daily living (ADL) tasks in the last week - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "PhysCap15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "40"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell counts issue"
+      ],
+      [
+        "Notes",
+        "2030 Home visit. Activity questions. This was also asked slightly differently in 2025, where ADL's and IADL's questions were combined."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "adlht115_hv_phvx",
+        "Grouped activities for daily living (ADL) Hours - Home visit or postal home visit responses combined - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_2",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Son (including stepson, adopted son or son-in-law) - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_6",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Voluntary helper - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_7",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Paid/professional help - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_5",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Friend or neighbour - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlhd115_phvx",
+        "Can you do the activities you report difficulty with, without aids or personal help - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ],
+      [
+        "adlh15_7x",
+        "Grouped activities for daily living (ADL) - Paid professional help [Home visit or postal home visit] - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ],
+      [
+        "adlh15_2_4x",
+        "Grouped activities for daily living (ADL) - other family member [Home visit or postal home visit] - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_0",
+        "In the last month, who helped you with your activities for daily living (ADL) task: No help received in past month - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "iadlt15_hv_phvx",
+        "Grouped  IADLs [Instrumental Activities of Daily Living] Hours - HV and pHV responses combined - at age 69 years",
+        "2015",
+        "Home visit",
+        "47+48",
+        "PhysCap15"
+      ],
+      [
+        "adls2_15x",
+        "Requires personal help/aids and personal help with ADLs [Activities of Daily Living] Home visit or postal home visit - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_8",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Home care worker/home help - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "iadlt15x",
+        "Altogether, how many hours of help have you received with these tasks in the last week - at age 69 years",
+        "2015",
+        "Home visit",
+        "48",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_9",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Member of the reablement/intermediate care staff team - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_10",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Occupational therapist/physiotherapist - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_4",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Other family member - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_12",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Cleaner - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adls_15x",
+        "Requires personal help/aids and personal help with ADLs [Activities of Daily Living] Home visit only - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_1",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Husband/wife/partner - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh15_5_6x",
+        "Grouped activities for daily living (ADL) - Friend, neighbour or voluntary help [Home visit or postal home visit] - at age 69 years",
+        "2015",
+        "Home visit",
+        "40",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_13",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Other - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_3",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Daughter (including stepdaughter, adopted daughter, daughter-in-law) - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ],
+      [
+        "adlh115x_11",
+        "In the last month, who helped you with your activities for daily living (ADL) task: Warden/sheltered housing manager - at age 69 years",
+        "2015",
+        "Home visit",
+        "39",
+        "PhysCap15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social support or life events [25]",
+        "Legacy Category"
+      ],
+      [
+        "Physical capability [5108]",
+        "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). "
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Paper HV only completed",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No help in past week",
+        false
+      ],
+      [
+        "1.0",
+        "Less than one hour",
+        false
+      ],
+      [
+        "2.0",
+        "1-4 hours",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "84",
+        "57%"
+      ],
+      [
+        "1",
+        "37",
+        "25%"
+      ],
+      [
+        "2",
+        "27",
+        "18%"
+      ],
+      [
+        "Displayed N",
+        "148",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "adlht115x",
+    "label": "Altogether, how many hours of help have you received with these activities for daily living (ADL) tasks in the last week - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9079",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "adlht115x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9079",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Altogether, how many hours of help have you received with these activities for daily living (ADL) tasks in the last week - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "PhysCap15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "40",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell counts issue",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2030 Home visit. Activity questions. This was also asked slightly differently in 2025, where ADL's and IADL's questions were combined.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "adlht115_hv_phvx",
+        "description": "Grouped activities for daily living (ADL) Hours - Home visit or postal home visit responses combined - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_2",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Son (including stepson, adopted son or son-in-law) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_6",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Voluntary helper - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_7",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Paid/professional help - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_5",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Friend or neighbour - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlhd115_phvx",
+        "description": "Can you do the activities you report difficulty with, without aids or personal help - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh15_7x",
+        "description": "Grouped activities for daily living (ADL) - Paid professional help [Home visit or postal home visit] - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh15_2_4x",
+        "description": "Grouped activities for daily living (ADL) - other family member [Home visit or postal home visit] - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_0",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: No help received in past month - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "iadlt15_hv_phvx",
+        "description": "Grouped  IADLs [Instrumental Activities of Daily Living] Hours - HV and pHV responses combined - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "47+48",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adls2_15x",
+        "description": "Requires personal help/aids and personal help with ADLs [Activities of Daily Living] Home visit or postal home visit - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_8",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Home care worker/home help - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "iadlt15x",
+        "description": "Altogether, how many hours of help have you received with these tasks in the last week - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "48",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_9",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Member of the reablement/intermediate care staff team - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_10",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Occupational therapist/physiotherapist - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_4",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Other family member - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_12",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Cleaner - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adls_15x",
+        "description": "Requires personal help/aids and personal help with ADLs [Activities of Daily Living] Home visit only - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_1",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Husband/wife/partner - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh15_5_6x",
+        "description": "Grouped activities for daily living (ADL) - Friend, neighbour or voluntary help [Home visit or postal home visit] - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "40",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_13",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Other - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_3",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Daughter (including stepdaughter, adopted daughter, daughter-in-law) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "adlh115x_11",
+        "description": "In the last month, who helped you with your activities for daily living (ADL) task: Warden/sheltered housing manager - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "39",
+        "library_file": "PhysCap15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social support or life events [25]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical capability [5108]",
+        "description": "This category contains data from the questionnaires on phyical capability such as activities of daily living (ADL's) and instrumental activites of daily living (IADL's). ",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_5108.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Paper HV only completed",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No help in past week",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Less than one hour",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "1-4 hours",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 23,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No help in past week",
+          "count": 84,
+          "pct": 57
+        },
+        {
+          "value": "1",
+          "label": "Less than one hour",
+          "count": 37,
+          "pct": 25
+        },
+        {
+          "value": "2",
+          "label": "1-4 hours",
+          "count": 27,
+          "pct": 18
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "84",
+        "57%"
+      ],
+      [
+        "1",
+        "37",
+        "25%"
+      ],
+      [
+        "2",
+        "27",
+        "18%"
+      ],
+      [
+        "Displayed N",
+        "148",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

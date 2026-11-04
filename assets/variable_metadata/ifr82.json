@@ -1,0 +1,574 @@
+{
+  "varname": "ifr82",
+  "label": "Are your wages/salary paid weekly/monthly/quarterly etc - at age 36 years",
+  "field_id": "7216",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7216",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2562.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "iinc82",
+    "isik82",
+    "ihwd82",
+    "iphol82",
+    "gwinc82",
+    "eninc82",
+    "ipt82"
+  ],
+  "linked_years": [
+    "1982"
+  ],
+  "categories": [
+    "Other socioeconomic circumstances [24]",
+    "Economic circumstances [5151]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "1.0",
+      "label": "Weekly (wages paid)"
+    },
+    {
+      "value": "2.0",
+      "label": "Monthly"
+    },
+    {
+      "value": "4.0",
+      "label": "Other, specify"
+    },
+    {
+      "value": "5.0",
+      "label": "Self employed"
+    },
+    {
+      "value": "8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Weekly (wages paid)",
+      "count": 964,
+      "pct": 37.6
+    },
+    {
+      "label": "Monthly",
+      "count": 1211,
+      "pct": 47.3
+    },
+    {
+      "label": "Other, specify",
+      "count": 78,
+      "pct": 3.0
+    },
+    {
+      "label": "Self employed",
+      "count": 309,
+      "pct": 12.1
+    }
+  ],
+  "pdf": {
+    "varname": "ifr82",
+    "label": "Are your wages/salary paid weekly/monthly/quarterly etc - at age 36 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ifr82"
+      ],
+      [
+        "Field ID",
+        "7216"
+      ],
+      [
+        "Label",
+        "Are your wages/salary paid weekly/monthly/quarterly etc - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "B18"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "56(a)"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "1982 A Q56-Q57. Includes employees as well as self employed."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "iinc82",
+        "Is your present job on an incremental scale - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "56(b)",
+        "B18"
+      ],
+      [
+        "isik82",
+        "Does your employer give you time off with pay when you are sick - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "56(c)",
+        "B18"
+      ],
+      [
+        "ihwd82",
+        "How many weeks holiday are you entitled to - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "56(e)",
+        "B18"
+      ],
+      [
+        "iphol82",
+        "Do you get paid holidays - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "56(d)",
+        "B18"
+      ],
+      [
+        "gwinc82",
+        "Go without in last year because short of money - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "57(b)",
+        "B18"
+      ],
+      [
+        "eninc82",
+        "Adequate income - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "57(a)",
+        "B18"
+      ],
+      [
+        "ipt82",
+        "Average income range take-home pay per week - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "56(f)",
+        "B18"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Economic circumstances [5151]",
+        "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "1.0",
+        "Weekly (wages paid)",
+        false
+      ],
+      [
+        "2.0",
+        "Monthly",
+        false
+      ],
+      [
+        "4.0",
+        "Other, specify",
+        false
+      ],
+      [
+        "5.0",
+        "Self employed",
+        false
+      ],
+      [
+        "8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "964",
+        "38%"
+      ],
+      [
+        "2",
+        "1211",
+        "47%"
+      ],
+      [
+        "4",
+        "78",
+        "3%"
+      ],
+      [
+        "5",
+        "309",
+        "12%"
+      ],
+      [
+        "Displayed N",
+        "2562",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "ifr82",
+    "label": "Are your wages/salary paid weekly/monthly/quarterly etc - at age 36 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7216",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ifr82",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7216",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Are your wages/salary paid weekly/monthly/quarterly etc - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "B18",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "56(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "1982 A Q56-Q57. Includes employees as well as self employed.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "iinc82",
+        "description": "Is your present job on an incremental scale - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "56(b)",
+        "library_file": "B18"
+      },
+      {
+        "varname": "isik82",
+        "description": "Does your employer give you time off with pay when you are sick - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "56(c)",
+        "library_file": "B18"
+      },
+      {
+        "varname": "ihwd82",
+        "description": "How many weeks holiday are you entitled to - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "56(e)",
+        "library_file": "B18"
+      },
+      {
+        "varname": "iphol82",
+        "description": "Do you get paid holidays - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "56(d)",
+        "library_file": "B18"
+      },
+      {
+        "varname": "gwinc82",
+        "description": "Go without in last year because short of money - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "57(b)",
+        "library_file": "B18"
+      },
+      {
+        "varname": "eninc82",
+        "description": "Adequate income - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "57(a)",
+        "library_file": "B18"
+      },
+      {
+        "varname": "ipt82",
+        "description": "Average income range take-home pay per week - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "56(f)",
+        "library_file": "B18"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Economic circumstances [5151]",
+        "description": "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Economic_circumstances_5151.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Weekly (wages paid)",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Monthly",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Other, specify",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Self employed",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 8
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Weekly (wages paid)",
+          "count": 964,
+          "pct": 38
+        },
+        {
+          "value": "2",
+          "label": "Monthly",
+          "count": 1211,
+          "pct": 47
+        },
+        {
+          "value": "4",
+          "label": "Other, specify",
+          "count": 78,
+          "pct": 3
+        },
+        {
+          "value": "5",
+          "label": "Self employed",
+          "count": 309,
+          "pct": 12
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "964",
+        "38%"
+      ],
+      [
+        "2",
+        "1211",
+        "47%"
+      ],
+      [
+        "4",
+        "78",
+        "3%"
+      ],
+      [
+        "5",
+        "309",
+        "12%"
+      ],
+      [
+        "Displayed N",
+        "2562",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

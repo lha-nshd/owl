@@ -1,0 +1,565 @@
+{
+  "varname": "own82",
+  "label": "Who owns your accommodation? - at age 36 years",
+  "field_id": "28119",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=28119",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 3317.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "own14x",
+    "own89",
+    "own",
+    "own09",
+    "own22x"
+  ],
+  "linked_years": [
+    "1989",
+    "1999",
+    "2006-10",
+    "2014",
+    "2022"
+  ],
+  "categories": [
+    "Other socioeconomic circumstances [24]",
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "0.0",
+      "label": "Are you buying it"
+    },
+    {
+      "value": "1.0",
+      "label": "Renting it from the council"
+    },
+    {
+      "value": "2.0",
+      "label": "Renting it from a relative"
+    },
+    {
+      "value": "3.0",
+      "label": "Renting it from a private landlord"
+    },
+    {
+      "value": "4.0",
+      "label": "Other, namely"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Are you buying it",
+      "count": 2476,
+      "pct": 74.6
+    },
+    {
+      "label": "Renting it from the council",
+      "count": 476,
+      "pct": 14.4
+    },
+    {
+      "label": "Renting it from a relative",
+      "count": 11,
+      "pct": 0.3
+    },
+    {
+      "label": "Renting it from a private landlord",
+      "count": 111,
+      "pct": 3.3
+    },
+    {
+      "label": "Other, namely",
+      "count": 243,
+      "pct": 7.3
+    }
+  ],
+  "pdf": {
+    "varname": "own82",
+    "label": "Who owns your accommodation? - at age 36 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "own82"
+      ],
+      [
+        "Field ID",
+        "28119"
+      ],
+      [
+        "Label",
+        "Who owns your accommodation? - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "B12"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "12"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about accommodation asked in the 1982 A questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "own14x",
+        "Does your household own or rent your accommodation - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "1",
+        "HomeOwnership14"
+      ],
+      [
+        "own89",
+        "Who owns your accommodation? - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "12",
+        "de89d"
+      ],
+      [
+        "own",
+        "Now I would like to get some general information about your household. Does your household own or rent this accommodation? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "14",
+        "capi99a"
+      ],
+      [
+        "own09",
+        "Does your household own or rent your accommodation - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "25",
+        "HousingTen09"
+      ],
+      [
+        "own22x",
+        "Does your household own or rent your accommodation? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "1",
+        "Postal22"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "0.0",
+        "Are you buying it",
+        false
+      ],
+      [
+        "1.0",
+        "Renting it from the council",
+        false
+      ],
+      [
+        "2.0",
+        "Renting it from a relative",
+        false
+      ],
+      [
+        "3.0",
+        "Renting it from a private landlord",
+        false
+      ],
+      [
+        "4.0",
+        "Other, namely",
+        false
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "2476",
+        "75%"
+      ],
+      [
+        "1",
+        "476",
+        "14%"
+      ],
+      [
+        "2",
+        "11",
+        "0%"
+      ],
+      [
+        "3",
+        "111",
+        "3%"
+      ],
+      [
+        "4",
+        "243",
+        "7%"
+      ],
+      [
+        "Displayed N",
+        "3317",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "own82",
+    "label": "Who owns your accommodation? - at age 36 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=28119",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "own82",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "28119",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Who owns your accommodation? - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "B12",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "12",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about accommodation asked in the 1982 A questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "own14x",
+        "description": "Does your household own or rent your accommodation - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "1",
+        "library_file": "HomeOwnership14"
+      },
+      {
+        "varname": "own89",
+        "description": "Who owns your accommodation? - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "12",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "own",
+        "description": "Now I would like to get some general information about your household. Does your household own or rent this accommodation? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "14",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "own09",
+        "description": "Does your household own or rent your accommodation - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "25",
+        "library_file": "HousingTen09"
+      },
+      {
+        "varname": "own22x",
+        "description": "Does your household own or rent your accommodation? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "1",
+        "library_file": "Postal22"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Are you buying it",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Renting it from the council",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Renting it from a relative",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Renting it from a private landlord",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Other, namely",
+        "is_missing": false
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 8
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Are you buying it",
+          "count": 2476,
+          "pct": 75
+        },
+        {
+          "value": "1",
+          "label": "Renting it from the council",
+          "count": 476,
+          "pct": 14
+        },
+        {
+          "value": "2",
+          "label": "Renting it from a relative",
+          "count": 11,
+          "pct": 0
+        },
+        {
+          "value": "3",
+          "label": "Renting it from a private landlord",
+          "count": 111,
+          "pct": 3
+        },
+        {
+          "value": "4",
+          "label": "Other, namely",
+          "count": 243,
+          "pct": 7
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "2476",
+        "75%"
+      ],
+      [
+        "1",
+        "476",
+        "14%"
+      ],
+      [
+        "2",
+        "11",
+        "0%"
+      ],
+      [
+        "3",
+        "111",
+        "3%"
+      ],
+      [
+        "4",
+        "243",
+        "7%"
+      ],
+      [
+        "Displayed N",
+        "3317",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

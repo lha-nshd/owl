@@ -1,0 +1,717 @@
+{
+  "varname": "percentwmhbg_i46p1",
+  "label": "Percentage of total volume in basal ganglia considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+  "field_id": "60198",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60198",
+  "year": "",
+  "form": "Insight46 - Phase 1",
+  "units": "%",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 0.571945767512677,
+  "sd": 0.48912306782336146,
+  "series_size": 409.0,
+  "minimum": 0.0717167109251022,
+  "maximum": 2.41533517837524,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "distwmhlayer3_i46p1",
+    "distwmhocc_i46p1",
+    "distwmhlayer1_i46p1",
+    "distwmhbg_i46p1",
+    "percentwmhfront_i46p1",
+    "distwmhtemp_i46p1",
+    "percentwmhpar_i46p1",
+    "distwmhlayer4_i46p1",
+    "distwmhpar_i46p1",
+    "percentwmhocc_i46p1",
+    "distwmhlayer2_i46p1",
+    "lesiontot_i46p1",
+    "percentwmhtemp_i46p1",
+    "distwmhfront_i46p1"
+  ],
+  "linked_years": [
+    "2015-2018"
+  ],
+  "categories": [
+    "Anthropometry [2]",
+    "White matter hyperintsity (WMH) volumes - Cross-sectional [603321]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Unknown / no data"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "percentwmhbg_i46p1",
+    "label": "Percentage of total volume in basal ganglia considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+    "meta_rows": [
+      [
+        "Variable",
+        "percentwmhbg_i46p1"
+      ],
+      [
+        "Field ID",
+        "60198"
+      ],
+      [
+        "Label",
+        "Percentage of total volume in basal ganglia considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46_bamos"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 1"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2015-2018"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "%"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 white matter hyperintensity volumes (global and regional) generated using the cross-sectional Bayesian Model Selection (BaMoS) pipeline . Note that there is also a longitudinal phase 1 white matter hyperintensity volume dataset which was generated after phase 2 data collection was complete - library file I46P2_Bamos_L."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "distwmhlayer3_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in layer 3 (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "distwmhocc_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in the occipital lobes (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "distwmhlayer1_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in layer 1 (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "distwmhbg_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in the basal ganglia (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "percentwmhfront_i46p1",
+        "Percentage of total white matter in the frontal lobes considered to be white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "distwmhtemp_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in the temporal lobes (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "percentwmhpar_i46p1",
+        "Percentage of total white matter in the parietal lobes considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "distwmhlayer4_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in layer 4 (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "distwmhpar_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in the parietal lobes (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "percentwmhocc_i46p1",
+        "Percentage of total white matter in the occipital lobes considered to be white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "distwmhlayer2_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in layer 2 (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "lesiontot_i46p1",
+        "Global white matter hyperintensity (WMH) volume (ml). Includes subcortical grey matter but not the infratentorial region - Cross-sectional - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "percentwmhtemp_i46p1",
+        "Percentage of total white matter in the temporal lobes considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ],
+      [
+        "distwmhfront_i46p1",
+        "Proportion of global white matter hyperintensity (WMH) in the frontal lobes (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1 ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bamos"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_bamos/Docs_BaMoS_I46W1.docx",
+        "Docs_BaMoS_I46W1.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Anthropometry [2]",
+        "Legacy Category"
+      ],
+      [
+        "White matter hyperintsity (WMH) volumes - Cross-sectional [603321]",
+        "This category contains the cross-sectional variables related to the white matter hyperintensity volumnes generated using the Bayesian Model Seletion (BaMoS) pipeline from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Unknown / no data",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0717167109251022"
+      ],
+      [
+        "Maximum",
+        "2.41533517837524"
+      ],
+      [
+        "Range",
+        "2.343618467450138"
+      ],
+      [
+        "Median",
+        "0.41126224398613"
+      ],
+      [
+        "IQR",
+        "0.238257616758347 - 0.724835991859436"
+      ],
+      [
+        "Decile 1",
+        "0.14448409378528582"
+      ],
+      [
+        "Decile 2",
+        "0.21234273612499238"
+      ],
+      [
+        "Decile 3",
+        "0.26292844414711"
+      ],
+      [
+        "Decile 4",
+        "0.3271363496780393"
+      ],
+      [
+        "Decile 5",
+        "0.41126224398613"
+      ],
+      [
+        "Decile 6",
+        "0.4841001629829404"
+      ],
+      [
+        "Decile 7",
+        "0.6355823040008541"
+      ],
+      [
+        "Decile 8",
+        "0.8216468453407295"
+      ],
+      [
+        "Decile 9",
+        "1.3099173545837397"
+      ],
+      [
+        "Mean",
+        "0.571945767512677"
+      ],
+      [
+        "Std Dev.",
+        "0.48912306782336146"
+      ],
+      [
+        "Variance",
+        "0.23924137547693664"
+      ],
+      [
+        "Displayed N",
+        "409"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "percentwmhbg_i46p1",
+    "label": "Percentage of total volume in basal ganglia considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=60198",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "percentwmhbg_i46p1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "60198",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Percentage of total volume in basal ganglia considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46_bamos",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015-2018",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "%",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 white matter hyperintensity volumes (global and regional) generated using the cross-sectional Bayesian Model Selection (BaMoS) pipeline . Note that there is also a longitudinal phase 1 white matter hyperintensity volume dataset which was generated after phase 2 data collection was complete - library file I46P2_Bamos_L.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "distwmhlayer3_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in layer 3 (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "distwmhocc_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in the occipital lobes (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "distwmhlayer1_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in layer 1 (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "distwmhbg_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in the basal ganglia (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "percentwmhfront_i46p1",
+        "description": "Percentage of total white matter in the frontal lobes considered to be white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "distwmhtemp_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in the temporal lobes (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "percentwmhpar_i46p1",
+        "description": "Percentage of total white matter in the parietal lobes considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "distwmhlayer4_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in layer 4 (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "distwmhpar_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in the parietal lobes (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "percentwmhocc_i46p1",
+        "description": "Percentage of total white matter in the occipital lobes considered to be white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "distwmhlayer2_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in layer 2 (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1  ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "lesiontot_i46p1",
+        "description": "Global white matter hyperintensity (WMH) volume (ml). Includes subcortical grey matter but not the infratentorial region - Cross-sectional - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "percentwmhtemp_i46p1",
+        "description": "Percentage of total white matter in the temporal lobes considered white matter hyperintensity (range 0 \u2013 100) - Cross-sectional - Insight46 phase 1 ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      },
+      {
+        "varname": "distwmhfront_i46p1",
+        "description": "Proportion of global white matter hyperintensity (WMH) in the frontal lobes (value 0 \u2013 1) - Cross-sectional - Insight46 phase 1 ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bamos"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_bamos/Docs_BaMoS_I46W1.docx",
+        "text": "Docs_BaMoS_I46W1.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Anthropometry [2]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "White matter hyperintsity (WMH) volumes - Cross-sectional [603321]",
+        "description": "This category contains the cross-sectional variables related to the white matter hyperintensity volumnes generated using the Bayesian Model Seletion (BaMoS) pipeline from the MRI brain imaging carried out on the participants taking part in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/White_matter_hyperintsity_(WMH)_volumes_-_Cross-sectional_603321.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Unknown / no data",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 14,
+      "docs": 2,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "%",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.0717167109251022,
+          0.2019177368945543,
+          0.33211876286400643,
+          0.4623197888334585,
+          0.5925208148029106,
+          0.7227218407723628,
+          0.8529228667418148,
+          0.9831238927112669,
+          1.113324918680719,
+          1.2435259446501712,
+          1.3737269706196233,
+          1.5039279965890753,
+          1.6341290225585274,
+          1.7643300485279796,
+          1.8945310744974315,
+          2.0247321004668835,
+          2.154933126436336,
+          2.2851341524057878,
+          2.41533517837524
+        ],
+        "counts": [
+          74,
+          93,
+          65,
+          46,
+          28,
+          24,
+          13,
+          10,
+          12,
+          6,
+          7,
+          10,
+          3,
+          5,
+          3,
+          4,
+          3,
+          3
+        ]
+      },
+      "boxplot": {
+        "min": 0.0717167109251022,
+        "q1": 0.238257616758347,
+        "median": 0.41126224398613,
+        "q3": 0.724835991859436,
+        "max": 2.41533517837524
+      },
+      "units": "%"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.0717167109251022"
+      ],
+      [
+        "Maximum",
+        "2.41533517837524"
+      ],
+      [
+        "Range",
+        "2.343618467450138"
+      ],
+      [
+        "Median",
+        "0.41126224398613"
+      ],
+      [
+        "IQR",
+        "0.238257616758347 - 0.724835991859436"
+      ],
+      [
+        "Decile 1",
+        "0.14448409378528582"
+      ],
+      [
+        "Decile 2",
+        "0.21234273612499238"
+      ],
+      [
+        "Decile 3",
+        "0.26292844414711"
+      ],
+      [
+        "Decile 4",
+        "0.3271363496780393"
+      ],
+      [
+        "Decile 5",
+        "0.41126224398613"
+      ],
+      [
+        "Decile 6",
+        "0.4841001629829404"
+      ],
+      [
+        "Decile 7",
+        "0.6355823040008541"
+      ],
+      [
+        "Decile 8",
+        "0.8216468453407295"
+      ],
+      [
+        "Decile 9",
+        "1.3099173545837397"
+      ],
+      [
+        "Mean",
+        "0.571945767512677"
+      ],
+      [
+        "Std Dev.",
+        "0.48912306782336146"
+      ],
+      [
+        "Variance",
+        "0.23924137547693664"
+      ],
+      [
+        "Displayed N",
+        "409"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

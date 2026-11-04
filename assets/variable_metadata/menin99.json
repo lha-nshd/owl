@@ -1,0 +1,366 @@
+{
+  "varname": "menin99",
+  "label": "Have you had in the last 10 years meningitis or encephalitis - at age 53 years",
+  "field_id": "31099",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31099",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2980.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "neuro99",
+    "epi99"
+  ],
+  "linked_years": [
+    "1999"
+  ],
+  "categories": [
+    "Mental health [8]",
+    "Nervous system conditions [51018]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No meningitis"
+    },
+    {
+      "value": "8.0",
+      "label": "No interview"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No meningitis",
+      "count": 2980,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "menin99",
+    "label": "Have you had in the last 10 years meningitis or encephalitis - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "menin99"
+      ],
+      [
+        "Field ID",
+        "31099"
+      ],
+      [
+        "Label",
+        "Have you had in the last 10 years meningitis or encephalitis - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "health99"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "33"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived health outcomes files from 1999"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "neuro99",
+        "Neurological illness in the last 10 years (derived from epilepsy and chronic fatigue syndrome or myaligic encephalomyelitis [ME]) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "Various",
+        "health99"
+      ],
+      [
+        "epi99",
+        "Have you been told in the last 10 years that you have any fits or epilepsy (derived) - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "35",
+        "health99"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/health99/Health99_documentation.docx",
+        "Health99_documentation.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Mental health [8]",
+        "Legacy Category"
+      ],
+      [
+        "Nervous system conditions [51018]",
+        "This category contains data from the questionnaires on nervous system conditions, such as epilepsy, parkinsons, myalgic encephalomyelitis (ME), headache and migraines."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No meningitis",
+        false
+      ],
+      [
+        "8.0",
+        "No interview",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "2980",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "2980",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "menin99",
+    "label": "Have you had in the last 10 years meningitis or encephalitis - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=31099",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "menin99",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "31099",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Have you had in the last 10 years meningitis or encephalitis - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "health99",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "33",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived health outcomes files from 1999",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "neuro99",
+        "description": "Neurological illness in the last 10 years (derived from epilepsy and chronic fatigue syndrome or myaligic encephalomyelitis [ME]) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "Various",
+        "library_file": "health99"
+      },
+      {
+        "varname": "epi99",
+        "description": "Have you been told in the last 10 years that you have any fits or epilepsy (derived) - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "35",
+        "library_file": "health99"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/health99/Health99_documentation.docx",
+        "text": "Health99_documentation.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Mental health [8]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Nervous system conditions [51018]",
+        "description": "This category contains data from the questionnaires on nervous system conditions, such as epilepsy, parkinsons, myalgic encephalomyelitis (ME), headache and migraines.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Nervous_system_conditions_51018.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No meningitis",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "No interview",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 2,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No meningitis",
+          "count": 2980,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "2980",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "2980",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

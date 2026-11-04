@@ -1,0 +1,485 @@
+{
+  "varname": "vsrwn_myft",
+  "label": "Visual letter search: - Row of final crossed out target letter - Myofit sub-study",
+  "field_id": "70128",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70128",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 46.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "vsrw23x",
+    "vsrw15x",
+    "vscl15x",
+    "vscl_myft",
+    "vsrwn15x",
+    "vscl23x"
+  ],
+  "linked_years": [
+    "2015",
+    "2020-2024",
+    "2023"
+  ],
+  "categories": [
+    "Processing speed [8023]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "11.0",
+      "label": "K"
+    },
+    {
+      "value": "6.0",
+      "label": "F"
+    },
+    {
+      "value": "8.0",
+      "label": "H"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "F",
+      "count": 12,
+      "pct": 26.1
+    },
+    {
+      "label": "H",
+      "count": 22,
+      "pct": 47.8
+    },
+    {
+      "label": "K",
+      "count": 12,
+      "pct": 26.1
+    }
+  ],
+  "pdf": {
+    "varname": "vsrwn_myft",
+    "label": "Visual letter search: - Row of final crossed out target letter - Myofit sub-study",
+    "meta_rows": [
+      [
+        "Variable",
+        "vsrwn_myft"
+      ],
+      [
+        "Field ID",
+        "70128"
+      ],
+      [
+        "Label",
+        "Visual letter search: - Row of final crossed out target letter - Myofit sub-study"
+      ],
+      [
+        "Card Number",
+        "Myft_Word"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Visual search and word list. These variables need to be merged with those who have answered the questions in the 2023 Home visit."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "vsrw23x",
+        "Visual letter search: Row of final crossed out target letter (numeric) - at age 77 years",
+        "2023",
+        "Paper test",
+        "Not applicable",
+        "cognition23"
+      ],
+      [
+        "vsrw15x",
+        "Visual letter search: Row of final crossed out target letter - at age 69 years",
+        "2015",
+        "Home visit",
+        "Letter search",
+        "Cognition15"
+      ],
+      [
+        "vscl15x",
+        "Visual letter search: Column position of final crossed out target letter - at age 69 years",
+        "2015",
+        "Home visit",
+        "Letter search",
+        "Cognition15"
+      ],
+      [
+        "vscl_myft",
+        "Visual letter search: - Column position of final crossed out target letter - Myofit sub-study",
+        "2020-2024",
+        "Myofit sub-study",
+        "Not applicable",
+        "Myft_Word"
+      ],
+      [
+        "vsrwn15x",
+        "Visual letter search: Row of final crossed out target letter (numeric) - at age 69 years",
+        "2015",
+        "Home visit",
+        "Letter search",
+        "Cognition15"
+      ],
+      [
+        "vscl23x",
+        "Visual letter search: Column of final crossed out target letter - at age 77 years",
+        "2023",
+        "Paper test",
+        "Not applicable",
+        "cognition23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Processing speed [8023]",
+        "Letter search speed: mean speed for each of the three trials. Participants who were unable to do the test during the 2023 Home visit were asked to do the test when they took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "11.0",
+        "K",
+        false
+      ],
+      [
+        "6.0",
+        "F",
+        false
+      ],
+      [
+        "8.0",
+        "H",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "6",
+        "12",
+        "26%"
+      ],
+      [
+        "8",
+        "22",
+        "48%"
+      ],
+      [
+        "11",
+        "12",
+        "26%"
+      ],
+      [
+        "Displayed N",
+        "46",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "vsrwn_myft",
+    "label": "Visual letter search: - Row of final crossed out target letter - Myofit sub-study",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70128",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "vsrwn_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70128",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Visual letter search: - Row of final crossed out target letter - Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Myft_Word",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Visual search and word list. These variables need to be merged with those who have answered the questions in the 2023 Home visit.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "vsrw23x",
+        "description": "Visual letter search: Row of final crossed out target letter (numeric) - at age 77 years",
+        "year": "2023",
+        "form": "Paper test",
+        "question": "Not applicable",
+        "library_file": "cognition23"
+      },
+      {
+        "varname": "vsrw15x",
+        "description": "Visual letter search: Row of final crossed out target letter - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "Letter search",
+        "library_file": "Cognition15"
+      },
+      {
+        "varname": "vscl15x",
+        "description": "Visual letter search: Column position of final crossed out target letter - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "Letter search",
+        "library_file": "Cognition15"
+      },
+      {
+        "varname": "vscl_myft",
+        "description": "Visual letter search: - Column position of final crossed out target letter - Myofit sub-study",
+        "year": "2020-2024",
+        "form": "Myofit sub-study",
+        "question": "Not applicable",
+        "library_file": "Myft_Word"
+      },
+      {
+        "varname": "vsrwn15x",
+        "description": "Visual letter search: Row of final crossed out target letter (numeric) - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "Letter search",
+        "library_file": "Cognition15"
+      },
+      {
+        "varname": "vscl23x",
+        "description": "Visual letter search: Column of final crossed out target letter - at age 77 years",
+        "year": "2023",
+        "form": "Paper test",
+        "question": "Not applicable",
+        "library_file": "cognition23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Processing speed [8023]",
+        "description": "Letter search speed: mean speed for each of the three trials. Participants who were unable to do the test during the 2023 Home visit were asked to do the test when they took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Processing_speed_8023.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "11.0",
+        "label": "K",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "F",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "H",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 1,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "6",
+          "label": "F",
+          "count": 12,
+          "pct": 26
+        },
+        {
+          "value": "8",
+          "label": "H",
+          "count": 22,
+          "pct": 48
+        },
+        {
+          "value": "11",
+          "label": "K",
+          "count": 12,
+          "pct": 26
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "6",
+        "12",
+        "26%"
+      ],
+      [
+        "8",
+        "22",
+        "48%"
+      ],
+      [
+        "11",
+        "12",
+        "26%"
+      ],
+      [
+        "Displayed N",
+        "46",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

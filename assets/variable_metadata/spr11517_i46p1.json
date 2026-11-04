@@ -1,0 +1,629 @@
+{
+  "varname": "spr11517_i46p1",
+  "label": "First standing pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 1 ",
+  "field_id": "61445",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=61445",
+  "year": "",
+  "form": "Insight46 - Phase 1",
+  "units": "beats/min",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 74.84463894967178,
+  "sd": 10.56354838158675,
+  "series_size": 457.0,
+  "minimum": 55.0,
+  "maximum": 100.0,
+  "truly_longitudinal_field_id": "61445",
+  "truly_longitudinal_varnames": [
+    "stand_pulse1_i46p2"
+  ],
+  "truly_longitudinal_years": [
+    "2015-2018",
+    "2018-2021"
+  ],
+  "linked_varnames": [
+    "lpr21517_i46p1",
+    "spr21517_i46p1",
+    "lpr11517_i46p1",
+    "sit_pulse2_i46p2",
+    "stand_pulse2_i46p2",
+    "lying_pulse2_i46p2",
+    "sit_pulse1_i46p2",
+    "lying_pulse1_i46p2"
+  ],
+  "linked_years": [
+    "2015-2018",
+    "2018-2021"
+  ],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Blood pressure [60351]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-99.0",
+      "label": "Unknown / no data"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "spr11517_i46p1",
+    "label": "First standing pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 1 ",
+    "meta_rows": [
+      [
+        "Variable",
+        "spr11517_i46p1"
+      ],
+      [
+        "Field ID",
+        "61445"
+      ],
+      [
+        "Label",
+        "First standing pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46_bloodPressure"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 1"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2015-2018"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "beats/min"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 blood pressure and pulse rate measures. Measurements were performed twice (one minute apart) recumbent in the left arm after 3 minutes of rest, and then twice (one minute apart) following 3 minutes of standing quietly. Also measured in phase 2 - library file I46P2_BP."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "stand_pulse1_i46p2",
+        "2018-2021",
+        "First standing pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 2"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "lpr21517_i46p1",
+        "Second lying pulse rate after further 1 minute of rest (beats per minute) - Insight46 phase 1 ",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bloodPressure"
+      ],
+      [
+        "spr21517_i46p1",
+        "Second standing pulse rate after further 1 minute of rest (beats per minute) - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bloodPressure"
+      ],
+      [
+        "lpr11517_i46p1",
+        "First lying pulse rate (beats per minute) - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_bloodPressure"
+      ],
+      [
+        "sit_pulse2_i46p2",
+        "Second sitting pulse rate after 3 minutes of rest (mmHg) - Insight46 phase 1",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_BP"
+      ],
+      [
+        "stand_pulse2_i46p2",
+        "Second standing pulse rate after further 1 minute of rest (beats per minute) - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_BP"
+      ],
+      [
+        "lying_pulse2_i46p2",
+        "Second lying pulse rate after further 1 minute of rest (beats per minute) - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_BP"
+      ],
+      [
+        "sit_pulse1_i46p2",
+        "First sitting pulse rate after 3 minutes of rest (mmHg) - Insight46 phase 1",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_BP"
+      ],
+      [
+        "lying_pulse1_i46p2",
+        "First lying pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_BP"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/I46_bloodPressure/Docs_bloods_I46W1.docx",
+        "Docs_bloods_I46W1.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Blood pressure [60351]",
+        "This category contains information on blood pressure measurements collected as part of the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-99.0",
+        "Unknown / no data",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "55"
+      ],
+      [
+        "Maximum",
+        "100"
+      ],
+      [
+        "Range",
+        "45"
+      ],
+      [
+        "Median",
+        "75.0"
+      ],
+      [
+        "IQR",
+        "66.0 - 82.0"
+      ],
+      [
+        "Decile 1",
+        "61.6"
+      ],
+      [
+        "Decile 2",
+        "65.0"
+      ],
+      [
+        "Decile 3",
+        "68.0"
+      ],
+      [
+        "Decile 4",
+        "71.0"
+      ],
+      [
+        "Decile 5",
+        "75.0"
+      ],
+      [
+        "Decile 6",
+        "77.0"
+      ],
+      [
+        "Decile 7",
+        "80.0"
+      ],
+      [
+        "Decile 8",
+        "84.0"
+      ],
+      [
+        "Decile 9",
+        "90.0"
+      ],
+      [
+        "Mean",
+        "74.84463894967178"
+      ],
+      [
+        "Std Dev.",
+        "10.56354838158675"
+      ],
+      [
+        "Variance",
+        "111.58855441012405"
+      ],
+      [
+        "Displayed N",
+        "457"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "spr11517_i46p1",
+    "label": "First standing pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 1 ",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=61445",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "spr11517_i46p1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "61445",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "First standing pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46_bloodPressure",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015-2018",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "beats/min",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 blood pressure and pulse rate measures. Measurements were performed twice (one minute apart) recumbent in the left arm after 3 minutes of rest, and then twice (one minute apart) following 3 minutes of standing quietly. Also measured in phase 2 - library file I46P2_BP.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "61445",
+      "members": [
+        {
+          "varname": "spr11517_i46p1",
+          "year": "2015-2018",
+          "label": "First standing pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 1 ",
+          "is_current": true
+        },
+        {
+          "varname": "stand_pulse1_i46p2",
+          "year": "2018-2021",
+          "label": "First standing pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 2",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "lpr21517_i46p1",
+        "description": "Second lying pulse rate after further 1 minute of rest (beats per minute) - Insight46 phase 1 ",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bloodPressure"
+      },
+      {
+        "varname": "spr21517_i46p1",
+        "description": "Second standing pulse rate after further 1 minute of rest (beats per minute) - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bloodPressure"
+      },
+      {
+        "varname": "lpr11517_i46p1",
+        "description": "First lying pulse rate (beats per minute) - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_bloodPressure"
+      },
+      {
+        "varname": "sit_pulse2_i46p2",
+        "description": "Second sitting pulse rate after 3 minutes of rest (mmHg) - Insight46 phase 1",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_BP"
+      },
+      {
+        "varname": "stand_pulse2_i46p2",
+        "description": "Second standing pulse rate after further 1 minute of rest (beats per minute) - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_BP"
+      },
+      {
+        "varname": "lying_pulse2_i46p2",
+        "description": "Second lying pulse rate after further 1 minute of rest (beats per minute) - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_BP"
+      },
+      {
+        "varname": "sit_pulse1_i46p2",
+        "description": "First sitting pulse rate after 3 minutes of rest (mmHg) - Insight46 phase 1",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_BP"
+      },
+      {
+        "varname": "lying_pulse1_i46p2",
+        "description": "First lying pulse rate after 3 minutes of rest (beats per minute) - Insight46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_BP"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/I46_bloodPressure/Docs_bloods_I46W1.docx",
+        "text": "Docs_bloods_I46W1.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood pressure [60351]",
+        "description": "This category contains information on blood pressure measurements collected as part of the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pressure_60351.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-99.0",
+        "label": "Unknown / no data",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 9,
+      "docs": 2,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "beats/min",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          55.0,
+          59.09090909090909,
+          63.18181818181818,
+          67.27272727272728,
+          71.36363636363636,
+          75.45454545454545,
+          79.54545454545455,
+          83.63636363636364,
+          87.72727272727272,
+          91.81818181818181,
+          95.9090909090909,
+          100.0
+        ],
+        "counts": [
+          29,
+          44,
+          52,
+          61,
+          61,
+          67,
+          47,
+          35,
+          25,
+          24,
+          12
+        ]
+      },
+      "boxplot": {
+        "min": 55.0,
+        "q1": 66.0,
+        "median": 75.0,
+        "q3": 82.0,
+        "max": 100.0
+      },
+      "units": "beats/min"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "55"
+      ],
+      [
+        "Maximum",
+        "100"
+      ],
+      [
+        "Range",
+        "45"
+      ],
+      [
+        "Median",
+        "75.0"
+      ],
+      [
+        "IQR",
+        "66.0 - 82.0"
+      ],
+      [
+        "Decile 1",
+        "61.6"
+      ],
+      [
+        "Decile 2",
+        "65.0"
+      ],
+      [
+        "Decile 3",
+        "68.0"
+      ],
+      [
+        "Decile 4",
+        "71.0"
+      ],
+      [
+        "Decile 5",
+        "75.0"
+      ],
+      [
+        "Decile 6",
+        "77.0"
+      ],
+      [
+        "Decile 7",
+        "80.0"
+      ],
+      [
+        "Decile 8",
+        "84.0"
+      ],
+      [
+        "Decile 9",
+        "90.0"
+      ],
+      [
+        "Mean",
+        "74.84463894967178"
+      ],
+      [
+        "Std Dev.",
+        "10.56354838158675"
+      ],
+      [
+        "Variance",
+        "111.58855441012405"
+      ],
+      [
+        "Displayed N",
+        "457"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

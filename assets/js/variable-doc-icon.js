@@ -34,6 +34,13 @@
  */
 (function () {
   var INDEX_URL = SITE_BASEURL + '/assets/data/variable_documents_index.json';
+  // permalinks in the JSON are site-relative (no baseurl) -- add it here.
+  // Already-prefixed values (older JSON) are left alone, so this is safe either way.
+  function withBase(path) {
+    if (!path) return path;
+    if (SITE_BASEURL && path.indexOf(SITE_BASEURL + '/') === 0) return path;
+    return SITE_BASEURL + path;
+  }
   var LINK_PATTERN = /\/assets\/variable_metadata\/([^/?#]+?)(?:\.html)?(?:[/?#]|$)/;
 
   function extractVarName(href) {
@@ -62,7 +69,7 @@
     icon.innerHTML = '<i class="ti ti-info-circle" aria-hidden="true"></i>';
 
     if (entries.length === 1) {
-      icon.href = entries[0].permalink;
+      icon.href = withBase(entries[0].permalink);
       wrap.appendChild(icon);
       return wrap;
     }
@@ -75,7 +82,7 @@
     entries.forEach(function (e) {
       var item = document.createElement('a');
       item.className = 'var-doc-dropdown-item';
-      item.href = e.permalink;
+      item.href = withBase(e.permalink);
       item.innerHTML = '<span class="dt">' + escapeHtml(e.doc_type.replace(/_/g, ' ')) + '</span><br>' +
         escapeHtml(e.title);
       dropdown.appendChild(item);

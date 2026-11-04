@@ -1,0 +1,615 @@
+{
+  "varname": "room82",
+  "label": "How many rooms do you have? Total - at age 36 years ",
+  "field_id": "32576",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32576",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 5.266961186494163,
+  "sd": 1.207443888354026,
+  "series_size": 3169.0,
+  "minimum": 3.0,
+  "maximum": 8.0,
+  "truly_longitudinal_field_id": "32576",
+  "truly_longitudinal_varnames": [
+    "room89"
+  ],
+  "truly_longitudinal_years": [
+    "1982",
+    "1989"
+  ],
+  "linked_varnames": [
+    "lroom89",
+    "lavi82",
+    "lavs82",
+    "broom89",
+    "bats82",
+    "kits82"
+  ],
+  "linked_years": [
+    "1982",
+    "1989"
+  ],
+  "categories": [
+    "Other socioeconomic circumstances [24]",
+    "Household [5152]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "-9999.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "96.0",
+      "label": "Living rough or squatting"
+    },
+    {
+      "value": "97.0",
+      "label": "Living in an institution which cares for this survey member"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "room82",
+    "label": "How many rooms do you have? Total - at age 36 years ",
+    "meta_rows": [
+      [
+        "Variable",
+        "room82"
+      ],
+      [
+        "Field ID",
+        "32576"
+      ],
+      [
+        "Label",
+        "How many rooms do you have? Total - at age 36 years"
+      ],
+      [
+        "Card Number",
+        "B12"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "13(a)"
+      ],
+      [
+        "Year",
+        "1982"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about accommodation asked in the 1982 A questionnaire."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "room89",
+        "1989",
+        "How many rooms do you have? Total - at age 43 years"
+      ]
+    ],
+    "linked_rows": [
+      [
+        "lroom89",
+        "How many rooms do you have? Living rooms  - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "13(a)",
+        "de89d"
+      ],
+      [
+        "lavi82",
+        "Do you have an indoor lavatory? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "14(a)",
+        "B12"
+      ],
+      [
+        "lavs82",
+        "Do you share your indoor lavatory with any other household? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "14(b)",
+        "B12"
+      ],
+      [
+        "broom89",
+        "How many rooms do you have? Bedrooms - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "13(a)",
+        "de89d"
+      ],
+      [
+        "bats82",
+        "Do you share your bathroom with any other household? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "13(c)",
+        "B12"
+      ],
+      [
+        "kits82",
+        "Do you share your kitchen with any other household? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "13(b)",
+        "B12"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Household [5152]",
+        "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "-9999.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "96.0",
+        "Living rough or squatting",
+        true
+      ],
+      [
+        "97.0",
+        "Living in an institution which cares for this survey member",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "3"
+      ],
+      [
+        "Maximum",
+        "8"
+      ],
+      [
+        "Range",
+        "5"
+      ],
+      [
+        "Median",
+        "5.0"
+      ],
+      [
+        "IQR",
+        "4.0 - 6.0"
+      ],
+      [
+        "Decile 1",
+        "4.0"
+      ],
+      [
+        "Decile 2",
+        "4.0"
+      ],
+      [
+        "Decile 3",
+        "5.0"
+      ],
+      [
+        "Decile 4",
+        "5.0"
+      ],
+      [
+        "Decile 5",
+        "5.0"
+      ],
+      [
+        "Decile 6",
+        "5.0"
+      ],
+      [
+        "Decile 7",
+        "6.0"
+      ],
+      [
+        "Decile 8",
+        "6.0"
+      ],
+      [
+        "Decile 9",
+        "7.0"
+      ],
+      [
+        "Mean",
+        "5.266961186494163"
+      ],
+      [
+        "Std Dev.",
+        "1.207443888354026"
+      ],
+      [
+        "Variance",
+        "1.4579207435234895"
+      ],
+      [
+        "Displayed N",
+        "3169"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "room82",
+    "label": "How many rooms do you have? Total - at age 36 years ",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32576",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "room82",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "32576",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How many rooms do you have? Total - at age 36 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "B12",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "13(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1982",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about accommodation asked in the 1982 A questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "32576",
+      "members": [
+        {
+          "varname": "room82",
+          "year": "1982",
+          "label": "How many rooms do you have? Total - at age 36 years ",
+          "is_current": true
+        },
+        {
+          "varname": "room89",
+          "year": "1989",
+          "label": "How many rooms do you have? Total - at age 43 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [
+      {
+        "varname": "lroom89",
+        "description": "How many rooms do you have? Living rooms  - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "13(a)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "lavi82",
+        "description": "Do you have an indoor lavatory? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "14(a)",
+        "library_file": "B12"
+      },
+      {
+        "varname": "lavs82",
+        "description": "Do you share your indoor lavatory with any other household? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "14(b)",
+        "library_file": "B12"
+      },
+      {
+        "varname": "broom89",
+        "description": "How many rooms do you have? Bedrooms - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "13(a)",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "bats82",
+        "description": "Do you share your bathroom with any other household? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "13(c)",
+        "library_file": "B12"
+      },
+      {
+        "varname": "kits82",
+        "description": "Do you share your kitchen with any other household? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "13(b)",
+        "library_file": "B12"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Household [5152]",
+        "description": "This category contains data on the housing, household composition, number of children/grandchildren, whether living with partner, number of vehicles and pets. Includes the CLS harmonisation variables on number of children at different ages. Questions were asked in througout childhood and adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Household_5152.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "-9999.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "96.0",
+        "label": "Living rough or squatting",
+        "is_missing": true
+      },
+      {
+        "value": "97.0",
+        "label": "Living in an institution which cares for this survey member",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          8.0
+        ],
+        "counts": [
+          191,
+          613,
+          1183,
+          678,
+          504
+        ]
+      },
+      "boxplot": {
+        "min": 3.0,
+        "q1": 4.0,
+        "median": 5.0,
+        "q3": 6.0,
+        "max": 8.0
+      },
+      "units": "Not applicable"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "3"
+      ],
+      [
+        "Maximum",
+        "8"
+      ],
+      [
+        "Range",
+        "5"
+      ],
+      [
+        "Median",
+        "5.0"
+      ],
+      [
+        "IQR",
+        "4.0 - 6.0"
+      ],
+      [
+        "Decile 1",
+        "4.0"
+      ],
+      [
+        "Decile 2",
+        "4.0"
+      ],
+      [
+        "Decile 3",
+        "5.0"
+      ],
+      [
+        "Decile 4",
+        "5.0"
+      ],
+      [
+        "Decile 5",
+        "5.0"
+      ],
+      [
+        "Decile 6",
+        "5.0"
+      ],
+      [
+        "Decile 7",
+        "6.0"
+      ],
+      [
+        "Decile 8",
+        "6.0"
+      ],
+      [
+        "Decile 9",
+        "7.0"
+      ],
+      [
+        "Mean",
+        "5.266961186494163"
+      ],
+      [
+        "Std Dev.",
+        "1.207443888354026"
+      ],
+      [
+        "Variance",
+        "1.4579207435234895"
+      ],
+      [
+        "Displayed N",
+        "3169"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "varname": "ilh",
+  "label": "Largest number of hours worked per week  coded in hours (excluding overtime) at age 26 years",
+  "field_id": "7184",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7184",
+  "year": "",
+  "form": "Section C - Main questionnaire",
+  "units": "hours",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 59.6588785046729,
+  "sd": 18.269286075145885,
+  "series_size": 428.0,
+  "minimum": 22.0,
+  "maximum": 110.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "iof",
+    "hoh",
+    "ioh",
+    "ivh",
+    "ioo",
+    "ish",
+    "ith",
+    "ioa"
+  ],
+  "linked_years": [
+    "1972"
+  ],
+  "categories": [
+    "Employment history [23]",
+    "Economic circumstances [5151]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "888.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "ilh",
+    "label": "Largest number of hours worked per week  coded in hours (excluding overtime) at age 26 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ilh"
+      ],
+      [
+        "Field ID",
+        "7184"
+      ],
+      [
+        "Label",
+        "Largest number of hours worked per week  coded in hours (excluding overtime) at age 26 years"
+      ],
+      [
+        "Card Number",
+        "Y64"
+      ],
+      [
+        "Form",
+        "Section C - Main questionnaire"
+      ],
+      [
+        "Question",
+        "38(c) or 47(c)"
+      ],
+      [
+        "Year",
+        "1972"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "hours"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "1972C Q37-Q53. Questions asked to all employees and those self employed."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "iof",
+        "Frequency of regular overtime at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "37(b)",
+        "Y64"
+      ],
+      [
+        "hoh",
+        "How many weekly overtime hours are typically worked at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "37(a)",
+        "Y65"
+      ],
+      [
+        "ioh",
+        "Regular overtime - hours (to be read in conjunction with IOF) at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "37(b)",
+        "Y64"
+      ],
+      [
+        "ivh",
+        "Apart from overtime, do you work a fixed number of paid hours each week at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "38(a), 47(a)",
+        "Y64"
+      ],
+      [
+        "ioo",
+        "Occasional overtime (hours, rounded to nearest whole number) at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "37(b)",
+        "Y64"
+      ],
+      [
+        "ish",
+        "Smallest number of hours worked per week coded in hours (excluding overtime) at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "38(c) or 47(c)",
+        "Y64"
+      ],
+      [
+        "ith",
+        "Typical hours worked per week, excluding overtime (Coded in hrs first 2 digits and 1/4 hrs third digit e.g. 123 = 12 3/4 hrs) at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "38(b,d), 48",
+        "Y64"
+      ],
+      [
+        "ioa",
+        "Accuracy code for regular overtime at age 26 years",
+        "1972",
+        "Section C - Main questionnaire",
+        "37(c)",
+        "Y64"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Economic circumstances [5151]",
+        "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "888.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "22"
+      ],
+      [
+        "Maximum",
+        "110"
+      ],
+      [
+        "Range",
+        "88"
+      ],
+      [
+        "Median",
+        "55.5"
+      ],
+      [
+        "IQR",
+        "45.0 - 70.0"
+      ],
+      [
+        "Decile 1",
+        "40.0"
+      ],
+      [
+        "Decile 2",
+        "45.0"
+      ],
+      [
+        "Decile 3",
+        "50.0"
+      ],
+      [
+        "Decile 4",
+        "51.80000000000001"
+      ],
+      [
+        "Decile 5",
+        "55.5"
+      ],
+      [
+        "Decile 6",
+        "60.0"
+      ],
+      [
+        "Decile 7",
+        "70.0"
+      ],
+      [
+        "Decile 8",
+        "75.0"
+      ],
+      [
+        "Decile 9",
+        "84.0"
+      ],
+      [
+        "Mean",
+        "59.6588785046729"
+      ],
+      [
+        "Std Dev.",
+        "18.269286075145885"
+      ],
+      [
+        "Variance",
+        "333.7668136955193"
+      ],
+      [
+        "Displayed N",
+        "428"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "ilh",
+    "label": "Largest number of hours worked per week  coded in hours (excluding overtime) at age 26 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7184",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ilh",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7184",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Largest number of hours worked per week  coded in hours (excluding overtime) at age 26 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Y64",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Section C - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "38(c) or 47(c)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1972",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "hours",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "1972C Q37-Q53. Questions asked to all employees and those self employed.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "iof",
+        "description": "Frequency of regular overtime at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "37(b)",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "hoh",
+        "description": "How many weekly overtime hours are typically worked at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "37(a)",
+        "library_file": "Y65"
+      },
+      {
+        "varname": "ioh",
+        "description": "Regular overtime - hours (to be read in conjunction with IOF) at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "37(b)",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "ivh",
+        "description": "Apart from overtime, do you work a fixed number of paid hours each week at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "38(a), 47(a)",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "ioo",
+        "description": "Occasional overtime (hours, rounded to nearest whole number) at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "37(b)",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "ish",
+        "description": "Smallest number of hours worked per week coded in hours (excluding overtime) at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "38(c) or 47(c)",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "ith",
+        "description": "Typical hours worked per week, excluding overtime (Coded in hrs first 2 digits and 1/4 hrs third digit e.g. 123 = 12 3/4 hrs) at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "38(b,d), 48",
+        "library_file": "Y64"
+      },
+      {
+        "varname": "ioa",
+        "description": "Accuracy code for regular overtime at age 26 years",
+        "year": "1972",
+        "form": "Section C - Main questionnaire",
+        "question": "37(c)",
+        "library_file": "Y64"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Economic circumstances [5151]",
+        "description": "This category contains data on the economic circumstances of the participant such as personal and household income, hours worked including overtime, special payments, financial difficulties and benefit details. Information from spouse was also obtained. Questions were asked in 1972 (age 26 years),  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Economic_circumstances_5151.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "hours",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          22.0,
+          28.285714285714285,
+          34.57142857142857,
+          40.85714285714286,
+          47.14285714285714,
+          53.42857142857143,
+          59.714285714285715,
+          66.0,
+          72.28571428571428,
+          78.57142857142857,
+          84.85714285714286,
+          91.14285714285714,
+          97.42857142857143,
+          103.71428571428571,
+          110.0
+        ],
+        "counts": [
+          5,
+          12,
+          49,
+          50,
+          63,
+          51,
+          60,
+          44,
+          17,
+          36,
+          10,
+          6,
+          19,
+          6
+        ]
+      },
+      "boxplot": {
+        "min": 22.0,
+        "q1": 45.0,
+        "median": 55.5,
+        "q3": 70.0,
+        "max": 110.0
+      },
+      "units": "hours"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "22"
+      ],
+      [
+        "Maximum",
+        "110"
+      ],
+      [
+        "Range",
+        "88"
+      ],
+      [
+        "Median",
+        "55.5"
+      ],
+      [
+        "IQR",
+        "45.0 - 70.0"
+      ],
+      [
+        "Decile 1",
+        "40.0"
+      ],
+      [
+        "Decile 2",
+        "45.0"
+      ],
+      [
+        "Decile 3",
+        "50.0"
+      ],
+      [
+        "Decile 4",
+        "51.80000000000001"
+      ],
+      [
+        "Decile 5",
+        "55.5"
+      ],
+      [
+        "Decile 6",
+        "60.0"
+      ],
+      [
+        "Decile 7",
+        "70.0"
+      ],
+      [
+        "Decile 8",
+        "75.0"
+      ],
+      [
+        "Decile 9",
+        "84.0"
+      ],
+      [
+        "Mean",
+        "59.6588785046729"
+      ],
+      [
+        "Std Dev.",
+        "18.269286075145885"
+      ],
+      [
+        "Variance",
+        "333.7668136955193"
+      ],
+      [
+        "Displayed N",
+        "428"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

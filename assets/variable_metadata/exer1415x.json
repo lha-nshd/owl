@@ -1,0 +1,617 @@
+{
+  "varname": "exer1415x",
+  "label": "Leisure time physical activity in last four weeks at age 68 years (or age 69 years if missing at 68 years)",
+  "field_id": "30500",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30500",
+  "year": "",
+  "form": "Various",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 2611.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "exer89x",
+    "exwork82",
+    "exwork82c",
+    "exer89cat",
+    "exer14x",
+    "exer99x",
+    "exer82",
+    "exer09x"
+  ],
+  "linked_years": [
+    "1982",
+    "1989",
+    "1999",
+    "2006-10",
+    "2014"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "Physical activity and exercise [521]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No PQ or home visit"
+    },
+    {
+      "value": "-9.0",
+      "label": "Missing"
+    },
+    {
+      "value": "0.0",
+      "label": "Zero"
+    },
+    {
+      "value": "1.0",
+      "label": "One to four times"
+    },
+    {
+      "value": "2.0",
+      "label": "Five or more times"
+    },
+    {
+      "value": "3.0",
+      "label": "Reported exercise but amount unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Zero",
+      "count": 1572,
+      "pct": 60.2
+    },
+    {
+      "label": "One to four times",
+      "count": 320,
+      "pct": 12.3
+    },
+    {
+      "label": "Five or more times",
+      "count": 709,
+      "pct": 27.2
+    },
+    {
+      "label": "Reported exercise but amount unknown",
+      "count": 10,
+      "pct": 0.4
+    }
+  ],
+  "pdf": {
+    "varname": "exer1415x",
+    "label": "Leisure time physical activity in last four weeks at age 68 years (or age 69 years if missing at 68 years)",
+    "meta_rows": [
+      [
+        "Variable",
+        "exer1415x"
+      ],
+      [
+        "Field ID",
+        "30500"
+      ],
+      [
+        "Label",
+        "Leisure time physical activity in last four weeks at age 68 years (or age 69 years if missing at 68 years)"
+      ],
+      [
+        "Card Number",
+        "active8215"
+      ],
+      [
+        "Form",
+        "Various"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Dervied from 2014 Postal Questionnaire and 2015 Home Visit"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "exer89x",
+        "Participation in sports, vigorous leisure activities or exercise (three categories) - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "Various",
+        "active8215"
+      ],
+      [
+        "exwork82",
+        "Physical activity during working day (four categories) - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "Various",
+        "active8215"
+      ],
+      [
+        "exwork82c",
+        "Physical activity during working day (three categories) - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "Various",
+        "active8215"
+      ],
+      [
+        "exer89cat",
+        "Participation in sports, vigorous leisure activities or exercise (four categories) - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "Various",
+        "active8215"
+      ],
+      [
+        "exer14x",
+        "Leisure time physical activity in last four weeks (derived from wexer14x and wexen14x) - at age 68",
+        "2014",
+        "Postal questionnaire",
+        "56(a) & (b)",
+        "Exercise14"
+      ],
+      [
+        "exer99x",
+        "Self-reported participation in sports, vigorous leisure activities or exercises in spare time in the last 4 weeks - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "Various",
+        "active8215"
+      ],
+      [
+        "exer82",
+        "Physical activity: Sports and recreation (list of 27 activities (e.g. badminton, swimming, yoga, dancing, football, jogging etc)) - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "Various",
+        "active8215"
+      ],
+      [
+        "exer09x",
+        "Leisure time physical activity in last four weeks - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "Various",
+        "active8215"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/active8215/Documentation_Physical activity up to 1999_Active8215.docx",
+        "Documentation_Physical activity up to 1999_Active8215.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/active8215/Physical_activity_external_active8215.doc",
+        "Physical_activity_external_active8215.doc"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/active8215/Top-Sheet_Physical activity up to 1999_Condor.docx",
+        "Top-Sheet_Physical activity up to 1999_Condor.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/active8215/Exercise_cleaning_documentation_external_actvie8215.docx",
+        "Exercise_cleaning_documentation_external_actvie8215.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/active8215/STATA syntax used to create exer09 vars.docx",
+        "STATA syntax used to create exer09 vars.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "Physical activity and exercise [521]",
+        "This category contains data from the questionnaires on physical activity."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No PQ or home visit",
+        true
+      ],
+      [
+        "-9.0",
+        "Missing",
+        true
+      ],
+      [
+        "0.0",
+        "Zero",
+        false
+      ],
+      [
+        "1.0",
+        "One to four times",
+        false
+      ],
+      [
+        "2.0",
+        "Five or more times",
+        false
+      ],
+      [
+        "3.0",
+        "Reported exercise but amount unknown",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1572",
+        "60%"
+      ],
+      [
+        "1",
+        "320",
+        "12%"
+      ],
+      [
+        "2",
+        "709",
+        "27%"
+      ],
+      [
+        "3",
+        "10",
+        "0%"
+      ],
+      [
+        "Displayed N",
+        "2611",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "exer1415x",
+    "label": "Leisure time physical activity in last four weeks at age 68 years (or age 69 years if missing at 68 years)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30500",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "exer1415x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "30500",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Leisure time physical activity in last four weeks at age 68 years (or age 69 years if missing at 68 years)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "active8215",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Dervied from 2014 Postal Questionnaire and 2015 Home Visit",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "exer89x",
+        "description": "Participation in sports, vigorous leisure activities or exercise (three categories) - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "active8215"
+      },
+      {
+        "varname": "exwork82",
+        "description": "Physical activity during working day (four categories) - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "active8215"
+      },
+      {
+        "varname": "exwork82c",
+        "description": "Physical activity during working day (three categories) - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "active8215"
+      },
+      {
+        "varname": "exer89cat",
+        "description": "Participation in sports, vigorous leisure activities or exercise (four categories) - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "active8215"
+      },
+      {
+        "varname": "exer14x",
+        "description": "Leisure time physical activity in last four weeks (derived from wexer14x and wexen14x) - at age 68",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "56(a) & (b)",
+        "library_file": "Exercise14"
+      },
+      {
+        "varname": "exer99x",
+        "description": "Self-reported participation in sports, vigorous leisure activities or exercises in spare time in the last 4 weeks - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "Various",
+        "library_file": "active8215"
+      },
+      {
+        "varname": "exer82",
+        "description": "Physical activity: Sports and recreation (list of 27 activities (e.g. badminton, swimming, yoga, dancing, football, jogging etc)) - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "Various",
+        "library_file": "active8215"
+      },
+      {
+        "varname": "exer09x",
+        "description": "Leisure time physical activity in last four weeks - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "Various",
+        "library_file": "active8215"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/active8215/Documentation_Physical activity up to 1999_Active8215.docx",
+        "text": "Documentation_Physical activity up to 1999_Active8215.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/active8215/Physical_activity_external_active8215.doc",
+        "text": "Physical_activity_external_active8215.doc"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/active8215/Top-Sheet_Physical activity up to 1999_Condor.docx",
+        "text": "Top-Sheet_Physical activity up to 1999_Condor.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/active8215/Exercise_cleaning_documentation_external_actvie8215.docx",
+        "text": "Exercise_cleaning_documentation_external_actvie8215.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/active8215/STATA syntax used to create exer09 vars.docx",
+        "text": "STATA syntax used to create exer09 vars.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Physical activity and exercise [521]",
+        "description": "This category contains data from the questionnaires on physical activity.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_activity_and_exercise_521.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No PQ or home visit",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Missing",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "Zero",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "One to four times",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Five or more times",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Reported exercise but amount unknown",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 6,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "Zero",
+          "count": 1572,
+          "pct": 60
+        },
+        {
+          "value": "1",
+          "label": "One to four times",
+          "count": 320,
+          "pct": 12
+        },
+        {
+          "value": "2",
+          "label": "Five or more times",
+          "count": 709,
+          "pct": 27
+        },
+        {
+          "value": "3",
+          "label": "Reported exercise but amount unknown",
+          "count": 10,
+          "pct": 0
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1572",
+        "60%"
+      ],
+      [
+        "1",
+        "320",
+        "12%"
+      ],
+      [
+        "2",
+        "709",
+        "27%"
+      ],
+      [
+        "3",
+        "10",
+        "0%"
+      ],
+      [
+        "Displayed N",
+        "2611",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

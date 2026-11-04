@@ -1,0 +1,513 @@
+{
+  "varname": "job89",
+  "label": "Are you in paid work now? - at age 43 years",
+  "field_id": "32831",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32831",
+  "year": "",
+  "form": "A - Main questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 3212.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "job22x",
+    "jobw",
+    "job09",
+    "job82",
+    "job14x",
+    "job15x"
+  ],
+  "linked_years": [
+    "1982",
+    "1999",
+    "2006-10",
+    "2014",
+    "2015",
+    "2022"
+  ],
+  "categories": [
+    "Employment history [23]",
+    "Employment history [5154]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes, one job only"
+    },
+    {
+      "value": "2.0",
+      "label": "Yes, more than one job"
+    },
+    {
+      "value": "8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 409,
+      "pct": 12.7
+    },
+    {
+      "label": "Yes, one job only",
+      "count": 2616,
+      "pct": 81.4
+    },
+    {
+      "label": "Yes, more than one job",
+      "count": 187,
+      "pct": 5.8
+    }
+  ],
+  "pdf": {
+    "varname": "job89",
+    "label": "Are you in paid work now? - at age 43 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "job89"
+      ],
+      [
+        "Field ID",
+        "32831"
+      ],
+      [
+        "Label",
+        "Are you in paid work now? - at age 43 years"
+      ],
+      [
+        "Card Number",
+        "de89d"
+      ],
+      [
+        "Form",
+        "A - Main questionnaire"
+      ],
+      [
+        "Question",
+        "49(a)"
+      ],
+      [
+        "Year",
+        "1989"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about work asked in the 1989 A questionnaire."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "job22x",
+        "Are you currently in paid work, including part-time work and self-employment? - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "11",
+        "Postal22"
+      ],
+      [
+        "jobw",
+        "Are you currently in paid work, including part-time work and self-employment? - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "97",
+        "capi99a"
+      ],
+      [
+        "job09",
+        "Are you currently in paid work, including part-time work and self-employment? - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "36",
+        "OccStatRetCls09"
+      ],
+      [
+        "job82",
+        "Are you in any kind of paid work now? - at age 36 years",
+        "1982",
+        "A - Main questionnaire",
+        "38(a)",
+        "B15"
+      ],
+      [
+        "job14x",
+        "Are you currently in paid work, including part-time work and self-employment? - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "10(a)",
+        "PaidVoluntaryWork14"
+      ],
+      [
+        "job15x",
+        "Are you currently in paid work, including part-time work and self-employment? - at age 69 years",
+        "2015",
+        "Home visit",
+        "7",
+        "CONSENT15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [5154]",
+        "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes, one job only",
+        false
+      ],
+      [
+        "2.0",
+        "Yes, more than one job",
+        false
+      ],
+      [
+        "8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "409",
+        "13%"
+      ],
+      [
+        "1",
+        "2616",
+        "81%"
+      ],
+      [
+        "2",
+        "187",
+        "6%"
+      ],
+      [
+        "Displayed N",
+        "3212",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "job89",
+    "label": "Are you in paid work now? - at age 43 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=32831",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "job89",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "32831",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Are you in paid work now? - at age 43 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "de89d",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "49(a)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1989",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about work asked in the 1989 A questionnaire.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "job22x",
+        "description": "Are you currently in paid work, including part-time work and self-employment? - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "11",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "jobw",
+        "description": "Are you currently in paid work, including part-time work and self-employment? - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "97",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "job09",
+        "description": "Are you currently in paid work, including part-time work and self-employment? - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "36",
+        "library_file": "OccStatRetCls09"
+      },
+      {
+        "varname": "job82",
+        "description": "Are you in any kind of paid work now? - at age 36 years",
+        "year": "1982",
+        "form": "A - Main questionnaire",
+        "question": "38(a)",
+        "library_file": "B15"
+      },
+      {
+        "varname": "job14x",
+        "description": "Are you currently in paid work, including part-time work and self-employment? - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "10(a)",
+        "library_file": "PaidVoluntaryWork14"
+      },
+      {
+        "varname": "job15x",
+        "description": "Are you currently in paid work, including part-time work and self-employment? - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "CONSENT15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [5154]",
+        "description": "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Employment_history_5154.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes, one job only",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Yes, more than one job",
+        "is_missing": false
+      },
+      {
+        "value": "8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 409,
+          "pct": 13
+        },
+        {
+          "value": "1",
+          "label": "Yes, one job only",
+          "count": 2616,
+          "pct": 81
+        },
+        {
+          "value": "2",
+          "label": "Yes, more than one job",
+          "count": 187,
+          "pct": 6
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "409",
+        "13%"
+      ],
+      [
+        "1",
+        "2616",
+        "81%"
+      ],
+      [
+        "2",
+        "187",
+        "6%"
+      ],
+      [
+        "Displayed N",
+        "3212",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "varname": "aft_myft",
+  "label": "Is there anyone living with you who is sick, frail, or has a disability whom you look after or give special help to (for example, a sick, disabled, or older relative/husband/wife/friend, etc.)? - Myofit sub-study",
+  "field_id": "70106",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70106",
+  "year": "",
+  "form": "Myofit sub-study",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 52.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "aft09",
+    "aft15x",
+    "aft23x"
+  ],
+  "linked_years": [
+    "2006-10",
+    "2015",
+    "2023"
+  ],
+  "categories": [
+    "Physical capability [806]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "Not part of MyoFit46"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 52,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "aft_myft",
+    "label": "Is there anyone living with you who is sick, frail, or has a disability whom you look after or give special help to (for example, a sick, disabled, or older relative/husband/wife/friend, etc.)? - Myofit sub-study",
+    "meta_rows": [
+      [
+        "Variable",
+        "aft_myft"
+      ],
+      [
+        "Field ID",
+        "70106"
+      ],
+      [
+        "Label",
+        "Is there anyone living with you who is sick, frail, or has a disability whom you look after or give special help to (for example, a sick, disabled, or older relative/husband/wife/friend, etc.)? - Myofit sub-study"
+      ],
+      [
+        "Card Number",
+        "Myft_Soci"
+      ],
+      [
+        "Form",
+        "Myofit sub-study"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2020-2024"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Low cell counts"
+      ],
+      [
+        "Notes",
+        "Full variable label:   Is there anyone living with you who is sick, frail, or has a disability whom you look after or give special help to (for example, a sick, disabled, or older relative/husband/wife/friend, etc.)? - Myofit sub-study.           Care giving/receiving. These variables need to be merged with those who have answered the questions in the 2023 Home visit (aft23x)."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "aft09",
+        "Is there anyone living with you who is sick, handicapped or elderly whom you look after or give special help to (for example, a sick, handicapped, elderly relative/partner/friend) - at age 60-64 years.",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "32(a)",
+        "Caring09"
+      ],
+      [
+        "aft15x",
+        "Is there anyone living with you who is sick, frail, or has a disability, whom you look after or give special help to - at age 69 years",
+        "2015",
+        "Home visit",
+        "49",
+        "PhysCap15"
+      ],
+      [
+        "aft23x",
+        "Is there anyone living with you who is sick, frail, or has a disability, whom you look after or give special help to - at age 77 years",
+        "2023",
+        "Home visit",
+        "49",
+        "socioecon23"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Physical capability [806]",
+        "This category contains data from the questionnaires on phyical capability. Participants who were unable to do the answer the questions during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "Not part of MyoFit46",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "52",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "52",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "aft_myft",
+    "label": "Is there anyone living with you who is sick, frail, or has a disability whom you look after or give special help to (for example, a sick, disabled, or older relative/husband/wife/friend, etc.)? - Myofit sub-study",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=70106",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "aft_myft",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "70106",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Is there anyone living with you who is sick, frail, or has a disability whom you look after or give special help to (for example, a sick, disabled, or older relative/husband/wife/friend, etc.)? - Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Myft_Soci",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Myofit sub-study",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020-2024",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Low cell counts",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Full variable label:   Is there anyone living with you who is sick, frail, or has a disability whom you look after or give special help to (for example, a sick, disabled, or older relative/husband/wife/friend, etc.)? - Myofit sub-study.           Care giving/receiving. These variables need to be merged with those who have answered the questions in the 2023 Home visit (aft23x).",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "aft09",
+        "description": "Is there anyone living with you who is sick, handicapped or elderly whom you look after or give special help to (for example, a sick, handicapped, elderly relative/partner/friend) - at age 60-64 years.",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "32(a)",
+        "library_file": "Caring09"
+      },
+      {
+        "varname": "aft15x",
+        "description": "Is there anyone living with you who is sick, frail, or has a disability, whom you look after or give special help to - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "49",
+        "library_file": "PhysCap15"
+      },
+      {
+        "varname": "aft23x",
+        "description": "Is there anyone living with you who is sick, frail, or has a disability, whom you look after or give special help to - at age 77 years",
+        "year": "2023",
+        "form": "Home visit",
+        "question": "49",
+        "library_file": "socioecon23"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Physical capability [806]",
+        "description": "This category contains data from the questionnaires on phyical capability. Participants who were unable to do the answer the questions during the 2023 Home visit were asked to when they took part in the Myofit (2020-2024) sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Physical_capability_806.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "Not part of MyoFit46",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 3,
+      "docs": 1,
+      "cats": 1,
+      "vals": 4
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 52,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "52",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "52",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

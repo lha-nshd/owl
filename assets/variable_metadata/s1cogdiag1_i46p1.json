@@ -1,0 +1,445 @@
+{
+  "varname": "s1cogdiag1_i46p1",
+  "label": "Diagnosis 1 of affected sibling 1 - Insight46 phase 1",
+  "field_id": "61144",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=61144",
+  "year": "",
+  "form": "Insight46 - Phase 1",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 21.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "sibling3_diag1_i46p2",
+    "sibling1_diag2_i46p2",
+    "s3cogdiag1_i46p1",
+    "s2cogdiag1_i46p1",
+    "sibling1_diag1_i46p2",
+    "sibling2_diag1_i46p2",
+    "s2cogdiag2_i46p1",
+    "s1cogdiag2_i46p1"
+  ],
+  "linked_years": [
+    "2015-2018",
+    "2018-2021"
+  ],
+  "categories": [
+    "Cognitive function [14]",
+    "Family history of neurological disorder [60391]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "15.0",
+      "label": "Stroke"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Stroke",
+      "count": 21,
+      "pct": 100.0
+    }
+  ],
+  "pdf": {
+    "varname": "s1cogdiag1_i46p1",
+    "label": "Diagnosis 1 of affected sibling 1 - Insight46 phase 1",
+    "meta_rows": [
+      [
+        "Variable",
+        "s1cogdiag1_i46p1"
+      ],
+      [
+        "Field ID",
+        "61144"
+      ],
+      [
+        "Label",
+        "Diagnosis 1 of affected sibling 1 - Insight46 phase 1"
+      ],
+      [
+        "Card Number",
+        "I46_history"
+      ],
+      [
+        "Form",
+        "Insight46 - Phase 1"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2015-2018"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Insight46 phase 1 family history (self-reported) of cognitive impairment or other neurological condition. Also collected at phase 2 - see library file I46P2_History."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "sibling3_diag1_i46p2",
+        "Diagnosis 1 of affected sibling 3 - Insight 46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_History"
+      ],
+      [
+        "sibling1_diag2_i46p2",
+        "Diagnosis 2 of affected sibling 1 - Insight 46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_History"
+      ],
+      [
+        "s3cogdiag1_i46p1",
+        "Diagnosis 1 of affected sibling 3 - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_history"
+      ],
+      [
+        "s2cogdiag1_i46p1",
+        "Diagnosis 1 of affected sibling 2 - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_history"
+      ],
+      [
+        "sibling1_diag1_i46p2",
+        "Diagnosis 1 of affected sibling 1 - Insight 46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_History"
+      ],
+      [
+        "sibling2_diag1_i46p2",
+        "Diagnosis 1 of affected sibling 2 - Insight 46 phase 2",
+        "2018-2021",
+        "Insight46 - Phase 2",
+        "Not applicable",
+        "I46P2_History"
+      ],
+      [
+        "s2cogdiag2_i46p1",
+        "Diagnosis 2 of affected sibling 2 - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_history"
+      ],
+      [
+        "s1cogdiag2_i46p1",
+        "Diagnosis 2 of affected sibling 1 - Insight46 phase 1",
+        "2015-2018",
+        "Insight46 - Phase 1",
+        "Not applicable",
+        "I46_history"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cognitive function [14]",
+        "Legacy Category"
+      ],
+      [
+        "Family history of neurological disorder [60391]",
+        "This category contains data on the self-reported history of neurological disorder in parents and siblings of the participant in the Insight46 sub-study."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "15.0",
+        "Stroke",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "15",
+        "21",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "21",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "s1cogdiag1_i46p1",
+    "label": "Diagnosis 1 of affected sibling 1 - Insight46 phase 1",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=61144",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "s1cogdiag1_i46p1",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "61144",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Diagnosis 1 of affected sibling 1 - Insight46 phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "I46_history",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Insight46 - Phase 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015-2018",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Insight46 phase 1 family history (self-reported) of cognitive impairment or other neurological condition. Also collected at phase 2 - see library file I46P2_History.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "sibling3_diag1_i46p2",
+        "description": "Diagnosis 1 of affected sibling 3 - Insight 46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_History"
+      },
+      {
+        "varname": "sibling1_diag2_i46p2",
+        "description": "Diagnosis 2 of affected sibling 1 - Insight 46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_History"
+      },
+      {
+        "varname": "s3cogdiag1_i46p1",
+        "description": "Diagnosis 1 of affected sibling 3 - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_history"
+      },
+      {
+        "varname": "s2cogdiag1_i46p1",
+        "description": "Diagnosis 1 of affected sibling 2 - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_history"
+      },
+      {
+        "varname": "sibling1_diag1_i46p2",
+        "description": "Diagnosis 1 of affected sibling 1 - Insight 46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_History"
+      },
+      {
+        "varname": "sibling2_diag1_i46p2",
+        "description": "Diagnosis 1 of affected sibling 2 - Insight 46 phase 2",
+        "year": "2018-2021",
+        "form": "Insight46 - Phase 2",
+        "question": "Not applicable",
+        "library_file": "I46P2_History"
+      },
+      {
+        "varname": "s2cogdiag2_i46p1",
+        "description": "Diagnosis 2 of affected sibling 2 - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_history"
+      },
+      {
+        "varname": "s1cogdiag2_i46p1",
+        "description": "Diagnosis 2 of affected sibling 1 - Insight46 phase 1",
+        "year": "2015-2018",
+        "form": "Insight46 - Phase 1",
+        "question": "Not applicable",
+        "library_file": "I46_history"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cognitive function [14]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Family history of neurological disorder [60391]",
+        "description": "This category contains data on the self-reported history of neurological disorder in parents and siblings of the participant in the Insight46 sub-study.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Family_history_of_neurological_disorder_60391.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "15.0",
+        "label": "Stroke",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 8,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "15",
+          "label": "Stroke",
+          "count": 21,
+          "pct": 100
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "15",
+        "21",
+        "100%"
+      ],
+      [
+        "Displayed N",
+        "21",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

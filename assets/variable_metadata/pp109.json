@@ -1,0 +1,519 @@
+{
+  "varname": "pp109",
+  "label": "Pulse Pressure (systolic -diastolic) - first reading (mmHg) - at age 60-64 years",
+  "field_id": "1152",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1152",
+  "year": "",
+  "form": "Nurse schedule",
+  "units": "mmHg",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 58.70752366716492,
+  "sd": 10.38509424884349,
+  "series_size": 2007.0,
+  "minimum": 40.0,
+  "maximum": 84.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "pp09",
+    "pp209"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Cardiovascular health [6]",
+    "Blood pressure [1103]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "999.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "pp109",
+    "label": "Pulse Pressure (systolic -diastolic) - first reading (mmHg) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "pp109"
+      ],
+      [
+        "Field ID",
+        "1152"
+      ],
+      [
+        "Label",
+        "Pulse Pressure (systolic -diastolic) - first reading (mmHg) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "BP09"
+      ],
+      [
+        "Form",
+        "Nurse schedule"
+      ],
+      [
+        "Question",
+        "32"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmHg"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2006-10 nurse schedule. Blood pressure section."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "pp09",
+        "Pulse Pressure (systolic -diastolic) - second reading or first if no second reading (mmHg) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "32",
+        "BP09"
+      ],
+      [
+        "pp209",
+        "Pulse Pressure (systolic -diastolic) - second reading (mmHg) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "32",
+        "BP09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Cardiovascular health [6]",
+        "Legacy Category"
+      ],
+      [
+        "Blood pressure [1103]",
+        "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "999.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "40"
+      ],
+      [
+        "Maximum",
+        "84"
+      ],
+      [
+        "Range",
+        "44"
+      ],
+      [
+        "Median",
+        "58.0"
+      ],
+      [
+        "IQR",
+        "51.0 - 66.0"
+      ],
+      [
+        "Decile 1",
+        "45.0"
+      ],
+      [
+        "Decile 2",
+        "49.0"
+      ],
+      [
+        "Decile 3",
+        "52.0"
+      ],
+      [
+        "Decile 4",
+        "55.0"
+      ],
+      [
+        "Decile 5",
+        "58.0"
+      ],
+      [
+        "Decile 6",
+        "61.0"
+      ],
+      [
+        "Decile 7",
+        "64.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "74.0"
+      ],
+      [
+        "Mean",
+        "58.70752366716492"
+      ],
+      [
+        "Std Dev.",
+        "10.38509424884349"
+      ],
+      [
+        "Variance",
+        "107.85018255736213"
+      ],
+      [
+        "Displayed N",
+        "2007"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "pp109",
+    "label": "Pulse Pressure (systolic -diastolic) - first reading (mmHg) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1152",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "pp109",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1152",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Pulse Pressure (systolic -diastolic) - first reading (mmHg) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "BP09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Nurse schedule",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "32",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmHg",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2006-10 nurse schedule. Blood pressure section.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "pp09",
+        "description": "Pulse Pressure (systolic -diastolic) - second reading or first if no second reading (mmHg) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "32",
+        "library_file": "BP09"
+      },
+      {
+        "varname": "pp209",
+        "description": "Pulse Pressure (systolic -diastolic) - second reading (mmHg) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "32",
+        "library_file": "BP09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Cardiovascular health [6]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood pressure [1103]",
+        "description": "This category contains information on blood pressure measurements systolic/diastolic and pulse rate using the Omron digital blood pressure monitor. Mean arterial pressure and derived hypertension variables are also available. Information was also collected on the willingness of participant to have blood pressure measured. Some or all of these measures are available in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_pressure_1103.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmHg",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          40.0,
+          42.31578947368421,
+          44.631578947368425,
+          46.94736842105263,
+          49.26315789473684,
+          51.578947368421055,
+          53.89473684210526,
+          56.21052631578947,
+          58.526315789473685,
+          60.8421052631579,
+          63.15789473684211,
+          65.47368421052632,
+          67.78947368421052,
+          70.10526315789474,
+          72.42105263157895,
+          74.73684210526315,
+          77.05263157894737,
+          79.36842105263159,
+          81.6842105263158,
+          84.0
+        ],
+        "counts": [
+          83,
+          81,
+          85,
+          176,
+          130,
+          143,
+          204,
+          137,
+          159,
+          192,
+          101,
+          92,
+          112,
+          78,
+          61,
+          74,
+          32,
+          34,
+          33
+        ]
+      },
+      "boxplot": {
+        "min": 40.0,
+        "q1": 51.0,
+        "median": 58.0,
+        "q3": 66.0,
+        "max": 84.0
+      },
+      "units": "mmHg"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "40"
+      ],
+      [
+        "Maximum",
+        "84"
+      ],
+      [
+        "Range",
+        "44"
+      ],
+      [
+        "Median",
+        "58.0"
+      ],
+      [
+        "IQR",
+        "51.0 - 66.0"
+      ],
+      [
+        "Decile 1",
+        "45.0"
+      ],
+      [
+        "Decile 2",
+        "49.0"
+      ],
+      [
+        "Decile 3",
+        "52.0"
+      ],
+      [
+        "Decile 4",
+        "55.0"
+      ],
+      [
+        "Decile 5",
+        "58.0"
+      ],
+      [
+        "Decile 6",
+        "61.0"
+      ],
+      [
+        "Decile 7",
+        "64.0"
+      ],
+      [
+        "Decile 8",
+        "68.0"
+      ],
+      [
+        "Decile 9",
+        "74.0"
+      ],
+      [
+        "Mean",
+        "58.70752366716492"
+      ],
+      [
+        "Std Dev.",
+        "10.38509424884349"
+      ],
+      [
+        "Variance",
+        "107.85018255736213"
+      ],
+      [
+        "Displayed N",
+        "2007"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

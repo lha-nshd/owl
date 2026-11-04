@@ -1,0 +1,571 @@
+{
+  "varname": "afiba22x",
+  "label": "If you cannot remember the month and year had atrial fibrillation, please give your age - at age 76 years",
+  "field_id": "7873",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7873",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 69.4375,
+  "sd": 6.378369207720732,
+  "series_size": 64.0,
+  "minimum": 50.0,
+  "maximum": 76.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "hrtrbf15x",
+    "hrtrbfa15x",
+    "afiby22x",
+    "afib22x",
+    "afibm22x",
+    "afib25x",
+    "afiby25x"
+  ],
+  "linked_years": [
+    "2015",
+    "2022",
+    "2025"
+  ],
+  "categories": [
+    "Heart and circulatory conditions [51014]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "afiba22x",
+    "label": "If you cannot remember the month and year had atrial fibrillation, please give your age - at age 76 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "afiba22x"
+      ],
+      [
+        "Field ID",
+        "7873"
+      ],
+      [
+        "Label",
+        "If you cannot remember the month and year had atrial fibrillation, please give your age - at age 76 years"
+      ],
+      [
+        "Card Number",
+        "Postal22"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "73"
+      ],
+      [
+        "Year",
+        "2022"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "hrtrbf15x",
+        "Type of heart/circulatory condition reported: atrial fibrillation - at 69 years",
+        "2015",
+        "Home visit",
+        "8(b)",
+        "MedicalConditions15"
+      ],
+      [
+        "hrtrbfa15x",
+        "What was your age when you were diagnosed with atrial fibrillation - at 69 years",
+        "2015",
+        "Home visit",
+        "8(e)",
+        "MedicalConditions15"
+      ],
+      [
+        "afiby22x",
+        "When were you told that you had atrial fibrillation (year) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "73",
+        "Postal22"
+      ],
+      [
+        "afib22x",
+        "Since your 68th birthday, has the doctor diagnosed you with atrial fibrillation - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "72",
+        "Postal22"
+      ],
+      [
+        "afibm22x",
+        "When were you told that you had atrial fibrillation (month) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "73",
+        "Postal22"
+      ],
+      [
+        "afib25x",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Atrial fibrillation - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "afiby25x",
+        "Since the age of 60 years, when were you told that you had atrial fibrillation - Year - at age 76 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Heart and circulatory conditions [51014]",
+        "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "50"
+      ],
+      [
+        "Maximum",
+        "76"
+      ],
+      [
+        "Range",
+        "26"
+      ],
+      [
+        "Median",
+        "70.5"
+      ],
+      [
+        "IQR",
+        "66.75 - 75.0"
+      ],
+      [
+        "Decile 1",
+        "60.0"
+      ],
+      [
+        "Decile 2",
+        "65.0"
+      ],
+      [
+        "Decile 3",
+        "68.0"
+      ],
+      [
+        "Decile 4",
+        "69.0"
+      ],
+      [
+        "Decile 5",
+        "70.5"
+      ],
+      [
+        "Decile 6",
+        "72.8"
+      ],
+      [
+        "Decile 7",
+        "74.0"
+      ],
+      [
+        "Decile 8",
+        "75.0"
+      ],
+      [
+        "Decile 9",
+        "76.0"
+      ],
+      [
+        "Mean",
+        "69.4375"
+      ],
+      [
+        "Std Dev.",
+        "6.378369207720732"
+      ],
+      [
+        "Variance",
+        "40.68359375"
+      ],
+      [
+        "Displayed N",
+        "64"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "afiba22x",
+    "label": "If you cannot remember the month and year had atrial fibrillation, please give your age - at age 76 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7873",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "afiba22x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7873",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "If you cannot remember the month and year had atrial fibrillation, please give your age - at age 76 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Postal22",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "73",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2022",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "hrtrbf15x",
+        "description": "Type of heart/circulatory condition reported: atrial fibrillation - at 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "8(b)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "hrtrbfa15x",
+        "description": "What was your age when you were diagnosed with atrial fibrillation - at 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "8(e)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "afiby22x",
+        "description": "When were you told that you had atrial fibrillation (year) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "73",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "afib22x",
+        "description": "Since your 68th birthday, has the doctor diagnosed you with atrial fibrillation - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "72",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "afibm22x",
+        "description": "When were you told that you had atrial fibrillation (month) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "73",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "afib25x",
+        "description": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Atrial fibrillation - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "afiby25x",
+        "description": "Since the age of 60 years, when were you told that you had atrial fibrillation - Year - at age 76 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Heart and circulatory conditions [51014]",
+        "description": "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_and_circulatory_conditions_51014.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 1,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          50.0,
+          53.714285714285715,
+          57.42857142857143,
+          61.14285714285714,
+          64.85714285714286,
+          68.57142857142857,
+          72.28571428571428,
+          76.0
+        ],
+        "counts": [
+          1,
+          4,
+          3,
+          3,
+          13,
+          14,
+          26
+        ]
+      },
+      "boxplot": {
+        "min": 50.0,
+        "q1": 66.75,
+        "median": 70.5,
+        "q3": 75.0,
+        "max": 76.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "50"
+      ],
+      [
+        "Maximum",
+        "76"
+      ],
+      [
+        "Range",
+        "26"
+      ],
+      [
+        "Median",
+        "70.5"
+      ],
+      [
+        "IQR",
+        "66.75 - 75.0"
+      ],
+      [
+        "Decile 1",
+        "60.0"
+      ],
+      [
+        "Decile 2",
+        "65.0"
+      ],
+      [
+        "Decile 3",
+        "68.0"
+      ],
+      [
+        "Decile 4",
+        "69.0"
+      ],
+      [
+        "Decile 5",
+        "70.5"
+      ],
+      [
+        "Decile 6",
+        "72.8"
+      ],
+      [
+        "Decile 7",
+        "74.0"
+      ],
+      [
+        "Decile 8",
+        "75.0"
+      ],
+      [
+        "Decile 9",
+        "76.0"
+      ],
+      [
+        "Mean",
+        "69.4375"
+      ],
+      [
+        "Std Dev.",
+        "6.378369207720732"
+      ],
+      [
+        "Variance",
+        "40.68359375"
+      ],
+      [
+        "Displayed N",
+        "64"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

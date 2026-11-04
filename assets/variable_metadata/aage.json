@@ -1,0 +1,593 @@
+{
+  "varname": "aage",
+  "label": "How old were you then (diagnosis of asthma) - at age 53 years",
+  "field_id": "7413",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7413",
+  "year": "",
+  "form": "A - Main CAPI questionnaire",
+  "units": "year/years",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 244.3850267379679,
+  "sd": 602.1512871447059,
+  "series_size": 187.0,
+  "minimum": 2.0,
+  "maximum": 1992.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "asthm22x",
+    "astha15x",
+    "asthy22x",
+    "astha22x",
+    "basth89",
+    "lasth89"
+  ],
+  "linked_years": [
+    "1989",
+    "2015",
+    "2022"
+  ],
+  "categories": [
+    "Respiratory health [5]",
+    "Respiratory conditions [51013]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "aage",
+    "label": "How old were you then (diagnosis of asthma) - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "aage"
+      ],
+      [
+        "Field ID",
+        "7413"
+      ],
+      [
+        "Label",
+        "How old were you then (diagnosis of asthma) - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "capi99a"
+      ],
+      [
+        "Form",
+        "A - Main CAPI questionnaire"
+      ],
+      [
+        "Question",
+        "39c"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "year/years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains the year information about the date"
+      ],
+      [
+        "Notes",
+        "Some participants gave the year instead of age"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "asthm22x",
+        "When were you told that you had asthma (month) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "54",
+        "Postal22"
+      ],
+      [
+        "astha15x",
+        "What was your age when you were told you had asthma - at age 69 years",
+        "2015",
+        "Home visit",
+        "11(b)",
+        "MedicalConditions15"
+      ],
+      [
+        "asthy22x",
+        "When were you told that you had asthma (year) - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "54",
+        "Postal22"
+      ],
+      [
+        "astha22x",
+        "If you cannot remember the month and year please give your age - at age 76 years",
+        "2022",
+        "Postal questionnaire",
+        "54",
+        "Postal22"
+      ],
+      [
+        "basth89",
+        "How old were you the first time you had asthma - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ],
+      [
+        "lasth89",
+        "How old were you the last time you had asthma - at age 43 years",
+        "1989",
+        "A - Main questionnaire",
+        "21",
+        "de89d"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Respiratory health [5]",
+        "Legacy Category"
+      ],
+      [
+        "Respiratory conditions [51013]",
+        "This category contains data from the questionnaires on whether the participant has and respiratory conditions i.e chronic lung disease, COPD, emphysema, asthma, bronchitis and hayfever. They were also asked if they were prescribed medication. CLS asthma harmonisation dataset is also included). Questions were asked in 1948 (age 2 years), 1952 (age 6 years), 1953 (age 7 years), 1957 (age 11 years), 1961 (age 15 years), 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2020-21 (covid), 2022 (age 76 years), 2023 (age 77 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "2"
+      ],
+      [
+        "Maximum",
+        "1992"
+      ],
+      [
+        "Range",
+        "1990"
+      ],
+      [
+        "Median",
+        "45.0"
+      ],
+      [
+        "IQR",
+        "27.5 - 51.0"
+      ],
+      [
+        "Decile 1",
+        "7.600000000000001"
+      ],
+      [
+        "Decile 2",
+        "18.400000000000006"
+      ],
+      [
+        "Decile 3",
+        "33.0"
+      ],
+      [
+        "Decile 4",
+        "43.0"
+      ],
+      [
+        "Decile 5",
+        "45.0"
+      ],
+      [
+        "Decile 6",
+        "48.599999999999994"
+      ],
+      [
+        "Decile 7",
+        "51.0"
+      ],
+      [
+        "Decile 8",
+        "52.0"
+      ],
+      [
+        "Decile 9",
+        "1954.0"
+      ],
+      [
+        "Mean",
+        "244.3850267379679"
+      ],
+      [
+        "Std Dev.",
+        "602.1512871447059"
+      ],
+      [
+        "Variance",
+        "362586.17261002597"
+      ],
+      [
+        "Displayed N",
+        "187"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "aage",
+    "label": "How old were you then (diagnosis of asthma) - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7413",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "aage",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7413",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "How old were you then (diagnosis of asthma) - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "capi99a",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "A - Main CAPI questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "39c",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "year/years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains the year information about the date",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Some participants gave the year instead of age",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "asthm22x",
+        "description": "When were you told that you had asthma (month) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "54",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "astha15x",
+        "description": "What was your age when you were told you had asthma - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "11(b)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "asthy22x",
+        "description": "When were you told that you had asthma (year) - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "54",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "astha22x",
+        "description": "If you cannot remember the month and year please give your age - at age 76 years",
+        "year": "2022",
+        "form": "Postal questionnaire",
+        "question": "54",
+        "library_file": "Postal22"
+      },
+      {
+        "varname": "basth89",
+        "description": "How old were you the first time you had asthma - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      },
+      {
+        "varname": "lasth89",
+        "description": "How old were you the last time you had asthma - at age 43 years",
+        "year": "1989",
+        "form": "A - Main questionnaire",
+        "question": "21",
+        "library_file": "de89d"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Respiratory health [5]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Respiratory conditions [51013]",
+        "description": "This category contains data from the questionnaires on whether the participant has and respiratory conditions i.e chronic lung disease, COPD, emphysema, asthma, bronchitis and hayfever. They were also asked if they were prescribed medication. CLS asthma harmonisation dataset is also included). Questions were asked in 1948 (age 2 years), 1952 (age 6 years), 1953 (age 7 years), 1957 (age 11 years), 1961 (age 15 years), 1966 (age 20 years), 1971 (age 25 years), 1977 (age 31 years), 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2020-21 (covid), 2022 (age 76 years), 2023 (age 77 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Respiratory_conditions_51013.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 6,
+      "docs": 1,
+      "cats": 2,
+      "vals": 2
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "year/years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          2.0,
+          73.07142857142857,
+          144.14285714285714,
+          215.21428571428572,
+          286.2857142857143,
+          357.35714285714283,
+          428.42857142857144,
+          499.5,
+          570.5714285714286,
+          641.6428571428571,
+          712.7142857142857,
+          783.7857142857142,
+          854.8571428571429,
+          925.9285714285714,
+          997.0,
+          1068.0714285714284,
+          1139.142857142857,
+          1210.2142857142858,
+          1281.2857142857142,
+          1352.357142857143,
+          1423.4285714285713,
+          1494.5,
+          1565.5714285714284,
+          1636.642857142857,
+          1707.7142857142858,
+          1778.7857142857142,
+          1849.857142857143,
+          1920.9285714285713,
+          1992.0
+        ],
+        "counts": [
+          167,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20
+        ]
+      },
+      "boxplot": {
+        "min": 2.0,
+        "q1": 27.5,
+        "median": 45.0,
+        "q3": 51.0,
+        "max": 1992.0
+      },
+      "units": "year/years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "2"
+      ],
+      [
+        "Maximum",
+        "1992"
+      ],
+      [
+        "Range",
+        "1990"
+      ],
+      [
+        "Median",
+        "45.0"
+      ],
+      [
+        "IQR",
+        "27.5 - 51.0"
+      ],
+      [
+        "Decile 1",
+        "7.600000000000001"
+      ],
+      [
+        "Decile 2",
+        "18.400000000000006"
+      ],
+      [
+        "Decile 3",
+        "33.0"
+      ],
+      [
+        "Decile 4",
+        "43.0"
+      ],
+      [
+        "Decile 5",
+        "45.0"
+      ],
+      [
+        "Decile 6",
+        "48.599999999999994"
+      ],
+      [
+        "Decile 7",
+        "51.0"
+      ],
+      [
+        "Decile 8",
+        "52.0"
+      ],
+      [
+        "Decile 9",
+        "1954.0"
+      ],
+      [
+        "Mean",
+        "244.3850267379679"
+      ],
+      [
+        "Std Dev.",
+        "602.1512871447059"
+      ],
+      [
+        "Variance",
+        "362586.17261002597"
+      ],
+      [
+        "Displayed N",
+        "187"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

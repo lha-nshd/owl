@@ -1,0 +1,466 @@
+{
+  "varname": "dxalabmc09",
+  "label": "Left arm : Bone Mineral Content (g)  - DXA at 60-64 years",
+  "field_id": "1348",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1348",
+  "year": "",
+  "form": "DICOM",
+  "units": "g",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 172.31150315944294,
+  "sd": 41.51969652823438,
+  "series_size": 1472.0,
+  "minimum": 107.0591096,
+  "maximum": 258.2713279,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Musculoskeletal health and physical capability [7]",
+    "Body composition by DXA [10512]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "777.0",
+      "label": "Not attended clinic or test not done"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dxalabmc09",
+    "label": "Left arm : Bone Mineral Content (g)  - DXA at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dxalabmc09"
+      ],
+      [
+        "Field ID",
+        "1348"
+      ],
+      [
+        "Label",
+        "Left arm : Bone Mineral Content (g)  - DXA at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "DXA09"
+      ],
+      [
+        "Form",
+        "DICOM"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "g"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Derived from dicom images from Manchester."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Musculoskeletal health and physical capability [7]",
+        "Legacy Category"
+      ],
+      [
+        "Body composition by DXA [10512]",
+        "Body composition results derived from DXA measurements."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "777.0",
+        "Not attended clinic or test not done",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "107.0591096"
+      ],
+      [
+        "Maximum",
+        "258.2713279"
+      ],
+      [
+        "Range",
+        "151.21221830000002"
+      ],
+      [
+        "Median",
+        "165.45043149999998"
+      ],
+      [
+        "IQR",
+        "136.5678601 - 208.65406065000002"
+      ],
+      [
+        "Decile 1",
+        "121.48522929"
+      ],
+      [
+        "Decile 2",
+        "131.83592082"
+      ],
+      [
+        "Decile 3",
+        "141.52593536999998"
+      ],
+      [
+        "Decile 4",
+        "151.70156544"
+      ],
+      [
+        "Decile 5",
+        "165.45043149999998"
+      ],
+      [
+        "Decile 6",
+        "181.90672558"
+      ],
+      [
+        "Decile 7",
+        "200.54234146000002"
+      ],
+      [
+        "Decile 8",
+        "216.03363148"
+      ],
+      [
+        "Decile 9",
+        "232.66535318"
+      ],
+      [
+        "Mean",
+        "172.31150315944294"
+      ],
+      [
+        "Std Dev.",
+        "41.51969652823438"
+      ],
+      [
+        "Variance",
+        "1723.8851997966776"
+      ],
+      [
+        "Displayed N",
+        "1472"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dxalabmc09",
+    "label": "Left arm : Bone Mineral Content (g)  - DXA at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1348",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dxalabmc09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1348",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Left arm : Bone Mineral Content (g)  - DXA at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "DXA09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "DICOM",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "g",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Derived from dicom images from Manchester.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Musculoskeletal health and physical capability [7]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Body composition by DXA [10512]",
+        "description": "Body composition results derived from DXA measurements.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Body_composition_by_DXA_10512.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "Not attended clinic or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "g",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          107.0591096,
+          119.66012779166667,
+          132.26114598333334,
+          144.862164175,
+          157.46318236666667,
+          170.06420055833334,
+          182.66521875,
+          195.26623694166668,
+          207.86725513333334,
+          220.468273325,
+          233.06929151666668,
+          245.67030970833335,
+          258.2713279
+        ],
+        "counts": [
+          122,
+          180,
+          203,
+          150,
+          120,
+          120,
+          98,
+          104,
+          120,
+          109,
+          87,
+          59
+        ]
+      },
+      "boxplot": {
+        "min": 107.0591096,
+        "q1": 136.5678601,
+        "median": 165.45043149999998,
+        "q3": 208.65406065000002,
+        "max": 258.2713279
+      },
+      "units": "g"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "107.0591096"
+      ],
+      [
+        "Maximum",
+        "258.2713279"
+      ],
+      [
+        "Range",
+        "151.21221830000002"
+      ],
+      [
+        "Median",
+        "165.45043149999998"
+      ],
+      [
+        "IQR",
+        "136.5678601 - 208.65406065000002"
+      ],
+      [
+        "Decile 1",
+        "121.48522929"
+      ],
+      [
+        "Decile 2",
+        "131.83592082"
+      ],
+      [
+        "Decile 3",
+        "141.52593536999998"
+      ],
+      [
+        "Decile 4",
+        "151.70156544"
+      ],
+      [
+        "Decile 5",
+        "165.45043149999998"
+      ],
+      [
+        "Decile 6",
+        "181.90672558"
+      ],
+      [
+        "Decile 7",
+        "200.54234146000002"
+      ],
+      [
+        "Decile 8",
+        "216.03363148"
+      ],
+      [
+        "Decile 9",
+        "232.66535318"
+      ],
+      [
+        "Mean",
+        "172.31150315944294"
+      ],
+      [
+        "Std Dev.",
+        "41.51969652823438"
+      ],
+      [
+        "Variance",
+        "1723.8851997966776"
+      ],
+      [
+        "Displayed N",
+        "1472"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

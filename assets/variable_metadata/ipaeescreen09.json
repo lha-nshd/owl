@@ -1,0 +1,723 @@
+{
+  "varname": "ipaeescreen09",
+  "label": "Physical Activity Energy Expenditure Screen time (with imputed scores) [MET hours/week] - at age 60-64 years",
+  "field_id": "13210",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13210",
+  "year": "",
+  "form": "Pre-Assessment Booklet",
+  "units": "MET hours/week",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 27.40484411340507,
+  "sd": 9.42440976503222,
+  "series_size": 2023.0,
+  "minimum": 10.5,
+  "maximum": 50.400001525878906,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "paeerechome09x",
+    "paeeworka09",
+    "paeecommutea09",
+    "paeesport09x",
+    "paeework09",
+    "paeecommute09",
+    "paeesport09",
+    "paeegetabout09",
+    "paeerechome09",
+    "paeehome09x",
+    "paeeactivitieshome09",
+    "paeescreen09",
+    "paeestairs09",
+    "paeehome09"
+  ],
+  "linked_years": [
+    "2006-10"
+  ],
+  "categories": [
+    "Other health behaviours [17]",
+    "EPIC Physical activity questionnaire - derived variables [52111]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "7777.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "ipaeescreen09",
+    "label": "Physical Activity Energy Expenditure Screen time (with imputed scores) [MET hours/week] - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "ipaeescreen09"
+      ],
+      [
+        "Field ID",
+        "13210"
+      ],
+      [
+        "Label",
+        "Physical Activity Energy Expenditure Screen time (with imputed scores) [MET hours/week] - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "EPAQ2File209"
+      ],
+      [
+        "Form",
+        "Pre-Assessment Booklet"
+      ],
+      [
+        "Question",
+        "1-8"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "MET hours/week"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "TV/Video viewing and computer use. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "paeerechome09x",
+        "Physical Activity Energy Expenditure Recreational Home Activity [MET hours/week] - outliers recoded - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeeworka09",
+        "Physical Activity Energy Expenditure Work Activities [MET hours/week] (0 assigned to those not working) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeecommutea09",
+        "Physical Activity Energy Expenditure Active Work Commute [MET hours/week] (0 assigned to those not working) - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeesport09x",
+        "Physical Activity Energy Expenditure Recreational Sport Activities [MET hours/week] - using variables where outlier values were capped - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeework09",
+        "Physical Activity Energy Expenditure Work Activities [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeecommute09",
+        "Physical Activity Energy Expenditure Active Work Commute [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeesport09",
+        "Physical Activity Energy Expenditure Recreational Sport Activities [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeegetabout09",
+        "Physical Activity Energy Expenditure Get About [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeerechome09",
+        "Physical Activity Energy Expenditure Recreational Home Activity [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeehome09x",
+        "Physical Activity Energy Expenditure Home Section [MET hours/week] - outliers recoded - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeeactivitieshome09",
+        "Physical Activity Energy Expenditure Home Activity [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeescreen09",
+        "Physical Activity Energy Expenditure Screen time [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeestairs09",
+        "Physical Activity Energy Expenditure Home Stair Flights [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ],
+      [
+        "paeehome09",
+        "Physical Activity Energy Expenditure Home Section [MET hours/week] - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "1-8",
+        "EPAQ2File209"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Other health behaviours [17]",
+        "Legacy Category"
+      ],
+      [
+        "EPIC Physical activity questionnaire - derived variables [52111]",
+        "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "7777.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "10.5"
+      ],
+      [
+        "Maximum",
+        "50.400001525878906"
+      ],
+      [
+        "Range",
+        "39.900001525878906"
+      ],
+      [
+        "Median",
+        "24.5"
+      ],
+      [
+        "IQR",
+        "17.5 - 31.5"
+      ],
+      [
+        "Decile 1",
+        "16.799999237060547"
+      ],
+      [
+        "Decile 2",
+        "17.5"
+      ],
+      [
+        "Decile 3",
+        "23.799999237060547"
+      ],
+      [
+        "Decile 4",
+        "23.799999237060547"
+      ],
+      [
+        "Decile 5",
+        "24.5"
+      ],
+      [
+        "Decile 6",
+        "30.799999237060547"
+      ],
+      [
+        "Decile 7",
+        "31.5"
+      ],
+      [
+        "Decile 8",
+        "36.400001525878906"
+      ],
+      [
+        "Decile 9",
+        "37.79999923706055"
+      ],
+      [
+        "Mean",
+        "27.40484411340507"
+      ],
+      [
+        "Std Dev.",
+        "9.42440976503222"
+      ],
+      [
+        "Variance",
+        "88.81949941923465"
+      ],
+      [
+        "Displayed N",
+        "2023"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "ipaeescreen09",
+    "label": "Physical Activity Energy Expenditure Screen time (with imputed scores) [MET hours/week] - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=13210",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "ipaeescreen09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "13210",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Physical Activity Energy Expenditure Screen time (with imputed scores) [MET hours/week] - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "EPAQ2File209",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Pre-Assessment Booklet",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "1-8",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "MET hours/week",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "TV/Video viewing and computer use. Derived EPAQ 2 variables from the 2006-10 Pre-Assessment booklet.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "paeerechome09x",
+        "description": "Physical Activity Energy Expenditure Recreational Home Activity [MET hours/week] - outliers recoded - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeeworka09",
+        "description": "Physical Activity Energy Expenditure Work Activities [MET hours/week] (0 assigned to those not working) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeecommutea09",
+        "description": "Physical Activity Energy Expenditure Active Work Commute [MET hours/week] (0 assigned to those not working) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeesport09x",
+        "description": "Physical Activity Energy Expenditure Recreational Sport Activities [MET hours/week] - using variables where outlier values were capped - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeework09",
+        "description": "Physical Activity Energy Expenditure Work Activities [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeecommute09",
+        "description": "Physical Activity Energy Expenditure Active Work Commute [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeesport09",
+        "description": "Physical Activity Energy Expenditure Recreational Sport Activities [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeegetabout09",
+        "description": "Physical Activity Energy Expenditure Get About [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeerechome09",
+        "description": "Physical Activity Energy Expenditure Recreational Home Activity [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeehome09x",
+        "description": "Physical Activity Energy Expenditure Home Section [MET hours/week] - outliers recoded - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeeactivitieshome09",
+        "description": "Physical Activity Energy Expenditure Home Activity [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeescreen09",
+        "description": "Physical Activity Energy Expenditure Screen time [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeestairs09",
+        "description": "Physical Activity Energy Expenditure Home Stair Flights [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      },
+      {
+        "varname": "paeehome09",
+        "description": "Physical Activity Energy Expenditure Home Section [MET hours/week] - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "1-8",
+        "library_file": "EPAQ2File209"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Other health behaviours [17]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "EPIC Physical activity questionnaire - derived variables [52111]",
+        "description": "This category contains derived data from the EPAQ2, which assessed self-report physical activity in four domains (leisure time, occupation, transportation and domestic life). Estimates of PA energy expenditure (PAEE) sedentary behaviour, light (LPA) and moderate-to-vigorous PA (MVPA) were obtained from EPAQ2. Questions were asked in 2006-10 (age 60-64 years)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/EPIC_Physical_activity_questionnaire_-_derived_variables_52111.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 14,
+      "docs": 1,
+      "cats": 2,
+      "vals": 3
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "MET hours/week",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          10.5,
+          12.600000080309416,
+          14.700000160618831,
+          16.80000024092825,
+          18.900000321237663,
+          21.00000040154708,
+          23.100000481856497,
+          25.20000056216591,
+          27.30000064247533,
+          29.400000722784746,
+          31.50000080309416,
+          33.60000088340358,
+          35.700000963712995,
+          37.80000104402241,
+          39.90000112433182,
+          42.00000120464124,
+          44.10000128495066,
+          46.20000136526007,
+          48.30000144556949,
+          50.400001525878906
+        ],
+        "counts": [
+          88,
+          0,
+          265,
+          168,
+          0,
+          36,
+          513,
+          0,
+          138,
+          340,
+          0,
+          6,
+          268,
+          0,
+          28,
+          89,
+          0,
+          2,
+          82
+        ]
+      },
+      "boxplot": {
+        "min": 10.5,
+        "q1": 17.5,
+        "median": 24.5,
+        "q3": 31.5,
+        "max": 50.400001525878906
+      },
+      "units": "MET hours/week"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "10.5"
+      ],
+      [
+        "Maximum",
+        "50.400001525878906"
+      ],
+      [
+        "Range",
+        "39.900001525878906"
+      ],
+      [
+        "Median",
+        "24.5"
+      ],
+      [
+        "IQR",
+        "17.5 - 31.5"
+      ],
+      [
+        "Decile 1",
+        "16.799999237060547"
+      ],
+      [
+        "Decile 2",
+        "17.5"
+      ],
+      [
+        "Decile 3",
+        "23.799999237060547"
+      ],
+      [
+        "Decile 4",
+        "23.799999237060547"
+      ],
+      [
+        "Decile 5",
+        "24.5"
+      ],
+      [
+        "Decile 6",
+        "30.799999237060547"
+      ],
+      [
+        "Decile 7",
+        "31.5"
+      ],
+      [
+        "Decile 8",
+        "36.400001525878906"
+      ],
+      [
+        "Decile 9",
+        "37.79999923706055"
+      ],
+      [
+        "Mean",
+        "27.40484411340507"
+      ],
+      [
+        "Std Dev.",
+        "9.42440976503222"
+      ],
+      [
+        "Variance",
+        "88.81949941923465"
+      ],
+      [
+        "Displayed N",
+        "2023"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

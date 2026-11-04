@@ -1,0 +1,574 @@
+{
+  "varname": "cholestr09",
+  "label": "Cholesterol (mmol/l) - at age 60-64 years",
+  "field_id": "1047",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1047",
+  "year": "",
+  "form": "Blood assays",
+  "units": "mmol/l",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 5.654537136706137,
+  "sd": 0.938502245592702,
+  "series_size": 1858.0,
+  "minimum": 3.71,
+  "maximum": 7.66,
+  "truly_longitudinal_field_id": "1047",
+  "truly_longitudinal_varnames": [
+    "chol99n",
+    "cholestr15x"
+  ],
+  "truly_longitudinal_years": [
+    "1999",
+    "2006-10",
+    "2015"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Blood, urine, and other samples [27]",
+    "Blood biochemistry [2011]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "77.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "7777.0",
+      "label": "No nurse visit or test not done"
+    },
+    {
+      "value": "99.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "999.0",
+      "label": "Unknown, see corresponding result code"
+    },
+    {
+      "value": "9999.0",
+      "label": "Unknown, see corresponding result code"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "cholestr09",
+    "label": "Cholesterol (mmol/l) - at age 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "cholestr09"
+      ],
+      [
+        "Field ID",
+        "1047"
+      ],
+      [
+        "Label",
+        "Cholesterol (mmol/l) - at age 60-64 years"
+      ],
+      [
+        "Card Number",
+        "Blood_Urine09"
+      ],
+      [
+        "Form",
+        "Blood assays"
+      ],
+      [
+        "Question",
+        "Not applicable"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "mmol/l"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Variable from blood assays."
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cholestr15x",
+        "2015",
+        "Cholesterol (mmol/l) - at age 69 years"
+      ],
+      [
+        "chol99n",
+        "1999",
+        "Cholesterol (mmol/l) - at age 53 years"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Blood, urine, and other samples [27]",
+        "Legacy Category"
+      ],
+      [
+        "Blood biochemistry [2011]",
+        "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "77.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "7777.0",
+        "No nurse visit or test not done",
+        true
+      ],
+      [
+        "99.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "999.0",
+        "Unknown, see corresponding result code",
+        true
+      ],
+      [
+        "9999.0",
+        "Unknown, see corresponding result code",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "3.71"
+      ],
+      [
+        "Maximum",
+        "7.66"
+      ],
+      [
+        "Range",
+        "3.95"
+      ],
+      [
+        "Median",
+        "5.645"
+      ],
+      [
+        "IQR",
+        "4.98 - 6.35"
+      ],
+      [
+        "Decile 1",
+        "4.377"
+      ],
+      [
+        "Decile 2",
+        "4.81"
+      ],
+      [
+        "Decile 3",
+        "5.13"
+      ],
+      [
+        "Decile 4",
+        "5.4"
+      ],
+      [
+        "Decile 5",
+        "5.645"
+      ],
+      [
+        "Decile 6",
+        "5.9"
+      ],
+      [
+        "Decile 7",
+        "6.19"
+      ],
+      [
+        "Decile 8",
+        "6.5"
+      ],
+      [
+        "Decile 9",
+        "6.97"
+      ],
+      [
+        "Mean",
+        "5.654537136706137"
+      ],
+      [
+        "Std Dev.",
+        "0.938502245592702"
+      ],
+      [
+        "Variance",
+        "0.8807864649825443"
+      ],
+      [
+        "Displayed N",
+        "1858"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "cholestr09",
+    "label": "Cholesterol (mmol/l) - at age 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=1047",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cholestr09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "1047",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Cholesterol (mmol/l) - at age 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Blood_Urine09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Blood assays",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "mmol/l",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Variable from blood assays.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "1047",
+      "members": [
+        {
+          "varname": "chol99n",
+          "year": "1999",
+          "label": "Cholesterol (mmol/l) - at age 53 years",
+          "is_current": false
+        },
+        {
+          "varname": "cholestr09",
+          "year": "2006-10",
+          "label": "Cholesterol (mmol/l) - at age 60-64 years",
+          "is_current": true
+        },
+        {
+          "varname": "cholestr15x",
+          "year": "2015",
+          "label": "Cholesterol (mmol/l) - at age 69 years",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Blood, urine, and other samples [27]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Blood biochemistry [2011]",
+        "description": "A range of key biochemistry markers were measured in the blood samples collected at 1999 (at age 53 years) and repeated at 2006-2010 (at age 60-64 years), 2015 (age 69 years) and 2023 (age 77 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biochemistry_2011.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "77.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "7777.0",
+        "label": "No nurse visit or test not done",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      },
+      {
+        "value": "9999.0",
+        "label": "Unknown, see corresponding result code",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "mmol/l",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          3.71,
+          3.9294444444444445,
+          4.148888888888889,
+          4.368333333333333,
+          4.587777777777777,
+          4.807222222222222,
+          5.026666666666666,
+          5.2461111111111105,
+          5.4655555555555555,
+          5.6850000000000005,
+          5.904444444444445,
+          6.123888888888889,
+          6.343333333333334,
+          6.562777777777778,
+          6.782222222222222,
+          7.001666666666667,
+          7.221111111111111,
+          7.440555555555555,
+          7.66
+        ],
+        "counts": [
+          51,
+          64,
+          64,
+          96,
+          93,
+          124,
+          150,
+          151,
+          158,
+          172,
+          151,
+          114,
+          134,
+          78,
+          82,
+          82,
+          49,
+          45
+        ]
+      },
+      "boxplot": {
+        "min": 3.71,
+        "q1": 4.98,
+        "median": 5.645,
+        "q3": 6.35,
+        "max": 7.66
+      },
+      "units": "mmol/l"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "3.71"
+      ],
+      [
+        "Maximum",
+        "7.66"
+      ],
+      [
+        "Range",
+        "3.95"
+      ],
+      [
+        "Median",
+        "5.645"
+      ],
+      [
+        "IQR",
+        "4.98 - 6.35"
+      ],
+      [
+        "Decile 1",
+        "4.377"
+      ],
+      [
+        "Decile 2",
+        "4.81"
+      ],
+      [
+        "Decile 3",
+        "5.13"
+      ],
+      [
+        "Decile 4",
+        "5.4"
+      ],
+      [
+        "Decile 5",
+        "5.645"
+      ],
+      [
+        "Decile 6",
+        "5.9"
+      ],
+      [
+        "Decile 7",
+        "6.19"
+      ],
+      [
+        "Decile 8",
+        "6.5"
+      ],
+      [
+        "Decile 9",
+        "6.97"
+      ],
+      [
+        "Mean",
+        "5.654537136706137"
+      ],
+      [
+        "Std Dev.",
+        "0.938502245592702"
+      ],
+      [
+        "Variance",
+        "0.8807864649825443"
+      ],
+      [
+        "Displayed N",
+        "1858"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

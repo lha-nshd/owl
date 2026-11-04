@@ -1,0 +1,567 @@
+{
+  "varname": "wopm29b",
+  "label": "Month of hysterectomy (1999 Self-completion)  - at age 53 years",
+  "field_id": "30315",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30315",
+  "year": "",
+  "form": "B - Self completion",
+  "units": "month",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 36.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "wopm293",
+    "wopm295",
+    "wopm294",
+    "wopm297",
+    "wopm299",
+    "wopm209",
+    "wopm296",
+    "wopm298",
+    "wopm200"
+  ],
+  "linked_years": [
+    "1993",
+    "1994",
+    "1995",
+    "1996",
+    "1997",
+    "1998",
+    "1999",
+    "2000",
+    "2006-10"
+  ],
+  "categories": [
+    "Women's health [9]",
+    "Hysterectomy [7006]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "11.0",
+      "label": "November"
+    },
+    {
+      "value": "2.0",
+      "label": "February"
+    },
+    {
+      "value": "6.0",
+      "label": "June"
+    },
+    {
+      "value": "77.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "February",
+      "count": 11,
+      "pct": 30.6
+    },
+    {
+      "label": "June",
+      "count": 10,
+      "pct": 27.8
+    },
+    {
+      "label": "November",
+      "count": 15,
+      "pct": 41.7
+    }
+  ],
+  "pdf": {
+    "varname": "wopm29b",
+    "label": "Month of hysterectomy (1999 Self-completion)  - at age 53 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "wopm29b"
+      ],
+      [
+        "Field ID",
+        "30315"
+      ],
+      [
+        "Label",
+        "Month of hysterectomy (1999 Self-completion)  - at age 53 years"
+      ],
+      [
+        "Card Number",
+        "des99"
+      ],
+      [
+        "Form",
+        "B - Self completion"
+      ],
+      [
+        "Question",
+        "57(b)"
+      ],
+      [
+        "Year",
+        "1999"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "month"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Possible low cell count issue. Recoded version is available."
+      ],
+      [
+        "Notes",
+        "This question was asked in the 1999 B Self-completion questionnaire. Similar questions were also asked in the women's health questionnaires."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "wopm293",
+        "Month of hysterectomy - at age 47 years",
+        "1993",
+        "Woman's Health Questionnaire",
+        "5(b)",
+        "DEWH93"
+      ],
+      [
+        "wopm295",
+        "Month of hysterectomy - at age 49 years",
+        "1995",
+        "Woman's Health Questionnaire",
+        "7(b)",
+        "DEWH95"
+      ],
+      [
+        "wopm294",
+        "Month of hysterectomy - at age 48 years",
+        "1994",
+        "Woman's Health Questionnaire",
+        "7(b)",
+        "DEWH94"
+      ],
+      [
+        "wopm297",
+        "Month of hysterectomy - at age 51 years",
+        "1997",
+        "Woman's Health Questionnaire",
+        "7(b)",
+        "DEWH97"
+      ],
+      [
+        "wopm299",
+        "Month of hysterectomy - at age 53 years",
+        "1999",
+        "Woman's Health Questionnaire",
+        "7(b)",
+        "DEWH99"
+      ],
+      [
+        "wopm209",
+        "Month of hysterectomy - at age 60-64 years",
+        "2006-10",
+        "Pre-Assessment Booklet",
+        "34(b)",
+        "WOPHRT09"
+      ],
+      [
+        "wopm296",
+        "Month of hysterectomy - at age 50 years",
+        "1996",
+        "Woman's Health Questionnaire",
+        "7(b)",
+        "DEWH96"
+      ],
+      [
+        "wopm298",
+        "Month of hysterectomy - at age 52 years",
+        "1998",
+        "Woman's Health Questionnaire",
+        "7(b)",
+        "DEWH98"
+      ],
+      [
+        "wopm200",
+        "Month of hysterectomy - at age 54 years",
+        "2000",
+        "Woman's Health Questionnaire",
+        "7(b)",
+        "DEWH00"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Hysterectomy [7006]",
+        "This cateogry contains data from the woman's health questionnaires on operation for the removal of uterus (womb) and both ovaries (hysterectomy and bilateral oophorectomy)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "11.0",
+        "November",
+        false
+      ],
+      [
+        "2.0",
+        "February",
+        false
+      ],
+      [
+        "6.0",
+        "June",
+        false
+      ],
+      [
+        "77.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "2",
+        "11",
+        "31%"
+      ],
+      [
+        "6",
+        "10",
+        "28%"
+      ],
+      [
+        "11",
+        "15",
+        "42%"
+      ],
+      [
+        "Displayed N",
+        "36",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "wopm29b",
+    "label": "Month of hysterectomy (1999 Self-completion)  - at age 53 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=30315",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "wopm29b",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "30315",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Month of hysterectomy (1999 Self-completion)  - at age 53 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "des99",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "B - Self completion",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "57(b)",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "1999",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "month",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Possible low cell count issue. Recoded version is available.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "This question was asked in the 1999 B Self-completion questionnaire. Similar questions were also asked in the women's health questionnaires.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "wopm293",
+        "description": "Month of hysterectomy - at age 47 years",
+        "year": "1993",
+        "form": "Woman's Health Questionnaire",
+        "question": "5(b)",
+        "library_file": "DEWH93"
+      },
+      {
+        "varname": "wopm295",
+        "description": "Month of hysterectomy - at age 49 years",
+        "year": "1995",
+        "form": "Woman's Health Questionnaire",
+        "question": "7(b)",
+        "library_file": "DEWH95"
+      },
+      {
+        "varname": "wopm294",
+        "description": "Month of hysterectomy - at age 48 years",
+        "year": "1994",
+        "form": "Woman's Health Questionnaire",
+        "question": "7(b)",
+        "library_file": "DEWH94"
+      },
+      {
+        "varname": "wopm297",
+        "description": "Month of hysterectomy - at age 51 years",
+        "year": "1997",
+        "form": "Woman's Health Questionnaire",
+        "question": "7(b)",
+        "library_file": "DEWH97"
+      },
+      {
+        "varname": "wopm299",
+        "description": "Month of hysterectomy - at age 53 years",
+        "year": "1999",
+        "form": "Woman's Health Questionnaire",
+        "question": "7(b)",
+        "library_file": "DEWH99"
+      },
+      {
+        "varname": "wopm209",
+        "description": "Month of hysterectomy - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Pre-Assessment Booklet",
+        "question": "34(b)",
+        "library_file": "WOPHRT09"
+      },
+      {
+        "varname": "wopm296",
+        "description": "Month of hysterectomy - at age 50 years",
+        "year": "1996",
+        "form": "Woman's Health Questionnaire",
+        "question": "7(b)",
+        "library_file": "DEWH96"
+      },
+      {
+        "varname": "wopm298",
+        "description": "Month of hysterectomy - at age 52 years",
+        "year": "1998",
+        "form": "Woman's Health Questionnaire",
+        "question": "7(b)",
+        "library_file": "DEWH98"
+      },
+      {
+        "varname": "wopm200",
+        "description": "Month of hysterectomy - at age 54 years",
+        "year": "2000",
+        "form": "Woman's Health Questionnaire",
+        "question": "7(b)",
+        "library_file": "DEWH00"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hysterectomy [7006]",
+        "description": "This cateogry contains data from the woman's health questionnaires on operation for the removal of uterus (womb) and both ovaries (hysterectomy and bilateral oophorectomy)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hysterectomy_7006.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "11.0",
+        "label": "November",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "February",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "June",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 9,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "month",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "2",
+          "label": "February",
+          "count": 11,
+          "pct": 31
+        },
+        {
+          "value": "6",
+          "label": "June",
+          "count": 10,
+          "pct": 28
+        },
+        {
+          "value": "11",
+          "label": "November",
+          "count": 15,
+          "pct": 42
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "2",
+        "11",
+        "31%"
+      ],
+      [
+        "6",
+        "10",
+        "28%"
+      ],
+      [
+        "11",
+        "15",
+        "42%"
+      ],
+      [
+        "Displayed N",
+        "36",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "varname": "wopallc",
+  "label": "Whether had hysterectomy and/or oophorectomy reported from 1989-2003 - till age 57 years",
+  "field_id": "21852",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21852",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1791.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Women's health [9]",
+    "Hysterectomy [7006]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No hysterectomy or oophorectomy"
+    },
+    {
+      "value": "1.0",
+      "label": "Hysterectomy and bilateral oophorectomy"
+    },
+    {
+      "value": "2.0",
+      "label": "Hysterectomy only"
+    },
+    {
+      "value": "3.0",
+      "label": "Hysterectomy and unilateral oophorectomy"
+    },
+    {
+      "value": "5.0",
+      "label": "Unilateral oophorectomy"
+    },
+    {
+      "value": "88.0",
+      "label": "Not known (did not return any of the relevant questionnaires)"
+    },
+    {
+      "value": "888.0",
+      "label": "Male"
+    },
+    {
+      "value": "9.0",
+      "label": "Missing (returned at least one questionnaire but did not answer appropriate q's)"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No hysterectomy or oophorectomy",
+      "count": 1362,
+      "pct": 76.0
+    },
+    {
+      "label": "Hysterectomy and bilateral oophorectomy",
+      "count": 167,
+      "pct": 9.3
+    },
+    {
+      "label": "Hysterectomy only",
+      "count": 186,
+      "pct": 10.4
+    },
+    {
+      "label": "Hysterectomy and unilateral oophorectomy",
+      "count": 50,
+      "pct": 2.8
+    },
+    {
+      "label": "Unilateral oophorectomy",
+      "count": 26,
+      "pct": 1.5
+    }
+  ],
+  "pdf": {
+    "varname": "wopallc",
+    "label": "Whether had hysterectomy and/or oophorectomy reported from 1989-2003 - till age 57 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "wopallc"
+      ],
+      [
+        "Field ID",
+        "21852"
+      ],
+      [
+        "Label",
+        "Whether had hysterectomy and/or oophorectomy reported from 1989-2003 - till age 57 years"
+      ],
+      [
+        "Card Number",
+        "womenhlth_hyst"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "2003"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Hysterectomy_status.docx",
+        "Hysterectomy_status.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Reason_for_hysterectomy.docx",
+        "Reason_for_hysterectomy.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Route_of_hysterectomy.docx",
+        "Route_of_hysterectomy.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Hysterectomy [7006]",
+        "This cateogry contains data from the woman's health questionnaires on operation for the removal of uterus (womb) and both ovaries (hysterectomy and bilateral oophorectomy)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No hysterectomy or oophorectomy",
+        false
+      ],
+      [
+        "1.0",
+        "Hysterectomy and bilateral oophorectomy",
+        false
+      ],
+      [
+        "2.0",
+        "Hysterectomy only",
+        false
+      ],
+      [
+        "3.0",
+        "Hysterectomy and unilateral oophorectomy",
+        false
+      ],
+      [
+        "5.0",
+        "Unilateral oophorectomy",
+        false
+      ],
+      [
+        "88.0",
+        "Not known (did not return any of the relevant questionnaires)",
+        true
+      ],
+      [
+        "888.0",
+        "Male",
+        true
+      ],
+      [
+        "9.0",
+        "Missing (returned at least one questionnaire but did not answer appropriate q's)",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1362",
+        "76%"
+      ],
+      [
+        "1",
+        "167",
+        "9%"
+      ],
+      [
+        "2",
+        "186",
+        "10%"
+      ],
+      [
+        "3",
+        "50",
+        "3%"
+      ],
+      [
+        "5",
+        "26",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "1791",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "wopallc",
+    "label": "Whether had hysterectomy and/or oophorectomy reported from 1989-2003 - till age 57 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21852",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "wopallc",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "21852",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Whether had hysterectomy and/or oophorectomy reported from 1989-2003 - till age 57 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "womenhlth_hyst",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2003",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Hysterectomy_status.docx",
+        "text": "Hysterectomy_status.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Reason_for_hysterectomy.docx",
+        "text": "Reason_for_hysterectomy.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Route_of_hysterectomy.docx",
+        "text": "Route_of_hysterectomy.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hysterectomy [7006]",
+        "description": "This cateogry contains data from the woman's health questionnaires on operation for the removal of uterus (womb) and both ovaries (hysterectomy and bilateral oophorectomy)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hysterectomy_7006.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No hysterectomy or oophorectomy",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Hysterectomy and bilateral oophorectomy",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Hysterectomy only",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Hysterectomy and unilateral oophorectomy",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Unilateral oophorectomy",
+        "is_missing": false
+      },
+      {
+        "value": "88.0",
+        "label": "Not known (did not return any of the relevant questionnaires)",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Male",
+        "is_missing": true
+      },
+      {
+        "value": "9.0",
+        "label": "Missing (returned at least one questionnaire but did not answer appropriate q's)",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 4,
+      "cats": 2,
+      "vals": 9
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No hysterectomy or oophorectomy",
+          "count": 1362,
+          "pct": 76
+        },
+        {
+          "value": "1",
+          "label": "Hysterectomy and bilateral oophorectomy",
+          "count": 167,
+          "pct": 9
+        },
+        {
+          "value": "2",
+          "label": "Hysterectomy only",
+          "count": 186,
+          "pct": 10
+        },
+        {
+          "value": "3",
+          "label": "Hysterectomy and unilateral oophorectomy",
+          "count": 50,
+          "pct": 3
+        },
+        {
+          "value": "5",
+          "label": "Unilateral oophorectomy",
+          "count": 26,
+          "pct": 1
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1362",
+        "76%"
+      ],
+      [
+        "1",
+        "167",
+        "9%"
+      ],
+      [
+        "2",
+        "186",
+        "10%"
+      ],
+      [
+        "3",
+        "50",
+        "3%"
+      ],
+      [
+        "5",
+        "26",
+        "1%"
+      ],
+      [
+        "Displayed N",
+        "1791",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

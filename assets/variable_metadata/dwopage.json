@@ -1,0 +1,520 @@
+{
+  "varname": "dwopage",
+  "label": "Age of Hysterectomy (combined date variable) - age in years - whichever of the five operations this was - till age 57 years",
+  "field_id": "21840",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21840",
+  "year": "",
+  "form": "Woman's Health Questionnaire",
+  "units": "years",
+  "derived": "Yes",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "continuous",
+  "restricted": false,
+  "security_message": "",
+  "mean": 43.59278350515464,
+  "sd": 5.757035094286062,
+  "series_size": 388.0,
+  "minimum": 31.0,
+  "maximum": 54.0,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Women's health [9]",
+    "Hysterectomy [7006]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "888.0",
+      "label": "Did not report having one of the five operations or did not return any of the relevant qu"
+    },
+    {
+      "value": "8888.0",
+      "label": "Male"
+    },
+    {
+      "value": "997.0",
+      "label": "Returned a questionnaire but did not report any info on ops"
+    },
+    {
+      "value": "999.0",
+      "label": "Reported one of the 5 operations but date missing"
+    }
+  ],
+  "category_counts": [],
+  "pdf": {
+    "varname": "dwopage",
+    "label": "Age of Hysterectomy (combined date variable) - age in years - whichever of the five operations this was - till age 57 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dwopage"
+      ],
+      [
+        "Field ID",
+        "21840"
+      ],
+      [
+        "Label",
+        "Age of Hysterectomy (combined date variable) - age in years - whichever of the five operations this was - till age 57 years"
+      ],
+      [
+        "Card Number",
+        "womenhlth_hyst"
+      ],
+      [
+        "Form",
+        "Woman's Health Questionnaire"
+      ],
+      [
+        "Question",
+        "Various"
+      ],
+      [
+        "Year",
+        "2003"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "years"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Contains age information."
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Hysterectomy_status.docx",
+        "Hysterectomy_status.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Reason_for_hysterectomy.docx",
+        "Reason_for_hysterectomy.docx"
+      ],
+      [
+        "Document",
+        "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Route_of_hysterectomy.docx",
+        "Route_of_hysterectomy.docx"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Women's health [9]",
+        "Legacy Category"
+      ],
+      [
+        "Hysterectomy [7006]",
+        "This cateogry contains data from the woman's health questionnaires on operation for the removal of uterus (womb) and both ovaries (hysterectomy and bilateral oophorectomy)"
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "888.0",
+        "Did not report having one of the five operations or did not return any of the relevant qu",
+        true
+      ],
+      [
+        "8888.0",
+        "Male",
+        true
+      ],
+      [
+        "997.0",
+        "Returned a questionnaire but did not report any info on ops",
+        true
+      ],
+      [
+        "999.0",
+        "Reported one of the 5 operations but date missing",
+        true
+      ]
+    ],
+    "dist_type": "continuous",
+    "freq_rows": [
+      [
+        "Minimum",
+        "31"
+      ],
+      [
+        "Maximum",
+        "54"
+      ],
+      [
+        "Range",
+        "23"
+      ],
+      [
+        "Median",
+        "44.0"
+      ],
+      [
+        "IQR",
+        "39.0 - 48.0"
+      ],
+      [
+        "Decile 1",
+        "36.0"
+      ],
+      [
+        "Decile 2",
+        "38.0"
+      ],
+      [
+        "Decile 3",
+        "40.0"
+      ],
+      [
+        "Decile 4",
+        "42.0"
+      ],
+      [
+        "Decile 5",
+        "44.0"
+      ],
+      [
+        "Decile 6",
+        "46.0"
+      ],
+      [
+        "Decile 7",
+        "47.0"
+      ],
+      [
+        "Decile 8",
+        "49.0"
+      ],
+      [
+        "Decile 9",
+        "51.0"
+      ],
+      [
+        "Mean",
+        "43.59278350515464"
+      ],
+      [
+        "Std Dev.",
+        "5.757035094286062"
+      ],
+      [
+        "Variance",
+        "33.143453076841325"
+      ],
+      [
+        "Displayed N",
+        "388"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
+  },
+  "page": {
+    "varname": "dwopage",
+    "label": "Age of Hysterectomy (combined date variable) - age in years - whichever of the five operations this was - till age 57 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=21840",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dwopage",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "21840",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Age of Hysterectomy (combined date variable) - age in years - whichever of the five operations this was - till age 57 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "womenhlth_hyst",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Woman's Health Questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "Various",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2003",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "years",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Contains age information.",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Hysterectomy_status.docx",
+        "text": "Hysterectomy_status.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Reason_for_hysterectomy.docx",
+        "text": "Reason_for_hysterectomy.docx"
+      },
+      {
+        "type": "Document",
+        "url": "/OWL/assets/variable_metadata/PDF/filepath/womenhlth_hyst/Route_of_hysterectomy.docx",
+        "text": "Route_of_hysterectomy.docx"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Women's health [9]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Hysterectomy [7006]",
+        "description": "This cateogry contains data from the woman's health questionnaires on operation for the removal of uterus (womb) and both ovaries (hysterectomy and bilateral oophorectomy)",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Hysterectomy_7006.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "888.0",
+        "label": "Did not report having one of the five operations or did not return any of the relevant qu",
+        "is_missing": true
+      },
+      {
+        "value": "8888.0",
+        "label": "Male",
+        "is_missing": true
+      },
+      {
+        "value": "997.0",
+        "label": "Returned a questionnaire but did not report any info on ops",
+        "is_missing": true
+      },
+      {
+        "value": "999.0",
+        "label": "Reported one of the 5 operations but date missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 4,
+      "cats": 2,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "continuous",
+    "dist_units": "years",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          31.0,
+          33.3,
+          35.6,
+          37.9,
+          40.2,
+          42.5,
+          44.8,
+          47.099999999999994,
+          49.4,
+          51.7,
+          54.0
+        ],
+        "counts": [
+          22,
+          16,
+          27,
+          58,
+          35,
+          49,
+          65,
+          49,
+          38,
+          29
+        ]
+      },
+      "boxplot": {
+        "min": 31.0,
+        "q1": 39.0,
+        "median": 44.0,
+        "q3": 48.0,
+        "max": 54.0
+      },
+      "units": "years"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "31"
+      ],
+      [
+        "Maximum",
+        "54"
+      ],
+      [
+        "Range",
+        "23"
+      ],
+      [
+        "Median",
+        "44.0"
+      ],
+      [
+        "IQR",
+        "39.0 - 48.0"
+      ],
+      [
+        "Decile 1",
+        "36.0"
+      ],
+      [
+        "Decile 2",
+        "38.0"
+      ],
+      [
+        "Decile 3",
+        "40.0"
+      ],
+      [
+        "Decile 4",
+        "42.0"
+      ],
+      [
+        "Decile 5",
+        "44.0"
+      ],
+      [
+        "Decile 6",
+        "46.0"
+      ],
+      [
+        "Decile 7",
+        "47.0"
+      ],
+      [
+        "Decile 8",
+        "49.0"
+      ],
+      [
+        "Decile 9",
+        "51.0"
+      ],
+      [
+        "Mean",
+        "43.59278350515464"
+      ],
+      [
+        "Std Dev.",
+        "5.757035094286062"
+      ],
+      [
+        "Variance",
+        "33.143453076841325"
+      ],
+      [
+        "Displayed N",
+        "388"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

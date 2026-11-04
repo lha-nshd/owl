@@ -1,0 +1,505 @@
+{
+  "varname": "wtchres15x",
+  "label": "Was your change in weight in the last year due to personal choice, medical advice or some other reason - at age 69 years",
+  "field_id": "9166",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9166",
+  "year": "",
+  "form": "Home visit",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 281.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "wtch15x",
+    "wtchdwn15x",
+    "wtchup15x",
+    "wtchill15x",
+    "wtchint15x"
+  ],
+  "linked_years": [
+    "2015"
+  ],
+  "categories": [
+    "Anthropometry [2]",
+    "Body size measures [11021]"
+  ],
+  "value_labels": [
+    {
+      "value": "-6.0",
+      "label": "Question was not asked"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Personal choice"
+    },
+    {
+      "value": "2.0",
+      "label": "Medical advice"
+    },
+    {
+      "value": "3.0",
+      "label": "Other reason"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Personal choice",
+      "count": 217,
+      "pct": 77.2
+    },
+    {
+      "label": "Medical advice",
+      "count": 39,
+      "pct": 13.9
+    },
+    {
+      "label": "Other reason",
+      "count": 25,
+      "pct": 8.9
+    }
+  ],
+  "pdf": {
+    "varname": "wtchres15x",
+    "label": "Was your change in weight in the last year due to personal choice, medical advice or some other reason - at age 69 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "wtchres15x"
+      ],
+      [
+        "Field ID",
+        "9166"
+      ],
+      [
+        "Label",
+        "Was your change in weight in the last year due to personal choice, medical advice or some other reason - at age 69 years"
+      ],
+      [
+        "Card Number",
+        "BodySize15"
+      ],
+      [
+        "Form",
+        "Home visit"
+      ],
+      [
+        "Question",
+        "5"
+      ],
+      [
+        "Year",
+        "2015"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "2015 Home visit. Anthropomteric questions."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "wtch15x",
+        "Has your weight increased, decreased, or not changed, in the last year - at age 69 years",
+        "2015",
+        "Home visit",
+        "1",
+        "BodySize15"
+      ],
+      [
+        "wtchdwn15x",
+        "By how much has your weight decreased in the last year - at age 69 years",
+        "2015",
+        "Home visit",
+        "3",
+        "BodySize15"
+      ],
+      [
+        "wtchup15x",
+        "By how much has your weight increased in the last year - at age 69 years",
+        "2015",
+        "Home visit",
+        "2",
+        "BodySize15"
+      ],
+      [
+        "wtchill15x",
+        "Was your change in weight in the last year the result of illness or ill health - at age 69 years",
+        "2015",
+        "Home visit",
+        "7",
+        "BodySize15"
+      ],
+      [
+        "wtchint15x",
+        "Was your change in weight in the last year intentional or unintentional - at age 69 years",
+        "2015",
+        "Home visit",
+        "4",
+        "BodySize15"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Anthropometry [2]",
+        "Legacy Category"
+      ],
+      [
+        "Body size measures [11021]",
+        "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-6.0",
+        "Question was not asked",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Personal choice",
+        false
+      ],
+      [
+        "2.0",
+        "Medical advice",
+        false
+      ],
+      [
+        "3.0",
+        "Other reason",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "217",
+        "77%"
+      ],
+      [
+        "2",
+        "39",
+        "14%"
+      ],
+      [
+        "3",
+        "25",
+        "9%"
+      ],
+      [
+        "Displayed N",
+        "281",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "wtchres15x",
+    "label": "Was your change in weight in the last year due to personal choice, medical advice or some other reason - at age 69 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=9166",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "wtchres15x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "9166",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Was your change in weight in the last year due to personal choice, medical advice or some other reason - at age 69 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "BodySize15",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Home visit",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "5",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2015",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "2015 Home visit. Anthropomteric questions.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "wtch15x",
+        "description": "Has your weight increased, decreased, or not changed, in the last year - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "1",
+        "library_file": "BodySize15"
+      },
+      {
+        "varname": "wtchdwn15x",
+        "description": "By how much has your weight decreased in the last year - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3",
+        "library_file": "BodySize15"
+      },
+      {
+        "varname": "wtchup15x",
+        "description": "By how much has your weight increased in the last year - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "2",
+        "library_file": "BodySize15"
+      },
+      {
+        "varname": "wtchill15x",
+        "description": "Was your change in weight in the last year the result of illness or ill health - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "7",
+        "library_file": "BodySize15"
+      },
+      {
+        "varname": "wtchint15x",
+        "description": "Was your change in weight in the last year intentional or unintentional - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "4",
+        "library_file": "BodySize15"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Anthropometry [2]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Body size measures [11021]",
+        "description": "This category contains data on body composition measures that were taken manually i.e. weight, standing and sitting height, body mass index (BMI) and abdominal/hip/chest/arm circumference. Measures were taken from birth to adulthood.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Body_size_measures_11021.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-6.0",
+        "label": "Question was not asked",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Personal choice",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Medical advice",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Other reason",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 5,
+      "docs": 1,
+      "cats": 2,
+      "vals": 7
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Personal choice",
+          "count": 217,
+          "pct": 77
+        },
+        {
+          "value": "2",
+          "label": "Medical advice",
+          "count": 39,
+          "pct": 14
+        },
+        {
+          "value": "3",
+          "label": "Other reason",
+          "count": 25,
+          "pct": 9
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "217",
+        "77%"
+      ],
+      [
+        "2",
+        "39",
+        "14%"
+      ],
+      [
+        "3",
+        "25",
+        "9%"
+      ],
+      [
+        "Displayed N",
+        "281",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

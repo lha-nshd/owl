@@ -1,0 +1,419 @@
+{
+  "varname": "cw1_shield",
+  "label": "Have you received a shield letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 1 (age 74 years)",
+  "field_id": "12170",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12170",
+  "year": "",
+  "form": "Covid wave 1",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1840.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "12170",
+  "truly_longitudinal_varnames": [
+    "cw2_shield",
+    "cw3_shield"
+  ],
+  "truly_longitudinal_years": [
+    "2020",
+    "2021"
+  ],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Coronavirus (Covid-19) [28]",
+    "General health [6022]"
+  ],
+  "value_labels": [
+    {
+      "value": "-1.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-7.0",
+      "label": "No questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "No information"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    },
+    {
+      "value": "2.0",
+      "label": "No"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Yes",
+      "count": 201,
+      "pct": 10.9
+    },
+    {
+      "label": "No",
+      "count": 1639,
+      "pct": 89.1
+    }
+  ],
+  "pdf": {
+    "varname": "cw1_shield",
+    "label": "Have you received a shield letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 1 (age 74 years)",
+    "meta_rows": [
+      [
+        "Variable",
+        "cw1_shield"
+      ],
+      [
+        "Field ID",
+        "12170"
+      ],
+      [
+        "Label",
+        "Have you received a shield letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 1 (age 74 years)"
+      ],
+      [
+        "Card Number",
+        "CW1_COVID"
+      ],
+      [
+        "Form",
+        "Covid wave 1"
+      ],
+      [
+        "Question",
+        "12"
+      ],
+      [
+        "Year",
+        "2020"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about health - Covid wave 1 questionnaire. Full question text: Have you been received a letter or text message from the NHS or the chief medical officer saying that you have been identified as someone at risk of severe illness if you catch coronavirus, because you have an underlying disease or health condition?"
+      ]
+    ],
+    "truly_longitudinal": [
+      [
+        "cw2_shield",
+        "2020",
+        "Did you at any time receive a letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 2 (age 74 years)"
+      ],
+      [
+        "cw3_shield",
+        "2021",
+        "Did you at any time receive a letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 3 (age 75 years)"
+      ]
+    ],
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Coronavirus (Covid-19) [28]",
+        "Legacy Category"
+      ],
+      [
+        "General health [6022]",
+        "This category contains data about the general and physical health which also includes experiences of covid symptoms, testing for Coronavirus and suffering from common health illnesses asked in the 2020-2021 covid questionnaires where the participant was 74 years. Healthcare questions were also included in this category."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-1.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-7.0",
+        "No questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "No information",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ],
+      [
+        "2.0",
+        "No",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "201",
+        "11%"
+      ],
+      [
+        "2",
+        "1639",
+        "89%"
+      ],
+      [
+        "Displayed N",
+        "1840",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "cw1_shield",
+    "label": "Have you received a shield letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 1 (age 74 years)",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=12170",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "cw1_shield",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "12170",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Have you received a shield letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 1 (age 74 years)",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "CW1_COVID",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Covid wave 1",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "12",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2020",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about health - Covid wave 1 questionnaire. Full question text: Have you been received a letter or text message from the NHS or the chief medical officer saying that you have been identified as someone at risk of severe illness if you catch coronavirus, because you have an underlying disease or health condition?",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": {
+      "field_id": "12170",
+      "members": [
+        {
+          "varname": "cw1_shield",
+          "year": "2020",
+          "label": "Have you received a shield letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 1 (age 74 years)",
+          "is_current": true
+        },
+        {
+          "varname": "cw2_shield",
+          "year": "2020",
+          "label": "Did you at any time receive a letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 2 (age 74 years)",
+          "is_current": false
+        },
+        {
+          "varname": "cw3_shield",
+          "year": "2021",
+          "label": "Did you at any time receive a letter or text message saying that you have been indentified as at risk from Coronavirus because of an underlying health condition - Covid wave 3 (age 75 years)",
+          "is_current": false
+        }
+      ]
+    },
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Coronavirus (Covid-19) [28]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "General health [6022]",
+        "description": "This category contains data about the general and physical health which also includes experiences of covid symptoms, testing for Coronavirus and suffering from common health illnesses asked in the 2020-2021 covid questionnaires where the participant was 74 years. Healthcare questions were also included in this category.",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/General_health_6022.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-1.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-7.0",
+        "label": "No questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "No information",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "No",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 2,
+      "docs": 1,
+      "cats": 2,
+      "vals": 6
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 201,
+          "pct": 11
+        },
+        {
+          "value": "2",
+          "label": "No",
+          "count": 1639,
+          "pct": 89
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "201",
+        "11%"
+      ],
+      [
+        "2",
+        "1639",
+        "89%"
+      ],
+      [
+        "Displayed N",
+        "1840",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

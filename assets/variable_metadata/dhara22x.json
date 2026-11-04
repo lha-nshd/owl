@@ -1,0 +1,483 @@
+{
+  "varname": "dhara22x",
+  "label": "Since your 68th birthday, have you been told by a doctor that you have heart attack (myocardial infarct/coronary thrombosis) - at age 76 years",
+  "field_id": "7533",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7533",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "No",
+  "sensitive": "Yes",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1635.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [
+    "harae",
+    "dharan09",
+    "dhara215x",
+    "dhara25x",
+    "dhara14x",
+    "dhara15x",
+    "dhara09"
+  ],
+  "linked_years": [
+    "1999",
+    "2006-10",
+    "2014",
+    "2015",
+    "2025"
+  ],
+  "categories": [
+    "Heart and circulatory conditions [51014]"
+  ],
+  "value_labels": [
+    {
+      "value": "-7.0",
+      "label": "No Questionnaire"
+    },
+    {
+      "value": "-8.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "0.0",
+      "label": "No"
+    },
+    {
+      "value": "1.0",
+      "label": "Yes"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "No",
+      "count": 1590,
+      "pct": 97.2
+    },
+    {
+      "label": "Yes",
+      "count": 45,
+      "pct": 2.8
+    }
+  ],
+  "pdf": {
+    "varname": "dhara22x",
+    "label": "Since your 68th birthday, have you been told by a doctor that you have heart attack (myocardial infarct/coronary thrombosis) - at age 76 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "dhara22x"
+      ],
+      [
+        "Field ID",
+        "7533"
+      ],
+      [
+        "Label",
+        "Since your 68th birthday, have you been told by a doctor that you have heart attack (myocardial infarct/coronary thrombosis) - at age 76 years"
+      ],
+      [
+        "Card Number",
+        "Postal22"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "58"
+      ],
+      [
+        "Year",
+        "2022"
+      ],
+      [
+        "Derived Status",
+        "No"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "Yes"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Potential low cell counts issue"
+      ],
+      [
+        "Notes",
+        "Not applicable"
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      [
+        "harae",
+        "Have you ever suffered from a heart attack - at age 53 years",
+        "1999",
+        "A - Main CAPI questionnaire",
+        "28",
+        "capi99a"
+      ],
+      [
+        "dharan09",
+        "Has a doctor told you that you have had a heart attack (nurse schedule) - at age 60-64 years",
+        "2006-10",
+        "Nurse schedule",
+        "11(e)",
+        "CVDProbs09"
+      ],
+      [
+        "dhara215x",
+        "Since the postal questionnaire, do you still not have or have since been doctor diagnosed with a heart attack (myocardial infarction/coronary thrombosis)",
+        "2015",
+        "Home visit",
+        "3(a)",
+        "MedicalConditions15"
+      ],
+      [
+        "dhara25x",
+        "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Heart attack (myocardial infarct/coronary thrombosis) - at age 79 years",
+        "2025",
+        "Postal questionnaire",
+        "9",
+        "Postal2025"
+      ],
+      [
+        "dhara14x",
+        "Since 2006 have you been told by a doctor that you have had a heart attack  - at age 68 years",
+        "2014",
+        "Postal questionnaire",
+        "25(a)",
+        "CVDEvents14"
+      ],
+      [
+        "dhara15x",
+        "Since 2006, have you been told by a doctor that you have had a heart attack - at age 69 years",
+        "2015",
+        "Home visit",
+        "3(a)",
+        "MedicalConditions15"
+      ],
+      [
+        "dhara09",
+        "Since 1999 has a doctor told you that you have had a heart attack (myocardial infarct/coronary thrombosis) - at age 60-64 years",
+        "2006-10",
+        "Postal questionnaire",
+        "6(b)",
+        "CVDEvents09"
+      ]
+    ],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Heart and circulatory conditions [51014]",
+        "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-7.0",
+        "No Questionnaire",
+        true
+      ],
+      [
+        "-8.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "0.0",
+        "No",
+        false
+      ],
+      [
+        "1.0",
+        "Yes",
+        false
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "0",
+        "1590",
+        "97%"
+      ],
+      [
+        "1",
+        "45",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "1635",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "dhara22x",
+    "label": "Since your 68th birthday, have you been told by a doctor that you have heart attack (myocardial infarct/coronary thrombosis) - at age 76 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=7533",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "dhara22x",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "7533",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Since your 68th birthday, have you been told by a doctor that you have heart attack (myocardial infarct/coronary thrombosis) - at age 76 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "Postal22",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "58",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2022",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Potential low cell counts issue",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Not applicable",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [
+      {
+        "varname": "harae",
+        "description": "Have you ever suffered from a heart attack - at age 53 years",
+        "year": "1999",
+        "form": "A - Main CAPI questionnaire",
+        "question": "28",
+        "library_file": "capi99a"
+      },
+      {
+        "varname": "dharan09",
+        "description": "Has a doctor told you that you have had a heart attack (nurse schedule) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Nurse schedule",
+        "question": "11(e)",
+        "library_file": "CVDProbs09"
+      },
+      {
+        "varname": "dhara215x",
+        "description": "Since the postal questionnaire, do you still not have or have since been doctor diagnosed with a heart attack (myocardial infarction/coronary thrombosis)",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(a)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dhara25x",
+        "description": "Since the age of 60 years, have you ever been told by a doctor that you have the medical condition: Heart attack (myocardial infarct/coronary thrombosis) - at age 79 years",
+        "year": "2025",
+        "form": "Postal questionnaire",
+        "question": "9",
+        "library_file": "Postal2025"
+      },
+      {
+        "varname": "dhara14x",
+        "description": "Since 2006 have you been told by a doctor that you have had a heart attack  - at age 68 years",
+        "year": "2014",
+        "form": "Postal questionnaire",
+        "question": "25(a)",
+        "library_file": "CVDEvents14"
+      },
+      {
+        "varname": "dhara15x",
+        "description": "Since 2006, have you been told by a doctor that you have had a heart attack - at age 69 years",
+        "year": "2015",
+        "form": "Home visit",
+        "question": "3(a)",
+        "library_file": "MedicalConditions15"
+      },
+      {
+        "varname": "dhara09",
+        "description": "Since 1999 has a doctor told you that you have had a heart attack (myocardial infarct/coronary thrombosis) - at age 60-64 years",
+        "year": "2006-10",
+        "form": "Postal questionnaire",
+        "question": "6(b)",
+        "library_file": "CVDEvents09"
+      }
+    ],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Heart and circulatory conditions [51014]",
+        "description": "This category contains data from the questionnaires on whether the participant had any heart or circulatory conditions i.e. heart attacks, heart failure, pulmonary embolism, strokes and varicose veins or blood pressure problems. Discomfort in the leg and chest were also recorded. Rose angina variables were derived. Questions were asked in  1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Heart_and_circulatory_conditions_51014.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-7.0",
+        "label": "No Questionnaire",
+        "is_missing": true
+      },
+      {
+        "value": "-8.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "0.0",
+        "label": "No",
+        "is_missing": false
+      },
+      {
+        "value": "1.0",
+        "label": "Yes",
+        "is_missing": false
+      }
+    ],
+    "counts": {
+      "linked": 7,
+      "docs": 1,
+      "cats": 1,
+      "vals": 5
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "0",
+          "label": "No",
+          "count": 1590,
+          "pct": 97
+        },
+        {
+          "value": "1",
+          "label": "Yes",
+          "count": 45,
+          "pct": 3
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "0",
+        "1590",
+        "97%"
+      ],
+      [
+        "1",
+        "45",
+        "3%"
+      ],
+      [
+        "Displayed N",
+        "1635",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}

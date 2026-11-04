@@ -1,0 +1,577 @@
+{
+  "varname": "emstno09",
+  "label": "Employment status no - at 60-64 years",
+  "field_id": "10202",
+  "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10202",
+  "year": "",
+  "form": "Postal questionnaire",
+  "units": "Not applicable",
+  "derived": "Yes",
+  "sensitive": "No",
+  "later_version": "Not applicable",
+  "dist_type": "categorical",
+  "restricted": false,
+  "security_message": "",
+  "mean": null,
+  "sd": null,
+  "series_size": 1237.0,
+  "minimum": null,
+  "maximum": null,
+  "truly_longitudinal_field_id": "",
+  "truly_longitudinal_varnames": [],
+  "truly_longitudinal_years": [],
+  "linked_varnames": [],
+  "linked_years": [],
+  "categories": [
+    "Social class [22]",
+    "Employment history [23]",
+    "Other socioeconomic circumstances [24]",
+    "Employment history [5154]"
+  ],
+  "value_labels": [
+    {
+      "value": "-9.0",
+      "label": "Unknown"
+    },
+    {
+      "value": "1.0",
+      "label": "Employer, large org"
+    },
+    {
+      "value": "2.0",
+      "label": "Employer, small org"
+    },
+    {
+      "value": "3.0",
+      "label": "Employer, no employees"
+    },
+    {
+      "value": "4.0",
+      "label": "Manager, large org"
+    },
+    {
+      "value": "5.0",
+      "label": "Manager, small org"
+    },
+    {
+      "value": "6.0",
+      "label": "Supervisor"
+    },
+    {
+      "value": "7.0",
+      "label": "Other employee"
+    },
+    {
+      "value": "77.0",
+      "label": "Non-respondent"
+    },
+    {
+      "value": "88.0",
+      "label": "Not applicable"
+    },
+    {
+      "value": "99.0",
+      "label": "Missing"
+    }
+  ],
+  "category_counts": [
+    {
+      "label": "Employer, large org",
+      "count": 12,
+      "pct": 1.0
+    },
+    {
+      "label": "Employer, small org",
+      "count": 77,
+      "pct": 6.2
+    },
+    {
+      "label": "Employer, no employees",
+      "count": 273,
+      "pct": 22.1
+    },
+    {
+      "label": "Manager, large org",
+      "count": 116,
+      "pct": 9.4
+    },
+    {
+      "label": "Manager, small org",
+      "count": 102,
+      "pct": 8.2
+    },
+    {
+      "label": "Supervisor",
+      "count": 80,
+      "pct": 6.5
+    },
+    {
+      "label": "Other employee",
+      "count": 577,
+      "pct": 46.6
+    }
+  ],
+  "pdf": {
+    "varname": "emstno09",
+    "label": "Employment status no - at 60-64 years",
+    "meta_rows": [
+      [
+        "Variable",
+        "emstno09"
+      ],
+      [
+        "Field ID",
+        "10202"
+      ],
+      [
+        "Label",
+        "Employment status no - at 60-64 years"
+      ],
+      [
+        "Card Number",
+        "OccStatRetCls09"
+      ],
+      [
+        "Form",
+        "Postal questionnaire"
+      ],
+      [
+        "Question",
+        "37"
+      ],
+      [
+        "Year",
+        "2006-10"
+      ],
+      [
+        "Derived Status",
+        "Yes"
+      ],
+      [
+        "Later Version",
+        "Not applicable"
+      ],
+      [
+        "Units",
+        "Not applicable"
+      ],
+      [
+        "Sensitive",
+        "No"
+      ],
+      [
+        "Reason Public",
+        "Not applicable"
+      ],
+      [
+        "Reason Sensitive",
+        "Not applicable"
+      ],
+      [
+        "Notes",
+        "Questions about work and retirement. Derived variables."
+      ]
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      [
+        "Questionnaires",
+        "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "View"
+      ]
+    ],
+    "cat_rows": [
+      [
+        "Social class [22]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [23]",
+        "Legacy Category"
+      ],
+      [
+        "Other socioeconomic circumstances [24]",
+        "Legacy Category"
+      ],
+      [
+        "Employment history [5154]",
+        "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years)."
+      ]
+    ],
+    "val_rows": [
+      [
+        "-9.0",
+        "Unknown",
+        true
+      ],
+      [
+        "1.0",
+        "Employer, large org",
+        false
+      ],
+      [
+        "2.0",
+        "Employer, small org",
+        false
+      ],
+      [
+        "3.0",
+        "Employer, no employees",
+        false
+      ],
+      [
+        "4.0",
+        "Manager, large org",
+        false
+      ],
+      [
+        "5.0",
+        "Manager, small org",
+        false
+      ],
+      [
+        "6.0",
+        "Supervisor",
+        false
+      ],
+      [
+        "7.0",
+        "Other employee",
+        false
+      ],
+      [
+        "77.0",
+        "Non-respondent",
+        true
+      ],
+      [
+        "88.0",
+        "Not applicable",
+        true
+      ],
+      [
+        "99.0",
+        "Missing",
+        true
+      ]
+    ],
+    "dist_type": "categorical",
+    "freq_rows": [
+      [
+        "1",
+        "12",
+        "1%"
+      ],
+      [
+        "2",
+        "77",
+        "6%"
+      ],
+      [
+        "3",
+        "273",
+        "22%"
+      ],
+      [
+        "4",
+        "116",
+        "9%"
+      ],
+      [
+        "5",
+        "102",
+        "8%"
+      ],
+      [
+        "6",
+        "80",
+        "6%"
+      ],
+      [
+        "7",
+        "577",
+        "47%"
+      ],
+      [
+        "Displayed N",
+        "1237",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above."
+  },
+  "page": {
+    "varname": "emstno09",
+    "label": "Employment status no - at 60-64 years",
+    "field_id_url": "https://datashare.ndph.ox.ac.uk/nshd46/field.cgi?id=10202",
+    "is_restricted": false,
+    "security_message": "",
+    "meta_rows": [
+      {
+        "field": "Variable",
+        "value": "emstno09",
+        "is_field_id": false
+      },
+      {
+        "field": "Field ID",
+        "value": "10202",
+        "is_field_id": true
+      },
+      {
+        "field": "Label",
+        "value": "Employment status no - at 60-64 years",
+        "is_field_id": false
+      },
+      {
+        "field": "Card Number",
+        "value": "OccStatRetCls09",
+        "is_field_id": false
+      },
+      {
+        "field": "Form",
+        "value": "Postal questionnaire",
+        "is_field_id": false
+      },
+      {
+        "field": "Question",
+        "value": "37",
+        "is_field_id": false
+      },
+      {
+        "field": "Year",
+        "value": "2006-10",
+        "is_field_id": false
+      },
+      {
+        "field": "Derived Status",
+        "value": "Yes",
+        "is_field_id": false
+      },
+      {
+        "field": "Later Version",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Units",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Sensitive",
+        "value": "No",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Public",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Reason Sensitive",
+        "value": "Not applicable",
+        "is_field_id": false
+      },
+      {
+        "field": "Notes",
+        "value": "Questions about work and retirement. Derived variables.",
+        "is_field_id": false
+      }
+    ],
+    "truly_longitudinal": null,
+    "linked_rows": [],
+    "doc_rows": [
+      {
+        "type": "Questionnaires",
+        "url": "https://skylark.ucl.ac.uk/NSHD/exploring/nshd-questionnaires/",
+        "text": "View"
+      }
+    ],
+    "cat_rows": [
+      {
+        "category": "Social class [22]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [23]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Other socioeconomic circumstances [24]",
+        "description": "Legacy Category",
+        "url": null,
+        "is_legacy": true
+      },
+      {
+        "category": "Employment history [5154]",
+        "description": "This category contains data on the employment history which includes voluntary work and retirement. Details captured included, number of hours works , overtime, manegerial duties,  occupational codes. Similar information is available for the spouse. Questions were asked in 1982 (age 36 years), 1989 (age 43 years), 1999 (age 53 years), 2006-10 (age 60-64 years), 2014 (age 68 years), 2015 (age 69 years), 2022 (age 76 years) and 2025 (age 79 years).",
+        "url": "/OWL/docs/search_methods/browse_by_category/cat_pages/Employment_history_5154.html",
+        "is_legacy": false
+      }
+    ],
+    "val_rows": [
+      {
+        "value": "-9.0",
+        "label": "Unknown",
+        "is_missing": true
+      },
+      {
+        "value": "1.0",
+        "label": "Employer, large org",
+        "is_missing": false
+      },
+      {
+        "value": "2.0",
+        "label": "Employer, small org",
+        "is_missing": false
+      },
+      {
+        "value": "3.0",
+        "label": "Employer, no employees",
+        "is_missing": false
+      },
+      {
+        "value": "4.0",
+        "label": "Manager, large org",
+        "is_missing": false
+      },
+      {
+        "value": "5.0",
+        "label": "Manager, small org",
+        "is_missing": false
+      },
+      {
+        "value": "6.0",
+        "label": "Supervisor",
+        "is_missing": false
+      },
+      {
+        "value": "7.0",
+        "label": "Other employee",
+        "is_missing": false
+      },
+      {
+        "value": "77.0",
+        "label": "Non-respondent",
+        "is_missing": true
+      },
+      {
+        "value": "88.0",
+        "label": "Not applicable",
+        "is_missing": true
+      },
+      {
+        "value": "99.0",
+        "label": "Missing",
+        "is_missing": true
+      }
+    ],
+    "counts": {
+      "linked": 0,
+      "docs": 1,
+      "cats": 4,
+      "vals": 11
+    },
+    "is_genomic": false,
+    "is_plot_excluded": false,
+    "dist_type": "categorical",
+    "dist_units": "Not applicable",
+    "chart": {
+      "type": "categorical",
+      "bars": [
+        {
+          "value": "1",
+          "label": "Employer, large org",
+          "count": 12,
+          "pct": 1
+        },
+        {
+          "value": "2",
+          "label": "Employer, small org",
+          "count": 77,
+          "pct": 6
+        },
+        {
+          "value": "3",
+          "label": "Employer, no employees",
+          "count": 273,
+          "pct": 22
+        },
+        {
+          "value": "4",
+          "label": "Manager, large org",
+          "count": 116,
+          "pct": 9
+        },
+        {
+          "value": "5",
+          "label": "Manager, small org",
+          "count": 102,
+          "pct": 8
+        },
+        {
+          "value": "6",
+          "label": "Supervisor",
+          "count": 80,
+          "pct": 6
+        },
+        {
+          "value": "7",
+          "label": "Other employee",
+          "count": 577,
+          "pct": 47
+        }
+      ]
+    },
+    "freq_rows": [
+      [
+        "1",
+        "12",
+        "1%"
+      ],
+      [
+        "2",
+        "77",
+        "6%"
+      ],
+      [
+        "3",
+        "273",
+        "22%"
+      ],
+      [
+        "4",
+        "116",
+        "9%"
+      ],
+      [
+        "5",
+        "102",
+        "8%"
+      ],
+      [
+        "6",
+        "80",
+        "6%"
+      ],
+      [
+        "7",
+        "577",
+        "47%"
+      ],
+      [
+        "Displayed N",
+        "1237",
+        "100%"
+      ]
+    ],
+    "freq_note": "Missing values have been excluded, and categories with low cell counts have been suppressed, from both the plot and the counts above.",
+    "site_baseurl": "/OWL",
+    "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
+  }
+}
