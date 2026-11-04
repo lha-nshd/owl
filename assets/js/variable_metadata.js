@@ -10,7 +10,7 @@
 // ============================================================
 
 // Folder holding one JSON file per variable, named "{variable_name}.json"
-const VARIABLE_JSON_FOLDER = "/OWL/assets/variable_metadata/";
+const VARIABLE_JSON_FOLDER = SITE_BASEURL + "/assets/variable_metadata/";
 
 // Fields shown in the top summary strip (order matters)
 const SUMMARY_FIELDS = [

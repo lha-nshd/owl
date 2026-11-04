@@ -1,6 +1,6 @@
 /* ============================================================
    OWL — Explore Topics
-   /OWL/assets/js/icon_insert.js
+   assets/js/icon_insert.js
 
    1. Loads Tabler Icons webfont from CDN
    2. Injects data-nav-icon on every sidebar nav link by

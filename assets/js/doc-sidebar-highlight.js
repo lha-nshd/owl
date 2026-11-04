@@ -1,6 +1,6 @@
 /*
  * OWL — Sidebar summary section-colour highlighting
- * /OWL/assets/js/doc-sidebar-highlight.js
+ * assets/js/doc-sidebar-highlight.js
  *
  * Generic, page-agnostic script: colours each "On this page" sidebar
  * link to match its target section's own colour, and highlights
@@ -26,7 +26,7 @@
  *
  * Include once, site-wide, via _includes/head_custom.html:
  *   <link rel="stylesheet" href="{{ '/assets/css/doc-sidebar-highlight.css' | relative_url }}">
- *   <script src="/OWL/assets/js/doc-sidebar-highlight.js"></script>
+ *   <script src="{{ '/assets/js/doc-sidebar-highlight.js' | relative_url }}"></script>
  *
  * No-ops harmlessly on any page without a .sidebar-summary or matching
  * .home-section elements.

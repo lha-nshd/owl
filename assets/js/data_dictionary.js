@@ -50,7 +50,7 @@ function inBasketFast(varName) {
 // Data load
 // ============================================================
 
-fetch("{{ site.baseurl }}/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json")
+fetch(SITE_BASEURL + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json")
   .then(r => r.json())
   .then(data => {
     rawData = data;
@@ -382,7 +382,7 @@ function renderTable() {
 
       if (col === "NSHD Variable Name" && value !== "") {
         return `<td>
-          <a href="https://rmjdish.github.io/OWL/assets/variable_metadata/${value}"
+          <a href="${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${value}"
              target="_blank"
              class="field-link">
              ${value}

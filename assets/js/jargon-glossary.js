@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function onLoadError(err) {
     var count = document.getElementById("jargCount");
     jargBody.innerHTML = '<tr><td colspan="3" style="padding:20px;color:#777;text-align:center;">' +
-      'Glossary data could not be loaded. Make sure <code>/OWL/assets/data/cohort_jargon/jargon-terms.json</code> exists and is valid JSON. (' +
+      'Glossary data could not be loaded. Make sure <code>' + SITE_BASEURL + '/assets/data/cohort_jargon/jargon-terms.json</code> exists and is valid JSON. (' +
       (err && err.message ? err.message : "unknown error") + ')</td></tr>';
     if (count) count.textContent = "";
   }
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }).catch(onLoadError);
   } else {
     // Fallback: jargon-loader.js wasn't found on this page, fetch directly.
-    fetch("/OWL/assets/data/cohort_jargon/jargon-terms.json")
+    fetch(SITE_BASEURL + "/assets/data/cohort_jargon/jargon-terms.json")
       .then(function (res) {
         if (!res.ok) throw new Error("HTTP " + res.status);
         return res.json();

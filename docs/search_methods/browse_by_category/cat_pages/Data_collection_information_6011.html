@@ -6,8 +6,8 @@ nav_order: 120
 classes: page-browse-by-category
 ---
 
-<link rel="stylesheet" href="{ site.baseurl }/assets/css/topics.css">
-<link rel="stylesheet" href="{ site.baseurl }/assets/css/getting-started.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
 
 <div class="page-browse-by-category">
 
@@ -51,7 +51,7 @@ classes: page-browse-by-category
             </select>
             <button id="addAllBtn" class="add-all-btn">Add All to Basket</button>
             <button id="downloadCsvBtn" class="download-btn">Download Results (CSV)</button>
-            <a href="/OWL/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">
+            <a href="{{ site.baseurl }}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">
               Download Blank Data Dictionary
             </a>
             <div id="paginationTop"></div>
@@ -103,4 +103,4 @@ classes: page-browse-by-category
     </div> <!-- end browseUI -->
 </div> <!-- end page-browse-by-category -->
 
-<script src="/OWL/assets/js/browse_by_category.js"></script>
+<script src="{{ site.baseurl }}/assets/js/browse_by_category.js"></script>

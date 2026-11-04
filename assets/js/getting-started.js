@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
       render();
     });
   }
-  fetch('/OWL/assets/data/jargon-terms.json')
+  fetch(SITE_BASEURL + '/assets/data/cohort_jargon/jargon-terms.json')
     .then(function (res) { return res.json(); })
     .then(function (data) {
       terms = sortAlphabetically(data);

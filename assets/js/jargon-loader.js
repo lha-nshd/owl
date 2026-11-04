@@ -25,7 +25,7 @@
 
 (function () {
 
-  const SITE_BASEURL     = "/OWL";
+  const SITE_BASEURL     = window.SITE_BASEURL || "";
   const JARGON_JSON_URL  = `${SITE_BASEURL}/assets/data/cohort_jargon/jargon-terms.json`;
 
   function slugify(str) {

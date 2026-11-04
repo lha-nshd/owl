@@ -45,7 +45,7 @@ function rewriteLinkedVariableLinks() {
     if (!variableName) return;
 
     // Build new URL
-    const newUrl = `https://rmjdish.github.io/OWL/assets/variable_metadata/${variableName}.html`;
+    const newUrl = `${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${variableName}.html`;
 
     // Update the link
     link.href = newUrl;

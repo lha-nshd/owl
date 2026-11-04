@@ -1,3 +1,9 @@
+<!-- Site-wide globals: MUST come before every script that uses SITE_URL / SITE_BASEURL -->
+<script>
+  window.SITE_URL     = "{{ site.url }}";
+  window.SITE_BASEURL = "{{ site.baseurl }}";
+</script>
+
 <!-- UCL Cookie banner js scripts -->
 <script src="https://cookie-consent.ucl.ac.uk/dist/ucl-consent.blocker.min.js"></script>
 <script src="https://cookie-consent.ucl.ac.uk/dist/ucl-consent.ui-full.min.js" defer></script>
@@ -28,10 +34,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
 
 <!-- Site wide js script files to be run -->
-<script src="/OWL/assets/js/basket_header.js"></script>
-<script src="/OWL/assets/js/icon_insert.js"></script>
-<script src="/OWL/assets/js/variable-icon-key.js"></script>
-<script src="/OWL/assets/js/variable-doc-icon.js"></script>
-<script src="/OWL/assets/js/variable-restricted-icon.js"></script>
-<script src="/OWL/assets/js/variable-longitudinal-icon.js"></script>
-<script src="/OWL/assets/js/doc-sidebar-highlight.js"></script>
+<script src="{{ '/assets/js/basket_header.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/icon_insert.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/variable-icon-key.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/variable-doc-icon.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/variable-restricted-icon.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/variable-longitudinal-icon.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/doc-sidebar-highlight.js' | relative_url }}"></script>

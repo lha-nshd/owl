@@ -43,7 +43,7 @@ function isInBasket(varName) {
 // "which variables are sweeps of the same longitudinal Field ID" — the
 // longitudinal page does NOT duplicate this logic; it just calls addToBasket
 // per variable, and expansion happens here.
-const DATA_DICTIONARY_URL = "/OWL/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json";
+const DATA_DICTIONARY_URL = SITE_BASEURL + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json";
 let longitudinalSiblingsPromise = null;
 
 function loadLongitudinalSiblings() {
@@ -525,14 +525,14 @@ document.addEventListener("DOMContentLoaded", () => {
       <div style="background:#ffffff;padding:6px 12px;font-size:12px;font-weight:600;color:#4b067a;border-bottom:1px solid #e0d0f0;">Last 5 variables added:</div>
       ${lastFive.map(i => `
         <div style="background:#ffffff;padding:5px 12px;font-size:12px;">
-          <a href="https://rmjdish.github.io/OWL/assets/variable_metadata/${i.varName}"
+          <a href="${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${i.varName}"
              target="_blank"
              style="color:#4b067a;text-decoration:underline;">
             ${i.varName}
           </a>
         </div>
       `).join("")}
-      <a href="/OWL/docs/baskets/basket.html"
+      <a href="${SITE_BASEURL}/docs/baskets/basket.html"
          style="display:block;background:#f3e8ff;padding:7px 12px;font-size:12px;font-weight:500;color:#4b067a;border-top:1px solid #e0d0f0;text-decoration:none;">
         View full basket →
       </a>
@@ -555,6 +555,6 @@ document.addEventListener("DOMContentLoaded", () => {
   dropdown.addEventListener("mouseleave", hideDropdown);
 
   basket.addEventListener("click", () => {
-    window.location = "/OWL/docs/baskets/basket.html";
+    window.location = SITE_BASEURL + "/docs/baskets/basket.html";
   });
 });

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  const SITE_BASEURL = "/OWL";
+  const SITE_BASEURL = window.SITE_BASEURL || "";
   const DICT_URL     = `${SITE_BASEURL}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json`;
   const SIDECAR_BASE = `${SITE_BASEURL}/assets/variable_metadata/`;
   const PAGE_SIZE    = 20;
@@ -286,7 +286,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const lastYear   = f.sweeps[f.sweeps.length - 1]?.year || '';
       const yearRange  = firstYear === lastYear ? firstYear : `${firstYear} → ${lastYear}`;
       const allNames   = f.varnames.filter(Boolean).map(n =>
-        `<a href="https://rmjdish.github.io/OWL/assets/variable_metadata/${n}" target="_blank" rel="noopener"
+        `<a href="${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${n}" target="_blank" rel="noopener"
             style="color:#534AB7;text-decoration:underline;text-underline-offset:2px;">${n}</a>`
       ).join(' &middot; ');
       const panelId    = `panel-${f.fieldId}`;
@@ -490,7 +490,7 @@ document.addEventListener("DOMContentLoaded", () => {
           return `<tr style="${bg}">
             ${checkCell}
             <td style="${B}color:#534AB7;font-weight:500;">
-              <a href="https://rmjdish.github.io/OWL/assets/variable_metadata/${s.varname}" target="_blank" rel="noopener"
+              <a href="${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${s.varname}" target="_blank" rel="noopener"
                  style="color:#534AB7;text-decoration:underline;text-underline-offset:2px;">${s.varname}</a>
             </td>
             <td style="${B}">${s.year}</td><td style="${B}">${s.age}</td>
@@ -519,7 +519,7 @@ document.addEventListener("DOMContentLoaded", () => {
           return `<tr style="${bg}">
             ${checkCell}
             <td style="${B}color:#534AB7;font-weight:500;">
-              <a href="https://rmjdish.github.io/OWL/assets/variable_metadata/${s.varname}" target="_blank" rel="noopener"
+              <a href="${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${s.varname}" target="_blank" rel="noopener"
                  style="color:#534AB7;text-decoration:underline;text-underline-offset:2px;">${s.varname}</a>
             </td>
             <td style="${B}">${s.year}</td><td style="${B}">${s.age}</td>

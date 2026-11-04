@@ -66,8 +66,8 @@
   }
 
   // -- Link targets (same conventions as ukllc_catalogue.js) --------------
-  const VARIABLE_METADATA_BASE_URL = "https://rmjdish.github.io/OWL/assets/variable_metadata/";
-  const CATEGORY_PAGE_BASE_URL = "/OWL/docs/search_methods/browse_by_category/cat_pages";
+  const VARIABLE_METADATA_BASE_URL = SITE_URL + SITE_BASEURL + "/assets/variable_metadata/";
+  const CATEGORY_PAGE_BASE_URL = SITE_BASEURL + "/docs/search_methods/browse_by_category/cat_pages";
 
   function variableMetadataUrl(varName) {
     return VARIABLE_METADATA_BASE_URL + encodeURIComponent(varName);

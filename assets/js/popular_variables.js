@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Load BOTH datasets
   Promise.all([
-    fetch("/OWL/assets/data/search_methods/popular_variables/popular_vars_yr.json").then(r => r.json()),
-    fetch("/OWL/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json").then(r => r.json())
+    fetch(SITE_BASEURL + "/assets/data/search_methods/popular_variables/popular_vars_yr.json").then(r => r.json()),
+    fetch(SITE_BASEURL + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json").then(r => r.json())
   ])
   .then(([popular, labels]) => {
 
@@ -336,7 +336,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </td>
 
             <td class="name-col">
-              <a href="https://rmjdish.github.io/OWL/assets/variable_metadata/${row.name}"
+              <a href="${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${row.name}"
                  target="_blank"
                  class="field-link">
                  ${row.name}

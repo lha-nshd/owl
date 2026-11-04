@@ -75,7 +75,7 @@
  // appends ".html" to the same base URL - that's an inconsistency in the
  // existing site, not something introduced here; worth checking which one
  // actually resolves before relying on it.
- const VARIABLE_METADATA_BASE_URL = "https://rmjdish.github.io/OWL/assets/variable_metadata/";
+ const VARIABLE_METADATA_BASE_URL = SITE_URL + SITE_BASEURL + "/assets/variable_metadata/";
 
  // Category / "Browse by Category" pages, e.g.:
  // https://rmjdish.github.io/OWL/docs/search_methods/browse_by_category/cat_pages/Blood_biochemistry_2011.html
@@ -90,7 +90,7 @@
  // a Topic-only link, so this needs a real check once deployed. If a link
  // still 404s, send me the exact Topic text shown in that row plus the
  // correct URL and I'll fix the pattern for real rather than guess again.
- const CATEGORY_PAGE_BASE_URL = "/OWL/docs/search_methods/browse_by_category/cat_pages";
+ const CATEGORY_PAGE_BASE_URL = SITE_BASEURL + "/docs/search_methods/browse_by_category/cat_pages";
 
  function variableMetadataUrl(varName) {
  return VARIABLE_METADATA_BASE_URL + encodeURIComponent(varName);

@@ -23,7 +23,7 @@
 (function () {
   "use strict";
 
-  const VARIABLE_METADATA_BASE_URL = "https://rmjdish.github.io/OWL/assets/variable_metadata/";
+  const VARIABLE_METADATA_BASE_URL = SITE_URL + SITE_BASEURL + "/assets/variable_metadata/";
   // One colour and dash pattern per year on the "through the year" chart
   const LINE_COLOURS = ["#6a0dad", "#1a5c50", "#1f3f70", "#8a4a1a", "#7a1f4a", "#705518"];
   const LINE_DASHES = ["", "7 4", "2 3", "10 4 2 4", "4 4", "1 4"];
@@ -774,7 +774,7 @@
     const hd = "<div><h1>NSHD Data Sharing: Metrics and Trends</h1><small>Applications for NSHD data and basket requests · Applications " + M.start_year + " to " + M.end_year +
       '</small></div><div class="r"><b>OWL</b> <span class="yr">Years covered: ' + esc(yearsText()) + '</span><br>Generated ' + new Date().toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) + (when ? " · Data updated " + esc(when) : "") + "</div>";
     const ft = "<b>How to read this report.</b> All times are medians, not averages. Basket dates come from Jay (date sent); the 30-day figure is for baskets with a matched request. " +
-      "Percentages use the projects shown. Figures are for " + esc(selLabel()) + ". Interactive version with year filters: rmjdish.github.io/OWL/docs/data_sharing/metrics";
+      "Percentages use the projects shown. Figures are for " + esc(selLabel()) + ". Interactive version with year filters: " + SITE_URL.replace(/^https?:\/\//, "") + SITE_BASEURL + "/docs/data_sharing/metrics";
     const medApprove = days(d.ap.median_days);
     const big = (a, aL, b2, bL, c, cL, e, eL) => '<div class="big"><div><b>' + a + "</b><span>" + aL + "</span></div><div><b>" + b2 + "</b><span>" + bL + "</span></div>" +
       (c !== undefined ? "<div><b>" + c + "</b><span>" + cL + "</span></div>" : "") + (e !== undefined ? "<div><b>" + e + "</b><span>" + eL + "</span></div>" : "") + "</div>";

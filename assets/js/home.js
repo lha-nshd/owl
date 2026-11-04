@@ -1,6 +1,6 @@
 /* ============================================================
    OWL — Home page
-   /OWL/assets/js/home.js
+   assets/js/home.js
    Drives the two-level accordion (sections + nested tools) and
    the right-hand sidebar summary that expands/scrolls to them,
    including highlighting whichever sidebar link is currently

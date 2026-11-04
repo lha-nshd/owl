@@ -1,6 +1,6 @@
 /*
  * OWL — Combined icon key
- * /OWL/assets/js/variable-icon-key.js
+ * assets/js/variable-icon-key.js
  *
  * ONE shared bar replacing the separate doc / restricted / longitudinal legends.
  * It owns the text, order and markup of the key. The three icon scripts no

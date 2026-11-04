@@ -261,7 +261,7 @@ window.logSubtopicValues = logSubtopicValues;
 // Data load
 // ============================================================
 
-fetch("/OWL/assets/data/search_methods/search_by_year/NSHD_Data_Dictionary_Public_full.json")
+fetch(SITE_BASEURL + "/assets/data/search_methods/search_by_year/NSHD_Data_Dictionary_Public_full.json")
   .then(r => r.json())
   .then(data => {
     rawData = data;
@@ -704,7 +704,7 @@ function renderTable() {
       const value = row[cfg.key] ?? "";
 
       if (cfg.type === "varlink" && value !== "") {
-        return `<td><a href="https://rmjdish.github.io/OWL/assets/variable_metadata/${value}" target="_blank" class="field-link">${value}</a></td>`;
+        return `<td><a href="${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${value}" target="_blank" class="field-link">${value}</a></td>`;
       }
       if (cfg.type === "yearbadge") {
         return `<td>${renderYearBadge(row)}</td>`;

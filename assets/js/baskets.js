@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
 
   // Path to the full OWL data dictionary, published as a static JSON asset.
   // Update this if the file is hosted somewhere else on the site.
-  const DATA_DICTIONARY_URL = "/OWL/assets/data/search_methods/search_by_year/NSHD_Data_Dictionary_Public_full.json";
+  const DATA_DICTIONARY_URL = SITE_BASEURL + "/assets/data/search_methods/search_by_year/NSHD_Data_Dictionary_Public_full.json";
 
   // Small { varName: message } lookup of restricted variables only —
   // same file variable-restricted-icon.js reads, kept in sync with it.
@@ -17,7 +17,7 @@ window.addEventListener("load", function () {
   // variable-restricted-icon.js, which already decorates this table's
   // name links automatically via its MutationObserver, so this file
   // never inserts a lock icon itself — only tracks restriction status.
-  const RESTRICTED_LOOKUP_URL = "/OWL/assets/data/sensitive/restricted_variables.json";
+  const RESTRICTED_LOOKUP_URL = SITE_BASEURL + "/assets/data/sensitive/restricted_variables.json";
   let restrictedLookup = {};
 
   function isRestricted(varName) {
@@ -321,7 +321,7 @@ window.addEventListener("load", function () {
 	const link = document.createElement("a");
 
 	link.textContent = item.varName;
-	link.href = `https://rmjdish.github.io/OWL/assets/variable_metadata/${item.varName}.html`;
+	link.href = `${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${item.varName}.html`;
 	link.target = "_blank";  // optional: open in new tab
 
 	tdName.appendChild(link);

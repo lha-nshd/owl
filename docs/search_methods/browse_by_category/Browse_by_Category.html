@@ -15,10 +15,10 @@ classes: page-browse_by_category2
   </div>
 
   <div id="catBrowser"
-       data-index="/OWL/assets/data/search_methods/browse_by_category/categories_index.json"
-       data-vars="/OWL/assets/data/search_methods/browse_by_category/category_variables.json"
-       data-var-link="https://rmjdish.github.io/OWL/assets/variable_metadata/{name}.html"
-       data-cat-base="/OWL/docs/search_methods/browse_by_category/cat_pages/">
+       data-index="{{ site.baseurl }}/assets/data/search_methods/browse_by_category/categories_index.json"
+       data-vars="{{ site.baseurl }}/assets/data/search_methods/browse_by_category/category_variables.json"
+       data-var-link="{{ site.url }}{{ site.baseurl }}/assets/variable_metadata/{name}.html"
+       data-cat-base="{{ site.baseurl }}/docs/search_methods/browse_by_category/cat_pages/">
 
     <div id="catLoading" class="loading-screen"><div class="spinner"></div><div>Loading categories…</div></div>
 
@@ -50,13 +50,13 @@ classes: page-browse_by_category2
           <select id="catPageSize"><option>15</option><option>30</option><option>50</option><option>100</option></select>
           <button id="catAddAll" type="button" class="add-all-btn">Add All to Basket</button>
           <button id="catCsv" type="button" class="download-btn">Download Results (CSV)</button>
-          <a href="/OWL/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">Download Blank Data Dictionary</a>
+          <a href="{{ site.baseurl }}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary-Public.xlsx" download class="download-excel-btn">Download Blank Data Dictionary</a>
           <div id="catPagerTop" class="cat-pager"></div>
         </div>
         <div class="table-wrapper">
           <table class="my-table cat-results-table">
             <thead><tr>
-              <th class="check-col">Add</th>
+              <th class="check-col">Add variable</th>
               <th data-sort="name">NSHD Variable Name <span class="sort-icon">⇅</span></th>
               <th data-sort="label">Variable Label <span class="sort-icon">⇅</span></th>
               <th data-sort="cat"><span class="header-label">Category</span> <span class="sort-icon">⇅</span>
@@ -71,4 +71,4 @@ classes: page-browse_by_category2
   </div>
 </div>
 
-<script src="/OWL/assets/js/browse_by_category.js"></script>
+<script src="{{ site.baseurl }}/assets/js/browse_by_category.js"></script>

@@ -1,6 +1,6 @@
 /*
  * OWL — Longitudinal variable link icon
- * /OWL/assets/js/variable-longitudinal-icon.js
+ * assets/js/variable-longitudinal-icon.js
  *
  * Page-agnostic, drop-in script (same approach as variable-restricted-icon.js):
  * adds a small pink link icon next to every variable-name link on ANY page
@@ -13,7 +13,7 @@
  *
  * Include once, site-wide, via _includes/head_custom.html:
  *   <link rel="stylesheet" href="{{ '/assets/css/variable-longitudinal-icon.css' | relative_url }}">
- *   <script src="/OWL/assets/js/variable-longitudinal-icon.js"></script>
+ *   <script src="{{ '/assets/js/variable-longitudinal-icon.js' | relative_url }}"></script>
  *
  * Behaviour:
  *   - Hover the icon -> how many other variables are linked to this one
@@ -30,8 +30,8 @@
  * alters anything that was already there.
  */
 (function () {
-  var INDEX_URL = '/OWL/assets/data/longitudinal/longitudinal_variables.json';
-  var PAGE_URL  = '/OWL/docs/search_methods/longitudinal_variables/longitudinal-variables/';
+  var INDEX_URL = SITE_BASEURL + '/assets/data/longitudinal/longitudinal_variables.json';
+  var PAGE_URL  = SITE_BASEURL + '/docs/search_methods/longitudinal_variables/longitudinal-variables/';
   var LINK_PATTERN = /\/assets\/variable_metadata\/([^/?#]+?)(?:\.html)?(?:[/?#]|$)/;
 
   function extractVarName(href) {

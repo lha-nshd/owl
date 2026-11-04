@@ -1,6 +1,6 @@
 /* ============================================================
    OWL — Explore Topics
-   /OWL/assets/js/topics.js
+   assets/js/topics.js
    Shared script: active-section sidebar highlighting,
    variable-code table linking, and table alignment fixes.
 
@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', function () {
      existing <a> tag.
      ============================================================ */
 (function linkVariableCodes() {
-  const baseUrl = 'https://rmjdish.github.io/OWL/assets/variable_metadata/';
+  const baseUrl = SITE_URL + SITE_BASEURL + '/assets/variable_metadata/';
   const cells = document.querySelectorAll('.topic-table tbody td');
   cells.forEach(function (cell) {
     if (cell.querySelector('a')) return;

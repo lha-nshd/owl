@@ -25,7 +25,7 @@
 
 (function () {
 
-  const SITE_BASEURL     = "/OWL";
+  const SITE_BASEURL     = window.SITE_BASEURL || "";
   const GLOSSARY_PATH    = `${SITE_BASEURL}/docs/getting-started/cohort-jargon/`;
   const SKIP_PATH_MATCH  = "cohort-jargon"; // don't run on the glossary page itself
 

@@ -1,6 +1,6 @@
 /*
  * OWL — Variable documentation icon
- * /OWL/assets/js/variable-doc-icon.js
+ * assets/js/variable-doc-icon.js
  *
  * Page-agnostic, drop-in script: adds a small circular "view
  * documentation" icon next to every variable-name link on ANY page —
@@ -15,7 +15,7 @@
  *
  * Include once, site-wide, via _includes/head_custom.html:
  *   <link rel="stylesheet" href="{{ '/assets/css/variable-doc-icon.css' | relative_url }}">
- *   <script src="/OWL/assets/js/variable-doc-icon.js"></script>
+ *   <script src="{{ '/assets/js/variable-doc-icon.js' | relative_url }}"></script>
  *
  * Behaviour:
  *   - Hover the icon           -> "View documentation"
@@ -33,7 +33,7 @@
  * or alters anything that was already there.
  */
 (function () {
-  var INDEX_URL = '/OWL/assets/data/variable_documents_index.json';
+  var INDEX_URL = SITE_BASEURL + '/assets/data/variable_documents_index.json';
   var LINK_PATTERN = /\/assets\/variable_metadata\/([^/?#]+?)(?:\.html)?(?:[/?#]|$)/;
 
   function extractVarName(href) {
