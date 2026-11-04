@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "version": "0.1-draft",
+    "status": "draft",
+    "scope": "Applying for NSHD data. Answers come from the OWL Data Sharing page and the Skylark Access page.",
+    "owner": "[LHA content owner to be named]",
+    "lastReviewed": "2026-11-04",
+    "feedbackUrl": "",
+    "contactUrl": "https://skylark.ucl.ac.uk/NSHD/access"
+  },
+  "groups": [
+    {
+      "id": "apply",
+      "label": "Applying"
+    },
+    {
+      "id": "after",
+      "label": "After you apply"
+    },
+    {
+      "id": "baskets",
+      "label": "Baskets"
+    },
+    {
+      "id": "more",
+      "label": "More help"
+    }
+  ],
+  "synonyms": {
+    "apply": [
+      "application",
+      "applying",
+      "request",
+      "requesting",
+      "get data",
+      "access",
+      "start",
+      "begin",
+      "submit"
+    ],
+    "prerequisite": [
+      "prerequisites",
+      "requirements",
+      "require",
+      "eligible",
+      "eligibility",
+      "before",
+      "need",
+      "needed",
+      "criteria"
+    ],
+    "form": [
+      "forms",
+      "paperwork",
+      "template"
+    ],
+    "cost": [
+      "price",
+      "fee",
+      "fees",
+      "charge",
+      "charges",
+      "pay",
+      "payment",
+      "free",
+      "money"
+    ],
+    "time": [
+      "long",
+      "weeks",
+      "months",
+      "days",
+      "turnaround",
+      "timescale",
+      "wait",
+      "waiting",
+      "duration",
+      "soon",
+      "quickly"
+    ],
+    "approve": [
+      "approved",
+      "approval",
+      "decision",
+      "accepted",
+      "committee",
+      "review"
+    ],
+    "safe haven": [
+      "dsh",
+      "data safe haven",
+      "secure environment",
+      "trusted research environment",
+      "tre"
+    ],
+    "basket": [
+      "baskets",
+      "basket id",
+      "shopping basket",
+      "list of variables"
+    ],
+    "dictionary": [
+      "data dictionary",
+      "spreadsheet",
+      "excel",
+      "template"
+    ],
+    "restricted": [
+      "padlock",
+      "lock",
+      "locked",
+      "blocked",
+      "not allowed"
+    ],
+    "contact": [
+      "email",
+      "phone",
+      "speak",
+      "talk",
+      "ask",
+      "help",
+      "who",
+      "lha",
+      "team"
+    ],
+    "cite": [
+      "citation",
+      "citing",
+      "reference",
+      "acknowledge",
+      "acknowledgement",
+      "publish",
+      "publication"
+    ],
+    "other researchers": [
+      "approved projects",
+      "past projects",
+      "examples",
+      "similar projects"
+    ],
+    "register": [
+      "registration",
+      "account",
+      "sign up",
+      "signup",
+      "login",
+      "log in"
+    ]
+  },
+  "stopwords": [
+    "a",
+    "an",
+    "the",
+    "i",
+    "me",
+    "my",
+    "we",
+    "you",
+    "your",
+    "to",
+    "of",
+    "in",
+    "on",
+    "for",
+    "and",
+    "or",
+    "is",
+    "are",
+    "do",
+    "does",
+    "can",
+    "could",
+    "would",
+    "should",
+    "how",
+    "what",
+    "why",
+    "it",
+    "this",
+    "that",
+    "with",
+    "about",
+    "have",
+    "has",
+    "be",
+    "will",
+    "there",
+    "any",
+    "if",
+    "so",
+    "at",
+    "by",
+    "from",
+    "as"
+  ],
+  "entries": [
+    {
+      "id": "how-to-apply",
+      "group": "apply",
+      "question": "How do I apply for NSHD data?",
+      "keywords": "apply application how to get data request start begin steps process requesting access request access apply for data",
+      "answer": "<p>Each application is for one project and a set of variables. The steps are:</p><ol><li>Choose the variables you need by searching or browsing OWL, Condor or the data dictionary.</li><li>Complete the data dictionary.</li><li>Upload it to Condor to finalise your basket.</li><li>Submit the Data Access Request Form, attaching the completed data dictionary.</li><li>NSHD reviews your application.</li><li>If approved, your data is made available through the UCL Data Safe Haven.</li></ol>",
+      "links": [
+        {
+          "label": "Apply for data",
+          "url": "{{OWL}}/docs/data_sharing/"
+        },
+        {
+          "label": "Data Access Request Form",
+          "url": "https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=_oivH5ipW0yTySEKEdmlwuGYbwfRSjVBmdFcTbASQnlUNzNWV0NGVjUyUldJSElFSU1BS0lMNkVZTiQlQCN0PWcu"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "how can I get NSHD data",
+        "I want to request access to the data",
+        "how do I start a data request",
+        "what is the application process"
+      ]
+    },
+    {
+      "id": "prerequisites",
+      "group": "apply",
+      "question": "What do I need before I apply?",
+      "keywords": "prerequisite prerequisites before need require requirements eligible eligibility ready criteria ethics ethical approval training agreement agreements governance first",
+      "answer": "<p>Have a defined project, the list of variables you need, and a completed data dictionary. For the full list of conditions that apply before you can be given access, see the Access Prerequisites on the data access pages.</p>",
+      "tbc": "Formal prerequisites (agreements, approvals, training, ethics) are not stated on the pages used. LHA to confirm and replace this answer with the official list.",
+      "links": [
+        {
+          "label": "Access Prerequisites",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "am I eligible to apply",
+        "what are the requirements to get access",
+        "what conditions must I meet",
+        "do I need ethics approval first",
+        "do I need ethical approval or an agreement before applying"
+      ]
+    },
+    {
+      "id": "which-form",
+      "group": "apply",
+      "question": "Which form do I complete?",
+      "keywords": "form forms which complete fill paperwork new project additional users extension output checklist link apply url",
+      "answer": "<ul><li><b>A new project:</b> the Data Access Request Form.</li><li><b>An approved project, to add variables or users:</b> the Additional Users / Data Request form.</li><li><b>Later stages:</b> the DSH Output Request, the Pre-publication Checklist and the Project Extension Request each have their own form.</li></ul>",
+      "links": [
+        {
+          "label": "Data Access Request Form",
+          "url": "https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=_oivH5ipW0yTySEKEdmlwuGYbwfRSjVBmdFcTbASQnlUNzNWV0NGVjUyUldJSElFSU1BS0lMNkVZTiQlQCN0PWcu"
+        },
+        {
+          "label": "Additional Users / Data Request",
+          "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwuGYbwfRSjVBmdFcTbASQnlUN0tLNU42TzJIR0hEUkhIQkFQQk04UzJSMSQlQCN0PWcu&route=shorturl"
+        },
+        {
+          "label": "All forms (Access page)",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "which form do I use",
+        "where is the application form",
+        "what paperwork do I need to fill in",
+        "application form link",
+        "which form do I use to apply",
+        "where do I find the data access request form"
+      ]
+    },
+    {
+      "id": "data-dictionary",
+      "group": "apply",
+      "question": "What is the data dictionary and do I have to complete one?",
+      "keywords": "data dictionary spreadsheet excel mark y request variable column complete fill download template",
+      "answer": "<p>It is an Excel spreadsheet where you mark <b>Y</b> against every variable you want. Only variables marked in the \"Request variable\" column are included in your application.</p><p>You can complete it by hand, or build your basket on OWL and download a copy that is already marked for you.</p>",
+      "links": [
+        {
+          "label": "Apply for data",
+          "url": "{{OWL}}/docs/data_sharing/"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "what is the data dictionary spreadsheet",
+        "how do I mark the variables I want",
+        "do I need to fill in an excel file"
+      ]
+    },
+    {
+      "id": "choose-variables",
+      "group": "apply",
+      "question": "How do I find the variables I need?",
+      "keywords": "find choose select search browse variables variable explore look",
+      "answer": "<p>Search or browse OWL, Condor or the data dictionary. On OWL you can search the data dictionary, browse by category, view popular variables, search by year or longitudinally, use the UK LLC catalogue, and see what other projects asked for.</p>",
+      "links": [
+        {
+          "label": "Discover Projects",
+          "url": "{{OWL}}/docs/search_methods/discover-projects"
+        },
+        {
+          "label": "Apply for data",
+          "url": "{{OWL}}/docs/data_sharing/"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "how do I search for variables",
+        "how do I know which variables to ask for"
+      ]
+    },
+    {
+      "id": "cost",
+      "group": "apply",
+      "question": "What does it cost?",
+      "keywords": "cost price fee fees charge charges pay payment free money how much",
+      "answer": "<p>The data access pages do not state a cost. Please contact the data sharing team to ask.</p>",
+      "tbc": "Costs are not stated on the pages used. LHA to confirm whether there is a charge and replace this answer.",
+      "links": [
+        {
+          "label": "Contact the team",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "how much does it cost",
+        "is there a charge for the data",
+        "is the data free"
+      ]
+    },
+    {
+      "id": "after-submit",
+      "group": "after",
+      "question": "What happens after I submit?",
+      "keywords": "after submit submitted happens next process review committee approved approval stages reviews reviewed reviewer who decides decision assess assessed confidentiality sign agreement stages",
+      "answer": "<ol><li>Your request is logged and the data sharing team is notified.</li><li>The data sharing committee reviews it and either approves it or asks you questions.</li><li>You complete the confidentiality forms, which are emailed to you as each stage finishes.</li><li>Once everything is approved, your basket is built and the data is made available through the UCL Data Safe Haven.</li></ol>",
+      "links": [
+        {
+          "label": "Apply for data",
+          "url": "{{OWL}}/docs/data_sharing/"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "what happens next",
+        "who reviews my application",
+        "who approves requests",
+        "what is the approval process",
+        "what are the confidentiality forms",
+        "what do I have to sign after I apply"
+      ]
+    },
+    {
+      "id": "how-long",
+      "group": "after",
+      "question": "How long does it take?",
+      "keywords": "long time take weeks months days turnaround wait waiting timescale duration soon quickly speed quickly processed processing fast speed",
+      "answer": "<p>Turnaround times since 2021 are reported on the Metrics and Trends page. Requests for a large number of variables take longer, because they go through a more thorough risk assessment.</p>",
+      "tbc": "No official timescale is stated on the pages used. LHA to confirm whether one can be given.",
+      "links": [
+        {
+          "label": "Data sharing pages",
+          "url": "{{OWL}}/docs/data_sharing/"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "how long does approval take",
+        "how many weeks does it take to get data",
+        "when will I get my data",
+        "how quickly are requests processed",
+        "how fast is the process",
+        "how long before I hear back"
+      ]
+    },
+    {
+      "id": "before-approval",
+      "group": "after",
+      "question": "Can I get the data before my request is approved?",
+      "keywords": "before approval early urgent now sooner without approved",
+      "answer": "<p>No. No data can be released until the request has been completed and approved.</p>",
+      "links": [],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "can I have the data now",
+        "can I start using the data before it is approved"
+      ]
+    },
+    {
+      "id": "receive-data",
+      "group": "after",
+      "question": "How will I receive the data?",
+      "keywords": "receive received delivered delivery safe haven dsh where access environment download where get from how do i get the data download access computer laptop",
+      "answer": "<p>Once your request is approved and your basket has been built, the data is made available through the UCL Data Safe Haven.</p>",
+      "links": [],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "where do I get the data from",
+        "how is the data delivered",
+        "what is the data safe haven",
+        "how do I download the data",
+        "can I download the data to my computer"
+      ]
+    },
+    {
+      "id": "basket-id",
+      "group": "baskets",
+      "question": "What is a basket ID?",
+      "keywords": "basket id identifier number condor attach quote reference application form id",
+      "answer": "<p>When you finalise your basket in Condor it is given an ID. Add it to the Data Access Request Form, or send it later with the Additional Users / Data Request form. Quote the application form ID you were given, so the basket is matched to the right project.</p>",
+      "links": [
+        {
+          "label": "Additional Users / Data Request",
+          "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwuGYbwfRSjVBmdFcTbASQnlUN0tLNU42TzJIR0hEUkhIQkFQQk04UzJSMSQlQCN0PWcu&route=shorturl"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "what is a basket id",
+        "where do I find my basket id",
+        "how do I send my basket"
+      ]
+    },
+    {
+      "id": "over-500",
+      "group": "baskets",
+      "question": "My basket has more than 500 variables. Is that a problem?",
+      "keywords": "500 over large limit split too many maximum big basket variables",
+      "answer": "<p>Condor splits a large basket automatically into saved baskets of no more than 500 variables. They are reviewed together as one overall request, so you may be asked to justify it, and it may take longer to process.</p>",
+      "links": [],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "I have over 500 variables",
+        "is there a limit on the number of variables",
+        "what if my basket is too big",
+        "my list has 800 variables",
+        "I want more than 500 variables"
+      ]
+    },
+    {
+      "id": "restricted",
+      "group": "baskets",
+      "question": "A variable I want is restricted. What do I do?",
+      "keywords": "restricted padlock lock locked blocked cannot add access not allowed restriction",
+      "answer": "<p>Restricted variables can be added to your data dictionary on OWL, but they are not imported automatically when you upload it to Condor. Each one has to be requested separately. Hover over the padlock next to a variable on OWL to see who to contact about it.</p>",
+      "links": [],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "a variable has a padlock",
+        "what does the lock icon mean",
+        "how do I get restricted variables",
+        "who do I ask about a restricted variable",
+        "how do I request a restricted variable"
+      ]
+    },
+    {
+      "id": "add-later",
+      "group": "baskets",
+      "question": "Can I add variables or users after I have applied?",
+      "keywords": "add more later after additional extra users variables change update extend project collaborator colleague forgot missed include omitted",
+      "answer": "<p>Yes. Use the Additional Users / Data Request form with your basket ID and the application form ID you were given.</p>",
+      "links": [
+        {
+          "label": "Additional Users / Data Request",
+          "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwuGYbwfRSjVBmdFcTbASQnlUN0tLNU42TzJIR0hEUkhIQkFQQk04UzJSMSQlQCN0PWcu&route=shorturl"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "can I add more variables later",
+        "how do I add another user to my project",
+        "how do I change my request",
+        "what form do I use to add a collaborator",
+        "how do I add a colleague to my project",
+        "I forgot to include a variable",
+        "I need to add another variable"
+      ]
+    },
+    {
+      "id": "owl-condor-skylark",
+      "group": "baskets",
+      "question": "What is the difference between OWL, Condor and Skylark?",
+      "keywords": "difference owl condor skylark what is which platform systems tools",
+      "answer": "<ul><li><b>OWL</b> is where you discover variables. It is public and needs no registration.</li><li><b>Condor</b> holds the full set of variables. It is where you finalise, save and share your basket, and it needs a registered account.</li><li><b>Skylark</b> is the data access information and forms portal.</li></ul>",
+      "links": [
+        {
+          "label": "Access page",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "what is the difference between owl and condor",
+        "what is skylark for",
+        "which system do I use for what"
+      ]
+    },
+    {
+      "id": "condor-account",
+      "group": "baskets",
+      "question": "How do I get a Condor account?",
+      "keywords": "condor account register registration sign up login log in username approve approved access",
+      "answer": "<ol><li>Use <b>Register</b> in the Condor menu and complete every field marked with an asterisk.</li><li>Email your username to MRCLHA.Swiftinfo@ucl.ac.uk so your account can be approved.</li><li>LHA contacts you by email to confirm. Add their address to your safe senders list.</li></ol>",
+      "links": [],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "how do I register for condor",
+        "how do I get a condor login",
+        "my condor account has not been approved"
+      ]
+    },
+    {
+      "id": "other-projects",
+      "group": "more",
+      "question": "What have other researchers asked for?",
+      "keywords": "other researchers projects approved examples similar discover past previous see what",
+      "answer": "<p>Discover Projects lists approved projects, their summaries and the variables each one requested. The Skylark site also lists approved data access requests.</p>",
+      "links": [
+        {
+          "label": "Discover Projects",
+          "url": "{{OWL}}/docs/search_methods/discover-projects"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "what have other researchers asked for",
+        "can I see approved projects",
+        "are there examples of other applications"
+      ]
+    },
+    {
+      "id": "cite",
+      "group": "more",
+      "question": "How do I cite NSHD data?",
+      "keywords": "cite citation citing reference acknowledge acknowledgement publish publication paper",
+      "answer": "<p>The Data Sharing Process section of the data access pages has a page on how to cite NSHD datasets. Before you publish, there is also a Pre-publication Checklist.</p>",
+      "links": [
+        {
+          "label": "Access page",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "how do I cite the data",
+        "how should I acknowledge nshd in my paper",
+        "what do I need before publishing"
+      ]
+    },
+    {
+      "id": "contact",
+      "group": "more",
+      "question": "Who can I ask before I apply?",
+      "keywords": "contact who ask help email phone speak talk question team lha unsure advice",
+      "answer": "<p>Contact the NSHD data sharing team if you are unsure about project fit, the data dictionary or your application.</p>",
+      "tbc": "Contact details are not stated on the pages used. LHA to confirm an email address or form to show here.",
+      "links": [
+        {
+          "label": "Contact details",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
+        }
+      ],
+      "reviewed": "2026-11-04",
+      "examples": [
+        "who do I contact",
+        "who can I ask for help",
+        "how do I speak to someone at lha",
+        "is there an email address for questions"
+      ]
+    }
+  ]
+}
