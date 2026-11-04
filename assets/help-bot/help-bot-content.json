@@ -24,6 +24,10 @@
     {
       "id": "more",
       "label": "More help"
+    },
+    {
+      "id": "vars",
+      "label": "Find variables"
     }
   ],
   "synonyms": {
@@ -574,5 +578,258 @@
         "is there an email address for questions"
       ]
     }
-  ]
+  ],
+  "varExamples": [
+    "Smoking",
+    "Social class",
+    "Blood pressure",
+    "BMI and weight",
+    "Education",
+    "Memory and thinking",
+    "Mental health",
+    "Physical activity"
+  ],
+  "variableFinder": {
+    "enabled": true,
+    "hint": "Type a topic in the box, or try one of these:",
+    "footer": "Check the full details in OWL before you add a variable to a request.",
+    "restrictedFallback": "This variable is restricted. Please contact the NSHD data sharing team to ask how to request it.",
+    "sensitiveNote": "Extra checks may apply. Ask the data sharing team if you are unsure.",
+    "sensitiveTbc": "Confirm exactly how sensitive variables are handled and replace the sensitive note."
+  },
+  "varSynonyms": {
+    "smoking": [
+      "smoke",
+      "smoker",
+      "smokers",
+      "cigarette",
+      "cigarettes",
+      "tobacco",
+      "cigsta"
+    ],
+    "social class": [
+      "socioeconomic",
+      "socio-economic",
+      "ses",
+      "occupation",
+      "occupational class",
+      "sc"
+    ],
+    "blood pressure": [
+      "bp",
+      "sbp",
+      "dbp",
+      "systolic",
+      "diastolic",
+      "hypertension"
+    ],
+    "bmi": [
+      "body mass index",
+      "weight",
+      "obesity",
+      "obese",
+      "overweight",
+      "height"
+    ],
+    "education": [
+      "qualification",
+      "qualifications",
+      "school",
+      "schooling",
+      "degree",
+      "educational attainment"
+    ],
+    "memory": [
+      "cognition",
+      "cognitive",
+      "thinking",
+      "dementia",
+      "verbal memory",
+      "word learning"
+    ],
+    "mental health": [
+      "depression",
+      "anxiety",
+      "ghq",
+      "wellbeing",
+      "well-being",
+      "psychiatric",
+      "mood",
+      "mental"
+    ],
+    "physical activity": [
+      "exercise",
+      "sport",
+      "sports",
+      "leisure activity",
+      "active",
+      "activity",
+      "sedentary"
+    ],
+    "alcohol": [
+      "drinking",
+      "drink",
+      "drinks",
+      "units"
+    ],
+    "diet": [
+      "food",
+      "nutrition",
+      "eating",
+      "intake",
+      "nutrient"
+    ],
+    "cholesterol": [
+      "lipid",
+      "lipids",
+      "hdl",
+      "ldl",
+      "triglyceride",
+      "triglycerides"
+    ],
+    "diabetes": [
+      "glucose",
+      "insulin",
+      "hba1c",
+      "diabetic",
+      "blood sugar"
+    ],
+    "cardiovascular": [
+      "heart",
+      "cardiac",
+      "cvd",
+      "coronary",
+      "angina",
+      "stroke",
+      "heart disease"
+    ],
+    "lung": [
+      "respiratory",
+      "fev",
+      "fev1",
+      "spirometry",
+      "asthma",
+      "wheeze",
+      "breathing",
+      "lung function"
+    ],
+    "grip strength": [
+      "handgrip",
+      "chair rise",
+      "walking speed",
+      "physical capability",
+      "balance"
+    ],
+    "sleep": [
+      "insomnia",
+      "sleeping",
+      "bedtime"
+    ],
+    "income": [
+      "wealth",
+      "financial",
+      "earnings",
+      "money",
+      "benefits"
+    ],
+    "employment": [
+      "job",
+      "work",
+      "working",
+      "retired",
+      "retirement",
+      "unemployed"
+    ],
+    "marital status": [
+      "married",
+      "marriage",
+      "partner",
+      "divorce",
+      "divorced",
+      "cohabiting"
+    ],
+    "father": [
+      "fathers",
+      "paternal",
+      "dad"
+    ],
+    "mother": [
+      "mothers",
+      "maternal",
+      "mum"
+    ],
+    "childhood": [
+      "early life",
+      "child",
+      "children",
+      "infant",
+      "birth"
+    ],
+    "cancer": [
+      "tumour",
+      "tumor",
+      "malignant",
+      "neoplasm"
+    ],
+    "bone": [
+      "osteoporosis",
+      "dxa",
+      "dexa",
+      "fracture",
+      "bone density"
+    ],
+    "menopause": [
+      "hrt",
+      "hormone replacement",
+      "menstrual",
+      "periods",
+      "menarche",
+      "puberty"
+    ],
+    "pregnancy": [
+      "birth weight",
+      "birthweight",
+      "gestation",
+      "antenatal",
+      "parity",
+      "births"
+    ],
+    "genetic": [
+      "dna",
+      "genotype",
+      "apoe",
+      "snp",
+      "genomic",
+      "polygenic"
+    ],
+    "hearing": [
+      "hearing loss",
+      "deaf",
+      "vision",
+      "eyesight",
+      "eye"
+    ],
+    "housing": [
+      "home",
+      "tenure",
+      "overcrowding",
+      "household",
+      "accommodation"
+    ],
+    "death": [
+      "mortality",
+      "died",
+      "dies",
+      "deceased"
+    ],
+    "lung function": [
+      "spirometry",
+      "fev1",
+      "fev",
+      "fvc",
+      "peak flow",
+      "lung capacity",
+      "lung"
+    ]
+  }
 }

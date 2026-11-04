@@ -12,6 +12,7 @@
  * Optional attributes on the script tag:
  *   data-content="URL"   use a different content file
  *   data-owl="URL"       use a different owl picture
+ *   data-variables="URL" use a different variable search file (default: help-bot-variables.json next to this script)
  *   data-analytics="off" turn off the optional Google Analytics events (see track() below)
  *   data-bottom="PX"    lift the button and panel this far from the bottom (e.g. 70 to clear a cookie button)
  *   data-site="URL"      the OWL site address that {{OWL}} in the content stands for
@@ -42,6 +43,7 @@
     if (!ANALYTICS) return;
     try { if (typeof window.gtag === 'function') window.gtag('event', name, params || {}); } catch (e) { }
   }
+  var varsUrl = (script && script.getAttribute('data-variables')) || baseDir + 'help-bot-variables.json';
   var owlUrl = (script && script.getAttribute('data-owl')) || OWL_BUILTIN;
   var DRAFT = /[?&]helpbot=draft\b/.test(location.search);
 
@@ -50,7 +52,8 @@
     open: function () { if (ui) setOpen(true); },
     close: function () { if (ui) setOpen(false); },
     ask: function (text) { if (ui) { setOpen(true); ask(text); } },
-    match: function (text) { return content ? findAnswers(text) : null; }
+    match: function (text) { return content ? findAnswers(text) : null; },
+    findVariables: function (text) { return loadVars().then(function () { return searchVars(text).map(function (i) { var r = VARS.v[i]; return { name: r[0], label: r[1], projects: r[8] }; }); }); }
   };
   window.owlHelpBot = api;
 
@@ -203,7 +206,8 @@
     '.links a,.alt{font:inherit;font-size:12.5px;padding:4px 10px;border-radius:999px;border:1px solid var(--plum);background:transparent;color:#5b0b95;text-decoration:none;cursor:pointer}',
     '.links a:hover,.alt:hover{background:var(--plum);color:#fff}',
     '.meta{margin-top:8px;font-size:11.5px;color:var(--muted)}',
-    '.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:12px 14px 10px;background:#fff7e6;border-top:3px solid #f5a623}.tabs::before{content:"Quick questions";flex:0 0 100%;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:#8a5a00;margin-bottom:2px}',
+    '.th{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 6px;background:#fff7e6;border-top:3px solid #f5a623;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:#8a5a00}.tg{font:inherit;font-size:11.5px;text-transform:none;letter-spacing:0;font-weight:600;background:transparent;border:0;color:#8a5a00;text-decoration:underline;cursor:pointer;padding:2px 4px}',
+    '.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 10px;background:#fff7e6}.chat.min .tabs,.chat.min .chips{display:none}.chat.min .log{max-height:min(560px,calc(100vh - 300px))}',
     '.tabs button{font:inherit;font-size:12.5px;padding:4px 10px;border-radius:999px;border:0;background:#fbe9c4;color:#6b4a00;cursor:pointer}',
     '.tabs button[aria-pressed="true"]{background:#8a5a00;color:#fff}',
     '.chips{display:flex;flex-wrap:wrap;gap:7px;padding:0 14px 12px;background:#fff7e6}',
@@ -212,6 +216,9 @@
     'form{display:flex;gap:8px;padding:10px 14px 8px;background:#fff7e6}',
     'input{flex:1;min-width:0;font:inherit;font-size:14px;padding:9px 11px;border-radius:999px;border:2px solid #f5a623;background:#fff;color:var(--ink)}',
     'form button{font:inherit;font-weight:700;padding:9px 18px;border-radius:999px;border:0;background:#241338;color:#fff;cursor:pointer}',
+    '.vcard{padding:8px 0;border-top:1px solid #eee3f3}.vcard:first-of-type{border-top:0;padding-top:2px}.vtop{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.vn{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace;font-weight:700;font-size:13px;color:#4b0a7d}.vl{font-size:13.5px;margin-top:2px}.vm{font-size:11.5px;color:var(--muted);margin-top:2px}',
+    '.vsec{font-weight:700;font-size:13px;margin:10px 0 2px;color:#4b0a7d}.vsec:first-of-type{margin-top:4px}',
+    '.badge{font-size:11px;font-weight:700;border-radius:999px;padding:1px 8px}.b-r{background:#ffe3e3;color:#8a1c1c}.b-s{background:#fff1d6;color:#7a4f00}.vwarn{margin-top:5px;font-size:12px;padding:5px 8px;border-radius:8px;background:#ffe9e9;color:#6e1414;border:1px solid #f1b7b7}.vwarn.s{background:#fff5df;color:#6b4a00;border-color:#efd08a}.vtog{display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin-top:6px}.vhint{flex:0 0 100%;margin:0 0 2px;font-size:12.5px;color:#6b4a00}.vload{color:var(--muted)}',
     '.foot{font-size:11.5px;color:#6b5a3a;padding:0 14px 12px;background:#fff7e6}',
     '.foot a{color:#5b0b95}',
     'button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #241338;outline-offset:2px}',
@@ -268,6 +275,9 @@
     head.appendChild(who); head.appendChild(hr);
 
     var log = el('div', 'log'); log.setAttribute('aria-live', 'polite'); log.setAttribute('role', 'log');
+    var th = el('div', 'th'); th.appendChild(el('span', null, 'Quick questions'));
+    var tg = el('button', 'tg', 'Hide'); tg.type = 'button'; tg.setAttribute('aria-expanded', 'true'); tg.setAttribute('aria-label', 'Hide or show the quick questions');
+    th.appendChild(tg);
     var tabs = el('div', 'tabs'); tabs.setAttribute('role', 'group'); tabs.setAttribute('aria-label', 'Topics');
     var chips = el('div', 'chips');
     var form = el('form'); form.setAttribute('autocomplete', 'off');
@@ -284,11 +294,11 @@
       foot.appendChild(fa);
     }
 
-    [head, log, tabs, chips, form, foot].forEach(function (n) { chat.appendChild(n); });
+    [head, log, th, tabs, chips, form, foot].forEach(function (n) { chat.appendChild(n); });
     root.appendChild(launch); root.appendChild(hint); root.appendChild(chat);
     document.body.appendChild(host);
 
-    ui = { reset: reset, host: host, root: root, launch: launch, hint: hint, chat: chat, log: log, tabs: tabs, chips: chips, form: form, input: input, x: x, cur: content.groups[0].id };
+    ui = { tg: tg, reset: reset, host: host, root: root, launch: launch, hint: hint, chat: chat, log: log, tabs: tabs, chips: chips, form: form, input: input, x: x, cur: content.groups[0].id };
 
     launch.addEventListener('click', function () { setOpen(chat.hidden); });
     x.addEventListener('click', function () { setOpen(false); launch.focus(); });
@@ -310,6 +320,7 @@
     state = loadState();
     if (state.msgs.length) redraw(); else push({ k: 'greet' });
     reset.addEventListener('click', startOver);
+    tg.addEventListener('click', function () { setTray(ui.chat.classList.contains('min')); });
     window.addEventListener('storage', function (ev) {
       if (ev.key !== KEY) return;
       var st = loadState(); state.msgs = st.msgs; redraw();
@@ -333,6 +344,18 @@
 
   function drawChips() {
     ui.chips.textContent = '';
+    ui.input.placeholder = ui.cur === 'vars' ? 'Type a topic, e.g. smoking…' : 'Ask about applying for data…';
+    if (ui.cur === 'vars') {
+      var vf = content.variableFinder || {};
+      ui.chips.appendChild(el('p', 'vhint', vf.hint || 'Type a topic in the box, or try one of these:'));
+      (content.varExamples || []).forEach(function (t) {
+        var b = el('button', null, t); b.type = 'button';
+        b.addEventListener('click', function () { addMe(t); push({ k: 'vars', q: t, via: 'example' }); });
+        ui.chips.appendChild(b);
+      });
+      Array.prototype.forEach.call(ui.tabs.children, function (b) { b.setAttribute('aria-pressed', String(b.dataset.g === ui.cur)); });
+      return;
+    }
     content.entries.filter(function (e) { return e.group === ui.cur; }).forEach(function (e) {
       var b = el('button', null, e.question); b.type = 'button';
       b.addEventListener('click', function () { track('help_bot_answer', { answer_id: e.id, via: 'topic_button' }); addMe(e.question); addAns(e, []); });
@@ -400,7 +423,7 @@
       if (raw && raw.ts && Date.now() - raw.ts < TTL && Array.isArray(raw.msgs)) {
         st.open = raw.open === true; st.ts = raw.ts;
         st.msgs = raw.msgs.filter(function (m) {
-          return m && ((m.k === 'me' && typeof m.text === 'string') || (m.k === 'ans' && byId[m.id]) || /^(greet|hello|thanks|none)$/.test(m.k));
+          return m && ((m.k === 'me' && typeof m.text === 'string') || (m.k === 'ans' && byId[m.id]) || (m.k === 'vars' && typeof m.q === 'string') || (m.k === 'var' && typeof m.name === 'string') || /^(greet|hello|thanks|none)$/.test(m.k));
         }).slice(-MAXMSG);
       }
     } catch (e) { }
@@ -424,6 +447,7 @@
       if (lr) f.appendChild(lr);
       return;
     }
+    if (it.k === 'vars' || it.k === 'var') { renderVars(it, true); return; }
     if (it.k === 'ans') {
       var rel = (it.rel || []).map(function (id) { return byId[id]; }).filter(Boolean);
       answer(byId[it.id], rel);
@@ -432,7 +456,7 @@
   function push(it) {
     state.msgs.push(it);
     if (state.msgs.length > MAXMSG) state.msgs = state.msgs.slice(-MAXMSG);
-    renderItem(it);
+    if (it.k === 'vars' || it.k === 'var') renderVars(it, false); else renderItem(it);
     while (ui.log.children.length > MAXMSG) ui.log.removeChild(ui.log.firstChild);
     saveState();
   }
@@ -445,7 +469,7 @@
   function addAns(e, rel) { push({ k: 'ans', id: e.id, rel: (rel || []).map(function (r) { return r.id; }) }); }
   function startOver() {
     track('help_bot_start_over');
-    state.msgs = []; ui.log.textContent = '';
+    state.msgs = []; ui.log.textContent = ''; setTray(true);
     push({ k: 'greet' });
     ui.input.focus();
   }
@@ -456,8 +480,238 @@
     if (/^(hi|hello|hey|good (morning|afternoon|evening))\b/.test(t) && t.split(' ').length <= 3) { push({ k: 'hello' }); return; }
     if (/^(thanks|thank you|cheers)\b/.test(t)) { push({ k: 'thanks' }); return; }
     var r = findAnswers(text);
+    var finder = (content.variableFinder || {}).enabled !== false;
+    if (finder && ui.cur === 'vars') { push({ k: 'vars', q: text, via: 'finder_tab' }); return; }
+    if (finder && looksLikeVarQuery(text)) { push({ k: 'vars', q: text, topic: varTopic(text), via: 'typed' }); return; }
     if (r.best) { track('help_bot_answer', { answer_id: r.best.id, via: 'typed' }); addAns(r.best, r.related || []); }
+    else if (finder) { push({ k: 'vars', q: text, fallback: true, via: 'typed_fallback' }); }
     else { track('help_bot_no_match'); push({ k: 'none' }); }
+  }
+
+
+  /* ---------- variable finder ----------
+     Searches help-bot-variables.json (built from the public data dictionary and the approved-project lists by
+     build_variable_index.py). It is loaded the first time someone looks for variables. Results are ranked by how
+     well the words match, then nudged up by how many approved projects requested the variable. */
+  var VARS = null, VARS_PROMISE = null;
+  var PAGE = 8;
+
+  function loadVars() {
+    if (VARS_PROMISE) return VARS_PROMISE;
+    VARS_PROMISE = fetch(varsUrl, { credentials: 'omit' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (j) {
+      if (!j || !j.v || !j.v.length || !j.ctx) throw new Error('empty variable file');
+      prepVars(j); VARS = j; return j;
+    }).catch(function (e) { VARS_PROMISE = null; throw e; });
+    return VARS_PROMISE;
+  }
+
+  function prepVars(j) {
+    var stop = tokensIndex.stop, df = {}, nameAt = {};
+    var ctxTok = j.ctx.map(function (c) { var o = {}; tokens(c, stop).forEach(function (t) { o[t] = 1; }); return o; });
+    j.docs = j.v.map(function (r, i) {
+      var lab = {}; tokens(r[1], stop).forEach(function (t) { lab[t] = 1; });
+      nameAt[String(r[0]).toLowerCase()] = i;
+      Object.keys(lab).forEach(function (t) { df[t] = (df[t] || 0) + 1; });
+      return { lab: lab, ctx: ctxTok[r[2]] || {}, name: String(r[0]).toLowerCase() };
+    });
+    Object.keys(ctxTok).forEach(function () { });
+    j.df = df; j.nameAt = nameAt; j.N = j.v.length;
+    var syn = [], s = content.varSynonyms || {};
+    Object.keys(s).forEach(function (k) {
+      var phrases = [k].concat(s[k]).map(function (p) { return norm(p); });
+      var add = []; [k].concat(s[k]).forEach(function (p) { tokens(p, stop).forEach(function (t) { if (add.indexOf(t) < 0) add.push(t); }); });
+      syn.push({ phrases: phrases, add: add });
+    });
+    j.syn = syn;
+  }
+
+  /* drop the "help me find variables for ..." wrapper so only the topic is searched */
+  var VAR_FILLER = /^(variable|variables|find|search|searching|need|want|looking|look|for|data|about|related|relating|relate|on|measure|measures|measured|any|show|me|do|you|have|is|there|are|what|which|the|a|an|of|to|my|i|please|list|get|can|how|where|in|nshd|owl|that|with|and|some|available|include|including|collected|information|info|ask|asked|question|questions|study|my)$/;
+  function varTopic(text) {
+    return norm(text).trim().split(' ').filter(function (w) { return w && !VAR_FILLER.test(w); }).join(' ');
+  }
+  function looksLikeVarQuery(text) {
+    var t = norm(text);
+    return /\b(variables?|measures?|measured|data on|data about|questions? about|information on|info on)\b/.test(t) && varTopic(text).length > 0;
+  }
+
+  /* Words that mean the same thing (varSynonyms in the content file) are alternatives, not extra points:
+     a variable gets credit for the best matching alternative, so it cannot win just by containing many of them. */
+  function searchVars(text) {
+    var j = VARS, ix = tokensIndex, hay = norm(text);
+    var base = {}, baseKeys = [];
+    tokens(text, ix.stop).forEach(function (t) { if (!base[t]) { base[t] = 1; baseKeys.push(t); } });
+    var groups = [];
+    j.syn.forEach(function (g) {
+      for (var i = 0; i < g.phrases.length; i++) {
+        if (hay.indexOf(g.phrases[i]) !== -1) { groups.push(g.add.filter(function (t) { return !base[t]; })); break; }
+      }
+    });
+    var all = baseKeys.slice(); groups.forEach(function (g) { g.forEach(function (t) { if (all.indexOf(t) < 0) all.push(t); }); });
+    var idf = {}; all.forEach(function (t) { idf[t] = Math.log(1 + j.N / ((j.df[t] || 0) + 1)); });
+    var nb = baseKeys.length, out = [], best = 0;
+    for (var i = 0; i < j.N; i++) {
+      var d = j.docs[i], sc = 0, hit = 0, k, t;
+      for (k = 0; k < nb; k++) {
+        t = baseKeys[k];
+        if (d.lab[t]) { sc += idf[t]; hit++; } else if (d.ctx[t]) { sc += idf[t] * 0.5; hit += 0.5; }
+      }
+      for (k = 0; k < groups.length; k++) {
+        var gb = 0, g = groups[k];
+        for (var m = 0; m < g.length; m++) {
+          t = g[m]; var v = d.lab[t] ? idf[t] : d.ctx[t] ? idf[t] * 0.5 : 0;
+          if (v > gb) gb = v;
+        }
+        sc += 0.6 * gb;
+      }
+      if (!sc) continue;
+      var cover = nb ? hit / nb : 1;
+      if (nb >= 2 && cover < 0.5) continue;
+      sc = sc * (0.5 + 0.5 * cover);
+      if (sc > best) best = sc;
+      out.push([sc, i]);
+    }
+    /* drop weak matches, then rank: relevance first, nudged up by how many projects requested the variable */
+    var floor = best * 0.3, ranked = [];
+    /* anything at least 60% as relevant as the best match counts as equally relevant, so popularity decides the order among them */
+    out.forEach(function (x) { if (x[0] >= floor) ranked.push([Math.min(1, x[0] / (0.6 * best)) * (1 + Math.log(1 + (j.v[x[1]][8] || 0))), x[1]]); });
+    ranked.sort(function (a, b) { return b[0] - a[0] || a[1] - b[1]; });
+    return ranked.map(function (x) { return x[1]; });
+  }
+
+  /* "childhood social class and heart attack, adjusting for smoking" -> separate topics */
+  function splitTopics(text) {
+    var parts = String(text).split(/\s+(?:and|vs\.?|versus|with|adjusting for|adjust for|adjusted for|controlling for|plus)\s+|[,;+]/i)
+      .map(function (p) { return varTopic(p); }).filter(function (p) { return p; });
+    var seen = {}; return parts.filter(function (p) { if (seen[p]) return false; seen[p] = 1; return true; }).slice(0, 4);
+  }
+
+  /* scroll so the start of a long answer is in view, not its end */
+  function showTop(m) {
+    var top = m.getBoundingClientRect().top - ui.log.getBoundingClientRect().top + ui.log.scrollTop - 8;
+    ui.log.scrollTop = Math.max(0, top);
+  }
+  /* give long results room by folding the question tray; the visitor can open it again */
+  function setTray(open) {
+    ui.chat.classList.toggle('min', !open);
+    ui.tg.textContent = open ? 'Hide' : 'Show questions';
+    ui.tg.setAttribute('aria-expanded', String(open));
+  }
+
+  function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
+
+  function varCard(i, withPartners) {
+    var j = VARS, r = j.v[i], flags = r[5], card = el('div', 'vcard');
+    var top = el('div', 'vtop');
+    top.appendChild(el('span', 'vn', r[0]));
+    if (flags & 1) top.appendChild(el('span', 'badge b-r', 'Restricted'));
+    if (flags & 2) top.appendChild(el('span', 'badge b-s', 'Sensitive'));
+    card.appendChild(top);
+    card.appendChild(el('div', 'vl', r[1]));
+    var bits = [];
+    if (r[3] >= 0 && j.files[r[3]]) bits.push('File: ' + j.files[r[3]]);
+    if (r[4]) bits.push('Collected: ' + r[4]);
+    var years = j.meta && j.meta.popularity_years;
+    bits.push(r[8] ? 'Requested in ' + plural(r[8], 'project') + (years ? ' since ' + years[0] : '') : 'No requests recorded' + (years ? ' since ' + years[0] : ''));
+    card.appendChild(el('div', 'vm', bits.join(' · ')));
+    var vf = content.variableFinder || {};
+    if (flags & 1) {
+      var msg = r[6] >= 0 ? j.msgs[r[6]] : (vf.restrictedFallback || 'This variable is restricted. Please contact the NSHD data sharing team to ask how to request it.');
+      card.appendChild(el('div', 'vwarn', msg));
+    }
+    if (flags & 2) {
+      var why = r[7] >= 0 ? j.reasons[r[7]] : '';
+      var note = el('div', 'vwarn s', (why ? 'Marked sensitive: ' + why.replace(/\.$/, '') + '. ' : 'Marked sensitive. ') + (vf.sensitiveNote || 'Extra checks may apply. Ask the data sharing team if you are unsure.'));
+      card.appendChild(note);
+      if (DRAFT && vf.sensitiveTbc) card.appendChild(el('div', 'tbc', 'To confirm with LHA: ' + vf.sensitiveTbc));
+    }
+    if (withPartners) {
+      var pl = j.together[String(i)];
+      if (pl && pl.length) {
+        var row = el('div', 'vtog'); row.appendChild(el('span', 'meta', 'Often requested with: '));
+        pl.slice(0, 5).forEach(function (pi) {
+          var b = el('button', 'alt', j.v[pi][0]); b.type = 'button'; b.title = j.v[pi][1];
+          b.addEventListener('click', function () { track('help_bot_variable_click', { via: 'requested_together' }); addMe(j.v[pi][0]); push({ k: 'var', name: j.v[pi][0] }); });
+          row.appendChild(b);
+        });
+        card.appendChild(row);
+      }
+    }
+    return card;
+  }
+
+  function renderVars(it, quiet) {
+    var m = say(null, 'bot');
+    m.appendChild(el('p', 'vload', 'Searching the variables…'));
+    loadVars().then(function () {
+      m.textContent = '';
+      var vf = content.variableFinder || {};
+      if (it.k === 'var') {
+        var idx = VARS.nameAt[String(it.name).toLowerCase()];
+        if (idx === undefined) { m.appendChild(el('p', null, 'I can’t find that variable.')); return; }
+        m.appendChild(varCard(idx, true));
+        m.appendChild(el('div', 'meta', 'Check the full details in OWL before you add it to a request.'));
+        showTop(m); if (!quiet) setTray(false);
+        return;
+      }
+      var topic = it.topic || it.q;
+      var exact = VARS.nameAt[String(it.q).trim().toLowerCase()];
+      if (exact !== undefined && !it.off) {
+        m.appendChild(el('p', null, 'That is a variable name:'));
+        m.appendChild(varCard(exact, true));
+        m.appendChild(el('div', 'meta', vf.footer || 'Check the full details in OWL before you add a variable to a request.'));
+        showTop(m); if (!quiet) setTray(false);
+        return;
+      }
+      var parts = it.off ? [topic] : splitTopics(topic);
+      if (parts.length > 1) {
+        m.appendChild(el('p', null, 'I split that into ' + parts.length + ' topics. Here are the most requested variables for each:'));
+        var any = false;
+        parts.forEach(function (pt) {
+          var r = searchVars(pt);
+          m.appendChild(el('div', 'vsec', '“' + pt + '” · ' + (r.length > 200 ? 'over 200 match' : plural(r.length, 'variable'))));
+          if (!r.length) { m.appendChild(el('div', 'vm', 'No variables found. Try another word.')); return; }
+          any = true;
+          r.slice(0, 4).forEach(function (i) { m.appendChild(varCard(i, false)); });
+          var one = el('button', 'alt', 'More for “' + pt + '”'); one.type = 'button';
+          one.addEventListener('click', function () { addMe(pt); push({ k: 'vars', q: pt, via: 'split_more' }); });
+          var row = el('div', 'links'); row.appendChild(one); m.appendChild(row);
+        });
+        m.appendChild(el('div', 'meta', 'These are suggestions to start from. Check each variable in OWL, and ask the data sharing team if you are unsure.'));
+        showTop(m);
+        if (!quiet) { setTray(false); track('help_bot_variable_search', { results: any ? 'multi' : '0', via: it.via || 'typed' }); }
+        return;
+      }
+      var ids = searchVars(topic), off = it.off || 0, page = ids.slice(off, off + PAGE);
+      if (!ids.length) {
+        m.appendChild(el('p', null, it.fallback ? 'I couldn’t find an answer or a matching variable. Try a different word, one of the topics below, or contact the NSHD data sharing team.' : 'I couldn’t find a variable for that. Try a different word, for example “smoking”, “blood pressure” or “social class”.'));
+        var cu = fixUrl(content.meta && content.meta.contactUrl);
+        var lr = linkRow(cu ? [{ label: 'Contact the team', url: cu }] : []); if (lr) m.appendChild(lr);
+        if (!quiet) track('help_bot_variable_search', { results: '0', via: it.via || 'typed' });
+        return;
+      }
+      m.appendChild(el('p', null, (off ? 'More variables' : (ids.length > 200 ? 'Over 200 variables match' : plural(ids.length, 'variable') + ' found')) + ' for “' + topic + '”. ' + (off ? '' : 'The most requested come first.')));
+      page.forEach(function (i, n) { m.appendChild(varCard(i, !off && n < 3)); });
+      var left = ids.length - off - page.length;
+      var foot = el('div', 'links');
+      if (left > 0 && off + PAGE < 40) {
+        var more = el('button', 'alt', 'Show ' + Math.min(PAGE, left) + ' more'); more.type = 'button';
+        more.addEventListener('click', function () { more.disabled = true; push({ k: 'vars', q: it.q, topic: it.topic, off: off + PAGE }); });
+        foot.appendChild(more);
+      } else if (left > 0) {
+        m.appendChild(el('p', 'meta', 'There are more. Try a more specific word to narrow it down.'));
+      }
+      if (foot.childNodes.length) m.appendChild(foot);
+      m.appendChild(el('div', 'meta', vf.footer || 'Check the full details in OWL before you add a variable to a request.'));
+      showTop(m);
+      if (!quiet) { setTray(false); var n2 = ids.length; track('help_bot_variable_search', { results: n2 <= 5 ? '1-5' : n2 <= 20 ? '6-20' : '21+', via: it.via || 'typed' }); }
+    }).catch(function () {
+      m.textContent = '';
+      m.appendChild(el('p', null, 'The variable search isn’t available right now. You can still search for variables in OWL.'));
+    });
   }
 
   /* ---------- start ---------- */
