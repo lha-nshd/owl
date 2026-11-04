@@ -179,6 +179,7 @@
     '.who{display:flex;align-items:center;gap:10px;min-width:0}',
     '.who img{height:38px;width:38px;display:block;flex:none}',
     '.who strong{font-size:16px}.who span{font-size:12px;opacity:.9}',
+    '.hr{display:flex;align-items:center;gap:4px;flex:none}.reset{font:inherit;font-size:12px;background:transparent;border:1px solid rgba(255,255,255,.55);color:#fff;border-radius:999px;padding:3px 10px;cursor:pointer}.reset:hover{background:rgba(255,255,255,.2)}',
     '.x{font:inherit;font-size:24px;line-height:1;background:transparent;border:0;color:#fff;cursor:pointer;padding:2px 9px;border-radius:6px}',
     '.x:hover{background:rgba(255,255,255,.2)}',
     '.log{background:#241338;padding:14px;display:flex;flex-direction:column;gap:12px;overflow-y:auto;min-height:150px;flex:1 1 auto;max-height:340px}',
@@ -247,8 +248,10 @@
     var wt = el('div'); var wn = el('strong', null, 'Tawny'); var ws = el('span', null, 'OWL’s help assistant · automated');
     wt.appendChild(wn); wt.appendChild(document.createElement('br')); wt.appendChild(ws);
     who.appendChild(himg); who.appendChild(wt);
+    var reset = el('button', 'reset', 'Start over'); reset.type = 'button'; reset.setAttribute('aria-label', 'Start over and clear this conversation');
     var x = el('button', 'x', '×'); x.type = 'button'; x.setAttribute('aria-label', 'Close help');
-    head.appendChild(who); head.appendChild(x);
+    var hr = el('div', 'hr'); hr.appendChild(reset); hr.appendChild(x);
+    head.appendChild(who); head.appendChild(hr);
 
     var log = el('div', 'log'); log.setAttribute('aria-live', 'polite'); log.setAttribute('role', 'log');
     var tabs = el('div', 'tabs'); tabs.setAttribute('role', 'group'); tabs.setAttribute('aria-label', 'Topics');
@@ -271,7 +274,7 @@
     root.appendChild(launch); root.appendChild(hint); root.appendChild(chat);
     document.body.appendChild(host);
 
-    ui = { host: host, root: root, launch: launch, hint: hint, chat: chat, log: log, tabs: tabs, chips: chips, form: form, input: input, x: x, cur: content.groups[0].id };
+    ui = { reset: reset, host: host, root: root, launch: launch, hint: hint, chat: chat, log: log, tabs: tabs, chips: chips, form: form, input: input, x: x, cur: content.groups[0].id };
 
     launch.addEventListener('click', function () { setOpen(chat.hidden); });
     x.addEventListener('click', function () { setOpen(false); launch.focus(); });
@@ -289,10 +292,19 @@
       tabs.appendChild(b);
     });
     drawChips();
-    greet();
+    content.entries.forEach(function (e) { byId[e.id] = e; });
+    state = loadState();
+    if (state.msgs.length) redraw(); else push({ k: 'greet' });
+    reset.addEventListener('click', startOver);
+    window.addEventListener('storage', function (ev) {
+      if (ev.key !== KEY) return;
+      var st = loadState(); state.msgs = st.msgs; redraw();
+      if (!st.msgs.length) greet(); /* shown only; nothing written, so tabs never overwrite each other */
+    });
 
     var seen = false;
     try { seen = sessionStorage.getItem('owlHelpBotHint') === '1'; } catch (e) { }
+    if (state.open) setOpen(true, true);
     /* first visit in a session: the full "Ask Tawny" pill for 6 seconds, then it shrinks to the owl with a ? badge */
     if (seen) { launch.classList.add('compact'); }
     else {
@@ -301,19 +313,20 @@
     }
   }
 
-  function setOpen(open) {
+  function setOpen(open, quiet) {
     ui.chat.hidden = !open;
+    state.open = open; saveState();
     ui.launch.setAttribute('aria-expanded', String(open));
     ui.hint.classList.add('gone');
     if (open) ui.launch.classList.add('compact');
-    if (open) { ui.input.focus(); ui.log.scrollTop = ui.log.scrollHeight; }
+    if (open) { if (!quiet) ui.input.focus(); ui.log.scrollTop = ui.log.scrollHeight; }
   }
 
   function drawChips() {
     ui.chips.textContent = '';
     content.entries.filter(function (e) { return e.group === ui.cur; }).forEach(function (e) {
       var b = el('button', null, e.question); b.type = 'button';
-      b.addEventListener('click', function () { say(e.question, 'me'); answer(e); });
+      b.addEventListener('click', function () { addMe(e.question); addAns(e, []); });
       ui.chips.appendChild(b);
     });
     Array.prototype.forEach.call(ui.tabs.children, function (b) { b.setAttribute('aria-pressed', String(b.dataset.g === ui.cur)); });
@@ -336,13 +349,23 @@
     return row.childNodes.length ? row : null;
   }
 
-  function answer(e) {
+  function answer(e, related) {
     var m = say(null, 'bot');
     safeHtml(e.answer, m);
     if (DRAFT && e.tbc) { m.appendChild(el('div', 'tbc', 'To confirm with LHA: ' + e.tbc)); }
     var lr = linkRow(e.links); if (lr) m.appendChild(lr);
     var d = fmtDate(e.reviewed);
     if (d) m.appendChild(el('div', 'meta', 'Last reviewed ' + d));
+    if (related && related.length) {
+      var row = el('div', 'links');
+      row.appendChild(el('span', 'meta', 'Related: '));
+      related.forEach(function (r) {
+        var b = el('button', 'alt', r.question); b.type = 'button';
+        b.addEventListener('click', function () { addMe(r.question); addAns(r, []); });
+        row.appendChild(b);
+      });
+      m.appendChild(row);
+    }
     ui.log.scrollTop = ui.log.scrollHeight;
   }
 
@@ -352,36 +375,77 @@
     m.appendChild(el('p', null, 'Pick a question below, or type your own.'));
   }
 
-  function ask(text) {
-    say(text, 'me');
-    var t = norm(text).trim();
-    if (/^(hi|hello|hey|good (morning|afternoon|evening))\b/.test(t) && t.split(' ').length <= 3) {
-      var g = say(null, 'bot'); g.appendChild(el('p', null, 'Hello. What would you like to know about applying for data?')); return;
-    }
-    if (/^(thanks|thank you|cheers)\b/.test(t)) {
-      var th = say(null, 'bot'); th.appendChild(el('p', null, 'You’re welcome.')); return;
-    }
-    var r = findAnswers(text);
-    if (r.best) {
-      answer(r.best);
-      if (r.related.length) {
-        var m = ui.log.lastChild;
-        var row = el('div', 'links');
-        row.appendChild(el('span', 'meta', 'Related: '));
-        r.related.forEach(function (e) {
-          var b = el('button', 'alt', e.question); b.type = 'button';
-          b.addEventListener('click', function () { say(e.question, 'me'); answer(e); });
-          row.appendChild(b);
-        });
-        m.appendChild(row);
+  /* ---------- conversation memory ----------
+     The last 20 messages are kept in this browser (localStorage), like the basket, so the chat survives page
+     changes and new tabs. Nothing is sent anywhere. Only the typed words and the ids of the answers shown are
+     stored, never page content. It is cleared by "Start over" and expires after 24 hours of inactivity. */
+  var KEY = 'owlHelpBot.v1', MAXMSG = 20, TTL = 24 * 3600 * 1000;
+  var state = { msgs: [], open: false, ts: 0 };
+  var byId = {};
+
+  function loadState() {
+    var st = { msgs: [], open: false, ts: 0 };
+    try {
+      var raw = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (raw && raw.ts && Date.now() - raw.ts < TTL && Array.isArray(raw.msgs)) {
+        st.open = raw.open === true; st.ts = raw.ts;
+        st.msgs = raw.msgs.filter(function (m) {
+          return m && ((m.k === 'me' && typeof m.text === 'string') || (m.k === 'ans' && byId[m.id]) || /^(greet|hello|thanks|none)$/.test(m.k));
+        }).slice(-MAXMSG);
       }
-    } else {
+    } catch (e) { }
+    return st;
+  }
+  function saveState() {
+    state.ts = Date.now();
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { }
+  }
+
+  function renderItem(it) {
+    if (it.k === 'me') { say(it.text, 'me'); return; }
+    if (it.k === 'greet') { greet(); return; }
+    if (it.k === 'hello') { say(null, 'bot').appendChild(el('p', null, 'Hello. What would you like to know about applying for data?')); return; }
+    if (it.k === 'thanks') { say(null, 'bot').appendChild(el('p', null, 'You’re welcome.')); return; }
+    if (it.k === 'none') {
       var f = say(null, 'bot');
       f.appendChild(el('p', null, 'I couldn’t find an answer to that. Try one of the topics below, or contact the NSHD data sharing team.'));
       var cu = fixUrl(content.meta && content.meta.contactUrl);
       var lr = linkRow(cu ? [{ label: 'Contact the team', url: cu }] : []);
       if (lr) f.appendChild(lr);
+      return;
     }
+    if (it.k === 'ans') {
+      var rel = (it.rel || []).map(function (id) { return byId[id]; }).filter(Boolean);
+      answer(byId[it.id], rel);
+    }
+  }
+  function push(it) {
+    state.msgs.push(it);
+    if (state.msgs.length > MAXMSG) state.msgs = state.msgs.slice(-MAXMSG);
+    renderItem(it);
+    while (ui.log.children.length > MAXMSG) ui.log.removeChild(ui.log.firstChild);
+    saveState();
+  }
+  function redraw() {
+    ui.log.textContent = '';
+    state.msgs.forEach(renderItem);
+    ui.log.scrollTop = ui.log.scrollHeight;
+  }
+  function addMe(text) { push({ k: 'me', text: String(text).slice(0, 200) }); }
+  function addAns(e, rel) { push({ k: 'ans', id: e.id, rel: (rel || []).map(function (r) { return r.id; }) }); }
+  function startOver() {
+    state.msgs = []; ui.log.textContent = '';
+    push({ k: 'greet' });
+    ui.input.focus();
+  }
+
+  function ask(text) {
+    addMe(text);
+    var t = norm(text).trim();
+    if (/^(hi|hello|hey|good (morning|afternoon|evening))\b/.test(t) && t.split(' ').length <= 3) { push({ k: 'hello' }); return; }
+    if (/^(thanks|thank you|cheers)\b/.test(t)) { push({ k: 'thanks' }); return; }
+    var r = findAnswers(text);
+    if (r.best) addAns(r.best, r.related || []); else push({ k: 'none' });
   }
 
   /* ---------- start ---------- */
