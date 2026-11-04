@@ -12,6 +12,7 @@
  * Optional attributes on the script tag:
  *   data-content="URL"   use a different content file
  *   data-owl="URL"       use a different owl picture
+ *   data-bottom="PX"    lift the button and panel this far from the bottom (e.g. 70 to clear a cookie button)
  *   data-site="URL"      the OWL site address that {{OWL}} in the content stands for
  *
  * Reviewers can add ?helpbot=draft to any page address to see the internal
@@ -159,12 +160,12 @@
     ':host{all:initial;color-scheme:light;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}',
     '*{box-sizing:border-box}',
     '.launch,.chat,.hint{--plum:#6a0dad;--ink:#2b1b3d;--muted:#6b5f78;--line:#e3dcec;--bg:#faf8fc;--card:#fff}',
-    '.launch{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));height:56px;padding:0 20px 0 12px;border:0;border-radius:999px;background:var(--plum);color:#fff;font-family:inherit;font-size:15px;font-weight:600;line-height:1;display:flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 6px 18px rgba(80,30,120,.35)}',
+    '.launch{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + var(--owl-lift,0px) + env(safe-area-inset-bottom,0px));height:56px;padding:0 20px 0 12px;border:0;border-radius:999px;background:var(--plum);color:#fff;font-family:inherit;font-size:15px;font-weight:600;line-height:1;display:flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 6px 18px rgba(80,30,120,.35)}',
     '.launch img{height:36px;width:36px;display:block}',
     '.launch:hover{background:#5a0a94}',
-    '.hint{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(86px + env(safe-area-inset-bottom,0px));max-width:min(260px,calc(100vw - 32px));background:var(--card);color:var(--ink);border:1.5px solid var(--plum);border-radius:12px;padding:8px 12px;font-size:13px;line-height:1.4;box-shadow:0 6px 18px rgba(80,30,120,.2);transition:opacity .4s}',
+    '.hint{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(86px + var(--owl-lift,0px) + env(safe-area-inset-bottom,0px));max-width:min(260px,calc(100vw - 32px));background:var(--card);color:var(--ink);border:1.5px solid var(--plum);border-radius:12px;padding:8px 12px;font-size:13px;line-height:1.4;box-shadow:0 6px 18px rgba(80,30,120,.2);transition:opacity .4s}',
     '.hint.gone{opacity:0;pointer-events:none}',
-    '.chat{position:fixed;z-index:2147483001;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(88px + env(safe-area-inset-bottom,0px));width:min(420px,calc(100vw - 32px));max-height:calc(100vh - 120px);display:flex;flex-direction:column;background:var(--card);color:var(--ink);border:1.5px solid var(--plum);border-radius:14px;overflow:hidden;box-shadow:0 12px 36px rgba(80,30,120,.28);font-size:14px;line-height:1.5}',
+    '.chat{position:fixed;z-index:2147483001;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(88px + var(--owl-lift,0px) + env(safe-area-inset-bottom,0px));width:min(420px,calc(100vw - 32px));max-height:calc(100vh - 120px);display:flex;flex-direction:column;background:var(--card);color:var(--ink);border:1.5px solid var(--plum);border-radius:14px;overflow:hidden;box-shadow:0 12px 36px rgba(80,30,120,.28);font-size:14px;line-height:1.5}',
     '.chat[hidden],.hint[hidden],.launch[hidden]{display:none}',
     '.head{background:var(--plum);color:#fff;padding:10px 12px 10px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px}',
     '.who{display:flex;align-items:center;gap:10px;min-width:0}',
@@ -210,7 +211,9 @@
     /* a custom-element name, so page rules for "div" never reach it; inline styles keep the host itself out of the page layout */
     var host = document.createElement('owl-help-bot');
     host.id = 'owl-help-bot';
-    [['display', 'block'], ['position', 'fixed'], ['width', '0'], ['height', '0'], ['overflow', 'visible'], ['margin', '0'], ['padding', '0'], ['border', '0'], ['background', 'none'], ['box-shadow', 'none'], ['transform', 'none'], ['filter', 'none']].forEach(function (d) { host.style.setProperty(d[0], d[1], 'important'); });
+    [['display', 'block'], ['position', 'fixed'], ['width', '0'], ['height', '0'], ['overflow', 'visible'], ['margin', '0'], ['padding', '0'], ['border', '0'], ['background', 'none'], ['box-shadow', 'none'], ['transform', 'none'], ['filter', 'none'], ['z-index', '2147483647']].forEach(function (d) { host.style.setProperty(d[0], d[1], 'important'); });
+    var lift = parseInt(script && script.getAttribute('data-bottom'), 10);
+    if (lift > 0) host.style.setProperty('--owl-lift', lift + 'px', 'important');
     var root = host.attachShadow({ mode: 'open' });
     var style = document.createElement('style'); style.textContent = CSS; root.appendChild(style);
 
