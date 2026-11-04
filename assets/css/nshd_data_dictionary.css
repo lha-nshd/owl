@@ -346,3 +346,49 @@
     text-align: center !important;
 	background: #f1f5f9;
 }
+
+/* ============================================================
+   TAWNY HAND-OFF BANNER
+   Shown only when the page is opened from Tawny (?tawny=1)
+   ============================================================ */
+.page-search-data-dictionary .tawny-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 16px;
+  margin: 0 0 14px 0;
+  padding: 12px 16px;
+  background: #fff7e6;
+  border: 2px solid #f5a623;
+  border-radius: 10px;
+  color: #3d2a00;
+  font-size: 14px;
+}
+.page-search-data-dictionary .tawny-banner-text { flex: 1 1 320px; }
+.page-search-data-dictionary .tawny-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.page-search-data-dictionary .tawny-banner .tawny-basket-filter {
+  font-size: 13px;
+  color: #5b3d00;
+}
+.page-search-data-dictionary .tawny-banner select {
+  margin-left: 4px;
+  padding: 4px 6px;
+  font-size: 13px;
+}
+.page-search-data-dictionary .tawny-banner .add-all-btn { margin-left: 0; }
+.page-search-data-dictionary .tawny-banner .tawny-show-all {
+  padding: 6px 12px;
+  font-size: 14px;
+  background: #4b067a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.page-search-data-dictionary .tawny-banner .tawny-show-all:hover { background: #36045a; }

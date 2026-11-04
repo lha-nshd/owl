@@ -217,6 +217,7 @@
     'input{flex:1;min-width:0;font:inherit;font-size:14px;padding:9px 11px;border-radius:999px;border:2px solid #f5a623;background:#fff;color:var(--ink)}',
     'form button{font:inherit;font-weight:700;padding:9px 18px;border-radius:999px;border:0;background:#241338;color:#fff;cursor:pointer}',
     '.vcard{padding:8px 0;border-top:1px solid #eee3f3}.vcard:first-of-type{border-top:0;padding-top:2px}.vtop{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.vn{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace;font-weight:700;font-size:13px;color:#4b0a7d}.vl{font-size:13.5px;margin-top:2px}.vm{font-size:11.5px;color:var(--muted);margin-top:2px}',
+    '.alt.cta{background:#6a0dad;color:#fff;border-color:#6a0dad;font-weight:600}.alt.cta:hover{background:#4b0a7d}',
     '.vsec{font-weight:700;font-size:13px;margin:10px 0 2px;color:#4b0a7d}.vsec:first-of-type{margin-top:4px}',
     '.badge{font-size:11px;font-weight:700;border-radius:999px;padding:1px 8px}.b-r{background:#ffe3e3;color:#8a1c1c}.b-s{background:#fff1d6;color:#7a4f00}.vwarn{margin-top:5px;font-size:12px;padding:5px 8px;border-radius:8px;background:#ffe9e9;color:#6e1414;border:1px solid #f1b7b7}.vwarn.s{background:#fff5df;color:#6b4a00;border-color:#efd08a}.vtog{display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin-top:6px}.vhint{flex:0 0 100%;margin:0 0 2px;font-size:12.5px;color:#6b4a00}.vload{color:var(--muted)}',
     '.foot{font-size:11.5px;color:#6b5a3a;padding:0 14px 12px;background:#fff7e6}',
@@ -601,6 +602,22 @@
     ui.tg.setAttribute('aria-expanded', String(open));
   }
 
+  /* Hand the whole result list to the data dictionary page. The names are saved in this browser
+     (localStorage, key owlHelpBot.results) and the page is opened with ?tawny=1; the dictionary page
+     then shows just those variables so they can be added to the basket. Nothing is sent anywhere. */
+  function openInDictionary(topic, ids) {
+    var vf = content.variableFinder || {};
+    var url = fixUrl(vf.resultsUrl);
+    if (!url) return false;
+    try {
+      var names = ids.slice(0, 1000).map(function (i) { return VARS.v[i][0]; });
+      localStorage.setItem('owlHelpBot.results', JSON.stringify({ q: String(topic).slice(0, 120), names: names, ts: Date.now() }));
+    } catch (e) { return false; }
+    track('help_bot_open_dictionary', { results: ids.length <= 5 ? '1-5' : ids.length <= 20 ? '6-20' : ids.length <= 100 ? '21-100' : '100+' });
+    window.location.href = url + (url.indexOf('?') < 0 ? '?' : '&') + 'tawny=1';
+    return true;
+  }
+
   function plural(n, w) { return n + ' ' + w + (n === 1 ? '' : 's'); }
 
   function varCard(i, withPartners) {
@@ -678,7 +695,15 @@
           r.slice(0, 4).forEach(function (i) { m.appendChild(varCard(i, false)); });
           var one = el('button', 'alt', 'More for “' + pt + '”'); one.type = 'button';
           one.addEventListener('click', function () { addMe(pt); push({ k: 'vars', q: pt, via: 'split_more' }); });
-          var row = el('div', 'links'); row.appendChild(one); m.appendChild(row);
+          var row = el('div', 'links'); row.appendChild(one);
+          if ((content.variableFinder || {}).resultsUrl) {
+            var op = el('button', 'alt cta', 'Open all ' + Math.min(r.length, 1000) + ' in the data dictionary'); op.type = 'button';
+            op.addEventListener('click', function () {
+              if (!openInDictionary(pt, r)) { op.disabled = true; op.textContent = 'Could not open (browser storage is blocked)'; }
+            });
+            row.appendChild(op);
+          }
+          m.appendChild(row);
         });
         m.appendChild(el('div', 'meta', 'These are suggestions to start from. Check each variable in OWL, and ask the data sharing team if you are unsure.'));
         showTop(m);
@@ -697,6 +722,15 @@
       page.forEach(function (i, n) { m.appendChild(varCard(i, !off && n < 3)); });
       var left = ids.length - off - page.length;
       var foot = el('div', 'links');
+      if (!off && (content.variableFinder || {}).resultsUrl) {
+        var shown = Math.min(ids.length, 1000);
+        var open = el('button', 'alt cta', 'Open ' + (ids.length > 1000 ? 'the top 1,000' : 'all ' + shown) + ' in the data dictionary'); open.type = 'button';
+        open.title = 'See these variables in a table and add them to your basket';
+        open.addEventListener('click', function () {
+          if (!openInDictionary(topic, ids)) { open.disabled = true; open.textContent = 'Could not open the data dictionary (browser storage is blocked)'; }
+        });
+        foot.appendChild(open);
+      }
       if (left > 0 && off + PAGE < 40) {
         var more = el('button', 'alt', 'Show ' + Math.min(PAGE, left) + ' more'); more.type = 'button';
         more.addEventListener('click', function () { more.disabled = true; push({ k: 'vars', q: it.q, topic: it.topic, off: off + PAGE }); });

@@ -47,6 +47,132 @@ function inBasketFast(varName) {
 }
 
 // ============================================================
+// TAWNY HAND-OFF
+// When someone chooses "Open all results in the data dictionary" in Tawny
+// (the help assistant), Tawny saves the matching variable names in the
+// browser and opens this page with ?tawny=1. This page then shows only those
+// variables, in Tawny's order (most requested first), with a banner that
+// can add them all to the basket and filter by what is already in it.
+// Nothing here runs unless the address contains ?tawny=1 and Tawny's list
+// is under an hour old, so the page behaves exactly as before otherwise.
+// ============================================================
+const TAWNY_RESULTS_KEY = "owlHelpBot.results";
+const TAWNY_MAX_AGE_MS = 60 * 60 * 1000;
+let tawny = null; // { q, names: [...], set: Set, order: Map, basketFilter: "all"|"in"|"out" }
+
+function loadTawnyResults() {
+  try {
+    if (!/[?&]tawny=1\b/.test(location.search)) return null;
+    const raw = JSON.parse(localStorage.getItem(TAWNY_RESULTS_KEY) || "null");
+    if (!raw || !Array.isArray(raw.names) || !raw.names.length) return null;
+    if (!raw.ts || Date.now() - raw.ts > TAWNY_MAX_AGE_MS) return null;
+    const names = raw.names.filter(n => typeof n === "string").slice(0, 1000);
+    if (!names.length) return null;
+    return {
+      q: typeof raw.q === "string" ? raw.q.slice(0, 120) : "",
+      names,
+      set: new Set(names),
+      order: new Map(names.map((n, i) => [n, i])),
+      basketFilter: "all"
+    };
+  } catch (e) {
+    return null;
+  }
+}
+
+function clearTawnyResults() {
+  tawny = null;
+  const b = document.getElementById("tawnyBanner");
+  if (b) b.remove();
+  try {
+    const url = new URL(location.href);
+    url.searchParams.delete("tawny");
+    history.replaceState(null, "", url.pathname + (url.search ? url.search : "") + url.hash);
+  } catch (e) { }
+}
+
+function tawnyRowName(row) { return row["NSHD Variable Name"]; }
+
+function buildTawnyBanner() {
+  const old = document.getElementById("tawnyBanner");
+  if (old) old.remove();
+  if (!tawny) return;
+
+  const banner = document.createElement("div");
+  banner.id = "tawnyBanner";
+  banner.className = "tawny-banner";
+  banner.innerHTML = `
+    <div class="tawny-banner-text">
+      <strong>From Tawny:</strong>
+      <span id="tawnyBannerMsg"></span>
+    </div>
+    <div class="tawny-banner-actions">
+      <label class="tawny-basket-filter">Show
+        <select id="tawnyBasketFilter">
+          <option value="all">all of these</option>
+          <option value="in">only those in my basket</option>
+          <option value="out">only those not in my basket</option>
+        </select>
+      </label>
+      <button id="tawnyAddAllBtn" class="add-all-btn" type="button"></button>
+      <button id="tawnyShowAllBtn" class="tawny-show-all" type="button">Show whole data dictionary</button>
+    </div>
+  `;
+  const anchor = document.getElementById("search-pagination-top");
+  anchor.parentNode.insertBefore(banner, anchor);
+
+  document.getElementById("tawnyBasketFilter").addEventListener("change", e => {
+    tawny.basketFilter = e.target.value;
+    applyFilters();
+  });
+  document.getElementById("tawnyShowAllBtn").addEventListener("click", () => {
+    clearTawnyResults();
+    applyFilters();
+    updateAllFilters();
+  });
+  document.getElementById("tawnyAddAllBtn").addEventListener("click", () => {
+    // every variable in Tawny's list that is on this dictionary (all pages, not just the visible one)
+    const rows = rawData.filter(r => tawnyRowName(r) && tawny.set.has(tawnyRowName(r)));
+    const allIn = rows.length > 0 && rows.every(r => inBasketFast(tawnyRowName(r)));
+    if (allIn) {
+      batchRemoveFromBasket(rows.map(tawnyRowName));
+    } else {
+      batchAddToBasket(rows.map(r => ({ varName: tawnyRowName(r), label: r["Variable Label"] || "" })));
+    }
+    refreshBasketCache();
+    renderTable();
+    updateTawnyBanner();
+  });
+  updateTawnyBanner();
+}
+
+// Keeps the banner text, the add/remove-all label and the in-basket count current
+function updateTawnyBanner() {
+  if (!tawny) return;
+  const msg = document.getElementById("tawnyBannerMsg");
+  const btn = document.getElementById("tawnyAddAllBtn");
+  if (!msg || !btn) return;
+  const rows = rawData.filter(r => tawnyRowName(r) && tawny.set.has(tawnyRowName(r)));
+  const inCount = rows.filter(r => inBasketFast(tawnyRowName(r))).length;
+  const q = tawny.q ? ` for \u201c${escapeHtml(tawny.q)}\u201d` : "";
+  msg.innerHTML = `${rows.length} variable${rows.length === 1 ? "" : "s"}${q}, most requested first. ` +
+    `<b>${inCount}</b> of them ${inCount === 1 ? "is" : "are"} already in your basket.`;
+  if (rows.length === 0) {
+    btn.textContent = "Nothing to add";
+    btn.disabled = true;
+    btn.classList.remove("remove-mode");
+  } else if (inCount === rows.length) {
+    btn.textContent = `Remove all ${rows.length} from basket`;
+    btn.disabled = false;
+    btn.classList.add("remove-mode");
+  } else {
+    btn.textContent = `Add all ${rows.length} to basket`;
+    btn.disabled = false;
+    btn.classList.remove("remove-mode");
+  }
+}
+
+// ============================================================
 // Data load
 // ============================================================
 
@@ -60,8 +186,12 @@ fetch(SITE_BASEURL + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dict
     // Drop first 5 metadata fields, then remove Order
     tableColumns = Object.keys(rawData[0]).slice(5).filter(col => col !== "Order");
 
+    tawny = loadTawnyResults(); // null unless opened from Tawny
+
     buildFilters();
     buildTableHeader();
+    refreshBasketCache();
+    buildTawnyBanner();
     applyFilters(); // 🔹 initial filter + search pass
 
     // Hide loading, show UI
@@ -115,6 +245,18 @@ function applyFilters() {
     base = base.filter(row =>
       Object.values(row).some(v => String(v).toLowerCase().includes(q))
     );
+  }
+
+  // TAWNY HAND-OFF: only the variables Tawny found, optionally split by basket
+  if (tawny) {
+    base = base.filter(row => tawny.set.has(tawnyRowName(row)));
+    if (tawny.basketFilter !== "all") {
+      refreshBasketCache();
+      const wantIn = tawny.basketFilter === "in";
+      base = base.filter(row => inBasketFast(tawnyRowName(row)) === wantIn);
+    }
+    // Tawny's order (most requested first) until someone sorts by a column
+    base.sort((a, b) => tawny.order.get(tawnyRowName(a)) - tawny.order.get(tawnyRowName(b)));
   }
 
   filteredData = base;
@@ -220,6 +362,7 @@ function resetAllFilters() {
 
   document.getElementById("globalSearch").value = "";
   currentSearch = ""; // 🔹 clear search state
+  if (tawny) clearTawnyResults(); // TAWNY HAND-OFF: Reset Filters shows the whole dictionary again
 
   filteredData = [...rawData];
   sortDirty = true; // 🔹 filteredData rebuilt — sort cache is stale
@@ -416,6 +559,7 @@ function renderTable() {
       refreshBasketCache();
       updateBasketCountUI();
       updateAddAllButtonLabel();
+      updateTawnyBanner(); // TAWNY HAND-OFF
     });
   });
 
@@ -544,6 +688,7 @@ document.getElementById("addAllBtn").addEventListener("click", () => {
 window.addEventListener("nshd-basket-changed", () => {
   refreshBasketCache();
   updateAddAllButtonLabel();
+  updateTawnyBanner(); // TAWNY HAND-OFF: keeps "N already in your basket" current
 });
 
 // ============================================================
