@@ -1,5 +1,5 @@
 /*
- * Ask OWL: the OWL help assistant ("Tawny").
+ * Ask Tawny: the OWL help assistant ("Tawny").
  *
  * A self-contained help widget. It answers common questions about applying for
  * NSHD data from a content file (help-bot-content.json) using keyword matching.
@@ -173,28 +173,28 @@
     '.who strong{font-size:16px}.who span{font-size:12px;opacity:.9}',
     '.x{font:inherit;font-size:24px;line-height:1;background:transparent;border:0;color:#fff;cursor:pointer;padding:2px 9px;border-radius:6px}',
     '.x:hover{background:rgba(255,255,255,.2)}',
-    '.log{padding:14px;display:flex;flex-direction:column;gap:12px;overflow-y:auto;min-height:150px;flex:1 1 auto;max-height:340px}',
+    '.log{background:#241338;padding:14px;display:flex;flex-direction:column;gap:12px;overflow-y:auto;min-height:150px;flex:1 1 auto;max-height:340px}',
     '.msg{max-width:94%;padding:9px 12px;border-radius:12px;overflow-wrap:anywhere}',
-    '.me{align-self:flex-end;background:#efe4f8;border-bottom-right-radius:3px}',
-    '.bot{align-self:flex-start;background:#f6f3f9;border-bottom-left-radius:3px;width:94%}',
+    '.me{align-self:flex-end;background:#7c2fc4;color:#fff;border-bottom-right-radius:3px}',
+    '.bot{align-self:flex-start;background:#fff;border-bottom-left-radius:3px;width:94%}',
     '.bot p{margin:0 0 8px}.bot ul,.bot ol{margin:0 0 8px;padding-left:20px}.bot li{margin-bottom:3px}.bot>*:last-child{margin-bottom:0}',
     '.tbc{display:inline-block;margin:2px 0 8px;padding:3px 8px;border-radius:6px;background:#fff1d6;color:#7a4f00;border:1px solid #e0b04a;font-size:12px}',
     '.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}',
     '.links a,.alt{font:inherit;font-size:12.5px;padding:4px 10px;border-radius:999px;border:1px solid var(--plum);background:transparent;color:#5b0b95;text-decoration:none;cursor:pointer}',
     '.links a:hover,.alt:hover{background:var(--plum);color:#fff}',
     '.meta{margin-top:8px;font-size:11.5px;color:var(--muted)}',
-    '.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 8px}',
-    '.tabs button{font:inherit;font-size:12px;padding:4px 10px;border-radius:6px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}',
-    '.tabs button[aria-pressed="true"]{background:var(--plum);border-color:var(--plum);color:#fff}',
-    '.chips{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 10px}',
-    '.chips button{font:inherit;font-size:12.5px;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;text-align:left}',
-    '.chips button:hover{border-color:var(--plum)}',
-    'form{display:flex;gap:8px;padding:10px 14px;border-top:1px solid var(--line)}',
-    'input{flex:1;min-width:0;font:inherit;font-size:14px;padding:9px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}',
-    'form button{font:inherit;font-weight:600;padding:9px 15px;border-radius:8px;border:0;background:var(--plum);color:#fff;cursor:pointer}',
-    '.foot{font-size:11.5px;color:var(--muted);padding:0 14px 12px}',
+    '.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:12px 14px 10px;background:#fff7e6;border-top:3px solid #f5a623}.tabs::before{content:"Quick questions";flex:0 0 100%;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:#8a5a00;margin-bottom:2px}',
+    '.tabs button{font:inherit;font-size:12.5px;padding:4px 10px;border-radius:999px;border:0;background:#fbe9c4;color:#6b4a00;cursor:pointer}',
+    '.tabs button[aria-pressed="true"]{background:#8a5a00;color:#fff}',
+    '.chips{display:flex;flex-wrap:wrap;gap:7px;padding:0 14px 12px;background:#fff7e6}',
+    '.chips button{font:inherit;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;border:0;background:#f5a623;color:#2a1a00;cursor:pointer;text-align:left}',
+    '.chips button:hover{background:#e8941a}',
+    'form{display:flex;gap:8px;padding:10px 14px 8px;background:#fff7e6}',
+    'input{flex:1;min-width:0;font:inherit;font-size:14px;padding:9px 11px;border-radius:999px;border:2px solid #f5a623;background:#fff;color:var(--ink)}',
+    'form button{font:inherit;font-weight:700;padding:9px 18px;border-radius:999px;border:0;background:#241338;color:#fff;cursor:pointer}',
+    '.foot{font-size:11.5px;color:#6b5a3a;padding:0 14px 12px;background:#fff7e6}',
     '.foot a{color:#5b0b95}',
-    'button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--plum);outline-offset:2px}',
+    'button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #241338;outline-offset:2px}',
     '@media(max-width:600px){.chat{inset:0;width:100%;max-height:none;border-radius:0;border-width:0}.log{max-height:none}}',
     '@media(prefers-reduced-motion:reduce){.hint{transition:none}}',
     '@media print{:host{display:none}}'
@@ -222,9 +222,9 @@
     launch.setAttribute('aria-expanded', 'false');
     launch.setAttribute('aria-controls', 'chat');
     var limg = el('img'); limg.src = owlUrl; limg.alt = ''; limg.setAttribute('aria-hidden', 'true');
-    launch.appendChild(limg); launch.appendChild(document.createTextNode('Ask OWL'));
+    launch.appendChild(limg); launch.appendChild(document.createTextNode('Ask Tawny'));
 
-    var hint = el('div', 'hint', 'Questions about applying for data? Ask OWL.');
+    var hint = el('div', 'hint', 'Questions about applying for data? Ask Tawny.');
     hint.setAttribute('aria-hidden', 'true');
 
     var chat = el('section', 'chat'); chat.id = 'chat'; chat.hidden = true;
