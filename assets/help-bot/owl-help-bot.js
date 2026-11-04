@@ -12,6 +12,7 @@
  * Optional attributes on the script tag:
  *   data-content="URL"   use a different content file
  *   data-owl="URL"       use a different owl picture
+ *   data-analytics="off" turn off the optional Google Analytics events (see track() below)
  *   data-bottom="PX"    lift the button and panel this far from the bottom (e.g. 70 to clear a cookie button)
  *   data-site="URL"      the OWL site address that {{OWL}} in the content stands for
  *
@@ -34,6 +35,13 @@
   var contentUrl = (script && script.getAttribute('data-content')) || baseDir + 'help-bot-content.json';
   /* the owl is built in (Tawny, drawn for NSHD), so the button never depends on a separate file path; data-owl can still override it */
   var OWL_BUILTIN = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KPHBhdGggZD0iTTIyIDMwIEwyNCA4IEw0MCAyMloiIGZpbGw9IiM2YjQyMjAiLz48cGF0aCBkPSJNNzggMzAgTDc2IDggTDYwIDIyWiIgZmlsbD0iIzZiNDIyMCIvPgo8ZWxsaXBzZSBjeD0iNTAiIGN5PSI1OCIgcng9IjMzIiByeT0iMzUiIGZpbGw9IiM4YTVhMmIiLz4KPGVsbGlwc2UgY3g9IjUwIiBjeT0iNjYiIHJ4PSIyMSIgcnk9IjI1IiBmaWxsPSIjZjNkY2I0Ii8+CjxwYXRoIGQ9Ik0zOCA2MHE0IDQgOCAwTTU0IDYwcTQgNCA4IDBNMzQgNzBxNCA0IDggME00NiA3MHE0IDQgOCAwTTU4IDcwcTQgNCA4IDBNNDAgODBxNCA0IDggME01MiA4MHE0IDQgOCAwIiBmaWxsPSJub25lIiBzdHJva2U9IiNjODlhNjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CjxlbGxpcHNlIGN4PSIyMiIgY3k9IjYyIiByeD0iOSIgcnk9IjIyIiBmaWxsPSIjNmI0MjIwIi8+PGVsbGlwc2UgY3g9Ijc4IiBjeT0iNjIiIHJ4PSI5IiByeT0iMjIiIGZpbGw9IiM2YjQyMjAiLz4KPGVsbGlwc2UgY3g9IjUwIiBjeT0iMzgiIHJ4PSIyNyIgcnk9IjIxIiBmaWxsPSIjYzg5YTYyIi8+CjxjaXJjbGUgY3g9IjM4IiBjeT0iMzgiIHI9IjEyIiBmaWxsPSIjZmZmIi8+PGNpcmNsZSBjeD0iNjIiIGN5PSIzOCIgcj0iMTIiIGZpbGw9IiNmZmYiLz4KPGNpcmNsZSBjeD0iMzkiIGN5PSIzOSIgcj0iNi41IiBmaWxsPSIjMmIxYjBlIi8+PGNpcmNsZSBjeD0iNjEiIGN5PSIzOSIgcj0iNi41IiBmaWxsPSIjMmIxYjBlIi8+CjxjaXJjbGUgY3g9IjQxIiBjeT0iMzYuNSIgcj0iMiIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjYzIiBjeT0iMzYuNSIgcj0iMiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNTAgNDEgTDQ1IDQ5IEw1MCA1NSBMNTUgNDlaIiBmaWxsPSIjZjA4YTI0Ii8+CjxwYXRoIGQ9Ik0zOCA5MyBoOCBNNTQgOTMgaDgiIHN0cm9rZT0iI2YwOGEyNCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=';
+  /* Optional Google Analytics 4 events. Sent only if the page already has gtag() (so the site's cookie/consent
+     tool and blockers decide whether anything is recorded). Never includes typed text. data-analytics="off" disables. */
+  var ANALYTICS = !(script && script.getAttribute('data-analytics') === 'off');
+  function track(name, params) {
+    if (!ANALYTICS) return;
+    try { if (typeof window.gtag === 'function') window.gtag('event', name, params || {}); } catch (e) { }
+  }
   var owlUrl = (script && script.getAttribute('data-owl')) || OWL_BUILTIN;
   var DRAFT = /[?&]helpbot=draft\b/.test(location.search);
 
@@ -319,7 +327,7 @@
     ui.chat.hidden = !open;
     ui.launch.setAttribute('aria-expanded', String(open));
     ui.hint.classList.add('gone');
-    if (open) ui.launch.classList.add('compact');
+    if (open) { ui.launch.classList.add('compact'); if (ui.chat.dataset.t !== '1') { ui.chat.dataset.t = '1'; track('help_bot_open'); } }
     if (open) { if (!quiet) ui.input.focus(); ui.log.scrollTop = ui.log.scrollHeight; }
   }
 
@@ -327,7 +335,7 @@
     ui.chips.textContent = '';
     content.entries.filter(function (e) { return e.group === ui.cur; }).forEach(function (e) {
       var b = el('button', null, e.question); b.type = 'button';
-      b.addEventListener('click', function () { addMe(e.question); addAns(e, []); });
+      b.addEventListener('click', function () { track('help_bot_answer', { answer_id: e.id, via: 'topic_button' }); addMe(e.question); addAns(e, []); });
       ui.chips.appendChild(b);
     });
     Array.prototype.forEach.call(ui.tabs.children, function (b) { b.setAttribute('aria-pressed', String(b.dataset.g === ui.cur)); });
@@ -345,6 +353,7 @@
     (links || []).forEach(function (l) {
       var u = fixUrl(l.url); if (!u) return;
       var a = el('a', null, l.label); a.href = u; a.target = '_blank'; a.rel = 'noopener';
+      a.addEventListener('click', function () { track('help_bot_link_click', { link_label: String(l.label).slice(0, 60) }); });
       row.appendChild(a);
     });
     return row.childNodes.length ? row : null;
@@ -362,7 +371,7 @@
       row.appendChild(el('span', 'meta', 'Related: '));
       related.forEach(function (r) {
         var b = el('button', 'alt', r.question); b.type = 'button';
-        b.addEventListener('click', function () { addMe(r.question); addAns(r, []); });
+        b.addEventListener('click', function () { track('help_bot_answer', { answer_id: r.id, via: 'related' }); addMe(r.question); addAns(r, []); });
         row.appendChild(b);
       });
       m.appendChild(row);
@@ -435,6 +444,7 @@
   function addMe(text) { push({ k: 'me', text: String(text).slice(0, 200) }); }
   function addAns(e, rel) { push({ k: 'ans', id: e.id, rel: (rel || []).map(function (r) { return r.id; }) }); }
   function startOver() {
+    track('help_bot_start_over');
     state.msgs = []; ui.log.textContent = '';
     push({ k: 'greet' });
     ui.input.focus();
@@ -446,7 +456,8 @@
     if (/^(hi|hello|hey|good (morning|afternoon|evening))\b/.test(t) && t.split(' ').length <= 3) { push({ k: 'hello' }); return; }
     if (/^(thanks|thank you|cheers)\b/.test(t)) { push({ k: 'thanks' }); return; }
     var r = findAnswers(text);
-    if (r.best) addAns(r.best, r.related || []); else push({ k: 'none' });
+    if (r.best) { track('help_bot_answer', { answer_id: r.best.id, via: 'typed' }); addAns(r.best, r.related || []); }
+    else { track('help_bot_no_match'); push({ k: 'none' }); }
   }
 
   /* ---------- start ---------- */
