@@ -32,7 +32,9 @@
   var siteBase = (script && script.getAttribute('data-site')) ||
     baseDir.replace(/\/$/, '').replace(/\/assets\/help-bot$/, '');
   var contentUrl = (script && script.getAttribute('data-content')) || baseDir + 'help-bot-content.json';
-  var owlUrl = (script && script.getAttribute('data-owl')) || baseDir + 'tawny.svg';
+  /* the owl is built in (Tawny, drawn for NSHD), so the button never depends on a separate file path; data-owl can still override it */
+  var OWL_BUILTIN = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KPHBhdGggZD0iTTIyIDMwIEwyNCA4IEw0MCAyMloiIGZpbGw9IiM2YjQyMjAiLz48cGF0aCBkPSJNNzggMzAgTDc2IDggTDYwIDIyWiIgZmlsbD0iIzZiNDIyMCIvPgo8ZWxsaXBzZSBjeD0iNTAiIGN5PSI1OCIgcng9IjMzIiByeT0iMzUiIGZpbGw9IiM4YTVhMmIiLz4KPGVsbGlwc2UgY3g9IjUwIiBjeT0iNjYiIHJ4PSIyMSIgcnk9IjI1IiBmaWxsPSIjZjNkY2I0Ii8+CjxwYXRoIGQ9Ik0zOCA2MHE0IDQgOCAwTTU0IDYwcTQgNCA4IDBNMzQgNzBxNCA0IDggME00NiA3MHE0IDQgOCAwTTU4IDcwcTQgNCA4IDBNNDAgODBxNCA0IDggME01MiA4MHE0IDQgOCAwIiBmaWxsPSJub25lIiBzdHJva2U9IiNjODlhNjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CjxlbGxpcHNlIGN4PSIyMiIgY3k9IjYyIiByeD0iOSIgcnk9IjIyIiBmaWxsPSIjNmI0MjIwIi8+PGVsbGlwc2UgY3g9Ijc4IiBjeT0iNjIiIHJ4PSI5IiByeT0iMjIiIGZpbGw9IiM2YjQyMjAiLz4KPGVsbGlwc2UgY3g9IjUwIiBjeT0iMzgiIHJ4PSIyNyIgcnk9IjIxIiBmaWxsPSIjYzg5YTYyIi8+CjxjaXJjbGUgY3g9IjM4IiBjeT0iMzgiIHI9IjEyIiBmaWxsPSIjZmZmIi8+PGNpcmNsZSBjeD0iNjIiIGN5PSIzOCIgcj0iMTIiIGZpbGw9IiNmZmYiLz4KPGNpcmNsZSBjeD0iMzkiIGN5PSIzOSIgcj0iNi41IiBmaWxsPSIjMmIxYjBlIi8+PGNpcmNsZSBjeD0iNjEiIGN5PSIzOSIgcj0iNi41IiBmaWxsPSIjMmIxYjBlIi8+CjxjaXJjbGUgY3g9IjQxIiBjeT0iMzYuNSIgcj0iMiIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjYzIiBjeT0iMzYuNSIgcj0iMiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNTAgNDEgTDQ1IDQ5IEw1MCA1NSBMNTUgNDlaIiBmaWxsPSIjZjA4YTI0Ii8+CjxwYXRoIGQ9Ik0zOCA5MyBoOCBNNTQgOTMgaDgiIHN0cm9rZT0iI2YwOGEyNCIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=';
+  var owlUrl = (script && script.getAttribute('data-owl')) || OWL_BUILTIN;
   var DRAFT = /[?&]helpbot=draft\b/.test(location.search);
 
   var content = null;
@@ -162,6 +164,7 @@
     '.launch,.chat,.hint{--plum:#6a0dad;--ink:#2b1b3d;--muted:#6b5f78;--line:#e3dcec;--bg:#faf8fc;--card:#fff}',
     '.launch{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + var(--owl-lift,0px) + env(safe-area-inset-bottom,0px));height:60px;padding:0 20px 0 10px;border:0;border-radius:999px;background:var(--plum);color:#fff;font-family:inherit;font-size:15px;font-weight:600;line-height:1;display:flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 6px 18px rgba(80,30,120,.35)}',
     '.launch img{height:40px;width:40px;display:block;flex:none;background:#fff;border-radius:50%;padding:3px}',
+    '.fb-owl{display:grid;place-items:center;flex:none;width:40px;height:40px;background:#fff;border-radius:50%;font-size:24px;line-height:1}',
     '.launch .lbl{max-width:130px;overflow:hidden;white-space:nowrap;transition:max-width .35s ease,opacity .25s ease}',
     '.launch .q{position:absolute;top:-4px;right:-4px;width:22px;height:22px;border-radius:50%;background:#f5a623;color:#2a1a00;border:2px solid #fff;font-size:14px;font-weight:700;line-height:18px;text-align:center;opacity:0;transition:opacity .25s ease;pointer-events:none}',
     '.launch.compact{padding:0 10px;gap:0;transition:padding .35s ease,gap .35s ease}',
@@ -230,8 +233,11 @@
     launch.type = 'button';
     launch.setAttribute('aria-expanded', 'false');
     launch.setAttribute('aria-controls', 'chat');
-    var limg = el('img'); limg.src = owlUrl; limg.alt = ''; limg.setAttribute('aria-hidden', 'true');
+    var limg = el('img'); limg.onerror = function () { var f = el('span', 'fb-owl', '🦉'); f.setAttribute('aria-hidden', 'true'); if (limg.parentNode) limg.parentNode.replaceChild(f, limg); }; limg.src = owlUrl; limg.alt = ''; limg.setAttribute('aria-hidden', 'true');
     launch.setAttribute('aria-label', 'Ask Tawny, the OWL help assistant'); launch.title = 'Ask Tawny';
+    var seen = false;
+    try { seen = sessionStorage.getItem('owlHelpBotHint') === '1'; } catch (e) { }
+    if (seen) launch.classList.add('compact');
     var lbl = el('span', 'lbl', 'Ask Tawny'); lbl.setAttribute('aria-hidden', 'true');
     var qb = el('span', 'q', '?'); qb.setAttribute('aria-hidden', 'true');
     launch.appendChild(limg); launch.appendChild(lbl); launch.appendChild(qb);
@@ -244,7 +250,7 @@
 
     var head = el('div', 'head');
     var who = el('div', 'who');
-    var himg = el('img'); himg.src = owlUrl; himg.alt = '';
+    var himg = el('img'); himg.onerror = function () { var f = el('span', 'fb-owl', '🦉'); f.setAttribute('aria-hidden', 'true'); if (himg.parentNode) himg.parentNode.replaceChild(f, himg); }; himg.src = owlUrl; himg.alt = '';
     var wt = el('div'); var wn = el('strong', null, 'Tawny'); var ws = el('span', null, 'OWL’s help assistant · automated');
     wt.appendChild(wn); wt.appendChild(document.createElement('br')); wt.appendChild(ws);
     who.appendChild(himg); who.appendChild(wt);
@@ -302,12 +308,8 @@
       if (!st.msgs.length) greet(); /* shown only; nothing written, so tabs never overwrite each other */
     });
 
-    var seen = false;
-    try { seen = sessionStorage.getItem('owlHelpBotHint') === '1'; } catch (e) { }
-    if (state.open) setOpen(true, true);
     /* first visit in a session: the full "Ask Tawny" pill for 6 seconds, then it shrinks to the owl with a ? badge */
-    if (seen) { launch.classList.add('compact'); }
-    else {
+    if (!seen) {
       setTimeout(function () { launch.classList.add('compact'); }, 6000);
       try { sessionStorage.setItem('owlHelpBotHint', '1'); } catch (e) { }
     }
@@ -315,7 +317,6 @@
 
   function setOpen(open, quiet) {
     ui.chat.hidden = !open;
-    state.open = open; saveState();
     ui.launch.setAttribute('aria-expanded', String(open));
     ui.hint.classList.add('gone');
     if (open) ui.launch.classList.add('compact');
