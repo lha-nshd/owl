@@ -56,6 +56,16 @@
     return '';
   }
 
+  // search_index.json permalinks are site-relative (e.g. /docs/documentation/<id>/).
+  // Anything before /docs/ (an older baked-in prefix) is dropped and this
+  // site's own baseurl is added, so the same JSON works on every site.
+  function permalinkWithBase(path) {
+    if (!path) return path;
+    var i = path.indexOf('/docs/');
+    if (i > 0) path = path.substring(i);
+    return resolveBaseUrl() + path;
+  }
+
   var input = document.getElementById('docSearchInput');
   var typeFilter = document.getElementById('docTypeFilter');
   var pageSizeSelect = document.getElementById('docPageSize');
@@ -190,7 +200,7 @@
       // Clicking the categories disclosure (or a chip inside it once
       // open) should expand/collapse it, never navigate away.
       if (e.target.closest('details')) return;
-      window.location.href = doc.permalink;
+      window.location.href = permalinkWithBase(doc.permalink);
     });
 
     var details = tr.querySelector('.doc-category-details');
