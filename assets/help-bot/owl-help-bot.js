@@ -160,8 +160,16 @@
     ':host{all:initial;color-scheme:light;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}',
     '*{box-sizing:border-box}',
     '.launch,.chat,.hint{--plum:#6a0dad;--ink:#2b1b3d;--muted:#6b5f78;--line:#e3dcec;--bg:#faf8fc;--card:#fff}',
-    '.launch{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + var(--owl-lift,0px) + env(safe-area-inset-bottom,0px));height:56px;padding:0 20px 0 12px;border:0;border-radius:999px;background:var(--plum);color:#fff;font-family:inherit;font-size:15px;font-weight:600;line-height:1;display:flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 6px 18px rgba(80,30,120,.35)}',
-    '.launch img{height:36px;width:36px;display:block}',
+    '.launch{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + var(--owl-lift,0px) + env(safe-area-inset-bottom,0px));height:60px;padding:0 20px 0 10px;border:0;border-radius:999px;background:var(--plum);color:#fff;font-family:inherit;font-size:15px;font-weight:600;line-height:1;display:flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 6px 18px rgba(80,30,120,.35)}',
+    '.launch img{height:40px;width:40px;display:block;flex:none;background:#fff;border-radius:50%;padding:3px}',
+    '.launch .lbl{max-width:130px;overflow:hidden;white-space:nowrap;transition:max-width .35s ease,opacity .25s ease}',
+    '.launch .q{position:absolute;top:-4px;right:-4px;width:22px;height:22px;border-radius:50%;background:#f5a623;color:#2a1a00;border:2px solid #fff;font-size:14px;font-weight:700;line-height:18px;text-align:center;opacity:0;transition:opacity .25s ease;pointer-events:none}',
+    '.launch.compact{padding:0 10px;gap:0;transition:padding .35s ease,gap .35s ease}',
+    '.launch.compact .lbl{max-width:0;opacity:0}',
+    '.launch.compact .q{opacity:1}',
+    '.launch.compact:hover,.launch.compact:focus-visible{padding:0 20px 0 10px;gap:8px}',
+    '.launch.compact:hover .lbl,.launch.compact:focus-visible .lbl{max-width:130px;opacity:1}',
+    '.launch.compact:hover .q,.launch.compact:focus-visible .q{opacity:0}',
     '.launch:hover{background:#5a0a94}',
     '.hint{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(86px + var(--owl-lift,0px) + env(safe-area-inset-bottom,0px));max-width:min(260px,calc(100vw - 32px));background:var(--card);color:var(--ink);border:1.5px solid var(--plum);border-radius:12px;padding:8px 12px;font-size:13px;line-height:1.4;box-shadow:0 6px 18px rgba(80,30,120,.2);transition:opacity .4s}',
     '.hint.gone{opacity:0;pointer-events:none}',
@@ -196,7 +204,7 @@
     '.foot a{color:#5b0b95}',
     'button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #241338;outline-offset:2px}',
     '@media(max-width:600px){.chat{inset:0;width:100%;max-height:none;border-radius:0;border-width:0}.log{max-height:none}}',
-    '@media(prefers-reduced-motion:reduce){.hint{transition:none}}',
+    '@media(prefers-reduced-motion:reduce){.hint,.launch,.launch .lbl,.launch .q{transition:none!important}}',
     '@media print{:host{display:none}}'
   ].join('\n');
 
@@ -222,10 +230,13 @@
     launch.setAttribute('aria-expanded', 'false');
     launch.setAttribute('aria-controls', 'chat');
     var limg = el('img'); limg.src = owlUrl; limg.alt = ''; limg.setAttribute('aria-hidden', 'true');
-    launch.appendChild(limg); launch.appendChild(document.createTextNode('Ask Tawny'));
+    launch.setAttribute('aria-label', 'Ask Tawny, the OWL help assistant'); launch.title = 'Ask Tawny';
+    var lbl = el('span', 'lbl', 'Ask Tawny'); lbl.setAttribute('aria-hidden', 'true');
+    var qb = el('span', 'q', '?'); qb.setAttribute('aria-hidden', 'true');
+    launch.appendChild(limg); launch.appendChild(lbl); launch.appendChild(qb);
 
     var hint = el('div', 'hint', 'Questions about applying for data? Ask Tawny.');
-    hint.setAttribute('aria-hidden', 'true');
+    hint.setAttribute('aria-hidden', 'true'); hint.hidden = true;
 
     var chat = el('section', 'chat'); chat.id = 'chat'; chat.hidden = true;
     chat.setAttribute('role', 'dialog'); chat.setAttribute('aria-label', 'Tawny, the OWL help assistant');
@@ -282,9 +293,10 @@
 
     var seen = false;
     try { seen = sessionStorage.getItem('owlHelpBotHint') === '1'; } catch (e) { }
-    if (seen) { hint.hidden = true; }
+    /* first visit in a session: the full "Ask Tawny" pill for 6 seconds, then it shrinks to the owl with a ? badge */
+    if (seen) { launch.classList.add('compact'); }
     else {
-      setTimeout(function () { hint.classList.add('gone'); }, 7000);
+      setTimeout(function () { launch.classList.add('compact'); }, 6000);
       try { sessionStorage.setItem('owlHelpBotHint', '1'); } catch (e) { }
     }
   }
@@ -293,6 +305,7 @@
     ui.chat.hidden = !open;
     ui.launch.setAttribute('aria-expanded', String(open));
     ui.hint.classList.add('gone');
+    if (open) ui.launch.classList.add('compact');
     if (open) { ui.input.focus(); ui.log.scrollTop = ui.log.scrollHeight; }
   }
 
