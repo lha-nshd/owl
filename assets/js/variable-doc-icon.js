@@ -34,11 +34,14 @@
  */
 (function () {
   var INDEX_URL = SITE_BASEURL + '/assets/data/variable_documents_index.json';
-  // permalinks in the JSON are site-relative (no baseurl) -- add it here.
-  // Already-prefixed values (older JSON) are left alone, so this is safe either way.
+  // Permalinks in the JSON are site-relative. Older JSON files had a fixed
+  // prefix baked in (e.g. /OWL/docs/...), which is wrong on a site with a
+  // different baseurl, so anything before /docs/ is dropped and this site's
+  // own SITE_BASEURL is added instead.
   function withBase(path) {
     if (!path) return path;
-    if (SITE_BASEURL && path.indexOf(SITE_BASEURL + '/') === 0) return path;
+    var i = path.indexOf('/docs/');
+    if (i > 0) path = path.substring(i);
     return SITE_BASEURL + path;
   }
   var LINK_PATTERN = /\/assets\/variable_metadata\/([^/?#]+?)(?:\.html)?(?:[/?#]|$)/;
