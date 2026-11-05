@@ -14,6 +14,7 @@
  *   data-owl="URL"       use a different owl picture
  *   data-variables="URL" use a different variable search file (default: help-bot-variables.json next to this script)
  *   data-analytics="off" turn off the optional Google Analytics events (see track() below)
+ *   (the owl button can be dragged anywhere; its place is remembered. Double-click it to put it back.)
  *   data-bottom="PX"    lift the button and panel this far from the bottom (e.g. 70 to clear a cookie button)
  *   data-site="URL"      the OWL site address that {{OWL}} in the content stands for
  *
@@ -174,6 +175,7 @@
     '*{box-sizing:border-box}',
     '.launch,.chat,.hint{--plum:#6a0dad;--ink:#2b1b3d;--muted:#6b5f78;--line:#e3dcec;--bg:#faf8fc;--card:#fff}',
     '.launch{position:fixed;z-index:2147483000;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + var(--owl-lift,0px) + env(safe-area-inset-bottom,0px));height:60px;padding:0 20px 0 10px;border:0;border-radius:999px;background:var(--plum);color:#fff;font-family:inherit;font-size:15px;font-weight:600;line-height:1;display:flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 6px 18px rgba(80,30,120,.35)}',
+    '.launch{touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab}.launch.dragging{cursor:grabbing;transition:none!important}.launch.dragging *{pointer-events:none}',
     '.launch img{height:40px;width:40px;display:block;flex:none;background:#fff;border-radius:50%;padding:3px}',
     '.fb-owl{display:grid;place-items:center;flex:none;width:40px;height:40px;background:#fff;border-radius:50%;font-size:24px;line-height:1}',
     '.launch .lbl{max-width:130px;overflow:hidden;white-space:nowrap;transition:max-width .35s ease,opacity .25s ease}',
@@ -196,7 +198,7 @@
     '.hr{display:flex;align-items:center;gap:4px;flex:none}.reset{font:inherit;font-size:12px;background:transparent;border:1px solid rgba(255,255,255,.55);color:#fff;border-radius:999px;padding:3px 10px;cursor:pointer}.reset:hover{background:rgba(255,255,255,.2)}',
     '.x{font:inherit;font-size:24px;line-height:1;background:transparent;border:0;color:#fff;cursor:pointer;padding:2px 9px;border-radius:6px}',
     '.x:hover{background:rgba(255,255,255,.2)}',
-    '.log{background:#241338;padding:14px;display:flex;flex-direction:column;gap:12px;overflow-y:auto;min-height:150px;flex:1 1 auto;max-height:340px}',
+    '.log{background:#241338;padding:14px;display:flex;flex-direction:column;gap:12px;overflow-y:auto;min-height:40px;flex:1 1 auto;max-height:340px}',
     '.msg{max-width:94%;padding:9px 12px;border-radius:12px;overflow-wrap:anywhere}',
     '.me{align-self:flex-end;background:#7c2fc4;color:#fff;border-bottom-right-radius:3px}',
     '.bot{align-self:flex-start;background:#fff;border-bottom-left-radius:3px;width:94%}',
@@ -210,7 +212,7 @@
     '.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 10px;background:#fff7e6}.chat.min .tabs,.chat.min .chips{display:none}.chat.min .log{max-height:min(560px,calc(100vh - 300px))}',
     '.tabs button{font:inherit;font-size:12.5px;padding:4px 10px;border-radius:999px;border:0;background:#fbe9c4;color:#6b4a00;cursor:pointer}',
     '.tabs button[aria-pressed="true"]{background:#8a5a00;color:#fff}',
-    '.chips{display:flex;flex-wrap:wrap;gap:7px;padding:0 14px 12px;background:#fff7e6}',
+    '.chips{display:flex;flex-wrap:wrap;gap:7px;padding:0 14px 12px;background:#fff7e6;overflow-y:auto;min-height:0;flex:0 1 auto}.head,.th,.tabs,form,.foot{flex:none}',
     '.chips button{font:inherit;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;border:0;background:#f5a623;color:#2a1a00;cursor:pointer;text-align:left}',
     '.chips button:hover{background:#e8941a}',
     'form{display:flex;gap:8px;padding:10px 14px 8px;background:#fff7e6}',
@@ -250,7 +252,7 @@
     launch.setAttribute('aria-expanded', 'false');
     launch.setAttribute('aria-controls', 'chat');
     var limg = el('img'); limg.onerror = function () { var f = el('span', 'fb-owl', '🦉'); f.setAttribute('aria-hidden', 'true'); if (limg.parentNode) limg.parentNode.replaceChild(f, limg); }; limg.src = owlUrl; limg.alt = ''; limg.setAttribute('aria-hidden', 'true');
-    launch.setAttribute('aria-label', 'Ask Tawny, the OWL help assistant'); launch.title = 'Ask Tawny';
+    launch.setAttribute('aria-label', 'Ask Tawny, the OWL help assistant'); launch.title = 'Ask Tawny (drag to move)';
     var seen = false;
     try { seen = sessionStorage.getItem('owlHelpBotHint') === '1'; } catch (e) { }
     if (seen) launch.classList.add('compact');
@@ -301,7 +303,7 @@
 
     ui = { tg: tg, reset: reset, host: host, root: root, launch: launch, hint: hint, chat: chat, log: log, tabs: tabs, chips: chips, form: form, input: input, x: x, cur: content.groups[0].id };
 
-    launch.addEventListener('click', function () { setOpen(chat.hidden); });
+    launch.addEventListener('click', function () { if (suppressClick) { suppressClick = false; return; } setOpen(chat.hidden); });
     x.addEventListener('click', function () { setOpen(false); launch.focus(); });
     root.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !chat.hidden) { setOpen(false); launch.focus(); } });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !chat.hidden) { setOpen(false); } });
@@ -321,6 +323,7 @@
     state = loadState();
     if (state.msgs.length) redraw(); else push({ k: 'greet' });
     reset.addEventListener('click', startOver);
+    ui.pos = loadPos(); applyPos(); wireMove();
     tg.addEventListener('click', function () { setTray(ui.chat.classList.contains('min')); });
     window.addEventListener('storage', function (ev) {
       if (ev.key !== KEY) return;
@@ -335,8 +338,108 @@
     }
   }
 
+  /* ---------- movable button ----------
+     The owl can be dragged anywhere. Its place is saved as a distance from the nearest edges
+     (localStorage key owlHelpBot.pos), so it stays put on every page and after the window is resized.
+     The chat window opens beside it, on the side with most room, and always fits on screen. */
+  var POS_KEY = 'owlHelpBot.pos', EDGE = 4, suppressClick = false;
+
+  function loadPos() {
+    try {
+      var p = JSON.parse(localStorage.getItem(POS_KEY) || 'null');
+      if (p && (p.ax === 'l' || p.ax === 'r') && (p.ay === 't' || p.ay === 'b') && isFinite(p.x) && isFinite(p.y)) return { ax: p.ax, ay: p.ay, x: +p.x, y: +p.y };
+    } catch (e) { }
+    return null;
+  }
+  function savePos(p) {
+    try { if (p) localStorage.setItem(POS_KEY, JSON.stringify(p)); else localStorage.removeItem(POS_KEY); } catch (e) { }
+  }
+  function clamp(v, lo, hi) { return Math.min(Math.max(v, lo), Math.max(lo, hi)); }
+
+  function applyPos() {
+    var L = ui.launch.style, p = ui.pos;
+    if (!p) { L.left = L.right = L.top = L.bottom = ''; return; }
+    var w = ui.launch.offsetWidth, h = ui.launch.offsetHeight, vw = window.innerWidth, vh = window.innerHeight;
+    var x = clamp(p.x, EDGE, vw - w - EDGE), y = clamp(p.y, EDGE, vh - h - EDGE);
+    L.left = p.ax === 'l' ? x + 'px' : 'auto'; L.right = p.ax === 'r' ? x + 'px' : 'auto';
+    L.top = p.ay === 't' ? y + 'px' : 'auto'; L.bottom = p.ay === 'b' ? y + 'px' : 'auto';
+  }
+  function setPosFromTopLeft(left, top) {
+    var w = ui.launch.offsetWidth, h = ui.launch.offsetHeight, vw = window.innerWidth, vh = window.innerHeight;
+    left = clamp(left, EDGE, vw - w - EDGE); top = clamp(top, EDGE, vh - h - EDGE);
+    var right = left + w > vw / 2 + w / 2 ? true : false, bottom = top + h > vh / 2 + h / 2 ? true : false;
+    ui.pos = { ax: right ? 'r' : 'l', x: right ? vw - (left + w) : left, ay: bottom ? 'b' : 't', y: bottom ? vh - (top + h) : top };
+    applyPos();
+    if (!ui.chat.hidden) placeChat();
+  }
+
+  /* put the chat window next to the button, on the roomier side, sized to the space available */
+  function placeChat() {
+    var c = ui.chat.style, GAP = 10, M = 8, vw = window.innerWidth, vh = window.innerHeight;
+    if (vw <= 600) { c.top = c.bottom = c.left = c.right = c.maxHeight = c.width = ''; return; } /* phones: full screen (CSS) */
+    var r = ui.launch.getBoundingClientRect();
+    var width = Math.min(420, vw - 32);
+    var above = r.top - GAP - M, below = vh - r.bottom - GAP - M;
+    var preferAbove = (r.top + r.height / 2) > vh / 2;
+    var useAbove = preferAbove ? (above >= 300 || above >= below) : !(below >= 300 || below >= above);
+    c.width = width + 'px';
+    var side = false;
+    if (Math.max(above, below) < 300) {
+      /* not enough height above or below: use the full height of the window and sit beside the owl if there is room */
+      c.top = M + 'px'; c.bottom = 'auto'; c.maxHeight = (vh - 2 * M) + 'px';
+      var roomR = vw - r.right - GAP - M, roomL = r.left - GAP - M;
+      if (roomR >= width) { c.left = (r.right + GAP) + 'px'; c.right = 'auto'; side = true; }
+      else if (roomL >= width) { c.right = (vw - r.left + GAP) + 'px'; c.left = 'auto'; side = true; }
+    }
+    else if (useAbove) { c.bottom = (vh - r.top + GAP) + 'px'; c.top = 'auto'; c.maxHeight = Math.max(260, above) + 'px'; }
+    else { c.top = (r.bottom + GAP) + 'px'; c.bottom = 'auto'; c.maxHeight = Math.max(260, below) + 'px'; }
+    if (side) return;
+    if ((r.left + r.width / 2) > vw / 2) { c.right = clamp(vw - r.right, M, vw - width - M) + 'px'; c.left = 'auto'; }
+    else { c.left = clamp(r.left, M, vw - width - M) + 'px'; c.right = 'auto'; }
+  }
+
+  function wireMove() {
+    var launch = ui.launch, drag = null;
+    launch.addEventListener('pointerdown', function (e) {
+      if (e.button !== undefined && e.button !== 0) return;
+      var r = launch.getBoundingClientRect();
+      drag = { id: e.pointerId, sx: e.clientX, sy: e.clientY, ox: r.left, oy: r.top, moved: false };
+      /* capture at once, so a fast flick that leaves the button is still followed */
+      try { launch.setPointerCapture(e.pointerId); } catch (x) { }
+    });
+    launch.addEventListener('pointermove', function (e) {
+      if (!drag || e.pointerId !== drag.id) return;
+      var dx = e.clientX - drag.sx, dy = e.clientY - drag.sy;
+      if (!drag.moved) {
+        if (Math.abs(dx) + Math.abs(dy) < 6) return;
+        drag.moved = true; launch.classList.add('dragging');
+      }
+      setPosFromTopLeft(drag.ox + dx, drag.oy + dy);
+      e.preventDefault();
+    });
+    function end(e) {
+      if (!drag || (e && e.pointerId !== drag.id)) return;
+      var moved = drag.moved; drag = null; launch.classList.remove('dragging');
+      if (moved) { savePos(ui.pos); suppressClick = true; setTimeout(function () { suppressClick = false; }, 350); track('help_bot_moved'); }
+    }
+    launch.addEventListener('pointerup', end); launch.addEventListener('pointercancel', end);
+    /* keyboard: Shift + arrow keys move the button */
+    launch.addEventListener('keydown', function (e) {
+      if (!e.shiftKey || !/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
+      e.preventDefault();
+      var r = launch.getBoundingClientRect(), step = 24;
+      setPosFromTopLeft(r.left + (e.key === 'ArrowLeft' ? -step : e.key === 'ArrowRight' ? step : 0), r.top + (e.key === 'ArrowUp' ? -step : e.key === 'ArrowDown' ? step : 0));
+      savePos(ui.pos);
+    });
+    /* double-click puts it back in the default corner */
+    launch.addEventListener('dblclick', function () { ui.pos = null; savePos(null); applyPos(); if (!ui.chat.hidden) placeChat(); });
+    window.addEventListener('resize', function () { applyPos(); if (!ui.chat.hidden) placeChat(); });
+    window.addEventListener('storage', function (ev) { if (ev.key === POS_KEY) { ui.pos = loadPos(); applyPos(); if (!ui.chat.hidden) placeChat(); } });
+  }
+
   function setOpen(open, quiet) {
     ui.chat.hidden = !open;
+    if (open) placeChat();
     ui.launch.setAttribute('aria-expanded', String(open));
     ui.hint.classList.add('gone');
     if (open) { ui.launch.classList.add('compact'); if (ui.chat.dataset.t !== '1') { ui.chat.dataset.t = '1'; track('help_bot_open'); } }
