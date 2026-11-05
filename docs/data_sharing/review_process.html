@@ -1,0 +1,192 @@
+---
+layout: default
+title: How Applications Are Reviewed
+parent: Apply for Data
+nav_order: 3
+permalink: /docs/data_sharing/review-process/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+
+<div class="page-topics page-questionnaire_by_year">
+
+  <div class="hero-banner">
+    <h1><i class="ti ti-scale" aria-hidden="true"></i> How Applications Are Reviewed</h1>
+    <p>What happens to your application after you submit it: the review, the criteria, the timings, and what to expect along the way.</p>
+  </div>
+
+  <div class="sidebar-summary">
+    <h3><i class="ti ti-list" aria-hidden="true"></i> On this page</h3>
+    <ul>
+      <li><a href="#process" class="gs-toc-da-owl"><i class="ti ti-route" aria-hidden="true"></i> The process at a glance</a></li>
+      <li><a href="#principles" class="gs-toc-da-condor"><i class="ti ti-heart-handshake" aria-hidden="true"></i> Principles</a></li>
+      <li><a href="#review" class="gs-toc-da-skylark"><i class="ti ti-scale" aria-hidden="true"></i> The review and criteria</a></li>
+      <li><a href="#timings" class="gs-toc-da-vm"><i class="ti ti-clock" aria-hidden="true"></i> Correspondence and timings</a></li>
+      <li><a href="#parameters" class="gs-toc-da-ukllc"><i class="ti ti-adjustments" aria-hidden="true"></i> Limits and charges</a></li>
+      <li><a href="#facilitated" class="gs-toc-da-journey"><i class="ti ti-users-group" aria-hidden="true"></i> Facilitated collaborations</a></li>
+      <li><a href="#appeals" class="gs-toc-da-owl"><i class="ti ti-gavel" aria-hidden="true"></i> Rejected proposals and appeals</a></li>
+      <li><a href="#governance" class="gs-toc-da-condor"><i class="ti ti-building-bank" aria-hidden="true"></i> Information governance</a></li>
+    </ul>
+    <a href="{{ site.baseurl }}/docs/data_sharing/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Apply for Data</a>
+  </div>
+
+  <div class="gs-welcome-box">
+    <p>Every request for NSHD data is for a specific project and a specific set of variables, and each one is reviewed by the NSHD Data Sharing Committee at the Unit for Lifelong Health and Ageing at UCL (LHA). This page explains how that review works. For the application steps themselves, see <a href="{{ site.baseurl }}/docs/data_sharing/" style="color:#6a0dad;">Apply for Data</a>.</p>
+  </div>
+
+  <style>
+    .rv-step { display:flex; gap:12px; align-items:flex-start; }
+    .rv-num { width:26px; height:26px; border-radius:50%; background:hsl(270 35% 90%); border:1.5px solid hsl(270 35% 55%); color:#3a0066; font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:2px; }
+    .rv-title { font-weight:700; font-size:13px; color:#3a0066; margin:0 0 3px; }
+    .rv-title i { margin-right:4px; color:#6a0dad; }
+    .rv-text { font-size:12px; color:#333; margin:0; line-height:1.6; }
+    .rv-steps { display:flex; flex-direction:column; gap:10px; margin:14px 0; }
+    .rv-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin:10px 0; }
+    .rv-card { border-radius:8px; padding:11px 14px; border-left:4px solid; }
+    .rv-card b { display:block; font-size:12.5px; margin-bottom:4px; }
+    .rv-card span { display:block; font-size:11.5px; line-height:1.55; color:#444; }
+    .rv-c1 { background:hsl(180 45% 93%); border-color:hsl(180 45% 40%); } .rv-c1 b { color:hsl(180 45% 18%); }
+    .rv-c2 { background:hsl(35 60% 93%);  border-color:hsl(35 60% 48%); }  .rv-c2 b { color:hsl(35 60% 20%); }
+    .rv-c3 { background:hsl(340 45% 94%); border-color:hsl(340 45% 52%); } .rv-c3 b { color:hsl(340 45% 24%); }
+    .rv-c4 { background:hsl(125 35% 92%); border-color:hsl(125 35% 40%); } .rv-c4 b { color:hsl(125 35% 18%); }
+    @media (max-width: 800px) { .rv-grid { grid-template-columns:1fr; } }
+  </style>
+
+  <div class="home-section gs-card-blue">
+    <h2 id="process"><i class="ti ti-route" aria-hidden="true"></i> The process at a glance</h2>
+    <p>From first look at the variables to receiving your data, most projects follow the same sequence.</p>
+
+    <div class="rv-steps">
+
+      <div class="rv-step">
+        <div class="rv-num">1</div>
+        <div>
+          <p class="rv-title"><i class="ti ti-search" aria-hidden="true"></i>Explore the variables on OWL</p>
+          <p class="rv-text">Review the variables available, using the searches, questionnaires and topic pages. Check <a href="{{ site.baseurl }}/docs/search_methods/discover-projects">Discover Projects</a> to see whether similar work has already been approved.</p>
+        </div>
+      </div>
+
+      <div class="rv-step">
+        <div class="rv-num">2</div>
+        <div>
+          <p class="rv-title"><i class="ti ti-basket" aria-hidden="true"></i>Build a basket in Condor</p>
+          <p class="rv-text">Register for a Condor account and email the Science Support Team to confirm. Create a basket of the variables you need and note its basket ID.</p>
+        </div>
+      </div>
+
+      <div class="rv-step">
+        <div class="rv-num">3</div>
+        <div>
+          <p class="rv-title"><i class="ti ti-file-text" aria-hidden="true"></i>Submit your request</p>
+          <p class="rv-text">Complete the <a href="{{ site.baseurl }}/docs/data_sharing/forms/">Data Access Request Form</a>, including your basket ID. The Science Support Team sets up a secure share for your data in the UCL Data Safe Haven.</p>
+        </div>
+      </div>
+
+      <div class="rv-step">
+        <div class="rv-num">4</div>
+        <div>
+          <p class="rv-title"><i class="ti ti-scale" aria-hidden="true"></i>Your request is reviewed</p>
+          <p class="rv-text">The LHA Science Support Team and the Data Sharing Committee review the request. If more information is needed, you will be asked for it. If it is approved, you move on to step 5.</p>
+        </div>
+      </div>
+
+      <div class="rv-step">
+        <div class="rv-num">5</div>
+        <div>
+          <p class="rv-title"><i class="ti ti-mail" aria-hidden="true"></i>Complete the prerequisites</p>
+          <p class="rv-text">You are emailed in turn for a Data Sharing Agreement (if applicable) and a signed confidentiality form, then your Data Security Awareness Training certificate. The Data Safe Haven team also invites you to Information Governance induction training. See <a href="{{ site.baseurl }}/docs/data_sharing/prerequisites/">Access Prerequisites</a>.</p>
+        </div>
+      </div>
+
+      <div class="rv-step">
+        <div class="rv-num">6</div>
+        <div>
+          <p class="rv-title"><i class="ti ti-database-export" aria-hidden="true"></i>Receive your data</p>
+          <p class="rv-text">You are given access to your Data Safe Haven account and the data in your share. See <a href="{{ site.baseurl }}/docs/data_sharing/after-approval/">After Approval</a> for what comes next.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="callout-warning">
+      <i class="ti ti-alert-triangle" aria-hidden="true"></i>
+      <span><strong>Two things must happen before data are released.</strong> Every applicant must return a signed confidentiality form before the project can move on to the next step, and a Data Sharing Agreement (where one is needed) must be in place before access is given.</span>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-search">
+    <h2 id="principles"><i class="ti ti-heart-handshake" aria-hidden="true"></i> Principles</h2>
+    <p>The LHA is committed to the MRC's data sharing principles and encourages sharing NSHD data with bona fide scientists for high-quality research. Sharing must stay within the consent study members have given and meet MRC data security standards. All proposals are expected to follow three principles:</p>
+    <div class="rv-grid">
+      <div class="rv-card rv-c1"><b>Ethical</b><span>Protect individual privacy and community dignity while promoting public health through productive use of data.</span></div>
+      <div class="rv-card rv-c2"><b>Equitable</b><span>Balance the needs of data generators, data reusers, communities and funders.</span></div>
+      <div class="rv-card rv-c3"><b>Efficient</b><span>Keep approaches proportionate, build on existing practice, and avoid unnecessary duplication and competition.</span></div>
+    </div>
+    <p>Data sharing needs three things in place: approval of the project by the NSHD Data Sharing Committee, a data sharing agreement between UCL and the researcher's employing institution, and LHA resources available to fulfil the request.</p>
+  </div>
+
+  <div class="home-section gs-card-explore">
+    <h2 id="review"><i class="ti ti-scale" aria-hidden="true"></i> The review and criteria</h2>
+    <p>Proposals go to the LHA/NSHD Data Sharing Committee and, where needed, to specialist reviewers. The committee meets regularly. Successful proposals generally meet four criteria:</p>
+    <div class="rv-grid" style="grid-template-columns:repeat(2, 1fr);">
+      <div class="rv-card rv-c1"><b>No breach of confidence</b><span>The use must not break the confidence in which study members gave their information.</span></div>
+      <div class="rv-card rv-c4"><b>Within consent and governance</b><span>The use stays within study members' consent and complies with MRC ethics and research governance guidance.</span></div>
+      <div class="rv-card rv-c2"><b>No risk to the study</b><span>The use poses no risk to the study's viability or reputation.</span></div>
+      <div class="rv-card rv-c3"><b>Bona fide researchers</b><span>Applicants are bona fide researchers at an MRC-recognised organisation, with the necessary expertise. Students need a supervisor as co-applicant.</span></div>
+    </div>
+    <p>The committee may prioritise applications when necessary. Before you apply, check <a href="{{ site.baseurl }}/docs/search_methods/discover-projects">Discover Projects</a> for overlap with work that is already approved. If your request resembles approved, ongoing or complementary projects, you may be encouraged to collaborate on a shared project.</p>
+  </div>
+
+  <div class="home-section gs-card-sidebar">
+    <h2 id="timings"><i class="ti ti-clock" aria-hidden="true"></i> Correspondence and timings</h2>
+    <ul>
+      <li>You receive an email confirming that your application has been received. If you have heard nothing within <strong>10 working days</strong>, contact the team.</li>
+      <li>Decisions are normally made within <strong>two weeks</strong> of receipt, depending on committee meeting dates. If there is a delay, you are told by email.</li>
+      <li>Once your application is approved and the prerequisites are complete, data are typically received within about a month.</li>
+      <li>You must request your data within <strong>24 months</strong> of project approval. Otherwise the approval lapses and you need to apply again.</li>
+    </ul>
+  </div>
+
+  <div class="home-section gs-card-basket">
+    <h2 id="parameters"><i class="ti ti-adjustments" aria-hidden="true"></i> Limits and charges</h2>
+    <p>The LHA assesses the risk of re-identifying study members for every project. That risk limits the maximum size of a dataset, so choose only the core variables your project needs.</p>
+    <ul>
+      <li><strong>Basket size.</strong> Baskets with hundreds or thousands of variables are more disclosive and less likely to be approved. Baskets over 500 variables may need an advanced risk assessment, so keep your basket as small as you can.</li>
+      <li><strong>Multiple baskets.</strong> If one project generates several basket requests, later deliveries may be delayed, possibly considerably, depending on how many other requests are in the queue.</li>
+      <li><strong>Charges.</strong> For baskets over 500 variables, the LHA Director may charge a fee for the advanced risk assessment. Projects that need significant extra work from LHA data management staff may be charged to cover the added costs. You will be told of any such costs in advance.</li>
+    </ul>
+  </div>
+
+  <div class="home-section gs-card-lavender">
+    <h2 id="facilitated"><i class="ti ti-users-group" aria-hidden="true"></i> Facilitated collaborations</h2>
+    <p>Some requests need to be handled as a <strong>facilitated collaboration</strong>, which may come with extra conditions. The following list is a guide, not a complete list:</p>
+    <ul>
+      <li>Access to a key collaborator's specialist database, or proposals that need a large amount of study team time</li>
+      <li>Sensitive data, such as cause and date of death, residential or emigration history, cancer registration, NHS Digital data, and small-count medical variables</li>
+      <li>Data or metadata that have not yet been through full quality assurance</li>
+      <li>Extensive biomedical data</li>
+    </ul>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>If you think your project may need a facilitated collaboration, mention it when you apply, or contact the team before you do.</span>
+    </div>
+  </div>
+
+  <div class="home-section gs-card-mint">
+    <h2 id="appeals"><i class="ti ti-gavel" aria-hidden="true"></i> Rejected proposals and appeals</h2>
+    <p>If your proposal is rejected, you can appeal. Appeals go first to the LHA Director, who may grant the appeal or refer it to an external independent body. The team can give you full details if you need them.</p>
+  </div>
+
+  <div class="home-section gs-card-gold">
+    <h2 id="governance"><i class="ti ti-building-bank" aria-hidden="true"></i> Information governance</h2>
+    <p>The LHA's governance of the NSHD is overseen by its Senior Management Team and Science Support Team. Their role is to safeguard ethics, the study's reputation and data security, to make bona fide use of the data possible, and to maximise the health benefit of the research.</p>
+    <div class="callout-note">
+      <i class="ti ti-info-circle" aria-hidden="true"></i>
+      <span>Questions about the process? Contact the NSHD data sharing team at <a href="mailto:mrclha.swiftinfo@ucl.ac.uk">mrclha.swiftinfo@ucl.ac.uk</a>.</span>
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ site.baseurl }}/assets/js/topics.js"></script>
