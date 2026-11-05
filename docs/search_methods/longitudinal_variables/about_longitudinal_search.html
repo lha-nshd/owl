@@ -39,7 +39,7 @@ permalink: /docs/search_methods/longitudinal_variables/longitudinal_search_guide
   <!-- ═══════════════════════════════════════════════════════ -->
   <div class="home-section gs-card-search">
     <h2 id="what-it-is"><i class="ti ti-help-circle" aria-hidden="true"></i> What Longitudinal Search is</h2>
-    <p>Longitudinal Search groups every NSHD variable by its <strong>Showcase Field ID</strong> — the same identifier used by the NSHD Showcase to link variables sharing identical question text and response coding across sweeps. Only Field IDs that appear in <strong>two or more sweeps</strong> are included; single-sweep variables don't appear here at all, since there is nothing to trace longitudinally.</p>
+    <p>Longitudinal Search groups every NSHD variable by its <strong>Field ID</strong> — to link variables sharing identical question text and response coding across sweeps. Only Field IDs that appear in <strong>two or more sweeps</strong> are included; single-sweep variables don't appear here at all, since there is nothing to trace longitudinally.</p>
     <p>For each qualifying Field ID, the page shows:</p>
     <ul>
       <li>The shared variable label, with sweep-specific suffixes like "at age 36 years" removed so it reads as a general measure</li>
@@ -64,7 +64,7 @@ permalink: /docs/search_methods/longitudinal_variables/longitudinal_search_guide
   <!-- ═══════════════════════════════════════════════════════ -->
   <div class="home-section gs-card-explore">
     <h2 id="strict-linking"><i class="ti ti-link" aria-hidden="true"></i> Strict linking explained</h2>
-    <p>The grouping logic behind Longitudinal Search is deliberately <strong>strict</strong>. Two variables are only grouped together if they share the same Showcase Field ID — which in turn requires that the underlying question text and response coding are identical across the sweeps in question. If a question was reworded, if response categories changed, or if the unit of measurement shifted between sweeps, the NSHD Showcase treats those as separate fields, and so does Longitudinal Search.</p>
+    <p>The grouping logic behind Longitudinal Search is deliberately <strong>strict</strong>. Two variables are only grouped together if they share the same Field ID — which in turn requires that the underlying question text and response coding are identical across the sweeps in question. If a question was reworded, if response categories changed, or if the unit of measurement shifted between sweeps, the Longitudinal Search treats those as separate fields.</p>
     <p>This matters because it guarantees that everything shown in a trajectory chart or detail table on this page is a genuine like-for-like comparison. A mean of 168cm in 1982 and a mean of 167cm in 2015 for the same Field ID can be compared directly, because the question that produced each value was asked in exactly the same way.</p>
     <div class="callout-warning">
       <i class="ti ti-alert-triangle" aria-hidden="true"></i>
