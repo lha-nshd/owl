@@ -66,7 +66,7 @@ classes: home-page
         <div class="sb-subgroup">
           <ul class="sb-subgroup-inner">
             <li class="sb-sub"><a href="#da-overview" data-sec="sec-data-access" data-inner="da-overview">Overview</a></li>
-            <li class="sb-sub"><a href="#da-platforms" data-sec="sec-data-access" data-inner="da-platforms">OWL, Showcase &amp; Condor</a></li>
+            <li class="sb-sub"><a href="#da-platforms" data-sec="sec-data-access" data-inner="da-platforms">OWL &amp; Condor</a></li>
             <li class="sb-sub"><a href="#da-vm" data-sec="sec-data-access" data-inner="da-vm">Variable Metadata Pages</a></li>
             <li class="sb-sub"><a href="#da-ukllc" data-sec="sec-data-access" data-inner="da-ukllc">UK LLC</a></li>
             <li class="sb-sub"><a href="#da-mep" data-sec="sec-data-access" data-inner="da-mep">Metadata Enhancement Project</a></li>
@@ -231,7 +231,7 @@ classes: home-page
         <span class="sec-chevron">▾</span>
       </button>
       <div class="sec-body">
-        <p>OWL and the NSHD Showcase currently provide access to around <strong>28,000 cleaned variables</strong> — those processed as part of the Metadata Enhancement Project. The full NSHD repository contains 35,000+ variables; the remaining ~7,000 are available on Condor only while cleaning continues. New variables are added periodically as each questionnaire is deposited. Coverage spans clinical assessments, cognitive testing, biological assays, lifestyle questionnaires, and socioeconomic measures across 42 collection years from 1946 to 2025.</p>
+        <p>OWL currently provides access to around <strong>28,000 cleaned variables</strong> — those processed as part of the Metadata Enhancement Project. The full NSHD repository contains 35,000+ variables; the remaining ~7,000 are available on Condor only while cleaning continues. New variables are added periodically as each questionnaire is deposited. Coverage spans clinical assessments, cognitive testing, biological assays, lifestyle questionnaires, and socioeconomic measures across 42 collection years from 1946 to 2025.</p>
         <a class="inner-link" href="{{ site.baseurl }}/docs/data-coverage/">View full data coverage metrics →</a>
       </div>
     </div>
@@ -262,11 +262,11 @@ classes: home-page
           <div class="inner-item" id="da-overview">
             <button class="inner-trigger" aria-expanded="false">
               <span class="inner-icon"><i class="ti ti-database-share" aria-hidden="true"></i></span>
-              <span class="inner-title">Overview — the four platforms</span>
+              <span class="inner-title">Overview — the three platforms</span>
               <span class="inner-chevron">▾</span>
             </button>
             <div class="inner-body">
-              <p>The NSHD data sharing infrastructure is made up of four complementary platforms, plus a fifth external route for linked data. <strong>OWL</strong> is where you discover and explore variables — no registration required. The <strong>NSHD Showcase</strong> presents participant counts and sweep-by-sweep distributions for the same 28,000 cleaned variables — also without registration. Built on the same platform as the UK Biobank Data Showcase, it will be immediately familiar to researchers with UK Biobank experience. <strong>Condor</strong> holds the full 35,000+ variable set and is where baskets are built, saved, and shared before a data request is submitted — registration is required. <strong>Skylark</strong> is the data access information and forms portal where the formal Data Access Request Form is submitted. Separately, <strong>UK LLC</strong> is a national Trusted Research Environment that links NSHD data to over 20 other UK longitudinal studies and NHS/administrative records, for researchers who need NSHD variables analysed alongside other cohorts rather than on their own.</p>
+              <p>The NSHD data sharing infrastructure is made up of three complementary platforms, plus a fifth external route for linked data. <strong>OWL</strong> is where you discover and explore variables — no registration required. <strong>Condor</strong> holds the full 35,000+ variable set and is where baskets are built, saved, and shared before a data request is submitted — registration is required. <strong>Skylark</strong> is the data access information and forms portal where the formal Data Access Request Form is submitted. Separately, <strong>UK LLC</strong> is a national Trusted Research Environment that links NSHD data to over 20 other UK longitudinal studies and NHS/administrative records, for researchers who need NSHD variables analysed alongside other cohorts rather than on their own.</p>
               <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/">Go to Accessing NSHD Data →</a>
             </div>
           </div>
@@ -274,12 +274,12 @@ classes: home-page
           <div class="inner-item" id="da-platforms">
             <button class="inner-trigger" aria-expanded="false">
               <span class="inner-icon"><i class="ti ti-circles-relation" aria-hidden="true"></i></span>
-              <span class="inner-title">OWL, the NSHD Showcase and Condor</span>
+              <span class="inner-title">OWL and Condor</span>
               <span class="inner-chevron">▾</span>
             </button>
             <div class="inner-body">
-              <p>OWL and the NSHD Showcase both cover around 28,000 cleaned variables — those processed as part of the Metadata Enhancement Project — and are designed to be used together, linked via the Field ID. The Showcase is built on the same platform as the UK Biobank Data Showcase, making it a particularly efficient starting point for researchers already familiar with UK Biobank variable discovery. Condor holds the full 35,000+ variable set including variables not yet cleaned. Use OWL to discover variables using questionnaires, topic pages, and metadata; check participant counts and distributions on the Showcase; upload your OWL basket to Condor to finalise and share it; then submit your formal application via Skylark. Baskets cannot be submitted directly from OWL or Condor — the Data Access Request Form is on Skylark.</p>
-              <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/owl-showcase-condor/">Go to OWL, the Showcase and Condor →</a>
+              <p>OWL covers around 28,000 cleaned variables — those processed as part of the Metadata Enhancement Project. Condor holds the full 35,000+ variable set including variables not yet cleaned. Use OWL to discover variables using questionnaires, topic pages, and metadata, check participant counts and distributions; upload your OWL basket to Condor to finalise and share it; then submit your formal application via Skylark. Baskets cannot be submitted directly from OWL or Condor — the Data Access Request Form is on Skylark.</p>
+              <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/owl-condor/">Go to OWL and Condor →</a>
             </div>
           </div>
 
@@ -290,7 +290,7 @@ classes: home-page
               <span class="inner-chevron">▾</span>
             </button>
             <div class="inner-body">
-              <p>Every variable has a dedicated metadata page on both OWL and Condor — the same information is presented on both platforms. The <strong>NSHD Condor/OWL Metadata page</strong> covers questionnaire provenance (form, question number, year), linked longitudinal variables, multiple category memberships, value labels, sensitivity flags, and distribution plots. The <strong>NSHD Showcase Metadata page</strong> groups variables with identical Field ID and coding by sweep via Instances, showing participant counts and distributions across all equivalent sweeps on one page. Together they give a complete picture of any variable before including it in a data request.</p>
+              <p>Every variable has a dedicated metadata page on both OWL and Condor — the same information is presented on both platforms. The <strong>NSHD Condor/OWL Metadata page</strong> covers questionnaire provenance (form, question number, year), linked longitudinal variables, multiple category memberships, value labels, sensitivity flags, and distribution plots. The <strong>OWL</strong> also groups variables with identical Field ID and codings, showing participant counts and distributions across all equivalent sweeps on one page. Together they give a complete picture of any variable before including it in a data request.</p>
               <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/variable-metadata/">Go to Variable Metadata Pages →</a>
             </div>
           </div>
@@ -381,7 +381,7 @@ classes: home-page
               <span class="inner-chevron">▾</span>
             </button>
             <div class="inner-body">
-              <p>Longitudinal Search finds only variables collected with <strong>identical question text and coding</strong> across two or more sweeps — grouped by Showcase Field ID, the same strict linkage standard used by the NSHD Showcase. This is a narrower, stricter set than OWL's general Linked &amp; Longitudinal feature, which connects variables for any reason even where coding changed between sweeps.</p>
+              <p>Longitudinal Search finds only variables collected with <strong>identical question text and coding</strong> across two or more sweeps — grouped by Field ID. This is a narrower, stricter set than OWL's general Linked &amp; Longitudinal feature, which connects variables for any reason even where coding changed between sweeps.</p>
               <p>Each result expands into a sweep-by-sweep view: a trajectory chart — a line with a min–max band for continuous variables, or a stacked bar showing the full response distribution for categorical variables — plus a detail table with year, age, and summary statistics for every sweep. Variables can be added to the basket individually per sweep or all at once.</p>
               <a class="inner-link" href="{{ site.baseurl }}/docs/search_methods/longitudinal_variables/longitudinal_search_guide/">Go to Longitudinal Search →</a>
             </div>
