@@ -137,10 +137,12 @@
   }
 }
 
-/* Data Access — sits above Accessing NSHD Data */
-.nav-list > .nav-list-item:has(> .nav-list-expander[aria-label="Accessing NSHD Data submenu"]) {
+/* Metadata Resources — sits above Discover and Exploration.
+   Matched by the page title in the submenu aria-label, so if that page is ever
+   renamed, change the title here too. */
+.nav-list > .nav-list-item:has(> .nav-list-expander[aria-label="Discover and Exploration submenu"]) {
   &::before {
-    content: "Data Access";
+    content: "Metadata Resources";
     display: block;
     font-size: 0.65rem;
     font-weight: 700;
@@ -186,13 +188,13 @@
   }
 }
 
-/* Data sharing - a section of its own, below Explore documentation (nav_order 30; Explore documentation uses the 20s).
+/* Data access & sharing - a section of its own, below Explore documentation (nav_order 30; Explore documentation uses the 20s).
    Same method as Explore documentation: matched by the share icon in the page title, which works when the page is open
    and when it is not, and cannot match anything else. Do not use the share icon (ti-share) for any other top-level page.
    If the icon is ever changed, change it here, in data_sharing.html's title, and in the parent: line of its child pages. */
 .nav-list > .nav-list-item:has(> a.nav-list-link > i.ti-share) {
   &::before {
-    content: "Data sharing";
+    content: "Data access & sharing";
     display: block;
     font-size: 0.65rem;
     font-weight: 700;
