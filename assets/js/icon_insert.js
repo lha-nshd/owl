@@ -47,7 +47,7 @@
 	"create documentation":		"ti-forms",
 	"using doc builder":		"ti-forms",
 	"apply for data":		"ti-share",
-	"access prequisites":	"ti ti-certificate",
+	"access prerequisites":	"ti ti-certificate",
 	"forms and downloads":	"ti ti-forms",
 	"how applications are reviewed":	"ti ti-scale",
 	"after approval":	"ti ti-circle-check",
