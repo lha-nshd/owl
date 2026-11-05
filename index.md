@@ -62,13 +62,12 @@ classes: home-page
       <li><a href="#sec-timeline" data-sec="sec-timeline"><span class="sb-spacer"></span>🕰️ Study Timeline</a></li>
 
       <li class="sb-parent" data-sec="sec-data-access">
-        <a href="#sec-data-access" data-sec="sec-data-access"><span class="sb-caret">▸</span>🗄️ Accessing NSHD Data</a>
+        <a href="#sec-data-access" data-sec="sec-data-access"><span class="sb-caret">▸</span>🗄️ Metadata Resources</a>
         <div class="sb-subgroup">
           <ul class="sb-subgroup-inner">
-            <li class="sb-sub"><a href="#da-overview" data-sec="sec-data-access" data-inner="da-overview">Overview</a></li>
+            <li class="sb-sub"><a href="#da-overview" data-sec="sec-data-access" data-inner="da-overview">Discover and Exploration</a></li>
             <li class="sb-sub"><a href="#da-platforms" data-sec="sec-data-access" data-inner="da-platforms">OWL &amp; Condor</a></li>
             <li class="sb-sub"><a href="#da-vm" data-sec="sec-data-access" data-inner="da-vm">Variable Metadata Pages</a></li>
-            <li class="sb-sub"><a href="#da-ukllc" data-sec="sec-data-access" data-inner="da-ukllc">UK LLC</a></li>
             <li class="sb-sub"><a href="#da-mep" data-sec="sec-data-access" data-inner="da-mep">Metadata Enhancement Project</a></li>
           </ul>
         </div>
@@ -102,10 +101,11 @@ classes: home-page
       </li>
 
       <li class="sb-parent" data-sec="sec-data-sharing">
-        <a href="#sec-data-sharing" data-sec="sec-data-sharing"><span class="sb-caret">▸</span>🤝 Data Sharing</a>
+        <a href="#sec-data-sharing" data-sec="sec-data-sharing"><span class="sb-caret">▸</span>🤝 Data Access &amp; Sharing</a>
         <div class="sb-subgroup">
           <ul class="sb-subgroup-inner">
-            <li class="sb-sub"><a href="#ds-overview" data-sec="sec-data-sharing" data-inner="ds-overview">Data Sharing</a></li>
+            <li class="sb-sub"><a href="#ds-overview" data-sec="sec-data-sharing" data-inner="ds-overview">How to apply</a></li>
+            <li class="sb-sub"><a href="#da-ukllc" data-sec="sec-data-sharing" data-inner="da-ukllc">UK LLC</a></li>
             <li class="sb-sub"><a href="#ds-numbers" data-sec="sec-data-sharing" data-inner="ds-numbers">Metrics and Trends</a></li>
           </ul>
         </div>
@@ -203,7 +203,7 @@ classes: home-page
             </button>
             <div class="inner-body">
               <p>Every variable in the OWL has its own metadata page, accessible by clicking the variable name in any results table. This page explains what each field on that page means — from the variable code and field ID through to derived status, units, and notes — and how to interpret the frequency distribution plots, including the exclusion rules that apply to both categorical (low cell count suppression) and continuous (5th–95th percentile trimming) variables.</p>
-              <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/variable-metadata/">Go to Variable Metadata →</a>
+              <a class="inner-link" href="{{ site.baseurl }}/docs/discover-exploration/variable-metadata/">Go to Variable Metadata →</a>
             </div>
           </div>
 
@@ -253,7 +253,7 @@ classes: home-page
     <div class="sec-row" id="sec-data-access">
       <button class="sec-trigger" aria-expanded="false">
         <span class="sec-icon"><i class="ti ti-database-share" aria-hidden="true"></i></span>
-        <span class="sec-title">Accessing NSHD Data</span>
+        <span class="sec-title">Metadata Resources</span>
         <span class="sec-chevron">▾</span>
       </button>
       <div class="sec-body">
@@ -262,12 +262,12 @@ classes: home-page
           <div class="inner-item" id="da-overview">
             <button class="inner-trigger" aria-expanded="false">
               <span class="inner-icon"><i class="ti ti-database-share" aria-hidden="true"></i></span>
-              <span class="inner-title">Overview — the three platforms</span>
+              <span class="inner-title">Discover and Exploration</span>
               <span class="inner-chevron">▾</span>
             </button>
             <div class="inner-body">
-              <p>The NSHD data sharing infrastructure is made up of three complementary platforms, plus a fourth external route for linked data. <strong>OWL</strong> is where you discover and explore variables — no registration required. <strong>Condor</strong> holds the full 35,000+ variable set and is where baskets are built, saved, and shared before a data request is submitted — registration is required. <strong>Skylark</strong> is the data access information and forms portal where the formal Data Access Request Form is submitted. Separately, <strong>UK LLC</strong> is a national Trusted Research Environment that links NSHD data to over 20 other UK longitudinal studies and NHS/administrative records, for researchers who need NSHD variables analysed alongside other cohorts rather than on their own.</p>
-              <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/">Go to Accessing NSHD Data →</a>
+              <p>The starting point for finding out what is in the NSHD and how OWL fits alongside the other platforms. <strong>OWL</strong> is where you discover and explore variables — no registration required — and its metadata is mirrored on <strong>Condor</strong>, which holds the full 35,000+ variable set. This page sets out how the platforms relate, and points on to the variable metadata pages, the Metadata Enhancement Project, and the routes for applying for data (Condor and Skylark, or UK LLC) under Data Access &amp; Sharing.</p>
+              <a class="inner-link" href="{{ site.baseurl }}/docs/discover-exploration/">Go to Discover and Exploration →</a>
             </div>
           </div>
 
@@ -279,7 +279,7 @@ classes: home-page
             </button>
             <div class="inner-body">
               <p>OWL covers around 28,000 cleaned variables — those processed as part of the Metadata Enhancement Project. Condor holds the full 35,000+ variable set including variables not yet cleaned. Use OWL to discover variables using questionnaires, topic pages, and metadata, check participant counts and distributions; upload your OWL basket to Condor to finalise and share it; then submit your formal application via Skylark. Baskets cannot be submitted directly from OWL or Condor — the Data Access Request Form is on Skylark.</p>
-              <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/owl-condor/">Go to OWL and Condor →</a>
+              <a class="inner-link" href="{{ site.baseurl }}/docs/discover-exploration/owl-condor/">Go to OWL and Condor →</a>
             </div>
           </div>
 
@@ -291,19 +291,7 @@ classes: home-page
             </button>
             <div class="inner-body">
               <p>Every variable has a dedicated metadata page on both OWL and Condor — the same information is presented on both platforms. The <strong>NSHD Condor/OWL Metadata page</strong> covers questionnaire provenance (form, question number, year), linked longitudinal variables, multiple category memberships, value labels, sensitivity flags, and distribution plots. The <strong>OWL</strong> also groups variables with identical Field ID and codings, showing participant counts and distributions across all equivalent sweeps on one page. Together they give a complete picture of any variable before including it in a data request.</p>
-              <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/variable-metadata/">Go to Variable Metadata Pages →</a>
-            </div>
-          </div>
-
-          <div class="inner-item" id="da-ukllc">
-            <button class="inner-trigger" aria-expanded="false">
-              <span class="inner-icon"><i class="ti ti-link" aria-hidden="true"></i></span>
-              <span class="inner-title">UK LLC</span>
-              <span class="inner-chevron">▾</span>
-            </button>
-            <div class="inner-body">
-              <p>Alongside Condor and Skylark, NSHD data can also be accessed via the <strong>UK Longitudinal Linkage Collaboration (UK LLC)</strong> — a national Trusted Research Environment that links NSHD data to more than 20 other UK longitudinal studies, plus NHS, education and other administrative records. NSHD datasets are deposited into UK LLC continuously; a full catalogue of what's been deposited so far, including the variables each dataset contains, is searchable from the <a href="{{ site.baseurl }}/docs/search_methods/ukllc_catalogue">UK LLC Catalogue</a>. Use this route when your research needs NSHD variables analysed alongside other cohorts or linked records, rather than NSHD data on its own — accreditation and applications go through UK LLC directly, separately from Condor and Skylark.</p>
-              <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/ukllc/">Go to UK LLC →</a>
+              <a class="inner-link" href="{{ site.baseurl }}/docs/discover-exploration/variable-metadata/">Go to Variable Metadata Pages →</a>
             </div>
           </div>
 
@@ -315,7 +303,7 @@ classes: home-page
             </button>
             <div class="inner-body">
               <p>The Metadata Enhancement Project is an ongoing programme of work to transform the quality of variable metadata across the full NSHD repository. Around 28,000 variables have been cleaned so far — with expanded labels, age at collection, standardised longitudinal labels, a new hierarchical category structure, derived status flags, missing value codes, value label consistency, and new fields including Units, Notes, sensitive flags, and distribution plots. The remaining ~7,000 variables are available on Condor only while work continues. The project is due for completion at the end of 2027.</p>
-              <a class="inner-link" href="{{ site.baseurl }}/docs/accessing-nshd-data/metadata-enhancement-project/">Go to Metadata Enhancement Project →</a>
+              <a class="inner-link" href="{{ site.baseurl }}/docs/discover-exploration/metadata-enhancement-project/">Go to Metadata Enhancement Project →</a>
             </div>
           </div>
 
@@ -500,23 +488,35 @@ classes: home-page
     <div class="sec-row" id="sec-data-sharing">
       <button class="sec-trigger" aria-expanded="false">
         <span class="sec-icon"><i class="ti ti-share" aria-hidden="true"></i></span>
-        <span class="sec-title">Data Sharing</span>
+        <span class="sec-title">Data Access &amp; Sharing</span>
         <span class="sec-chevron">▾</span>
       </button>
       <div class="sec-body">
-        <p>NSHD shares its data with researchers around the world, and every application is for a specific project and a specific set of variables. This section explains how to apply and what happens afterwards, and reports on the numbers behind data sharing. See the <a href="{{ site.baseurl }}/docs/data_sharing/">Data Sharing</a> page to get started. To see the projects that have already been approved, use <a href="{{ site.baseurl }}/docs/search_methods/discover-projects">Discover Projects</a> under Search Methods.</p>
+        <p>NSHD shares its data with researchers around the world, and every application is for a specific project and a specific set of variables. This section explains how to apply, the routes to the data (Condor and Skylark, or UK LLC) and what happens afterwards, and reports on the numbers behind data sharing. See the <a href="{{ site.baseurl }}/docs/data_sharing/">Apply for Data</a> page to get started. To see the projects that have already been approved, use <a href="{{ site.baseurl }}/docs/search_methods/discover-projects">Discover Projects</a> under Search Methods.</p>
         <div class="inner-accordion">
 
           <div class="inner-item" id="ds-overview">
             <button class="inner-trigger" aria-expanded="false">
               <span class="inner-icon"><i class="ti ti-share" aria-hidden="true"></i></span>
-              <span class="inner-title">Data Sharing</span>
+              <span class="inner-title">How to apply</span>
               <span class="inner-chevron">▾</span>
             </button>
             <div class="inner-body">
               <p>The starting point for anyone who wants to use NSHD data. It sets out how to apply in six steps — choosing your variables on OWL, Condor or the data dictionary, completing the data dictionary, finalising and saving your basket in Condor to get a basket ID, submitting the data request form on Skylark, the review by NSHD, and receiving your data through the UCL Data Safe Haven — with links straight to the two Skylark forms.</p>
               <p>It also explains, in plain terms, what happens after you apply: how your request is logged and passed to the data sharing committee, the confidentiality forms you will be sent to complete, how a basket is linked to your project using your application form ID, and how the automated process introduced in 2022 and NSHD's internal project records system keep everything up to date without you having to chase.</p>
-              <a class="inner-link" href="{{ site.baseurl }}/docs/data_sharing/">Go to Data Sharing →</a>
+              <a class="inner-link" href="{{ site.baseurl }}/docs/data_sharing/">Go to Apply for Data →</a>
+            </div>
+          </div>
+
+          <div class="inner-item" id="da-ukllc">
+            <button class="inner-trigger" aria-expanded="false">
+              <span class="inner-icon"><i class="ti ti-link" aria-hidden="true"></i></span>
+              <span class="inner-title">UK LLC</span>
+              <span class="inner-chevron">▾</span>
+            </button>
+            <div class="inner-body">
+              <p>Alongside Condor and Skylark, NSHD data can also be accessed via the <strong>UK Longitudinal Linkage Collaboration (UK LLC)</strong> — a national Trusted Research Environment that links NSHD data to more than 20 other UK longitudinal studies, plus NHS, education and other administrative records. NSHD datasets are deposited into UK LLC continuously; a full catalogue of what's been deposited so far, including the variables each dataset contains, is searchable from the <a href="{{ site.baseurl }}/docs/search_methods/ukllc_catalogue">UK LLC Catalogue</a>. Use this route when your research needs NSHD variables analysed alongside other cohorts or linked records, rather than NSHD data on its own — accreditation and applications go through UK LLC directly, separately from Condor and Skylark.</p>
+              <a class="inner-link" href="{{ site.baseurl }}/docs/data_sharing/ukllc/">Go to UK LLC →</a>
             </div>
           </div>
 
