@@ -32,9 +32,7 @@ permalink: /docs/data_sharing/process-overview/
   </div>
 
   <style>
-  .owl-flow { background:#fff; border:1px solid #ddd; border-radius:10px; padding:18px 20px 20px; margin-bottom:26px; }
-  .owl-flow h2 { margin:0 0 4px; font-size:17px; color:#3a0066; }
-  .owl-flow > p.lead { margin:0 0 14px; font-size:13px; color:#555; }
+  .owl-flow > p.lead { margin:0 0 14px; }
   .owl-flow .scroll { overflow-x:auto; }
   .owl-flow svg { display:block; width:100%; min-width:860px; height:auto; }
   .owl-flow svg text { font-family: Arial, sans-serif; fill:#2a2a2a; }
@@ -81,10 +79,13 @@ permalink: /docs/data_sharing/process-overview/
     .owl-flow .fl-fan { grid-template-columns:1fr; }
     .owl-flow .fl-fan::before, .owl-flow .fl-card::before { display:none; }
   }
-  </style>
+    .owl-flow .fl-dl { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
+  .owl-flow .fl-dl button { font:inherit; font-size:12px; font-weight:700; color:#6a0dad; background:#fff; border:1px solid #6a0dad; border-radius:14px; padding:4px 13px; cursor:pointer; }
+  .owl-flow .fl-dl button:hover, .owl-flow .fl-dl button:focus-visible { background:#6a0dad; color:#fff; }
+</style>
 
-  <section class="owl-flow" id="flow-process">
-    <h2>From first look to receiving your data</h2>
+  <section class="home-section gs-card-blue owl-flow" id="flow-process">
+    <h2><i class="ti ti-route" aria-hidden="true"></i> From first look to receiving your data</h2>
     <p class="lead">Who does what, and in what order. Read left to right.</p>
     <div class="scroll">
     <svg viewBox="0 0 1108 632" role="img" aria-labelledby="fp-t fp-d">
@@ -175,6 +176,10 @@ permalink: /docs/data_sharing/process-overview/
 <g font-size="10.5" text-anchor="middle"><text x="520.0" y="540">Not approved? You can</text><text x="520.0" y="554">appeal to the LHA Director.</text></g>
 </svg>
     </div>
+    <div class="fl-dl" data-flow-download>
+      <button type="button" data-type="png"><i class="ti ti-download" aria-hidden="true"></i> Download as image (PNG)</button>
+      <button type="button" data-type="svg"><i class="ti ti-download" aria-hidden="true"></i> Download as SVG</button>
+    </div>
     <details>
       <summary>Text version of this diagram</summary>
       <ol>
@@ -191,8 +196,8 @@ permalink: /docs/data_sharing/process-overview/
     </details>
   </section>
 
-  <section class="owl-flow" id="flow-route">
-    <h2>Which route do I use?</h2>
+  <section class="home-section gs-card-search owl-flow" id="flow-route">
+    <h2><i class="ti ti-arrows-split" aria-hidden="true"></i> Which route do I use?</h2>
     <p class="lead">Most projects use Condor. Use UK LLC when you need NSHD linked to other studies or records.</p>
     <div class="fl-center"><span class="fl-q">What does your research need?</span><div class="fl-stem"></div></div>
     <div class="fl-grid2">
@@ -222,8 +227,8 @@ permalink: /docs/data_sharing/process-overview/
     </div>
   </section>
 
-  <section class="owl-flow" id="flow-prereq">
-    <h2>What do I need to complete?</h2>
+  <section class="home-section gs-card-explore owl-flow" id="flow-prereq">
+    <h2><i class="ti ti-checklist" aria-hidden="true"></i> What do I need to complete?</h2>
     <p class="lead">Answer three questions to see which prerequisites apply to you. You are asked for each one by email, so you do not attach them to your application.</p>
 
     <div class="fl-always"><b>Everyone:</b> sign the Data Safe Haven Approved Researcher Agreement and send your contact details to the team.</div>
@@ -249,8 +254,8 @@ permalink: /docs/data_sharing/process-overview/
     <a class="fl-link" href="{{ site.baseurl }}/docs/data_sharing/prerequisites/">Access Prerequisites &rarr;</a>
   </section>
 
-  <section class="owl-flow" id="flow-after">
-    <h2>After approval: what do I do next?</h2>
+  <section class="home-section gs-card-basket owl-flow" id="flow-after">
+    <h2><i class="ti ti-circle-check" aria-hidden="true"></i> After approval: what do I do next?</h2>
     <p class="lead">Your project is approved and you are working in the Data Safe Haven. Pick the situation that matches.</p>
     <div class="fl-center"><span class="fl-q">Project approved</span><div class="fl-stem" style="height:9px"></div></div>
     <div class="fl-fan">
@@ -287,5 +292,46 @@ permalink: /docs/data_sharing/process-overview/
 
     </div>
   </section>
+
+<script>
+(function () {
+  function prep(svg) {
+    var c = svg.cloneNode(true);
+    c.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+    var vb = svg.viewBox.baseVal;
+    c.setAttribute("width", vb.width); c.setAttribute("height", vb.height);
+    var st = document.createElementNS("http://www.w3.org/2000/svg", "style");
+    st.textContent = "text{font-family:Arial,Helvetica,sans-serif;fill:#2a2a2a}";
+    c.insertBefore(st, c.firstChild);
+    var bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    bg.setAttribute("width", "100%"); bg.setAttribute("height", "100%"); bg.setAttribute("fill", "#ffffff");
+    c.insertBefore(bg, st.nextSibling);
+    return { xml: new XMLSerializer().serializeToString(c), w: vb.width, h: vb.height };
+  }
+  function save(blob, name) {
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+  }
+  document.querySelectorAll("[data-flow-download]").forEach(function (box) {
+    var svg = box.closest(".owl-flow").querySelector("svg");
+    box.querySelector("[data-type=svg]").addEventListener("click", function () {
+      save(new Blob([prep(svg).xml], { type: "image/svg+xml" }), "nshd-data-sharing-process.svg");
+    });
+    box.querySelector("[data-type=png]").addEventListener("click", function () {
+      var p = prep(svg), img = new Image(), scale = 2;
+      img.onload = function () {
+        var cv = document.createElement("canvas");
+        cv.width = p.w * scale; cv.height = p.h * scale;
+        var ctx = cv.getContext("2d"); ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, cv.width, cv.height);
+        ctx.drawImage(img, 0, 0, cv.width, cv.height);
+        cv.toBlob(function (b) { save(b, "nshd-data-sharing-process.png"); }, "image/png");
+      };
+      img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(p.xml);
+    });
+  });
+})();
+</script>
 
 </div>
