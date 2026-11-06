@@ -1,12 +1,12 @@
 {
   "meta": {
-    "version": "0.2-draft",
+    "version": "0.1-draft",
     "status": "draft",
-    "scope": "Applying for NSHD data, what happens after approval, and finding variables. Answers come from the OWL Data Sharing pages (Apply for Data and its sub-pages) and the OWL search and documentation pages.",
+    "scope": "Applying for NSHD data. Answers come from the OWL Data Sharing page and the Skylark Access page.",
     "owner": "[LHA content owner to be named]",
-    "lastReviewed": "2026-11-06",
+    "lastReviewed": "2026-11-04",
     "feedbackUrl": "",
-    "contactUrl": "{{OWL}}/docs/data_sharing/faqs/"
+    "contactUrl": "https://skylark.ucl.ac.uk/NSHD/access"
   },
   "groups": [
     {
@@ -28,10 +28,6 @@
     {
       "id": "vars",
       "label": "Find variables"
-    },
-    {
-      "id": "approved",
-      "label": "After approval"
     }
   ],
   "synonyms": {
@@ -154,62 +150,15 @@
       "login",
       "log in"
     ],
-    "training": [
-      "course",
-      "elfh",
-      "e-lfh",
-      "certificate",
-      "data security awareness"
-    ],
-    "agreement": [
-      "dsa",
-      "data sharing agreement",
-      "ara",
-      "approved researcher agreement",
-      "contract"
-    ],
-    "output": [
-      "outputs",
-      "results",
-      "tables",
-      "figures",
-      "export",
-      "take out"
-    ],
-    "extension": [
-      "extend",
-      "extending",
-      "expire",
-      "expires",
-      "expiry",
-      "prolong"
-    ],
-    "diagram": [
-      "flowchart",
-      "flow chart",
-      "picture",
-      "visual",
-      "overview"
-    ],
-    "appeal": [
-      "appeals",
-      "rejected",
-      "rejection",
-      "declined",
-      "not approved",
-      "refused"
-    ],
-    "ukllc": [
-      "uk llc",
-      "linked data",
+    "linked data": [
       "linkage",
-      "other cohorts",
-      "other studies"
-    ],
-    "secure share": [
-      "share",
-      "deposit",
-      "shared folder"
+      "linked",
+      "linked dataset",
+      "linked datasets",
+      "data linkage",
+      "ukllc",
+      "uk llc",
+      "uk longitudinal linkage collaboration"
     ]
   },
   "stopwords": [
@@ -263,20 +212,16 @@
       "id": "how-to-apply",
       "group": "apply",
       "question": "How do I apply for NSHD data?",
-      "keywords": "apply application how to get data request start begin steps process requesting access request access apply for data diagram flowchart stages overview",
-      "answer": "<p>Each application is for one project and a set of variables. The steps are:</p><ol><li>Explore the variables on OWL, then build a basket in Condor. You get a basket ID.</li><li>Complete the data dictionary if you are asked to, and upload it to Condor to finalise your basket.</li><li>Submit the Data Access Request Form. You can include your basket ID, or send it any time after your project is approved.</li><li>The Science Support Team reviews your request and the Data Sharing Committee decides. This takes 30 days at most, usually about two weeks.</li><li>If approved, you are emailed for the prerequisites, invited to Information Governance training, and your secure share and Data Safe Haven account are set up.</li><li>You get access to your data in the UCL Data Safe Haven.</li></ol>",
+      "keywords": "apply application how to get data request start begin steps process requesting access request access apply for data",
+      "answer": "<p>Each application is for one project and a set of variables. The steps are:</p><ol><li>Choose the variables you need by searching or browsing OWL, Condor or the data dictionary.</li><li>Complete the data dictionary.</li><li>Upload it to Condor to finalise your basket.</li><li>Submit the Data Access Request Form, attaching the completed data dictionary.</li><li>NSHD reviews your application.</li><li>If approved, your data is made available through the UCL Data Safe Haven.</li></ol>",
       "links": [
         {
           "label": "Apply for data",
           "url": "{{OWL}}/docs/data_sharing/"
         },
         {
-          "label": "The process as a diagram",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-process"
-        },
-        {
           "label": "Data Access Request Form",
-          "url": "https://forms.office.com/r/EENrCBYbsM"
+          "url": "https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=_oivH5ipW0yTySEKEdmlwuGYbwfRSjVBmdFcTbASQnlUNzNWV0NGVjUyUldJSElFSU1BS0lMNkVZTiQlQCN0PWcu"
         }
       ],
       "reviewed": "2026-11-04",
@@ -292,15 +237,12 @@
       "group": "apply",
       "question": "What do I need before I apply?",
       "keywords": "prerequisite prerequisites before need require requirements eligible eligibility ready criteria ethics ethical approval training agreement agreements governance first",
-      "answer": "<p>Have a defined project, the list of variables you need, and your basket. Four things must also be completed before you can be given access. You do not attach them to your application: you are emailed for each one as it progresses.</p><ul><li><b>Data Security Awareness Training</b>, renewed every 12 months.</li><li><b>UCL Data Safe Haven access</b>: a signed Approved Researcher Agreement and your contact details.</li><li><b>Confidentiality Form</b>, on your first application only. Every applicant must return one.</li><li><b>Data Sharing Agreement</b>, only if your institution has not shared data with NSHD before.</li></ul>",
+      "answer": "<p>Have a defined project, the list of variables you need, and a completed data dictionary. For the full list of conditions that apply before you can be given access, see the Access Prerequisites on the data access pages.</p>",
+      "tbc": "Formal prerequisites (agreements, approvals, training, ethics) are not stated on the pages used. LHA to confirm and replace this answer with the official list.",
       "links": [
         {
           "label": "Access Prerequisites",
-          "url": "{{OWL}}/docs/data_sharing/prerequisites/"
-        },
-        {
-          "label": "Which prerequisites apply to me?",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-prereq"
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
         }
       ],
       "reviewed": "2026-11-04",
@@ -317,7 +259,7 @@
       "group": "apply",
       "question": "Which form do I complete?",
       "keywords": "form forms which complete fill paperwork new project additional users extension output checklist link apply url",
-      "answer": "<ul><li><b>A new project:</b> the Data Access Request Form.</li><li><b>An approved project, to add variables or users:</b> the Additional Users / Data Request form.</li><li><b>Taking results out of the Data Safe Haven:</b> the DSH Output Request form.</li><li><b>Before you publish:</b> the Pre-publication Checklist (a Word download).</li><li><b>Extending a project:</b> the Project Extension Request (a Word download).</li></ul>",
+      "answer": "<ul><li><b>A new project:</b> the Data Access Request Form.</li><li><b>An approved project, to add variables or users:</b> the Additional Users / Data Request form.</li><li><b>Later stages:</b> the DSH Output Request, the Pre-publication Checklist and the Project Extension Request each have their own form.</li></ul>",
       "links": [
         {
           "label": "Data Access Request Form",
@@ -328,8 +270,8 @@
           "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwuGYbwfRSjVBmdFcTbASQnlUN0tLNU42TzJIR0hEUkhIQkFQQk04UzJSMSQlQCN0PWcu&route=shorturl"
         },
         {
-          "label": "All forms and downloads",
-          "url": "{{OWL}}/docs/data_sharing/forms/"
+          "label": "All forms (Access page)",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
         }
       ],
       "reviewed": "2026-11-04",
@@ -365,41 +307,62 @@
       "id": "choose-variables",
       "group": "apply",
       "question": "How do I find the variables I need?",
-      "keywords": "find choose select search browse variables variable explore look ways methods searches different options overview",
-      "answer": "<p>There are several ways to search for variables, depending on where you want to start:</p><ul><li><b>Search Data Dictionary:</b> search variable names and labels by keyword.</li><li><b>Browse by Category:</b> follow topics and subtopics.</li><li><b>Search by Year:</b> start from the year or sweep a variable was collected.</li><li><b>Popular variables:</b> a starting list of frequently requested variables.</li><li><b>Longitudinal search:</b> variables measured the same way across two or more sweeps.</li><li><b>Search Documentation:</b> write-ups and data notes about variables and datasets.</li><li><b>Discover Projects:</b> what approved projects have asked for.</li><li><b>UK LLC Catalogue:</b> the NSHD datasets deposited into UK LLC.</li></ul><p>Add any variable to your basket from the results.</p>",
+      "keywords": "find choose select search browse variables variable explore look",
+      "answer": "<p>Search or browse OWL, Condor or the data dictionary. On OWL you can search the data dictionary, browse by category, view popular variables, search by year or longitudinally, use the UK LLC catalogue, and see what other projects asked for.</p>",
       "links": [
-        {
-          "label": "Search methods overview",
-          "url": "{{OWL}}/docs/search_methods/search_overview/"
-        },
         {
           "label": "Discover Projects",
           "url": "{{OWL}}/docs/search_methods/discover-projects"
+        },
+        {
+          "label": "Apply for data",
+          "url": "{{OWL}}/docs/data_sharing/"
         }
       ],
       "reviewed": "2026-11-04",
       "examples": [
         "how do I search for variables",
-        "how do I know which variables to ask for",
-        "what ways are there to search",
-        "what search options are there",
-        "which search should I use"
+        "how do I know which variables to ask for"
       ]
+    },
+    {
+      "id": "condor-or-ukllc",
+      "group": "apply",
+      "question": "Should I use Condor or UK LLC?",
+      "keywords": "condor ukllc uk llc linked data linkage linked non ucl external outside university which choose use platform subset catalogue",
+      "answer": "<p>It depends on the data you need.</p><ul><li><b>Linked data:</b> unless you are a UCL employee or researcher, you must use UK LLC. If you are not at UCL and want linked data, UK LLC is your only option.</li><li><b>Standard NSHD data:</b> UK LLC holds only a small subset. Check the UK LLC catalogue to see what is available there.</li></ul>",
+      "links": [
+        {
+          "label": "UK LLC Catalogue",
+          "url": "{{OWL}}/docs/search_methods/ukllc_catalogue"
+        },
+        {
+          "label": "Apply for data",
+          "url": "{{OWL}}/docs/data_sharing/"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "should I use condor or UK LLC",
+        "I am not at UCL, can I get linked data",
+        "how do I get linked data",
+        "can I get linked data from condor",
+        "which platform should I use for my data request",
+        "is all NSHD data in UK LLC"
+      ],
+      "tbc": "Confirm that UCL employees and researchers can request linked data through Condor, and add how non-UCL applicants apply through UK LLC (link and cost)."
     },
     {
       "id": "cost",
       "group": "apply",
       "question": "What does it cost?",
-      "keywords": "cost price fee fees charge charges pay payment free money how much no cost free of charge currently",
-      "answer": "<p>There is currently no cost to access NSHD data.</p><p>Applicants based outside the UK may have to pay a fee for the Data Security Awareness course, so include it in your grant budget.</p>",
+      "keywords": "cost price fee fees charge charges pay payment free money how much",
+      "answer": "<p>The data access pages do not state a cost. Please contact the data sharing team to ask.</p>",
+      "tbc": "Costs are not stated on the pages used. LHA to confirm whether there is a charge and replace this answer.",
       "links": [
         {
-          "label": "Limits and cost",
-          "url": "{{OWL}}/docs/data_sharing/review-process/#parameters"
-        },
-        {
-          "label": "Data Security Awareness Training",
-          "url": "{{OWL}}/docs/data_sharing/prerequisites/#training"
+          "label": "Contact the team",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
         }
       ],
       "reviewed": "2026-11-04",
@@ -413,16 +376,12 @@
       "id": "after-submit",
       "group": "after",
       "question": "What happens after I submit?",
-      "keywords": "after submit submitted happens next process review committee approved approval stages reviews reviewed reviewer who decides decision assess assessed confidentiality sign agreement stages confirmation email received secure share",
-      "answer": "<ol><li>You are emailed to confirm your request has been received. If you have heard nothing within 10 working days, contact the team.</li><li>The Science Support Team reviews your request and basket.</li><li>The Data Sharing Committee decides: approved, or more information needed. A decision takes 30 days at most, usually about two weeks. You are emailed if there is a delay.</li><li>If approved, you are emailed for your prerequisites, the Data Safe Haven team invites you to Information Governance training, and the Science Support Team sets up your secure share and requests your Data Safe Haven account.</li><li>You then get access to your data in the UCL Data Safe Haven.</li></ol>",
+      "keywords": "after submit submitted happens next process review committee approved approval stages reviews reviewed reviewer who decides decision assess assessed confidentiality sign agreement stages",
+      "answer": "<ol><li>Your request is logged and the data sharing team is notified.</li><li>The data sharing committee reviews it and either approves it or asks you questions.</li><li>You complete the confidentiality forms, which are emailed to you as each stage finishes.</li><li>Once everything is approved, your basket is built and the data is made available through the UCL Data Safe Haven.</li></ol>",
       "links": [
         {
-          "label": "How applications are reviewed",
-          "url": "{{OWL}}/docs/data_sharing/review-process/"
-        },
-        {
-          "label": "The process as a diagram",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-process"
+          "label": "Apply for data",
+          "url": "{{OWL}}/docs/data_sharing/"
         }
       ],
       "reviewed": "2026-11-04",
@@ -439,16 +398,13 @@
       "id": "how-long",
       "group": "after",
       "question": "How long does it take?",
-      "keywords": "long time take weeks months days turnaround wait waiting timescale duration soon quickly speed quickly processed processing fast speed decision approval maximum 30 days two weeks month confirmation",
-      "answer": "<ul><li><b>Confirmation:</b> you are emailed to say your request was received. If you have heard nothing within 10 working days, contact the team.</li><li><b>Decision:</b> 30 days at most, and usually about two weeks, depending on committee meeting dates. You are emailed if there is a delay.</li><li><b>Data:</b> once you are approved and the prerequisites are complete, data are typically received within about a month.</li></ul><p>Requests for many variables take longer, because they need a more thorough risk assessment. Later baskets within the same project may also be delayed if the queue is long.</p>",
+      "keywords": "long time take weeks months days turnaround wait waiting timescale duration soon quickly speed quickly processed processing fast speed",
+      "answer": "<p>Turnaround times since 2021 are reported on the Metrics and Trends page. Requests for a large number of variables take longer, because they go through a more thorough risk assessment.</p>",
+      "tbc": "No official timescale is stated on the pages used. LHA to confirm whether one can be given.",
       "links": [
         {
-          "label": "Correspondence and timings",
-          "url": "{{OWL}}/docs/data_sharing/review-process/#timings"
-        },
-        {
-          "label": "The process as a diagram",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-process"
+          "label": "Data sharing pages",
+          "url": "{{OWL}}/docs/data_sharing/"
         }
       ],
       "reviewed": "2026-11-04",
@@ -478,18 +434,9 @@
       "id": "receive-data",
       "group": "after",
       "question": "How will I receive the data?",
-      "keywords": "receive received delivered delivery safe haven dsh where access environment download where get from how do i get the data download access computer laptop secure share account induction training",
-      "answer": "<p>Once your request is approved, the Science Support Team sets up a secure share for your data and requests a UCL Data Safe Haven account for you. You also complete the access prerequisites, and the Data Safe Haven team invites you to Information Governance induction training.</p><p>You then analyse the data inside the Safe Haven. Nothing is copied out to your own machine, and any results you want to take out are checked first.</p>",
-      "links": [
-        {
-          "label": "Receiving your data",
-          "url": "{{OWL}}/docs/data_sharing/after-approval/#receiving"
-        },
-        {
-          "label": "What do I do next?",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-after"
-        }
-      ],
+      "keywords": "receive received delivered delivery safe haven dsh where access environment download where get from how do i get the data download access computer laptop",
+      "answer": "<p>Once your request is approved and your basket has been built, the data is made available through the UCL Data Safe Haven.</p>",
+      "links": [],
       "reviewed": "2026-11-04",
       "examples": [
         "where do I get the data from",
@@ -558,15 +505,11 @@
       "group": "baskets",
       "question": "Can I add variables or users after I have applied?",
       "keywords": "add more later after additional extra users variables change update extend project collaborator colleague forgot missed include omitted",
-      "answer": "<p>Yes. Use the Additional Users / Data Request form to add a user, request an extra basket, or give a basket ID you left out of your application. It can be used at any time, including after your data have been provided.</p><p>If your project was approved before 1 January 2023, do not use the form. Email mrclha.swiftinfo@ucl.ac.uk instead.</p>",
+      "answer": "<p>Yes. Use the Additional Users / Data Request form with your basket ID and the application form ID you were given.</p>",
       "links": [
         {
           "label": "Additional Users / Data Request",
-          "url": "https://forms.office.com/e/sXtamt9knA"
-        },
-        {
-          "label": "Adding users or more data",
-          "url": "{{OWL}}/docs/data_sharing/after-approval/#users-data"
+          "url": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwuGYbwfRSjVBmdFcTbASQnlUN0tLNU42TzJIR0hEUkhIQkFQQk04UzJSMSQlQCN0PWcu&route=shorturl"
         }
       ],
       "reviewed": "2026-11-04",
@@ -581,26 +524,22 @@
       ]
     },
     {
-      "id": "owl-condor",
+      "id": "owl-condor-skylark",
       "group": "baskets",
-      "question": "What is the difference between OWL and Condor?",
+      "question": "What is the difference between OWL, Condor and Skylark?",
       "keywords": "difference owl condor skylark what is which platform systems tools",
-      "answer": "<ul><li><b>OWL</b> is where you discover variables, and where the forms and guidance for applying are. It is public and needs no registration.</li><li><b>Condor</b> holds the full set of variables. It is where you finalise, save and share your basket, and it needs a registered account.</li></ul>",
+      "answer": "<ul><li><b>OWL</b> is where you discover variables. It is public and needs no registration.</li><li><b>Condor</b> holds the full set of variables. It is where you finalise, save and share your basket, and it needs a registered account.</li><li><b>Skylark</b> is the data access information and forms portal.</li></ul>",
       "links": [
         {
-          "label": "OWL and Condor",
-          "url": "{{OWL}}/docs/discover-exploration/owl-condor/"
-        },
-        {
-          "label": "Apply for data",
-          "url": "{{OWL}}/docs/data_sharing/"
+          "label": "Access page",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
         }
       ],
       "reviewed": "2026-11-04",
       "examples": [
         "what is the difference between owl and condor",
-        "which system do I use for what",
-        "where do I find the forms"
+        "what is skylark for",
+        "which system do I use for what"
       ]
     },
     {
@@ -608,7 +547,7 @@
       "group": "baskets",
       "question": "How do I get a Condor account?",
       "keywords": "condor account register registration sign up login log in username approve approved access",
-      "answer": "<ol><li>Use <b>Register</b> in the Condor menu and complete every field marked with an asterisk.</li><li>Email your username to mrclha.swiftinfo@ucl.ac.uk so your account can be approved.</li><li>LHA contacts you by email to confirm. Add their address to your safe senders list.</li></ol>",
+      "answer": "<ol><li>Use <b>Register</b> in the Condor menu and complete every field marked with an asterisk.</li><li>Email your username to MRCLHA.Swiftinfo@ucl.ac.uk so your account can be approved.</li><li>LHA contacts you by email to confirm. Add their address to your safe senders list.</li></ol>",
       "links": [],
       "reviewed": "2026-11-04",
       "examples": [
@@ -621,8 +560,8 @@
       "id": "other-projects",
       "group": "more",
       "question": "What have other researchers asked for?",
-      "keywords": "other researchers projects approved examples similar discover past previous see what discover projects search method",
-      "answer": "<p>Discover Projects lists approved projects, their summaries and the variables each one requested.</p>",
+      "keywords": "other researchers projects approved examples similar discover past previous see what",
+      "answer": "<p>Discover Projects lists approved projects, their summaries and the variables each one requested. The Skylark site also lists approved data access requests.</p>",
       "links": [
         {
           "label": "Discover Projects",
@@ -640,20 +579,12 @@
       "id": "cite",
       "group": "more",
       "question": "How do I cite NSHD data?",
-      "keywords": "cite citation citing reference acknowledge acknowledgement publish publication paper doi dois datacite digital object identifier",
-      "answer": "<p>NSHD datasets have DataCite DOIs, and authors must cite them in any publication that uses the data. The NSHD website gives the DOIs and how to cite them. Before you submit a paper to a journal, complete the Pre-publication Checklist so the committee can review it first.</p>",
+      "keywords": "cite citation citing reference acknowledge acknowledgement publish publication paper",
+      "answer": "<p>The Data Sharing Process section of the data access pages has a page on how to cite NSHD datasets. Before you publish, there is also a Pre-publication Checklist.</p>",
       "links": [
         {
-          "label": "How to cite NSHD datasets",
-          "url": "https://nshd.mrc.ac.uk/data-sharing/nshd-digital-object-identifiers/"
-        },
-        {
-          "label": "Citing NSHD datasets",
-          "url": "{{OWL}}/docs/data_sharing/after-approval/#citing"
-        },
-        {
-          "label": "Before you publish",
-          "url": "{{OWL}}/docs/data_sharing/after-approval/#publishing"
+          "label": "Access page",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
         }
       ],
       "reviewed": "2026-11-04",
@@ -668,11 +599,12 @@
       "group": "more",
       "question": "Who can I ask before I apply?",
       "keywords": "contact who ask help email phone speak talk question team lha unsure advice",
-      "answer": "<p>Contact the NSHD data sharing team at mrclha.swiftinfo@ucl.ac.uk if you are unsure about project fit, the data dictionary or your application.</p>",
+      "answer": "<p>Contact the NSHD data sharing team if you are unsure about project fit, the data dictionary or your application.</p>",
+      "tbc": "Contact details are not stated on the pages used. LHA to confirm an email address or form to show here.",
       "links": [
         {
-          "label": "Data Access FAQs",
-          "url": "{{OWL}}/docs/data_sharing/faqs/"
+          "label": "Contact details",
+          "url": "https://skylark.ucl.ac.uk/NSHD/access"
         }
       ],
       "reviewed": "2026-11-04",
@@ -681,606 +613,6 @@
         "who can I ask for help",
         "how do I speak to someone at lha",
         "is there an email address for questions"
-      ]
-    },
-    {
-      "id": "route-ukllc",
-      "group": "apply",
-      "question": "Should I use Condor or UK LLC?",
-      "keywords": "route condor ukllc uk llc linked linkage other cohorts studies nhs administrative records which platform choose linked data get ucl employee non-ucl external outside access only",
-      "answer": "<ul><li><b>NSHD data on its own:</b> if you are employed by UCL, build a basket in Condor, then apply with the Data Access Request Form.</li><li><b>Not employed by UCL:</b> NSHD data can only be accessed through UK LLC.</li><li><b>NSHD linked to other cohorts or to NHS and administrative records:</b> use UK LLC.</li></ul><p>UK LLC does not have every NSHD variable yet. Datasets are deposited regularly, so keep checking the UK LLC catalogue.</p>",
-      "links": [
-        {
-          "label": "Which route do I use?",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-route"
-        },
-        {
-          "label": "UK LLC",
-          "url": "{{OWL}}/docs/discover-exploration/ukllc/"
-        },
-        {
-          "label": "Apply for data",
-          "url": "{{OWL}}/docs/data_sharing/"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "should I use UK LLC or Condor",
-        "can I link NSHD to other studies",
-        "how do I get linked data",
-        "do I need UK LLC",
-        "which route do I use to get data",
-        "I do not work at UCL",
-        "can I access the data if I am not at UCL"
-      ]
-    },
-    {
-      "id": "eligibility",
-      "group": "apply",
-      "question": "Who can apply for NSHD data?",
-      "keywords": "who can apply eligible eligibility bona fide researcher student students supervisor co-applicant institution organisation phd",
-      "answer": "<p>Applicants must be bona fide researchers at an MRC-recognised organisation, with the expertise the project needs. Students need a supervisor as co-applicant.</p><p>Proposals are also expected to stay within study members' consent and to pose no risk to the study's viability or reputation.</p>",
-      "links": [
-        {
-          "label": "The review and criteria",
-          "url": "{{OWL}}/docs/data_sharing/review-process/#review"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "can students apply",
-        "am I eligible to apply",
-        "who is allowed to request data",
-        "can a PhD student apply",
-        "do I need a supervisor"
-      ]
-    },
-    {
-      "id": "facilitated",
-      "group": "apply",
-      "question": "What is a facilitated collaboration?",
-      "keywords": "facilitated collaboration collaborator sensitive data cause of death emigration cancer registration biomedical conditions extra",
-      "answer": "<p>Some requests are handled as a facilitated collaboration, which may come with extra conditions. Examples are sensitive data (such as cause and date of death, residential or emigration history, cancer registration or NHS Digital data), extensive biomedical data, data not yet through full quality assurance, and proposals needing a lot of study team time.</p><p>NHS Digital data is available through the NSHD to UCL researchers only. Everyone else can access it through UK LLC.</p><p>If you think your project may need a facilitated collaboration, mention it when you apply, or contact the team first.</p>",
-      "links": [
-        {
-          "label": "Facilitated collaborations",
-          "url": "{{OWL}}/docs/data_sharing/review-process/#facilitated"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "what is a facilitated collaboration",
-        "do I need a collaborator",
-        "can I request sensitive data",
-        "can I get cause of death data",
-        "extra conditions on my request"
-      ]
-    },
-    {
-      "id": "training",
-      "group": "apply",
-      "question": "What training do I need, and how do I renew it?",
-      "keywords": "training course data security awareness elfh e-lfh certificate renew renewal expire 12 months upload certificate learning account",
-      "answer": "<ul><li><b>New users:</b> pass the Data Security Awareness course on the e-LfH portal. You need an e-LfH account registered with your academic email address. Keep your certificate, because you are asked for it later.</li><li><b>Existing users:</b> renew every 12 months and upload your new certificate using the certificate upload form.</li></ul><p>Applicants based outside the UK may have to pay a fee for the course, so include it in your grant budget.</p>",
-      "links": [
-        {
-          "label": "Data Security Awareness Training",
-          "url": "{{OWL}}/docs/data_sharing/prerequisites/#training"
-        },
-        {
-          "label": "Certificate upload form",
-          "url": "https://forms.office.com/r/ff3MUyPfy3"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "what training do I need",
-        "how do I renew my training certificate",
-        "where do I do the data security course",
-        "my training has expired",
-        "do I have to pay for the training"
-      ]
-    },
-    {
-      "id": "dsh-account",
-      "group": "apply",
-      "question": "How do I get a Data Safe Haven account?",
-      "keywords": "data safe haven dsh account approved researcher agreement ara acceptable use statement mobile phone contact details register",
-      "answer": "<p>Everyone who will use the data needs a Data Safe Haven account. Two things are needed to set one up:</p><ul><li>A signed <b>Approved Researcher Agreement</b> (the DSH Acceptable Use Statement), returned to mrclha.swiftinfo@ucl.ac.uk. UCL users can instead upload it on the UCL upload page, but must then forward the confirmation to the team.</li><li>A <b>mobile phone number or alternative email address</b>, sent to the same address.</li></ul><p>The Science Support Team requests the account for you after approval.</p>",
-      "links": [
-        {
-          "label": "Data Safe Haven access",
-          "url": "{{OWL}}/docs/data_sharing/prerequisites/#dsh"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "how do I get a safe haven account",
-        "what is the approved researcher agreement",
-        "where do I send the ARA",
-        "do I need a DSH account",
-        "what contact details do you need"
-      ]
-    },
-    {
-      "id": "confidentiality-form",
-      "group": "apply",
-      "question": "Do I need to sign a confidentiality form?",
-      "keywords": "confidentiality form confidential sign signed return first application every applicant principal applicant",
-      "answer": "<p>Yes, on your first application to the NSHD. It is provided after your request is approved, and the principal applicant is emailed when it is due. Forms from all applicants must be returned before the application can move forward. You can read the form in advance.</p>",
-      "links": [
-        {
-          "label": "Confidentiality Form",
-          "url": "{{OWL}}/docs/data_sharing/prerequisites/#confidentiality"
-        },
-        {
-          "label": "All forms and downloads",
-          "url": "{{OWL}}/docs/data_sharing/forms/#downloads"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "do I have to sign a confidentiality form",
-        "when do I get the confidentiality form",
-        "does every applicant sign the form",
-        "where is the confidentiality form"
-      ]
-    },
-    {
-      "id": "dsa",
-      "group": "apply",
-      "question": "Do I need a Data Sharing Agreement?",
-      "keywords": "data sharing agreement dsa institution contract signed non-negotiable previous sharing legal",
-      "answer": "<p>Only if your institution has not shared data with the NSHD before. You are contacted for it after approval. It must be signed by an appropriate authority at your institution and returned to the LHA. All new projects must use the current version (18 November 2025), and the agreement is non-negotiable. A Data Sharing Agreement and a Confidentiality Form must both be in place before any data are provided.</p>",
-      "links": [
-        {
-          "label": "Data Sharing Agreement",
-          "url": "{{OWL}}/docs/data_sharing/prerequisites/#dsa"
-        },
-        {
-          "label": "All forms and downloads",
-          "url": "{{OWL}}/docs/data_sharing/forms/#downloads"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "do I need a data sharing agreement",
-        "who signs the data sharing agreement",
-        "can I change the agreement",
-        "where do I find the DSA",
-        "is the agreement negotiable"
-      ]
-    },
-    {
-      "id": "process-diagram",
-      "group": "apply",
-      "question": "Is there a diagram of the whole process?",
-      "keywords": "diagram flowchart flow chart picture visual overview stages swimlane who does what download image see steps whole journey picture",
-      "answer": "<p>Yes. The process page has four diagrams: the whole journey from first look to receiving your data, which route to use, which prerequisites apply to you, and what to do after approval. The main diagram can be downloaded as an image.</p>",
-      "links": [
-        {
-          "label": "Process at a glance",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/"
-        },
-        {
-          "label": "The whole journey",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-process"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "is there a flowchart",
-        "show me the process",
-        "can I see the steps in a diagram",
-        "download the process image",
-        "overview of the whole process"
-      ]
-    },
-    {
-      "id": "no-confirmation",
-      "group": "after",
-      "question": "I have not heard anything since I applied",
-      "keywords": "heard nothing no reply confirmation email received chase chasing delay delayed waiting status update",
-      "answer": "<p>You should receive an email confirming that your request has been received. If you have heard nothing within 10 working days, contact the data sharing team at mrclha.swiftinfo@ucl.ac.uk.</p><p>If a decision is delayed, you are told by email.</p>",
-      "links": [
-        {
-          "label": "Correspondence and timings",
-          "url": "{{OWL}}/docs/data_sharing/review-process/#timings"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "I have not had a confirmation email",
-        "no reply to my application",
-        "has my application been received",
-        "how do I chase my request",
-        "my application seems delayed"
-      ]
-    },
-    {
-      "id": "more-info",
-      "group": "after",
-      "question": "What if the committee asks for more information?",
-      "keywords": "more information questions queries clarification committee asks request additional info reply respond",
-      "answer": "<p>You are asked for it by email, and the review carries on once you reply. It does not mean your request has been refused.</p>",
-      "links": [
-        {
-          "label": "The review and criteria",
-          "url": "{{OWL}}/docs/data_sharing/review-process/#review"
-        },
-        {
-          "label": "The process as a diagram",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-process"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "the committee has asked me questions",
-        "what if more information is needed",
-        "they want more details from me",
-        "I was asked for clarification"
-      ]
-    },
-    {
-      "id": "not-approved",
-      "group": "after",
-      "question": "What if my application is not approved?",
-      "keywords": "not approved rejected rejection declined refused appeal appeals director outcome fail challenge decision overturn",
-      "answer": "<p>You can appeal. Appeals go first to the LHA Director, who may grant the appeal or refer it to an external independent body. The team can give you full details if you need them.</p>",
-      "links": [
-        {
-          "label": "Rejected proposals and appeals",
-          "url": "{{OWL}}/docs/data_sharing/review-process/#appeals"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "my application was rejected",
-        "how do I appeal",
-        "what if I am refused",
-        "can I challenge the decision",
-        "application declined"
-      ]
-    },
-    {
-      "id": "request-window",
-      "group": "after",
-      "question": "How long do I have to request my data after approval?",
-      "keywords": "24 months window lapse lapses expire expiry approval time limit request data after approved deadline wait long too late valid validity",
-      "answer": "<p>You must request your data within 24 months of project approval. Otherwise the approval lapses and you need to apply again.</p>",
-      "links": [
-        {
-          "label": "Correspondence and timings",
-          "url": "{{OWL}}/docs/data_sharing/review-process/#timings"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "does my approval expire",
-        "how long is approval valid",
-        "deadline to request data after approval",
-        "what happens if I wait too long",
-        "24 months"
-      ]
-    },
-    {
-      "id": "what-next-approved",
-      "group": "approved",
-      "question": "My project is approved. What happens next?",
-      "keywords": "approved what next now steps after approval approved project next prerequisites secure share induction training account access",
-      "answer": "<ol><li>You are emailed for your prerequisites: the Data Sharing Agreement (if needed), the signed confidentiality form and your training certificate.</li><li>The Data Safe Haven team invites you to Information Governance induction training.</li><li>The Science Support Team sets up your secure share and requests your Data Safe Haven account.</li><li>You get access and work with the data inside the Safe Haven.</li></ol>",
-      "links": [
-        {
-          "label": "What do I do next?",
-          "url": "{{OWL}}/docs/data_sharing/process-overview/#flow-after"
-        },
-        {
-          "label": "After approval",
-          "url": "{{OWL}}/docs/data_sharing/after-approval/"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "I have been approved what now",
-        "what do I do after approval",
-        "next steps once approved",
-        "my project was approved",
-        "what happens after approval"
-      ]
-    },
-    {
-      "id": "outputs",
-      "group": "approved",
-      "question": "How do I take results out of the Data Safe Haven?",
-      "keywords": "output outputs results tables figures export take out release dsh output request checklist airlock statistical disclosure",
-      "answer": "<p>Results such as tables and figures cannot be taken out of the Data Safe Haven directly. Complete the DSH Output Request form to request them. Where appropriate, also complete the Pre-publication Checklist.</p>",
-      "links": [
-        {
-          "label": "DSH Output Request",
-          "url": "https://forms.office.com/e/Ctsh2j8vcT"
-        },
-        {
-          "label": "Releasing outputs",
-          "url": "{{OWL}}/docs/data_sharing/after-approval/#outputs"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "how do I get my results out",
-        "can I download tables from the safe haven",
-        "request an output",
-        "how do I export figures",
-        "output request form"
-      ]
-    },
-    {
-      "id": "publish",
-      "group": "approved",
-      "question": "Do I need approval before I publish a paper?",
-      "keywords": "publish publication paper journal pre-publication checklist review committee manuscript submit insight 46 myofit",
-      "answer": "<p>Yes. Every paper that uses NSHD data, including Insight 46 and MyoFit 46 data, is reviewed by the NSHD Data Sharing Committee before it is submitted to a journal. The review checks that confidentiality is protected and that the paper will not bring the study into disrepute, and the committee may also give advice and feedback.</p><ol><li>Complete the Pre-publication Checklist.</li><li>Email it to mrclha.swiftinfo@ucl.ac.uk.</li><li>Wait for approval, then submit your paper.</li></ol>",
-      "links": [
-        {
-          "label": "Before you publish",
-          "url": "{{OWL}}/docs/data_sharing/after-approval/#publishing"
-        },
-        {
-          "label": "All forms and downloads",
-          "url": "{{OWL}}/docs/data_sharing/forms/#downloads"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "can I submit my paper",
-        "do I need to send my paper to NSHD first",
-        "pre-publication checklist",
-        "approval before publishing",
-        "where is the publications checklist"
-      ]
-    },
-    {
-      "id": "extension",
-      "group": "approved",
-      "question": "How do I extend my project?",
-      "keywords": "extend extension extending expire expiry end date project extension request renew prolong longer more time longer needed project time",
-      "answer": "<p>If your approved project is due to expire, complete the Project Extension Request form and email it to mrclha.swiftinfo@ucl.ac.uk. The request must be received before the project's original end date has passed.</p>",
-      "links": [
-        {
-          "label": "Extending a project",
-          "url": "{{OWL}}/docs/data_sharing/after-approval/#extension"
-        },
-        {
-          "label": "All forms and downloads",
-          "url": "{{OWL}}/docs/data_sharing/forms/#downloads"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "my project is about to expire",
-        "how do I extend my project",
-        "extension request form",
-        "I need more time on my project",
-        "project end date"
-      ]
-    },
-    {
-      "id": "search-dictionary",
-      "group": "vars",
-      "question": "What is Search Data Dictionary?",
-      "keywords": "search data dictionary keyword variable names labels table basket main search find",
-      "answer": "<p>It is the main search in OWL. You search across all NSHD variable names and labels by keyword. Results show each variable's name and label, and you can add variables to your basket or click through to the full variable page.</p>",
-      "links": [
-        {
-          "label": "Search Data Dictionary",
-          "url": "{{OWL}}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary.html"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "how do I search the data dictionary",
-        "search by keyword",
-        "how do I look up a variable by name",
-        "where do I search variable labels"
-      ]
-    },
-    {
-      "id": "browse-category",
-      "group": "vars",
-      "question": "How does Browse by Category work?",
-      "keywords": "browse category categories subcategory topic tree folders hierarchy navigate parent",
-      "answer": "<p>It organises variables into a tree of categories and subcategories, so you can browse by topic instead of searching by name. Each category page lists its variables with their names and labels. A variable can belong to more than one category.</p><p>Some parent categories show few or no variables themselves, because the variables sit in their subcategories.</p>",
-      "links": [
-        {
-          "label": "Browse by Category",
-          "url": "{{OWL}}/docs/search_methods/browse_by_category/Browse_by_Category.html"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "how do I browse by topic",
-        "what is browse by category",
-        "find variables by subject",
-        "why is a category empty"
-      ]
-    },
-    {
-      "id": "search-year",
-      "group": "vars",
-      "question": "Can I search for variables by year?",
-      "keywords": "search year years sweep sweeps age time collected when pills filter",
-      "answer": "<p>Yes. Search by Year starts from a point in time. A row of pills across the top represents every NSHD sweep. Select one or more to filter the results to variables collected in those years. The topic filters next to them dim automatically for any year with no matching results.</p>",
-      "links": [
-        {
-          "label": "Search by Year",
-          "url": "{{OWL}}/docs/search_methods/search_by_year/search_by_year.html"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "find variables collected in a particular year",
-        "search by sweep",
-        "what was collected at age 53",
-        "filter variables by year"
-      ]
-    },
-    {
-      "id": "popular-vars",
-      "group": "vars",
-      "question": "What are popular variables?",
-      "keywords": "popular variables frequently requested common commonly used starting point new beginner",
-      "answer": "<p>It is a list of frequently requested or commonly used NSHD variables, a good starting point if you are new to the dataset. You can add variables to your basket straight from the page.</p>",
-      "links": [
-        {
-          "label": "Popular variables",
-          "url": "{{OWL}}/docs/search_methods/popular_vars/popular-variables.html"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "which variables do most people ask for",
-        "where do I start with the data",
-        "most commonly requested variables"
-      ]
-    },
-    {
-      "id": "longitudinal-search",
-      "group": "vars",
-      "question": "How do I find variables measured over time?",
-      "keywords": "longitudinal repeated sweeps trajectory change over time field id truly longitudinal same question across sweeps",
-      "answer": "<p>Use Longitudinal Search. It lists every variable collected with identical question text and coding across two or more sweeps, with a sweep-by-sweep chart and a statistics table for each. You can also reach it from any variable's own page through the \"View all in Longitudinal Search\" link.</p>",
-      "links": [
-        {
-          "label": "Longitudinal Search",
-          "url": "{{OWL}}/docs/search_methods/longitudinal_variables/longitudinal_search_guide/"
-        },
-        {
-          "label": "Cohort jargon",
-          "url": "{{OWL}}/docs/getting-started/cohort-jargon/"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "variables measured at several ages",
-        "how do I track change over time",
-        "what is longitudinal search",
-        "same question across sweeps"
-      ]
-    },
-    {
-      "id": "ukllc-catalogue",
-      "group": "vars",
-      "question": "What is the UK LLC Catalogue?",
-      "keywords": "uk llc catalogue deposited datasets deposit linked nshd files list uk longitudinal linkage",
-      "answer": "<p>It lists every NSHD dataset deposited into UK LLC, one row per file, with a dataset filter and sortable columns. Opening a row shows the variables it contains. Variables found there can be added to your OWL basket for a standard Condor request, or accessed through UK LLC for linked analysis. Not every NSHD variable is there yet. Datasets are deposited regularly, so keep checking the catalogue.</p>",
-      "links": [
-        {
-          "label": "UK LLC Catalogue",
-          "url": "{{OWL}}/docs/search_methods/ukllc_catalogue"
-        },
-        {
-          "label": "UK LLC",
-          "url": "{{OWL}}/docs/discover-exploration/ukllc/"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "what NSHD data is in UK LLC",
-        "search the UK LLC deposit",
-        "which datasets have been deposited",
-        "UK LLC catalogue"
-      ]
-    },
-    {
-      "id": "search-documentation",
-      "group": "vars",
-      "question": "What is Search Documentation?",
-      "keywords": "search documentation documents notes data notes write-ups topsheet variable note narrative document type guides",
-      "answer": "<p>It is where you find write-ups, data notes and other documentation about NSHD variables and datasets. Search by keyword, and filter by document type: Topsheet, Variable note, Templated variable note, or Narrative / data note. It is separate from Search Data Dictionary, which searches variable names and labels directly.</p>",
-      "links": [
-        {
-          "label": "Search Documentation",
-          "url": "{{OWL}}/docs/documentation/search-documentation/"
-        },
-        {
-          "label": "Documentation",
-          "url": "{{OWL}}/docs/documentation/"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "where is the documentation",
-        "how was a variable derived",
-        "find data notes",
-        "search documentation",
-        "is there a write-up for this variable"
-      ]
-    },
-    {
-      "id": "doc-icons",
-      "group": "vars",
-      "question": "What do the info and lock icons next to variables mean?",
-      "keywords": "icon icons info circle badge lock padlock restricted documentation hover symbol next to variable name",
-      "answer": "<ul><li><b>Info circle:</b> documentation exists for this variable. Hover to see \"View documentation\". Click to go straight to it, or to choose from a short list if there is more than one.</li><li><b>Lock:</b> the variable is restricted. Hover to see who to contact to request it. You can still add it to your basket, but restricted variables are not imported automatically when you upload the basket to Condor, so they must be requested separately.</li></ul><p>Both appear next to a variable's name wherever it is shown on OWL.</p>",
-      "links": [
-        {
-          "label": "Search Documentation",
-          "url": "{{OWL}}/docs/documentation/search-documentation/"
-        },
-        {
-          "label": "Restricted variables",
-          "url": "{{OWL}}/docs/discover-exploration/variable-metadata/"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "what is the padlock",
-        "what does the i icon mean",
-        "why is there a lock next to a variable",
-        "how do I see documentation for a variable"
-      ]
-    },
-    {
-      "id": "variable-page",
-      "group": "vars",
-      "question": "What does a variable page show?",
-      "keywords": "variable page metadata fields form question number year units value labels notes derived sensitive later version distribution summary mean linked",
-      "answer": "<p>A variable page shows what the variable measures and where it came from: its name and label, the form and question number it came from, the year collected, its units and value labels, and any notes. It also shows whether the variable is derived or sensitive, whether a later version exists, a distribution summary, and links to related variables.</p><p>Check \"Later version\" before you request a variable. If a newer version exists, use that instead.</p>",
-      "links": [
-        {
-          "label": "Variable metadata pages",
-          "url": "{{OWL}}/docs/discover-exploration/variable-metadata/"
-        },
-        {
-          "label": "Example variable page",
-          "url": "{{OWL}}/docs/getting_started/variable-metadata/NSHD_Metadata-page.html"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "what is on a variable page",
-        "what does derived mean on the metadata page",
-        "what is later version",
-        "how do I find the original question"
-      ]
-    },
-    {
-      "id": "jargon-terms",
-      "group": "vars",
-      "question": "What do terms like sweep or derived mean?",
-      "keywords": "jargon glossary terms meaning sweep derived categorical continuous cohort define definition words explain",
-      "answer": "<p>The Cohort jargon page explains the terms used across OWL and Condor, such as sweep (one round of data collection), derived variable (calculated from other measurements), categorical and continuous variables, and sensitive or restricted variables.</p>",
-      "links": [
-        {
-          "label": "Cohort jargon",
-          "url": "{{OWL}}/docs/getting-started/cohort-jargon/"
-        }
-      ],
-      "reviewed": "2026-11-06",
-      "examples": [
-        "what does sweep mean",
-        "glossary",
-        "what is a derived variable",
-        "explain the terms used on the site"
       ]
     }
   ],
@@ -1537,136 +869,6 @@
       "peak flow",
       "lung capacity",
       "lung"
-    ]
-  },
-  "menu": {
-    "note": "Three main options. Apply for data covers the whole journey, from applying to life after approval. Draft: names to be agreed.",
-    "mostAsked": [
-      "how-to-apply",
-      "how-long",
-      "prerequisites",
-      "what-next-approved"
-    ],
-    "helpEntry": "contact",
-    "areas": [
-      {
-        "id": "apply",
-        "icon": "ti-file-text",
-        "label": "Apply for data",
-        "description": "How to apply and what happens next",
-        "topics": [
-          {
-            "label": "Getting started",
-            "entries": [
-              "how-to-apply",
-              "which-form",
-              "route-ukllc",
-              "eligibility",
-              "process-diagram"
-            ]
-          },
-          {
-            "label": "Before you can access data",
-            "entries": [
-              "prerequisites",
-              "training",
-              "dsh-account",
-              "confidentiality-form",
-              "dsa"
-            ]
-          },
-          {
-            "label": "Cost and limits",
-            "entries": [
-              "cost",
-              "facilitated"
-            ]
-          },
-          {
-            "label": "Review and decisions",
-            "entries": [
-              "after-submit",
-              "how-long",
-              "no-confirmation",
-              "more-info",
-              "not-approved",
-              "request-window",
-              "before-approval"
-            ]
-          },
-          {
-            "label": "Once you are approved",
-            "entries": [
-              "what-next-approved",
-              "receive-data",
-              "add-later",
-              "outputs",
-              "publish",
-              "cite",
-              "extension"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "vars",
-        "icon": "ti-search",
-        "label": "Find variables",
-        "description": "Search, documentation and the data dictionary",
-        "topics": [
-          {
-            "label": "Ways to search",
-            "entries": [
-              "choose-variables",
-              "search-dictionary",
-              "browse-category",
-              "search-year",
-              "popular-vars",
-              "longitudinal-search",
-              "other-projects",
-              "ukllc-catalogue"
-            ]
-          },
-          {
-            "label": "Search documentation",
-            "entries": [
-              "search-documentation",
-              "doc-icons"
-            ]
-          },
-          {
-            "label": "Variables and the data dictionary",
-            "entries": [
-              "variable-page",
-              "jargon-terms",
-              "data-dictionary"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "baskets",
-        "icon": "ti-basket",
-        "label": "Baskets and Condor",
-        "description": "Basket IDs, limits and accounts",
-        "topics": [
-          {
-            "label": "Baskets",
-            "entries": [
-              "basket-id",
-              "over-500",
-              "restricted"
-            ]
-          },
-          {
-            "label": "Condor and OWL",
-            "entries": [
-              "owl-condor",
-              "condor-account"
-            ]
-          }
-        ]
-      }
     ]
   }
 }
