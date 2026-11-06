@@ -215,9 +215,12 @@
     '.chips{display:flex;flex-wrap:wrap;gap:7px;padding:0 14px 12px;background:#fff7e6;overflow-y:auto;min-height:0;flex:0 1 auto}.head,.th,.tabs,form,.foot{flex:none}',
     '.chips button{font:inherit;font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;border:0;background:#f5a623;color:#2a1a00;cursor:pointer;text-align:left}',
     '.chips button:hover{background:#e8941a}',
-    '.chips button.tp{background:#fbe9c4;color:#6b4a00;font-weight:600}.chips button.tp:hover{background:#f6dca5}',
-    '.chips .ml{flex:0 0 100%;margin:6px 0 0;font-size:11.5px;font-weight:700;color:#8a5a00}',
-    '.tabs.menu{align-items:center}.tabs .mcrumb{font-size:12.5px;color:#6b4a00;font-weight:600}',
+    '.chips button.tp{background:#ecdcf7;color:#4b0a7d;font-weight:600}.chips button.tp:hover{background:#e1c9f3}',
+    '.chips button.ql{flex:0 0 100%;border-radius:0 6px 6px 0;background:#fff;border-left:3px solid #8a5fb8;color:#2a1a00;font-weight:500;padding:7px 10px}.chips button.ql:hover{background:#f6eefc}',
+    '.chips button.lk{flex:0 0 100%;background:none;border-radius:0;padding:1px 0;color:#4b0a7d;font-weight:500;font-size:13px;text-decoration:underline}.chips button.lk:hover{background:none;color:#2d0650}',
+    '.chips .ml{flex:0 0 100%;margin:8px 0 0;font-size:11.5px;font-weight:700;color:#8a5a00}.chips .ml:first-child{margin-top:0}',
+    '.chips .hl{flex:0 0 100%;margin:8px 0 0;font-size:12px;color:#6b4a00}.chips .hl button{font:inherit;font-size:12px;font-weight:600;background:none;border:0;padding:0;color:#4b0a7d;text-decoration:underline;cursor:pointer;border-radius:0}.chips .hl button:hover{background:none}',
+    '.tabs.menu{display:block;padding-bottom:6px;font-size:12.5px;color:#6b4a00}.tabs.menu button{font:inherit;font-size:12.5px;padding:0;border-radius:0;background:none;color:#6b4a00;text-decoration:underline;cursor:pointer}.tabs.menu button:hover{color:#2a1a00}.tabs.menu .sep{margin:0 6px}.tabs.menu .mcrumb{font-weight:600}',
     'form{display:flex;gap:8px;padding:10px 14px 8px;background:#fff7e6}',
     'input{flex:1;min-width:0;font:inherit;font-size:14px;padding:9px 11px;border-radius:999px;border:2px solid #f5a623;background:#fff;color:var(--ink)}',
     'form button{font:inherit;font-weight:700;padding:9px 18px;border-radius:999px;border:0;background:#241338;color:#fff;cursor:pointer}',
@@ -319,7 +322,7 @@
     content.entries.forEach(function (e) { byId[e.id] = e; });
     ui.nav = { a: null, b: null };
     if (menuAreas()) {
-      th.firstChild.textContent = 'Browse topics';
+      th.firstChild.textContent = 'Browse topics'; tabs.classList.add('menu');
     } else {
       content.groups.forEach(function (g) {
         var b = el('button', null, g.label); b.type = 'button'; b.dataset.g = g.id;
@@ -491,16 +494,26 @@
     ui.input.placeholder = ui.cur === 'vars' ? 'Type a topic, e.g. smoking…' : 'Ask about applying for data…';
     if (A) {
       ui.tabs.appendChild(mbtn('\u2190 Back', function () { if (nav.b !== null) nav.b = null; else nav.a = null; drawMenu(); }));
+      ui.tabs.appendChild(el('span', 'sep', '\u00b7'));
       ui.tabs.appendChild(mbtn('All topics', function () { nav.a = null; nav.b = null; drawMenu(); }));
+      ui.tabs.appendChild(el('span', 'sep', '\u00b7'));
       ui.tabs.appendChild(el('span', 'mcrumb', A.label + (T ? ' \u203a ' + T.label : '')));
+    }
+    var helpE = byId[(content.menu && content.menu.helpEntry) || ''];
+    function helpLine() {
+      if (!helpE) return;
+      var hl = el('p', 'hl', 'Can\u2019t find your question? ');
+      hl.appendChild(mbtn('Contact the team', function () { askFromMenu(helpE); }));
+      ui.chips.appendChild(hl);
     }
     if (!A) {
       areas.forEach(function (a) { ui.chips.appendChild(mbtn(a.label, function () { nav.a = a.id; nav.b = null; track('help_bot_menu', { menu_area: a.id }); drawMenu(); })); });
       var ma = ((content.menu && content.menu.mostAsked) || []).map(function (id) { return byId[id]; }).filter(Boolean);
       if (ma.length) {
         ui.chips.appendChild(el('p', 'ml', 'Most asked'));
-        ma.forEach(function (e) { ui.chips.appendChild(mbtn(e.question, function () { askFromMenu(e); })); });
+        ma.forEach(function (e) { ui.chips.appendChild(mbtn(e.question, function () { askFromMenu(e); }, 'lk')); });
       }
+      helpLine();
       return;
     }
     if (!T) {
@@ -508,14 +521,16 @@
         var vf = content.variableFinder || {};
         ui.chips.appendChild(el('p', 'vhint', vf.hint || 'Type a topic in the box, or try one of these:'));
         (content.varExamples || []).forEach(function (t) {
-          ui.chips.appendChild(mbtn(t, function () { addMe(t); push({ k: 'vars', q: t, via: 'example' }); }));
+          ui.chips.appendChild(mbtn(t, function () { addMe(t); push({ k: 'vars', q: t, via: 'example' }); }, 'tp'));
         });
         if (A.topics.length) ui.chips.appendChild(el('p', 'ml', 'More about variables'));
       }
       A.topics.forEach(function (t, i) { ui.chips.appendChild(mbtn(t.label + ' \u203a', function () { nav.b = i; drawMenu(); }, 'tp')); });
+      helpLine();
       return;
     }
-    T.items.forEach(function (e) { ui.chips.appendChild(mbtn(e.question, function () { askFromMenu(e); })); });
+    T.items.forEach(function (e) { ui.chips.appendChild(mbtn(e.question, function () { askFromMenu(e); }, 'ql')); });
+    helpLine();
   }
 
   function drawChips() {

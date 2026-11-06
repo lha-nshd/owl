@@ -264,7 +264,7 @@
       "group": "apply",
       "question": "How do I apply for NSHD data?",
       "keywords": "apply application how to get data request start begin steps process requesting access request access apply for data diagram flowchart stages overview",
-      "answer": "<p>Each application is for one project and a set of variables. The steps are:</p><ol><li>Explore the variables on OWL, then build a basket in Condor. You get a basket ID.</li><li>Complete the data dictionary if you are asked to, and upload it to Condor to finalise your basket.</li><li>Submit the Data Access Request Form with your basket ID.</li><li>The Science Support Team reviews your request and the Data Sharing Committee decides. This takes 30 days at most, usually about two weeks.</li><li>If approved, you are emailed for the prerequisites, invited to Information Governance training, and your secure share and Data Safe Haven account are set up.</li><li>You get access to your data in the UCL Data Safe Haven.</li></ol>",
+      "answer": "<p>Each application is for one project and a set of variables. The steps are:</p><ol><li>Explore the variables on OWL, then build a basket in Condor. You get a basket ID.</li><li>Complete the data dictionary if you are asked to, and upload it to Condor to finalise your basket.</li><li>Submit the Data Access Request Form. You can include your basket ID, or send it any time after your project is approved.</li><li>The Science Support Team reviews your request and the Data Sharing Committee decides. This takes 30 days at most, usually about two weeks.</li><li>If approved, you are emailed for the prerequisites, invited to Information Governance training, and your secure share and Data Safe Haven account are set up.</li><li>You get access to your data in the UCL Data Safe Haven.</li></ol>",
       "links": [
         {
           "label": "Apply for data",
@@ -365,35 +365,41 @@
       "id": "choose-variables",
       "group": "apply",
       "question": "How do I find the variables I need?",
-      "keywords": "find choose select search browse variables variable explore look",
-      "answer": "<p>Search or browse OWL, Condor or the data dictionary. On OWL you can search the data dictionary, browse by category, view popular variables, search by year or longitudinally, use the UK LLC catalogue, and see what other projects asked for.</p>",
+      "keywords": "find choose select search browse variables variable explore look ways methods searches different options overview",
+      "answer": "<p>There are several ways to search for variables, depending on where you want to start:</p><ul><li><b>Search Data Dictionary:</b> search variable names and labels by keyword.</li><li><b>Browse by Category:</b> follow topics and subtopics.</li><li><b>Search by Year:</b> start from the year or sweep a variable was collected.</li><li><b>Popular variables:</b> a starting list of frequently requested variables.</li><li><b>Longitudinal search:</b> variables measured the same way across two or more sweeps.</li><li><b>Search Documentation:</b> write-ups and data notes about variables and datasets.</li><li><b>Discover Projects:</b> what approved projects have asked for.</li><li><b>UK LLC Catalogue:</b> the NSHD datasets deposited into UK LLC.</li></ul><p>Add any variable to your basket from the results.</p>",
       "links": [
+        {
+          "label": "Search methods overview",
+          "url": "{{OWL}}/docs/search_methods/search_overview/"
+        },
         {
           "label": "Discover Projects",
           "url": "{{OWL}}/docs/search_methods/discover-projects"
-        },
-        {
-          "label": "Apply for data",
-          "url": "{{OWL}}/docs/data_sharing/"
         }
       ],
       "reviewed": "2026-11-04",
       "examples": [
         "how do I search for variables",
-        "how do I know which variables to ask for"
+        "how do I know which variables to ask for",
+        "what ways are there to search",
+        "what search options are there",
+        "which search should I use"
       ]
     },
     {
       "id": "cost",
       "group": "apply",
       "question": "What does it cost?",
-      "keywords": "cost price fee fees charge charges pay payment free money how much",
-      "answer": "<p>A charge may apply in two cases:</p><ul><li>For a basket of more than 500 variables, the LHA Director may charge a fee for the advanced risk assessment.</li><li>If a project needs significant extra work from LHA data management staff, the added costs may be charged. You are told in advance.</li></ul><p>If you are unsure whether a charge could apply to you, contact the data sharing team.</p>",
-      "tbc": "Taken from the data sharing process pages (last updated March 2025). LHA to confirm the charging rules are current.",
+      "keywords": "cost price fee fees charge charges pay payment free money how much no cost free of charge currently",
+      "answer": "<p>There is currently no cost to access NSHD data.</p><p>Applicants based outside the UK may have to pay a fee for the Data Security Awareness course, so include it in your grant budget.</p>",
       "links": [
         {
-          "label": "Limits and charges",
+          "label": "Limits and cost",
           "url": "{{OWL}}/docs/data_sharing/review-process/#parameters"
+        },
+        {
+          "label": "Data Security Awareness Training",
+          "url": "{{OWL}}/docs/data_sharing/prerequisites/#training"
         }
       ],
       "reviewed": "2026-11-04",
@@ -615,7 +621,7 @@
       "id": "other-projects",
       "group": "more",
       "question": "What have other researchers asked for?",
-      "keywords": "other researchers projects approved examples similar discover past previous see what",
+      "keywords": "other researchers projects approved examples similar discover past previous see what discover projects search method",
       "answer": "<p>Discover Projects lists approved projects, their summaries and the variables each one requested.</p>",
       "links": [
         {
@@ -681,8 +687,8 @@
       "id": "route-ukllc",
       "group": "apply",
       "question": "Should I use Condor or UK LLC?",
-      "keywords": "route condor ukllc uk llc linked linkage other cohorts studies nhs administrative records which platform choose linked data get",
-      "answer": "<ul><li><b>NSHD data on its own:</b> build a basket in Condor, then apply with the Data Access Request Form. Most projects take this route.</li><li><b>NSHD linked to other cohorts or to NHS and administrative records:</b> use UK LLC. Check the UK LLC deposit catalogue for the variables you need.</li></ul>",
+      "keywords": "route condor ukllc uk llc linked linkage other cohorts studies nhs administrative records which platform choose linked data get ucl employee non-ucl external outside access only",
+      "answer": "<ul><li><b>NSHD data on its own:</b> if you are employed by UCL, build a basket in Condor, then apply with the Data Access Request Form.</li><li><b>Not employed by UCL:</b> NSHD data can only be accessed through UK LLC.</li><li><b>NSHD linked to other cohorts or to NHS and administrative records:</b> use UK LLC.</li></ul><p>UK LLC does not have every NSHD variable yet. Datasets are deposited regularly, so keep checking the UK LLC catalogue.</p>",
       "links": [
         {
           "label": "Which route do I use?",
@@ -703,7 +709,9 @@
         "can I link NSHD to other studies",
         "how do I get linked data",
         "do I need UK LLC",
-        "which route do I use to get data"
+        "which route do I use to get data",
+        "I do not work at UCL",
+        "can I access the data if I am not at UCL"
       ]
     },
     {
@@ -732,7 +740,7 @@
       "group": "apply",
       "question": "What is a facilitated collaboration?",
       "keywords": "facilitated collaboration collaborator sensitive data cause of death emigration cancer registration biomedical conditions extra",
-      "answer": "<p>Some requests are handled as a facilitated collaboration, which may come with extra conditions. Examples are sensitive data (such as cause and date of death, residential or emigration history, cancer registration or NHS Digital data), extensive biomedical data, data not yet through full quality assurance, and proposals needing a lot of study team time.</p><p>If you think your project may need one, mention it when you apply, or contact the team first.</p>",
+      "answer": "<p>Some requests are handled as a facilitated collaboration, which may come with extra conditions. Examples are sensitive data (such as cause and date of death, residential or emigration history, cancer registration or NHS Digital data), extensive biomedical data, data not yet through full quality assurance, and proposals needing a lot of study team time.</p><p>NHS Digital data is available through the NSHD to UCL researchers only. Everyone else can access it through UK LLC.</p><p>If you think your project may need a facilitated collaboration, mention it when you apply, or contact the team first.</p>",
       "links": [
         {
           "label": "Facilitated collaborations",
@@ -1010,7 +1018,7 @@
       "group": "approved",
       "question": "Do I need approval before I publish a paper?",
       "keywords": "publish publication paper journal pre-publication checklist review committee manuscript submit insight 46 myofit",
-      "answer": "<p>Yes. Every paper that uses NSHD data, including Insight 46 and MyoFit 46 data, is reviewed by the committee before it is submitted to a journal. The review checks that confidentiality is protected and that the paper will not bring the study into disrepute, and the committee may also give advice and feedback.</p><ol><li>Complete the Pre-publication Checklist.</li><li>Email it to mrclha.swiftinfo@ucl.ac.uk.</li><li>Wait for approval, then submit your paper.</li></ol>",
+      "answer": "<p>Yes. Every paper that uses NSHD data, including Insight 46 and MyoFit 46 data, is reviewed by the NSHD Data Sharing Committee before it is submitted to a journal. The review checks that confidentiality is protected and that the paper will not bring the study into disrepute, and the committee may also give advice and feedback.</p><ol><li>Complete the Pre-publication Checklist.</li><li>Email it to mrclha.swiftinfo@ucl.ac.uk.</li><li>Wait for approval, then submit your paper.</li></ol>",
       "links": [
         {
           "label": "Before you publish",
@@ -1053,6 +1061,226 @@
         "extension request form",
         "I need more time on my project",
         "project end date"
+      ]
+    },
+    {
+      "id": "search-dictionary",
+      "group": "vars",
+      "question": "What is Search Data Dictionary?",
+      "keywords": "search data dictionary keyword variable names labels table basket main search find",
+      "answer": "<p>It is the main search in OWL. You search across all NSHD variable names and labels by keyword. Results show each variable's name and label, and you can add variables to your basket or click through to the full variable page.</p>",
+      "links": [
+        {
+          "label": "Search Data Dictionary",
+          "url": "{{OWL}}/docs/search_methods/data_dictionary/NSHD_Data_Dictionary.html"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "how do I search the data dictionary",
+        "search by keyword",
+        "how do I look up a variable by name",
+        "where do I search variable labels"
+      ]
+    },
+    {
+      "id": "browse-category",
+      "group": "vars",
+      "question": "How does Browse by Category work?",
+      "keywords": "browse category categories subcategory topic tree folders hierarchy navigate parent",
+      "answer": "<p>It organises variables into a tree of categories and subcategories, so you can browse by topic instead of searching by name. Each category page lists its variables with their names and labels. A variable can belong to more than one category.</p><p>Some parent categories show few or no variables themselves, because the variables sit in their subcategories.</p>",
+      "links": [
+        {
+          "label": "Browse by Category",
+          "url": "{{OWL}}/docs/search_methods/browse_by_category/Browse_by_Category.html"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "how do I browse by topic",
+        "what is browse by category",
+        "find variables by subject",
+        "why is a category empty"
+      ]
+    },
+    {
+      "id": "search-year",
+      "group": "vars",
+      "question": "Can I search for variables by year?",
+      "keywords": "search year years sweep sweeps age time collected when pills filter",
+      "answer": "<p>Yes. Search by Year starts from a point in time. A row of pills across the top represents every NSHD sweep. Select one or more to filter the results to variables collected in those years. The topic filters next to them dim automatically for any year with no matching results.</p>",
+      "links": [
+        {
+          "label": "Search by Year",
+          "url": "{{OWL}}/docs/search_methods/search_by_year/search_by_year.html"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "find variables collected in a particular year",
+        "search by sweep",
+        "what was collected at age 53",
+        "filter variables by year"
+      ]
+    },
+    {
+      "id": "popular-vars",
+      "group": "vars",
+      "question": "What are popular variables?",
+      "keywords": "popular variables frequently requested common commonly used starting point new beginner",
+      "answer": "<p>It is a list of frequently requested or commonly used NSHD variables, a good starting point if you are new to the dataset. You can add variables to your basket straight from the page.</p>",
+      "links": [
+        {
+          "label": "Popular variables",
+          "url": "{{OWL}}/docs/search_methods/popular_vars/popular-variables.html"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "which variables do most people ask for",
+        "where do I start with the data",
+        "most commonly requested variables"
+      ]
+    },
+    {
+      "id": "longitudinal-search",
+      "group": "vars",
+      "question": "How do I find variables measured over time?",
+      "keywords": "longitudinal repeated sweeps trajectory change over time field id truly longitudinal same question across sweeps",
+      "answer": "<p>Use Longitudinal Search. It lists every variable collected with identical question text and coding across two or more sweeps, with a sweep-by-sweep chart and a statistics table for each. You can also reach it from any variable's own page through the \"View all in Longitudinal Search\" link.</p>",
+      "links": [
+        {
+          "label": "Longitudinal Search",
+          "url": "{{OWL}}/docs/search_methods/longitudinal_variables/longitudinal_search_guide/"
+        },
+        {
+          "label": "Cohort jargon",
+          "url": "{{OWL}}/docs/getting-started/cohort-jargon/"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "variables measured at several ages",
+        "how do I track change over time",
+        "what is longitudinal search",
+        "same question across sweeps"
+      ]
+    },
+    {
+      "id": "ukllc-catalogue",
+      "group": "vars",
+      "question": "What is the UK LLC Catalogue?",
+      "keywords": "uk llc catalogue deposited datasets deposit linked nshd files list uk longitudinal linkage",
+      "answer": "<p>It lists every NSHD dataset deposited into UK LLC, one row per file, with a dataset filter and sortable columns. Opening a row shows the variables it contains. Variables found there can be added to your OWL basket for a standard Condor request, or accessed through UK LLC for linked analysis. Not every NSHD variable is there yet. Datasets are deposited regularly, so keep checking the catalogue.</p>",
+      "links": [
+        {
+          "label": "UK LLC Catalogue",
+          "url": "{{OWL}}/docs/search_methods/ukllc_catalogue"
+        },
+        {
+          "label": "UK LLC",
+          "url": "{{OWL}}/docs/discover-exploration/ukllc/"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "what NSHD data is in UK LLC",
+        "search the UK LLC deposit",
+        "which datasets have been deposited",
+        "UK LLC catalogue"
+      ]
+    },
+    {
+      "id": "search-documentation",
+      "group": "vars",
+      "question": "What is Search Documentation?",
+      "keywords": "search documentation documents notes data notes write-ups topsheet variable note narrative document type guides",
+      "answer": "<p>It is where you find write-ups, data notes and other documentation about NSHD variables and datasets. Search by keyword, and filter by document type: Topsheet, Variable note, Templated variable note, or Narrative / data note. It is separate from Search Data Dictionary, which searches variable names and labels directly.</p>",
+      "links": [
+        {
+          "label": "Search Documentation",
+          "url": "{{OWL}}/docs/documentation/search-documentation/"
+        },
+        {
+          "label": "Documentation",
+          "url": "{{OWL}}/docs/documentation/"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "where is the documentation",
+        "how was a variable derived",
+        "find data notes",
+        "search documentation",
+        "is there a write-up for this variable"
+      ]
+    },
+    {
+      "id": "doc-icons",
+      "group": "vars",
+      "question": "What do the info and lock icons next to variables mean?",
+      "keywords": "icon icons info circle badge lock padlock restricted documentation hover symbol next to variable name",
+      "answer": "<ul><li><b>Info circle:</b> documentation exists for this variable. Hover to see \"View documentation\". Click to go straight to it, or to choose from a short list if there is more than one.</li><li><b>Lock:</b> the variable is restricted. Hover to see who to contact to request it. You can still add it to your basket, but restricted variables are not imported automatically when you upload the basket to Condor, so they must be requested separately.</li></ul><p>Both appear next to a variable's name wherever it is shown on OWL.</p>",
+      "links": [
+        {
+          "label": "Search Documentation",
+          "url": "{{OWL}}/docs/documentation/search-documentation/"
+        },
+        {
+          "label": "Restricted variables",
+          "url": "{{OWL}}/docs/discover-exploration/variable-metadata/"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "what is the padlock",
+        "what does the i icon mean",
+        "why is there a lock next to a variable",
+        "how do I see documentation for a variable"
+      ]
+    },
+    {
+      "id": "variable-page",
+      "group": "vars",
+      "question": "What does a variable page show?",
+      "keywords": "variable page metadata fields form question number year units value labels notes derived sensitive later version distribution summary mean linked",
+      "answer": "<p>A variable page shows what the variable measures and where it came from: its name and label, the form and question number it came from, the year collected, its units and value labels, and any notes. It also shows whether the variable is derived or sensitive, whether a later version exists, a distribution summary, and links to related variables.</p><p>Check \"Later version\" before you request a variable. If a newer version exists, use that instead.</p>",
+      "links": [
+        {
+          "label": "Variable metadata pages",
+          "url": "{{OWL}}/docs/discover-exploration/variable-metadata/"
+        },
+        {
+          "label": "Example variable page",
+          "url": "{{OWL}}/docs/getting_started/variable-metadata/NSHD_Metadata-page.html"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "what is on a variable page",
+        "what does derived mean on the metadata page",
+        "what is later version",
+        "how do I find the original question"
+      ]
+    },
+    {
+      "id": "jargon-terms",
+      "group": "vars",
+      "question": "What do terms like sweep or derived mean?",
+      "keywords": "jargon glossary terms meaning sweep derived categorical continuous cohort define definition words explain",
+      "answer": "<p>The Cohort jargon page explains the terms used across OWL and Condor, such as sweep (one round of data collection), derived variable (calculated from other measurements), categorical and continuous variables, and sensitive or restricted variables.</p>",
+      "links": [
+        {
+          "label": "Cohort jargon",
+          "url": "{{OWL}}/docs/getting-started/cohort-jargon/"
+        }
+      ],
+      "reviewed": "2026-11-06",
+      "examples": [
+        "what does sweep mean",
+        "glossary",
+        "what is a derived variable",
+        "explain the terms used on the site"
       ]
     }
   ],
@@ -1312,34 +1540,29 @@
     ]
   },
   "menu": {
-    "note": "Proposed three-level menu: area, then topic, then question. Draft: names and grouping to be agreed.",
+    "note": "Three main options. Apply for data covers the whole journey, from applying to life after approval. Draft: names to be agreed.",
     "mostAsked": [
       "how-to-apply",
       "how-long",
       "prerequisites",
       "what-next-approved"
     ],
+    "helpEntry": "contact",
     "areas": [
       {
         "id": "apply",
         "icon": "ti-file-text",
         "label": "Apply for data",
-        "description": "How to apply, forms and what you need first",
+        "description": "How to apply and what happens next",
         "topics": [
           {
             "label": "Getting started",
             "entries": [
               "how-to-apply",
+              "which-form",
               "route-ukllc",
               "eligibility",
               "process-diagram"
-            ]
-          },
-          {
-            "label": "Forms",
-            "entries": [
-              "which-form",
-              "data-dictionary"
             ]
           },
           {
@@ -1358,6 +1581,30 @@
               "cost",
               "facilitated"
             ]
+          },
+          {
+            "label": "Review and decisions",
+            "entries": [
+              "after-submit",
+              "how-long",
+              "no-confirmation",
+              "more-info",
+              "not-approved",
+              "request-window",
+              "before-approval"
+            ]
+          },
+          {
+            "label": "Once you are approved",
+            "entries": [
+              "what-next-approved",
+              "receive-data",
+              "add-later",
+              "outputs",
+              "publish",
+              "cite",
+              "extension"
+            ]
           }
         ]
       },
@@ -1365,18 +1612,34 @@
         "id": "vars",
         "icon": "ti-search",
         "label": "Find variables",
-        "description": "Look up variables and see what others requested",
+        "description": "Search, documentation and the data dictionary",
         "topics": [
           {
-            "label": "Look for variables",
+            "label": "Ways to search",
             "entries": [
-              "choose-variables"
+              "choose-variables",
+              "search-dictionary",
+              "browse-category",
+              "search-year",
+              "popular-vars",
+              "longitudinal-search",
+              "other-projects",
+              "ukllc-catalogue"
             ]
           },
           {
-            "label": "Learn from other projects",
+            "label": "Search documentation",
             "entries": [
-              "other-projects"
+              "search-documentation",
+              "doc-icons"
+            ]
+          },
+          {
+            "label": "Variables and the data dictionary",
+            "entries": [
+              "variable-page",
+              "jargon-terms",
+              "data-dictionary"
             ]
           }
         ]
@@ -1385,7 +1648,7 @@
         "id": "baskets",
         "icon": "ti-basket",
         "label": "Baskets and Condor",
-        "description": "Basket IDs, limits, accounts and platforms",
+        "description": "Basket IDs, limits and accounts",
         "topics": [
           {
             "label": "Baskets",
@@ -1400,75 +1663,6 @@
             "entries": [
               "owl-condor",
               "condor-account"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "after",
-        "icon": "ti-clock",
-        "label": "After you apply",
-        "description": "Review, timings and decisions",
-        "topics": [
-          {
-            "label": "Review and timing",
-            "entries": [
-              "after-submit",
-              "how-long",
-              "no-confirmation",
-              "more-info"
-            ]
-          },
-          {
-            "label": "Decisions",
-            "entries": [
-              "not-approved",
-              "request-window",
-              "before-approval"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "approved",
-        "icon": "ti-circle-check",
-        "label": "After approval",
-        "description": "Getting your data, outputs and publishing",
-        "topics": [
-          {
-            "label": "Getting your data",
-            "entries": [
-              "what-next-approved",
-              "receive-data"
-            ]
-          },
-          {
-            "label": "Using the data",
-            "entries": [
-              "add-later",
-              "outputs"
-            ]
-          },
-          {
-            "label": "Publishing and extending",
-            "entries": [
-              "publish",
-              "cite",
-              "extension"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "help",
-        "icon": "ti-help-circle",
-        "label": "More help",
-        "description": "Contact the team",
-        "topics": [
-          {
-            "label": "Contact",
-            "entries": [
-              "contact"
             ]
           }
         ]
