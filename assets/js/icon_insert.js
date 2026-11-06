@@ -51,6 +51,7 @@
 	"forms and downloads":	"ti ti-forms",
 	"how applications are reviewed":	"ti ti-scale",
 	"after approval":	"ti ti-circle-check",
+	"data sharing process at a glance": "ti ti-route",
 	"metrics":		"ti-chart-line",
 	"faqs":						"ti-help-circle",
 
