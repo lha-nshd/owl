@@ -213,7 +213,7 @@
       "group": "apply",
       "question": "How do I apply for NSHD data?",
       "keywords": "apply application how to get data request start begin steps process requesting access request access apply for data",
-      "answer": "<p>Each application is for one project and a set of variables. The steps are:</p><ol><li>Choose the variables you need by searching or browsing OWL, Condor or the data dictionary.</li><li>Complete the data dictionary.</li><li>Upload it to Condor to finalise your basket.</li><li>Submit the Data Access Request Form, attaching the completed data dictionary.</li><li>NSHD reviews your application.</li><li>If approved, your data is made available through the UCL Data Safe Haven.</li></ol>",
+      "answer": "<p>Each application is for one project and a set of variables. The steps are:</p><ol><li>Choose the variables you need by searching or browsing OWL, Condor or the data dictionary.</li><li>Create your basket in Condor. You can upload a completed data dictionary to Condor to build it, or add the variables in Condor yourself.</li><li>Finalise your basket in Condor. It is given a basket ID.</li><li>Submit the Data Access Request Form with your basket ID.</li><li>NSHD reviews your application.</li><li>If approved, your data is made available through the UCL Data Safe Haven.</li></ol>",
       "links": [
         {
           "label": "Apply for data",
@@ -230,14 +230,15 @@
         "I want to request access to the data",
         "how do I start a data request",
         "what is the application process"
-      ]
+      ],
+      "tbc": "Confirm the Data Access Request Form no longer needs the completed data dictionary attached, and that the basket ID is what the form asks for."
     },
     {
       "id": "prerequisites",
       "group": "apply",
       "question": "What do I need before I apply?",
       "keywords": "prerequisite prerequisites before need require requirements eligible eligibility ready criteria ethics ethical approval training agreement agreements governance first",
-      "answer": "<p>Have a defined project, the list of variables you need, and a completed data dictionary. For the full list of conditions that apply before you can be given access, see the Access Prerequisites on the data access pages.</p>",
+      "answer": "<p>Have a defined project and the list of variables you need, so that you can create a basket in Condor. You do not have to complete a data dictionary: uploading one is just an easy way to build the basket. For the full list of conditions that apply before you can be given access, see the Access Prerequisites on the data access pages.</p>",
       "tbc": "Formal prerequisites (agreements, approvals, training, ethics) are not stated on the pages used. LHA to confirm and replace this answer with the official list.",
       "links": [
         {
@@ -288,8 +289,8 @@
       "id": "data-dictionary",
       "group": "apply",
       "question": "What is the data dictionary and do I have to complete one?",
-      "keywords": "data dictionary spreadsheet excel mark y request variable column complete fill download template",
-      "answer": "<p>It is an Excel spreadsheet where you mark <b>Y</b> against every variable you want. Only variables marked in the \"Request variable\" column are included in your application.</p><p>You can complete it by hand, or build your basket on OWL and download a copy that is already marked for you.</p>",
+      "keywords": "data dictionary spreadsheet excel mark y request variable column complete fill download template upload condor optional requirement required create basket build",
+      "answer": "<p>The data dictionary is an Excel spreadsheet where you mark <b>Y</b> against every variable you want. <b>You do not have to complete one.</b> What you do need is a basket created in Condor. The data dictionary is there to make that easy: complete it, then upload it to Condor and your basket is built from the variables you marked in the \"Request variable\" column.</p><p>You can complete it by hand, or build your basket on OWL and download a copy that is already marked for you. Or skip it and add variables in Condor directly.</p>",
       "links": [
         {
           "label": "Apply for data",
@@ -300,7 +301,11 @@
       "examples": [
         "what is the data dictionary spreadsheet",
         "how do I mark the variables I want",
-        "do I need to fill in an excel file"
+        "do I need to fill in an excel file",
+        "do I have to fill in the data dictionary",
+        "can I upload the data dictionary to Condor",
+        "is the data dictionary a requirement",
+        "how do I create a basket in Condor"
       ]
     },
     {

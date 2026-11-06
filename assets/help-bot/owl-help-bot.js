@@ -209,7 +209,7 @@
     '.links a:hover,.alt:hover{background:var(--plum);color:#fff}',
     '.meta{margin-top:8px;font-size:11.5px;color:var(--muted)}',
     '.th{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 6px;background:#fff7e6;border-top:3px solid #f5a623;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:#8a5a00}.tg{font:inherit;font-size:11.5px;text-transform:none;letter-spacing:0;font-weight:600;background:transparent;border:0;color:#8a5a00;text-decoration:underline;cursor:pointer;padding:2px 4px}',
-    '.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 10px;background:#fff7e6}.chat.min .tabs,.chat.min .chips{display:none}.chat.min .log{max-height:min(560px,calc(100vh - 300px))}',
+    '.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 10px;background:#fff7e6}.chat.min .chips{display:none}.chat.min .log{max-height:min(560px,calc(100vh - 340px))}.th{cursor:pointer}',
     '.tabs button{font:inherit;font-size:12.5px;padding:4px 10px;border-radius:999px;border:0;background:#fbe9c4;color:#6b4a00;cursor:pointer}',
     '.tabs button[aria-pressed="true"]{background:#8a5a00;color:#fff}',
     '.chips{display:flex;flex-wrap:wrap;gap:7px;padding:0 14px 12px;background:#fff7e6;overflow-y:auto;min-height:0;flex:0 1 auto}.head,.th,.tabs,form,.foot{flex:none}',
@@ -315,7 +315,7 @@
 
     content.groups.forEach(function (g) {
       var b = el('button', null, g.label); b.type = 'button'; b.dataset.g = g.id;
-      b.addEventListener('click', function () { ui.cur = g.id; drawChips(); });
+      b.addEventListener('click', function () { ui.cur = g.id; drawChips(); if (ui.chat.classList.contains('min')) setTray(true); });
       tabs.appendChild(b);
     });
     drawChips();
@@ -324,7 +324,8 @@
     if (state.msgs.length) redraw(); else push({ k: 'greet' });
     reset.addEventListener('click', startOver);
     ui.pos = loadPos(); applyPos(); wireMove();
-    tg.addEventListener('click', function () { setTray(ui.chat.classList.contains('min')); });
+    tg.addEventListener('click', function (e) { e.stopPropagation(); setTray(ui.chat.classList.contains('min')); });
+    th.addEventListener('click', function () { setTray(ui.chat.classList.contains('min')); });
     window.addEventListener('storage', function (ev) {
       if (ev.key !== KEY) return;
       var st = loadState(); state.msgs = st.msgs; redraw();
