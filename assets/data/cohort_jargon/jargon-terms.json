@@ -3,7 +3,7 @@
     "term": "Approved researcher",
     "cat": "Access & governance",
     "icon": "ti-user-check",
-    "def": "A researcher who has successfully completed the necessary ethics, governance, and training requirements to receive NSHD data. Approval is granted on a per-project basis and is tied to a specific data access request submitted via Skylark. Data may only be used by the named approved researchers for the stated project purpose."
+    "def": "A researcher who has been approved to receive NSHD data for a specific project. Approval is granted per project, through the data access request, and the researcher must complete the access prerequisites before being given access: Data Security Awareness Training, Data Safe Haven access, a confidentiality form and, where needed, a Data Sharing Agreement. Data may only be used by the named approved researchers for the stated project purpose."
   },
   {
     "term": "Associated documents",
@@ -99,7 +99,7 @@
     "term": "Data sharing agreement",
     "cat": "Access & governance",
     "icon": "ti-file-certificate",
-    "def": "A legally binding agreement between the NSHD and a researchers institution governing the conditions under which NSHD data may be accessed, stored, used, and shared. Data sharing agreements specify permitted uses, security requirements, and obligations around publication and data destruction. A signed agreement is typically required before data is released via the UCL Data Safe Haven (DSH)."
+    "def": "A legally binding agreement between the NSHD and a researcher’s institution governing the conditions under which NSHD data may be accessed, stored, used, and shared. It is needed only if the institution has not shared data with the NSHD before, and must be signed by an appropriate authority at the institution. All new projects use the current version (18 November 2025), which is non-negotiable, and it must be in place before any data are provided."
   },
   {
     "term": "Decile",
@@ -160,6 +160,12 @@
     "cat": "Study design",
     "icon": "ti-brain",
     "def": "A neuroimaging sub-study of a subset of NSHD study members, collected in three phases (Insight46 Phase 3 is still on-going)."
+  },
+  {
+    "term": "MyoFit 46",
+    "cat": "Study design",
+    "icon": "ti-heartbeat",
+    "def": "A major cardiovascular research project and sub-study of the Medical Research Council National Survey of Health and Development (NSHD), the British 1946 birth cohort. Papers using MyoFit 46 data, like those using Insight 46 data, are reviewed by the NSHD Data Sharing Committee before they are submitted to a journal."
   },
   {
     "term": "Later version",
@@ -318,12 +324,6 @@
     "def": "One sweep of a truly longitudinal variable, considered in relation to its other sweeps under the same Field ID — for example, wt50u and wt52u are siblings of each other. See also: Field ID, Truly Longitudinal, Sync linked sweeps."
   },
   {
-    "term": "Skylark",
-    "cat": "Platforms",
-    "icon": "ti-cloud-upload",
-    "def": "The NSHD data access platform through which researchers submit formal requests for NSHD data. Once a basket of variables has been formally saved on Condor, a data access request is submitted via Skylark. Skylark handles the full data request workflow — from application submission through ethics and governance review to data release."
-  },
-  {
     "term": "Standard deviation",
     "cat": "Variables & data",
     "icon": "ti-sigma",
@@ -381,19 +381,19 @@
     "term": "Trusted Research Environment (TRE)",
     "cat": "Access & governance",
     "icon": "ti-shield-lock",
-    "def": "A secure environment in which data must be accessed and analysed, with no downloading to personal devices, used to protect participant confidentiality. NSHD data can be accessed through more than one TRE — the UCL Data Safe Haven (DSH) for standard Condor/Skylark requests, and UK LLC for requests needing NSHD data linked to other cohorts or administrative records — each with its own separate application process."
+    "def": "A secure environment in which data must be accessed and analysed, with no downloading to personal devices, used to protect participant confidentiality. NSHD data can be accessed through more than one TRE — the UCL Data Safe Haven (DSH) for standard Condor requests, and UK LLC for requests needing NSHD data linked to other cohorts or administrative records — each with its own separate application process."
   },
   {
     "term": "UK LLC",
     "cat": "Platforms",
     "icon": "ti-link",
-    "def": "The UK Longitudinal Linkage Collaboration, a national Trusted Research Environment (TRE) that links NSHD data to over 20 other UK longitudinal studies, plus NHS and other administrative records. Accessed separately from Condor and Skylark, via its own accreditation and application process. See UK LLC Catalogue for the searchable list of NSHD datasets deposited so far."
+    "def": "The UK Longitudinal Linkage Collaboration, a national Trusted Research Environment (TRE) that links NSHD data to over 20 other UK longitudinal studies, plus NHS and other administrative records. Accessed separately from Condor, via its own accreditation and application process. See UK LLC Catalogue for the searchable list of NSHD datasets deposited so far."
   },
   {
     "term": "UK LLC Catalogue",
     "cat": "Platforms",
     "icon": "ti-table",
-    "def": "The OWL search page listing every NSHD dataset deposited into UK LLC, one row per file, with a dataset filter and sortable columns. Opening a row shows the variables it contains and their labels. Variables found here can be added to the OWL basket for a standard Condor/Skylark request, or accessed through UK LLC directly for linked analysis."
+    "def": "The OWL search page listing every NSHD dataset deposited into UK LLC, one row per file, with a dataset filter and sortable columns. Opening a row shows the variables it contains and their labels. Variables found here can be added to the OWL basket for a standard Condor request, or accessed through UK LLC directly for linked analysis."
   },
   {
     "term": "Units",
@@ -501,7 +501,7 @@
     "term": "Application",
     "cat": "Access & governance",
     "icon": "ti-file-text",
-    "def": "A request for NSHD data submitted through the data request form. Each application is logged on the Skylark request list and, once approved, becomes a project."
+    "def": "A request for NSHD data submitted through the Data Access Request Form. Each application is logged on the SharePoint request list and, once approved, becomes a project."
   },
   {
     "term": "Project",
@@ -516,10 +516,10 @@
     "def": "A decision to grant a data request, made through the NSHD data access process. The metrics measure the days from the application being submitted to it being approved."
   },
   {
-    "term": "Data request form",
+    "term": "Data Access Request Form",
     "cat": "Access & governance",
     "icon": "ti-forms",
-    "def": "The online form researchers complete to apply for data. Its answers (institution, country, project title) are free text, so they are cleaned by hand before they are counted."
+    "def": "The online form researchers complete to apply for data, submitted with a basket ID. Its answers (institution, country, project title) are free text, so they are cleaned by hand before they are counted."
   },
   {
     "term": "Planner",
@@ -532,12 +532,6 @@
     "cat": "Platforms",
     "icon": "ti-bolt",
     "def": "The Microsoft tool that logs each request in SharePoint and Planner when it is submitted, so the request and decision times are recorded."
-  },
-  {
-    "term": "SharePoint request list (Skylark Baskets)",
-    "cat": "Platforms",
-    "icon": "ti-list-details",
-    "def": "The list that holds every application submitted through Skylark, with its request and decision dates. It is the source of the approval times."
   },
   {
     "term": "Jay",
@@ -652,5 +646,161 @@
     "cat": "Data sharing metrics",
     "icon": "ti-percentage",
     "def": "The group a percentage is taken from, for example 'of N approved projects'. The PDF shows it under each tile because it differs from tile to tile."
+  },
+  {
+    "term": "SharePoint request list",
+    "cat": "Platforms",
+    "icon": "ti-list-details",
+    "def": "The list that holds every application submitted through the Data Access Request Form, with its request and decision dates. It is the source of the approval times."
+  },
+  {
+    "term": "Access prerequisites",
+    "cat": "Access & governance",
+    "icon": "ti-list-check",
+    "def": "The four things completed after approval and before you are given access: Data Security Awareness Training, Data Safe Haven access, the confidentiality form and, where needed, a Data Sharing Agreement. You do not attach them to your application; you are emailed for each one as your application progresses."
+  },
+  {
+    "term": "Additional Users / Data Request form",
+    "cat": "Access & governance",
+    "icon": "ti-user-plus",
+    "def": "The form used on an approved project to add another user, request an additional basket, or give a basket ID that was left out of the original application. Projects approved before 1 January 2023 email the team instead."
+  },
+  {
+    "term": "Advanced risk assessment",
+    "cat": "Access & governance",
+    "icon": "ti-shield-check",
+    "def": "The extra check made for baskets of more than 500 variables, because larger baskets are more disclosive. The LHA Director may charge a fee for it."
+  },
+  {
+    "term": "Appeal",
+    "cat": "Access & governance",
+    "icon": "ti-gavel",
+    "def": "The route open to a researcher whose proposal is not approved. Appeals go first to the LHA Director, who may grant the appeal or refer it to an external independent body."
+  },
+  {
+    "term": "Approved Researcher Agreement (ARA)",
+    "cat": "Access & governance",
+    "icon": "ti-writing-sign",
+    "def": "The signed Data Safe Haven acceptable use statement that everyone using NSHD data must return, together with contact details, before a Data Safe Haven account can be set up."
+  },
+  {
+    "term": "Basket ID",
+    "cat": "Access & governance",
+    "icon": "ti-hash",
+    "def": "The reference for a saved basket of variables. It is quoted on the Data Access Request Form, or later on the Additional Users / Data Request form, so the team knows which data to prepare."
+  },
+  {
+    "term": "Bona fide researcher",
+    "cat": "Access & governance",
+    "icon": "ti-user-check",
+    "def": "A researcher at an MRC-recognised organisation who has the expertise the project needs. Students need a supervisor as co-applicant."
+  },
+  {
+    "term": "Co-applicant",
+    "cat": "Access & governance",
+    "icon": "ti-users",
+    "def": "Anyone other than the principal applicant who is named on a project. Every user of the data must be named, hold valid training and return a signed confidentiality form."
+  },
+  {
+    "term": "Confidentiality form",
+    "cat": "Access & governance",
+    "icon": "ti-file-certificate",
+    "def": "A form signed by every applicant on a first application to the NSHD, provided after the request is approved. All forms must be returned before the application can move forward."
+  },
+  {
+    "term": "Data Safe Haven account",
+    "cat": "Access & governance",
+    "icon": "ti-key",
+    "def": "A personal account in the UCL Data Safe Haven, requested for you by the Science Support Team after approval. You need the signed Approved Researcher Agreement and contact details first."
+  },
+  {
+    "term": "Data Security Awareness Training",
+    "cat": "Access & governance",
+    "icon": "ti-school",
+    "def": "The online course, run on the e-LfH portal, that everyone using the data must pass. It is renewed every 12 months and the completion certificate is sent to the team."
+  },
+  {
+    "term": "DataCite DOI",
+    "cat": "Access & governance",
+    "icon": "ti-quote",
+    "def": "The persistent identifier given to each NSHD dataset. Authors must cite the DOIs in any publication that uses the data."
+  },
+  {
+    "term": "DSH Output Request",
+    "cat": "Access & governance",
+    "icon": "ti-file-export",
+    "def": "The form used to ask for results, such as tables and figures, to be taken out of the Data Safe Haven. Nothing can be taken out directly."
+  },
+  {
+    "term": "e-LfH",
+    "cat": "Access & governance",
+    "icon": "ti-certificate",
+    "def": "The e-Learning for Healthcare portal that runs the Data Security Awareness course. You need an account registered with your academic email address."
+  },
+  {
+    "term": "Facilitated collaboration",
+    "cat": "Access & governance",
+    "icon": "ti-users-group",
+    "def": "A way of handling requests that need extra conditions, for example those involving sensitive data such as cause and date of death, or needing a lot of study team time. Mention it when you apply if you think yours may need one."
+  },
+  {
+    "term": "Information Governance induction training",
+    "cat": "Access & governance",
+    "icon": "ti-certificate-2",
+    "def": "The induction the Data Safe Haven team invites approved researchers to attend before they are given access."
+  },
+  {
+    "term": "LHA",
+    "cat": "Access & governance",
+    "icon": "ti-building",
+    "def": "The MRC Unit for Lifelong Health and Ageing at UCL, which runs the NSHD and its data sharing."
+  },
+  {
+    "term": "NSHD Data Sharing Committee",
+    "cat": "Access & governance",
+    "icon": "ti-scale",
+    "def": "The committee at the LHA that reviews every request for NSHD data and decides whether it is approved, or whether more information is needed. It also reviews papers before they are submitted to a journal."
+  },
+  {
+    "term": "Pre-publication Checklist",
+    "cat": "Access & governance",
+    "icon": "ti-checklist",
+    "def": "The form completed and emailed to the team before a paper using NSHD data is submitted to a journal, so the committee can review it first."
+  },
+  {
+    "term": "Principal applicant",
+    "cat": "Access & governance",
+    "icon": "ti-user",
+    "def": "The lead applicant on a project. The principal applicant is emailed when forms are due and is the only person notified when a co-applicant submits the Additional Users / Data Request form."
+  },
+  {
+    "term": "Project Extension Request",
+    "cat": "Access & governance",
+    "icon": "ti-calendar-plus",
+    "def": "The form used to extend an approved project. It must be received before the project’s original end date has passed."
+  },
+  {
+    "term": "Request window",
+    "cat": "Access & governance",
+    "icon": "ti-calendar-stats",
+    "def": "The 24 months after project approval in which a researcher must request their data. After that the approval lapses and a new application is needed."
+  },
+  {
+    "term": "Science Support Team",
+    "cat": "Access & governance",
+    "icon": "ti-users",
+    "def": "The LHA team that reviews data requests, emails researchers for their prerequisites, and after approval sets up the secure share and requests Data Safe Haven accounts."
+  },
+  {
+    "term": "Secure share",
+    "cat": "Access & governance",
+    "icon": "ti-lock",
+    "def": "The secure folder, set up by the Science Support Team after approval, where a project’s data are placed so they can be used inside the Data Safe Haven."
+  },
+  {
+    "term": "Tawny",
+    "cat": "Platforms",
+    "icon": "ti-message-circle",
+    "def": "OWL’s automated help assistant, shown as a button on every page. It answers common questions about applying for NSHD data, and is not AI: it matches your words to written answers. Decisions about an application are made by the data sharing team."
   }
 ]
