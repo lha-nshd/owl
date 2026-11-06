@@ -1,0 +1,162 @@
+<!-- Paste into pages/data_sharing.html where you want the diagram. Needs the <style> block from process_overview.html
+     (the .owl-flow rules) once on the page, or move those rules into getting-started.css. -->
+<style>
+  .owl-flow { background:#fff; border:1px solid #ddd; border-radius:10px; padding:18px 20px 20px; margin-bottom:26px; }
+  .owl-flow h2 { margin:0 0 4px; font-size:17px; color:#3a0066; }
+  .owl-flow > p.lead { margin:0 0 14px; font-size:13px; color:#555; }
+  .owl-flow .scroll { overflow-x:auto; }
+  .owl-flow svg { display:block; width:100%; min-width:860px; height:auto; }
+  .owl-flow svg text { font-family: Arial, sans-serif; fill:#2a2a2a; }
+  .owl-flow details { margin-top:10px; font-size:12.5px; }
+  .owl-flow details summary { cursor:pointer; color:#6a0dad; font-weight:700; }
+  .owl-flow details ol { margin:8px 0 0; padding-left:20px; }
+  .owl-flow .flow-note { margin-top:12px; font-size:12px; color:#555; background:#f5f0fa; border-left:4px solid #6a0dad; padding:8px 12px; border-radius:0 6px 6px 0; }
+
+  /* decision-tree diagrams */
+  .owl-flow .fl-q { display:inline-block; background:#3a0066; color:#fff; font-weight:700; font-size:13px; padding:9px 16px; border-radius:20px; }
+  .owl-flow .fl-center { text-align:center; }
+  .owl-flow .fl-stem { width:2px; height:18px; background:#6a0dad; margin:0 auto; }
+  .owl-flow .fl-grid2 { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  .owl-flow .fl-branch { border-radius:10px; padding:12px 14px; border:1.5px solid; }
+  .owl-flow .fl-tag { font-weight:700; font-size:13px; margin-bottom:10px; }
+  .owl-flow .fl-step { background:#fff; border:1px solid; border-radius:7px; padding:8px 10px; font-size:12.5px; }
+  .owl-flow .fl-arrow { text-align:center; color:#6a0dad; font-size:15px; line-height:1.1; margin:3px 0; }
+  .owl-flow .fl-link { display:inline-block; margin-top:10px; font-size:12px; font-weight:700; color:#6a0dad; text-decoration:none; border:1px solid #6a0dad; border-radius:14px; padding:3px 11px; }
+  .owl-flow .t-teal  { background:hsl(180 45% 94%); border-color:hsl(180 45% 40%); } .owl-flow .t-teal  .fl-step { border-color:hsl(180 45% 60%); } .owl-flow .t-teal .fl-tag { color:hsl(180 45% 18%); }
+  .owl-flow .t-pink  { background:hsl(340 45% 95%); border-color:hsl(340 45% 52%); } .owl-flow .t-pink  .fl-step { border-color:hsl(340 45% 70%); } .owl-flow .t-pink .fl-tag { color:hsl(340 45% 24%); }
+  .owl-flow .t-amber { background:hsl(35 60% 94%);  border-color:hsl(35 60% 48%); }  .owl-flow .t-amber .fl-step { border-color:hsl(35 60% 65%); }  .owl-flow .t-amber .fl-tag { color:hsl(35 60% 20%); }
+  .owl-flow .t-lav   { background:hsl(270 35% 95%); border-color:hsl(270 35% 55%); } .owl-flow .t-lav   .fl-step { border-color:hsl(270 35% 72%); } .owl-flow .t-lav .fl-tag { color:hsl(270 35% 22%); }
+  .owl-flow .t-green { background:hsl(125 35% 93%); border-color:hsl(125 35% 42%); } .owl-flow .t-green .fl-step { border-color:hsl(125 35% 60%); } .owl-flow .t-green .fl-tag { color:hsl(125 35% 18%); }
+
+  .owl-flow .fl-row { display:grid; grid-template-columns: 1.1fr 0.9fr 0.9fr; gap:10px; align-items:stretch; margin-bottom:10px; }
+  .owl-flow .fl-qbox { background:#3a0066; color:#fff; border-radius:10px; padding:10px 12px; font-size:12.5px; font-weight:700; display:flex; align-items:center; }
+  .owl-flow .fl-out { border-radius:10px; padding:10px 12px; font-size:12.5px; border:1.5px solid; position:relative; }
+  .owl-flow .fl-out .yn { display:inline-block; font-size:10px; font-weight:700; padding:1px 8px; border-radius:9px; margin-bottom:5px; background:#fff; border:1px solid currentColor; }
+  .owl-flow .fl-always { border-radius:10px; padding:11px 14px; margin-bottom:14px; font-size:12.5px; border:1.5px solid hsl(180 45% 40%); background:hsl(180 45% 94%); }
+  .owl-flow .fl-always b { color:hsl(180 45% 18%); }
+  .owl-flow .o-yes { background:hsl(35 60% 94%); border-color:hsl(35 60% 48%); color:hsl(35 60% 18%); }
+  .owl-flow .o-no  { background:hsl(125 35% 93%); border-color:hsl(125 35% 42%); color:hsl(125 35% 16%); }
+
+  .owl-flow .fl-fan { display:grid; grid-template-columns:repeat(5, 1fr); gap:10px; margin-top:0; position:relative; }
+  .owl-flow .fl-fan::before { content:""; position:absolute; top:-9px; left:10%; right:10%; height:2px; background:#6a0dad; }
+  .owl-flow .fl-card { border-radius:10px; padding:10px 11px 12px; border:1.5px solid; position:relative; font-size:12px; }
+  .owl-flow .fl-card::before { content:""; position:absolute; top:-9px; left:50%; width:2px; height:9px; background:#6a0dad; }
+  .owl-flow .fl-card .when { font-weight:700; font-size:12.5px; margin-bottom:6px; }
+  .owl-flow .fl-card .do { background:#fff; border-radius:6px; padding:6px 8px; font-weight:700; border:1px solid; margin-bottom:6px; }
+  .owl-flow .fl-card .then { font-size:11.5px; color:#444; }
+  @media (max-width: 800px) {
+    .owl-flow .fl-grid2 { grid-template-columns:1fr; }
+    .owl-flow .fl-row { grid-template-columns:1fr; }
+    .owl-flow .fl-fan { grid-template-columns:1fr; }
+    .owl-flow .fl-fan::before, .owl-flow .fl-card::before { display:none; }
+  }
+</style>
+
+  <section class="owl-flow" id="process-flow">
+    <h2>From first look to receiving your data</h2>
+    <p class="lead">Who does what, and in what order. Read left to right.</p>
+    <div class="scroll">
+    <svg viewBox="0 0 1108 632" role="img" aria-labelledby="fp-t fp-d">
+<title id="fp-t">The data sharing process</title>
+<desc id="fp-d">A swimlane diagram with four lanes: the researcher, the Science Support Team, the Data Sharing Committee and the Data Safe Haven team. A text version follows the diagram.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6a0dad"/></marker></defs>
+<g font-size="12" font-weight="700" text-anchor="middle">
+<rect x="102" y="6" width="164" height="42" rx="8" fill="#3a0066"/>
+<text x="184.0" y="24" style="fill:#fff">1  Prepare</text><text x="184.0" y="39" font-size="10" font-weight="400" style="fill:#f3e8fb">OWL and Condor</text>
+<rect x="270" y="6" width="164" height="42" rx="8" fill="#3a0066"/>
+<text x="352.0" y="24" style="fill:#fff">2  Apply</text><text x="352.0" y="39" font-size="10" font-weight="400" style="fill:#f3e8fb">Data Access Request Form</text>
+<rect x="438" y="6" width="164" height="42" rx="8" fill="#b85c00"/>
+<text x="520.0" y="24" style="fill:#fff">3  Review</text><text x="520.0" y="39" font-size="10" font-weight="400" style="fill:#f3e8fb">30 days max, usually 2 weeks</text>
+<rect x="606" y="6" width="164" height="42" rx="8" fill="#3a0066"/>
+<text x="688.0" y="24" style="fill:#fff">4  Prerequisites</text><text x="688.0" y="39" font-size="10" font-weight="400" style="fill:#f3e8fb">after approval, by email</text>
+<rect x="774" y="6" width="164" height="42" rx="8" fill="#3a0066"/>
+<text x="856.0" y="24" style="fill:#fff">5  Set up</text><text x="856.0" y="39" font-size="10" font-weight="400" style="fill:#f3e8fb">after approval</text>
+<rect x="942" y="6" width="164" height="42" rx="8" fill="#3a0066"/>
+<text x="1024.0" y="24" style="fill:#fff">6  Access</text><text x="1024.0" y="39" font-size="10" font-weight="400" style="fill:#f3e8fb">Data Safe Haven</text>
+</g>
+<rect x="0" y="56" width="1108" height="140" fill="hsl(180 45% 95%)"/><rect x="0" y="56" width="100" height="140" fill="hsl(180 45% 87%)"/>
+<rect x="0" y="196" width="1108" height="140" fill="hsl(35 60% 95%)"/><rect x="0" y="196" width="100" height="140" fill="hsl(35 60% 87%)"/>
+<rect x="0" y="336" width="1108" height="140" fill="hsl(340 45% 96%)"/><rect x="0" y="336" width="100" height="140" fill="hsl(340 45% 89%)"/>
+<rect x="0" y="476" width="1108" height="140" fill="hsl(270 35% 96%)"/><rect x="0" y="476" width="100" height="140" fill="hsl(270 35% 89%)"/>
+<g stroke="#fff" stroke-width="2"><line x1="0" y1="196" x2="1108" y2="196"/><line x1="0" y1="336" x2="1108" y2="336"/><line x1="0" y1="476" x2="1108" y2="476"/></g>
+<g font-size="12" font-weight="700" text-anchor="middle">
+<text x="50.0" y="130">Researcher</text>
+<text x="50.0" y="263">Science</text>
+<text x="50.0" y="278">Support Team</text>
+<text x="50.0" y="403">Data Sharing</text>
+<text x="50.0" y="418">Committee</text>
+<text x="50.0" y="543">Data Safe</text>
+<text x="50.0" y="558">Haven team</text>
+</g>
+<g stroke="#6a0dad" stroke-width="2" fill="none" marker-end="url(#arr)"><line x1="257.0" y1="126" x2="277.0" y2="126"/><path d="M352.0 157 V266 H445.0"/><line x1="520.0" y1="297" x2="520.0" y2="373"/><path d="M593.0 406 H856.0 V299"/><path d="M658.0 406 V299"/><path d="M718.0 406 V513"/><line x1="688.0" y1="233" x2="688.0" y2="159"/><line x1="761.0" y1="126" x2="949.0" y2="126"/><path d="M761.0 546 H1024.0 V159"/></g>
+<path d="M929.0 266 H1024.0" stroke="#6a0dad" stroke-width="2" fill="none"/>
+<text x="629.0" y="399" font-size="10.5" font-weight="700" text-anchor="middle" style="fill:#1a6b45">Approved</text>
+<g font-size="11" text-anchor="middle">
+<rect x="111.0" y="95.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(180 45% 35%)" stroke-width="1.6"/>
+<text x="184.0" y="119.0">Explore on OWL, then</text>
+<text x="184.0" y="133.0">build a basket in Condor</text>
+<text x="184.0" y="147.0">(you get a basket ID)</text>
+<rect x="279.0" y="95.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(180 45% 35%)" stroke-width="1.6"/>
+<text x="352.0" y="119.0">Submit the Data Access</text>
+<text x="352.0" y="133.0">Request Form with your</text>
+<text x="352.0" y="147.0">basket ID</text>
+<rect x="447.0" y="235.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(35 60% 42%)" stroke-width="1.6"/>
+<text x="520.0" y="263.0">Reviews your request</text>
+<text x="520.0" y="279.0">and basket</text>
+<rect x="447.0" y="375.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(340 45% 45%)" stroke-width="1.6"/>
+<text x="520.0" y="399.0">Decides: approved, or</text>
+<text x="520.0" y="413.0">more information</text>
+<text x="520.0" y="427.0">needed</text>
+<rect x="615.0" y="235.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(35 60% 42%)" stroke-width="1.6"/>
+<text x="688.0" y="259.0">Emails you for the</text>
+<text x="688.0" y="273.0">agreement, forms and</text>
+<text x="688.0" y="287.0">training certificate</text>
+<rect x="615.0" y="95.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(180 45% 35%)" stroke-width="1.6"/>
+<text x="688.0" y="119.0">Sign and return the</text>
+<text x="688.0" y="133.0">forms and agreement,</text>
+<text x="688.0" y="147.0">send your certificate</text>
+<rect x="615.0" y="515.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(270 35% 45%)" stroke-width="1.6"/>
+<text x="688.0" y="539.0">Invites you to</text>
+<text x="688.0" y="553.0">Information Governance</text>
+<text x="688.0" y="567.0">induction training</text>
+<rect x="783.0" y="235.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(35 60% 42%)" stroke-width="1.6"/>
+<text x="856.0" y="259.0">Sets up your secure</text>
+<text x="856.0" y="273.0">share and requests your</text>
+<text x="856.0" y="287.0">Data Safe Haven account</text>
+<rect x="951.0" y="95.0" width="146" height="62" rx="8" fill="#fff" stroke="hsl(180 45% 35%)" stroke-width="1.6"/>
+<text x="1024.0" y="119.0">You get access to your</text>
+<text x="1024.0" y="133.0">Data Safe Haven account</text>
+<text x="1024.0" y="147.0">and the data</text>
+</g>
+<g font-size="10.5" font-weight="700" text-anchor="middle">
+<circle cx="111.0" cy="95.0" r="10" fill="#6a0dad"/><text x="111.0" y="99.0" style="fill:#fff">1</text>
+<circle cx="279.0" cy="95.0" r="10" fill="#6a0dad"/><text x="279.0" y="99.0" style="fill:#fff">2</text>
+<circle cx="447.0" cy="235.0" r="10" fill="#6a0dad"/><text x="447.0" y="239.0" style="fill:#fff">3</text>
+<circle cx="447.0" cy="375.0" r="10" fill="#6a0dad"/><text x="447.0" y="379.0" style="fill:#fff">4</text>
+<circle cx="615.0" cy="235.0" r="10" fill="#6a0dad"/><text x="615.0" y="239.0" style="fill:#fff">5</text>
+<circle cx="615.0" cy="95.0" r="10" fill="#6a0dad"/><text x="615.0" y="99.0" style="fill:#fff">6</text>
+<circle cx="615.0" cy="515.0" r="10" fill="#6a0dad"/><text x="615.0" y="519.0" style="fill:#fff">7</text>
+<circle cx="783.0" cy="235.0" r="10" fill="#6a0dad"/><text x="783.0" y="239.0" style="fill:#fff">8</text>
+<circle cx="951.0" cy="95.0" r="10" fill="#6a0dad"/><text x="951.0" y="99.0" style="fill:#fff">9</text>
+</g>
+<g font-size="10.5" font-style="italic" text-anchor="middle"><text x="520.0" y="451">More information needed? You are asked</text><text x="520.0" y="464">for it and the review carries on.</text></g>
+<rect x="447.0" y="515.0" width="146" height="62" rx="8" fill="#fff" stroke="#999" stroke-width="1.4" stroke-dasharray="5 4"/>
+<g font-size="10.5" text-anchor="middle"><text x="520.0" y="540">Not approved? You can</text><text x="520.0" y="554">appeal to the LHA Director.</text></g>
+</svg>
+    </div>
+    <details>
+      <summary>Text version of this diagram</summary>
+      <ol>
+        <li>You explore variables on OWL, then build a basket in Condor and get a basket ID.</li>
+        <li>You submit the Data Access Request Form with your basket ID.</li>
+        <li>The Science Support Team reviews your request and basket.</li>
+        <li>The Data Sharing Committee decides: approved, or more information needed. A decision takes 30 days at most, usually about two weeks. If you are not approved, you can appeal to the LHA Director.</li>
+        <li>After approval, the Science Support Team emails you for the Data Sharing Agreement (if needed), the confidentiality form and your training certificate.</li>
+        <li>You sign and return the forms and agreement and send your certificate.</li>
+        <li>After approval, the Data Safe Haven team invites you to Information Governance induction training.</li>
+        <li>After approval, the Science Support Team sets up your secure share and requests your Data Safe Haven account.</li>
+        <li>You get access to your Data Safe Haven account and the data.</li>
+      </ol>
+    </details>
+  </section>
+<p><a href="{{ site.baseurl }}/docs/data_sharing/process-overview/">See all the process diagrams</a></p>
