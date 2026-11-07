@@ -1,0 +1,89 @@
+name: Rebuild Tawny variable index
+
+# Runs the Python script on GitHub's servers (GitHub Pages itself cannot run Python),
+# then commits the new help-bot-variables.json so Pages serves it as a normal static file.
+on:
+  workflow_dispatch:            # "Run workflow" button on the Actions tab
+  push:
+    branches: [main]            # change if your Pages branch has a different name
+    paths:
+      - 'assets/data/search_methods/search_by_year/NSHD_Data_Dictionary_Public_full.json'
+      - 'assets/data/search_methods/popular_variables/popular_vars_yr.json'
+      - 'assets/data/data_sharing/projects_variables.json'
+      - 'tools/help-bot/build_variable_index.py'
+      - 'tools/help-bot/build_variable_index.yaml'
+  schedule:
+    - cron: '17 5 * * 1'        # Mondays 05:17 UTC, as a safety net
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tawny-variable-index
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build the index
+        run: python tools/help-bot/build_variable_index.py | tee build.log
+
+      - name: Safety check (stop if the new index looks wrong)
+        run: |
+          python - <<'PY'
+          import json, subprocess, sys
+          new = json.load(open('assets/help-bot/help-bot-variables.json', encoding='utf-8'))
+          n = new['meta']['variables']
+          print('variables in new index:', n)
+          if n < 1000:
+              sys.exit('Fewer than 1000 variables. Not publishing.')
+          try:
+              old = json.loads(subprocess.check_output(['git', 'show', 'HEAD:assets/help-bot/help-bot-variables.json']))
+              o = old['meta']['variables']
+              print('variables in current index:', o)
+              if n < 0.9 * o:
+                  sys.exit('New index is more than 10% smaller than the current one. Check the inputs. Not publishing.')
+          except subprocess.CalledProcessError:
+              print('No existing index to compare with.')
+          PY
+
+      - name: Show a summary
+        run: |
+          echo '### Tawny variable index' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat build.log >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the new index (only if it changed)
+        run: |
+          rm -f build.log
+          # the 'built' date changes every run, so compare the content without it
+          if git diff --quiet -- assets/help-bot/help-bot-variables.json; then
+            echo 'No change.'; exit 0
+          fi
+          python - <<'PY'
+          import json, subprocess, sys
+          new = json.load(open('assets/help-bot/help-bot-variables.json', encoding='utf-8'))
+          try:
+              old = json.loads(subprocess.check_output(['git', 'show', 'HEAD:assets/help-bot/help-bot-variables.json']))
+          except subprocess.CalledProcessError:
+              sys.exit(0)
+          new['meta'].pop('built', None); old['meta'].pop('built', None)
+          if new == old:
+              subprocess.call(['git', 'checkout', '--', 'assets/help-bot/help-bot-variables.json'])
+              print('Only the build date changed. Not committing.')
+          PY
+          if git diff --quiet -- assets/help-bot/help-bot-variables.json; then exit 0; fi
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/help-bot/help-bot-variables.json
+          git commit -m 'Rebuild Tawny variable index'
+          git pull --rebase
+          git push

@@ -1,0 +1,11 @@
+# Settings for build_variable_index.py
+# Paths are relative to THIS file (tools/help-bot/), so ../../ is the top of the repository.
+dictionary: ../../assets/data/search_methods/search_by_year/NSHD_Data_Dictionary_Public_full.json
+popular: ../../assets/data/search_methods/popular_variables/popular_vars_yr.json
+projects: ../../assets/data/data_sharing/projects_variables.json
+output: ../../assets/help-bot/help-bot-variables.json
+
+# Optional tuning (these are the defaults)
+min_projects_for_suggestions: 5
+suggestions_per_variable: 5
+min_projects_per_pair: 4
