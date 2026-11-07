@@ -124,6 +124,7 @@ function buildTawnyBanner() {
   document.getElementById("tawnyBasketFilter").addEventListener("change", e => {
     tawny.basketFilter = e.target.value;
     applyFilters();
+    updateAllFilters(); // keep the dropdowns in step with what is now shown
   });
   document.getElementById("tawnyShowAllBtn").addEventListener("click", () => {
     clearTawnyResults();
@@ -193,6 +194,7 @@ fetch(SITE_BASEURL + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dict
     refreshBasketCache();
     buildTawnyBanner();
     applyFilters(); // 🔹 initial filter + search pass
+    if (tawny) updateAllFilters(); // TAWNY HAND-OFF: dropdowns list only what is in Tawny's results
 
     // Hide loading, show UI
     document.getElementById("loadingScreen").style.display = "none";
@@ -275,13 +277,21 @@ function updateAllFilters() {
     const select = document.querySelector(`#filter-bar select[data-column="${col}"]`);
     const currentValue = select.value;
 
-    const values = [...new Set(rows.map(r => r[col]).filter(v => v && v !== ""))].sort();
+    // TAWNY HAND-OFF: count how many of the shown variables each option covers
+    const counts = new Map();
+    rows.forEach(r => {
+      const v = r[col];
+      if (v && v !== "") counts.set(v, (counts.get(v) || 0) + 1);
+    });
+    const values = [...counts.keys()].sort();
+    // never drop the option someone has chosen, even if no rows are left
+    if (tawny && currentValue && !counts.has(currentValue)) values.unshift(currentValue);
 
     select.innerHTML = `<option value="">${col}</option>`;
     values.forEach(v => {
       const opt = document.createElement("option");
       opt.value = v;
-      opt.textContent = v;
+      opt.textContent = tawny ? `${v} (${counts.get(v) || 0})` : v;
       select.appendChild(opt);
     });
 
@@ -599,7 +609,11 @@ function changePage(delta) {
 // ============================================================
 
 function updateResultsCount() {
-  const total = rawData.length;
+  // TAWNY HAND-OFF: the total is the size of Tawny's list, not the whole dictionary
+  if (tawny && tawny.total === undefined) {
+    tawny.total = rawData.filter(r => tawny.set.has(tawnyRowName(r))).length;
+  }
+  const total = tawny ? tawny.total : rawData.length;
   const filtered = filteredData.length;
 
   document.getElementById("resultsCount").textContent =
