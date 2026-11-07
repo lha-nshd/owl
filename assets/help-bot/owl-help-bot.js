@@ -116,7 +116,13 @@
     ix.syn.forEach(function (g) {
       for (var i = 0; i < g.phrases.length; i++) {
         if (hay.indexOf(g.phrases[i]) !== -1) {
-          g.add.forEach(function (t) { q[t] = Math.max(q[t] || 0, 0.6); });
+          /* A word that no entry contains but a synonym group recognised (a misspelling such as "baskit", or
+             "price" for "cost") has been understood. It stands in for the official word at full weight and must
+             not count against the question as a word that failed to match. Other synonyms stay at 0.6. */
+          var pt = tokens(g.phrases[i], ix.stop), unknown = pt.length > 0;
+          pt.forEach(function (t) { if (ix.df[t]) unknown = false; });
+          if (unknown) pt.forEach(function (t) { if (q[t] === 1) delete q[t]; });
+          g.add.forEach(function (t) { q[t] = Math.max(q[t] || 0, unknown ? 1 : 0.6); });
           break;
         }
       }
