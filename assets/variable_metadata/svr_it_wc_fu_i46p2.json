@@ -12,11 +12,11 @@
   "dist_type": "continuous",
   "restricted": false,
   "security_message": "",
-  "mean": null,
-  "sd": null,
-  "series_size": null,
-  "minimum": null,
-  "maximum": null,
+  "mean": 1.057596923076923,
+  "sd": 0.09578945175464583,
+  "series_size": 325.0,
+  "minimum": 0.922,
+  "maximum": 1.33,
   "truly_longitudinal_field_id": "",
   "truly_longitudinal_varnames": [],
   "truly_longitudinal_years": [],
@@ -134,8 +134,81 @@
       ]
     ],
     "dist_type": "continuous",
-    "freq_rows": [],
-    "freq_note": ""
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.922"
+      ],
+      [
+        "Maximum",
+        "1.33"
+      ],
+      [
+        "Range",
+        "0.40800000000000003"
+      ],
+      [
+        "Median",
+        "1.04"
+      ],
+      [
+        "IQR",
+        "0.992 - 1.09"
+      ],
+      [
+        "Decile 1",
+        "0.9523999999999999"
+      ],
+      [
+        "Decile 2",
+        "0.9756"
+      ],
+      [
+        "Decile 3",
+        "1.0"
+      ],
+      [
+        "Decile 4",
+        "1.02"
+      ],
+      [
+        "Decile 5",
+        "1.04"
+      ],
+      [
+        "Decile 6",
+        "1.054"
+      ],
+      [
+        "Decile 7",
+        "1.07"
+      ],
+      [
+        "Decile 8",
+        "1.13"
+      ],
+      [
+        "Decile 9",
+        "1.21"
+      ],
+      [
+        "Mean",
+        "1.057596923076923"
+      ],
+      [
+        "Std Dev.",
+        "0.09578945175464583"
+      ],
+      [
+        "Variance",
+        "0.009175619067455622"
+      ],
+      [
+        "Displayed N",
+        "325"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
   },
   "page": {
     "varname": "svr_it_wc_fu_i46p2",
@@ -259,9 +332,129 @@
     "is_plot_excluded": false,
     "dist_type": "continuous",
     "dist_units": "SUVR",
-    "chart": null,
-    "freq_rows": [],
-    "freq_note": "",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.922,
+          0.9492,
+          0.9764,
+          1.0036,
+          1.0308000000000002,
+          1.058,
+          1.0852,
+          1.1124,
+          1.1396000000000002,
+          1.1668,
+          1.194,
+          1.2212,
+          1.2484000000000002,
+          1.2756,
+          1.3028,
+          1.33
+        ],
+        "counts": [
+          28,
+          40,
+          36,
+          58,
+          33,
+          42,
+          16,
+          12,
+          14,
+          9,
+          6,
+          6,
+          10,
+          10,
+          5
+        ]
+      },
+      "boxplot": {
+        "min": 0.922,
+        "q1": 0.992,
+        "median": 1.04,
+        "q3": 1.09,
+        "max": 1.33
+      },
+      "units": "SUVR"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.922"
+      ],
+      [
+        "Maximum",
+        "1.33"
+      ],
+      [
+        "Range",
+        "0.40800000000000003"
+      ],
+      [
+        "Median",
+        "1.04"
+      ],
+      [
+        "IQR",
+        "0.992 - 1.09"
+      ],
+      [
+        "Decile 1",
+        "0.9523999999999999"
+      ],
+      [
+        "Decile 2",
+        "0.9756"
+      ],
+      [
+        "Decile 3",
+        "1.0"
+      ],
+      [
+        "Decile 4",
+        "1.02"
+      ],
+      [
+        "Decile 5",
+        "1.04"
+      ],
+      [
+        "Decile 6",
+        "1.054"
+      ],
+      [
+        "Decile 7",
+        "1.07"
+      ],
+      [
+        "Decile 8",
+        "1.13"
+      ],
+      [
+        "Decile 9",
+        "1.21"
+      ],
+      [
+        "Mean",
+        "1.057596923076923"
+      ],
+      [
+        "Std Dev.",
+        "0.09578945175464583"
+      ],
+      [
+        "Variance",
+        "0.009175619067455622"
+      ],
+      [
+        "Displayed N",
+        "325"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
     "site_baseurl": "/OWL",
     "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
   }

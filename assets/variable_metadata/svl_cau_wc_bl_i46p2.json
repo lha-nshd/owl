@@ -12,11 +12,11 @@
   "dist_type": "continuous",
   "restricted": false,
   "security_message": "",
-  "mean": null,
-  "sd": null,
-  "series_size": null,
-  "minimum": null,
-  "maximum": null,
+  "mean": 1.0234517766497462,
+  "sd": 0.07331518052090616,
+  "series_size": 394.0,
+  "minimum": 0.893,
+  "maximum": 1.22,
   "truly_longitudinal_field_id": "",
   "truly_longitudinal_varnames": [],
   "truly_longitudinal_years": [],
@@ -134,8 +134,81 @@
       ]
     ],
     "dist_type": "continuous",
-    "freq_rows": [],
-    "freq_note": ""
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.893"
+      ],
+      [
+        "Maximum",
+        "1.22"
+      ],
+      [
+        "Range",
+        "0.32699999999999996"
+      ],
+      [
+        "Median",
+        "1.02"
+      ],
+      [
+        "IQR",
+        "0.966 - 1.07"
+      ],
+      [
+        "Decile 1",
+        "0.9353"
+      ],
+      [
+        "Decile 2",
+        "0.954"
+      ],
+      [
+        "Decile 3",
+        "0.9799"
+      ],
+      [
+        "Decile 4",
+        "0.999"
+      ],
+      [
+        "Decile 5",
+        "1.02"
+      ],
+      [
+        "Decile 6",
+        "1.03"
+      ],
+      [
+        "Decile 7",
+        "1.06"
+      ],
+      [
+        "Decile 8",
+        "1.08"
+      ],
+      [
+        "Decile 9",
+        "1.13"
+      ],
+      [
+        "Mean",
+        "1.0234517766497462"
+      ],
+      [
+        "Std Dev.",
+        "0.07331518052090616"
+      ],
+      [
+        "Variance",
+        "0.005375115694813058"
+      ],
+      [
+        "Displayed N",
+        "394"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above."
   },
   "page": {
     "varname": "svl_cau_wc_bl_i46p2",
@@ -259,9 +332,123 @@
     "is_plot_excluded": false,
     "dist_type": "continuous",
     "dist_units": "SUVR",
-    "chart": null,
-    "freq_rows": [],
-    "freq_note": "",
+    "chart": {
+      "type": "continuous",
+      "bins": {
+        "edges": [
+          0.893,
+          0.92025,
+          0.9475,
+          0.97475,
+          1.002,
+          1.02925,
+          1.0565,
+          1.08375,
+          1.111,
+          1.13825,
+          1.1655,
+          1.19275,
+          1.22
+        ],
+        "counts": [
+          24,
+          43,
+          43,
+          63,
+          43,
+          57,
+          43,
+          28,
+          18,
+          11,
+          13,
+          8
+        ]
+      },
+      "boxplot": {
+        "min": 0.893,
+        "q1": 0.966,
+        "median": 1.02,
+        "q3": 1.07,
+        "max": 1.22
+      },
+      "units": "SUVR"
+    },
+    "freq_rows": [
+      [
+        "Minimum",
+        "0.893"
+      ],
+      [
+        "Maximum",
+        "1.22"
+      ],
+      [
+        "Range",
+        "0.32699999999999996"
+      ],
+      [
+        "Median",
+        "1.02"
+      ],
+      [
+        "IQR",
+        "0.966 - 1.07"
+      ],
+      [
+        "Decile 1",
+        "0.9353"
+      ],
+      [
+        "Decile 2",
+        "0.954"
+      ],
+      [
+        "Decile 3",
+        "0.9799"
+      ],
+      [
+        "Decile 4",
+        "0.999"
+      ],
+      [
+        "Decile 5",
+        "1.02"
+      ],
+      [
+        "Decile 6",
+        "1.03"
+      ],
+      [
+        "Decile 7",
+        "1.06"
+      ],
+      [
+        "Decile 8",
+        "1.08"
+      ],
+      [
+        "Decile 9",
+        "1.13"
+      ],
+      [
+        "Mean",
+        "1.0234517766497462"
+      ],
+      [
+        "Std Dev.",
+        "0.07331518052090616"
+      ],
+      [
+        "Variance",
+        "0.005375115694813058"
+      ],
+      [
+        "Displayed N",
+        "394"
+      ]
+    ],
+    "freq_note": "Missing values and distribution outside 5th and 95th percentiles removed from both the plot and the statistics above.",
     "site_baseurl": "/OWL",
     "browse_cat_url": "/OWL/docs/search_methods/browse_by_category/Browse_by_Category.html"
   }
