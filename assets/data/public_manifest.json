@@ -8,6 +8,7 @@
     "document_details": {
       "output_variables": "drspt89, drwin89, drbee89, dralc99, drsp99, drspt99, drwn99, drwin99, drbe99, drbee99, dra09, drs09, ndrs09, drw09, ndrw09, drb09, ndrb09, atdr09, bdr09, cudr09, fdr09, dra14x, drs14x, ndrs14x, drw14x, ndrw14x, drb14x, ndrb14x"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 28,
@@ -16,6 +17,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -345,6 +347,7 @@
     "document_details": {
       "output_variables": "avalc82, avalc89, avalc99, avalc09, avalc82u, avalc89u, avalc99u, avalc09u, av82wnr, av82wnw, av82bci, av82wnf, av82spi, av82wnru, av82wnwu, av82bciu, av82wnfu, av82spiu, dralc09, drspt89, drwin89, drbee89, dralc99, drsp99, drspt99, drwn99, drwin99, drbe99, drbee99, dra09, drs09, ndrs09, drw09, ndrw09, drb09, ndrb09, atdr09, bdr09, cudr09, fdr09"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 29,
@@ -353,6 +356,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -737,6 +741,7 @@
     "document_details": {
       "output_variables": "avalc82, avalc89, avalc99, avalc09, avalc82u, avalc89u, avalc99u, avalc09u, av82wnr, av82wnw, av82bci, av82wnf, av82spi, av82wnru, av82wnwu, av82bciu, av82wnfu, av82spiu, dralc09, drspt89, drwin89, drbee89, dralc99, drsp99, drspt99, drwn99, drwin99, drbe99, drbee99, dra09, drs09, ndrs09, drw09, ndrw09, drb09, ndrb09, atdr09, bdr09, cudr09, fdr09"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 30,
@@ -745,6 +750,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -1129,6 +1135,13 @@
         {
           "path": [
             "Clinical data [51]",
+            "Physical performance [115]"
+          ],
+          "count": 1
+        },
+        {
+          "path": [
+            "Clinical data [51]",
             "Physical measures [110]",
             "Hand examination [1106]"
           ],
@@ -1140,13 +1153,6 @@
             "Health and medical history [510]",
             "Medical conditions [5101]",
             "Cancer [51012]"
-          ],
-          "count": 1
-        },
-        {
-          "path": [
-            "Clinical data [51]",
-            "Physical performance [115]"
           ],
           "count": 1
         }
@@ -1163,6 +1169,7 @@
     "document_details": {
       "output_variables": "ang182, ang282, ang82, ang189, ang289, ang89, ang199, ang299, ang99"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 9,
@@ -1171,6 +1178,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -1566,6 +1574,7 @@
       "source_variable_names": "asth89, asthma, hay89, hayf, allg89, allergy",
       "output_variables": "evasthm, evhay, evallerg"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 5,
@@ -1574,6 +1583,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -1736,6 +1746,7 @@
       "summary_of_work": "Derived variables for emotional and conduct problems",
       "output_variables": "in1315g1, ext93pcg"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 2,
@@ -1744,6 +1755,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -1805,10 +1817,10 @@
         "Clinical data [51]",
         "Questionnaire data [55]"
       ],
-      "primary_topic": "Clinical data [51]",
+      "primary_topic": "Questionnaire data [55]",
       "topic_counts": {
-        "Clinical data [51]": 2,
-        "Questionnaire data [55]": 2
+        "Questionnaire data [55]": 2,
+        "Clinical data [51]": 2
       },
       "primary_path": [
         "Questionnaire data [55]",
@@ -1852,6 +1864,7 @@
     "date": null,
     "description": null,
     "document_details": {},
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 36,
@@ -1860,6 +1873,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -2399,17 +2413,17 @@
         },
         {
           "path": [
-            "Clinical data [51]",
-            "Cognitive function [101]",
-            "Adulthood cognition [1012]",
-            "National audit reading test (NART) [10126]"
+            "Questionnaire data [55]",
+            "Data collection information [545]"
           ],
           "count": 3
         },
         {
           "path": [
-            "Questionnaire data [55]",
-            "Data collection information [545]"
+            "Clinical data [51]",
+            "Cognitive function [101]",
+            "Adulthood cognition [1012]",
+            "National audit reading test (NART) [10126]"
           ],
           "count": 3
         },
@@ -2435,6 +2449,15 @@
             "Clinical data [51]",
             "Cognitive function [101]",
             "Adulthood cognition [1012]",
+            "Reading comprehension (Watts-Vernon) [10121]"
+          ],
+          "count": 1
+        },
+        {
+          "path": [
+            "Clinical data [51]",
+            "Cognitive function [101]",
+            "Adulthood cognition [1012]",
             "Verbal fluency [10127]"
           ],
           "count": 1
@@ -2445,15 +2468,6 @@
             "Health and medical history [510]",
             "Medical conditions [5101]",
             "Other medical conditions [51011]"
-          ],
-          "count": 1
-        },
-        {
-          "path": [
-            "Clinical data [51]",
-            "Cognitive function [101]",
-            "Adulthood cognition [1012]",
-            "Reading comprehension (Watts-Vernon) [10121]"
           ],
           "count": 1
         }
@@ -2473,6 +2487,7 @@
       "source_variable_names": "memab89, memac89, membp89, memcc89, memht89, memlg89, mempr89, memwt89, memot89, pgl189, pgl289, pgl389, pgl489, pgl589, pgr189, pgr289, pgr389, pgr489, pgr589, pic189a, pic289a, pic389a, pic489a, pic589a, vscl189, vscl289, vscl389, vsms189, vsms289, vsms389, vsrw189, vsrw289, vsrw389, wlcd89, wlin189, wlin289, wlin389a, wlt189, wlt289, wlt389a",
       "output_variables": "memab89, memac89, membp89, memcc89, memht89, memlg89, mempr89, memwt89, memot89, pgl189, pgl289, pgl389, pgl489, pgl589, pgr189, pgr289, pgr389, pgr489, pgr589, pic189, pic289, pic389, pic489, pic589, vscl189, vscl289, vscl389, vsms189, vsms289, vsms389, vsrw189, vsrw289, vsrw389, wlcd89, wlin189, wlin289, wlin389, wlt189, wlt289, wlt389, TSTMEM89, WLT89, WLIN89, PICMEM89, CANSP189, CANSP289, CANSP389, CANSPa89, PEG89"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 48,
@@ -2481,6 +2496,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -3122,6 +3138,7 @@
       "summary_of_work": "Conversion, cleaning and derivation of 1999 cognition data.",
       "output_variables": "recm99c, recy99c, intm99c, inty99c, wlcd99, wlt199, wlin199, vsrw99, vscl99, vsms99, vser99, wlt299, wlin299, nart99, wlt399, wlin399, wltx99, wlinx99, wlt499, wlin499, vsht99, anin, remem, wlt99, cansp99"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 21,
@@ -3130,6 +3147,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -3484,6 +3502,7 @@
       "categories": "Cognitive Function",
       "output_variables": "sc8n, r8n, pi8n, nv11n, r11n, r15n, nv15n, voc8n, v11n, a11n, voc11n, m15n, v15n, ga15n, r26n, ga11n, cog8h, cog11h, cog15h, SC8R, r8r, pi8r, nv11r, r11r, r15r, wv26r, nv15r, voc8r, v11r, a11r, voc11r, m15r, v15r, ga15r, r26r, ga11r"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 36,
@@ -3492,6 +3511,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -3913,6 +3933,7 @@
     "date": null,
     "description": null,
     "document_details": {},
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 0,
@@ -3921,6 +3942,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [],
       "medium": [
@@ -4486,6 +4508,7 @@
       "source_variable_names": "voc8, sc8, r8, pi8, r11, voc11, ga11, a11, r15, ga15, m15",
       "output_variables": "sc8r, r8r, pi8r, nv11r, r11r, r15r, wv26r, sc8n, r8n, pi8n, nv11n, r11n, r15n, nv15r, nv15n, voc8r, voc8n, v11r, v11n, a11r, a11n, voc11r, voc11n, m15r, m15n, v15r, v15n, ga15r, ga15n, r26r, r26n, ga11r, ga11n, cog8h, cog11h, cog15h, wv26h, r26h"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 36,
@@ -4494,6 +4517,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -4919,6 +4943,7 @@
       "output_variables": "b431_77, b431_82, b431_89, b431_99, b432_77, b432_82, b432_89, b432_99, b433_77, b433_82, b433_89, b433_99, b434_77, b434_82, b434_89, b434_99",
       "papers_used": "Three decades of antidepressant, anxiolytic and hypnotic use in a national population birth cohort. Ian Coleman, Michael E.J. Wadsworth, Tim J. Croudace and Peter B. Jones. BJP (2006), 189, 156-160. doi: 10.1192/bjp.bp.105.017434"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 12,
@@ -4927,6 +4952,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -5128,6 +5154,7 @@
       "summary_of_work": "Derivation of a variable measuring dyslexia status at age 11. Calculated using GA11N [Normalised score of 80-item verbal/non-verbal ability test at 11yrs] and R11r [Reading ability at 11 yrs].",
       "output_variables": "dyslex11"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 1,
@@ -5136,6 +5163,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -5221,6 +5249,7 @@
       "output_variables": "cmd6clas, cmd13lt, cmd15lt, cmd36lt, cmd43lt, cmd53lt, cmd13or4, cmd15or4, cmd36or4, cmd43or4, cmd53or4",
       "papers_used": "\u2018A Longitudinal Typology of Symptoms of Depression and Anxiety Over the Life Course\u2019\u2028Colman I, Ploubidis GB, Wadsworth ME, Jones PB, Croudace TJ.\u2028Biol Psychiatry 2007;62:1265\u20131271"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 11,
@@ -5229,6 +5258,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -5903,6 +5933,7 @@
       "output_variables": "chol99n, trig99n, hdl99n, ldl99n, hba99n",
       "papers_used": "Skidmore, P.M.L., Hardy, R.J., Kuh, D.J., Langenberg, C., Wadsworth, M.E.J. (2004) Birth weight and lipids in a national birth cohort study.  Arteriosclerosis, Thrombosis and Vascular Biology, 24, 588-594."
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 5,
@@ -5911,6 +5942,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -6057,18 +6089,18 @@
         {
           "path": [
             "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
+            "Physical activity and exercise [521]",
+            "EPIC Physical activity questionnaire [5211]",
+            "EPIC Physical activity questionnaire - derived variables [52111]"
           ],
           "count": 1
         },
         {
           "path": [
             "Questionnaire data [55]",
-            "Physical activity and exercise [521]",
-            "EPIC Physical activity questionnaire [5211]",
-            "EPIC Physical activity questionnaire - derived variables [52111]"
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Other medical conditions [51011]"
           ],
           "count": 1
         }
@@ -6089,6 +6121,7 @@
       "output_variables": "diabms, wcbin99, shyp992m, dhyp992m, hyp992m, hbabin99, hbabin99m, hdlbin99, trigbin99, msscore99, metabol99, trigbin99x, msscore99x, metabol99x",
       "papers_used": "Gaysina, D, Pierce, M, Richards, M, Hotopf, M, Kuh, D, Hardy, R.\u00a0 Association between adolescent emotional problems and metabolic syndrome: the modifying effect of C-reactive protein gene polymorphisms. Brain, Behavior, and Immunity 2011; 25: 750-758."
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 14,
@@ -6097,6 +6130,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -6472,8 +6506,8 @@
       "primary_topic": "Biological samples [52]",
       "topic_counts": {
         "Biological samples [52]": 14,
-        "Clinical data [51]": 7,
-        "Questionnaire data [55]": 11
+        "Questionnaire data [55]": 11,
+        "Clinical data [51]": 7
       },
       "primary_path": [
         "Biological samples [52]",
@@ -6509,6 +6543,15 @@
         },
         {
           "path": [
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Endocrine and metabolic conditions [51015]"
+          ],
+          "count": 2
+        },
+        {
+          "path": [
             "Clinical data [51]",
             "Physical measures [110]",
             "Anthropometry [1102]",
@@ -6521,24 +6564,15 @@
             "Questionnaire data [55]",
             "Health and medical history [510]",
             "Medical conditions [5101]",
-            "Endocrine and metabolic conditions [51015]"
+            "Other medical conditions [51011]"
           ],
-          "count": 2
+          "count": 1
         },
         {
           "path": [
             "Clinical data [51]",
             "Physical measures [110]",
             "Hand examination [1106]"
-          ],
-          "count": 1
-        },
-        {
-          "path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
           ],
           "count": 1
         }
@@ -6559,6 +6593,7 @@
       "output_variables": "sbpff, dbpff, sbpfxx, dbpfxx, sbp82, dbp82, sbpf89f, dbpf89f, sbp289f, dbp289f, sbp89rh, dbp89rh, sbp89, dbp89, sbp991, dbp991, sbp992, dbp992, sbp99, dbp99, sbp109, sbp209, dbp109, dbp209, pulse109, pulse209, bpcnstf09, bpcnst09, bpcnstr09, omron09, rtemp09, sbp09, dbp09, msbp09, mdbp09, pp109, pp209, pp09, map109, map209, map09, pulse09, hypert109, hypert209, hypert09",
       "papers_used": "Gaysina, D, Pierce, M, Richards, M, Hotopf, M, Kuh, D, Hardy, R.\u00a0 Association between adolescent emotional problems and metabolic syndrome: the modifying effect of C-reactive protein gene polymorphisms. Brain, Behavior, and Immunity 2011; 25: 750-758."
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 40,
@@ -6567,6 +6602,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -7333,8 +7369,8 @@
       ],
       "primary_topic": "Clinical data [51]",
       "topic_counts": {
-        "Clinical data [51]": 45,
         "Biological samples [52]": 14,
+        "Clinical data [51]": 45,
         "Questionnaire data [55]": 11
       },
       "primary_path": [
@@ -7371,6 +7407,15 @@
         },
         {
           "path": [
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Endocrine and metabolic conditions [51015]"
+          ],
+          "count": 2
+        },
+        {
+          "path": [
             "Clinical data [51]",
             "Physical measures [110]",
             "Anthropometry [1102]",
@@ -7383,24 +7428,15 @@
             "Questionnaire data [55]",
             "Health and medical history [510]",
             "Medical conditions [5101]",
-            "Endocrine and metabolic conditions [51015]"
+            "Other medical conditions [51011]"
           ],
-          "count": 2
+          "count": 1
         },
         {
           "path": [
             "Clinical data [51]",
             "Physical measures [110]",
             "Hand examination [1106]"
-          ],
-          "count": 1
-        },
-        {
-          "path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
           ],
           "count": 1
         }
@@ -7420,6 +7456,7 @@
       "source_variable_names": "b02299a, b02499a, b02599a, b02699a, b06199a, b212099a",
       "output_variables": "b02299a, b02499a, b02599a, b02699a, b06199a, b212099a, medbp99"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 6,
@@ -7428,6 +7465,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -7551,6 +7589,7 @@
     "date": null,
     "description": null,
     "document_details": {},
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 7,
@@ -7559,6 +7598,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -7704,6 +7744,7 @@
       "categories": "Diet",
       "output_variables": "DietDFG09, dietfgrp09, dietfgrp50, DIETFGRP5009, dietfgrp82, dietfgrp89, dietfgrp99, FoodGroups09"
     },
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 4058,
@@ -7737,6 +7778,7 @@
       }
     ],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -44325,6 +44367,7 @@
     "date": null,
     "description": null,
     "document_details": {},
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 0,
@@ -44333,6 +44376,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [],
       "medium": [
@@ -44518,6 +44562,7 @@
     "date": null,
     "description": null,
     "document_details": {},
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 0,
@@ -44526,6 +44571,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [],
       "medium": [
@@ -44718,6 +44764,7 @@
     "date": null,
     "description": null,
     "document_details": {},
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 122,
@@ -44726,6 +44773,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -46004,6 +46052,7 @@
     "date": null,
     "description": null,
     "document_details": {},
+    "source_format": "word",
     "doc_type": "documentation",
     "variable_count": {
       "high": 33,
@@ -46012,6 +46061,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -46449,6 +46499,7 @@
       "source_variable_names": "Subject, ID, Scan, Date, And, for, both, non-PVC, and, PVC, values:, frontal, parietal, precuneus, occipital, temporal, antmidcingulate, postcingulate, insula, hippocampus, caudate, thalamus, putamen, compcortgm, cortgm, subcortgm",
       "output_variables": "amyld_scndte_i46p1, suvr_crb_i46p1, suvrpvc_crb_i46p1, amyld_imp_i46p1, amyld_com_i46p1, amyld_stscrb_i46p1, amyld_pvcst_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 5,
@@ -46457,6 +46508,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -46578,6 +46630,7 @@
       "output_variables": "suvr_i46p1, amyloidstatus_i46p1, suvrpvc_i46p1, pvcamyloidstatus_i46p1, imp_amyloid_i46p1, amyloid_comments_i46p1",
       "papers_used": "1. Blood and cerebrospinal fluid biomarkers in Alzheimer\u2019s disease \u2013 from clinical to preclinical cohorts. PhD thesis (Ashvini Keshavan).\u20282. Plasma amyloid, tau and serum neurofilament light chain in Insight 46 \u2013 associations with cognition and brain imaging. AAIC 2019 poster (Keshavan et al.)\u20283. The Insight 46 Cohort \u2013 Relationships with Cerebral PET Amyloid positivity Using Two Independent Methods for Plasma Amyloid Beta Measurement. AAIC 2019 Featured Research Session Oral presentation. (Schott et al.)\u20284. Associations between blood pressure across adulthood and late-life brain structure and pathology in the neuroscience substudy of the 1946 British birth cohort (Insight 46): an epidemiological study. The Lancet Neurology. (Lane et al. 2019)"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 5,
@@ -46586,6 +46639,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -46683,8 +46737,8 @@
       ],
       "primary_topic": "Sub-Studies [57]",
       "topic_counts": {
-        "Questionnaire data [55]": 1,
-        "Sub-Studies [57]": 5
+        "Sub-Studies [57]": 5,
+        "Questionnaire data [55]": 1
       },
       "primary_path": [
         "Sub-Studies [57]",
@@ -46729,6 +46783,7 @@
       "source_variable_names": "height17, weight17",
       "output_variables": "wtn1517_i46p1, htn1517_i46p1, bmi1517_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 3,
@@ -46737,6 +46792,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -46869,6 +46925,7 @@
       "source_variable_names": "ins_apoe",
       "output_variables": "ins_apoe_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 1,
@@ -46877,6 +46934,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -46935,8 +46993,8 @@
       "primary_topic": "Omic [53]",
       "topic_counts": {
         "Omic [53]": 1,
-        "Sub-Studies [57]": 1,
-        "Questionnaire data [55]": 1
+        "Questionnaire data [55]": 1,
+        "Sub-Studies [57]": 1
       },
       "primary_path": [
         "Omic [53]",
@@ -46952,19 +47010,19 @@
         },
         {
           "path": [
-            "Sub-Studies [57]",
-            "Insight46 [699]",
-            "Genomics [6038]",
-            "Genotype [60381]"
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Other medical conditions [51011]"
           ],
           "count": 1
         },
         {
           "path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Genomics [6038]",
+            "Genotype [60381]"
           ],
           "count": 1
         }
@@ -46985,6 +47043,7 @@
       "output_variables": "hearingaid_I46P1, tinnitus_I46P1, freq500hz_left_I46P1, freq1khz_left_I46P1, freq2khz_left_I46P1, freq4khz_left_I46P1, freq500hz_right_I46P1, freq1khz_right_I46P1, freq2khz_right_I46P1, freq4khz_right_I46P1, otological_I46P1, otocomment_I46P1",
       "papers_used": "Pure tone audiometry and cerebral pathology in healthy older adults Parker et al \u2013 In prep for submission"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 12,
@@ -46993,6 +47052,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -47182,6 +47242,7 @@
       "output_variables": "bamosuseable_i46p1, lesiontot_i46p1, distwmhocc_i46p1, distwmhfront_i46p1, distwmhpar_i46p1, distwmhbg_i46p1, distwmhtemp_i46p1, distwmhlayer1_i46p1, distwmhlayer2_i46p1, distwmhlayer3_i46p1, distwmhlayer4_i46p1, volwmhocc_i46p1, volwmhfront_i46p1, volwmhpar_i46p1, volwmhtemp_i46p1, volwmhbg_i46p1, volwmhlayer1_i46p1, volwmhlayer2_i46p1, volwmhlayer3_i46p1, volwmhlayer4_i46p1, percentwmhocc_i46p1, percentwmhfront_i46p1, percentwmhpar_i46p1, percentwmhtemp_i46p1, percentwmhbg_i46p1, bamosfailreason_i46p1",
       "papers_used": "Lane et al 2019 Investigating the associations between blood pressure across adulthood and late-life brain structure and pathology in the 1946 British birth cohort: an epidemiological study. Lancet Neurology"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 26,
@@ -47190,6 +47251,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -47603,6 +47665,7 @@
       "source_variable_names": "lsbp1_17, lsbp2_17, ldbp1_17, ldbp2_17, lpr1_17, lpr2_17, ssbp1_17, ssbp2_17, sdbp1_17, sdbp2_17, spr1_17, spr2_17",
       "output_variables": "bpcompleted_i46p1, lsbp11517_i46p1, ldbp11517_i46p1, lpr11517_i46p1, lsbp21517_i46p1, ldbp21517_i46p1, lpr21517_i46p1, ssbp11517_i46p1, sdbp11517_i46p1, spr11517_i46p1, ssbp21517_i46p1, sdbp21517_i46p1, spr21517_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 13,
@@ -47611,6 +47674,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -47865,6 +47929,7 @@
       "output_variables": "haemoglo1517_i46p1, platelet1517_i46p1, vitaminb121517_i46p1, urea1517_i46p1, cretinin1517_i46p1, glucose1517_i46p1, tsh1517_i46p1, egfr1517_i46p1, reasonmissingbloods_i46p1",
       "papers_used": "Incidental findings on brain imaging and blood tests: results from the first phase of Insight 46, a longitudinal prospective sub-study of the 1946 British birth cohort.\u2028Submitted to BMJ Open 29/01/19. Currently awaiting reviewer selection."
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 8,
@@ -47873,6 +47938,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -48041,6 +48107,7 @@
       "output_variables": "brn_mri_i46p1, brn_age_i46p1, brn_bpaun_i46p1, brn_bpa_i46p1, brn_pad_i46p1",
       "papers_used": "Wagen, A. Z., et al. (2022). \"Life course, genetic, and neuropathological associations with brain age in the 1946 British Birth Cohort: a population-based study.\" Lancet Healthy Longev **3**(9): e607-e616."
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 5,
@@ -48049,6 +48116,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -48160,6 +48228,7 @@
       "source_variable_names": "General:, Subject, Date, Cognitive, and, neurological, history:, diagnosis1, other1, diagnosis2, other2, Radiology, reads:, infarction, haemorrhage, lesion, aneurysm, colloidCyst, hydrocephalus, sinusDisease, other, comments, flaggedForReview",
       "output_variables": "mbraindis_i46p1, diag1_brdis_i46p1, diag2_brdis_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 3,
@@ -48168,6 +48237,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -48271,7 +48341,7 @@
             "Questionnaire data [55]",
             "Health and medical history [510]",
             "Medical conditions [5101]",
-            "Other medical conditions [51011]"
+            "Heart and circulatory conditions [51014]"
           ],
           "count": 1
         },
@@ -48280,7 +48350,7 @@
             "Questionnaire data [55]",
             "Health and medical history [510]",
             "Medical conditions [5101]",
-            "Heart and circulatory conditions [51014]"
+            "Other medical conditions [51011]"
           ],
           "count": 1
         }
@@ -48301,6 +48371,7 @@
       "output_variables": "brain_vol_i46p1, vent_vol_i46p1, hippol_vol_i46p1, hippor_vol_i46p1, spm_tiv_vol_i46p1, spm_gm_vol_i46p1, spm_wm_vol_i46p1, spm_csf_vol_i46p1",
       "papers_used": "1. Lane et al. (2019). Associations between blood pressure across adulthood and late-life brain structure and pathology in the neuroscience substudy of the 1946 British birth cohort (Insight 46): an epidemiological study. The Lancet Neurology.\u20282. Liu et al. (in press) Cognition at age 70: life course predictors and associations with brain\u2028Pathologies. Neurology"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 8,
@@ -48309,6 +48380,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -48483,6 +48555,7 @@
     "document_details": {
       "output_variables": "brain_vol_L_I46, vent_vol_L_I46, hippol_vol_L_I46, hippor_vol_L_I46, spm_tiv_vol_L_I46, spm_gm_vol_L_I46, spm_wm_vol_L_I46, spm_csf_vol_L_I46"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 8,
@@ -48491,6 +48564,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -48653,6 +48727,7 @@
       "summary_of_work": "The data from the website were reconciled to those transcribed manually by study staff.  Impossible values have been coded as missing data.\u2028In several cases, the hand used for each test may have been recorded incorrectly (indicated by a discrepancy between the data recorded by staff and the website).  This discrepancy has been coded with the variable \u201cBT_rightleftuncertain_15\u201c,the data is useable for analyses using a the mean of both hands, or \u201cworst hand\u201d analyses, but should be excluded if relationships with dominant or non-dominant hands are investigated.\u2028The website has provided some implausible values:\u2028Negative AT values: n=4\u2028DS values of zero: n=23\u2028The entire output for that hand has been discounted for these participants as no assurances could be given for the remainder of the statistics.\u2028**Missing data:**\u2028n= 16 did not complete the test, all due to equipment/ website malfunction\u2028n=1 only had valid data for one hand (so mean values missing)\u2028n=27 excluded due to implausible values (website error)\u2028**All re-coded as missing: 999**\u2028**Derived statistics:**\u2028Means for each hand",
       "output_variables": "bt_ds_lft15_i46p1, bt_at_lft15_i46p1, bt_ks_lft15_i46p1, bt_is_lft15_i46p1, bt_ds_rgt15_i46p1, bt_at_rgt15_i46p1, bt_ks_rgt_15_i46p1, bt_is_rgt_15_i46p1, bt_rgtlft15_i46p1, bt_at_mean15_i46p1, bt_ds_mean15_i46p1, bt_is_mean15_i46p1, bt_ks_mean15_i46p1, bt_website15_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 14,
@@ -48661,6 +48736,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -48894,6 +48970,7 @@
       "output_variables": "lh_adm_corthck_i46p1, rh_adm_corthck_i46p1, lh_adh_corthck_i46p1, rh_adh_corthck_i46p1, mean_adm_corthck_i46p1, mean_adh_corthck_i46p1, lh_adm_corthck_i46p2, rh_adm_corthck_i46p2, lh_adh_corthck_i46p2, rh_adh_corthck_i46p2, mean_adm_corthck_i46p2, mean_adh_corthck_i46p2",
       "papers_used": "Keuss SE., et al. Rates of cortical thinning in Alzheimer\u2019s disease signature regions: pathological influences and cognitive consequences in members of the 1946 British birth cohort. Abstract submitted for AAIC 2022 and accepted as oral presentation.\u2028Paper based on the above abstract currently in progress."
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 12,
@@ -48902,6 +48979,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -49089,6 +49167,7 @@
     "document_details": {
       "output_variables": "lh_adm_corthck_i46p1, rh_adm_corthck_i46p1, lh_adh_corthck_i46p1, rh_adh_corthck_i46p1, mean_adm_corthck_i46p1, mean_adh_corthck_i46p1, lh_adm_corthck_i46p2, rh_adm_corthck_i46p2, lh_adh_corthck_i46p2, rh_adh_corthck_i46p2, mean_adm_corthck_i46p2, mean_adh_corthck_i46p2"
     },
+    "source_format": "word",
     "doc_type": "full_documentation",
     "variable_count": {
       "high": 12,
@@ -49097,6 +49176,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -49294,6 +49374,7 @@
       "source_variable_names": "Burnham, Qualification",
       "output_variables": "burnham_I46P1, qual_I46P1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 2,
@@ -49302,6 +49383,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -49380,6 +49462,7 @@
       "source_variable_names": "See, form, below, for, definitions, of, these, variables:, id, ID, number), head_injury, consciousness, hospital, skull, diagnosis1, other1, onset1, diagnosis2, other2, mother, mother_diagnosis1, mother_other1, mother_onset1, mother_diagnosis2, mother_other2, mother_onset2, mother_diagnosis3, mother_death, father, father_other1, father_onset1, father_diagnosis2, father_onset2, father_death, count, pedigree, siblings, sibling1, sibling1_diagnosis1, sibling1_onset1, sibling1_diagnosis2, sibling1_onset2, sibling1_death, sibling2, sibling2_diagnosis1, sibling2_onset1, sibling2_diagnosis2, sibling2_onset2, sibling2_death, sibling3, sibling3_diagnosis1, sibling3_onset1, sibling3_death, last24hrs, medication1, medication2, medication3, medication4, medication5, medication6, medication7, medication8, medication9, medication10",
       "output_variables": "head_injury_I46P1, consciousness_I46P1, hospital_I46P1, skull_I46P1, cognitive_neurological_I46P1, cogdiag1_I46P1, othcogdiag1_I46P1, cogonset1_I46P1, cogdiag2_I46P1, othcogdiag2_I46P1, cogonset2_I46P1, mother_I46P1, mcogdiag1_I46P1, mothcogdiag1_I46P1, mcogonset1_I46P1, mcogdiag2_I46P1, mothcogdiag2_I46P1, mcogonset2_I46P1, mcogdiag3_I46P1, mcogonset3_I46P1, mother_death_I46P1, father_I46P1, fcogdiag1_I46P1, fathcogdiag1_I46P1, fcogonset1_I46P1, fcogdiag2_I46P1, fcogonset2_I46P1, father_death_I46P1, siblings_I46P1, sibling1_I46P1, s1cogdiag1_I46P1, s1cogonset1_I46P1, s1cogdiag2_I46P1, s1cogonset2_I46P1, sibling1_death_I46P1, sibling2_I46P1, s2cogdiag1_I46P1, s2cogonset1_I46P1, s2cogdiag2_I46P1, s2cogonset2_I46P1, sibling2_death_I46P1, sibling3_I46P1, s3cogdiag1_I46P1, s3cogonset1_I46P1, sibling3_death_I46P1, countrec_I46P1, rankrec_I46P1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 47,
@@ -49388,6 +49471,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -49983,6 +50067,7 @@
       "summary_of_work": "Cleaning / Derivation / **Both\u00b1**\u2028Description/Rationale:\u2028Derivation: Conversion from Raw 3D accelerometer & quaternions data to temporal, spatial and non-linear outcome measurements\u2028Cleaning: Data check for missing data, insufficiently available data (e.g. too little steps, duration too short, not within \u2018norm\u2019 parameters, etc) and adjustment for \u2018double peak syndrome\u2019 prevalent in non-heelstrike walkers.",
       "output_variables": "I46_Gait"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 336,
@@ -49996,6 +50081,7 @@
       }
     ],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -53769,6 +53855,7 @@
       "output_variables": "thirdven_i46p1, fourthven_i46p1, rightaccumbens_i46p1, leftaccumbens_i46p1, rightamygdala_i46p1, leftamygdala_i46p1, pons_i46p1, brainstem_i46p1, rightcaudate_i46p1, leftcaudate_i46p1, rightcerebext_i46p1, leftcerebext_i46p1, rightcerebwm_i46p1, leftcerebwm_i46p1, thirdvenpost_i46p1, righthippo_i46p1, lefthippo_i46p1, rightinflatven_i46p1, leftinflatven_i46p1, rightlatven_i46p1, leftlatven_i46p1, rightpallidum_i46p1, leftpallidum_i46p1, rightputamen_i46p1, leftputamen_i46p1, rightthalprop_i46p1, leftthalprop_i46p1, rightvenraldc_i46p1, leftvenraldc_i46p1, rightventlinin_i46p1, leftventlining_i46p1, cerevermlob15_i46p1, cerevermlob67_i46p1, cerevermlob810_i46p1, leftbasalfbr_i46p1, rightbasalfbr_i46p1, righttempwm_i46p1, rightinsulawm_i46p1, rightcingwm_i46p1, rightfrontalwm_i46p1, rightoccwm_i46p1, rightparwm_i46p1, corpuscallosum_i46p1, lefttempwm_i46p1, leftinsulawm_i46p1, leftcingwm_i46p1, leftfrontalwm_i46p1, leftoccwm_i46p1, leftparwm_i46p1, rightclaustrum_i46p1, leftclaustrum_i46p1, rightantcinggy_i46p1, leftantcinggy_i46p1, rightainsula_i46p1, leftainsula_i46p1, rightantorbgy_i46p1, leftantorbgy_i46p1, rightangyrus_i46p1, leftangyrus_i46p1, rightcalc_i46p1, leftcalc_i46p1, rightco_i46p1, leftco_i46p1, rightcun_i46p1, leftcun_i46p1, rightent_i46p1, leftent_i46p1, rightfo_i46p1, leftfo_i46p1, rightfrp_i46p1, leftfrp_i46p1, rightfug_i46p1, leftfug_i46p1, rightgre_i46p1, leftgre_i46p1, rightiog_i46p1, leftiog_i46p1, rightitg_i46p1, leftitg_i46p1, rightlig_i46p1, leftlig_i46p1, rightlorg_i46p1, leftlorg_i46p1, rightmcgg_i46p1, leftmcgg_i46p1, rightmfc_i46p1, leftmfc_i46p1, rightmfg_i46p1, leftmfg_i46p1, rightmog_i46p1, leftmog_i46p1, rightmorg_i46p1, leftmorg_i46p1, rightmpog_i46p1, leftmpog_i46p1, rightmprg_i46p1, leftmprg_i46p1, rightmsfg_i46p1, leftmsfg_i46p1, rightmtg_i46p1, leftmtg_i46p1, rightocp_i46p1, leftocp_i46p1, rightofug_i46p1, leftofug_i46p1, rightopifg_i46p1, leftopifg_i46p1, rightorifg_i46p1, leftorifg_i46p1, rightpcgg_i46p1, leftpcgg_i46p1, rightpcu_i46p1, leftpcu_i46p1, rightphg_i46p1, leftphg_i46p1, rightpins_i46p1, leftpins_i46p1, rightpo_i46p1, leftpo_i46p1, rightpog_i46p1, leftpog_i46p1, rightporg_i46p1, leftporg_i46p1, rightpp_i46p1, leftpp_i46p1, rightprg_i46p1, leftprg_i46p1, rightpt_i46p1, leftpt_i46p1, rightsca_i46p1, leftsca_i46p1, rightsfg_i46p1, leftsfg_i46p1, rightsmc_i46p1, leftsmc_i46p1, rightsmg_i46p1, leftsmg_i46p1, rightsog_i46p1, leftsog_i46p1, rightspl_i46p1, leftspl_i46p1, rightstg_i46p1, leftstg_i46p1, righttmp_i46p1, lefttmp_i46p1, righttrifg_i46p1, lefttrifg_i46p1, rightttg_i46p1, leftttg_i46p1",
       "papers_used": "n/a"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 149,
@@ -53777,6 +53864,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -55623,6 +55711,7 @@
       "source_variable_names": "last24hrs, medication1, medication2, medication3, medication4, medication5, medication6, medication7, medication8, medication9, medication10",
       "output_variables": "medslast24hours_i46p1, medication1_i46p1, medication2_i46p1, medication3_i46p1, medication4_i46p1, medication5_i46p1, medication6_i46p1, medication7_i46p1, medication8_i46p1, medication9_i46p1, medication10_i46p1, medhtn_i46p1, meddiuretic_i46p1, medbeta_i46p1, mednitrateccb_i46p1, bploweringmed_total_i46p1, cholmed_i46p1, dmmed_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 11,
@@ -55631,6 +55720,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -55808,6 +55898,7 @@
       "source_variable_names": "id, ID, number), ad8comp, ad8wn, informant_consent, informant_relationship, judgment, interests, repetition, learning, month_year, financial, appointments, daily_memory, ad8_tot",
       "output_variables": "ad8comp_I46P1, ad8_consent_I46P1, ad8_relationship_I46P1, ad8_judgment_I46P1, ad8_interests_I46P1, ad8_repetition_I46P1, ad8_learning_I46P1, ad8_month_year_I46P1, ad8_financial_I46P1, ad8_appointments_I46P1, ad8_daily_memory_I46P1, ad8_totrec_I46P1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 12,
@@ -55816,6 +55907,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -56026,6 +56118,7 @@
       "output_variables": "low_logical_memory_i46p1, low_digit_symbol_i46p1, informant_concern_i46p1, participant_concern_i46p1, dementia_consensus_i46p1, mci_i46p1",
       "papers_used": "1. Keuss et al. (2019) Incidental findings on brain imaging and blood tests: results from the first phase of Insight 46, a prospective observational sub-study of the 1946 British birth cohort, BMJ Open, in press\u20282. Lu et al. (2019) Cognition at age 70: life course predictors and associations with brain pathologies, Neurology, in press"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 6,
@@ -56034,6 +56127,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -56135,8 +56229,8 @@
       ],
       "primary_topic": "Sub-Studies [57]",
       "topic_counts": {
-        "Questionnaire data [55]": 1,
-        "Sub-Studies [57]": 6
+        "Sub-Studies [57]": 6,
+        "Questionnaire data [55]": 1
       },
       "primary_path": [
         "Sub-Studies [57]",
@@ -56180,6 +56274,7 @@
       "output_variables": "scd_difficulties_I46P1, scd_twoyears_I46P1, scd_peers_I46P1, scd_onset_I46P1, scd_doctor_I46P1, scd_report_I46P1, mycog_phone_I46P1, mycog_possessions_I46P1, mycog_film_I46P1, mycog_appointments_I46P1, mycog_book_I46P1, mycog_family_I46P1, mycog_sport_I46P1, mycog_money_I46P1, mycog_conversation_I46P1, mycog_strategies_I46P1, mycog_news_I46P1, mycog_famous_I46P1, mycog_acquaintance_I46P1, mycog_street_I46P1, mycog_word_I46P1, mycog_time_I46P1, mycog_place_I46P1, mycog_concentration_I46P1, mycog_planning_I46P1, mycog_devices_I46P1, mycog_different_I46P1, mycog_conversations_I46P1, mycog_arithmetic_I46P1, mycog_multitasking_I46P1, mycog_totalrec_I46P1",
       "papers_used": "N/A"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 31,
@@ -56188,6 +56283,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -56586,6 +56682,7 @@
       "output_variables": "binding_comp_i46p1, binding_wn_i46p1, binding_ontrials_i46p1, binding_oncorrect_i46p1, binding_oid_i46p1, binding_olo_i46p1, binding_onic_i46p1, binding_onswap_i46p1, binding_ncorrect3_i46p1, binding_oswap_i46p1",
       "papers_used": "Characterising cognition in later life and its relationship with biomarkers of Alzheimer's disease: a study of members of the National Survey of Health and Development (the British 1946 birth cohort).  PhD thesis (Kirsty Lu)\u2028**It is recommended that potential users of these datasets discuss their analyses with Kirsty Lu.**"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 9,
@@ -56594,6 +56691,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -56750,6 +56848,7 @@
       "output_variables": "circle_comp_i46p1, circle_wn_i46p1, circle_rateo_i46p1, circle_dual_i46p1, circle_single_comp_i46p1, circle_numrotd_i46p1, circle_numdev_rotd_i46p1, circle_toto_i46p1, circle_errn_i46p1, circle_erro_i46p1, circle_dualwn_i46p1, reaction_numtrials_i46p1, reaction_err_rate_i46p1, reaction_err_num_i46p1, reaction_mrt_i46p1, reaction_rtsd_i46p1, reaction_var_i46p1, resp_inhib_wn_i46p1, resp_inhib_numtrials_i46p1, resp_inhib_err_rate_i46p1, resp_inhib_mrt_i46p1, resp_inhib_rtcong_i46p1, resp_inhib_rtincong_i46p1, resp_inhib_err_cong_i46p1, resp_inhib_err_inc_i46p1",
       "papers_used": "Characterising cognition in later life and its relationship with biomarkers of Alzheimer's disease: a study of members of the National Survey of Health and Development (the British 1946 birth cohort).  PhD thesis (Kirsty Lu)\u2028**It is recommended that potential users of these datasets discuss their analyses with Kirsty Lu.**"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 22,
@@ -56758,6 +56857,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -57087,6 +57187,7 @@
       "output_variables": "circle_comp_i46p1, circle_wn_i46p1, circle_rateo_i46p1, circle_dual_i46p1, circle_single_comp_i46p1, circle_numrotd_i46p1, circle_numdev_rotd_i46p1, circle_toto_i46p1, circle_errn_i46p1, circle_erro_i46p1, circle_dualwn_i46p1",
       "papers_used": "Characterising cognition in later life and its relationship with biomarkers of Alzheimer's disease: a study of members of the National Survey of Health and Development (the British 1946 birth cohort).  PhD thesis (Kirsty Lu)\u2028**It is recommended that potential users of these datasets discuss their analyses with Kirsty Lu.**"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 9,
@@ -57095,6 +57196,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -57294,6 +57396,7 @@
       "output_variables": "mmse_comp_i46p1, mmse_wn_i46p1, mmse_year_i46p1, mmse_season_i46p1, mmse_date_i46p1, mmse_day_i46p1, mmse_month_i46p1, mmse_country_i46p1, mmse_city_i46p1, mmse_area_i46p1, mmse_floor_i46p1, mmse_name_i46p1, mmse_orientation_i46p1, mmse_reg_first1_i46p1, mmse_reg_second1_i46p1, mmse_reg_third1_i46p1, mmse_reg_first2_i46p1, mmse_reg_second2_i46p1, mmse_reg_third2_i46p1, mmse_subtract1_i46p1, mmse_subtract2_i46p1, mmse_subtract3_i46p1, mmse_subtract4_i46p1, mmse_subtract5_i46p1, mmse_subtract_tot_i46p1, mmse_backwards_i46p1, mmse_highest_i46p1, mmse_recall_first_i46p1, mmse_recall_second_i46p1, mmse_recall_third_i46p1, mmse_watch_i46p1, mmse_pen_i46p1, mmse_repetition_i46p1, mmse_righthand_i46p1, mmse_folded_i46p1, mmse_lap_i46p1, mmse_reading_i46p1, mmse_sentence_i46p1, mmse_drawing_i46p1, mmse_total_i46p1, mmse_zscore_i46p1, logmemimmcomp_i46p1, logmemimmtotal_i46p1, logmemimmzscore_i46p1, matrixcomp_i46p1, matrixtotal_i46p1, matrixzscore_i46p1, digsymsubcomp_i46p1, digsymsubnotcomp_i46p1, digsymsubtotal_i46p1, digsymsubzscore_i46p1, logmemdelcomp_i46p1, logmemdeltime_i46p1, logmemdeltotal_i46p1, logmemdelzscore_i46p1, fname_comp_i46p1, fname_wn_i46p1, fname_inr1_i46p1, fname_ior1_i46p1, fname_inr2_i46p1, fname_ior2_i46p1, fname_inrtotal_i46p1, fname_iortotal_i46p1, fname_crn_i46p1, fname_cro_i46p1, fname_recog_i46p1, fname_crn30_i46p1, fname_cro30_i46p1, fname_mcn_i46p1, fname_mco_i46p1, fname_namestotal_i46p1, fname_occstotal_i46p1, fname_total_i46p1, fname_nameszscore_i46p1, fname_occszscore_i46p1, fname_totalzscore_i46p1, pacc_i46p1",
       "papers_used": "1. Lu et al. (2019) Cognition at age 70: life course predictors and associations with brain pathologies, Neurology, in press\u20282. Characterising cognition in later life and its relationship with biomarkers of Alzheimer's disease: a study of members of the Nationa Survey of Health and Development (the British 1946 birth cohort).  PhD thesis (Kirsty Lu)\u20283. Blood and cerebrospinal fluid biomarkers in Alzheimer\u2019s disease \u2013 from clinical to preclinical cohorts. PhD thesis (Ashvini Keshavan).\u20284. Plasma amyloid, tau and serum neurofilament light chain in Insight 46 \u2013 associations with cognition and brain imaging. AAIC 2019 poster (Keshavan et al.)"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 74,
@@ -57302,6 +57405,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -58262,6 +58366,7 @@
       "source_variable_names": "Subject, M/F, stateAnxiety, traitAnxiety, gumDisease, selfRatedTeethAndGumHealth, treatmentForGumDisease, toothLossWithoutInjury, lostBoneAroundTeeth, toothNotLookingRight, flossedInLastSevenDays, rinsedInLastSevenDays, actOutDreams, totalHandedness",
       "output_variables": "gumdisease_i46p1, selfdentalhealth_i46p1, gumdiseasetreatment_i46p1, toothloss_i46p1, lostbonearoundteeth_i46p1, toothnotlookingright_i46p1, flossing_i46p1, rinsing_i46p1, actoutdreams_i46p1, totalhandedness_i46p1, traitanxietyrec_i46p1, stateanxietyrec_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 12,
@@ -58270,6 +58375,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -58500,8 +58606,8 @@
           "path": [
             "Sub-Studies [57]",
             "Insight46 [699]",
-            "Mental health [6041]",
-            "Anxiety [60411]"
+            "Health and medical history [6040]",
+            "Sleep [60406]"
           ],
           "count": 2
         },
@@ -58509,8 +58615,8 @@
           "path": [
             "Sub-Studies [57]",
             "Insight46 [699]",
-            "Health and medical history [6040]",
-            "Sleep [60406]"
+            "Mental health [6041]",
+            "Anxiety [60411]"
           ],
           "count": 2
         },
@@ -58539,6 +58645,7 @@
       "output_variables": "serumnfl_i46p1, tauplasma_i46p1, ab42plasma_i46p1, ab40plasma_i46p1, ab4240ratioplasma_i46p1, plasma_available_i46p1, serum_available_i46p1",
       "papers_used": "1. Blood and cerebrospinal fluid biomarkers in Alzheimer\u2019s disease \u2013 from clinical to preclinical cohorts. PhD thesis (Ashvini Keshavan).\u20282. Plasma amyloid, tau and serum neurofilament light chain in Insight 46 \u2013 associations with cognition and brain imaging. AAIC 2019 poster (Keshavan et al.)\u20283. The Insight 46 Cohort \u2013 Relationships with Cerebral PET Amyloid positivity Using Two Independent Methods for Plasma Amyloid Beta Measurement. AAIC 2019 Featured Research Session Oral presentation. (Schott et al.)"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 7,
@@ -58547,6 +58654,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -58714,6 +58822,7 @@
       "source_variable_names": "NFL_N4PE_plasma_p1, GFAP_N4PE_plasma_p1, Ab40_N4PE_plasma_p1, Ab42_N4PE_plasma_p1, Ptau181v2_plasma_p1, NFL_N4PE_plasma_p2, GFAP_N4PE_plasma_p2, Ab40_N4PE_plasma_p2, Ab42_N4PE_plasma_p2, Ptau181v2_plasma_p2, NFL_N4PE_CSF_p2, GFAP_N4PE_CSF_p2, Ab40_N4PE_CSF_p2, Ab42_N4PE_CSF_p2, Ptau181v2_plasma_p2, visit_date_p1, Date_blood_p2, Date_CSF_p2",
       "output_variables": "age_blood_i46p1, n4pe_plsmft_i46p1, ptau181v2_plsmft_p1, ab42_n4pe_plsm_i46p1, ab40_n4pe_plsm_i46p1, nfl_n4pe_plsm_i46p1, gfap_n4pe_plsm_i46p1, ptau181v2_plsm_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 7,
@@ -58722,6 +58831,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -58890,6 +59000,7 @@
       "output_variables": "ptau217_pl_i46p1, ptau217_lloq_i46p1, ptau217_pl_i46p2, ptau217_lloq_i46p2, ptau217_csf_i46p2",
       "papers_used": "Papers forthcoming\u2028Technical paper on ALZpath assay v2:"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 5,
@@ -58898,6 +59009,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -59033,6 +59145,7 @@
       "output_variables": "age_blood_i46, ptau18_plsma_av_g_i46, ptau18_plsma_g_i46",
       "papers_used": "1. Keshavan A, Pannee J, Karikari TK et al. Population-based blood screening for preclinical Alzheimer's disease in a British birth cohort at age 70. Brain. 2021 Jan 22. pii: 6105867. doi: 10.1093/brain/awaa403."
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 3,
@@ -59041,6 +59154,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -59163,6 +59277,7 @@
       "source_variable_names": "Xnat, number), Upsit, out, of, missing, data, change_smell, subjective, change, in, sense, of, smell), reason, data, missing/test, not, done",
       "output_variables": "upsit_i46p1, change_smell_i46p1, upsit_missing_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 2,
@@ -59171,6 +59286,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -59249,6 +59365,7 @@
       "source_variable_names": "See, below",
       "output_variables": "vasc_medusge_i46p1, vasc_medhtn_i46p1, vasc_meddiuretic_i46p1, vasc_medbeta_i46p1, vasc_mednitrateccb_i46p1, vasc_bplwrmed_total_i46p1, vasc_cholmed_i46p1, vasc_dmmed_i46p1, vasc_bplwrmed_bin_i46p1, vasc_diabeticmed_i46p1, vasc_cholmed_bin_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 11,
@@ -59257,6 +59374,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -59533,6 +59651,7 @@
       "output_variables": "qc_nawm_all_i46p1, qc_nawm_all_noddi_i46p1, qc_nawmreason_i46p1, nawmz_fa_f_i46p1, nawmz_md_f_i46p1, nawmz_ficvf_f_i46p1, nawmroa_fa_f_i46p1, nawmroa_md_f_i46p1, nawmz_odi_f_i46p1, nawmroa_ficvf_f_i46p1, nawmroa_odi_f_i46p1",
       "papers_used": "In progress"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 11,
@@ -59541,6 +59660,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -59742,6 +59862,7 @@
       "source_variable_names": "visit_date, of, visit), sTime_norm1, time, of, test, normal, condition), finish_norm1, time, of, test, normal, condition), list_norm1, list, used, for, test, normal, condition), mean_norm1, SRT, for, test, normal, condition), sd_norm1, deviation, for, test, normal, condition), reversals_norm1, of, reversals, for, test, normal, condition), trials_norm1, of, trials, for, test, normal, condition), sTime_norm2, time, of, test, normal, condition), finish_norm2, time, of, test, normal, condition), list_norm2, list, used, for, test, normal, condition), mean_norm2, SRT, for, test, normal, condition), sd_norm2, deviation, for, test, normal, condition), reversals_norm2, of, reversals, for, test, normal, condition), trials_norm2, of, trials, for, test, normal, condition), sTime_nal1, time, of, test, hearing, aid, formula, condition), finish_nal1, time, of, test, hearing, aid, formula, condition), list_nal1, list, used, for, test, hearing, aid, formula, condition), mean_nal1, SRT, for, test, hearing, aid, formula, condition), sd_nal1, deviation, for, test, hearing, aid, formula, condition), reversals_nal1, of, reversals, for, test, hearing, aid, formula, condition), trials_nal1, of, trials, for, test, hearing, aid, formula, condition), sTime_nal2, time, of, test, hearing, aid, formula, condition), finish_nal2, time, of, test, hearing, aid, formula, condition), list_nal2, list, used, for, test, hearing, aid, formula, condition), mean_nal2, SRT, for, test, hearing, aid, formula, condition), sd_nal2, deviation, for, test, hearing, aid, formula, condition), reversals_nal2, of, reversals, for, test, hearing, aid, formula, condition), trials_nal2, of, trials, for, test, hearing, aid, formula, condition), nal_complete, NAL, was, completed, or, not)",
       "output_variables": "visit_date_i46p1, stime_norm1_i46p1, finish_norm1_i46p1, list_norm1_i46p1, mean_norm1_i46p1, sd_norm1_i46p1, reversals_norm1_i46p1, trials_norm1_i46p1, stime_norm2_i46p1, list_norm2_i46p1, finish_norm2_i46p1, mean_norm2_i46p1, sd_norm2_i46p1, reversals_norm2_i46p1, trials_norm2_i46p1, stime_nal1_i46p1, list_nal1_i46p1, finish_nal1_i46p1, mean_nal1_i46p1, sd_nal1_i46p1, reversals_nal1_i46p1, trials_nal1_i46p1, stime_nal2_i46p1, list_nal2_i46p1, finish_nal2_i46p1, mean_nal2_i46p1, sd_nal2_i46p1, reversals_nal2_i46p1, trials_nal2_i46p1, nal_complete_i46p1"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 29,
@@ -59750,6 +59871,7 @@
     },
     "libraries_in_output_variables": [],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -60160,6 +60282,7 @@
       "output_variables": "I46P2_AmyloidPET3",
       "papers_used": "N/A"
     },
+    "source_format": "word",
     "doc_type": "topsheet",
     "variable_count": {
       "high": 160,
@@ -60173,6 +60296,7 @@
       }
     ],
     "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
     "variables": {
       "high": [
         {
@@ -62166,5 +62290,2027 @@
       ]
     },
     "permalink": "/docs/documentation/longitudinal-detailed-regional-desikan-killiany-parcellations-amyloid-beta-pet-florbetapir-suvrs-for-phase-1-and-2-insight-46/"
+  },
+  {
+    "doc_id": "insight46-comparison-between-freesurfer-and-gif-for-amyloid-pet-quantification",
+    "title": "Insight46: Comparison between Freesurfer and GIF for amyloid PET quantification",
+    "author": "David Cash",
+    "date": "21/09/2026",
+    "description": null,
+    "document_details": {
+      "categories": "Longitudinal detailed regional (Desikan-Killiany parcellations) amyloid-beta PET [18F]florbetapir SUVRs and amyloid-beta status for phase 1 and 2 Insight 46 scans using FreeSurfer, MRI-based anatomical parcellations.",
+      "summary_of_work": "This is an additional spreadsheet to the original FreeSurfer based amyloid PET measures that provides the SUVR values for the individual Desikan-Killiany (DK) atlas regions.\u2028We do not provide positive or negative amyloid status for each DK region. This is only provided at a composite and lobar regions in the previous spreadsheet.\u2028See below for details of methodology.\u2028Imran converted dataset to STATA and have it research ready for Condor",
+      "source_variable_names": "Each, source, file, contains, the, following, variables:, subject, session, assigned', Cerebral, White, Matter', Lateral, Ventricle', Inf, Lat, Vent', Cerebellum, White, Matter', Cerebellum, Cortex', Thalamus, Proper', Caudate', Putamen', Pallidum', Ventricle', Ventricle', Stem', Hippocampus', Amygdala', Accumbens, area', VentralDC', vessel', choroid, plexus', Cerebral, White, Matter', Lateral, Ventricle', Inf, Lat, Vent', Cerebellum, White, Matter', Cerebellum, Cortex', Thalamus, Proper', Caudate', Putamen', Pallidum', Hippocampus', Amygdala', Accumbens, area', VentralDC', vessel', choroid, plexus', hypointensities', Chiasm', frontal, parietal, occipital, temporal, cingulate, insula, composite, hippocampus, caudate, putamen, thalamus, cortical_gm, subcortical_gm, WM, hypointensities', Ventricle', exclude",
+      "output_variables": "I46P2_AmyloidPET3",
+      "papers_used": "N/A"
+    },
+    "source_format": "word",
+    "doc_type": "documentation",
+    "variable_count": {
+      "high": 160,
+      "medium": 0,
+      "low": 3
+    },
+    "libraries_in_output_variables": [
+      {
+        "library": "I46P2_AmyloidPET3",
+        "variable_count": 160
+      }
+    ],
+    "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
+    "variables": {
+      "high": [
+        {
+          "variable": "svl_amg_wc_bl_i46p2",
+          "label": "Left amygdala target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_amg_wc_fu_i46p2",
+          "label": "Left amygdala target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_bsts_wc_bl_i46p2",
+          "label": "Left banks of the superior temporal sulcus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_bsts_wc_fu_i46p2",
+          "label": "Left banks of the superior temporal sulcus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_cacg_wc_bl_i46p2",
+          "label": "Left caudal anterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_cacg_wc_fu_i46p2",
+          "label": "Left caudal anterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_cau_wc_bl_i46p2",
+          "label": "Left caudate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_cau_wc_fu_i46p2",
+          "label": "Left caudate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_cmf_wc_bl_i46p2",
+          "label": "Left caudal middle frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_cmf_wc_fu_i46p2",
+          "label": "Left caudal middle frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_cun_wc_bl_i46p2",
+          "label": "Left cuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_cun_wc_fu_i46p2",
+          "label": "Left cuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_ent_wc_bl_i46p2",
+          "label": "Left entorhinal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_ent_wc_fu_i46p2",
+          "label": "Left entorhinal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_fp_wc_bl_i46p2",
+          "label": "Left frontal pole target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_fp_wc_fu_i46p2",
+          "label": "Left frontal pole target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_fus_wc_bl_i46p2",
+          "label": "Left fusiform target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_fus_wc_fu_i46p2",
+          "label": "Left fusiform target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_hip_wc_bl_i46p2",
+          "label": "Left hippocampus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_hip_wc_fu_i46p2",
+          "label": "Left hippocampus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_icg_wc_bl_i46p2",
+          "label": "Left isthmus cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_icg_wc_fu_i46p2",
+          "label": "Left isthmus cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_ins_wc_bl_i46p2",
+          "label": "Left insula target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_ins_wc_fu_i46p2",
+          "label": "Left insula target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_ip_wc_bl_i46p2",
+          "label": "Left inferior parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_ip_wc_fu_i46p2",
+          "label": "Left inferior parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_it_wc_bl_i46p2",
+          "label": "Left inferior temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_it_wc_fu_i46p2",
+          "label": "Left inferior temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_lin_wc_bl_i46p2",
+          "label": "Left lingual target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_lin_wc_fu_i46p2",
+          "label": "Left lingual target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_lo_wc_bl_i46p2",
+          "label": "Left lateral occipital target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_lo_wc_fu_i46p2",
+          "label": "Left lateral occipital target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_lof_wc_bl_i46p2",
+          "label": "Left lateral orbitofrontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_lof_wc_fu_i46p2",
+          "label": "Left lateral orbitofrontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_mof_wc_bl_i46p2",
+          "label": "Left medial orbitofrontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_mof_wc_fu_i46p2",
+          "label": "Left medial orbitofrontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_mt_wc_bl_i46p2",
+          "label": "Left middle temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_mt_wc_fu_i46p2",
+          "label": "Left middle temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pal_wc_bl_i46p2",
+          "label": "Left pallidum target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pal_wc_fu_i46p2",
+          "label": "Left pallidum target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pcal_wc_bl_i46p2",
+          "label": "Left pericalcarine target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pcal_wc_fu_i46p2",
+          "label": "Left pericalcarine target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pcen_wc_bl_i46p2",
+          "label": "Left paracentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pcen_wc_fu_i46p2",
+          "label": "Left paracentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pcg_wc_bl_i46p2",
+          "label": "Left posterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pcg_wc_fu_i46p2",
+          "label": "Left posterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pcun_wc_bl_i46p2",
+          "label": "Left precuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pcun_wc_fu_i46p2",
+          "label": "Left precuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_phip_wc_bl_i46p2",
+          "label": "Left parahippocampal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_phip_wc_fu_i46p2",
+          "label": "Left parahippocampal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_poc_wc_bl_i46p2",
+          "label": "Left postcentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_poc_wc_fu_i46p2",
+          "label": "Left postcentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pop_wc_bl_i46p2",
+          "label": "Left pars opercularis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_pop_wc_fu_i46p2",
+          "label": "Left pars opercularis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_por_wc_bl_i46p2",
+          "label": "Left pars orbitalis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_por_wc_fu_i46p2",
+          "label": "Left pars orbitalis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_prc_wc_bl_i46p2",
+          "label": "Left precentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_prc_wc_fu_i46p2",
+          "label": "Left precentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_ptr_wc_bl_i46p2",
+          "label": "Left pars triangularis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_ptr_wc_fu_i46p2",
+          "label": "Left pars triangularis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_put_wc_bl_i46p2",
+          "label": "Left putamen target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_put_wc_fu_i46p2",
+          "label": "Left putamen target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_racg_wc_bl_i46p2",
+          "label": "Left rostral anterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_racg_wc_fu_i46p2",
+          "label": "Left rostral anterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_rmf_wc_bl_i46p2",
+          "label": "Left rostral middle frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_rmf_wc_fu_i46p2",
+          "label": "Left rostral middle frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_sf_wc_bl_i46p2",
+          "label": "Left superior frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_sf_wc_fu_i46p2",
+          "label": "Left superior frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_sm_wc_bl_i46p2",
+          "label": "Left supramarginal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_sm_wc_fu_i46p2",
+          "label": "Left supramarginal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_sp_wc_bl_i46p2",
+          "label": "Left superior parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_sp_wc_fu_i46p2",
+          "label": "Left superior parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_st_wc_bl_i46p2",
+          "label": "Left superior temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_st_wc_fu_i46p2",
+          "label": "Left superior temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_tha_wc_bl_i46p2",
+          "label": "Left thalamus proper target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_tha_wc_fu_i46p2",
+          "label": "Left thalamus proper target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_tp_wc_bl_i46p2",
+          "label": "Left temporal pole target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_tp_wc_fu_i46p2",
+          "label": "Left temporal pole target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_tt_wc_bl_i46p2",
+          "label": "Left transverse temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svl_tt_wc_fu_i46p2",
+          "label": "Left transverse temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_amg_wc_bl_i46p2",
+          "label": "Right amygdala target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_amg_wc_fu_i46p2",
+          "label": "Right amygdala target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_bsts_wc_bl_i46p2",
+          "label": "Right banks of the superior temporal sulcus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_bsts_wc_fu_i46p2",
+          "label": "Right banks of the superior temporal sulcus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_cacg_wc_bl_i46p2",
+          "label": "Right caudal anterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_cacg_wc_fu_i46p2",
+          "label": "Right caudal anterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_cau_wc_bl_i46p2",
+          "label": "Right caudate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_cau_wc_fu_i46p2",
+          "label": "Right caudate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_cmf_wc_bl_i46p2",
+          "label": "Right caudal middle frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_cmf_wc_fu_i46p2",
+          "label": "Right caudal middle frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_cun_wc_bl_i46p2",
+          "label": "Right cuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_cun_wc_fu_i46p2",
+          "label": "Right cuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_ent_wc_bl_i46p2",
+          "label": "Right entorhinal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_ent_wc_fu_i46p2",
+          "label": "Right entorhinal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_fp_wc_bl_i46p2",
+          "label": "Right frontal pole target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_fp_wc_fu_i46p2",
+          "label": "Right frontal pole target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_fus_wc_bl_i46p2",
+          "label": "Right fusiform target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_fus_wc_fu_i46p2",
+          "label": "Right fusiform target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_hip_wc_bl_i46p2",
+          "label": "Right hippocampus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_hip_wc_fu_i46p2",
+          "label": "Right hippocampus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_icg_wc_bl_i46p2",
+          "label": "Right isthmus cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_icg_wc_fu_i46p2",
+          "label": "Right isthmus cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_ins_wc_bl_i46p2",
+          "label": "Right insula target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_ins_wc_fu_i46p2",
+          "label": "Right insula target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_ip_wc_bl_i46p2",
+          "label": "Right inferior parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_ip_wc_fu_i46p2",
+          "label": "Right inferior parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_it_wc_bl_i46p2",
+          "label": "Right inferior temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_it_wc_fu_i46p2",
+          "label": "Right inferior temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_lin_wc_bl_i46p2",
+          "label": "Right lingual target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_lin_wc_fu_i46p2",
+          "label": "Right lingual target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_lo_wc_bl_i46p2",
+          "label": "Right lateral occipital target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_lo_wc_fu_i46p2",
+          "label": "Right lateral occipital target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_lof_wc_bl_i46p2",
+          "label": "Right lateral orbitofrontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_lof_wc_fu_i46p2",
+          "label": "Right lateral orbitofrontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_mof_wc_bl_i46p2",
+          "label": "Right medial orbitofrontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_mof_wc_fu_i46p2",
+          "label": "Right medial orbitofrontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_mt_wc_bl_i46p2",
+          "label": "Right middle temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_mt_wc_fu_i46p2",
+          "label": "Right middle temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pal_wc_bl_i46p2",
+          "label": "Right pallidum target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pal_wc_fu_i46p2",
+          "label": "Right pallidum target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pcal_wc_bl_i46p2",
+          "label": "Right pericalcarine target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pcal_wc_fu_i46p2",
+          "label": "Right pericalcarine target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pcen_wc_bl_i46p2",
+          "label": "Right paracentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pcen_wc_fu_i46p2",
+          "label": "Right paracentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pcg_wc_bl_i46p2",
+          "label": "Right posterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pcg_wc_fu_i46p2",
+          "label": "Right posterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pcun_wc_bl_i46p2",
+          "label": "Right precuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pcun_wc_fu_i46p2",
+          "label": "Right precuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_phip_wc_bl_i46p2",
+          "label": "Right parahippocampal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_phip_wc_fu_i46p2",
+          "label": "Right parahippocampal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_poc_wc_bl_i46p2",
+          "label": "Right postcentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_poc_wc_fu_i46p2",
+          "label": "Right postcentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pop_wc_bl_i46p2",
+          "label": "Right pars opercularis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_pop_wc_fu_i46p2",
+          "label": "Right pars opercularis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_por_wc_bl_i46p2",
+          "label": "Right pars orbitalis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_por_wc_fu_i46p2",
+          "label": "Right pars orbitalis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_prc_wc_bl_i46p2",
+          "label": "Right precentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_prc_wc_fu_i46p2",
+          "label": "Right precentral target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_ptr_wc_bl_i46p2",
+          "label": "Right pars triangularis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_ptr_wc_fu_i46p2",
+          "label": "Right pars triangularis target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_put_wc_bl_i46p2",
+          "label": "Right putamen target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_put_wc_fu_i46p2",
+          "label": "Right putamen target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_racg_wc_bl_i46p2",
+          "label": "Right rostral anterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_racg_wc_fu_i46p2",
+          "label": "Right rostral anterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_rmf_wc_bl_i46p2",
+          "label": "Right rostral middle frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_rmf_wc_fu_i46p2",
+          "label": "Right rostral middle frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_sf_wc_bl_i46p2",
+          "label": "Right superior frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_sf_wc_fu_i46p2",
+          "label": "Right superior frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_sm_wc_bl_i46p2",
+          "label": "Right supramarginal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_sm_wc_fu_i46p2",
+          "label": "Right supramarginal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_sp_wc_bl_i46p2",
+          "label": "Right superior parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_sp_wc_fu_i46p2",
+          "label": "Right superior parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_st_wc_bl_i46p2",
+          "label": "Right superior temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_st_wc_fu_i46p2",
+          "label": "Right superior temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_tha_wc_bl_i46p2",
+          "label": "Right thalamus proper target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_tha_wc_fu_i46p2",
+          "label": "Right thalamus proper target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_tp_wc_bl_i46p2",
+          "label": "Right temporal pole target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_tp_wc_fu_i46p2",
+          "label": "Right temporal pole target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_tt_wc_bl_i46p2",
+          "label": "Right transverse temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svr_tt_wc_fu_i46p2",
+          "label": "Right transverse temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        }
+      ],
+      "medium": [],
+      "low": [
+        {
+          "variable": "inf",
+          "label": "Inflation factor to adjust for stratified sample",
+          "method": "prose scan",
+          "topic_path": [
+            "Population characteristics [54]",
+            "Baseline characteristics [401]"
+          ]
+        },
+        {
+          "variable": "own",
+          "label": "Now I would like to get some general information about your household. Does your household own or rent this accommodation? - at age 53 years",
+          "method": "prose scan",
+          "topic_path": [
+            "Questionnaire data [55]",
+            "Sociodemographics [515]",
+            "Household [5152]"
+          ]
+        },
+        {
+          "variable": "step",
+          "label": "Do you find it difficult walking up and down stairs due to long term health problems? - at age 53 years",
+          "method": "prose scan",
+          "topic_path": [
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Physical capability [5108]"
+          ]
+        }
+      ]
+    },
+    "relations": {
+      "supersedes": [],
+      "rejected_renames": [],
+      "documented_in": [],
+      "title": null,
+      "topic_override": null
+    },
+    "topic_assignment": {
+      "status": "single_topic",
+      "topics": [
+        "Sub-Studies [57]"
+      ],
+      "primary_topic": "Sub-Studies [57]",
+      "topic_counts": {
+        "Sub-Studies [57]": 160
+      },
+      "primary_path": [
+        "Sub-Studies [57]",
+        "Insight46 [699]",
+        "Brain PET [6034]",
+        "Amyloid data [60341]",
+        "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+      ],
+      "all_paths": [
+        {
+          "path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ],
+          "count": 160
+        }
+      ]
+    },
+    "permalink": "/docs/documentation/insight46-comparison-between-freesurfer-and-gif-for-amyloid-pet-quantification/"
   }
 ]
