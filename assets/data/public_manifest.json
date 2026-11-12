@@ -1135,15 +1135,15 @@
         {
           "path": [
             "Clinical data [51]",
-            "Physical performance [115]"
+            "Physical measures [110]",
+            "Hand examination [1106]"
           ],
           "count": 1
         },
         {
           "path": [
             "Clinical data [51]",
-            "Physical measures [110]",
-            "Hand examination [1106]"
+            "Physical performance [115]"
           ],
           "count": 1
         },
@@ -1840,8 +1840,7 @@
           "path": [
             "Clinical data [51]",
             "Physical measures [110]",
-            "Anthropometry [1102]",
-            "Body size measures [11021]"
+            "Hand examination [1106]"
           ],
           "count": 1
         },
@@ -1849,7 +1848,8 @@
           "path": [
             "Clinical data [51]",
             "Physical measures [110]",
-            "Hand examination [1106]"
+            "Anthropometry [1102]",
+            "Body size measures [11021]"
           ],
           "count": 1
         }
@@ -2430,14 +2430,6 @@
         {
           "path": [
             "Clinical data [51]",
-            "Physical measures [110]",
-            "Blood pressure [1103]"
-          ],
-          "count": 1
-        },
-        {
-          "path": [
-            "Clinical data [51]",
             "Cognitive function [101]",
             "Adulthood cognition [1012]",
             "Envelope test [10134]"
@@ -2455,6 +2447,15 @@
         },
         {
           "path": [
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Other medical conditions [51011]"
+          ],
+          "count": 1
+        },
+        {
+          "path": [
             "Clinical data [51]",
             "Cognitive function [101]",
             "Adulthood cognition [1012]",
@@ -2464,10 +2465,9 @@
         },
         {
           "path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
+            "Clinical data [51]",
+            "Physical measures [110]",
+            "Blood pressure [1103]"
           ],
           "count": 1
         }
@@ -4476,19 +4476,19 @@
         },
         {
           "path": [
-            "Clinical data [51]",
-            "Cognitive function [101]",
-            "Adulthood cognition [1012]",
-            "Reading comprehension (Watts-Vernon) [10121]"
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Other medical conditions [51011]"
           ],
           "count": 1
         },
         {
           "path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
+            "Clinical data [51]",
+            "Cognitive function [101]",
+            "Adulthood cognition [1012]",
+            "Reading comprehension (Watts-Vernon) [10121]"
           ],
           "count": 1
         }
@@ -6505,9 +6505,9 @@
       ],
       "primary_topic": "Biological samples [52]",
       "topic_counts": {
-        "Biological samples [52]": 14,
         "Questionnaire data [55]": 11,
-        "Clinical data [51]": 7
+        "Clinical data [51]": 7,
+        "Biological samples [52]": 14
       },
       "primary_path": [
         "Biological samples [52]",
@@ -6561,18 +6561,18 @@
         },
         {
           "path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
+            "Clinical data [51]",
+            "Physical measures [110]",
+            "Hand examination [1106]"
           ],
           "count": 1
         },
         {
           "path": [
-            "Clinical data [51]",
-            "Physical measures [110]",
-            "Hand examination [1106]"
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Other medical conditions [51011]"
           ],
           "count": 1
         }
@@ -7369,9 +7369,9 @@
       ],
       "primary_topic": "Clinical data [51]",
       "topic_counts": {
-        "Biological samples [52]": 14,
+        "Questionnaire data [55]": 11,
         "Clinical data [51]": 45,
-        "Questionnaire data [55]": 11
+        "Biological samples [52]": 14
       },
       "primary_path": [
         "Clinical data [51]",
@@ -7425,18 +7425,18 @@
         },
         {
           "path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
+            "Clinical data [51]",
+            "Physical measures [110]",
+            "Hand examination [1106]"
           ],
           "count": 1
         },
         {
           "path": [
-            "Clinical data [51]",
-            "Physical measures [110]",
-            "Hand examination [1106]"
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Other medical conditions [51011]"
           ],
           "count": 1
         }
@@ -46990,24 +46990,19 @@
         "Questionnaire data [55]",
         "Sub-Studies [57]"
       ],
-      "primary_topic": "Omic [53]",
+      "primary_topic": "Questionnaire data [55]",
       "topic_counts": {
-        "Omic [53]": 1,
         "Questionnaire data [55]": 1,
-        "Sub-Studies [57]": 1
+        "Sub-Studies [57]": 1,
+        "Omic [53]": 1
       },
       "primary_path": [
-        "Omic [53]",
-        "Genomics [303]"
+        "Questionnaire data [55]",
+        "Health and medical history [510]",
+        "Medical conditions [5101]",
+        "Other medical conditions [51011]"
       ],
       "all_paths": [
-        {
-          "path": [
-            "Omic [53]",
-            "Genomics [303]"
-          ],
-          "count": 1
-        },
         {
           "path": [
             "Questionnaire data [55]",
@@ -47023,6 +47018,13 @@
             "Insight46 [699]",
             "Genomics [6038]",
             "Genotype [60381]"
+          ],
+          "count": 1
+        },
+        {
+          "path": [
+            "Omic [53]",
+            "Genomics [303]"
           ],
           "count": 1
         }
@@ -58334,19 +58336,19 @@
         },
         {
           "path": [
-            "Sub-Studies [57]",
-            "Insight46 [699]",
-            "Cognitive function [6042]",
-            "Preclinical Alzheimer Cognitive Composite (PACC) [60432]"
+            "Questionnaire data [55]",
+            "Health and medical history [510]",
+            "Medical conditions [5101]",
+            "Other medical conditions [51011]"
           ],
           "count": 1
         },
         {
           "path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Medical conditions [5101]",
-            "Other medical conditions [51011]"
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Cognitive function [6042]",
+            "Preclinical Alzheimer Cognitive Composite (PACC) [60432]"
           ],
           "count": 1
         }
@@ -59597,8 +59599,8 @@
       ],
       "primary_topic": "Sub-Studies [57]",
       "topic_counts": {
-        "Sub-Studies [57]": 11,
-        "Questionnaire data [55]": 7
+        "Questionnaire data [55]": 7,
+        "Sub-Studies [57]": 11
       },
       "primary_path": [
         "Sub-Studies [57]",
@@ -62255,7 +62257,10 @@
     },
     "relations": {
       "supersedes": [],
-      "rejected_renames": [],
+      "rejected_renames": [
+        "CLEANED",
+        "CLEANED"
+      ],
       "documented_in": [],
       "title": null,
       "topic_override": null
@@ -62294,33 +62299,3877 @@
   {
     "doc_id": "insight46-comparison-between-freesurfer-and-gif-for-amyloid-pet-quantification",
     "title": "Insight46: Comparison between Freesurfer and GIF for amyloid PET quantification",
-    "author": "David Cash",
-    "date": "21/09/2026",
-    "description": null,
+    "author": "Dave Cash",
+    "date": "03/06/2026",
+    "description": "Insight46: Comparison between Freesurfer and GIF for amyloid PET quantification",
     "document_details": {
-      "categories": "Longitudinal detailed regional (Desikan-Killiany parcellations) amyloid-beta PET [18F]florbetapir SUVRs and amyloid-beta status for phase 1 and 2 Insight 46 scans using FreeSurfer, MRI-based anatomical parcellations.",
-      "summary_of_work": "This is an additional spreadsheet to the original FreeSurfer based amyloid PET measures that provides the SUVR values for the individual Desikan-Killiany (DK) atlas regions.\u2028We do not provide positive or negative amyloid status for each DK region. This is only provided at a composite and lobar regions in the previous spreadsheet.\u2028See below for details of methodology.\u2028Imran converted dataset to STATA and have it research ready for Condor",
-      "source_variable_names": "Each, source, file, contains, the, following, variables:, subject, session, assigned', Cerebral, White, Matter', Lateral, Ventricle', Inf, Lat, Vent', Cerebellum, White, Matter', Cerebellum, Cortex', Thalamus, Proper', Caudate', Putamen', Pallidum', Ventricle', Ventricle', Stem', Hippocampus', Amygdala', Accumbens, area', VentralDC', vessel', choroid, plexus', Cerebral, White, Matter', Lateral, Ventricle', Inf, Lat, Vent', Cerebellum, White, Matter', Cerebellum, Cortex', Thalamus, Proper', Caudate', Putamen', Pallidum', Hippocampus', Amygdala', Accumbens, area', VentralDC', vessel', choroid, plexus', hypointensities', Chiasm', frontal, parietal, occipital, temporal, cingulate, insula, composite, hippocampus, caudate, putamen, thalamus, cortical_gm, subcortical_gm, WM, hypointensities', Ventricle', exclude",
-      "output_variables": "I46P2_AmyloidPET3",
-      "papers_used": "N/A"
+      "output_variables": "I46P2_AmyloidPET3, I46P2_AmyloidPET2, I46P2_AmyloidPET"
     },
-    "source_format": "word",
+    "source_format": "pdf",
     "doc_type": "documentation",
     "variable_count": {
-      "high": 160,
+      "high": 486,
       "medium": 0,
-      "low": 3
+      "low": 0
     },
     "libraries_in_output_variables": [
       {
         "library": "I46P2_AmyloidPET3",
         "variable_count": 160
+      },
+      {
+        "library": "I46P2_AmyloidPET2",
+        "variable_count": 28
+      },
+      {
+        "library": "I46P2_AmyloidPET",
+        "variable_count": 298
       }
     ],
     "ambiguous_library_tokens": [],
     "unmatched_output_tokens": [],
     "variables": {
       "high": [
+        {
+          "variable": "ce_cmp_wc_bl_i46p2",
+          "label": "Centiloid value from SUVRs using composite target region with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "ce_cmp_wc_fu_i46p2",
+          "label": "Centiloid value from SUVRs using composite target region with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "ce_cmp_wc_pvc_bl_i46p2",
+          "label": "Centiloid value from SUVRs using composite target region with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "ce_cmp_wc_pvc_fu_i46p2",
+          "label": "Centiloid value from SUVRs using composite target region with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "ce_cmp_wm_bl_i46p2",
+          "label": "Centiloid value from SUVRs using composite target region with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "ce_cmp_wm_fu_i46p2",
+          "label": "Centiloid value from SUVRs using composite target region with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "ce_cmp_wm_pvc_bl_i46p2",
+          "label": "Centiloid value from SUVRs using composite target region with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "ce_cmp_wm_pvc_fu_i46p2",
+          "label": "Centiloid value from SUVRs using composite target region with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "imp_nipct_fux_i46p2",
+          "label": "Indicates whether NiftyPET psuedo-CT (nipct) reconstruction SUVRs were predicted from console SUVRs with linear regression due to issue with list-mode data (TRUE=IMPUTED) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "imp_nipct_i46p2",
+          "label": "Indicates whether NiftyPET psuedo-CT (nipct) reconstruction SUVRs were predicted from console SUVRs with linear regression due to issue with list-mode data (TRUE=IMPUTED) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_cgm_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_cgm_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_cgm_pvc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_cgm_pvc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_pons_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_pons_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_pons_pvc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_pons_pvc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_wc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_wc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_wc_pvc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_wc_pvc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_wm_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_wm_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_wm_pvc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ant_wm_pvc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_cgm_bl_i46p2",
+          "label": "Composite target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_cgm_fu_i46p2",
+          "label": "Composite target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_cgm_pvc_bl_i46p2",
+          "label": "Composite target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_cgm_pvc_fu_i46p2",
+          "label": "Composite target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_pons_bl_i46p2",
+          "label": "Composite target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_pons_fu_i46p2",
+          "label": "Composite target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_pons_pvc_bl_i46p2",
+          "label": "Composite target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_pons_pvc_fu_i46p2",
+          "label": "Composite target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_wc_bl_i46p2",
+          "label": "Composite target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_wc_fu_i46p2",
+          "label": "Composite target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_wc_pvc_bl_i46p2",
+          "label": "Composite target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_wc_pvc_fu_i46p2",
+          "label": "Composite target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_wm_bl_i46p2",
+          "label": "Composite target region amyloid-beta status with eroded white matter reference region - Longitudinal baseline- Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_wm_fu_i46p2",
+          "label": "Composite target region amyloid-beta status with eroded white matter reference region - Longitudinal follow-up- Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_wm_pvc_bl_i46p2",
+          "label": "Composite target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_cmp_wm_pvc_fu_i46p2",
+          "label": "Composite target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_cgm_bl_i46p2",
+          "label": "Frontal target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_cgm_fu_i46p2",
+          "label": "Frontal target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_cgm_pvc_bl_i46p2",
+          "label": "Frontal target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_cgm_pvc_fu_i46p2",
+          "label": "Frontal target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_pons_bl_i46p2",
+          "label": "Frontal target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_pons_fu_i46p2",
+          "label": "Frontal target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_pons_pvc_bl_i46p2",
+          "label": "Frontal target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_pons_pvc_fu_i46p2",
+          "label": "Frontal target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_wc_bl_i46p2",
+          "label": "Frontal target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_wc_fu_i46p2",
+          "label": "Frontal target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_wc_pvc_bl_i46p2",
+          "label": "Frontal target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_wc_pvc_fu_i46p2",
+          "label": "Frontal target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_wm_bl_i46p2",
+          "label": "Frontal target region amyloid-beta status with eroded white matter reference region - Longitudinal baseline- Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_wm_fu_i46p2",
+          "label": "Frontal target region amyloid-beta status with eroded white matter reference region - Longitudinal follow-up- Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_wm_pvc_bl_i46p2",
+          "label": "Frontal target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_frn_wm_pvc_fu_i46p2",
+          "label": "Frontal target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_cgm_bl_i46p2",
+          "label": "Insula target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_cgm_fu_i46p2",
+          "label": "Insula target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_cgm_pvc_bl_i46p2",
+          "label": "Insula target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_cgm_pvc_fu_i46p2",
+          "label": "Insula target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_pons_bl_i46p2",
+          "label": "Insula target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_pons_fu_i46p2",
+          "label": "Insula target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_pons_pvc_bl_i46p2",
+          "label": "Insula target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_pons_pvc_fu_i46p2",
+          "label": "Insula target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_wc_bl_i46p2",
+          "label": "Insula target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_wc_fu_i46p2",
+          "label": "Insula target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_wc_pvc_bl_i46p2",
+          "label": "Insula target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_wc_pvc_fu_i46p2",
+          "label": "Insula target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_wm_bl_i46p2",
+          "label": "Insula target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_wm_fu_i46p2",
+          "label": "Insula target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_wm_pvc_bl_i46p2",
+          "label": "Insula target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_ins_wm_pvc_fu_i46p2",
+          "label": "Insula target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_cgm_bl_i46p2",
+          "label": "Occipital target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_cgm_fu_i46p2",
+          "label": "Occipital target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_cgm_pvc_bl_i46p2",
+          "label": "Occipital target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_cgm_pvc_fu_i46p2",
+          "label": "Occipital target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_pons_bl_i46p2",
+          "label": "Occipital target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_pons_fu_i46p2",
+          "label": "Occipital target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_pons_pvc_bl_i46p2",
+          "label": "Occipital target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_pons_pvc_fu_i46p2",
+          "label": "Occipital target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_wc_bl_i46p2",
+          "label": "Occipital target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_wc_fu_i46p2",
+          "label": "Occipital target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_wc_pvc_bl_i46p2",
+          "label": "Occipital target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_wc_pvc_fu_i46p2",
+          "label": "Occipital target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_wm_bl_i46p2",
+          "label": "Occipital target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_wm_fu_i46p2",
+          "label": "Occipital target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_wm_pvc_bl_i46p2",
+          "label": "Occipital target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_occ_wm_pvc_fu_i46p2",
+          "label": "Occipital target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_cgm_bl_i46p2",
+          "label": "Parietal target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_cgm_fu_i46p2",
+          "label": "Parietal target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_cgm_pvc_bl_i46p2",
+          "label": "Parietal target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_cgm_pvc_fu_i46p2",
+          "label": "Parietal target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_pons_bl_i46p2",
+          "label": "Parietal target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_pons_fu_i46p2",
+          "label": "Parietal target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_pons_pvc_bl_i46p2",
+          "label": "Parietal target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_pons_pvc_fu_i46p2",
+          "label": "Parietal target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_wc_bl_i46p2",
+          "label": "Parietal target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_wc_fu_i46p2",
+          "label": "Parietal target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_wc_pvc_bl_i46p2",
+          "label": "Parietal target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_wc_pvc_fu_i46p2",
+          "label": "Parietal target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_wm_bl_i46p2",
+          "label": "Parietal target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_wm_fu_i46p2",
+          "label": "Parietal target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_wm_pvc_bl_i46p2",
+          "label": "Parietal target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_par_wm_pvc_fu_i46p2",
+          "label": "Parietal target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_cgm_bl_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_cgm_fu_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_cgm_pvc_bl_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_cgm_pvc_fu_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_pons_bl_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_pons_fu_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_pons_pvc_bl_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_pons_pvc_fu_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_wc_bl_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_wc_fu_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_wc_pvc_bl_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_wc_pvc_fu_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_wm_bl_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_wm_fu_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_wm_pvc_bl_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal baseline- Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pos_wm_pvc_fu_i46p2",
+          "label": "Posterior cingulate target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_cgm_bl_i46p2",
+          "label": "Precuneus target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_cgm_fu_i46p2",
+          "label": "Precuneus target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_cgm_pvc_bl_i46p2",
+          "label": "Precuneus target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_cgm_pvc_fu_i46p2",
+          "label": "Precuneus target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_pons_bl_i46p2",
+          "label": "Precuneus target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_pons_fu_i46p2",
+          "label": "Precuneus target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_pons_pvc_bl_i46p2",
+          "label": "Precuneus target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_pons_pvc_fu_i46p2",
+          "label": "Precuneus target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_wc_bl_i46p2",
+          "label": "Precuneus target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_wc_fu_i46p2",
+          "label": "Precuneus target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_wc_pvc_bl_i46p2",
+          "label": "Precuneus target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_wc_pvc_fu_i46p2",
+          "label": "Precuneus target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_wm_bl_i46p2",
+          "label": "Precuneus target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_wm_fu_i46p2",
+          "label": "Precuneus target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_wm_pvc_bl_i46p2",
+          "label": "Precuneus target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_pre_wm_pvc_fu_i46p2",
+          "label": "Precuneus target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_cgm_bl_i46p2",
+          "label": "Temporal target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_cgm_fu_i46p2",
+          "label": "Temporal target region amyloid-beta status with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_cgm_pvc_bl_i46p2",
+          "label": "Temporal target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_cgm_pvc_fu_i46p2",
+          "label": "Temporal target region amyloid-beta status with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_pons_bl_i46p2",
+          "label": "Temporal target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_pons_fu_i46p2",
+          "label": "Temporal target region amyloid-beta status with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_pons_pvc_bl_i46p2",
+          "label": "Temporal target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_pons_pvc_fu_i46p2",
+          "label": "Temporal target region amyloid-beta status with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_wc_bl_i46p2",
+          "label": "Temporal target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_wc_fu_i46p2",
+          "label": "Temporal target region amyloid-beta status with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_wc_pvc_bl_i46p2",
+          "label": "Temporal target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_wc_pvc_fu_i46p2",
+          "label": "Temporal target region amyloid-beta status with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_wm_bl_i46p2",
+          "label": "Temporal target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_wm_fu_i46p2",
+          "label": "Temporal target region amyloid-beta status with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_wm_pvc_bl_i46p2",
+          "label": "Temporal target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "st_tem_wm_pvc_fu_i46p2",
+          "label": "Temporal target region amyloid-beta status with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stcing_bl_i46p2",
+          "label": "Cingulate target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stcing_fu_i46p2",
+          "label": "Cingulate target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stcomp_bl_i46p2",
+          "label": "Composite target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stcomp_fu_i46p2",
+          "label": "Composite target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stfron_bl_i46p2",
+          "label": "Frontal target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stfron_fu_i46p2",
+          "label": "Frontal target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stins_bl_i46p2",
+          "label": "Insula target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stins_fu_i46p2",
+          "label": "Insula target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stocci_bl_i46p2",
+          "label": "Occipital target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stocci_fu_i46p2",
+          "label": "Occipital target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stpari_bl_i46p2",
+          "label": "Parietal target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "stpari_fu_i46p2",
+          "label": "Parietal target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "sttemp_bl_i46p2",
+          "label": "Temporal target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "sttemp_fu_i46p2",
+          "label": "Temporal target region Abeta status, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_cgm_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_cgm_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_cgm_pvc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_cgm_pvc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_pons_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_pons_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_pons_pvc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_pons_pvc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_wc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_wc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_wc_pvc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_wc_pvc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_wm_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_wm_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_wm_pvc_bl_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ant_wm_pvc_fu_i46p2",
+          "label": "Anterior and mid-cingulate target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_cgm_bl_i46p2",
+          "label": "Composite target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_cgm_fu_i46p2",
+          "label": "Composite target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_cgm_pvc_bl_i46p2",
+          "label": "Composite target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_cgm_pvc_fu_i46p2",
+          "label": "Composite target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_pons_bl_i46p2",
+          "label": "Composite target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_pons_fu_i46p2",
+          "label": "Composite target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_pons_pvc_bl_i46p2",
+          "label": "Composite target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_pons_pvc_fu_i46p2",
+          "label": "Composite target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_wc_bl_i46p2",
+          "label": "Composite target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_wc_fu_i46p2",
+          "label": "Composite target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_wc_pvc_bl_i46p2",
+          "label": "Composite target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_wc_pvc_fu_i46p2",
+          "label": "Composite target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_wm_bl_i46p2",
+          "label": "Composite target region SUVR with eroded white matter reference region - Longitudinal baseline - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_wm_fu_i46p2",
+          "label": "Composite target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_wm_pvc_bl_i46p2",
+          "label": "Composite target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_cmp_wm_pvc_fu_i46p2",
+          "label": "Composite target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_cgm_bl_i46p2",
+          "label": "Frontal target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_cgm_fu_i46p2",
+          "label": "Frontal target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_cgm_pvc_bl_i46p2",
+          "label": "Frontal target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_cgm_pvc_fu_i46p2",
+          "label": "Frontal target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_pons_bl_i46p2",
+          "label": "Frontal target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_pons_fu_i46p2",
+          "label": "Frontal target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_pons_pvc_bl_i46p2",
+          "label": "Frontal target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_pons_pvc_fu_i46p2",
+          "label": "Frontal target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_wc_bl_i46p2",
+          "label": "Frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_wc_fu_i46p2",
+          "label": "Frontal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_wc_pvc_bl_i46p2",
+          "label": "Frontal target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_wc_pvc_fu_i46p2",
+          "label": "Frontal target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_wm_bl_i46p2",
+          "label": "Frontal target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_wm_fu_i46p2",
+          "label": "Frontal target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_wm_pvc_bl_i46p2",
+          "label": "Frontal target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_frn_wm_pvc_fu_i46p2",
+          "label": "Frontal target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_cgm_bl_i46p2",
+          "label": "Insula target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_cgm_fu_i46p2",
+          "label": "Insula target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_cgm_pvc_bl_i46p2",
+          "label": "Insula target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_cgm_pvc_fu_i46p2",
+          "label": "Insula target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_pons_bl_i46p2",
+          "label": "Insula target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_pons_fu_i46p2",
+          "label": "Insula target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_pons_pvc_bl_i46p2",
+          "label": "Insula target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_pons_pvc_fu_i46p2",
+          "label": "Insula target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_wc_bl_i46p2",
+          "label": "Insula target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_wc_fu_i46p2",
+          "label": "Insula target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_wc_pvc_bl_i46p2",
+          "label": "Insula target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_wc_pvc_fu_i46p2",
+          "label": "Insula target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_wm_bl_i46p2",
+          "label": "Insula target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_wm_fu_i46p2",
+          "label": "Insula target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_wm_pvc_bl_i46p2",
+          "label": "Insula target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_ins_wm_pvc_fu_i46p2",
+          "label": "Insula target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_cgm_bl_i46p2",
+          "label": "Occipital target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_cgm_fu_i46p2",
+          "label": "Occipital target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_cgm_pvc_bl_i46p2",
+          "label": "Occipital target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_cgm_pvc_fu_i46p2",
+          "label": "Occipital target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_pons_bl_i46p2",
+          "label": "Occipital target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_pons_fu_i46p2",
+          "label": "Occipital target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_pons_pvc_bl_i46p2",
+          "label": "Occipital target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_pons_pvc_fu_i46p2",
+          "label": "Occipital target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_wc_bl_i46p2",
+          "label": "Occipital target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_wc_fu_i46p2",
+          "label": "Occipital target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_wc_pvc_bl_i46p2",
+          "label": "Occipital target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_wc_pvc_fu_i46p2",
+          "label": "Occipital target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_wm_bl_i46p2",
+          "label": "Occipital target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_wm_fu_i46p2",
+          "label": "Occipital target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_wm_pvc_bl_i46p2",
+          "label": "Occipital target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_occ_wm_pvc_fu_i46p2",
+          "label": "Occipital target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_cgm_bl_i46p2",
+          "label": "Parietal target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_cgm_fu_i46p2",
+          "label": "Parietal target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_cgm_pvc_bl_i46p2",
+          "label": "Parietal target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_cgm_pvc_fu_i46p2",
+          "label": "Parietal target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_pons_bl_i46p2",
+          "label": "Parietal target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_pons_fu_i46p2",
+          "label": "Parietal target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_pons_pvc_bl_i46p2",
+          "label": "Parietal target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_pons_pvc_fu_i46p2",
+          "label": "Parietal target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_wc_bl_i46p2",
+          "label": "Parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_wc_fu_i46p2",
+          "label": "Parietal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_wc_pvc_bl_i46p2",
+          "label": "Parietal target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_wc_pvc_fu_i46p2",
+          "label": "Parietal target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_wm_bl_i46p2",
+          "label": "Parietal target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_wm_fu_i46p2",
+          "label": "Parietal target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_wm_pvc_bl_i46p2",
+          "label": "Parietal target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_par_wm_pvc_fu_i46p2",
+          "label": "Parietal target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_cgm_bl_i46p2",
+          "label": "Posterior cingulate target region SUVR with cerebellar grey matter reference region - Longitudinal baseline- Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_cgm_fu_i46p2",
+          "label": "Posterior cingulate target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_cgm_pvc_bl_i46p2",
+          "label": "Posterior cingulate target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_cgm_pvc_fu_i46p2",
+          "label": "Posterior cingulate target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_pons_bl_i46p2",
+          "label": "Posterior cingulate target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_pons_fu_i46p2",
+          "label": "Posterior cingulate target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_pons_pvc_bl_i46p2",
+          "label": "Posterior cingulate target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_pons_pvc_fu_i46p2",
+          "label": "Posterior cingulate target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_wc_bl_i46p2",
+          "label": "Posterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_wc_fu_i46p2",
+          "label": "Posterior cingulate target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_wc_pvc_bl_i46p2",
+          "label": "Posterior cingulate target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_wc_pvc_fu_i46p2",
+          "label": "Posterior cingulate target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_wm_bl_i46p2",
+          "label": "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_wm_fu_i46p2",
+          "label": "Posterior cingulate target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_wm_pvc_bl_i46p2",
+          "label": "Posterior cingulate target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pos_wm_pvc_fu_i46p2",
+          "label": "Posterior cingulate target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_cgm_bl_i46p2",
+          "label": "Precuneus target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_cgm_fu_i46p2",
+          "label": "Precuneus target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_cgm_pvc_bl_i46p2",
+          "label": "Precuneus target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_cgm_pvc_fu_i46p2",
+          "label": "Precuneus target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_pons_bl_i46p2",
+          "label": "Precuneus target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_pons_fu_i46p2",
+          "label": "Precuneus target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_pons_pvc_bl_i46p2",
+          "label": "Precuneus target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_pons_pvc_fu_i46p2",
+          "label": "Precuneus target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_wc_bl_i46p2",
+          "label": "Precuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_wc_fu_i46p2",
+          "label": "Precuneus target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_wc_pvc_bl_i46p2",
+          "label": "Precuneus target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_wc_pvc_fu_i46p2",
+          "label": "Precuneus target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_wm_bl_i46p2",
+          "label": "Precuneus target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_wm_fu_i46p2",
+          "label": "Precuneus target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_wm_pvc_bl_i46p2",
+          "label": "Precuneus target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_pre_wm_pvc_fu_i46p2",
+          "label": "Precuneus target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_cgm_bl_i46p2",
+          "label": "Temporal target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_cgm_fu_i46p2",
+          "label": "Temporal target region SUVR with cerebellar grey matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_cgm_pvc_bl_i46p2",
+          "label": "Temporal target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_cgm_pvc_fu_i46p2",
+          "label": "Temporal target region SUVR with cerebellar grey matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_pons_bl_i46p2",
+          "label": "Temporal target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_pons_fu_i46p2",
+          "label": "Temporal target region SUVR with pons reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_pons_pvc_bl_i46p2",
+          "label": "Temporal target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_pons_pvc_fu_i46p2",
+          "label": "Temporal target region SUVR with pons reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_wc_bl_i46p2",
+          "label": "Temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_wc_fu_i46p2",
+          "label": "Temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_wc_pvc_bl_i46p2",
+          "label": "Temporal target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_wc_pvc_fu_i46p2",
+          "label": "Temporal target region SUVR with whole cerebellum reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_wm_bl_i46p2",
+          "label": "Temporal target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_wm_fu_i46p2",
+          "label": "Temporal target region SUVR with eroded white matter reference region - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_wm_pvc_bl_i46p2",
+          "label": "Temporal target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "su_tem_wm_pvc_fu_i46p2",
+          "label": "Temporal target region SUVR with eroded white matter reference region with partial volume correction (PVC) - Longitudinal (phase 1 and 2 only) - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svcing_bl_i46p2",
+          "label": "Cingulate target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svcing_fu_i46p2",
+          "label": "Cingulate target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svcomp_bl_i46p2",
+          "label": "Composite target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svcomp_fu_i46p2",
+          "label": "Composite target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svfron_bl_i46p2",
+          "label": "Frontal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svfron_fu_i46p2",
+          "label": "Frontal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svins_bl_i46p2",
+          "label": "Insula target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svins_fu_i46p2",
+          "label": "Insula target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
         {
           "variable": "svl_amg_wc_bl_i46p2",
           "label": "Left amygdala target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
@@ -63273,6 +67122,54 @@
           "variable": "svl_tt_wc_fu_i46p2",
           "label": "Left transverse temporal target region SUVR with whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
           "method": "library file: I46P2_AmyloidPET3",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svocci_bl_i46p2",
+          "label": "Occipital target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svocci_fu_i46p2",
+          "label": "Occipital target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svpari_bl_i46p2",
+          "label": "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svpari_fu_i46p2",
+          "label": "Parietal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
           "topic_path": [
             "Sub-Studies [57]",
             "Insight46 [699]",
@@ -64240,40 +68137,34 @@
             "Amyloid data [60341]",
             "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
           ]
+        },
+        {
+          "variable": "svtemp_bl_i46p2",
+          "label": "Temporal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - baseline - Insight46 phase 1",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
+        },
+        {
+          "variable": "svtemp_fu_i46p2",
+          "label": "Temporal target region SUVR, whole cerebellum reference region - Longitudinal (phase 1 and 2 only) - follow-up - Insight46 phase 2",
+          "method": "library file: I46P2_AmyloidPET2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Brain PET [6034]",
+            "Amyloid data [60341]",
+            "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
+          ]
         }
       ],
       "medium": [],
-      "low": [
-        {
-          "variable": "inf",
-          "label": "Inflation factor to adjust for stratified sample",
-          "method": "prose scan",
-          "topic_path": [
-            "Population characteristics [54]",
-            "Baseline characteristics [401]"
-          ]
-        },
-        {
-          "variable": "own",
-          "label": "Now I would like to get some general information about your household. Does your household own or rent this accommodation? - at age 53 years",
-          "method": "prose scan",
-          "topic_path": [
-            "Questionnaire data [55]",
-            "Sociodemographics [515]",
-            "Household [5152]"
-          ]
-        },
-        {
-          "variable": "step",
-          "label": "Do you find it difficult walking up and down stairs due to long term health problems? - at age 53 years",
-          "method": "prose scan",
-          "topic_path": [
-            "Questionnaire data [55]",
-            "Health and medical history [510]",
-            "Physical capability [5108]"
-          ]
-        }
-      ]
+      "low": []
     },
     "relations": {
       "supersedes": [],
@@ -64289,7 +68180,7 @@
       ],
       "primary_topic": "Sub-Studies [57]",
       "topic_counts": {
-        "Sub-Studies [57]": 160
+        "Sub-Studies [57]": 486
       },
       "primary_path": [
         "Sub-Studies [57]",
@@ -64307,10 +68198,109 @@
             "Amyloid data [60341]",
             "Longitudinal beta-amyloid status (phase 1 and 2) [603412]"
           ],
-          "count": 160
+          "count": 486
         }
       ]
     },
     "permalink": "/docs/documentation/insight46-comparison-between-freesurfer-and-gif-for-amyloid-pet-quantification/"
+  },
+  {
+    "doc_id": "alzpath-simoa-ptau-217-v2-assay-on-insight46-phase-1-and-2-technical-note",
+    "title": "ALZpath Simoa pTau-217 v2 assay on Insight46 phase 1 and 2 - Technical note",
+    "author": null,
+    "date": null,
+    "description": "ALZpath Simoa pTau-217 v2 assay on Insight46 phase 1 and 2 - Technical note",
+    "document_details": {
+      "output_variables": "I46P2_SIMOABLOODS2"
+    },
+    "source_format": "pdf",
+    "doc_type": "documentation",
+    "variable_count": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "libraries_in_output_variables": [
+      {
+        "library": "I46P2_SIMOABLOODS2",
+        "variable_count": 3
+      }
+    ],
+    "ambiguous_library_tokens": [],
+    "unmatched_output_tokens": [],
+    "variables": {
+      "high": [
+        {
+          "variable": "ptau217_csf_i46p2",
+          "label": "Cerebrospinal fluid (CSF) ALZpath p-tau217 (pg/mL) - Insight Phase 2",
+          "method": "library file: I46P2_SIMOABLOODS2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Biological samples [6037]",
+            "Blood biomarkers [60372]"
+          ]
+        },
+        {
+          "variable": "ptau217_lloq_i46p2",
+          "label": "Indicator for whether plasma ALZpath raw value was below LLOQ - Insight Phase 2",
+          "method": "library file: I46P2_SIMOABLOODS2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Biological samples [6037]",
+            "Blood biomarkers [60372]"
+          ]
+        },
+        {
+          "variable": "ptau217_pl_i46p2",
+          "label": "Plasma ALZpath p-tau217 (pg/mL) - Insight Phase 2",
+          "method": "library file: I46P2_SIMOABLOODS2",
+          "topic_path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Biological samples [6037]",
+            "Blood biomarkers [60372]"
+          ]
+        }
+      ],
+      "medium": [],
+      "low": []
+    },
+    "relations": {
+      "supersedes": [],
+      "rejected_renames": [],
+      "documented_in": [],
+      "title": null,
+      "topic_override": null
+    },
+    "topic_assignment": {
+      "status": "single_topic",
+      "topics": [
+        "Sub-Studies [57]"
+      ],
+      "primary_topic": "Sub-Studies [57]",
+      "topic_counts": {
+        "Sub-Studies [57]": 3
+      },
+      "primary_path": [
+        "Sub-Studies [57]",
+        "Insight46 [699]",
+        "Biological samples [6037]",
+        "Blood biomarkers [60372]"
+      ],
+      "all_paths": [
+        {
+          "path": [
+            "Sub-Studies [57]",
+            "Insight46 [699]",
+            "Biological samples [6037]",
+            "Blood biomarkers [60372]"
+          ],
+          "count": 3
+        }
+      ]
+    },
+    "permalink": "/docs/documentation/alzpath-simoa-ptau-217-v2-assay-on-insight46-phase-1-and-2-technical-note/"
   }
 ]
