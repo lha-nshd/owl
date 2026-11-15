@@ -4,9 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trajectory across sweeps</title>
-  <link rel="stylesheet" href="/OWL/assets/css/topics.css">
-  <link rel="stylesheet" href="/OWL/assets/css/getting-started.css">
-  <link rel="stylesheet" href="/OWL/assets/css/trajectory_page.css">
+  <script>
+    // Site base path, derived from where this page is served (works under /OWL, /owl, any repo name).
+    window.OWL_BASE = (function () {
+      var p = window.location.pathname, i = p.indexOf("/assets/trajectory/");
+      return i >= 0 ? p.slice(0, i) : "";
+    })();
+    (function (b) {
+      document.write('<link rel="stylesheet" href="' + b + '/assets/css/topics.css">');
+      document.write('<link rel="stylesheet" href="' + b + '/assets/css/getting-started.css">');
+      document.write('<link rel="stylesheet" href="' + b + '/assets/css/trajectory_page.css">');
+    })(window.OWL_BASE);
+  </script>
   <link rel="preconnect" href="https://fonts.bunny.net">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
   <script src="https://cookie-consent.ucl.ac.uk/dist/ucl-consent.blocker.min.js"></script>
@@ -21,7 +30,7 @@
 </head>
 <body class="owl-traj-body">
 <div id="traj-app"></div>
-<script src="/OWL/assets/js/topics.js"></script>
-<script src="/OWL/assets/js/trajectory_page.js"></script>
+<script>document.write('<script src="' + window.OWL_BASE + '/assets/js/topics.js"><\/script>');</script>
+<script>document.write('<script src="' + window.OWL_BASE + '/assets/js/trajectory_page.js"><\/script>');</script>
 </body>
 </html>

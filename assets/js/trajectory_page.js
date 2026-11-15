@@ -25,8 +25,8 @@
   }
 
   function dataBaseUrl() {
-    var path = window.location.pathname;
-    return path.slice(0, path.lastIndexOf("/") + 1);
+    // JSON files live in assets/variable_metadata/, not next to this page.
+    return (window.OWL_BASE || "") + "/assets/variable_metadata/";
   }
 
   function fetchJson(varname) {
@@ -319,7 +319,7 @@
   function render(via, members, results) {
     var app = document.getElementById("traj-app");
     var fid = via.page.truly_longitudinal.field_id;
-    var siteBase = via.page.site_baseurl;
+    var siteBase = window.OWL_BASE != null ? window.OWL_BASE : via.page.site_baseurl;
     document.title = via.page.label + " \u2014 trajectory across sweeps";
 
     var ok = results.filter(function (r) { return r.ok; });
