@@ -32,6 +32,13 @@
     return params.get("id") || params.get("var") || "";
   }
 
+  // Site base path from the page's own URL (works under /OWL, /owl, any repo name).
+  // Does not depend on any inline script in the HTML stub.
+  function siteBaseFromUrl(fallback) {
+    var p = window.location.pathname, m = p.match(/^(.*?)\/assets\/(?:variable_metadata|trajectory)\//);
+    return m ? m[1] : (fallback || "");
+  }
+
   function dataBaseUrl() {
     // Where {varname}.json files live. variable_page.js/.css now live in
     // the site's shared assets/js and assets/css folders (loaded once,
@@ -71,7 +78,7 @@
   function trajectoryButtonHtml(page) {
     if (!page.truly_longitudinal) return "";
     var fid = page.truly_longitudinal.field_id;
-    var url = (window.OWL_BASE != null ? window.OWL_BASE : page.site_baseurl) + "/assets/trajectory/trajectory.html?fid=" +
+    var url = (siteBaseFromUrl(page.site_baseurl)) + "/assets/trajectory/trajectory.html?fid=" +
       encodeURIComponent(fid) + "&via=" + encodeURIComponent(page.varname);
     return '<div class="traj-btn-row"><a class="traj-btn" href="' + esc(url) + '" target="_blank" rel="noopener">' +
       '<i class="ti ti-timeline" aria-hidden="true"></i>View all sweeps' +
@@ -79,7 +86,7 @@
   }
 
   function renderLinked(page) {
-    var siteBase = window.OWL_BASE != null ? window.OWL_BASE : page.site_baseurl;
+    var siteBase = siteBaseFromUrl(page.site_baseurl);
     var longUrl = siteBase + "/docs/search_methods/longitudinal_variables/longitudinal-variables/";
 
     var defBlock =
@@ -640,7 +647,7 @@
     var app = document.getElementById("owl-app");
     document.title = page.varname + " \u2014 " + page.label;
 
-    var siteBase = window.OWL_BASE != null ? window.OWL_BASE : page.site_baseurl;
+    var siteBase = siteBaseFromUrl(page.site_baseurl);
     var nav =
       '<div class="owl-nav"><a href="' + esc(siteBase) + '/"><i class="ti ti-arrow-left"></i> OWL</a>' +
       '<span class="sep">|</span><span class="current">' + esc(page.varname) + "</span></div>";

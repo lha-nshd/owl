@@ -24,9 +24,16 @@
     return { fid: p.get("fid") || "", via: p.get("via") || "" };
   }
 
+  // Site base path from the page's own URL (works under /OWL, /owl, any repo name).
+  // Does not depend on any inline script in the HTML stub.
+  function siteBaseFromUrl(fallback) {
+    var p = window.location.pathname, m = p.match(/^(.*?)\/assets\/(?:variable_metadata|trajectory)\//);
+    return m ? m[1] : (fallback || "");
+  }
+
   function dataBaseUrl() {
     // JSON files live in assets/variable_metadata/, not next to this page.
-    return (window.OWL_BASE || "") + "/assets/variable_metadata/";
+    return siteBaseFromUrl("") + "/assets/variable_metadata/";
   }
 
   function fetchJson(varname) {
@@ -319,7 +326,7 @@
   function render(via, members, results) {
     var app = document.getElementById("traj-app");
     var fid = via.page.truly_longitudinal.field_id;
-    var siteBase = window.OWL_BASE != null ? window.OWL_BASE : via.page.site_baseurl;
+    var siteBase = siteBaseFromUrl(via.page.site_baseurl);
     document.title = via.page.label + " \u2014 trajectory across sweeps";
 
     var ok = results.filter(function (r) { return r.ok; });
