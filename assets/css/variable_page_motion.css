@@ -1,0 +1,34 @@
+/* ============================================================
+   OWL — smooth entrance for variable pages
+   PASTE THIS AT THE VERY END of assets/css/variable_page.css
+
+   Why here and not in head_custom.html: the ~30,000 variable pages
+   have their own small <head> and do not use head_custom.html, but
+   every one of them already loads variable_page.css. So this one
+   addition reaches them all with no change to any page.
+
+   The page is drawn by variable_page.js after the data loads, so
+   these are plain CSS animations that start as the content appears.
+   Clicking a tab shows a different panel, which fades in the same way.
+   ============================================================ */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  @keyframes owl-var-rise {
+    from { opacity: 0; translate: 0 10px; }
+    to   { opacity: 1; translate: 0 0; }
+  }
+  @keyframes owl-var-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  .owl-loading                    { animation: owl-var-fade .3s ease both; }
+
+  .owl-wrapper .hero-banner       { animation: owl-var-rise .45s cubic-bezier(.2,.7,.2,1) both; }
+  .owl-wrapper .restricted-banner { animation: owl-var-rise .45s cubic-bezier(.2,.7,.2,1) .04s both; }
+  .owl-wrapper .vm-tabs           { animation: owl-var-rise .45s cubic-bezier(.2,.7,.2,1) .05s both; }
+
+  /* The visible panel, on first load and every time a tab is clicked */
+  .vm-panel.active                { animation: owl-var-rise .4s cubic-bezier(.2,.7,.2,1) both; }
+}

@@ -1,0 +1,54 @@
+/* ============================================================
+   OWL — smooth loading and scroll-in animation
+   assets/css/owl-scroll.css
+
+   Pair file: assets/js/owl-scroll.js
+   Everything here sits inside prefers-reduced-motion: no-preference,
+   so visitors who ask for less motion get the normal static page.
+   To switch the whole effect off, remove the two lines from
+   _includes/head_custom.html.
+   ============================================================ */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* ---- 1. Scroll-in: added by owl-scroll.js to blocks that start
+          below the fold, removed again once the fade has finished.
+          Uses `translate` (not `transform`) so it never fights a
+          card's own hover transform. !important on transition so a
+          block's own `transition:` rule can't turn the fade into a pop. */
+  .owl-reveal {
+    opacity: 0;
+    translate: 0 16px;
+    transition: none !important;          /* hiding is instant: no fade-out flash */
+  }
+  .owl-reveal.owl-in {
+    opacity: 1;
+    translate: 0 0;
+    transition: opacity .55s ease, translate .55s cubic-bezier(.2, .7, .2, 1) !important;
+  }
+
+  /* ---- 2. Pages whose content is drawn by JavaScript after a fetch
+          (Search Data Dictionary, Browse by Category). The loading
+          spinner is swapped for the real UI; a CSS animation starts
+          the moment the element stops being display:none, so no JS
+          is needed. Rows inside the tables are deliberately NOT
+          animated: they redraw on every filter, sort and page change. */
+  @keyframes owl-rise {
+    from { opacity: 0; translate: 0 12px; }
+    to   { opacity: 1; translate: 0 0; }
+  }
+  @keyframes owl-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  #dataUI,
+  #catUI              { animation: owl-rise .5s cubic-bezier(.2, .7, .2, 1) both; }
+  #catResults         { animation: owl-rise .4s cubic-bezier(.2, .7, .2, 1) both; }
+  .loading-screen     { animation: owl-fade .3s ease both; }
+}
+
+/* Printing: always show everything. */
+@media print {
+  .owl-reveal { opacity: 1 !important; translate: none !important; transition: none !important; }
+}
