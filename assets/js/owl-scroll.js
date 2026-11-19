@@ -37,14 +37,23 @@
     ".main-content > .highlighter-rouge",
     ".main-content > .highlight",
 
+    /* The common building block across the site: Home, Getting Started,
+       Topics, Data sharing, Metrics and Trends, all questionnaire pages */
+    ".home-section",
+    ".callout-note",
+
     /* Home page */
     ".home-page > *",
     ".home-page .sec-row",
 
-    /* Getting Started, Topics, Questionnaire pages */
+    /* Wrapper-level blocks on the other page types */
     ".page-topics > *",
+    ".page-wrap > *",
+    ".page-nshd-questionnaires > *",
+    ".q-decade-block",
     ".gs-cards-grid > *",
     ".gs-category-band",
+    ".rv-steps",
 
     /* Search Data Dictionary and Browse by Category (static parts) */
     ".page-search-data-dictionary .hero-banner",
@@ -132,25 +141,47 @@
     for (var i = 0; i < found.length; i++) prepare(found[i]);
   }
 
+  /* A change that only adds/removes our own animation classes must not
+     trigger another scan, or the observer would feed itself. */
+  function withoutOwl(v) {
+    return (v || "").replace(/\bowl-(?:reveal|in)\b/g, "").replace(/\s+/g, " ").trim();
+  }
+
+  var scanTimer = null;
+  function scanSoon() {
+    if (scanTimer) return;
+    scanTimer = setTimeout(function () { scanTimer = null; scan(document.body); }, 120);
+  }
+
   function start() {
     scan(document.body);
 
-    /* Pick up blocks that other scripts draw later. */
-    var pending = [];
-    var queued = false;
+    /* Pages like Metrics and Trends keep their sections display:none until
+       the data has loaded, then reveal them with a class change. So watch
+       for new content AND for class / style / hidden changes, and look
+       over the whole page again a moment later. */
     new MutationObserver(function (records) {
-      records.forEach(function (r) {
-        for (var i = 0; i < r.addedNodes.length; i++) {
-          if (r.addedNodes[i].nodeType === 1) pending.push(r.addedNodes[i]);
+      for (var i = 0; i < records.length; i++) {
+        var r = records[i];
+        if (r.type === "attributes") {
+          if (r.attributeName === "class" &&
+              withoutOwl(r.oldValue) === withoutOwl(r.target.getAttribute("class"))) continue;
+          scanSoon();
+          return;
         }
-      });
-      if (queued || !pending.length) return;
-      queued = true;
-      requestAnimationFrame(function () {
-        var batch = pending; pending = []; queued = false;
-        batch.forEach(scan);
-      });
-    }).observe(document.body, { childList: true, subtree: true });
+        if (r.addedNodes.length) { scanSoon(); return; }
+      }
+    }).observe(document.body, {
+      childList: true, subtree: true,
+      attributes: true, attributeFilter: ["class", "style", "hidden", "open"],
+      attributeOldValue: true
+    });
+
+    /* Backstop for slow pages */
+    window.addEventListener("load", function () {
+      setTimeout(scanSoon, 300);
+      setTimeout(scanSoon, 1500);
+    });
   }
 
   if (document.readyState === "loading") {
