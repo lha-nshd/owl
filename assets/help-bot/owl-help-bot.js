@@ -225,11 +225,12 @@
     '.foot{font-size:11.5px;color:#6b5a3a;padding:0 14px 12px;background:#fff7e6}',
     '.foot a{color:#5b0b95}',
     'button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #241338;outline-offset:2px}',
-    '.gc{position:absolute;z-index:5;width:20px;height:20px;touch-action:none}.gc::after{content:"";position:absolute;width:9px;height:9px;border:0 solid rgba(255,255,255,.85)}.gc:focus-visible{outline:3px solid #f5a623;outline-offset:-3px;border-radius:6px}',
-    '.chat[data-v="b"][data-h="r"] .gc{top:0;left:0;cursor:nwse-resize}.chat[data-v="b"][data-h="r"] .gc::after{top:5px;left:5px;border-width:2px 0 0 2px}',
-    '.chat[data-v="b"][data-h="l"] .gc{top:0;right:0;cursor:nesw-resize}.chat[data-v="b"][data-h="l"] .gc::after{top:5px;right:5px;border-width:2px 2px 0 0}',
-    '.chat[data-v="t"][data-h="r"] .gc{bottom:0;left:0;cursor:nesw-resize}.chat[data-v="t"][data-h="r"] .gc::after{bottom:5px;left:5px;border-width:0 0 2px 2px;border-color:rgba(138,90,0,.75)}',
-    '.chat[data-v="t"][data-h="l"] .gc{bottom:0;right:0;cursor:nwse-resize}.chat[data-v="t"][data-h="l"] .gc::after{bottom:5px;right:5px;border-width:0 2px 2px 0;border-color:rgba(138,90,0,.75)}',
+    '.gc{--gc:#fff;position:absolute;z-index:5;width:20px;height:20px;touch-action:none;border-radius:8px}.gc[data-c="bl"],.gc[data-c="br"]{--gc:#8a5a00}.gc:hover{background:rgba(245,166,35,.35)}.gc:focus-visible{outline:3px solid #f5a623;outline-offset:-3px}',
+    '.gc::after{content:"";position:absolute;width:13px;height:13px}',
+    '.gc[data-c="tl"]{top:0;left:0;cursor:nwse-resize}.gc[data-c="tl"]::after{top:4px;left:4px;background:repeating-linear-gradient(135deg,transparent 0 2px,var(--gc) 2px 4px);clip-path:polygon(0 0,100% 0,0 100%)}',
+    '.gc[data-c="tr"]{top:0;right:0;cursor:nesw-resize}.gc[data-c="tr"]::after{top:4px;right:4px;background:repeating-linear-gradient(45deg,transparent 0 2px,var(--gc) 2px 4px);clip-path:polygon(0 0,100% 0,100% 100%)}',
+    '.gc[data-c="bl"]{bottom:0;left:0;cursor:nesw-resize}.gc[data-c="bl"]::after{bottom:4px;left:4px;background:repeating-linear-gradient(45deg,transparent 0 2px,var(--gc) 2px 4px);clip-path:polygon(0 0,0 100%,100% 100%)}',
+    '.gc[data-c="br"]{bottom:0;right:0;cursor:nwse-resize}.gc[data-c="br"]::after{bottom:4px;right:4px;background:repeating-linear-gradient(135deg,transparent 0 2px,var(--gc) 2px 4px);clip-path:polygon(100% 0,100% 100%,0 100%)}',
     '.chat.sized .log,.chat.sized.min .log{max-height:none}.chat.resizing{user-select:none;-webkit-user-select:none}',
     '@media(max-width:600px){.chat{inset:0;width:100%;max-height:none;border-radius:0;border-width:0}.log{max-height:none}.gc{display:none}}',
     '@media(prefers-reduced-motion:reduce){.hint,.launch,.launch .lbl,.launch .q{transition:none!important}}',
@@ -304,7 +305,7 @@
     }
 
     [head, log, th, tabs, chips, form, foot].forEach(function (n) { chat.appendChild(n); });
-    chat.appendChild(el('div', 'gc'));
+    ['tl', 'tr', 'bl', 'br'].forEach(function (k) { var g = el('div', 'gc'); g.dataset.c = k; chat.appendChild(g); });
     root.appendChild(launch); root.appendChild(hint); root.appendChild(chat);
     document.body.appendChild(host);
 
@@ -428,49 +429,60 @@
     if (vw <= 600) { ui.chat.removeAttribute('data-v'); ui.chat.removeAttribute('data-h'); return; }
     ui.chat.setAttribute('data-v', (c.bottom && c.bottom !== 'auto') ? 'b' : 't');
     ui.chat.setAttribute('data-h', (c.right && c.right !== 'auto') ? 'r' : 'l');
+    var far = ((c.bottom && c.bottom !== 'auto') ? 't' : 'b') + ((c.right && c.right !== 'auto') ? 'l' : 'r');
+    Array.prototype.forEach.call(ui.chat.querySelectorAll('.gc'), function (g) {
+      var isFar = g.dataset.c === far;
+      g.tabIndex = isFar ? 0 : -1;
+      if (isFar) { g.setAttribute('role', 'button'); g.setAttribute('aria-label', 'Resize the chat window. Use the arrow keys, or drag any corner. Double-click a corner to reset.'); g.removeAttribute('aria-hidden'); }
+      else { g.removeAttribute('role'); g.removeAttribute('aria-label'); g.setAttribute('aria-hidden', 'true'); }
+    });
     if (ui.size) {
       var maxH = parseFloat(c.maxHeight) || (window.innerHeight - 16);
       c.height = Math.min(Math.max(ui.size.h, MINH), maxH) + 'px'; ui.chat.classList.add('sized');
     }
   }
   function wireResize() {
-    var chat = ui.chat, g = chat.querySelector('.gc'), d = null;
-    g.setAttribute('role', 'button'); g.tabIndex = 0;
-    g.title = 'Drag to resize. Double-click to reset.';
-    g.setAttribute('aria-label', 'Resize the chat window. Drag, or use the arrow keys. Double-click to reset.');
-    function apply(w, h) {
-      var maxH = parseFloat(chat.style.maxHeight) || (window.innerHeight - 16), maxW = Math.min(MAXW, window.innerWidth - 16);
-      ui.size = { w: Math.round(clamp(w, MINW, maxW)), h: Math.round(clamp(h, MINH, maxH)) };
-      placeChat();
-    }
-    g.addEventListener('pointerdown', function (e) {
-      if (e.button !== undefined && e.button !== 0) return;
-      e.preventDefault();
-      d = { id: e.pointerId, x: e.clientX, y: e.clientY, w: chat.offsetWidth, h: chat.offsetHeight, moved: false };
-      try { g.setPointerCapture(e.pointerId); } catch (x) { }
-      chat.classList.add('resizing');
+    var chat = ui.chat, d = null;
+    function size(w, h, maxW, maxH) { return { w: Math.round(clamp(w, MINW, maxW)), h: Math.round(clamp(h, MINH, maxH)) }; }
+    Array.prototype.forEach.call(chat.querySelectorAll('.gc'), function (g) {
+      var k = g.dataset.c, left = k.indexOf('l') >= 0, top = k.indexOf('t') >= 0;
+      g.title = 'Drag to resize. Double-click to reset.';
+      g.addEventListener('pointerdown', function (e) {
+        if (e.button !== undefined && e.button !== 0) return;
+        e.preventDefault();
+        d = { id: e.pointerId, x: e.clientX, y: e.clientY, r: chat.getBoundingClientRect(), maxH: parseFloat(chat.style.maxHeight) || (window.innerHeight - 16), moved: false };
+        try { g.setPointerCapture(e.pointerId); } catch (x) { }
+        chat.classList.add('resizing');
+      });
+      g.addEventListener('pointermove', function (e) {
+        if (!d || e.pointerId !== d.id) return;
+        var r = d.r, vw = window.innerWidth, vh = window.innerHeight, dx = e.clientX - d.x, dy = e.clientY - d.y, c = chat.style;
+        /* like any window: the corner opposite the one you are holding stays where it is */
+        var z = size(left ? r.width - dx : r.width + dx, top ? r.height - dy : r.height + dy,
+          Math.min(MAXW, left ? r.right - 8 : vw - 8 - r.left), Math.min(d.maxH, top ? r.bottom - 8 : vh - 8 - r.top));
+        ui.size = z;
+        c.width = z.w + 'px'; c.height = z.h + 'px';
+        if (left) { c.left = 'auto'; c.right = (vw - r.right) + 'px'; } else { c.left = r.left + 'px'; c.right = 'auto'; }
+        if (top) { c.top = 'auto'; c.bottom = (vh - r.bottom) + 'px'; } else { c.top = r.top + 'px'; c.bottom = 'auto'; }
+        chat.classList.add('sized');
+        d.moved = true; e.preventDefault();
+      });
+      function end(e) {
+        if (!d || (e && e.pointerId !== d.id)) return;
+        var moved = d.moved; d = null; chat.classList.remove('resizing');
+        /* on release the window goes back to sitting beside the owl, keeping its new size */
+        if (moved) { saveSize(ui.size); placeChat(); track('help_bot_resized'); }
+      }
+      g.addEventListener('pointerup', end); g.addEventListener('pointercancel', end);
+      g.addEventListener('keydown', function (e) {
+        if (!/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
+        e.preventDefault();
+        var st = 30, kk = e.key, maxH = parseFloat(chat.style.maxHeight) || (window.innerHeight - 16);
+        ui.size = size(chat.offsetWidth + (kk === 'ArrowRight' ? st : kk === 'ArrowLeft' ? -st : 0), chat.offsetHeight + (kk === 'ArrowDown' ? st : kk === 'ArrowUp' ? -st : 0), Math.min(MAXW, window.innerWidth - 16), maxH);
+        placeChat(); saveSize(ui.size); track('help_bot_resized');
+      });
+      g.addEventListener('dblclick', function () { ui.size = null; saveSize(null); placeChat(); });
     });
-    g.addEventListener('pointermove', function (e) {
-      if (!d || e.pointerId !== d.id) return;
-      var dx = e.clientX - d.x, dy = e.clientY - d.y;
-      /* growing away from the owl: dragging left/up grows a window anchored on the right/bottom */
-      apply(d.w + (chat.getAttribute('data-h') === 'r' ? -dx : dx), d.h + (chat.getAttribute('data-v') === 'b' ? -dy : dy));
-      d.moved = true; e.preventDefault();
-    });
-    function end(e) {
-      if (!d || (e && e.pointerId !== d.id)) return;
-      var moved = d.moved; d = null; chat.classList.remove('resizing');
-      if (moved) { saveSize(ui.size); track('help_bot_resized'); }
-    }
-    g.addEventListener('pointerup', end); g.addEventListener('pointercancel', end);
-    g.addEventListener('keydown', function (e) {
-      if (!/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
-      e.preventDefault();
-      var st = 30, k = e.key;
-      apply(chat.offsetWidth + (k === 'ArrowRight' ? st : k === 'ArrowLeft' ? -st : 0), chat.offsetHeight + (k === 'ArrowDown' ? st : k === 'ArrowUp' ? -st : 0));
-      saveSize(ui.size); track('help_bot_resized');
-    });
-    g.addEventListener('dblclick', function () { ui.size = null; saveSize(null); placeChat(); });
     window.addEventListener('storage', function (ev) { if (ev.key === SIZE_KEY) { ui.size = loadSize(); if (!chat.hidden) placeChat(); } });
   }
 
