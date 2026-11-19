@@ -10,6 +10,7 @@ redirect_from:
 
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/topics.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/getting-started.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/owl_route.css">
 
 <div class="page-topics page-questionnaire_by_year">
 
@@ -23,6 +24,7 @@ redirect_from:
     <ul>
       <li><a href="#comparison" class="gs-toc-da-owl"><i class="ti ti-table" aria-hidden="true"></i> Platform comparison</a></li>
       <li><a href="#owl-condor" class="gs-toc-da-condor"><i class="ti ti-arrows-exchange" aria-hidden="true"></i> OWL &amp; Condor</a></li>
+      <li><a href="#routes" class="gs-toc-da-vm"><i class="ti ti-route" aria-hidden="true"></i> Four ways to build your basket</a></li>
     </ul>
     <a href="{{ site.baseurl }}/docs/discover-exploration/" class="sidebar-back"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to Discover and Exploration</a>
   </div>
@@ -31,7 +33,7 @@ redirect_from:
     <p>OWL and Condor each approach NSHD variables from a different angle. OWL covers around <strong>29,000 variables</strong> that have been
 	cleaned and enhanced as part of the <a href="{{ site.baseurl }}/docs/discover-exploration/metadata-enhancement-project/" style="color:#6a0dad;">Metadata Enhancement Project</a> and is the place to discover and understand them.
 	Condor holds the <strong>full 35,000+ variable set</strong> and is where baskets are saved and shared ahead of a formal
-	data request, which is submitted via a form on <a href="https://skylark.ucl.ac.uk/NSHD/" style="color:#6a0dad;" target="_blank">Skylark</a>. OWL does not require registration.</p>
+	data request, which is made by completing the <a href="{{ site.baseurl }}/docs/data_sharing/forms/" style="color:#6a0dad;">Data Access Request Form</a>. OWL does not require registration.</p>
   </div>
 
   <!-- ═══════════════════════════════════════════════════════ -->
@@ -107,7 +109,7 @@ redirect_from:
 
       <div class="tri-card" style="background:hsl(340 45% 95%); border-color:hsl(340 45% 60%);">
         <h3 style="color:hsl(340 45% 14%)"><i class="ti ti-basket" aria-hidden="true" style="color:#6a0dad;"></i>Condor</h3>
-        <p>The basket management platform. Holds the full variable set. Baskets are built, saved, and shared here — but the formal data request is submitted via a form on Skylark, not from within Condor.</p>
+        <p>The basket management platform. Holds the full variable set. Baskets are built, saved, and shared here — but the formal data request is made with the Data Access Request Form, not from within Condor.</p>
         <div class="tri-chips">
           <span class="tri-chip chip-info">35,000+ full variable set</span>
           <span class="tri-chip chip-yes">&#10003; Search variables</span>
@@ -124,7 +126,7 @@ redirect_from:
           <span class="tri-chip chip-no">&#10007; No Truly Longitudinal / Linked variables split — shown as one list</span>
           <span class="tri-chip chip-yes">&#10003; Participant &amp; item counts per sweep</span>
           <span class="tri-chip chip-yes">&#10003; Distribution for this variable</span>
-          <span class="tri-chip chip-info">Condor basket submitted via Skylark</span>
+          <span class="tri-chip chip-info">Basket ID used in the Data Access Request Form</span>
           <span class="tri-chip chip-no">&#10007; No questionnaire access</span>
           <span class="tri-chip chip-no">&#10007; No topic pages</span>
         </div>
@@ -135,7 +137,7 @@ redirect_from:
 
     <div class="callout-warning">
       <i class="ti ti-alert-triangle" aria-hidden="true"></i>
-      <span><strong>The formal data request is not submitted from within Condor.</strong> Condor is where you build and save your basket — the application is submitted via the Data Access Request Form on <a href="https://skylark.ucl.ac.uk/NSHD/forms/data-access-request-form" style="color:#6a0dad;" target="_blank">Skylark</a>.</span>
+      <span><strong>The formal data request is not submitted from within Condor.</strong> Condor is where you build and save your basket — the application is made by completing the <a href="{{ site.baseurl }}/docs/data_sharing/forms/" style="color:#6a0dad;">Data Access Request Form</a>.</span>
     </div>
 
     <table style="width:100%; border-collapse:collapse; font-size:12.5px; line-height:1.55; margin-top:18px; border: 1px solid #ccc; border-radius:6px; overflow:hidden;">
@@ -199,13 +201,13 @@ redirect_from:
         <tr class="comp-row-amber">
           <td style="padding:9px 12px;">Basket building</td>
           <td style="padding:9px 12px; color:#333;">&#10003; Download a pre-filled Excel data dictionary for reference or Condor upload; upload a basket file back into OWL to resume or bulk-add</td>
-          <td style="padding:9px 12px; color:#333;">&#10003; Save, share, and submit via Skylark</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Save and share; the basket ID goes into the Data Access Request Form</td>
         </tr>
 
         <tr class="comp-row-pink">
           <td style="padding:9px 12px;">Submit data request</td>
           <td style="padding:9px 12px; color:#333;">&#8212; Not possible</td>
-          <td style="padding:9px 12px; color:#333;">&#10003; Via Skylark form linked to Condor basket</td>
+          <td style="padding:9px 12px; color:#333;">&#10003; Via the Data Access Request Form, using your Condor basket ID</td>
         </tr>
 
         <tr class="comp-row-best">
@@ -245,13 +247,13 @@ redirect_from:
 
       <div style="flex:1; background:hsl(340 45% 92%); border:1.5px solid hsl(340 45% 60%); border-radius:7px; padding:13px 15px;">
         <p style="font-weight:700; font-size:13px; color:hsl(340 45% 16%); margin:0 0 7px; border-bottom:1px solid hsl(340 45% 60%); padding-bottom:5px;"><i class="ti ti-basket" aria-hidden="true" style="margin-right:4px;"></i>Condor basket</p>
-        <p style="font-size:12px; color:#333; margin:0 0 8px; line-height:1.6;">Where baskets are <strong>finalised, saved, and shared</strong>. Upload your OWL basket or build directly from the full 35,000+ variable set. Save and share your basket with colleagues before linking it to a formal data application via Skylark.</p>
+        <p style="font-size:12px; color:#333; margin:0 0 8px; line-height:1.6;">Where baskets are <strong>finalised, saved, and shared</strong>. Upload your OWL basket or build directly from the full 35,000+ variable set. Save and share your basket with colleagues before using its basket ID in your formal data application.</p>
         <ul style="font-size:12px; color:#333; margin:0; padding-left:16px; line-height:1.8;">
           <li>Full 35,000+ variable set including uncleaned variables</li>
           <li>Registration required</li>
           <li>Upload OWL basket and modify within Condor</li>
           <li>Save and share baskets with colleagues</li>
-          <li>Data request submitted via form on Skylark — not from Condor</li>
+          <li>Data request made with the Data Access Request Form — not from Condor</li>
         </ul>
       </div>
 
@@ -259,10 +261,78 @@ redirect_from:
 
     <div class="callout-warning">
       <i class="ti ti-alert-triangle" aria-hidden="true"></i>
-      <span><strong>The formal data request is submitted via Skylark, not from within Condor.</strong> Once your Condor basket is finalised, complete the <a href="https://skylark.ucl.ac.uk/NSHD/forms/data-access-request-form" style="color:#6a0dad;" target="_blank">Data Access Request Form on Skylark</a> to make your application. A basket can contain more than 500 variables: Condor automatically splits larger baskets into baskets of 500 when you save. They are still treated as a single basket for your request, so a larger basket may take longer to turn around because of the risk assessment.</span>
+      <span><strong>The formal data request is made with the Data Access Request Form, not from within Condor.</strong> Once your Condor basket is finalised, complete the <a href="{{ site.baseurl }}/docs/data_sharing/forms/" style="color:#6a0dad;">Data Access Request Form</a> to make your application. A basket can contain more than 500 variables: Condor automatically splits larger baskets into baskets of 500 when you save. They are still treated as a single basket for your request, so a larger basket may take longer to turn around because of the risk assessment.</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <div class="home-section gs-card-blue">
+    <h2 id="routes"><i class="ti ti-route" aria-hidden="true"></i> Four ways to build your basket</h2>
+    <p>You can build your whole basket in Condor, or discover variables on OWL first. Use either on its own, or both together. Every route ends at the same Data Access Request Form. Choose a route to see the steps.</p>
+
+    <div class="owl-route">
+      <p class="or-cap">The journey in four steps. It follows the route you choose: steps you skip are dimmed, and the current step is highlighted.</p>
+      <div class="or-strip">
+        <div class="or-st"><b>1</b>Discover</div>
+        <div class="or-st"><b>2</b>Data dictionary</div>
+        <div class="or-st"><b>3</b>Condor</div>
+        <div class="or-st"><b>4</b>Request form</div>
+      </div>
+
+      <div class="or-tabs" role="group" aria-label="Choose your route">
+        <button type="button" class="or-tab on" data-r="owl" aria-pressed="true">Discover on OWL first</button>
+        <button type="button" class="or-tab" data-r="condor" aria-pressed="false">Build it all in Condor</button>
+        <button type="button" class="or-tab" data-r="hand" aria-pressed="false">Fill in the spreadsheet by hand</button>
+        <button type="button" class="or-tab" data-r="both" aria-pressed="false">A bit of both</button>
+      </div>
+
+      <div class="or-dia" id="or-dia">
+        <svg viewBox="0 0 960 270" role="img" aria-label="Your route between OWL, Condor and the Data Access Request Form">
+          <rect class="band-o" x="0" y="8" width="960" height="112" rx="10"/>
+          <rect class="band-c" x="0" y="140" width="960" height="112" rx="10"/>
+          <text class="lane" x="946" y="106" text-anchor="end" fill="#2b6f6f">ON OWL</text>
+          <text class="lane" x="946" y="160" text-anchor="end" fill="#8a3a4d">IN CONDOR</text>
+          <g id="or-dyn"></g>
+        </svg>
+        <button type="button" class="or-replay" id="or-replay">&#8635; Replay</button>
+      </div>
+
+      <div class="or-routebox" id="or-route-text" aria-live="polite">
+        <p>Search and browse on OWL, add variables to your basket, download the data dictionary (the Request column is filled in for you), then upload it in Condor.</p>
+        <p class="why">OWL has seven searches, questionnaires, topic pages and searchable documentation, so it is a good place to discover variables.</p>
+      </div>
+      <noscript>
+        <ol>
+          <li>Search and browse on OWL, or search directly in Condor</li>
+          <li>Add variables to your basket (or download a data dictionary from OWL)</li>
+          <li>Upload the data dictionary in Condor, which checks it before anything is added</li>
+          <li>Save your basket in Condor</li>
+          <li>Complete the Data Access Request Form with your basket ID</li>
+        </ol>
+      </noscript>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:10px; margin-top:14px;">
+      <a class="gs-link-card gs-teal" href="{{ site.baseurl }}/docs/getting-started/basket-management/">
+        <i class="ti ti-shopping-cart" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">How to add variables and manage your basket &rarr;</p>
+          <p class="gs-link-card-desc">Adding variables on OWL, and downloading your pre-filled data dictionary.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
+      <a class="gs-link-card gs-pink" href="{{ site.baseurl }}/docs/data_sharing/forms/">
+        <i class="ti ti-forms" aria-hidden="true"></i>
+        <div style="flex:1;">
+          <p class="gs-link-card-title">Forms and Downloads &rarr;</p>
+          <p class="gs-link-card-desc">The Data Access Request Form, and every other form you may need.</p>
+        </div>
+        <i class="ti ti-chevron-right" aria-hidden="true" style="opacity:0.6;"></i>
+      </a>
     </div>
   </div>
 
 </div>
 
 <script src="{{ site.baseurl }}/assets/js/topics.js"></script>
+<script src="{{ site.baseurl }}/assets/js/owl_route.js"></script>

@@ -1,0 +1,58 @@
+/* owl_route.css
+   Styling for the "Four ways to build your basket" route animation on the
+   OWL and Condor page (owl-condor.html). Loaded only by that page.
+   Everything is scoped under ".page-topics .owl-route" so it cannot affect
+   other OWL pages. Animations are switched off under prefers-reduced-motion. */
+
+@keyframes or-pop { 0% { transform: scale(1); } 50% { transform: scale(1.35); } 100% { transform: scale(1); } }
+
+.page-topics .owl-route { margin: 14px 0 0; }
+.page-topics .owl-route .or-cap { font-size: 12px; color: #666; margin: 0 0 6px; }
+
+/* ---- Four-step strip ---- */
+.page-topics .owl-route .or-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0 0 14px; }
+.page-topics .owl-route .or-st { background: #faf6f7; border-radius: 10px; padding: 10px 12px; font-size: 12.5px; border-bottom: 4px solid transparent; transition: all .35s; }
+.page-topics .owl-route .or-st b { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; background: #d9c4ca; color: #fff; font-size: 12px; margin-right: 6px; transition: background .35s; }
+.page-topics .owl-route .or-st.on { background: #f5f2ff; border-bottom-color: #6a0dad; transform: translateY(-2px); box-shadow: 0 4px 10px rgba(106,13,173,.15); }
+.page-topics .owl-route .or-st.on b, .page-topics .owl-route .or-st.done b { background: #6a0dad; }
+.page-topics .owl-route .or-st.done { border-bottom-color: #cdb8e6; }
+.page-topics .owl-route .or-st.skip { opacity: .4; }
+
+/* ---- Route tabs ---- */
+.page-topics .owl-route .or-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 10px; }
+.page-topics .owl-route button.or-tab { border: 2px solid #e0b8c2; background: #fff; color: #8a3a4d; padding: 9px 16px; border-radius: 999px; font: inherit; font-size: 13.5px; cursor: pointer; transition: all .15s; }
+.page-topics .owl-route button.or-tab:hover { background: #fdf0f3; }
+.page-topics .owl-route button.or-tab.on { background: #A2455C; border-color: #A2455C; color: #fff; }
+
+/* ---- Diagram ---- */
+.page-topics .owl-route .or-dia { background: hsl(40 30% 97%); border-radius: 12px; padding: 8px 8px 4px; position: relative; }
+.page-topics .owl-route .or-dia svg { width: 100%; height: auto; display: block; }
+.page-topics .owl-route .or-dia .band-o { fill: hsl(180 45% 95%); }
+.page-topics .owl-route .or-dia .band-c { fill: hsl(340 45% 96%); }
+.page-topics .owl-route .or-dia .lane { font-size: 11px; font-weight: 700; letter-spacing: .08em; }
+.page-topics .owl-route .or-dia .track { fill: none; stroke: #e3d3d8; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.page-topics .owl-route .or-dia .trail { fill: none; stroke: #6a0dad; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.page-topics .owl-route .or-dia .nd circle { fill: #fff; stroke: #cdb8c0; stroke-width: 3; transition: all .3s; }
+.page-topics .owl-route .or-dia .nd text.n { font-size: 13px; font-weight: 700; fill: #a58b94; text-anchor: middle; }
+.page-topics .owl-route .or-dia .nd text.l { font-size: 12.5px; fill: #777; text-anchor: middle; }
+.page-topics .owl-route .or-dia .nd.lit circle { stroke: #6a0dad; fill: #6a0dad; transform-box: fill-box; transform-origin: center; animation: or-pop .45s; }
+.page-topics .owl-route .or-dia .nd.lit text.n { fill: #fff; }
+.page-topics .owl-route .or-dia .nd.lit text.l { fill: #222; font-weight: 600; }
+.page-topics .owl-route .or-dia .dot { fill: #f4b942; stroke: #fff; stroke-width: 2; }
+.page-topics .owl-route button.or-replay { position: absolute; right: 12px; bottom: 8px; background: #fff; border: 1px solid #d9c4ca; border-radius: 999px; font: inherit; font-size: 12px; padding: 4px 12px; cursor: pointer; color: #6a0dad; }
+.page-topics .owl-route button.or-replay:hover { background: #f5f2ff; }
+
+/* ---- Route description ---- */
+.page-topics .owl-route .or-routebox { background: hsl(180 45% 96%); border-radius: 10px; padding: 14px 16px; margin-top: 10px; min-height: 84px; }
+.page-topics .owl-route .or-routebox p { margin: 0 0 8px; font-size: 13.5px; color: #333; }
+.page-topics .owl-route .or-routebox p.why { font-size: 12.5px; color: #555; margin: 0; }
+
+@media (max-width: 860px) {
+  .page-topics .owl-route .or-strip { grid-template-columns: 1fr 1fr; }
+}
+@media print {
+  .page-topics .owl-route .or-replay { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-topics .owl-route *, .page-topics .owl-route .or-dia .nd.lit circle { animation: none !important; transition: none !important; }
+}
