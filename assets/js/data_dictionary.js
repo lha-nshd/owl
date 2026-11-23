@@ -184,8 +184,10 @@ fetch(SITE_BASEURL + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dict
     filteredData = [...rawData];
     sortDirty = true;
 
-    // Drop first 5 metadata fields, then remove Order
-    tableColumns = Object.keys(rawData[0]).slice(5).filter(col => col !== "Order");
+    // Drop first 5 metadata fields, then remove Order and Showcase Field ID
+    // (Field ID is in the JSON for the sync feature in basket_header.js, not for display)
+    tableColumns = Object.keys(rawData[0]).slice(5)
+      .filter(col => col !== "Order" && col !== "Showcase Field ID");
 
     tawny = loadTawnyResults(); // null unless opened from Tawny
 
