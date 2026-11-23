@@ -553,8 +553,12 @@ function renderTable() {
       }
 
       if (col === "UKLLC Dataset Name(s)") {
-        const parts = String(value).split(",").map(s => s.trim()).filter(Boolean);
-        return `<td>${parts.map(p => `<span class="ukllc-badge">${escapeHtml(p)}</span>`).join(" ")}</td>`;
+        const parts = String(value == null ? "" : value).split(",").map(s => s.trim()).filter(Boolean);
+        if (!parts.length) {
+          return `<td><span class="ukllc-none">Not yet deposited</span></td>`;
+        }
+        const tip = escapeHtml("UK LLC dataset" + (parts.length > 1 ? "s" : "") + ": " + parts.join(", "));
+        return `<td><span class="ukllc-badge" tabindex="0" title="${tip}" aria-label="${tip}">Deposited</span></td>`;
       }
 
       return `<td>${escapeHtml(value)}</td>`;
