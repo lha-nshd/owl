@@ -404,14 +404,8 @@
 .page-search-data-dictionary #myTable tbody td:nth-child(5) { background-color: var(--dd-year) !important; }
 .page-search-data-dictionary #myTable tbody td:nth-child(6) { background-color: var(--dd-ukllc) !important; }
 
-/* Alternate rows: a slightly darker shade of each column's own colour */
-.page-search-data-dictionary #myTable tbody tr:nth-child(even) td {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02)) !important;
-}
-
 /* Selected rows (in the basket): a deeper shade of each column's own colour */
-.page-search-data-dictionary #myTable tbody tr.row-in-basket td { background-image: none !important; }
-.page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(1) { background-color: var(--dd-check-sel) !important; }
+.page-search-data-dictionary #myTable .page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(1) { background-color: var(--dd-check-sel) !important; }
 .page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(2) { background-color: var(--dd-name-sel) !important; }
 .page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(3) { background-color: var(--dd-label-sel) !important; }
 .page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(4) { background-color: var(--dd-form-sel) !important; }
