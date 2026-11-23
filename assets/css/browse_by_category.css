@@ -296,13 +296,8 @@
   border-right: none !important;
 }
 
-/* ⭐ BODY ROW SHADING */
-.page-browse-by-category #myTable2 tbody tr:nth-child(odd) {
-  background-color: #f7f7f7 !important;
-}
-.page-browse-by-category #myTable2 tbody tr:nth-child(even) {
-  background-color: #ececec !important;
-}
+/* ⭐ BODY ROWS: no alternating shading - each column keeps its own pastel,
+   and rows in the basket take a deeper shade (see TABLE STYLE block at the end) */
 
 /* ⭐ REMOVE BODY CELL BORDERS */
 .page-browse-by-category #myTable2 td {
@@ -565,3 +560,101 @@
 .cat-tip { position: fixed; z-index: 10000; max-width: 380px; padding: 10px 13px; border-radius: 6px; background: #2b004d; color: #fff; font-size: 13px; line-height: 1.5; font-weight: 400; box-shadow: 0 4px 14px rgba(0,0,0,.3); pointer-events: none; white-space: normal; }
 .cat-sel-item .cat-info { width: 17px; height: 17px; border: 1.5px solid var(--cat-purple, #6a0dad); background: #fff; color: var(--cat-purple, #6a0dad); font: italic 700 11px/1 Georgia, serif; }
 .cat-sel-item .cat-info:hover, .cat-sel-item .cat-info:focus-visible { background: var(--cat-purple, #6a0dad); color: #fff; }
+
+
+/* ============================================================
+   TABLE STYLE - matches Search Data Dictionary
+   Near-black text, flat column pastels, a deeper shade of the same
+   colour for rows in the basket, no underline on variable links
+   ============================================================ */
+
+/* Category pages (#myTable2): columns are tick | order | name | label */
+.page-browse-by-category #myTable2 thead th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.page-browse-by-category #myTable2 tbody td {
+  color: #111;
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+.page-browse-by-category #myTable2 tbody tr.row-in-basket td:nth-child(1) { background: #e9e9e9 !important; }
+.page-browse-by-category #myTable2 tbody tr.row-in-basket td:nth-child(2) { background: #FFD9BC !important; }
+.page-browse-by-category #myTable2 tbody tr.row-in-basket td:nth-child(3) { background: #E6CDEC !important; }
+.page-browse-by-category #myTable2 tbody tr.row-in-basket td:nth-child(4) { background: #FFE5BD !important; }
+
+.page-browse-by-category #myTable2 tbody td a {
+  color: #4b067a;
+  text-decoration: none !important;
+  background-image: none !important;
+}
+.page-browse-by-category #myTable2 tbody td a:hover,
+.page-browse-by-category #myTable2 tbody td a:focus-visible {
+  color: #2b004d;
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
+.page-browse-by-category #myTable2 td.check-col input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  border: 2px solid #6a0dad;
+  border-radius: 4px;
+  background: #fff center / 13px no-repeat;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.page-browse-by-category #myTable2 td.check-col input[type="checkbox"]:checked {
+  background-color: #2e7d32;
+  border-color: #2e7d32;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5l3.2 3.2L13 4.8' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+.page-browse-by-category #myTable2 td.check-col input[type="checkbox"]:disabled { opacity: 0.4; cursor: not-allowed; }
+.page-browse-by-category #myTable2 td.check-col input[type="checkbox"]:focus-visible { outline: 2px solid #2b004d; outline-offset: 2px; }
+
+/* Browse by Category home page results (.cat-results-table): tick | name | label | category */
+.page-browse_by_category2 .cat-results-table { line-height: 1.45; }
+.page-browse_by_category2 .cat-results-table th { font-size: 14px; text-transform: none; letter-spacing: normal; }
+.page-browse_by_category2 .cat-results-table th, .page-browse_by_category2 .cat-results-table td { padding: 10px 12px; }
+.page-browse_by_category2 .cat-results-table td { color: #111; border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+.page-browse_by_category2 .cat-results-table tbody tr { border-bottom: none; }
+.page-browse_by_category2 .cat-results-table tbody tr.row-in-basket td:nth-child(1) { background: #e9e9e9 !important; }
+.page-browse_by_category2 .cat-results-table tbody tr.row-in-basket td:nth-child(2) { background: #E6CDEC !important; }
+.page-browse_by_category2 .cat-results-table tbody tr.row-in-basket td:nth-child(3) { background: #FFE5BD !important; }
+.page-browse_by_category2 .cat-results-table tbody tr.row-in-basket td:nth-child(4) { background: #C0DFF6 !important; }
+.page-browse_by_category2 .cat-results-table td:nth-child(2) a {
+  color: #4b067a;
+  text-decoration: none !important;
+  background-image: none !important;
+}
+.page-browse_by_category2 .cat-results-table td:nth-child(2) a:hover,
+.page-browse_by_category2 .cat-results-table td:nth-child(2) a:focus-visible {
+  color: #2b004d;
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+}
+
+.page-browse_by_category2 .cat-results-table td.check-col input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  border: 2px solid #6a0dad;
+  border-radius: 4px;
+  background: #fff center / 13px no-repeat;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.page-browse_by_category2 .cat-results-table td.check-col input[type="checkbox"]:checked {
+  background-color: #2e7d32;
+  border-color: #2e7d32;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5l3.2 3.2L13 4.8' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+.page-browse_by_category2 .cat-results-table td.check-col input[type="checkbox"]:disabled { opacity: 0.4; cursor: not-allowed; }
+.page-browse_by_category2 .cat-results-table td.check-col input[type="checkbox"]:focus-visible { outline: 2px solid #2b004d; outline-offset: 2px; }

@@ -537,7 +537,7 @@
       '<button class="var-download-btn" type="button">Download variable list</button>' +
       "</div>" +
       note +
-      '<table class="variable-table"><thead><tr><th>Add variable</th>' +
+      '<table class="variable-table"><thead><tr><th>Add</th>' +
       varSortHeader("Variable Name", "variable_name") +
       varSortHeader("Variable Label", "variable_label") +
       varSortHeader("Topic", "topic") +

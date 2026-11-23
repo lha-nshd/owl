@@ -43,7 +43,9 @@ function isInBasket(varName) {
 // "which variables are sweeps of the same longitudinal Field ID" — the
 // longitudinal page does NOT duplicate this logic; it just calls addToBasket
 // per variable, and expansion happens here.
-const DATA_DICTIONARY_URL = SITE_BASEURL + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json";
+// Sibling lookup reads the main data dictionary. It must include "Showcase Field ID".
+const SITE_BASE = (window.SITE_BASEURL || "");
+const DATA_DICTIONARY_URL = SITE_BASE + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dictionary_Public.json";
 let longitudinalSiblingsPromise = null;
 
 function loadLongitudinalSiblings() {
@@ -56,8 +58,11 @@ function loadLongitudinalSiblings() {
     // page load (this promise is cached for the rest of the page's life)
     // is a small, one-time cost worth paying for correctness.
     longitudinalSiblingsPromise = fetch(DATA_DICTIONARY_URL + "?_=" + Date.now())
-      .then(r => r.json())
+      .then(r => { if (!r.ok) throw new Error("HTTP " + r.status + " for " + DATA_DICTIONARY_URL); return r.json(); })
       .then(data => {
+        if (!data.length || !("Showcase Field ID" in data[0])) {
+          console.error("[OWL sync] Sibling lookup has no 'Showcase Field ID' column:", DATA_DICTIONARY_URL);
+        }
         const groups = {};
         data.forEach(row => {
           const fid = row["Showcase Field ID"];
@@ -73,7 +78,7 @@ function loadLongitudinalSiblings() {
         });
         return map;
       })
-      .catch(() => new Map());
+      .catch(err => { console.error("[OWL sync] Could not load sibling lookup:", err); return new Map(); });
   }
   return longitudinalSiblingsPromise;
 }
@@ -525,14 +530,14 @@ document.addEventListener("DOMContentLoaded", () => {
       <div style="background:#ffffff;padding:6px 12px;font-size:12px;font-weight:600;color:#4b067a;border-bottom:1px solid #e0d0f0;">Last 5 variables added:</div>
       ${lastFive.map(i => `
         <div style="background:#ffffff;padding:5px 12px;font-size:12px;">
-          <a href="${SITE_URL}${SITE_BASEURL}/assets/variable_metadata/${i.varName}"
+          <a href="${SITE_BASE}/assets/variable_metadata/${i.varName}"
              target="_blank"
              style="color:#4b067a;text-decoration:underline;">
             ${i.varName}
           </a>
         </div>
       `).join("")}
-      <a href="${SITE_BASEURL}/docs/baskets/basket.html"
+      <a href="${SITE_BASE}/docs/baskets/basket.html"
          style="display:block;background:#f3e8ff;padding:7px 12px;font-size:12px;font-weight:500;color:#4b067a;border-top:1px solid #e0d0f0;text-decoration:none;">
         View full basket →
       </a>
@@ -555,6 +560,41 @@ document.addEventListener("DOMContentLoaded", () => {
   dropdown.addEventListener("mouseleave", hideDropdown);
 
   basket.addEventListener("click", () => {
-    window.location = SITE_BASEURL + "/docs/baskets/basket.html";
+    window.location = SITE_BASE + "/docs/baskets/basket.html";
   });
 });
+
+// ============================================================
+// Row highlight for rows in the basket
+// Any results table whose tick boxes carry data-name or data-var-name gets
+// class "row-in-basket" on the <tr> while the box is ticked, so every page's
+// CSS can shade selected rows. Runs after each render, tick and basket change.
+// ============================================================
+(function () {
+  const BOX = 'input[type="checkbox"][data-name], input[type="checkbox"][data-var-name]';
+  let pending = false;
+
+  function syncRowHighlights() {
+    document.querySelectorAll(BOX).forEach(cb => {
+      const tr = cb.closest("tr");
+      if (tr) tr.classList.toggle("row-in-basket", cb.checked);
+    });
+  }
+
+  function schedule() {
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(() => { pending = false; syncRowHighlights(); });
+  }
+
+  document.addEventListener("change", e => {
+    if (e.target && e.target.matches && e.target.matches(BOX)) schedule();
+  });
+  window.addEventListener("nshd-basket-changed", () => setTimeout(schedule, 0));
+
+  document.addEventListener("DOMContentLoaded", () => {
+    // Tables are rebuilt with innerHTML, so watch for new rows
+    new MutationObserver(schedule).observe(document.body, { childList: true, subtree: true });
+    schedule();
+  });
+})();

@@ -588,7 +588,7 @@ function buildTableHeader() {
 
   const thSelect = document.createElement("th");
   thSelect.classList.add("select-header");
-  thSelect.innerHTML = `<div class="th-inner"><span class="header-label">Add variable</span></div>`;
+  thSelect.innerHTML = `<div class="th-inner"><span class="header-label">Add</span></div>`;
   headerRow.appendChild(thSelect);
 
   COLUMNS_CONFIG.forEach(cfg => {
