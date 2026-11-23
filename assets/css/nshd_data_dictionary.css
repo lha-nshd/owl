@@ -405,7 +405,7 @@
 .page-search-data-dictionary #myTable tbody td:nth-child(6) { background-color: var(--dd-ukllc) !important; }
 
 /* Selected rows (in the basket): a deeper shade of each column's own colour */
-.page-search-data-dictionary #myTable .page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(1) { background-color: var(--dd-check-sel) !important; }
+.page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(1) { background-color: var(--dd-check-sel) !important; }
 .page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(2) { background-color: var(--dd-name-sel) !important; }
 .page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(3) { background-color: var(--dd-label-sel) !important; }
 .page-search-data-dictionary #myTable tbody tr.row-in-basket td:nth-child(4) { background-color: var(--dd-form-sel) !important; }
@@ -415,10 +415,15 @@
 /* Variable name links: darker purple so they stay readable on the selected shades */
 .page-search-data-dictionary #myTable a.field-link {
   color: #4b067a;
-  text-decoration: underline;
+  text-decoration: none !important;
+  background-image: none !important;
+}
+.page-search-data-dictionary #myTable a.field-link:hover,
+.page-search-data-dictionary #myTable a.field-link:focus-visible {
+  color: #2b004d;
+  text-decoration: underline !important;
   text-underline-offset: 2px;
 }
-.page-search-data-dictionary #myTable a.field-link:hover { color: #2b004d; }
 
 /* UK LLC dataset badge (empty cell when the variable isn't in UK LLC) */
 .page-search-data-dictionary .ukllc-badge {
