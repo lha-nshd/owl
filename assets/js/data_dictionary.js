@@ -189,6 +189,13 @@ fetch(SITE_BASEURL + "/assets/data/search_methods/data_dictionary/NSHD_Data_Dict
     tableColumns = Object.keys(rawData[0]).slice(5)
       .filter(col => col !== "Order" && col !== "Showcase Field ID");
 
+    // UK LLC dataset goes last: most variables have no value yet, so it
+    // shouldn't sit between the variable name and its label.
+    const UKLLC_COL = "UKLLC Dataset Name(s)";
+    if (tableColumns.includes(UKLLC_COL)) {
+      tableColumns = tableColumns.filter(c => c !== UKLLC_COL).concat(UKLLC_COL);
+    }
+
     tawny = loadTawnyResults(); // null unless opened from Tawny
 
     buildFilters();
@@ -545,10 +552,15 @@ function renderTable() {
         </td>`;
       }
 
+      if (col === "UKLLC Dataset Name(s)") {
+        const parts = String(value).split(",").map(s => s.trim()).filter(Boolean);
+        return `<td>${parts.map(p => `<span class="ukllc-badge">${escapeHtml(p)}</span>`).join(" ")}</td>`;
+      }
+
       return `<td>${escapeHtml(value)}</td>`;
     }).join("");
 
-    return `<tr>${selectCell}${dataCells}</tr>`;
+    return `<tr class="${checked ? "row-in-basket" : ""}">${selectCell}${dataCells}</tr>`;
   }).join("");
 
   body.innerHTML = rowsHtml;
@@ -565,6 +577,10 @@ function renderTable() {
       } else {
         removeFromBasket(varName);
       }
+
+      // Selected rows turn to a deeper shade of each column's own colour
+      const tr = e.target.closest("tr");
+      if (tr) tr.classList.toggle("row-in-basket", e.target.checked);
 
       // Refresh cache after mutation, then update just the button label —
       // no full re-render needed, which was the main source of slowdown
@@ -701,8 +717,16 @@ document.getElementById("addAllBtn").addEventListener("click", () => {
 // own cache and button label consistent with that.
 // ============================================================
 
+function syncRowHighlights() {
+  document.querySelectorAll(".row-select").forEach(cb => {
+    const tr = cb.closest("tr");
+    if (tr) tr.classList.toggle("row-in-basket", inBasketFast(cb.dataset.varName));
+  });
+}
+
 window.addEventListener("nshd-basket-changed", () => {
   refreshBasketCache();
+  syncRowHighlights(); // linked sweeps added/removed by basket_header.js
   updateAddAllButtonLabel();
   updateTawnyBanner(); // TAWNY HAND-OFF: keeps "N already in your basket" current
 });
